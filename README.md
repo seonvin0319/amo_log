@@ -4,7 +4,7 @@ AMO / APART (및 관련 offline RL) 실험 로그 아카이브입니다.
 
 - **포함:** `config.yaml`, `metrics.jsonl`, `eval.jsonl`, `run_meta.json`
 - **제외:** checkpoint(`*.pt`), wandb 바이너리, 대용량 버퍼
-- **규칙:** [docs/COLLECTION_RULES.md](docs/COLLECTION_RULES.md), [docs/NAMING.md](docs/NAMING.md)
+- **규칙:** [docs/COLLECTION_RULES.md](docs/COLLECTION_RULES.md), [docs/NAMING.md](docs/NAMING.md), [docs/SOURCES.md](docs/SOURCES.md)
 - **카탈로그:** [catalog/INDEX.md](catalog/INDEX.md), [catalog/catalog.json](catalog/catalog.json)
 
 ## 빠른 사용
