@@ -45,5 +45,6 @@ amo_log/
 | `/home/choi/APART/results_pi_only_xfit_target` | APART π-only xfit target baseline |
 | `/home/choi/APART/results_pi_only_xfit_target_mpi_nstep` | MPI N-step / actor-lr ablations |
 | `/home/choi/amo/results/segment_interval` | AMO segment-interval B_PI smoke |
+| `/home/shchoi/AMO/results_amo_*` | JAX AMO v1/v2/v3 + TD3+BC baseline (`iisl-server04`) |
 
 원격: 이 저장소(`amo_log`)만 공유 인터페이스로 쓰고, 원본 머신 경로의 checkpoint는 올리지 않습니다.

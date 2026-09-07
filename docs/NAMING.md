@@ -72,6 +72,12 @@ runs/{algo}/{family}/{run_id}/
 | `secant` / `segint` | `pi_bound_method` |
 | `smoke` | 짧은 검증 런 |
 | `Tlr2e3` | `T_lr=2e-3` |
+| `adaptT` | JAX AMO v2 `amo_v2_adapt_t=true` |
+| `T025`/`T050`/`T075` | JAX AMO v2 고정 `amo_v2_t_init` |
+| `inner{k}` | JAX AMO v2 `amo_v2_inner_steps=k` (기본 1이면 생략) |
+| `v3a`/`v3b` | JAX AMO v3 family marker |
+| `td3bc` | JAX TD3+BC baseline |
+| `incomplete` | 목표 step 미달 (summary complete가 아닐 때) |
 
 ## 4. family 디렉터리
 
@@ -85,6 +91,11 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `pi_only_xfit_mpi_nstep` | π-only + MPI/N-step/alr ablations |
 | `segment_interval` | AMO segment-interval B_PI |
 | `adaptive_multiscale` | AMO T_E/T_B 분리 |
+| `jax_v1` | JAX AMO v1 (`use_amo`) |
+| `jax_v2` | JAX AMO v2 |
+| `jax_v3a` | JAX AMO v3a |
+| `jax_v3b` | JAX AMO v3b |
+| `jax_td3bc` | JAX TD3+BC baseline (AMO 꺼짐) |
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기

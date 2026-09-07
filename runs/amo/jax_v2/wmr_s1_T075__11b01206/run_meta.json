@@ -1,0 +1,49 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/shchoi/AMO/results_amo_v2_pilot/amo_v2_wmr_pilot/fixed_t075_s1",
+  "collected_at": "2026-09-07T14:51:56+09:00",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
+  "family": "jax_v2",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "fixed_t075_s1",
+  "run_id": "wmr_s1_T075__11b01206",
+  "seed": 1,
+  "settings": {
+    "actor_lr": 0.0003,
+    "alpha": 2.5,
+    "amo_n_steps": 2,
+    "amo_v2_adapt_t": false,
+    "amo_v2_inner_steps": 1,
+    "amo_v2_t_init": 0.75,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "walker2d-medium-replay-v2",
+    "eval_freq": 5000,
+    "last_metrics_step": 300000,
+    "max_timesteps": 300000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "run_id": "fixed_t075_s1",
+    "seed": 1,
+    "source_status": "complete",
+    "sweep_name": "amo_v2_wmr_pilot",
+    "tau": 0.005,
+    "use_amo": false,
+    "use_amo_v2": true
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/AMO/results_amo_v2_pilot/amo_v2_wmr_pilot/fixed_t075_s1",
+  "variant": "T075"
+}

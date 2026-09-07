@@ -1,0 +1,45 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/shchoi/AMO/results_amo_pilot/wmr_n1_s012/amo_wmr_n1_s0",
+  "collected_at": "2026-09-07T14:51:56+09:00",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
+  "family": "jax_v1",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amo_wmr_n1_s0",
+  "run_id": "wmr_s0_n1_smoke__c321aaa1",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "alpha": 2.5,
+    "amo_n_steps": 1,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "walker2d-medium-replay-v2",
+    "eval_freq": 5000,
+    "last_metrics_step": 20000,
+    "max_timesteps": 20000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "run_id": "amo_wmr_n1_s0",
+    "seed": 0,
+    "source_status": "complete",
+    "sweep_name": "wmr_n1_s012",
+    "tau": 0.005,
+    "use_amo": true
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/AMO/results_amo_pilot/wmr_n1_s012/amo_wmr_n1_s0",
+  "variant": "n1_smoke"
+}
