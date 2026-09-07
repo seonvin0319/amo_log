@@ -1,11 +1,13 @@
-# amo_log
+# amo_log (`ext_csh` 브랜치)
 
-AMO / APART (및 관련 offline RL) 실험 로그 아카이브입니다.
+이 브랜치는 **ext_csh 머신**에서 돌린 실험 로그만 둡니다.
+공통 규칙(브랜치=호스트 이름, `main`은 README만)은 [`main` README](https://github.com/seonvin0319/amo_log/blob/main/README.md)를 보세요.
 
 - **포함:** `config.yaml`, `metrics.jsonl`, `eval.jsonl`, `run_meta.json`
 - **제외:** checkpoint(`*.pt`), wandb 바이너리, 대용량 버퍼
 - **규칙:** [docs/COLLECTION_RULES.md](docs/COLLECTION_RULES.md), [docs/NAMING.md](docs/NAMING.md), [docs/SOURCES.md](docs/SOURCES.md)
 - **카탈로그:** [catalog/INDEX.md](catalog/INDEX.md), [catalog/catalog.json](catalog/catalog.json)
+- **자동 push:** `scripts/auto_push_ext_csh.sh` → `origin/ext_csh` only
 
 ## 빠른 사용
 
