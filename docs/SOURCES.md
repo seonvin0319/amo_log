@@ -34,3 +34,13 @@ cd /home/ext_csh/amo_log
 python scripts/ingest_runs.py --host=ext_csh
 git add -A && git commit -m "collect(ext_csh): refresh AMO/APART logs" && git push
 ```
+
+## Auto update (ext_csh)
+
+Cron every 2 hours (`CRON_TZ=Asia/Seoul`) runs `scripts/auto_push_ext_csh.sh`:
+
+- `python scripts/ingest_runs.py --host=ext_csh`
+- rebuild catalog
+- commit + push to `origin/ext_csh` only (not `main`)
+
+Log: `/home/ext_csh/logs/amo_log_auto_push_ext_csh.log`
