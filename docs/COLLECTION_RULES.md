@@ -85,7 +85,8 @@
 3. `catalog/INDEX.md` / `catalog/catalog.json` 자동 갱신 확인.
 4. `git add` → commit → `git push` (이 레포만).
 
-호스트 `choi`에서는 `scripts/auto_push.sh`가 **2시간마다** 2–4를 자동 수행한다. 상세: [AUTO_PUSH.md](AUTO_PUSH.md).
+호스트 `choi`에서는 `scripts/auto_push.sh`가 **2시간마다** ingest → commit → **`choi` 브랜치 push** 한다.
+**pull/fetch 하지 않는다** (멀티 호스트 + 디스크 절약). 상세: [AUTO_PUSH.md](AUTO_PUSH.md).
 
 ## 7. 커밋 메시지
 
