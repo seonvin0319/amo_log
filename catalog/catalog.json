@@ -2919,7 +2919,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/CaPO/results_amo_v2_n1_l12_allenv/td3_bc/hopper-medium-v2/s0/0902_0200_hopper_medium_Tfreq1_N1_l12_td3_bc_jax_hopper-medium-v2_s0/final.pkl",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "capo_td3bc",
@@ -2970,7 +2970,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/CaPO/results_amo_v2_n1_l12_sweep/td3_bc/hopper-medium-replay-v2/s0/0902_0149_smoke_v2_l12_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "capo_td3bc",
@@ -3021,7 +3021,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/CaPO/results_amo_sweep_n1/td3_bc/hopper-medium-replay-v2/s0/0901_2304_amo_baseline_parity_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "capo_td3bc",
@@ -3072,7 +3072,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/CaPO/results_amo_n1_l12_sweep/td3_bc/hopper-medium-replay-v2/s0/0902_0144_smoke_l12_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "capo_td3bc",
@@ -3123,7 +3123,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/CaPO/results_amo_pilot/td3_bc/hopper-medium-replay-v2/s0/0901_0211_amo_Tfreq1_N1_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "capo_td3bc",
@@ -3174,7 +3174,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/CaPO/results_amo_smoke/td3_bc/hopper-medium-replay-v2/s0/0901_0142_amo_integration_smoke_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "capo_td3bc",
@@ -3225,7 +3225,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/CaPO/results_amo_sweep_n1/td3_bc/hopper-medium-replay-v2/s0/0901_2343_amo_fixed_T001_N1_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "capo_td3bc",
@@ -3276,7 +3276,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/ammp_s0_pi_local-antmaze-medium-play-v2-e72a82c2/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "pi_local",
@@ -3322,7 +3322,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/amu_s0_pi_local-antmaze-umaze-v2-8ab60e58/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "pi_local",
@@ -3368,7 +3368,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/amud_s0_pi_local-antmaze-umaze-diverse-v2-00a44985/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "pi_local",
@@ -3414,7 +3414,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amld_s0_pi_local-antmaze-large-diverse-v2-61e93897/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "pi_local_aspc",
@@ -3460,7 +3460,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amlp_s0_pi_local-antmaze-large-play-v2-d2ba4448/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "pi_local_aspc",
@@ -3506,7 +3506,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/ammd_s0_pi_local-antmaze-medium-diverse-v2-2a9ff0af/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "pi_local_aspc",
@@ -3552,7 +3552,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/ammp_s0_pi_local-antmaze-medium-play-v2-2fee7f1d/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "pi_local_aspc",
@@ -3598,7 +3598,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amu_s0_pi_local-antmaze-umaze-v2-7c112a78/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "pi_local_aspc",
@@ -3644,7 +3644,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amud_s0_pi_local-antmaze-umaze-diverse-v2-834ef84b/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "pi_local_aspc",
@@ -3690,7 +3690,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "pi_only",
@@ -3736,7 +3736,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/amu_s0_pi_only-antmaze-umaze-v2-5015e62a/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "pi_only",
@@ -3782,7 +3782,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/amud_s0_pi_only-antmaze-umaze-diverse-v2-7fe82122/checkpoint_999999.pt",
-      "collected_at": "2026-09-07T14:49:59+09:00",
+      "collected_at": "2026-09-07T14:57:51+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "pi_only",

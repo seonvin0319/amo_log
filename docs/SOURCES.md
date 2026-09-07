@@ -35,3 +35,14 @@ Collected on host `svcho` without cloning checkpoint weights.
 
 Not found on svcho: APART `results_apart*` (no local APART tree).
 
+## svcho refresh (2026-09-07 14:57 KST)
+
+Collected on host `svcho` without cloning checkpoint weights.
+
+| Source path | algo | family (assigned) | #runs |
+|-------------|------|-------------------|------:|
+| `/home/svcho/amo/results_pi_*` | amo | `pi_local`/`pi_local_aspc`/`pi_only` | 12 |
+| `/home/svcho/CaPO/results_amo_*` | amo | `capo_td3bc` | 7 |
+
+Not found on svcho: APART `results_apart*`.
+

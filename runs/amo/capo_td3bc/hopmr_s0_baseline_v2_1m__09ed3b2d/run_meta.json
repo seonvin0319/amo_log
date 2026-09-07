@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/CaPO/results_amo_sweep_n1/td3_bc/hopper-medium-replay-v2/s0/0901_2304_amo_baseline_parity_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
-  "collected_at": "2026-09-07T14:49:59+09:00",
+  "collected_at": "2026-09-07T14:57:51+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "capo_td3bc",
