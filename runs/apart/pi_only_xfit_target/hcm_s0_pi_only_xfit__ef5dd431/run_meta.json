@@ -1,0 +1,37 @@
+{
+  "algo": "apart",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-07T14:41:30+09:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "pi_only_xfit_target",
+  "git": {
+    "code_commit": null,
+    "code_repo": "APART"
+  },
+  "legacy_name": "cm_s0_pi_only_xfit_target-halfcheetah-medium-v2-ef5dd431",
+  "run_id": "hcm_s0_pi_only_xfit__ef5dd431",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 20000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/APART/results_pi_only_xfit_target/cm_s0_pi_only_xfit_target-halfcheetah-medium-v2-ef5dd431",
+  "variant": "pi_only_xfit"
+}

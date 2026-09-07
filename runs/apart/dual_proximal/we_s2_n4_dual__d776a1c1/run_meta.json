@@ -1,0 +1,42 @@
+{
+  "algo": "apart",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-07T14:41:30+09:00",
+  "env": "walker2d-expert-v2",
+  "env_short": "we",
+  "family": "dual_proximal",
+  "git": {
+    "code_commit": null,
+    "code_repo": "APART"
+  },
+  "legacy_name": "we_s2_apart_n4_dual-walker2d-expert-v2-d776a1c1",
+  "run_id": "we_s2_n4_dual__d776a1c1",
+  "seed": 2,
+  "settings": {
+    "T": 1.25,
+    "T_freq": 10,
+    "T_lr": 0.0002,
+    "batch_size": 256,
+    "discount": 0.99,
+    "dual_proximal": true,
+    "env": "walker2d-expert-v2",
+    "eval_freq": 20000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 4,
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/APART/results_apart/we_s2_apart_n4_dual-walker2d-expert-v2-d776a1c1",
+  "variant": "n4_dual"
+}
