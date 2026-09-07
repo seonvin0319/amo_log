@@ -504,6 +504,18 @@ def ingest_one(
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
+    src_metrics = src / "metrics.jsonl"
+    dest_metrics = dest / "metrics.jsonl"
+    if dest_metrics.exists() and src_metrics.exists():
+        dest_step = last_metrics_step(dest_metrics)
+        if (
+            dest_step is not None
+            and last_step is not None
+            and dest_step >= last_step
+            and dest_metrics.stat().st_size >= src_metrics.stat().st_size
+        ):
+            print(f"SKIP {dest.relative_to(ROOT)} step={dest_step}", flush=True)
+            return None
 
     artifacts = [f for f in KEEP_FILES if (src / f).exists()]
     meta = {
