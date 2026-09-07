@@ -1,0 +1,47 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/svcho/CaPO/results_amo_n1_l12_sweep/td3_bc/hopper-medium-replay-v2/s0/0902_0144_smoke_l12_td3_bc_jax_hopper-medium-replay-v2_s0/final.pkl",
+  "collected_at": "2026-09-07T14:49:59+09:00",
+  "env": "hopper-medium-replay-v2",
+  "env_short": "hopmr",
+  "family": "capo_td3bc",
+  "git": {
+    "code_commit": null,
+    "code_repo": "CaPO"
+  },
+  "legacy_name": "0902_0144_smoke_l12_td3_bc_jax_hopper-medium-replay-v2_s0",
+  "run_id": "hopmr_s0_n1_Tfreq1_l12_v2_smoke__739d7e42",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "alpha": 2.5,
+    "amo_n_steps": 1,
+    "amo_t_init": 0.01,
+    "amo_t_max": 0.2,
+    "amo_t_min": 0.0001,
+    "amo_t_update_freq": 1,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "hopper-medium-replay-v2",
+    "eval_freq": 4000,
+    "group": "d4rl",
+    "max_timesteps": 4000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "CAPO",
+    "seed": 0,
+    "tau": 0.005,
+    "use_amo": true
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/CaPO/results_amo_n1_l12_sweep/td3_bc/hopper-medium-replay-v2/s0/0902_0144_smoke_l12_td3_bc_jax_hopper-medium-replay-v2_s0",
+  "variant": "n1_Tfreq1_l12_v2_smoke"
+}

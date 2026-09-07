@@ -20,3 +20,18 @@ cd /home/choi/amo_log
 python scripts/ingest_runs.py
 git add -A && git commit -m "collect: refresh from local sources" && git push
 ```
+
+
+## svcho refresh (2026-09-07)
+
+Collected on host `svcho` without cloning checkpoint weights.
+
+| Source path | algo | family (assigned) | #runs |
+|-------------|------|-------------------|------:|
+| `/home/svcho/amo/results_pi_local_antmaze` | amo | `pi_local` | 3 |
+| `/home/svcho/amo/results_pi_local_antmaze_aspc` | amo | `pi_local_aspc` | 6 |
+| `/home/svcho/amo/results_pi_only_antmaze` | amo | `pi_only` | 3 |
+| `/home/svcho/CaPO/results_amo_*` | amo | `capo_td3bc` | 7 |
+
+Not found on svcho: APART `results_apart*` (no local APART tree).
+

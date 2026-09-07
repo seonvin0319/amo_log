@@ -1,0 +1,42 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amld_s0_pi_local-antmaze-large-diverse-v2-61e93897/checkpoint_999999.pt",
+  "collected_at": "2026-09-07T14:49:59+09:00",
+  "env": "antmaze-large-diverse-v2",
+  "env_short": "amld",
+  "family": "pi_local_aspc",
+  "git": {
+    "code_commit": null,
+    "code_repo": "amo"
+  },
+  "legacy_name": "amld_s0_pi_local-antmaze-large-diverse-v2-61e93897",
+  "run_id": "amld_s0_pi_local_aspc__61e93897",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-large-diverse-v2",
+    "eval_freq": 20000,
+    "group": "pi_local_antmaze_aspc",
+    "l3_mode": "pi_local",
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results_pi_local_antmaze_aspc/amld_s0_pi_local-antmaze-large-diverse-v2-61e93897",
+  "variant": "pi_local_aspc"
+}

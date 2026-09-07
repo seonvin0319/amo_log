@@ -1,0 +1,42 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb/checkpoint_999999.pt",
+  "collected_at": "2026-09-07T14:49:59+09:00",
+  "env": "antmaze-medium-play-v2",
+  "env_short": "ammp",
+  "family": "pi_only",
+  "git": {
+    "code_commit": null,
+    "code_repo": "amo"
+  },
+  "legacy_name": "ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb",
+  "run_id": "ammp_s0_pi_only_smoke__545a27cb",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-medium-play-v2",
+    "eval_freq": 2500,
+    "group": "pi_only_antmaze",
+    "l3_mode": "pi_only",
+    "loss_function": 4,
+    "max_timesteps": 5000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results_pi_only_antmaze/ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb",
+  "variant": "pi_only_smoke"
+}

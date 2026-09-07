@@ -1,9 +1,28 @@
 # Experiment catalog
 
-Total runs: **65**
+Total runs: **84**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
+| amo | capo_td3bc | `hopmr_s0_baseline_l12_v2_smoke__09f4b020` | hopper-medium-replay-v2 | 0 | 4000 | 4000 | 25.74 | `runs/amo/capo_td3bc/hopmr_s0_baseline_l12_v2_smoke__09f4b020` |
+| amo | capo_td3bc | `hopmr_s0_baseline_v2_1m__09ed3b2d` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 46.63 | `runs/amo/capo_td3bc/hopmr_s0_baseline_v2_1m__09ed3b2d` |
+| amo | capo_td3bc | `hopmr_s0_n1_Tfreq1_l12_v2_smoke__739d7e42` | hopper-medium-replay-v2 | 0 | 4000 | 4000 | 25.74 | `runs/amo/capo_td3bc/hopmr_s0_n1_Tfreq1_l12_v2_smoke__739d7e42` |
+| amo | capo_td3bc | `hopmr_s0_n1_Tfreq1_v2_smoke__ac3ece59` | hopper-medium-replay-v2 | 0 | 20000 | 20000 | 18.91 | `runs/amo/capo_td3bc/hopmr_s0_n1_Tfreq1_v2_smoke__ac3ece59` |
+| amo | capo_td3bc | `hopmr_s0_n1_Tfreq1_v2_smoke__d93b755e` | hopper-medium-replay-v2 | 0 | 6 | 6 | 2.75 | `runs/amo/capo_td3bc/hopmr_s0_n1_Tfreq1_v2_smoke__d93b755e` |
+| amo | capo_td3bc | `hopmr_s0_n1_fixedT0p01_v2_1m__00481884` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 46.63 | `runs/amo/capo_td3bc/hopmr_s0_n1_fixedT0p01_v2_1m__00481884` |
+| amo | capo_td3bc | `hopm_s0_n1_Tfreq1_l12_v2_1m__57813b23` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 60.77 | `runs/amo/capo_td3bc/hopm_s0_n1_Tfreq1_l12_v2_1m__57813b23` |
+| amo | pi_local | `ammp_s0_pi_local__e72a82c2` | antmaze-medium-play-v2 | 0 | 1000000 | 340000 | 0.00 | `runs/amo/pi_local/ammp_s0_pi_local__e72a82c2` |
+| amo | pi_local | `amud_s0_pi_local__00a44985` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 53.00 | `runs/amo/pi_local/amud_s0_pi_local__00a44985` |
+| amo | pi_local | `amu_s0_pi_local__8ab60e58` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 87.00 | `runs/amo/pi_local/amu_s0_pi_local__8ab60e58` |
+| amo | pi_local_aspc | `amld_s0_pi_local_aspc__61e93897` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 48.00 | `runs/amo/pi_local_aspc/amld_s0_pi_local_aspc__61e93897` |
+| amo | pi_local_aspc | `amlp_s0_pi_local_aspc__d2ba4448` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 51.00 | `runs/amo/pi_local_aspc/amlp_s0_pi_local_aspc__d2ba4448` |
+| amo | pi_local_aspc | `ammd_s0_pi_local_aspc__2a9ff0af` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 43.00 | `runs/amo/pi_local_aspc/ammd_s0_pi_local_aspc__2a9ff0af` |
+| amo | pi_local_aspc | `ammp_s0_pi_local_aspc__2fee7f1d` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 79.00 | `runs/amo/pi_local_aspc/ammp_s0_pi_local_aspc__2fee7f1d` |
+| amo | pi_local_aspc | `amud_s0_pi_local_aspc__834ef84b` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 94.00 | `runs/amo/pi_local_aspc/amud_s0_pi_local_aspc__834ef84b` |
+| amo | pi_local_aspc | `amu_s0_pi_local_aspc__7c112a78` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 90.00 | `runs/amo/pi_local_aspc/amu_s0_pi_local_aspc__7c112a78` |
+| amo | pi_only | `ammp_s0_pi_only_smoke__545a27cb` | antmaze-medium-play-v2 | 0 | 5000 | 5000 | 0.00 | `runs/amo/pi_only/ammp_s0_pi_only_smoke__545a27cb` |
+| amo | pi_only | `amud_s0_pi_only__7fe82122` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 180000 | 44.00 | `runs/amo/pi_only/amud_s0_pi_only__7fe82122` |
+| amo | pi_only | `amu_s0_pi_only__5015e62a` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 87.00 | `runs/amo/pi_only/amu_s0_pi_only__5015e62a` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
 | apart | chain | `hme_s0_n2__3a87ef6d` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 94.26 | `runs/apart/chain/hme_s0_n2__3a87ef6d` |

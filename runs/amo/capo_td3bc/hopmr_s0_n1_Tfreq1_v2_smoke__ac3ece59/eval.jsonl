@@ -1,0 +1,4 @@
+{"step": 5000, "d4rl_normalized_score": 5.608244561041223, "return_mean": 162.25206928031648, "student_d4rl_score": 5.608244561041223, "teacher_d4rl_score": 5.608244503646471}
+{"step": 10000, "d4rl_normalized_score": 14.962720514486783, "return_mean": 466.7002529390403, "student_d4rl_score": 14.962720514486783, "teacher_d4rl_score": 14.96272998180245}
+{"step": 15000, "d4rl_normalized_score": 20.050072228189837, "return_mean": 632.2717928711629, "student_d4rl_score": 20.050072228189837, "teacher_d4rl_score": 20.050072654664717}
+{"step": 20000, "d4rl_normalized_score": 18.906830887375502, "return_mean": 595.064176813709, "student_d4rl_score": 18.906830887375502, "teacher_d4rl_score": 18.90679750631871}
