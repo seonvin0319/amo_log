@@ -1,0 +1,43 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/ext_csh/APART/results/adaptive_multiscale_locomotion9_seed0/runs/adaptive_multiscale_w-me_s0-walker2d-medium-expert-v2-b576b530",
+  "collected_at": "2026-09-07T05:48:25+00:00",
+  "env": "walker2d-medium-expert-v2",
+  "env_short": "wme",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "APART"
+  },
+  "legacy_name": "adaptive_multiscale_w-me_s0-walker2d-medium-expert-v2-b576b530",
+  "run_id": "wme_s0_te1p25_tb1p25__b576b530",
+  "seed": 0,
+  "settings": {
+    "T": 1.25,
+    "T_freq": 10,
+    "T_lr": 0.0002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "walker2d-medium-expert-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/home/ext_csh/APART/results/adaptive_multiscale_locomotion9_seed0/runs/adaptive_multiscale_w-me_s0-walker2d-medium-expert-v2-b576b530",
+  "variant": "te1p25_tb1p25"
+}

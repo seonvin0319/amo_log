@@ -1,0 +1,43 @@
+{
+  "algo": "apart",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/ext_csh/APART/results/dual_n24_tlr/runs/door_dual_N4_T1.25_Tlr1e-4_s0-door-cloned-v1-ac164f7b",
+  "collected_at": "2026-09-07T05:48:25+00:00",
+  "env": "door-cloned-v1",
+  "env_short": "doorcl",
+  "family": "dual_proximal",
+  "git": {
+    "code_commit": null,
+    "code_repo": "APART"
+  },
+  "legacy_name": "door_dual_N4_T1.25_Tlr1e-4_s0-door-cloned-v1-ac164f7b",
+  "run_id": "doorcl_s0_n4_dual_T1p25_Tlr0p0001__ac164f7b",
+  "seed": 0,
+  "settings": {
+    "T": 1.25,
+    "T_freq": 10,
+    "T_lr": 0.0001,
+    "batch_size": 256,
+    "discount": 0.99,
+    "dual_proximal": true,
+    "env": "door-cloned-v1",
+    "eval_freq": 20000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 4,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/home/ext_csh/APART/results/dual_n24_tlr/runs/door_dual_N4_T1.25_Tlr1e-4_s0-door-cloned-v1-ac164f7b",
+  "variant": "n4_dual_T1p25_Tlr0p0001"
+}

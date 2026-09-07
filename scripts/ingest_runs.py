@@ -10,7 +10,7 @@ import re
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,18 +38,21 @@ ENV_SHORT = {
     "antmaze-medium-diverse-v2": "ammd",
     "antmaze-large-play-v2": "amlp",
     "antmaze-large-diverse-v2": "amld",
+    "pen-cloned-v1": "pencl",
+    "pen-human-v1": "penh",
+    "pen-expert-v1": "pene",
+    "door-cloned-v1": "doorcl",
+    "door-human-v1": "doorh",
+    "door-expert-v1": "doore",
+    "hammer-cloned-v1": "hamcl",
+    "hammer-human-v1": "hamh",
+    "hammer-expert-v1": "hame",
+    "relocate-cloned-v1": "relcl",
+    "relocate-human-v1": "relh",
+    "relocate-expert-v1": "rele",
 }
 
-# legacy short codes that appeared in older APART directory names
-LEGACY_ENV_PREFIX = {
-    "cm": "hcm",
-    "cmr": "hcmr",
-    "cme": "hme",
-    "hm": "hopm",  # careful: some used hm for hopper-medium
-    "hmr": "hopmr",
-    "hme": "hopme",  # conflict: hme also means halfcheetah-medium-expert
-}
-
+# Host choi (original snapshot) + host ext_csh (this machine).
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "apart",
@@ -81,6 +84,85 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
     },
 ]
 
+# AMO loco-9 packs on ext_csh (layout: <pack>/runs/<run>/config.yaml).
+_AMO_EXT_PACKS = [
+    "amo_adaptive_multiscale_locomotion9_seed0",
+    "amo_loco9_s0_tlr2e-3_te5_tb5",
+    "amo_loco9_s0_tlr2e-3_te1_tb1",
+    "amo_loco9_s0_tlr2e-3_te10_tb10",
+    "amo_loco9_s0_tlr1e-3_te1_tb1",
+    "amo_loco9_s0_tlr5e-4_te1_tb1",
+    "amo_loco9_s0_tlr2e-3_te1_tb1_l1e",
+    "amo_loco9_s0_tlr1e-3_te1_tb1_l1e",
+    "amo_loco9_s0_tlr2e-3_te1_tb1_td3bc_critic",
+    "amo_loco9_s0_tlr2e-3_te0.1_tb0.1_td3bc_critic",
+    "amo_loco9_s0_tlr5e-4_te1_tb1_td3bc_critic",
+    "amo_loco9_s0_tlr2e-3_te0.005_tb0.005_td3bc_critic_qraw",
+]
+for _name in _AMO_EXT_PACKS:
+    DEFAULT_SOURCES.append(
+        {
+            "algo": "amo",
+            "root": Path("/home/ext_csh/AMO/results") / _name,
+            "host": "ext_csh",
+            "code_repo": "AMO",
+            "family_force": "adaptive_multiscale",
+            "nested": True,
+        }
+    )
+
+# Early adaptive-multiscale runs lived under APART/results but are AMO family.
+for _name in (
+    "adaptive_multiscale_locomotion9_seed0",
+    "adaptive_multiscale_locomotion9_unconstrained_seed0",
+    "adaptive_multiscale_locomotion12_seed0",
+    "adaptive_bootstrap_locomotion12_seed0",
+    "adaptive_bootstrap_locomotion12_seed0_unconstrained",
+    "adaptive_multiscale_smoke",
+    "adaptive_multiscale_equal_init_smoke",
+    "adaptive_bootstrap_smoke",
+):
+    DEFAULT_SOURCES.append(
+        {
+            "algo": "amo",
+            "root": Path("/home/ext_csh/APART/results") / _name,
+            "host": "ext_csh",
+            "code_repo": "APART",
+            "family_force": "adaptive_multiscale",
+            "nested": True,
+        }
+    )
+
+# APART dual / n1 Adroit packs on ext_csh.
+DEFAULT_SOURCES.extend(
+    [
+        {
+            "algo": "apart",
+            "root": Path("/home/ext_csh/APART/results/dual_n24_tlr"),
+            "host": "ext_csh",
+            "code_repo": "APART",
+            "family_force": "dual_proximal",
+            "nested": True,
+        },
+        {
+            "algo": "apart",
+            "root": Path("/home/ext_csh/APART/results/dual_n24_adroit"),
+            "host": "ext_csh",
+            "code_repo": "APART",
+            "family_force": "dual_proximal",
+            "nested": True,
+        },
+        {
+            "algo": "apart",
+            "root": Path("/home/ext_csh/APART/results/n1_pen_cloned"),
+            "host": "ext_csh",
+            "code_repo": "APART",
+            "family_force": "chain",
+            "nested": True,
+        },
+    ]
+)
+
 
 def load_yaml_lite(path: Path) -> Dict[str, Any]:
     """Minimal YAML subset reader (key: value) without PyYAML dependency."""
@@ -111,12 +193,13 @@ def load_yaml_lite(path: Path) -> Dict[str, Any]:
 def env_short(env: str) -> str:
     if env in ENV_SHORT:
         return ENV_SHORT[env]
-    # fallback: compress
     return (
         env.replace("halfcheetah", "hc")
         .replace("hopper", "hop")
         .replace("walker2d", "w")
         .replace("antmaze", "am")
+        .replace("relocate", "rel")
+        .replace("hammer", "ham")
         .replace("medium-replay", "mr")
         .replace("medium-expert", "me")
         .replace("medium-play", "mp")
@@ -127,7 +210,10 @@ def env_short(env: str) -> str:
         .replace("umaze", "u")
         .replace("medium", "m")
         .replace("expert", "e")
+        .replace("cloned", "cl")
+        .replace("human", "h")
         .replace("-v2", "")
+        .replace("-v1", "")
         .replace("-", "")
     )
 
@@ -137,6 +223,10 @@ def extract_uuid8(dirname: str) -> str:
     if m:
         return m.group(1).lower()
     return hashlib.sha1(dirname.encode()).hexdigest()[:8]
+
+
+def fmt_num(value: float) -> str:
+    return f"{float(value):g}".replace(".", "p").replace("-", "m")
 
 
 def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str:
@@ -149,7 +239,8 @@ def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str
         if cfg.get("adaptive_multiscale"):
             return "adaptive_multiscale"
         return "secant"
-    # apart
+    if cfg.get("adaptive_multiscale"):
+        return "adaptive_multiscale"
     if cfg.get("dual_proximal"):
         return "dual_proximal"
     name = str(cfg.get("name", ""))
@@ -162,9 +253,18 @@ def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str
     return "misc"
 
 
-def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> str:
+def build_variant(
+    algo: str,
+    family: str,
+    cfg: Dict[str, Any],
+    dirname: str,
+    source_root: Optional[Path] = None,
+) -> str:
     tokens: List[str] = []
+    root_name = source_root.name if source_root is not None else ""
+    blob = f"{dirname} {root_name}"
     n = int(cfg.get("proximal_n_steps", 1) or 1)
+
     if family in ("dual_proximal", "chain") or "apart_n" in dirname:
         tokens.append(f"n{n}")
     if cfg.get("dual_proximal") or "_dual" in dirname:
@@ -180,24 +280,50 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
     if family == "segment_interval":
         segs = int(cfg.get("pi_bound_segments", 4) or 4)
         tokens.append(f"seg{segs}")
-    if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
-        if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
-            tokens.append("smoke")
+
+    if family == "adaptive_multiscale":
+        te = cfg.get("T_E", cfg.get("T"))
+        tb = cfg.get("T_B", te)
+        if te is not None:
+            tokens.append(f"te{fmt_num(float(te))}")
+        if tb is not None:
+            tokens.append(f"tb{fmt_num(float(tb))}")
+        if cfg.get("execution_l1") is True or "l1e" in blob:
+            tokens.append("l1e")
+        crit_h = cfg.get("critic_n_hiddens")
+        crit_ln = cfg.get("critic_layernorm")
+        if crit_h == 2 and crit_ln is False:
+            tokens.append("td3bc")
+        if cfg.get("normalize_q") is False or "qraw" in blob:
+            tokens.append("qraw")
+        if "unconstrained" in blob or "unconst" in blob:
+            tokens.append("unconst")
+        if "bootstrap" in blob and "adaptive_bootstrap" in root_name:
+            tokens.append("boot")
+
+    if family in ("dual_proximal", "chain", "misc"):
+        t_init = cfg.get("T")
+        if t_init is not None and family != "adaptive_multiscale":
+            tokens.append(f"T{fmt_num(float(t_init))}")
+
+    if "smoke" in blob or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
+        tokens.append("smoke")
+
     t_lr = cfg.get("T_lr")
     if t_lr is not None and float(t_lr) not in (2e-4, 0.0002):
-        # compact scientific-ish
-        tokens.append("Tlr" + f"{float(t_lr):g}".replace(".", "p").replace("-", "m"))
+        tokens.append("Tlr" + fmt_num(float(t_lr)))
+
     if family.startswith("pi_only") and not tokens:
         tokens.append("pi_only_xfit")
     if not tokens:
         tokens.append("default")
-    # de-dup while preserving order
+
     seen = set()
     out = []
-    for t in tokens:
-        if t not in seen:
-            seen.add(t)
-            out.append(t)
+    for token in tokens:
+        if token not in seen:
+            seen.add(token)
+            out.append(token)
     return "_".join(out)
 
 
@@ -215,6 +341,7 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "noise_clip",
         "normalize",
         "normalize_reward",
+        "normalize_q",
         "T",
         "T_E",
         "T_B",
@@ -223,17 +350,21 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "proximal_n_steps",
         "dual_proximal",
         "adaptive_multiscale",
+        "execution_l1",
         "pi_bound_method",
         "pi_bound_segments",
         "smoothness_eps",
         "smoothness_max",
         "actor_lr",
         "alpha",
+        "critic_n_hiddens",
+        "critic_hidden_dim",
+        "critic_layernorm",
     ]
     out = {}
-    for k in keys:
-        if k in cfg and cfg[k] is not None:
-            out[k] = cfg[k]
+    for key in keys:
+        if key in cfg and cfg[key] is not None:
+            out[key] = cfg[key]
     return out
 
 
@@ -241,7 +372,7 @@ def discover_run_dirs(root: Path, nested: bool) -> List[Path]:
     if not root.exists():
         return []
     if nested:
-        # parent/*/run_dir/config.yaml
+        # <pack>/runs/<run>/config.yaml  or  <pack>/<group>/<run>/config.yaml
         return sorted({p.parent for p in root.glob("*/*/config.yaml")})
     return sorted({p.parent for p in root.glob("*/config.yaml")})
 
@@ -253,6 +384,7 @@ def ingest_one(
     code_repo: str,
     family_force: Optional[str],
     dry_run: bool,
+    source_root: Optional[Path] = None,
 ) -> Optional[Dict[str, Any]]:
     cfg_path = src / "config.yaml"
     if not cfg_path.exists():
@@ -261,13 +393,18 @@ def ingest_one(
     env = str(cfg.get("env") or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
     family = classify_family(algo, cfg, family_force)
-    variant = build_variant(algo, family, cfg, src.name)
+    # Adaptive-multiscale always archives under amo/, even if code lived in APART/.
+    if family == "adaptive_multiscale":
+        algo = "amo"
+    variant = build_variant(algo, family, cfg, src.name, source_root=source_root)
     uuid8 = extract_uuid8(src.name)
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
 
     artifacts = [f for f in KEEP_FILES if (src / f).exists()]
+    if not artifacts:
+        return None
     meta = {
         "algo": algo,
         "family": family,
@@ -279,7 +416,10 @@ def ingest_one(
         "legacy_name": src.name,
         "source_path": str(src.resolve()),
         "source_host": host,
-        "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+        "checkpoint_hint": str(src.resolve()),
+        "collected_at": datetime.now(timezone.utc)
+        .astimezone()
+        .isoformat(timespec="seconds"),
         "settings": settings_summary(algo, cfg),
         "artifacts": artifacts,
         "git": {"code_repo": code_repo, "code_commit": None},
@@ -292,12 +432,13 @@ def ingest_one(
     dest.mkdir(parents=True, exist_ok=True)
     for name in artifacts:
         shutil.copy2(src / name, dest / name)
-    # optional tiny extras
     for extra in ("launch_cmd.txt", "notes.md"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)
             meta["artifacts"].append(extra)
-    (dest / "run_meta.json").write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n")
+    (dest / "run_meta.json").write_text(
+        json.dumps(meta, indent=2, sort_keys=True) + "\n"
+    )
     print(f"OK  {dest.relative_to(ROOT)}")
     return meta
 
@@ -306,10 +447,17 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--rebuild-catalog", action="store_true", default=True)
+    parser.add_argument(
+        "--host",
+        default=None,
+        help="Only ingest sources for this source_host (e.g. ext_csh).",
+    )
     args = parser.parse_args()
 
     collected: List[Dict[str, Any]] = []
     for src_spec in DEFAULT_SOURCES:
+        if args.host and src_spec.get("host") != args.host:
+            continue
         root: Path = src_spec["root"]
         for run_dir in discover_run_dirs(root, bool(src_spec.get("nested"))):
             meta = ingest_one(
@@ -319,6 +467,7 @@ def main() -> int:
                 code_repo=src_spec["code_repo"],
                 family_force=src_spec.get("family_force"),
                 dry_run=args.dry_run,
+                source_root=root,
             )
             if meta:
                 collected.append(meta)

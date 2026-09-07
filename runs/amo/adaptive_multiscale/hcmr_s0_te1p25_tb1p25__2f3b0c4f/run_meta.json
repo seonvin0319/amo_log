@@ -1,0 +1,43 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/ext_csh/APART/results/adaptive_multiscale_locomotion9_seed0/runs/adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-2f3b0c4f",
+  "collected_at": "2026-09-07T05:48:25+00:00",
+  "env": "halfcheetah-medium-replay-v2",
+  "env_short": "hcmr",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "APART"
+  },
+  "legacy_name": "adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-2f3b0c4f",
+  "run_id": "hcmr_s0_te1p25_tb1p25__2f3b0c4f",
+  "seed": 0,
+  "settings": {
+    "T": 1.25,
+    "T_freq": 10,
+    "T_lr": 0.0002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-replay-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/home/ext_csh/APART/results/adaptive_multiscale_locomotion9_seed0/runs/adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-2f3b0c4f",
+  "variant": "te1p25_tb1p25"
+}

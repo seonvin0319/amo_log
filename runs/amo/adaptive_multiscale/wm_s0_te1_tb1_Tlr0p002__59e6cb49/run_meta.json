@@ -1,0 +1,45 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+  "collected_at": "2026-09-07T05:48:25+00:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+  "run_id": "wm_s0_te1_tb1_Tlr0p002__59e6cb49",
+  "seed": 0,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 1.0,
+    "T_freq": 10,
+    "T_lr": 0.002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "eval_freq": 5000,
+    "execution_l1": false,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+  "variant": "te1_tb1_Tlr0p002"
+}

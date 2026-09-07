@@ -52,6 +52,18 @@ runs/{algo}/{family}/{run_id}/
 | antmaze-medium-diverse-v2 | `ammd` |
 | antmaze-large-play-v2 | `amlp` |
 | antmaze-large-diverse-v2 | `amld` |
+| pen-cloned-v1 | `pencl` |
+| pen-human-v1 | `penh` |
+| pen-expert-v1 | `pene` |
+| door-cloned-v1 | `doorcl` |
+| door-human-v1 | `doorh` |
+| door-expert-v1 | `doore` |
+| hammer-cloned-v1 | `hamcl` |
+| hammer-human-v1 | `hamh` |
+| hammer-expert-v1 | `hame` |
+| relocate-cloned-v1 | `relcl` |
+| relocate-human-v1 | `relh` |
+| relocate-expert-v1 | `rele` |
 
 새 env는 이 표에 추가한 뒤 사용한다. 임시로 풀네임을 쓰지 않는다.
 
@@ -72,6 +84,12 @@ runs/{algo}/{family}/{run_id}/
 | `secant` / `segint` | `pi_bound_method` |
 | `smoke` | 짧은 검증 런 |
 | `Tlr2e3` | `T_lr=2e-3` |
+| `te1` / `tb1` / `te0p005` | AMO init `T_E` / `T_B` |
+| `td3bc` | vanilla TD3+BC critic (`n_hiddens=2`, no LayerNorm) |
+| `qraw` | `normalize_q=false` (no `|Q|` rescale on inner/outer) |
+| `l1e` | execution scale loss = L1_E (not B_PI) |
+| `unconst` | unconstrained adaptive-multiscale pack |
+| `boot` | adaptive-bootstrap pack under APART results |
 
 ## 4. family 디렉터리
 
