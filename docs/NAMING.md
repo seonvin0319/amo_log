@@ -90,6 +90,10 @@ runs/{algo}/{family}/{run_id}/
 | `l1e` | execution scale loss = L1_E (not B_PI) |
 | `unconst` | unconstrained adaptive-multiscale pack |
 | `boot` | adaptive-bootstrap pack under APART results |
+| `iql_ab` | CORL IQL adaptive-β protocol |
+| `loco4` / `rem7` | suite pack tags |
+| `b3` / `b6` / `b10` | CORL `beta` (= fixed & adaptive init) |
+| `t0p7` / `t0p5` / `t0p9` | `iql_tau` (expectile) |
 
 ## 4. family 디렉터리
 
@@ -103,6 +107,7 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `pi_only_xfit_mpi_nstep` | π-only + MPI/N-step/alr ablations |
 | `segment_interval` | AMO segment-interval B_PI |
 | `adaptive_multiscale` | AMO T_E/T_B 분리 |
+| `adaptive_beta` | CORL IQL + adaptive β (twin actors) |
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기

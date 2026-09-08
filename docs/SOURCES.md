@@ -26,6 +26,8 @@ Not collected on choi (empty or logs-only):
 | `/home/ext_csh/APART/results/dual_n24_tlr` | apart | `dual_proximal` | Adroit dual N=2/4 T_lr sweep |
 | `/home/ext_csh/APART/results/dual_n24_adroit` | apart | `dual_proximal` | Adroit dual |
 | `/home/ext_csh/APART/results/n1_pen_cloned` | apart | `chain` | pen-cloned N=1 |
+| `/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_locomotion4_s0` | iql | `adaptive_beta` | CORL IQL adaptive-β loco4 seed0 |
+| `/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0` | iql | `adaptive_beta` | remaining (walker/antmaze/…) seed0 |
 
 To refresh on ext_csh:
 

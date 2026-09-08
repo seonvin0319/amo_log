@@ -1,0 +1,45 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_locomotion4_s0/hopper-medium-expert-v2",
+  "collected_at": "2026-09-08T23:13:24+00:00",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
+  "family": "adaptive_beta",
+  "git": {
+    "code_commit": null,
+    "code_repo": "CORL-iql-adaptive-beta-v1"
+  },
+  "legacy_name": "hopper-medium-expert-v2",
+  "protocol": "corl_iql_adaptive_beta_v1",
+  "run_id": "hopme_s0_iql_ab_loco4_b6_t0p5__1b89ce45",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "adaptive_enabled": true,
+    "batch_size": 256,
+    "beta": 6.0,
+    "beta_fixed": 6.0,
+    "beta_initial": 6.0,
+    "discount": 0.99,
+    "env": "hopper-medium-expert-v2",
+    "eval_freq": 5000,
+    "iql_tau": 0.5,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "meta_warmup_steps": 100000,
+    "normalize": true,
+    "normalize_reward": false,
+    "rho_lr": 0.0001,
+    "seed": 0,
+    "tau": 0.005,
+    "weight_cap": 100.0
+  },
+  "source_host": "ext_csh",
+  "source_path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_locomotion4_s0/hopper-medium-expert-v2",
+  "variant": "iql_ab_loco4_b6_t0p5"
+}

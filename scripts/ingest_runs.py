@@ -163,6 +163,38 @@ DEFAULT_SOURCES.extend(
     ]
 )
 
+# CORL IQL adaptive-β (corl_iql_adaptive_beta_v1) on ext_csh.
+# Layout: <suite>/<env-v2>/{resolved_config.yaml,metrics.jsonl,eval.jsonl}
+for _name, _tag in (
+    ("iql_beta_locomotion4_s0", "loco4"),
+    ("iql_beta_remaining7_jp2_s0", "rem7"),
+):
+    DEFAULT_SOURCES.append(
+        {
+            "algo": "iql",
+            "root": Path("/home/ext_csh/CORL-iql-adaptive-beta-v1/results") / _name,
+            "host": "ext_csh",
+            "code_repo": "CORL-iql-adaptive-beta-v1",
+            "family_force": "adaptive_beta",
+            "config_file": "resolved_config.yaml",
+            "variant_tag": _tag,
+        }
+    )
+
+
+def _parse_yaml_scalar(raw: str) -> Any:
+    raw = raw.strip().strip("'\"")
+    if raw.lower() in ("true", "false"):
+        return raw.lower() == "true"
+    if raw.lower() in ("null", "none", ""):
+        return None
+    try:
+        if "." in raw or "e" in raw.lower():
+            return float(raw)
+        return int(raw)
+    except ValueError:
+        return raw
+
 
 def load_yaml_lite(path: Path) -> Dict[str, Any]:
     """Minimal YAML subset reader (key: value) without PyYAML dependency."""
@@ -173,21 +205,43 @@ def load_yaml_lite(path: Path) -> Dict[str, Any]:
         if ":" not in line:
             continue
         key, raw = line.split(":", 1)
-        key = key.strip()
-        raw = raw.strip().strip("'\"")
-        if raw.lower() in ("true", "false"):
-            out[key] = raw.lower() == "true"
-        elif raw.lower() in ("null", "none", ""):
-            out[key] = None
-        else:
-            try:
-                if "." in raw or "e" in raw.lower():
-                    out[key] = float(raw)
-                else:
-                    out[key] = int(raw)
-            except ValueError:
-                out[key] = raw
+        out[key.strip()] = _parse_yaml_scalar(raw)
     return out
+
+
+def load_iql_resolved_config(path: Path) -> Dict[str, Any]:
+    """Flatten CORL resolved_config.yaml (corl:/meta: sections) for ingest."""
+    corl: Dict[str, Any] = {}
+    meta: Dict[str, Any] = {}
+    section: Optional[str] = None
+    for line in path.read_text(errors="ignore").splitlines():
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if re.match(r"^[A-Za-z0-9_]+:\s*$", line):
+            section = line.split(":", 1)[0].strip()
+            continue
+        if ":" not in line:
+            continue
+        key, raw = line.split(":", 1)
+        key = key.strip()
+        # skip list items under meta (rho_adam_betas)
+        if key.startswith("-"):
+            continue
+        val = _parse_yaml_scalar(raw)
+        if section == "corl":
+            corl[key] = val
+        elif section == "meta":
+            meta[key] = val
+    flat: Dict[str, Any] = {}
+    flat.update(corl)
+    flat.update(meta)
+    # Prefer explicit meta betas when present.
+    if meta.get("beta_fixed") is not None:
+        flat["beta_fixed"] = meta["beta_fixed"]
+    if meta.get("beta_initial") is not None:
+        flat["beta_initial"] = meta["beta_initial"]
+    flat["_raw_sections"] = {"corl": corl, "meta": meta}
+    return flat
 
 
 def env_short(env: str) -> str:
@@ -315,6 +369,17 @@ def build_variant(
 
     if family.startswith("pi_only") and not tokens:
         tokens.append("pi_only_xfit")
+    if family == "adaptive_beta":
+        tokens.append("iql_ab")
+        if cfg.get("_variant_tag"):
+            tokens.append(str(cfg["_variant_tag"]))
+        # Record CORL beta0 (fixed / adaptive init) when non-default lore.
+        b0 = cfg.get("beta_fixed", cfg.get("beta_initial", cfg.get("beta")))
+        if b0 is not None:
+            tokens.append(f"b{fmt_num(float(b0))}")
+        tau = cfg.get("iql_tau")
+        if tau is not None:
+            tokens.append(f"t{fmt_num(float(tau))}")
     if not tokens:
         tokens.append("default")
 
@@ -360,21 +425,34 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "critic_n_hiddens",
         "critic_hidden_dim",
         "critic_layernorm",
+        "beta",
+        "beta_fixed",
+        "beta_initial",
+        "iql_tau",
+        "adaptive_enabled",
+        "meta_warmup_steps",
+        "meta_interval",
+        "rho_lr",
+        "weight_cap",
     ]
     out = {}
     for key in keys:
+        if key.startswith("_"):
+            continue
         if key in cfg and cfg[key] is not None:
             out[key] = cfg[key]
     return out
 
 
-def discover_run_dirs(root: Path, nested: bool) -> List[Path]:
+def discover_run_dirs(
+    root: Path, nested: bool, config_file: str = "config.yaml"
+) -> List[Path]:
     if not root.exists():
         return []
     if nested:
         # <pack>/runs/<run>/config.yaml  or  <pack>/<group>/<run>/config.yaml
-        return sorted({p.parent for p in root.glob("*/*/config.yaml")})
-    return sorted({p.parent for p in root.glob("*/config.yaml")})
+        return sorted({p.parent for p in root.glob(f"*/*/{config_file}")})
+    return sorted({p.parent for p in root.glob(f"*/{config_file}")})
 
 
 def ingest_one(
@@ -385,12 +463,23 @@ def ingest_one(
     family_force: Optional[str],
     dry_run: bool,
     source_root: Optional[Path] = None,
+    config_file: str = "config.yaml",
+    variant_tag: Optional[str] = None,
 ) -> Optional[Dict[str, Any]]:
-    cfg_path = src / "config.yaml"
+    cfg_path = src / config_file
+    if not cfg_path.exists() and config_file != "config.yaml":
+        cfg_path = src / "config.yaml"
     if not cfg_path.exists():
         return None
-    cfg = load_yaml_lite(cfg_path)
-    env = str(cfg.get("env") or "unknown")
+
+    if cfg_path.name == "resolved_config.yaml" or family_force == "adaptive_beta":
+        cfg = load_iql_resolved_config(cfg_path)
+    else:
+        cfg = load_yaml_lite(cfg_path)
+    if variant_tag:
+        cfg["_variant_tag"] = variant_tag
+
+    env = str(cfg.get("env") or src.name or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
     family = classify_family(algo, cfg, family_force)
     # Adaptive-multiscale always archives under amo/, even if code lived in APART/.
@@ -402,10 +491,11 @@ def ingest_one(
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
 
-    artifacts = [f for f in KEEP_FILES if (src / f).exists()]
-    if not artifacts:
+    present = [f for f in ("metrics.jsonl", "eval.jsonl") if (src / f).exists()]
+    if not present:
         return None
-    meta = {
+
+    meta: Dict[str, Any] = {
         "algo": algo,
         "family": family,
         "run_id": run_id,
@@ -421,16 +511,20 @@ def ingest_one(
         .astimezone()
         .isoformat(timespec="seconds"),
         "settings": settings_summary(algo, cfg),
-        "artifacts": artifacts,
+        "artifacts": ["config.yaml"] + present,
         "git": {"code_repo": code_repo, "code_commit": None},
     }
+    if family == "adaptive_beta":
+        meta["protocol"] = "corl_iql_adaptive_beta_v1"
 
     if dry_run:
         print(f"DRY {src} -> {dest.relative_to(ROOT)}")
         return meta
 
     dest.mkdir(parents=True, exist_ok=True)
-    for name in artifacts:
+    # Archive as config.yaml even when source used resolved_config.yaml.
+    shutil.copy2(cfg_path, dest / "config.yaml")
+    for name in present:
         shutil.copy2(src / name, dest / name)
     for extra in ("launch_cmd.txt", "notes.md"):
         if (src / extra).exists():
@@ -459,7 +553,10 @@ def main() -> int:
         if args.host and src_spec.get("host") != args.host:
             continue
         root: Path = src_spec["root"]
-        for run_dir in discover_run_dirs(root, bool(src_spec.get("nested"))):
+        config_file = str(src_spec.get("config_file") or "config.yaml")
+        for run_dir in discover_run_dirs(
+            root, bool(src_spec.get("nested")), config_file=config_file
+        ):
             meta = ingest_one(
                 run_dir,
                 algo=src_spec["algo"],
@@ -468,6 +565,8 @@ def main() -> int:
                 family_force=src_spec.get("family_force"),
                 dry_run=args.dry_run,
                 source_root=root,
+                config_file=config_file,
+                variant_tag=src_spec.get("variant_tag"),
             )
             if meta:
                 collected.append(meta)

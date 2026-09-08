@@ -1,11 +1,11 @@
 # Experiment catalog
 
-Total runs: **261**
+Total runs: **268**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
 | amo | adaptive_multiscale | `hme_s0_dual_te1p25_tb1p25_unconst_boot__5dceabf5` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 100000 | 93.51 | `runs/amo/adaptive_multiscale/hme_s0_dual_te1p25_tb1p25_unconst_boot__5dceabf5` |
-| amo | adaptive_multiscale | `hme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__267e3080` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 560000 | -0.67 | `runs/amo/adaptive_multiscale/hme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__267e3080` |
+| amo | adaptive_multiscale | `hme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__267e3080` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 800000 | 0.61 | `runs/amo/adaptive_multiscale/hme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__267e3080` |
 | amo | adaptive_multiscale | `hme_s0_te0p1_tb0p1_td3bc_Tlr0p002__2c3852e0` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 5.59 | `runs/amo/adaptive_multiscale/hme_s0_te0p1_tb0p1_td3bc_Tlr0p002__2c3852e0` |
 | amo | adaptive_multiscale | `hme_s0_te10_tb10_Tlr0p002__db457dec` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 25000 | 18.25 | `runs/amo/adaptive_multiscale/hme_s0_te10_tb10_Tlr0p002__db457dec` |
 | amo | adaptive_multiscale | `hme_s0_te1_tb1_Tlr0p0005__9f3e0838` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 465000 | 96.71 | `runs/amo/adaptive_multiscale/hme_s0_te1_tb1_Tlr0p0005__9f3e0838` |
@@ -22,7 +22,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `hme_s0_te5_tb5_Tlr0p002__eed997dc` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 95.71 | `runs/amo/adaptive_multiscale/hme_s0_te5_tb5_Tlr0p002__eed997dc` |
 | amo | adaptive_multiscale | `hcmr_s0_dual_te1p25_tb1p25__f8e30c31` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 35000 | 44.17 | `runs/amo/adaptive_multiscale/hcmr_s0_dual_te1p25_tb1p25__f8e30c31` |
 | amo | adaptive_multiscale | `hcmr_s0_dual_te1p25_tb1p25_unconst_boot__3403d58d` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 100000 | 43.49 | `runs/amo/adaptive_multiscale/hcmr_s0_dual_te1p25_tb1p25_unconst_boot__3403d58d` |
-| amo | adaptive_multiscale | `hcmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0bac7fb8` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 670000 | 37.54 | `runs/amo/adaptive_multiscale/hcmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0bac7fb8` |
+| amo | adaptive_multiscale | `hcmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0bac7fb8` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 35.38 | `runs/amo/adaptive_multiscale/hcmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0bac7fb8` |
 | amo | adaptive_multiscale | `hcmr_s0_te0p1_tb0p1_td3bc_Tlr0p002__dfb7dd91` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 41.26 | `runs/amo/adaptive_multiscale/hcmr_s0_te0p1_tb0p1_td3bc_Tlr0p002__dfb7dd91` |
 | amo | adaptive_multiscale | `hcmr_s0_te10_tb10_Tlr0p002__853c6631` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 30000 | 42.41 | `runs/amo/adaptive_multiscale/hcmr_s0_te10_tb10_Tlr0p002__853c6631` |
 | amo | adaptive_multiscale | `hcmr_s0_te1_tb1_Tlr0p0005__5e112ebd` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 550000 | 47.42 | `runs/amo/adaptive_multiscale/hcmr_s0_te1_tb1_Tlr0p0005__5e112ebd` |
@@ -40,7 +40,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `hcm_s0_dual_te1p25_tb1p25__9efe11f8` | halfcheetah-medium-v2 | 0 | 1000000 | 35000 | 48.86 | `runs/amo/adaptive_multiscale/hcm_s0_dual_te1p25_tb1p25__9efe11f8` |
 | amo | adaptive_multiscale | `hcm_s0_dual_te1p25_tb1p25_boot__01566bc8` | halfcheetah-medium-v2 | 0 | 1000000 | 440000 | 50.32 | `runs/amo/adaptive_multiscale/hcm_s0_dual_te1p25_tb1p25_boot__01566bc8` |
 | amo | adaptive_multiscale | `hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a` | halfcheetah-medium-v2 | 0 | 1000000 | 140000 | 49.17 | `runs/amo/adaptive_multiscale/hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a` |
-| amo | adaptive_multiscale | `hcm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__cbbff1a8` | halfcheetah-medium-v2 | 0 | 1000000 | 560000 | -2.61 | `runs/amo/adaptive_multiscale/hcm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__cbbff1a8` |
+| amo | adaptive_multiscale | `hcm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__cbbff1a8` | halfcheetah-medium-v2 | 0 | 1000000 | 800000 | -1.27 | `runs/amo/adaptive_multiscale/hcm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__cbbff1a8` |
 | amo | adaptive_multiscale | `hcm_s0_te0p1_tb0p1_td3bc_Tlr0p002__9457146e` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 38.94 | `runs/amo/adaptive_multiscale/hcm_s0_te0p1_tb0p1_td3bc_Tlr0p002__9457146e` |
 | amo | adaptive_multiscale | `hcm_s0_te10_tb10_Tlr0p002__52df4d83` | halfcheetah-medium-v2 | 0 | 1000000 | 25000 | 51.13 | `runs/amo/adaptive_multiscale/hcm_s0_te10_tb10_Tlr0p002__52df4d83` |
 | amo | adaptive_multiscale | `hcm_s0_te1_tb1_Tlr0p0005__2c4034cb` | halfcheetah-medium-v2 | 0 | 1000000 | 460000 | 53.73 | `runs/amo/adaptive_multiscale/hcm_s0_te1_tb1_Tlr0p0005__2c4034cb` |
@@ -57,7 +57,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `hcm_s0_te5_tb5_Tlr0p002__cf0fe90a` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 60.19 | `runs/amo/adaptive_multiscale/hcm_s0_te5_tb5_Tlr0p002__cf0fe90a` |
 | amo | adaptive_multiscale | `hcrand_s0_dual_te1p25_tb1p25_boot__45603dc4` | halfcheetah-random-v2 | 0 | 1000000 | 460000 | 14.56 | `runs/amo/adaptive_multiscale/hcrand_s0_dual_te1p25_tb1p25_boot__45603dc4` |
 | amo | adaptive_multiscale | `hcrand_s0_dual_te1p25_tb1p25_unconst_boot__90a8969f` | halfcheetah-random-v2 | 0 | 1000000 | 120000 | 9.43 | `runs/amo/adaptive_multiscale/hcrand_s0_dual_te1p25_tb1p25_unconst_boot__90a8969f` |
-| amo | adaptive_multiscale | `hopme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__06c45f8c` | hopper-medium-expert-v2 | 0 | 1000000 | 810000 | 0.58 | `runs/amo/adaptive_multiscale/hopme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__06c45f8c` |
+| amo | adaptive_multiscale | `hopme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__06c45f8c` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 0.58 | `runs/amo/adaptive_multiscale/hopme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__06c45f8c` |
 | amo | adaptive_multiscale | `hopme_s0_te0p1_tb0p1_td3bc_Tlr0p002__acc3db56` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.26 | `runs/amo/adaptive_multiscale/hopme_s0_te0p1_tb0p1_td3bc_Tlr0p002__acc3db56` |
 | amo | adaptive_multiscale | `hopme_s0_te10_tb10_Tlr0p002__b4a21283` | hopper-medium-expert-v2 | 0 | 1000000 | 30000 | 17.79 | `runs/amo/adaptive_multiscale/hopme_s0_te10_tb10_Tlr0p002__b4a21283` |
 | amo | adaptive_multiscale | `hopme_s0_te1_tb1_Tlr0p0005__44dddc8c` | hopper-medium-expert-v2 | 0 | 1000000 | 970000 | 108.87 | `runs/amo/adaptive_multiscale/hopme_s0_te1_tb1_Tlr0p0005__44dddc8c` |
@@ -71,7 +71,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `hopme_s0_te1p25_tb1p25__db11be08` | hopper-medium-expert-v2 | 0 | 1000000 | — | — | `runs/amo/adaptive_multiscale/hopme_s0_te1p25_tb1p25__db11be08` |
 | amo | adaptive_multiscale | `hopme_s0_te1p25_tb1p25_unconst__318eafff` | hopper-medium-expert-v2 | 0 | 1000000 | 615000 | 99.62 | `runs/amo/adaptive_multiscale/hopme_s0_te1p25_tb1p25_unconst__318eafff` |
 | amo | adaptive_multiscale | `hopme_s0_te5_tb5_Tlr0p002__3c6ff0e9` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 22.66 | `runs/amo/adaptive_multiscale/hopme_s0_te5_tb5_Tlr0p002__3c6ff0e9` |
-| amo | adaptive_multiscale | `hopmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ded5af6a` | hopper-medium-replay-v2 | 0 | 1000000 | 590000 | 31.54 | `runs/amo/adaptive_multiscale/hopmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ded5af6a` |
+| amo | adaptive_multiscale | `hopmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ded5af6a` | hopper-medium-replay-v2 | 0 | 1000000 | 835000 | 4.23 | `runs/amo/adaptive_multiscale/hopmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ded5af6a` |
 | amo | adaptive_multiscale | `hopmr_s0_te0p1_tb0p1_td3bc_Tlr0p002__d887fe82` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.69 | `runs/amo/adaptive_multiscale/hopmr_s0_te0p1_tb0p1_td3bc_Tlr0p002__d887fe82` |
 | amo | adaptive_multiscale | `hopmr_s0_te10_tb10_Tlr0p002__0d570baa` | hopper-medium-replay-v2 | 0 | 1000000 | 30000 | 16.99 | `runs/amo/adaptive_multiscale/hopmr_s0_te10_tb10_Tlr0p002__0d570baa` |
 | amo | adaptive_multiscale | `hopmr_s0_te1_tb1_Tlr0p0005__5c9154b0` | hopper-medium-replay-v2 | 0 | 1000000 | 850000 | 101.71 | `runs/amo/adaptive_multiscale/hopmr_s0_te1_tb1_Tlr0p0005__5c9154b0` |
@@ -87,7 +87,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `hopmr_s0_te5_tb5_Tlr0p002__faeb1d4d` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 102.35 | `runs/amo/adaptive_multiscale/hopmr_s0_te5_tb5_Tlr0p002__faeb1d4d` |
 | amo | adaptive_multiscale | `hopm_s0_dual_te1p25_tb1p25_boot_smoke__74be6aea` | hopper-medium-v2 | 0 | 100 | 100 | 7.10 | `runs/amo/adaptive_multiscale/hopm_s0_dual_te1p25_tb1p25_boot_smoke__74be6aea` |
 | amo | adaptive_multiscale | `hopm_s0_dual_te1p25_tb1p25_unconst_boot__d673560b` | hopper-medium-v2 | 0 | 1000000 | 100000 | 53.40 | `runs/amo/adaptive_multiscale/hopm_s0_dual_te1p25_tb1p25_unconst_boot__d673560b` |
-| amo | adaptive_multiscale | `hopm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0ba086d1` | hopper-medium-v2 | 0 | 1000000 | 815000 | 0.68 | `runs/amo/adaptive_multiscale/hopm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0ba086d1` |
+| amo | adaptive_multiscale | `hopm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0ba086d1` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 0.68 | `runs/amo/adaptive_multiscale/hopm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__0ba086d1` |
 | amo | adaptive_multiscale | `hopm_s0_te0p1_tb0p1_td3bc_Tlr0p002__ffd5337b` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 98.58 | `runs/amo/adaptive_multiscale/hopm_s0_te0p1_tb0p1_td3bc_Tlr0p002__ffd5337b` |
 | amo | adaptive_multiscale | `hopm_s0_te10_tb10_Tlr0p002__b990e509` | hopper-medium-v2 | 0 | 1000000 | 30000 | 15.25 | `runs/amo/adaptive_multiscale/hopm_s0_te10_tb10_Tlr0p002__b990e509` |
 | amo | adaptive_multiscale | `hopm_s0_te1_tb1_Tlr0p0005__53525043` | hopper-medium-v2 | 0 | 1000000 | 980000 | 77.07 | `runs/amo/adaptive_multiscale/hopm_s0_te1_tb1_Tlr0p0005__53525043` |
@@ -102,7 +102,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `hopm_s0_te1p25_tb1p25_unconst__82c36c5b` | hopper-medium-v2 | 0 | 1000000 | 635000 | 66.38 | `runs/amo/adaptive_multiscale/hopm_s0_te1p25_tb1p25_unconst__82c36c5b` |
 | amo | adaptive_multiscale | `hopm_s0_te5_tb5_Tlr0p002__472a17ca` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 103.08 | `runs/amo/adaptive_multiscale/hopm_s0_te5_tb5_Tlr0p002__472a17ca` |
 | amo | adaptive_multiscale | `hoprandom_s0_dual_te1p25_tb1p25_unconst_boot__2bec05f2` | hopper-random-v2 | 0 | 1000000 | 100000 | 9.30 | `runs/amo/adaptive_multiscale/hoprandom_s0_dual_te1p25_tb1p25_unconst_boot__2bec05f2` |
-| amo | adaptive_multiscale | `wme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__764b92b4` | walker2d-medium-expert-v2 | 0 | 1000000 | 690000 | 1.94 | `runs/amo/adaptive_multiscale/wme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__764b92b4` |
+| amo | adaptive_multiscale | `wme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__764b92b4` | walker2d-medium-expert-v2 | 0 | 1000000 | 970000 | 1.94 | `runs/amo/adaptive_multiscale/wme_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__764b92b4` |
 | amo | adaptive_multiscale | `wme_s0_te0p1_tb0p1_td3bc_Tlr0p002__fa7da468` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | -0.35 | `runs/amo/adaptive_multiscale/wme_s0_te0p1_tb0p1_td3bc_Tlr0p002__fa7da468` |
 | amo | adaptive_multiscale | `wme_s0_te10_tb10_Tlr0p002__e4d2a2de` | walker2d-medium-expert-v2 | 0 | 1000000 | 25000 | 21.27 | `runs/amo/adaptive_multiscale/wme_s0_te10_tb10_Tlr0p002__e4d2a2de` |
 | amo | adaptive_multiscale | `wme_s0_te1_tb1_Tlr0p0005__c85e6b20` | walker2d-medium-expert-v2 | 0 | 1000000 | 460000 | 110.02 | `runs/amo/adaptive_multiscale/wme_s0_te1_tb1_Tlr0p0005__c85e6b20` |
@@ -117,7 +117,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `wme_s0_te1p25_tb1p25__b576b530` | walker2d-medium-expert-v2 | 0 | 1000000 | — | — | `runs/amo/adaptive_multiscale/wme_s0_te1p25_tb1p25__b576b530` |
 | amo | adaptive_multiscale | `wme_s0_te1p25_tb1p25_unconst__42e85eda` | walker2d-medium-expert-v2 | 0 | 1000000 | 485000 | 109.75 | `runs/amo/adaptive_multiscale/wme_s0_te1p25_tb1p25_unconst__42e85eda` |
 | amo | adaptive_multiscale | `wme_s0_te5_tb5_Tlr0p002__99c0638d` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 112.63 | `runs/amo/adaptive_multiscale/wme_s0_te5_tb5_Tlr0p002__99c0638d` |
-| amo | adaptive_multiscale | `wmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__063320c8` | walker2d-medium-replay-v2 | 0 | 1000000 | 750000 | 2.16 | `runs/amo/adaptive_multiscale/wmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__063320c8` |
+| amo | adaptive_multiscale | `wmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__063320c8` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 6.49 | `runs/amo/adaptive_multiscale/wmr_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__063320c8` |
 | amo | adaptive_multiscale | `wmr_s0_te0p1_tb0p1_td3bc_Tlr0p002__89b32991` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 84.10 | `runs/amo/adaptive_multiscale/wmr_s0_te0p1_tb0p1_td3bc_Tlr0p002__89b32991` |
 | amo | adaptive_multiscale | `wmr_s0_te10_tb10_Tlr0p002__ac79a4a6` | walker2d-medium-replay-v2 | 0 | 1000000 | 30000 | 13.39 | `runs/amo/adaptive_multiscale/wmr_s0_te10_tb10_Tlr0p002__ac79a4a6` |
 | amo | adaptive_multiscale | `wmr_s0_te1_tb1_Tlr0p0005__59c7dfbd` | walker2d-medium-replay-v2 | 0 | 1000000 | 930000 | 92.78 | `runs/amo/adaptive_multiscale/wmr_s0_te1_tb1_Tlr0p0005__59c7dfbd` |
@@ -131,7 +131,7 @@ Total runs: **261**
 | amo | adaptive_multiscale | `wmr_s0_te1p25_tb1p25__e427f072` | walker2d-medium-replay-v2 | 0 | 1000000 | 145000 | 88.60 | `runs/amo/adaptive_multiscale/wmr_s0_te1p25_tb1p25__e427f072` |
 | amo | adaptive_multiscale | `wmr_s0_te1p25_tb1p25_unconst__74149577` | walker2d-medium-replay-v2 | 0 | 1000000 | 615000 | 89.25 | `runs/amo/adaptive_multiscale/wmr_s0_te1p25_tb1p25_unconst__74149577` |
 | amo | adaptive_multiscale | `wmr_s0_te5_tb5_Tlr0p002__121d6573` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 61.94 | `runs/amo/adaptive_multiscale/wmr_s0_te5_tb5_Tlr0p002__121d6573` |
-| amo | adaptive_multiscale | `wm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ba43e456` | walker2d-medium-v2 | 0 | 1000000 | 695000 | 1.94 | `runs/amo/adaptive_multiscale/wm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ba43e456` |
+| amo | adaptive_multiscale | `wm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ba43e456` | walker2d-medium-v2 | 0 | 1000000 | 975000 | 1.94 | `runs/amo/adaptive_multiscale/wm_s0_te0p005_tb0p005_td3bc_qraw_Tlr0p002__ba43e456` |
 | amo | adaptive_multiscale | `wm_s0_te0p1_tb0p1_td3bc_Tlr0p002__fc167570` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 23.90 | `runs/amo/adaptive_multiscale/wm_s0_te0p1_tb0p1_td3bc_Tlr0p002__fc167570` |
 | amo | adaptive_multiscale | `wm_s0_te10_tb10_Tlr0p002__3286184c` | walker2d-medium-v2 | 0 | 1000000 | 25000 | 6.64 | `runs/amo/adaptive_multiscale/wm_s0_te10_tb10_Tlr0p002__3286184c` |
 | amo | adaptive_multiscale | `wm_s0_te1_tb1_Tlr0p0005__9208ab1a` | walker2d-medium-v2 | 0 | 1000000 | 845000 | 84.92 | `runs/amo/adaptive_multiscale/wm_s0_te1_tb1_Tlr0p0005__9208ab1a` |
@@ -265,3 +265,10 @@ Total runs: **261**
 | apart | pi_only_xfit_target | `wme_s0_pi_only_xfit__fc11e1e8` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.07 | `runs/apart/pi_only_xfit_target/wme_s0_pi_only_xfit__fc11e1e8` |
 | apart | pi_only_xfit_target | `wmr_s0_pi_only_xfit__600eab13` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.77 | `runs/apart/pi_only_xfit_target/wmr_s0_pi_only_xfit__600eab13` |
 | apart | pi_only_xfit_target | `wm_s0_pi_only_xfit__247c4d61` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 100.47 | `runs/apart/pi_only_xfit_target/wm_s0_pi_only_xfit__247c4d61` |
+| iql | adaptive_beta | `hme_s0_iql_ab_loco4_b3_t0p7__643088a8` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 745000 | — | `runs/iql/adaptive_beta/hme_s0_iql_ab_loco4_b3_t0p7__643088a8` |
+| iql | adaptive_beta | `hcmr_s0_iql_ab_rem7_b3_t0p7__04fb4a9a` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 665000 | — | `runs/iql/adaptive_beta/hcmr_s0_iql_ab_rem7_b3_t0p7__04fb4a9a` |
+| iql | adaptive_beta | `hcm_s0_iql_ab_loco4_b3_t0p7__2e55752b` | halfcheetah-medium-v2 | 0 | 1000000 | 745000 | — | `runs/iql/adaptive_beta/hcm_s0_iql_ab_loco4_b3_t0p7__2e55752b` |
+| iql | adaptive_beta | `hopme_s0_iql_ab_loco4_b6_t0p5__1b89ce45` | hopper-medium-expert-v2 | 0 | 1000000 | 755000 | — | `runs/iql/adaptive_beta/hopme_s0_iql_ab_loco4_b6_t0p5__1b89ce45` |
+| iql | adaptive_beta | `hopmr_s0_iql_ab_rem7_b3_t0p7__cb2dec27` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/adaptive_beta/hopmr_s0_iql_ab_rem7_b3_t0p7__cb2dec27` |
+| iql | adaptive_beta | `hopm_s0_iql_ab_loco4_b3_t0p7__4cc2b175` | hopper-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/adaptive_beta/hopm_s0_iql_ab_loco4_b3_t0p7__4cc2b175` |
+| iql | adaptive_beta | `wm_s0_iql_ab_rem7_b3_t0p7__ddf34d9f` | walker2d-medium-v2 | 0 | 1000000 | 100000 | — | `runs/iql/adaptive_beta/wm_s0_iql_ab_rem7_b3_t0p7__ddf34d9f` |
