@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-08T18:11:01+09:00",
+  "collected_at": "2026-09-08T20:11:01+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "dual_proximal",
