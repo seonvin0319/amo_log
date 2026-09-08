@@ -1,0 +1,43 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "train_done.json",
+    "run_manifest.json"
+  ],
+  "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
+  "collected_at": "2026-09-08T23:15:44+00:00",
+  "env": "hopper-medium-v2",
+  "env_short": "hopm",
+  "family": "behavior_bc_l1_joint",
+  "git": {
+    "code_commit": "9710464f82c4db33b95ec9d6a68d7a822228e598",
+    "code_repo": "AMO-behavior-l1-joint-v2"
+  },
+  "legacy_name": "behavior_l1_hop-m_s0",
+  "run_id": "hopm_s0_joint_te4_l1e_1m_Tlr0p0001__8506951f",
+  "seed": 0,
+  "settings": {
+    "T_init": 4.0,
+    "actor_lr": 0.0003,
+    "algorithm_id": "behavior_bc_l1_joint_v2",
+    "batch_size": 256,
+    "critic_layernorm": false,
+    "discount": 0.99,
+    "env": "hopper-medium-v2",
+    "eval_policy_id": "execution",
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_warmup_steps": 100000,
+    "noise_clip": 0.0,
+    "normalize_reward": false,
+    "rho_lr": 0.0001,
+    "seed": 0
+  },
+  "source_config": "effective_config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
+  "variant": "joint_te4_l1e_1m_Tlr0p0001"
+}

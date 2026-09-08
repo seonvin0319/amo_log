@@ -1,0 +1,81 @@
+{
+  "fingerprints": {
+    "algorithm_id": "behavior_bc_l1_joint_v2",
+    "semantic_config_hash": "d0fab81d84c362f6263aa4535136b10926687e3b7aedeec39f8bc03da232890e",
+    "effective_config_hash": "91b17db319f32e6880f7ccd69c92e9bf9895d949cf3972ed6d42a41b7a32bb47",
+    "dataset": {
+      "dataset_path": "/raid/ext_csv/datasets/d4rl/halfcheetah_medium-v2.hdf5",
+      "raw_file_sha256": "41324e8487a9556d8cfa4538827f8937f4d63dae3030825ebc9f3a726ed08ca0",
+      "canonical_transition_count": 999000,
+      "state_dim": 17,
+      "action_dim": 6,
+      "action_low": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "action_high": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state_mean": [
+        -0.06845367820531911,
+        0.016389159993853902,
+        -0.18354863279412553,
+        -0.2762375278924571,
+        -0.3411428788908913,
+        -0.0934212733559039,
+        -0.21320820233930182,
+        -0.0877544660622187,
+        5.173081670294951,
+        -0.04275179652915489,
+        -0.03614752412595402,
+        0.14031034150557775,
+        0.06066263636003454,
+        0.09548142759813354,
+        0.06728861681940859,
+        0.005867088447974388,
+        0.013621601108401205
+      ],
+      "state_std": [
+        0.07574714952439326,
+        0.3034079507717005,
+        0.3031469083495903,
+        0.3452306787637572,
+        0.17733606060648968,
+        0.5082763312828104,
+        0.2577509624591523,
+        0.33056090910949293,
+        1.2589481815483519,
+        0.761207664245456,
+        1.981621211270633,
+        6.569315964658407,
+        7.468753357085058,
+        4.47539370015854,
+        10.570730906205373,
+        5.6741349480219245,
+        7.501329008896024
+      ],
+      "normalize_observations": true,
+      "observation_std_eps": 0.001,
+      "reward_preprocessing": "raw",
+      "normalize_reward": false,
+      "canonical_hashes": {
+        "observations": "85f8da51d1bff4356cfedb474471a8655b2eb354c730e80325ccc8ebd7b8832c",
+        "actions": "c84d66f29ed369e2a3dbf60b11472991dae5bd6ff4ef8bbbc4a88ea60b3321b4",
+        "rewards": "d5743748e2d3a4f2514d41cdc6a123264ad436f65de13f2b655329704a12beab",
+        "next_observations": "887453cafc1238cf0786694ee9653e12feed01a5e98933d40efe041304388950",
+        "terminals": "5cf62d287c33bded7200619f4516fcf877f86ca1b90c2f6fdeb5eacb1b7ea2fb"
+      }
+    },
+    "code_fingerprint": "ae1031af07c33a2c521dd3491623aded4c2cd71b5d6e8b9a698bb24940c7c8d9",
+    "smoke": false
+  }
+}

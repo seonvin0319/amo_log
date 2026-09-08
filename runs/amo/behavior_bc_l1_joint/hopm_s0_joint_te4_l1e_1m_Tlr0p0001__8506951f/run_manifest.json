@@ -1,0 +1,63 @@
+{
+  "fingerprints": {
+    "algorithm_id": "behavior_bc_l1_joint_v2",
+    "semantic_config_hash": "7e720aebafa8939c7d816fdf14a547cae6208cd5736bd8acfd11b2bd3b76aab5",
+    "effective_config_hash": "0e55483b6ff8f059431e70c726d7b169fb140be553031740731354b2bfa5999e",
+    "dataset": {
+      "dataset_path": "/raid/ext_csv/datasets/d4rl/hopper_medium-v2.hdf5",
+      "raw_file_sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+      "canonical_transition_count": 999998,
+      "state_dim": 11,
+      "action_dim": 3,
+      "action_low": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "action_high": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state_mean": [
+        1.3106408620144534,
+        -0.0846901684145902,
+        -0.5381894292265832,
+        -0.07202938622730926,
+        0.04934784518826711,
+        2.1066740613271784,
+        -0.1501437459121232,
+        0.008784797038315213,
+        -0.2848542310638557,
+        -0.1853926615452878,
+        -0.28468154469768514
+      ],
+      "state_std": [
+        0.17892085347165146,
+        0.05545671991938174,
+        0.21404605931848183,
+        0.14622501439529464,
+        0.6134338874250669,
+        0.8529863164590602,
+        1.4527563756979438,
+        0.6763493848672189,
+        1.5375752756555232,
+        1.619011001936677,
+        5.610227987091049
+      ],
+      "normalize_observations": true,
+      "observation_std_eps": 0.001,
+      "reward_preprocessing": "raw",
+      "normalize_reward": false,
+      "canonical_hashes": {
+        "observations": "468100a1a7ac02550d3830d35d80bd65ebb1efe0275246c376169cd0145191b2",
+        "actions": "d5e952779c8db342ab9bf1056112271e23578885309f640b2897e2814854c199",
+        "rewards": "a2a6ef89c88f41a6604949e7a63d239cb8768610f8a0959f15464bc2441bff52",
+        "next_observations": "97575dfbb87effc287ae9c4959e84eed01f2ae8a4a5c06120b50c410db788bc1",
+        "terminals": "396c2dd1cd9b65c29bd7b37e23b16164802694c85679f6af9ed8a0e485a4dae5"
+      }
+    },
+    "code_fingerprint": "ae1031af07c33a2c521dd3491623aded4c2cd71b5d6e8b9a698bb24940c7c8d9",
+    "smoke": false
+  }
+}

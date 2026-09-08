@@ -1,0 +1,81 @@
+{
+  "fingerprints": {
+    "algorithm_id": "behavior_bc_l1_joint_v2",
+    "semantic_config_hash": "759e7a7501524dbeca8d43cfa3c0eb2ca4da744c76555e5f25d55ed92eecbfa0",
+    "effective_config_hash": "1b7af91d1b40ef0d011fc5fbaa7c905f13f9fb7c88371af724af7ab7b29b5276",
+    "dataset": {
+      "dataset_path": "/raid/ext_csv/datasets/d4rl/halfcheetah_medium_expert-v2.hdf5",
+      "raw_file_sha256": "015db75dae5bbe8e94029b71fa0bafc2073365df0c94744e71031189f3f79c06",
+      "canonical_transition_count": 1998000,
+      "state_dim": 17,
+      "action_dim": 6,
+      "action_low": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "action_high": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state_mean": [
+        -0.05667406452267771,
+        0.024341364343648753,
+        -0.0615865183848093,
+        -0.2235288712889812,
+        -0.26795501379870856,
+        -0.07548715572807486,
+        -0.05810549892704949,
+        -0.027686155028909348,
+        8.109867332343544,
+        -0.06138127448047398,
+        -0.17989192993624173,
+        0.2519960352897607,
+        0.2424309093061781,
+        0.25185726551124155,
+        0.5874407137836176,
+        -0.24093912643452556,
+        -0.030085112540207574
+      ],
+      "state_std": [
+        0.062101427435345885,
+        0.36199267942130503,
+        0.45651585548171286,
+        0.3861169035274165,
+        0.2228546805044271,
+        0.568030490606056,
+        0.32089399826838105,
+        0.28656829029787945,
+        3.445214300164476,
+        0.6742815357818952,
+        1.8642218218837459,
+        9.578911164670625,
+        10.036930644022748,
+        5.908999965504049,
+        12.139272336777712,
+        6.485784177005193,
+        6.385885024052649
+      ],
+      "normalize_observations": true,
+      "observation_std_eps": 0.001,
+      "reward_preprocessing": "raw",
+      "normalize_reward": false,
+      "canonical_hashes": {
+        "observations": "03796c3661b255381d133c489a067fa810d9a6601a0178b2b0d99e6ff6697709",
+        "actions": "9fe1a122055a053e6a064b00b50c2e9100667ab47099e9982481c9bed1c23b39",
+        "rewards": "3b337c83c1b4d8c253780cc75ec148f559c70171d5c5cad09a1a33f3fb737b18",
+        "next_observations": "31e2b9e41f7e4b5f850825aa3b1e2f325bece22ff4deefef2f0e2d6416debade",
+        "terminals": "776bce968b53d010c612e184456945d1a1b24e4783c0f3bd2c4836e3b06f6e97"
+      }
+    },
+    "code_fingerprint": "ae1031af07c33a2c521dd3491623aded4c2cd71b5d6e8b9a698bb24940c7c8d9",
+    "smoke": false
+  }
+}

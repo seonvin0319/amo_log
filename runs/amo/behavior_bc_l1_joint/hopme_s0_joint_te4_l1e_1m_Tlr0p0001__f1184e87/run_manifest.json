@@ -1,0 +1,63 @@
+{
+  "fingerprints": {
+    "algorithm_id": "behavior_bc_l1_joint_v2",
+    "semantic_config_hash": "6c08a4e27fe5bd7e70fc68997cac26863c7c30afc3bb620d1044d4a7373eb3fa",
+    "effective_config_hash": "5ba1478355a3d0c756ecbc45eb7358119223b806ea43f9eb2dce3591a9dcdd51",
+    "dataset": {
+      "dataset_path": "/raid/ext_csv/datasets/d4rl/hopper_medium_expert-v2.hdf5",
+      "raw_file_sha256": "9d51ad87f8c905be3880d84c6140bcdb7fbf39a19e046a237f238ba34fec9e26",
+      "canonical_transition_count": 1998966,
+      "state_dim": 11,
+      "action_dim": 3,
+      "action_low": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "action_high": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state_mean": [
+        1.3296305136928435,
+        -0.09836531073160397,
+        -0.5444552241726741,
+        -0.10180242204485186,
+        0.023109382964512135,
+        2.3568019557215845,
+        -0.06397035573071723,
+        -0.003888604518031726,
+        -0.17652256414305495,
+        -0.11947429926923085,
+        -0.12231193683417987
+      ],
+      "state_std": [
+        0.17118557226152145,
+        0.05263083731234287,
+        0.1826182448468784,
+        0.16517352450231879,
+        0.6035063747763445,
+        0.7754837631052515,
+        1.5005652537155272,
+        0.7499149819457928,
+        1.7980011495923292,
+        2.055404905795679,
+        5.733442491945637
+      ],
+      "normalize_observations": true,
+      "observation_std_eps": 0.001,
+      "reward_preprocessing": "raw",
+      "normalize_reward": false,
+      "canonical_hashes": {
+        "observations": "4bdab8839a53388b1abe8b281bfe2eb6a959525ee01026a85a1a4ec7120439dd",
+        "actions": "419acc62372726717db9e92bc25a888023efd5844d0f18f3d1144f1570b141de",
+        "rewards": "b7f519465ddf79a61067d5c3ea7c577792249098d536c4f6a48cdf744f989f96",
+        "next_observations": "7c063f374170e2b5386843f9bee8ad1c17147d2cd9d07e10762a6e28b4355be8",
+        "terminals": "97e9d23c37e3a7375f1660255e580cf6c6a5859709a41cb6b4325ff0c21fc399"
+      }
+    },
+    "code_fingerprint": "ae1031af07c33a2c521dd3491623aded4c2cd71b5d6e8b9a698bb24940c7c8d9",
+    "smoke": false
+  }
+}

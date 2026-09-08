@@ -1,0 +1,74 @@
+T_init: 4.0
+T_max: 20.0
+T_min: 0.05
+actor_adam_betas:
+- 0.9
+- 0.999
+actor_delay: 2
+actor_hidden_dims:
+- 256
+- 256
+actor_lr: 0.0003
+adam_eps: 1.0e-08
+algorithm_id: behavior_bc_l1_joint_v2
+allow_tf32: false
+amsgrad: false
+batch_size: 256
+bc_eval_every: 50000
+behavior_adam_betas:
+- 0.9
+- 0.999
+behavior_lr: 0.0003
+checkpoint_every: 50000
+cpu_threads: 1
+critic_adam_betas:
+- 0.9
+- 0.999
+critic_hidden_dims:
+- 256
+- 256
+critic_layernorm: false
+critic_lr: 0.0003
+dataset_path: /raid/ext_csv/datasets/d4rl/Ant_maze_u-maze_noisy_multistart_True_multigoal_True_sparse_fixed.hdf5
+deterministic_algorithms: true
+device: cuda:0
+discount: 0.99
+env: antmaze-umaze-diverse-v2
+eval_episodes: 10
+eval_every: 5000
+eval_policy_id: execution
+eval_return_std_ddof: 1
+eval_seed_base: 100000
+eval_seed_training_stride: 1000
+external_logging: false
+initialization: pytorch_linear_default
+log_all_meta_events: true
+log_panel_seed: 7
+log_panel_size: 256
+max_steps: 1000000
+meta_interval_critic_steps: 40
+meta_parameter_dtype: float64
+meta_warmup_steps: 100000
+metrics_every: 200
+noise_clip: 0.0
+normalize_observations: true
+normalize_reward: false
+observation_std_eps: 0.001
+outer_batch_size: 256
+outer_seed_offset: 30000
+output_dir: /home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0
+policy_noise_std: 0.0
+protocol_version: behavior_bc_l1_joint_v2
+q_scale_eps: 1.0e-06
+replay_seed_offset: 10000
+rho_adam_betas:
+- 0.0
+- 0.999
+rho_adam_eps: 1.0e-08
+rho_lr: 0.0001
+seed: 0
+target_polyak: 0.005
+training_dtype: float32
+use_amp: false
+use_torch_compile: false
+weight_decay: 0.0
