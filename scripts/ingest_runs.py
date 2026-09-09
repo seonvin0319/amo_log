@@ -65,6 +65,28 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "behavior_bc_l1_joint",
         "nested": False,
     },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/ext_csv/AMO/results/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO",
+        "code_commit": "a8c1e48a233e750e5f51043d220187d0d6c23871",
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/ext_csv/AMO/results/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO",
+        "code_commit": "a8c1e48a233e750e5f51043d220187d0d6c23871",
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
 ]
 
 CFG_NAMES = ("config.yaml", "effective_config.yaml")
