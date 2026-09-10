@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_locomotion4_s0/halfcheetah-medium-expert-v2",
-  "collected_at": "2026-09-10T15:32:05+00:00",
+  "collected_at": "2026-09-10T15:37:17+00:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "adaptive_beta",
