@@ -5,17 +5,17 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s2-hopper-medium-replay-v2-b42f2154",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s2-hopper-medium-expert-v2-21ee11d6",
   "collected_at": "2026-09-10T12:44:17+00:00",
-  "env": "hopper-medium-replay-v2",
-  "env_short": "hopmr",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
   "family": "adaptive_multiscale",
   "git": {
     "code_commit": "30abcfcfbc62b892c6c0a7d0763c1c8323154d11",
     "code_repo": "AMO-lambda0-te-tb"
   },
-  "legacy_name": "amo_ams_h-mr_Te1_Tb1_1em3_s2-hopper-medium-replay-v2-b42f2154",
-  "run_id": "hopmr_s2_te1_tb1_Tlr0p001__b42f2154",
+  "legacy_name": "amo_ams_h-me_Te1_Tb1_1em3_s2-hopper-medium-expert-v2-21ee11d6",
+  "run_id": "hopme_s2_te1_tb1_Tlr0p001__21ee11d6",
   "seed": 2,
   "settings": {
     "T_B": 1.0,
@@ -24,8 +24,11 @@
     "T_lr": 0.001,
     "adaptive_multiscale": true,
     "batch_size": 256,
+    "critic_hidden_dim": 256,
+    "critic_layernorm": true,
+    "critic_n_hiddens": 3,
     "discount": 0.99,
-    "env": "hopper-medium-replay-v2",
+    "env": "hopper-medium-expert-v2",
     "eval_freq": 5000,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
@@ -40,6 +43,6 @@
   },
   "source_config": "config.yaml",
   "source_host": "ext_csv",
-  "source_path": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s2-hopper-medium-replay-v2-b42f2154",
+  "source_path": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s2-hopper-medium-expert-v2-21ee11d6",
   "variant": "te1_tb1_Tlr0p001"
 }
