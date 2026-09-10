@@ -15,7 +15,7 @@ Not collected (empty or logs-only):
 
 ## Host `shchoi` (`iisl-server04`)
 
-Collected 2026-09-07. JAX AMO logs only. **No APART tree on this host.** Checkpoints (`*.pkl`) and per-update `amo_*_metrics.jsonl` (tens–hundreds of MB) were **not** copied. `config.json` → `config.yaml`, eval rows extracted into `eval.jsonl`.
+Collected 2026-09-07 (JAX) and 2026-09-10 (PyTorch). **No APART tree on this host.** Checkpoints (`*.pkl`, `*.pt`) and per-update `amo_*_metrics.jsonl` (tens–hundreds of MB) were **not** copied. JAX: `config.json` → `config.yaml`, eval rows extracted into `eval.jsonl`.
 
 | Source path | algo | family (assigned) | #runs |
 |-------------|------|-------------------|------:|
@@ -23,6 +23,8 @@ Collected 2026-09-07. JAX AMO logs only. **No APART tree on this host.** Checkpo
 | `/home/shchoi/AMO/results_amo_v2_pilot` | amo | `jax_v2` / `jax_td3bc` | 17 (2 incomplete; skip s2 T025 no metrics) |
 | `/home/shchoi/AMO/results_amo_v3_pilot` | amo | `jax_v3a` / `jax_v3b` | 6 (v3b 3 incomplete) |
 | `/home/shchoi/AMO/results_amo_v2_1m` | amo | `jax_v2` | 1 incomplete (hopper-medium) |
+| `/home/shchoi/amo_td3bc/results/amo_td3bc_locomotion9_seed0/runs` | amo | `amo_td3bc` | locomotion-9 seed 0 (live) |
+| `/home/shchoi/amo_lambda0_fork_diag/results/rebrac_amo_locomotion9_seed0/runs` | amo | `rebrac_amo` | locomotion-9 seed 0 |
 
 Not collected:
 

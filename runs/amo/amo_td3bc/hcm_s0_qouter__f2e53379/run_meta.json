@@ -1,0 +1,43 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-10T11:26:57+09:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "amo_td3bc",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amo_td3bc_hc-m_s0-halfcheetah-medium-v2-f2e53379",
+  "run_id": "hcm_s0_qouter__f2e53379",
+  "seed": 0,
+  "settings": {
+    "T_E": 1.25,
+    "T_freq": 10,
+    "T_lr": 0.0002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 5000,
+    "last_metrics_step": 181000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/amo_td3bc/results/amo_td3bc_locomotion9_seed0/runs/amo_td3bc_hc-m_s0-halfcheetah-medium-v2-f2e53379",
+  "variant": "qouter"
+}

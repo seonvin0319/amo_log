@@ -1,9 +1,11 @@
 # Experiment catalog
 
-Total runs: **89**
+Total runs: **100**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
+| amo | amo_td3bc | `hcmr_s0_qouter__dacfe9c9` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 180000 | 45.96 | `runs/amo/amo_td3bc/hcmr_s0_qouter__dacfe9c9` |
+| amo | amo_td3bc | `hcm_s0_qouter__f2e53379` | halfcheetah-medium-v2 | 0 | 1000000 | 180000 | 50.35 | `runs/amo/amo_td3bc/hcm_s0_qouter__f2e53379` |
 | amo | jax_td3bc | `wmr_s0_td3bc__b8c70bf0` | walker2d-medium-replay-v2 | 0 | 300000 | 300000 | 43.78 | `runs/amo/jax_td3bc/wmr_s0_td3bc__b8c70bf0` |
 | amo | jax_td3bc | `wmr_s1_td3bc__bfff8e4f` | walker2d-medium-replay-v2 | 1 | 300000 | 300000 | 78.83 | `runs/amo/jax_td3bc/wmr_s1_td3bc__bfff8e4f` |
 | amo | jax_td3bc | `wmr_s2_td3bc__ac280739` | walker2d-medium-replay-v2 | 2 | 300000 | 300000 | 83.21 | `runs/amo/jax_td3bc/wmr_s2_td3bc__ac280739` |
@@ -28,6 +30,15 @@ Total runs: **89**
 | amo | jax_v3b | `wmr_s0_v3b_incomplete__b3d7c6dd` | walker2d-medium-replay-v2 | 0 | 300000 | 220000 | 82.31 | `runs/amo/jax_v3b/wmr_s0_v3b_incomplete__b3d7c6dd` |
 | amo | jax_v3b | `wmr_s1_v3b_incomplete__c896c7ce` | walker2d-medium-replay-v2 | 1 | 300000 | 220000 | 81.20 | `runs/amo/jax_v3b/wmr_s1_v3b_incomplete__c896c7ce` |
 | amo | jax_v3b | `wmr_s2_v3b_incomplete__cef781f8` | walker2d-medium-replay-v2 | 2 | 300000 | 225000 | 86.79 | `runs/amo/jax_v3b/wmr_s2_v3b_incomplete__cef781f8` |
+| amo | rebrac_amo | `hme_s0_rebrac__af7d1844` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 103.33 | `runs/amo/rebrac_amo/hme_s0_rebrac__af7d1844` |
+| amo | rebrac_amo | `hcmr_s0_rebrac__27893751` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 46.57 | `runs/amo/rebrac_amo/hcmr_s0_rebrac__27893751` |
+| amo | rebrac_amo | `hcm_s0_rebrac__f09e1474` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 52.82 | `runs/amo/rebrac_amo/hcm_s0_rebrac__f09e1474` |
+| amo | rebrac_amo | `hopme_s0_rebrac__823fd6cd` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 113.56 | `runs/amo/rebrac_amo/hopme_s0_rebrac__823fd6cd` |
+| amo | rebrac_amo | `hopmr_s0_rebrac__46c8c2ff` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.23 | `runs/amo/rebrac_amo/hopmr_s0_rebrac__46c8c2ff` |
+| amo | rebrac_amo | `hopm_s0_rebrac__000fdf22` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 70.75 | `runs/amo/rebrac_amo/hopm_s0_rebrac__000fdf22` |
+| amo | rebrac_amo | `wme_s0_rebrac__a861d22b` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 109.62 | `runs/amo/rebrac_amo/wme_s0_rebrac__a861d22b` |
+| amo | rebrac_amo | `wmr_s0_rebrac__1cd0e08d` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 90.63 | `runs/amo/rebrac_amo/wmr_s0_rebrac__1cd0e08d` |
+| amo | rebrac_amo | `wm_s0_rebrac__0f1c96f6` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 87.55 | `runs/amo/rebrac_amo/wm_s0_rebrac__0f1c96f6` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
 | apart | chain | `hme_s0_n2__3a87ef6d` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 94.26 | `runs/apart/chain/hme_s0_n2__3a87ef6d` |

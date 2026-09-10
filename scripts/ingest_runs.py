@@ -112,6 +112,25 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "kind": "jax",
         "nested": True,
     },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/shchoi/amo_td3bc/results/amo_td3bc_locomotion9_seed0/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "amo_td3bc",
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/shchoi/amo_lambda0_fork_diag/results/"
+            "rebrac_amo_locomotion9_seed0/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "rebrac_amo",
+    },
 ]
 
 
@@ -323,6 +342,11 @@ def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str
         method = str(cfg.get("pi_bound_method", "secant"))
         if method == "segment_interval":
             return "segment_interval"
+        if cfg.get("rebrac_critic_bc"):
+            return "rebrac_amo"
+        name = str(cfg.get("name", ""))
+        if cfg.get("adaptive_multiscale") and "td3bc" in name:
+            return "amo_td3bc"
         if cfg.get("adaptive_multiscale"):
             return "adaptive_multiscale"
         return "secant"
@@ -375,6 +399,10 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         tokens.append("v3b")
     if family == "jax_td3bc":
         tokens.append("td3bc")
+    if family == "rebrac_amo":
+        tokens.append("rebrac")
+    if family == "amo_td3bc":
+        tokens.append("qouter")
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")
@@ -434,6 +462,8 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "amo_v2_inner_steps",
         "amo_v3a_target_ratio",
         "amo_v3b_horizon_ratio",
+        "rebrac_critic_bc",
+        "actor_n_hiddens",
         "run_id",
         "sweep_name",
     ]

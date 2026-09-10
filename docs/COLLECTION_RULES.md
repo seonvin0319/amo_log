@@ -50,6 +50,8 @@
 | `amo` | `jax_v3a` | JAX AMO v3a (ratio controller) |
 | `amo` | `jax_v3b` | JAX AMO v3b (horizon-ratio) |
 | `amo` | `jax_td3bc` | JAX TD3+BC baseline (AMO off) |
+| `amo` | `rebrac_amo` | PyTorch adaptive_multiscale + ReBRAC critic BC |
+| `amo` | `amo_td3bc` | PyTorch adaptive_multiscale, T_E maximizes Q_1_target(s, π+) |
 
 새 family를 만들 때는 `docs/NAMING.md`에 한 줄 추가하고, ingest 매핑 테이블을 갱신한다.
 
