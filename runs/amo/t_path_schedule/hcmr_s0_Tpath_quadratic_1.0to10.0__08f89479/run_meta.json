@@ -6,16 +6,16 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_1to10_1m-halfcheetah-medium-replay-v2-08f89479/checkpoint_999999.pt",
-  "collected_at": "2026-09-10T20:06:22+09:00",
+  "collected_at": "2026-09-10T20:11:23+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "t_path_schedule",
-  "final_score": 43.72754120306857,
+  "final_score": 44.07760495188183,
   "git": {
     "code_commit": null,
     "code_repo": "AMO-t-path-linear-vs-quadratic"
   },
-  "last_eval_step": 75000,
+  "last_eval_step": 130000,
   "legacy_name": "hcmr_s0_Tpath_quad_1to10_1m-halfcheetah-medium-replay-v2-08f89479",
   "run_id": "hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479",
   "seed": 0,
