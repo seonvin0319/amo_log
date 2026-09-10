@@ -4,11 +4,11 @@ Total runs: **73**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
-| amo | antmaze_t_init_tune | `amu_s0_te10_tb1__378d41ca` | antmaze-umaze-v2 | 0 | 1000000 | 40000 | 19.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te10_tb1__378d41ca` |
+| amo | antmaze_t_init_tune | `amu_s0_te10_tb1__378d41ca` | antmaze-umaze-v2 | 0 | 1000000 | 70000 | 22.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te10_tb1__378d41ca` |
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb10__2c7add6b` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 94.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb10__2c7add6b` |
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb1__27fc6fa1` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 93.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb1__27fc6fa1` |
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb5__590131b8` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 96.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb5__590131b8` |
-| amo | antmaze_t_init_tune | `amu_s0_te5_tb10__09524cf3` | antmaze-umaze-v2 | 0 | 1000000 | 930000 | 71.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb10__09524cf3` |
+| amo | antmaze_t_init_tune | `amu_s0_te5_tb10__09524cf3` | antmaze-umaze-v2 | 0 | 1000000 | 975000 | 93.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb10__09524cf3` |
 | amo | antmaze_t_init_tune | `amu_s0_te5_tb1__e97c64ac` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 83.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb1__e97c64ac` |
 | amo | antmaze_t_init_tune | `amu_s0_te5_tb5__ed7d7e67` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 86.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb5__ed7d7e67` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
