@@ -6,7 +6,7 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_w-mr_s0/checkpoint_999999.pt",
-  "collected_at": "2026-09-10T20:31:21+09:00",
+  "collected_at": "2026-09-10T20:36:23+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "four_eval_fixed_n",
