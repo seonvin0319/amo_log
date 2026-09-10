@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/ammp_s0_pi_local-antmaze-medium-play-v2-2fee7f1d/checkpoint_999999.pt",
-  "collected_at": "2026-09-10T20:16:20+09:00",
+  "collected_at": "2026-09-10T20:21:25+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "pi_local_aspc",
