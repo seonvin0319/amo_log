@@ -8,7 +8,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -55,7 +55,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -102,7 +102,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -149,16 +149,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
-      "final_score": 92.0,
+      "final_score": 72.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 915000,
+      "last_eval_step": 955000,
       "legacy_name": "amo_am_te5_tb1_amu_s0-antmaze-umaze-v2-e97c64ac",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te5_tb1__e97c64ac",
@@ -196,16 +196,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
-      "final_score": 74.0,
+      "final_score": 75.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 35000,
+      "last_eval_step": 70000,
       "legacy_name": "amo_am_te5_tb5_amu_s0-antmaze-umaze-v2-ed7d7e67",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te5_tb5__ed7d7e67",
@@ -291,7 +291,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "segment_interval",
@@ -339,7 +339,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -384,7 +384,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -429,7 +429,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -474,7 +474,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -519,7 +519,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "chain",
@@ -564,7 +564,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -610,7 +610,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -656,7 +656,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -702,7 +702,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -748,7 +748,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -794,7 +794,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -840,7 +840,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -886,7 +886,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -932,7 +932,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -978,7 +978,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -1024,7 +1024,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -1070,7 +1070,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -1116,7 +1116,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -1162,7 +1162,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -1208,7 +1208,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1254,7 +1254,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1300,7 +1300,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1346,7 +1346,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1392,7 +1392,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1438,7 +1438,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1484,7 +1484,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1530,7 +1530,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -1576,7 +1576,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -1622,7 +1622,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -1668,7 +1668,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -1714,7 +1714,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -1760,7 +1760,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -1806,7 +1806,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -1852,7 +1852,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -1898,7 +1898,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -1944,7 +1944,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -1990,7 +1990,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -2036,7 +2036,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -2082,7 +2082,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -2128,7 +2128,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -2174,7 +2174,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -2220,7 +2220,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -2266,7 +2266,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -2312,7 +2312,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -2358,7 +2358,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -2404,7 +2404,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -2450,7 +2450,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -2496,7 +2496,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2538,7 +2538,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2580,7 +2580,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2622,7 +2622,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2664,7 +2664,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2706,7 +2706,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2748,7 +2748,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2790,7 +2790,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_mpi_nstep",
@@ -2832,7 +2832,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "pi_only_xfit_target",
@@ -2873,7 +2873,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "pi_only_xfit_target",
@@ -2914,7 +2914,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "pi_only_xfit_target",
@@ -2955,7 +2955,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "pi_only_xfit_target",
@@ -2996,7 +2996,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_target",
@@ -3037,7 +3037,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "pi_only_xfit_target",
@@ -3078,7 +3078,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "pi_only_xfit_target",
@@ -3119,7 +3119,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "pi_only_xfit_target",
@@ -3160,7 +3160,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-10T23:52:02+09:00",
+      "collected_at": "2026-09-10T23:57:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_target",
