@@ -6,12 +6,12 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-div_Te1_Tb1_5em4_s0-antmaze-large-diverse-v2-e4db6bec",
-  "collected_at": "2026-09-09T00:02:46+00:00",
+  "collected_at": "2026-09-10T02:18:25+00:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "adaptive_multiscale",
   "git": {
-    "code_commit": "a8c1e48a233e750e5f51043d220187d0d6c23871",
+    "code_commit": "c45671c47cfae89154331e9c9dab59b9cdbc9c40",
     "code_repo": "AMO"
   },
   "legacy_name": "amo_ams_large-div_Te1_Tb1_5em4_s0-antmaze-large-diverse-v2-e4db6bec",

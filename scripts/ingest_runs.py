@@ -53,6 +53,9 @@ ENV_SHORT = {
 }
 
 # Host ext_csv only. Other machines keep their own branches/sources.
+# Prefer /raid/ext_csv/AMO_store when that is the canonical store (home may symlink).
+_LAMBDA0 = "30abcfcfbc62b892c6c0a7d0763c1c8323154d11"
+_AMO = "c45671c47cfae89154331e9c9dab59b9cdbc9c40"
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
@@ -68,22 +71,77 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
         "root": Path(
-            "/home/ext_csv/AMO/results/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs"
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs"
         ),
         "host": "ext_csv",
         "code_repo": "AMO",
-        "code_commit": "a8c1e48a233e750e5f51043d220187d0d6c23871",
+        "code_commit": _AMO,
         "family_force": "adaptive_multiscale",
         "nested": False,
     },
     {
         "algo": "amo",
         "root": Path(
-            "/home/ext_csv/AMO/results/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs"
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs"
         ),
         "host": "ext_csv",
         "code_repo": "AMO",
-        "code_commit": "a8c1e48a233e750e5f51043d220187d0d6c23871",
+        "code_commit": _AMO,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO",
+        "code_commit": _AMO,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-lambda0-te-tb",
+        "code_commit": _LAMBDA0,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-lambda0-te-tb",
+        "code_commit": _LAMBDA0,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-lambda0-te-tb",
+        "code_commit": _LAMBDA0,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO",
+        "code_commit": _AMO,
         "family_force": "adaptive_multiscale",
         "nested": False,
     },

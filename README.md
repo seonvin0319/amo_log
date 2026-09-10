@@ -6,6 +6,7 @@
 - **포함:** `config.yaml`, `metrics.jsonl`, `eval.jsonl`, `run_meta.json`
 - **제외:** checkpoint(`*.pt`), wandb 바이너리, 대용량 버퍼
 - **규칙:** [docs/COLLECTION_RULES.md](docs/COLLECTION_RULES.md), [docs/NAMING.md](docs/NAMING.md), [docs/SOURCES.md](docs/SOURCES.md)
+- **자동 push:** [docs/AUTO_PUSH.md](docs/AUTO_PUSH.md) (`scripts/auto_push.sh`, 2h loop)
 - **카탈로그:** [catalog/INDEX.md](catalog/INDEX.md), [catalog/catalog.json](catalog/catalog.json)
 
 ## 빠른 사용

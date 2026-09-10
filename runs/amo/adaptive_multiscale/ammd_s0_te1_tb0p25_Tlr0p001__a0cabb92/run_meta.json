@@ -1,0 +1,45 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_med-div_Te1_Tb025_1em3_s0-antmaze-medium-diverse-v2-a0cabb92",
+  "collected_at": "2026-09-10T02:18:26+00:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": "30abcfcfbc62b892c6c0a7d0763c1c8323154d11",
+    "code_repo": "AMO-lambda0-te-tb"
+  },
+  "legacy_name": "amo_ams_med-div_Te1_Tb025_1em3_s0-antmaze-medium-diverse-v2-a0cabb92",
+  "run_id": "ammd_s0_te1_tb0p25_Tlr0p001__a0cabb92",
+  "seed": 0,
+  "settings": {
+    "T_B": 0.25,
+    "T_E": 1.0,
+    "T_freq": 10,
+    "T_lr": 0.001,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-medium-diverse-v2",
+    "eval_freq": 20000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_med-div_Te1_Tb025_1em3_s0-antmaze-medium-diverse-v2-a0cabb92",
+  "variant": "te1_tb0p25_Tlr0p001"
+}
