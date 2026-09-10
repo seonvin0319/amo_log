@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **67**
+Total runs: **68**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -54,11 +54,12 @@ Total runs: **67**
 | amo | adaptive_multiscale | `amu_s1_te1_tb1_Tlr0p001__8dca75a3` | antmaze-umaze-v2 | 1 | 1000000 | 1000000 | 94.00 | `runs/amo/adaptive_multiscale/amu_s1_te1_tb1_Tlr0p001__8dca75a3` |
 | amo | adaptive_multiscale | `hme_s0_te1_tb0p25_Tlr0p001__f95622b8` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 104.08 | `runs/amo/adaptive_multiscale/hme_s0_te1_tb0p25_Tlr0p001__f95622b8` |
 | amo | adaptive_multiscale | `hcmr_s0_te1_tb0p25_Tlr0p001__e6e86402` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 49.52 | `runs/amo/adaptive_multiscale/hcmr_s0_te1_tb0p25_Tlr0p001__e6e86402` |
-| amo | adaptive_multiscale | `hcmr_s1_te1_tb1_Tlr0p001__2479d7b2` | halfcheetah-medium-replay-v2 | 1 | 1000000 | 755000 | 48.26 | `runs/amo/adaptive_multiscale/hcmr_s1_te1_tb1_Tlr0p001__2479d7b2` |
+| amo | adaptive_multiscale | `hcmr_s1_te1_tb1_Tlr0p001__2479d7b2` | halfcheetah-medium-replay-v2 | 1 | 1000000 | 785000 | 48.62 | `runs/amo/adaptive_multiscale/hcmr_s1_te1_tb1_Tlr0p001__2479d7b2` |
+| amo | adaptive_multiscale | `hcmr_s2_te1_tb1_Tlr0p001__d317dbc3` | halfcheetah-medium-replay-v2 | 2 | 1000000 | — | — | `runs/amo/adaptive_multiscale/hcmr_s2_te1_tb1_Tlr0p001__d317dbc3` |
 | amo | adaptive_multiscale | `hcm_s0_te1_tb0p25_Tlr0p001__91f0fe7c` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 48.76 | `runs/amo/adaptive_multiscale/hcm_s0_te1_tb0p25_Tlr0p001__91f0fe7c` |
-| amo | adaptive_multiscale | `hcm_s1_te1_tb1_Tlr0p001__9cb24bd9` | halfcheetah-medium-v2 | 1 | 1000000 | 870000 | 57.64 | `runs/amo/adaptive_multiscale/hcm_s1_te1_tb1_Tlr0p001__9cb24bd9` |
-| amo | adaptive_multiscale | `hcm_s2_te1_tb1_Tlr0p001__7bc0dfef` | halfcheetah-medium-v2 | 2 | 1000000 | 970000 | 57.75 | `runs/amo/adaptive_multiscale/hcm_s2_te1_tb1_Tlr0p001__7bc0dfef` |
-| amo | adaptive_multiscale | `hcm_s3_te1_tb1_Tlr0p001__7693ae87` | halfcheetah-medium-v2 | 3 | 1000000 | 870000 | 57.62 | `runs/amo/adaptive_multiscale/hcm_s3_te1_tb1_Tlr0p001__7693ae87` |
+| amo | adaptive_multiscale | `hcm_s1_te1_tb1_Tlr0p001__9cb24bd9` | halfcheetah-medium-v2 | 1 | 1000000 | 900000 | 58.12 | `runs/amo/adaptive_multiscale/hcm_s1_te1_tb1_Tlr0p001__9cb24bd9` |
+| amo | adaptive_multiscale | `hcm_s2_te1_tb1_Tlr0p001__7bc0dfef` | halfcheetah-medium-v2 | 2 | 1000000 | 1000000 | 58.17 | `runs/amo/adaptive_multiscale/hcm_s2_te1_tb1_Tlr0p001__7bc0dfef` |
+| amo | adaptive_multiscale | `hcm_s3_te1_tb1_Tlr0p001__7693ae87` | halfcheetah-medium-v2 | 3 | 1000000 | 900000 | 57.55 | `runs/amo/adaptive_multiscale/hcm_s3_te1_tb1_Tlr0p001__7693ae87` |
 | amo | adaptive_multiscale | `hopme_s0_te1_tb0p25_Tlr0p001__b82fb9f0` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 103.02 | `runs/amo/adaptive_multiscale/hopme_s0_te1_tb0p25_Tlr0p001__b82fb9f0` |
 | amo | adaptive_multiscale | `hopmr_s0_te1_tb0p25_Tlr0p001__0c2793b4` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.43 | `runs/amo/adaptive_multiscale/hopmr_s0_te1_tb0p25_Tlr0p001__0c2793b4` |
 | amo | adaptive_multiscale | `hopm_s0_te1_tb0p25_Tlr0p001__ceda205a` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 100.31 | `runs/amo/adaptive_multiscale/hopm_s0_te1_tb0p25_Tlr0p001__ceda205a` |
