@@ -283,5 +283,5 @@ Total runs: **281**
 | iql | adaptive_beta | `hopme_s0_iql_ab_loco4_b6_t0p5__1b89ce45` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/adaptive_beta/hopme_s0_iql_ab_loco4_b6_t0p5__1b89ce45` |
 | iql | adaptive_beta | `hopmr_s0_iql_ab_rem7_b3_t0p7__cb2dec27` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/adaptive_beta/hopmr_s0_iql_ab_rem7_b3_t0p7__cb2dec27` |
 | iql | adaptive_beta | `hopm_s0_iql_ab_loco4_b3_t0p7__4cc2b175` | hopper-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/adaptive_beta/hopm_s0_iql_ab_loco4_b3_t0p7__4cc2b175` |
-| iql | adaptive_beta | `wme_s0_iql_ab_rem7_b3_t0p7__be3e179f` | walker2d-medium-expert-v2 | 0 | 1000000 | 615000 | — | `runs/iql/adaptive_beta/wme_s0_iql_ab_rem7_b3_t0p7__be3e179f` |
-| iql | adaptive_beta | `wm_s0_iql_ab_rem7_b3_t0p7__ddf34d9f` | walker2d-medium-v2 | 0 | 1000000 | 725000 | — | `runs/iql/adaptive_beta/wm_s0_iql_ab_rem7_b3_t0p7__ddf34d9f` |
+| iql | adaptive_beta | `wme_s0_iql_ab_rem7_b3_t0p7__be3e179f` | walker2d-medium-expert-v2 | 0 | 1000000 | 630000 | — | `runs/iql/adaptive_beta/wme_s0_iql_ab_rem7_b3_t0p7__be3e179f` |
+| iql | adaptive_beta | `wm_s0_iql_ab_rem7_b3_t0p7__ddf34d9f` | walker2d-medium-v2 | 0 | 1000000 | 735000 | — | `runs/iql/adaptive_beta/wm_s0_iql_ab_rem7_b3_t0p7__ddf34d9f` |
