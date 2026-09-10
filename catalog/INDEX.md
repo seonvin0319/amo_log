@@ -4,10 +4,10 @@ Total runs: **70**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
-| amo | antmaze_t_init_tune | `amu_s0_te1_tb10__2c7add6b` | antmaze-umaze-v2 | 0 | 1000000 | 385000 | 97.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb10__2c7add6b` |
+| amo | antmaze_t_init_tune | `amu_s0_te1_tb10__2c7add6b` | antmaze-umaze-v2 | 0 | 1000000 | 425000 | 93.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb10__2c7add6b` |
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb1__27fc6fa1` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 93.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb1__27fc6fa1` |
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb5__590131b8` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 96.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb5__590131b8` |
-| amo | antmaze_t_init_tune | `amu_s0_te5_tb1__e97c64ac` | antmaze-umaze-v2 | 0 | 1000000 | 320000 | 66.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb1__e97c64ac` |
+| amo | antmaze_t_init_tune | `amu_s0_te5_tb1__e97c64ac` | antmaze-umaze-v2 | 0 | 1000000 | 350000 | 45.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb1__e97c64ac` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
 | amo | segment_interval | `hopme_s0_seg4_te1.25_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_te1.25_smoke__c3cff423` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
