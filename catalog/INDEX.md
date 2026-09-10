@@ -7,9 +7,9 @@ Total runs: **72**
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb10__2c7add6b` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 94.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb10__2c7add6b` |
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb1__27fc6fa1` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 93.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb1__27fc6fa1` |
 | amo | antmaze_t_init_tune | `amu_s0_te1_tb5__590131b8` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 96.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb5__590131b8` |
-| amo | antmaze_t_init_tune | `amu_s0_te5_tb10__09524cf3` | antmaze-umaze-v2 | 0 | 1000000 | 720000 | 87.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb10__09524cf3` |
+| amo | antmaze_t_init_tune | `amu_s0_te5_tb10__09524cf3` | antmaze-umaze-v2 | 0 | 1000000 | 760000 | 82.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb10__09524cf3` |
 | amo | antmaze_t_init_tune | `amu_s0_te5_tb1__e97c64ac` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 83.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb1__e97c64ac` |
-| amo | antmaze_t_init_tune | `amu_s0_te5_tb5__ed7d7e67` | antmaze-umaze-v2 | 0 | 1000000 | 855000 | 81.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb5__ed7d7e67` |
+| amo | antmaze_t_init_tune | `amu_s0_te5_tb5__ed7d7e67` | antmaze-umaze-v2 | 0 | 1000000 | 900000 | 93.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te5_tb5__ed7d7e67` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
 | amo | segment_interval | `hopme_s0_seg4_te1.25_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_te1.25_smoke__c3cff423` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
