@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-lp_s0-antmaze-large-play-v2-3d4cb5df",
-  "collected_at": "2026-09-10T19:21:39+00:00",
+  "collected_at": "2026-09-10T19:26:58+00:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "adaptive_multiscale",
