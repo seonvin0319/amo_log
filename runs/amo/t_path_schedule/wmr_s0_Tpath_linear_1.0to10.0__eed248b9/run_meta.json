@@ -6,7 +6,7 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_linear_1to10_1m-walker2d-medium-replay-v2-eed248b9/checkpoint_999999.pt",
-  "collected_at": "2026-09-10T21:01:24+09:00",
+  "collected_at": "2026-09-10T21:06:22+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "t_path_schedule",
