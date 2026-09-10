@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **98**
+Total runs: **104**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -34,8 +34,14 @@ Total runs: **98**
 | amo | pi_only | `amud_s0_pi_only__7fe82122` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 180000 | 44.00 | `runs/amo/pi_only/amud_s0_pi_only__7fe82122` |
 | amo | pi_only | `amu_s0_pi_only__5015e62a` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 87.00 | `runs/amo/pi_only/amu_s0_pi_only__5015e62a` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
-| amo | t_path_schedule | `hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 950000 | 49.87 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` |
-| amo | t_path_schedule | `hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 950000 | 48.17 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` |
+| amo | t_path_schedule | `hme_s0_Tpath_linear_1.0to10.0__7dad0748` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 100.03 | `runs/amo/t_path_schedule/hme_s0_Tpath_linear_1.0to10.0__7dad0748` |
+| amo | t_path_schedule | `hme_s0_Tpath_quadratic_1.0to10.0__d666a769` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 97.72 | `runs/amo/t_path_schedule/hme_s0_Tpath_quadratic_1.0to10.0__d666a769` |
+| amo | t_path_schedule | `hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 50.52 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` |
+| amo | t_path_schedule | `hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 48.21 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` |
+| amo | t_path_schedule | `hcm_s0_Tpath_linear_1.0to10.0__080c8e19` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 58.04 | `runs/amo/t_path_schedule/hcm_s0_Tpath_linear_1.0to10.0__080c8e19` |
+| amo | t_path_schedule | `hcm_s0_Tpath_quadratic_1.0to10.0__2f88ba54` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 57.94 | `runs/amo/t_path_schedule/hcm_s0_Tpath_quadratic_1.0to10.0__2f88ba54` |
+| amo | t_path_schedule | `hopm_s0_Tpath_linear_1.0to10.0__171094a4` | hopper-medium-v2 | 0 | 1000000 | 275000 | 89.06 | `runs/amo/t_path_schedule/hopm_s0_Tpath_linear_1.0to10.0__171094a4` |
+| amo | t_path_schedule | `hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` | hopper-medium-v2 | 0 | 1000000 | 280000 | 56.73 | `runs/amo/t_path_schedule/hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` |
 | amo | t_path_schedule | `wmr_s0_Tpath_linear_1.0to10.0__eed248b9` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.53 | `runs/amo/t_path_schedule/wmr_s0_Tpath_linear_1.0to10.0__eed248b9` |
 | amo | t_path_schedule | `wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 94.65 | `runs/amo/t_path_schedule/wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
