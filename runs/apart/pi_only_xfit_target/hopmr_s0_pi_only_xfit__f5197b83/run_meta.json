@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-10T20:42:01+09:00",
+  "collected_at": "2026-09-10T20:47:02+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "pi_only_xfit_target",
