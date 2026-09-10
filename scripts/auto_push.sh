@@ -79,6 +79,11 @@ else
 fi
 
 # Push only this host ref. No pull/fetch retry (disk-safe for multi-host).
+# Prefer seonvin0319 for seonvin0319/amo_log (host may have multiple gh accounts).
+if command -v gh >/dev/null 2>&1; then
+  gh auth switch --user seonvin0319 >>"$LOG" 2>&1 || true
+  gh auth setup-git >>"$LOG" 2>&1 || true
+fi
 if ! "$GIT" push -u origin "HEAD:refs/heads/${BRANCH}" >>"$LOG" 2>&1; then
   log "ERROR: git push origin ${BRANCH} failed (no pull retry; fix remote or auth)"
   exit 1
