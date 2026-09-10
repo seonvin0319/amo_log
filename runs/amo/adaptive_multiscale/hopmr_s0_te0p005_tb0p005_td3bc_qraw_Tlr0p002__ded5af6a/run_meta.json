@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr2e-3_te0.005_tb0.005_td3bc_critic_qraw/runs/amo_adaptive_multiscale_h-mr_s0-hopper-medium-replay-v2-ded5af6a",
-  "collected_at": "2026-09-07T05:56:57+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te0.005_tb0.005_td3bc_critic_qraw/runs/amo_adaptive_multiscale_h-mr_s0-hopper-medium-replay-v2-ded5af6a",
+  "collected_at": "2026-09-10T10:46:06+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "adaptive_multiscale",
@@ -43,6 +43,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr2e-3_te0.005_tb0.005_td3bc_critic_qraw/runs/amo_adaptive_multiscale_h-mr_s0-hopper-medium-replay-v2-ded5af6a",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te0.005_tb0.005_td3bc_critic_qraw/runs/amo_adaptive_multiscale_h-mr_s0-hopper-medium-replay-v2-ded5af6a",
   "variant": "te0p005_tb0p005_td3bc_qraw_Tlr0p002"
 }

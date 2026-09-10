@@ -49,7 +49,7 @@ cli:
   device: cuda:0
   dataset_path: /home/ext_csh/.d4rl/datasets/hopper_medium_expert-v2.hdf5
   output_dir: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_locomotion4_s0/hopper-medium-expert-v2
-  resume: ''
+  resume: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_locomotion4_s0/hopper-medium-expert-v2/checkpoint_850000.pt
   mode: train
   checkpoint: ''
   max_timesteps: null
@@ -60,6 +60,6 @@ cli:
   checkpoint_freq: null
   metrics_freq: null
   adaptive_enabled: null
-code_hash: bccd3129f6f1502c1c0c88293445980f69f55fecbc90734c19faebf3200da5ab
-base_commit: 6afec90484bbf47dee05fdf525e26a3ebe028e9b
+code_hash: 2ba1b61583414f26b21051d06a20ed15d94579cb0f8e0c4288cb5ea0acf78dd0
+base_commit: 7857425517f84420b1b4ac48a7ac666e4c00a579
 mode: train

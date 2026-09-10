@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/AMO/results/amo_adaptive_multiscale_locomotion9_seed0/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-dc735133",
-  "collected_at": "2026-09-07T05:56:55+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_adaptive_multiscale_locomotion9_seed0/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-dc735133",
+  "collected_at": "2026-09-10T10:46:04+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "adaptive_multiscale",
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/AMO/results/amo_adaptive_multiscale_locomotion9_seed0/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-dc735133",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_adaptive_multiscale_locomotion9_seed0/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-dc735133",
   "variant": "te1p25_tb1p25"
 }

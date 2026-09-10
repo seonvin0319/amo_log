@@ -21,6 +21,8 @@ Not collected on choi (empty or logs-only):
 |-------------|------|--------|-------|
 | `/home/ext_csh/AMO/results/amo_loco9_s0_*` | amo | `adaptive_multiscale` | B_PI / L1_E / td3bc / qraw T_lr×T_init sweeps |
 | `/home/ext_csh/AMO/results/amo_adaptive_multiscale_locomotion9_seed0` | amo | `adaptive_multiscale` | early loco-9 |
+| `/home/ext_csh/AMO-antmaze-bpi-tlr-init-sweep/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/*` | amo | `adaptive_multiscale` | antmaze6 B_PI T_lr×(T_E=T_B) init sweep |
+| `/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2` | amo | `adaptive_multiscale` | antmaze6 parent T_B=T_E/2 |
 | `/home/ext_csh/APART/results/adaptive_multiscale_*` | amo | `adaptive_multiscale` | code lived in APART tree; archived as amo |
 | `/home/ext_csh/APART/results/adaptive_bootstrap_*` | amo | `adaptive_multiscale` | bootstrap variant tag `boot` |
 | `/home/ext_csh/APART/results/dual_n24_tlr` | apart | `dual_proximal` | Adroit dual N=2/4 T_lr sweep |
@@ -39,10 +41,12 @@ git add -A && git commit -m "collect(ext_csh): refresh AMO/APART logs" && git pu
 
 ## Auto update (ext_csh)
 
-Cron every 2 hours (`CRON_TZ=Asia/Seoul`) runs `scripts/auto_push_ext_csh.sh`:
+Cron every 5 minutes (`INTERVAL_SEC=300`) runs `scripts/run_amo_log_auto_push_periodic.sh`
+→ `scripts/auto_push_ext_csh.sh`:
 
 - `python scripts/ingest_runs.py --host=ext_csh`
 - rebuild catalog
 - commit + push to `origin/ext_csh` only (not `main`)
 
 Log: `/home/ext_csh/logs/amo_log_auto_push_ext_csh.log`
+Periodic: `/home/ext_csh/logs/amo_log_periodic/periodic.log`

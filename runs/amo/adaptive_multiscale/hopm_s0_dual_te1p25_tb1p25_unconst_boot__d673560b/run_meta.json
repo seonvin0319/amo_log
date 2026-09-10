@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_h-m_s0-hopper-medium-v2-d673560b",
-  "collected_at": "2026-09-07T05:56:57+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_h-m_s0-hopper-medium-v2-d673560b",
+  "collected_at": "2026-09-10T10:46:06+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "adaptive_multiscale",
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_h-m_s0-hopper-medium-v2-d673560b",
+  "source_path": "/raid/ext_csh/artifacts/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_h-m_s0-hopper-medium-v2-d673560b",
   "variant": "dual_te1p25_tb1p25_unconst_boot"
 }

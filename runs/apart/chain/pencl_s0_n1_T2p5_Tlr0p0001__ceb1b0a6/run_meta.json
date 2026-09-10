@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T2.5_Tlr1e-4_g0.99_s0-pen-cloned-v1-ceb1b0a6",
-  "collected_at": "2026-09-07T05:56:57+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T2.5_Tlr1e-4_g0.99_s0-pen-cloned-v1-ceb1b0a6",
+  "collected_at": "2026-09-10T10:46:06+00:00",
   "env": "pen-cloned-v1",
   "env_short": "pencl",
   "family": "chain",
@@ -37,6 +37,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T2.5_Tlr1e-4_g0.99_s0-pen-cloned-v1-ceb1b0a6",
+  "source_path": "/raid/ext_csh/artifacts/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T2.5_Tlr1e-4_g0.99_s0-pen-cloned-v1-ceb1b0a6",
   "variant": "n1_T2p5_Tlr0p0001"
 }

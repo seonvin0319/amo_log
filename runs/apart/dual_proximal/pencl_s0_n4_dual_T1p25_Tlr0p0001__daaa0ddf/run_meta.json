@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/APART/results/dual_n24_tlr/runs/pen_dual_N4_T1.25_Tlr1e-4_s0-pen-cloned-v1-daaa0ddf",
-  "collected_at": "2026-09-07T05:56:57+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/dual_n24_tlr/runs/pen_dual_N4_T1.25_Tlr1e-4_s0-pen-cloned-v1-daaa0ddf",
+  "collected_at": "2026-09-10T10:46:06+00:00",
   "env": "pen-cloned-v1",
   "env_short": "pencl",
   "family": "dual_proximal",
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/APART/results/dual_n24_tlr/runs/pen_dual_N4_T1.25_Tlr1e-4_s0-pen-cloned-v1-daaa0ddf",
+  "source_path": "/raid/ext_csh/artifacts/APART/results/dual_n24_tlr/runs/pen_dual_N4_T1.25_Tlr1e-4_s0-pen-cloned-v1-daaa0ddf",
   "variant": "n4_dual_T1p25_Tlr0p0001"
 }

@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr2e-3_te5_tb5/runs/amo_adaptive_multiscale_w-mr_s0-walker2d-medium-replay-v2-121d6573",
-  "collected_at": "2026-09-07T05:56:55+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te5_tb5/runs/amo_adaptive_multiscale_w-mr_s0-walker2d-medium-replay-v2-121d6573",
+  "collected_at": "2026-09-10T10:46:04+00:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "adaptive_multiscale",
@@ -39,6 +39,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr2e-3_te5_tb5/runs/amo_adaptive_multiscale_w-mr_s0-walker2d-medium-replay-v2-121d6573",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te5_tb5/runs/amo_adaptive_multiscale_w-mr_s0-walker2d-medium-replay-v2-121d6573",
   "variant": "te5_tb5_Tlr0p002"
 }

@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/APART/results/dual_n24_tlr/runs/door_dual_N2_T1.25_Tlr5e-5_s0-door-cloned-v1-147874d5",
-  "collected_at": "2026-09-07T05:56:57+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/dual_n24_tlr/runs/door_dual_N2_T1.25_Tlr5e-5_s0-door-cloned-v1-147874d5",
+  "collected_at": "2026-09-10T10:46:06+00:00",
   "env": "door-cloned-v1",
   "env_short": "doorcl",
   "family": "dual_proximal",
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/APART/results/dual_n24_tlr/runs/door_dual_N2_T1.25_Tlr5e-5_s0-door-cloned-v1-147874d5",
+  "source_path": "/raid/ext_csh/artifacts/APART/results/dual_n24_tlr/runs/door_dual_N2_T1.25_Tlr5e-5_s0-door-cloned-v1-147874d5",
   "variant": "n2_dual_T1p25_Tlr5em05"
 }

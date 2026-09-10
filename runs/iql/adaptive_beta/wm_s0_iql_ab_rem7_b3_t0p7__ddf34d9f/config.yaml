@@ -49,7 +49,7 @@ cli:
   device: cuda:0
   dataset_path: /home/ext_csh/.d4rl/datasets/walker2d_medium-v2.hdf5
   output_dir: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/walker2d-medium-v2
-  resume: ''
+  resume: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/walker2d-medium-v2/checkpoint_200000.pt
   mode: train
   checkpoint: ''
   max_timesteps: null
@@ -60,6 +60,6 @@ cli:
   checkpoint_freq: null
   metrics_freq: null
   adaptive_enabled: null
-code_hash: bccd3129f6f1502c1c0c88293445980f69f55fecbc90734c19faebf3200da5ab
+code_hash: 2ba1b61583414f26b21051d06a20ed15d94579cb0f8e0c4288cb5ea0acf78dd0
 base_commit: 7857425517f84420b1b4ac48a7ac666e4c00a579
 mode: train

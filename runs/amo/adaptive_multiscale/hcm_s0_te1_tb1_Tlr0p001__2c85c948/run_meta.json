@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr1e-3_te1_tb1/runs/amo_adaptive_multiscale_hc-m_s0-halfcheetah-medium-v2-2c85c948",
-  "collected_at": "2026-09-07T05:56:56+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr1e-3_te1_tb1/runs/amo_adaptive_multiscale_hc-m_s0-halfcheetah-medium-v2-2c85c948",
+  "collected_at": "2026-09-10T10:46:05+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "adaptive_multiscale",
@@ -40,6 +40,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr1e-3_te1_tb1/runs/amo_adaptive_multiscale_hc-m_s0-halfcheetah-medium-v2-2c85c948",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr1e-3_te1_tb1/runs/amo_adaptive_multiscale_hc-m_s0-halfcheetah-medium-v2-2c85c948",
   "variant": "te1_tb1_Tlr0p001"
 }

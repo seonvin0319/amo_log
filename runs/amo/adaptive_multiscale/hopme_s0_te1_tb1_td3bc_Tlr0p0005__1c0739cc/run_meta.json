@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1_td3bc_critic/runs/amo_adaptive_multiscale_h-me_s0-hopper-medium-expert-v2-1c0739cc",
-  "collected_at": "2026-09-07T05:56:57+00:00",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1_td3bc_critic/runs/amo_adaptive_multiscale_h-me_s0-hopper-medium-expert-v2-1c0739cc",
+  "collected_at": "2026-09-10T10:46:06+00:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "adaptive_multiscale",
@@ -42,6 +42,6 @@
     "tau": 0.005
   },
   "source_host": "ext_csh",
-  "source_path": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1_td3bc_critic/runs/amo_adaptive_multiscale_h-me_s0-hopper-medium-expert-v2-1c0739cc",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1_td3bc_critic/runs/amo_adaptive_multiscale_h-me_s0-hopper-medium-expert-v2-1c0739cc",
   "variant": "te1_tb1_td3bc_Tlr0p0005"
 }

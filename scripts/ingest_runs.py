@@ -111,6 +111,39 @@ for _name in _AMO_EXT_PACKS:
         }
     )
 
+# Antmaze-6 B_PI T_lr × (T_E=T_B) init sweep: cells/<tag>/runs/<run>/config.yaml
+_ANTMAZE_BPI_CELLS = Path(
+    "/home/ext_csh/AMO-antmaze-bpi-tlr-init-sweep/results/"
+    "amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells"
+)
+if _ANTMAZE_BPI_CELLS.is_dir():
+    for _cell in sorted(p for p in _ANTMAZE_BPI_CELLS.iterdir() if p.is_dir()):
+        DEFAULT_SOURCES.append(
+            {
+                "algo": "amo",
+                "root": _cell,
+                "host": "ext_csh",
+                "code_repo": "AMO",
+                "family_force": "adaptive_multiscale",
+                "nested": True,
+            }
+        )
+
+# Historical antmaze6 parent (T_B=T_E/2 fixed-ratio).
+DEFAULT_SOURCES.append(
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/ext_csh/AMO-a8c1e48-te1tb1/results/"
+            "amo_antmaze6_s0_tlr1e-3_te1_tb_div2"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO",
+        "family_force": "adaptive_multiscale",
+        "nested": True,
+    }
+)
+
 # Early adaptive-multiscale runs lived under APART/results but are AMO family.
 for _name in (
     "adaptive_multiscale_locomotion9_seed0",
