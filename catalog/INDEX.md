@@ -34,8 +34,8 @@ Total runs: **98**
 | amo | pi_only | `amud_s0_pi_only__7fe82122` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 180000 | 44.00 | `runs/amo/pi_only/amud_s0_pi_only__7fe82122` |
 | amo | pi_only | `amu_s0_pi_only__5015e62a` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 87.00 | `runs/amo/pi_only/amu_s0_pi_only__5015e62a` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
-| amo | t_path_schedule | `hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 655000 | 49.44 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` |
-| amo | t_path_schedule | `hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 655000 | 46.85 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` |
+| amo | t_path_schedule | `hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 715000 | 49.71 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_linear_1.0to10.0__b7b4432c` |
+| amo | t_path_schedule | `hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 715000 | 47.29 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` |
 | amo | t_path_schedule | `wmr_s0_Tpath_linear_1.0to10.0__eed248b9` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.53 | `runs/amo/t_path_schedule/wmr_s0_Tpath_linear_1.0to10.0__eed248b9` |
 | amo | t_path_schedule | `wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 94.65 | `runs/amo/t_path_schedule/wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
