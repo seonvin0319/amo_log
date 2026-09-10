@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T1.25_Tlr2e-4_g0.999_s0-pen-cloned-v1-518f68d7",
-  "collected_at": "2026-09-10T19:00:22+00:00",
+  "collected_at": "2026-09-10T19:05:38+00:00",
   "env": "pen-cloned-v1",
   "env_short": "pencl",
   "family": "chain",
