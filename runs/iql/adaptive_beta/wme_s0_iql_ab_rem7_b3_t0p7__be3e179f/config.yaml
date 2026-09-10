@@ -49,7 +49,7 @@ cli:
   device: cuda:0
   dataset_path: /home/ext_csh/.d4rl/datasets/walker2d_medium_expert-v2.hdf5
   output_dir: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/walker2d-medium-expert-v2
-  resume: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/walker2d-medium-expert-v2/checkpoint_100000.pt
+  resume: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/walker2d-medium-expert-v2/checkpoint_900000.pt
   mode: train
   checkpoint: ''
   max_timesteps: null
