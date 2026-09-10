@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_multiscale_locomotion9_unconstrained_seed0/runs/adaptive_multiscale_w-m_s0-walker2d-medium-v2-0d3bb420",
-  "collected_at": "2026-09-10T14:14:03+00:00",
+  "collected_at": "2026-09-10T14:19:15+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "adaptive_multiscale",
