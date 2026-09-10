@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/amu_s0_pi_local-antmaze-umaze-v2-8ab60e58/checkpoint_999999.pt",
-  "collected_at": "2026-09-10T20:46:21+09:00",
+  "collected_at": "2026-09-10T20:51:21+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "pi_local",

@@ -202,3 +202,16 @@ Collected on host `svcho` without cloning checkpoint weights.
 
 Not found on svcho: APART `results_apart*`.
 
+## svcho refresh (2026-09-10 20:51 KST)
+
+Collected on host `svcho` without cloning checkpoint weights.
+
+| Source path | algo | family (assigned) | #runs |
+|-------------|------|-------------------|------:|
+| `/home/svcho/amo/results_pi_*` | amo | `pi_local`/`pi_local_aspc`/`pi_only` | 12 |
+| `/home/svcho/CaPO/results_amo_*` | amo | `capo_td3bc` | 0 |
+| `/home/svcho/AMO-t-path-*/results` | amo | `t_path_schedule` | 4 |
+| `/home/svcho/AMO-adaptive-t-four-eval-v1/results` | amo | `four_eval_fixed_n` | 10 |
+
+Not found on svcho: APART `results_apart*`.
+
