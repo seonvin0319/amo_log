@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **84**
+Total runs: **96**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -11,6 +11,16 @@ Total runs: **84**
 | amo | capo_td3bc | `hopmr_s0_n1_Tfreq1_v2_smoke__d93b755e` | hopper-medium-replay-v2 | 0 | 6 | 6 | 2.75 | `runs/amo/capo_td3bc/hopmr_s0_n1_Tfreq1_v2_smoke__d93b755e` |
 | amo | capo_td3bc | `hopmr_s0_n1_fixedT0p01_v2_1m__00481884` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 46.63 | `runs/amo/capo_td3bc/hopmr_s0_n1_fixedT0p01_v2_1m__00481884` |
 | amo | capo_td3bc | `hopm_s0_n1_Tfreq1_l12_v2_1m__57813b23` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 60.77 | `runs/amo/capo_td3bc/hopm_s0_n1_Tfreq1_l12_v2_1m__57813b23` |
+| amo | four_eval_fixed_n | `hopme_s0_four_eval_N3_T10L02_h-me__72f5bb85` | hopper-medium-expert-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/hopme_s0_four_eval_N3_T10L02_h-me__72f5bb85` |
+| amo | four_eval_fixed_n | `hopme_s0_four_eval_N3_h-me__9ec71a57` | hopper-medium-expert-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/hopme_s0_four_eval_N3_h-me__9ec71a57` |
+| amo | four_eval_fixed_n | `hopmr_s0_four_eval_N3_h-mr__57289fe6` | hopper-medium-replay-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/hopmr_s0_four_eval_N3_h-mr__57289fe6` |
+| amo | four_eval_fixed_n | `hopm_s0_four_eval_N3_T10L02_h-m__4b3faabf` | hopper-medium-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/hopm_s0_four_eval_N3_T10L02_h-m__4b3faabf` |
+| amo | four_eval_fixed_n | `hopm_s0_four_eval_N3_T10L0p2_h-m__fd6594ff` | hopper-medium-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/hopm_s0_four_eval_N3_T10L0p2_h-m__fd6594ff` |
+| amo | four_eval_fixed_n | `hopm_s0_four_eval_N3_h-m__068e3791` | hopper-medium-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/hopm_s0_four_eval_N3_h-m__068e3791` |
+| amo | four_eval_fixed_n | `wmr_s0_four_eval_N3_T10L02_w-mr__f56b4e08` | walker2d-medium-replay-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/wmr_s0_four_eval_N3_T10L02_w-mr__f56b4e08` |
+| amo | four_eval_fixed_n | `wmr_s0_four_eval_N3_w-mr__d99b4951` | walker2d-medium-replay-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/wmr_s0_four_eval_N3_w-mr__d99b4951` |
+| amo | four_eval_fixed_n | `wm_s0_four_eval_N3_T10L02_w-m__6ca25301` | walker2d-medium-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/wm_s0_four_eval_N3_T10L02_w-m__6ca25301` |
+| amo | four_eval_fixed_n | `wm_s0_four_eval_N3_w-m__5bd27836` | walker2d-medium-v2 | 0 | — | — | — | `runs/amo/four_eval_fixed_n/wm_s0_four_eval_N3_w-m__5bd27836` |
 | amo | pi_local | `ammp_s0_pi_local__e72a82c2` | antmaze-medium-play-v2 | 0 | 1000000 | 340000 | 0.00 | `runs/amo/pi_local/ammp_s0_pi_local__e72a82c2` |
 | amo | pi_local | `amud_s0_pi_local__00a44985` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 53.00 | `runs/amo/pi_local/amud_s0_pi_local__00a44985` |
 | amo | pi_local | `amu_s0_pi_local__8ab60e58` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 87.00 | `runs/amo/pi_local/amu_s0_pi_local__8ab60e58` |
@@ -24,6 +34,8 @@ Total runs: **84**
 | amo | pi_only | `amud_s0_pi_only__7fe82122` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 180000 | 44.00 | `runs/amo/pi_only/amud_s0_pi_only__7fe82122` |
 | amo | pi_only | `amu_s0_pi_only__5015e62a` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 87.00 | `runs/amo/pi_only/amu_s0_pi_only__5015e62a` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
+| amo | t_path_schedule | `wmr_s0_Tpath_linear_1.0to10.0__eed248b9` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.53 | `runs/amo/t_path_schedule/wmr_s0_Tpath_linear_1.0to10.0__eed248b9` |
+| amo | t_path_schedule | `wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 94.65 | `runs/amo/t_path_schedule/wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
 | apart | chain | `hme_s0_n2__3a87ef6d` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 94.26 | `runs/apart/chain/hme_s0_n2__3a87ef6d` |
 | apart | chain | `hme_s0_n4_Ng__0f1a9987` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 97.00 | `runs/apart/chain/hme_s0_n4_Ng__0f1a9987` |

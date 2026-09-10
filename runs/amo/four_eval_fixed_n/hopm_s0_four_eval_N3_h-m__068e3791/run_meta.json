@@ -1,0 +1,34 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "eval.jsonl",
+    "metrics.jsonl",
+    "config.yaml"
+  ],
+  "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-m_s0/checkpoint_999999.pt",
+  "collected_at": "2026-09-10T19:48:12+09:00",
+  "env": "hopper-medium-v2",
+  "env_short": "hopm",
+  "family": "four_eval_fixed_n",
+  "final_score": null,
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO-adaptive-t-four-eval-v1"
+  },
+  "last_eval_step": null,
+  "legacy_name": "four_eval_N3_h-m_s0",
+  "run_id": "hopm_s0_four_eval_N3_h-m__068e3791",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "hopper-medium-v2",
+    "noise_clip": 0.5,
+    "normalize_reward": false,
+    "seed": 0
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-m_s0",
+  "variant": "four_eval_N3_h-m"
+}

@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/amud_s0_pi_only-antmaze-umaze-diverse-v2-7fe82122/checkpoint_999999.pt",
-  "collected_at": "2026-09-07T14:57:51+09:00",
+  "collected_at": "2026-09-10T19:48:12+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "pi_only",
@@ -27,6 +27,7 @@
     "l3_mode": "pi_only",
     "loss_function": 4,
     "max_timesteps": 1000000,
+    "name": "amud_s0_pi_only-antmaze-umaze-diverse-v2-7fe82122",
     "noise_clip": 0.5,
     "normalize": true,
     "normalize_reward": true,
