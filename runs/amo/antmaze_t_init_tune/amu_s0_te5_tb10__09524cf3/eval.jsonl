@@ -1,0 +1,4 @@
+{"step": 5000, "t": 5000, "d4rl_normalized_score": 0.0, "eval_return": 0.0}
+{"step": 10000, "t": 10000, "d4rl_normalized_score": 3.0, "eval_return": 0.03}
+{"step": 15000, "t": 15000, "d4rl_normalized_score": 53.0, "eval_return": 0.53}
+{"step": 20000, "t": 20000, "d4rl_normalized_score": 45.0, "eval_return": 0.45}
