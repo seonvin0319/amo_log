@@ -131,6 +131,16 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO",
         "family_force": "rebrac_amo",
     },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/shchoi/amo/results/"
+            "amo_adaptive_multiscale_antmaze6_sweep_seed0/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "amo",
+        "family_force": "adaptive_multiscale",
+    },
 ]
 
 
@@ -403,6 +413,27 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         tokens.append("rebrac")
     if family == "amo_td3bc":
         tokens.append("qouter")
+    if family == "adaptive_multiscale":
+        te = cfg.get("T_E")
+        if te is not None:
+            te_f = float(te)
+            if float(te_f).is_integer():
+                tokens.append(f"TE{int(te_f)}")
+            else:
+                tokens.append(
+                    "TE" + f"{te_f:g}".replace(".", "p").replace("-", "m")
+                )
+        tb = cfg.get("T_B")
+        if tb is not None and (
+            te is None or abs(float(tb) - float(te)) > 1e-12
+        ):
+            tb_f = float(tb)
+            if float(tb_f).is_integer():
+                tokens.append(f"TB{int(tb_f)}")
+            else:
+                tokens.append(
+                    "TB" + f"{tb_f:g}".replace(".", "p").replace("-", "m")
+                )
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")

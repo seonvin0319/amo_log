@@ -79,6 +79,7 @@ runs/{algo}/{family}/{run_id}/
 | `td3bc` | JAX TD3+BC baseline |
 | `rebrac` | ReBRAC-AMO critic BC |
 | `qouter` | T_E outer = Q_1_target(s, π+) |
+| `TE{k}` / `TB{k}` | adaptive_multiscale init (`T_E`/`T_B`; TB는 TE와 다를 때만) |
 | `incomplete` | 목표 step 미달 (summary complete가 아닐 때) |
 
 ## 4. family 디렉터리

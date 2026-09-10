@@ -6,15 +6,15 @@
     "eval.jsonl"
   ],
   "collected_at": "2026-09-10T19:48:35+09:00",
-  "env": "halfcheetah-medium-v2",
-  "env_short": "hcm",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
   "family": "amo_td3bc",
   "git": {
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "legacy_name": "amo_td3bc_hc-m_s0-halfcheetah-medium-v2-f2e53379",
-  "run_id": "hcm_s0_qouter__f2e53379",
+  "legacy_name": "amo_td3bc_w-m_s0-walker2d-medium-v2-9f41046b",
+  "run_id": "wm_s0_qouter__9f41046b",
   "seed": 0,
   "settings": {
     "T_E": 1.25,
@@ -23,7 +23,7 @@
     "adaptive_multiscale": true,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "halfcheetah-medium-v2",
+    "env": "walker2d-medium-v2",
     "eval_freq": 5000,
     "last_metrics_step": 1000000,
     "max_timesteps": 1000000,
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "shchoi",
-  "source_path": "/home/shchoi/amo_td3bc/results/amo_td3bc_locomotion9_seed0/runs/amo_td3bc_hc-m_s0-halfcheetah-medium-v2-f2e53379",
+  "source_path": "/home/shchoi/amo_td3bc/results/amo_td3bc_locomotion9_seed0/runs/amo_td3bc_w-m_s0-walker2d-medium-v2-9f41046b",
   "variant": "qouter"
 }

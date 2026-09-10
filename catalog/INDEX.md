@@ -1,11 +1,20 @@
 # Experiment catalog
 
-Total runs: **100**
+Total runs: **109**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
-| amo | amo_td3bc | `hcmr_s0_qouter__dacfe9c9` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 180000 | 45.96 | `runs/amo/amo_td3bc/hcmr_s0_qouter__dacfe9c9` |
-| amo | amo_td3bc | `hcm_s0_qouter__f2e53379` | halfcheetah-medium-v2 | 0 | 1000000 | 180000 | 50.35 | `runs/amo/amo_td3bc/hcm_s0_qouter__f2e53379` |
+| amo | adaptive_multiscale | `amu_s0_TE1_Tlr0p002__95383ef4` | antmaze-umaze-v2 | 0 | 1000000 | 815000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE1_Tlr0p002__95383ef4` |
+| amo | adaptive_multiscale | `amu_s0_TE5_Tlr0p002__50b982af` | antmaze-umaze-v2 | 0 | 1000000 | 810000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE5_Tlr0p002__50b982af` |
+| amo | amo_td3bc | `hme_s0_qouter__2c7cd16c` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 101.29 | `runs/amo/amo_td3bc/hme_s0_qouter__2c7cd16c` |
+| amo | amo_td3bc | `hcmr_s0_qouter__dacfe9c9` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 46.90 | `runs/amo/amo_td3bc/hcmr_s0_qouter__dacfe9c9` |
+| amo | amo_td3bc | `hcm_s0_qouter__f2e53379` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 53.01 | `runs/amo/amo_td3bc/hcm_s0_qouter__f2e53379` |
+| amo | amo_td3bc | `hopme_s0_qouter__cd761796` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 91.60 | `runs/amo/amo_td3bc/hopme_s0_qouter__cd761796` |
+| amo | amo_td3bc | `hopmr_s0_qouter__56ea9aea` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 101.57 | `runs/amo/amo_td3bc/hopmr_s0_qouter__56ea9aea` |
+| amo | amo_td3bc | `hopm_s0_qouter__35177010` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 54.60 | `runs/amo/amo_td3bc/hopm_s0_qouter__35177010` |
+| amo | amo_td3bc | `wme_s0_qouter__efbe3bb5` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 109.17 | `runs/amo/amo_td3bc/wme_s0_qouter__efbe3bb5` |
+| amo | amo_td3bc | `wmr_s0_qouter__6d915387` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 93.38 | `runs/amo/amo_td3bc/wmr_s0_qouter__6d915387` |
+| amo | amo_td3bc | `wm_s0_qouter__9f41046b` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 86.24 | `runs/amo/amo_td3bc/wm_s0_qouter__9f41046b` |
 | amo | jax_td3bc | `wmr_s0_td3bc__b8c70bf0` | walker2d-medium-replay-v2 | 0 | 300000 | 300000 | 43.78 | `runs/amo/jax_td3bc/wmr_s0_td3bc__b8c70bf0` |
 | amo | jax_td3bc | `wmr_s1_td3bc__bfff8e4f` | walker2d-medium-replay-v2 | 1 | 300000 | 300000 | 78.83 | `runs/amo/jax_td3bc/wmr_s1_td3bc__bfff8e4f` |
 | amo | jax_td3bc | `wmr_s2_td3bc__ac280739` | walker2d-medium-replay-v2 | 2 | 300000 | 300000 | 83.21 | `runs/amo/jax_td3bc/wmr_s2_td3bc__ac280739` |

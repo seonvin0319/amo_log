@@ -2,9 +2,22 @@
 # Ingest local AMO runs into amo_log, commit if needed, push origin/shchoi.
 set -uo pipefail
 
-export GIT_EXEC_PATH="${GIT_EXEC_PATH:-/usr/lib/git-core}"
-export GIT_TEMPLATE_DIR="${GIT_TEMPLATE_DIR:-/usr/share/git-core/templates}"
 GIT="${GIT_BIN:-/home/shchoi/miniconda3/bin/git}"
+# Prefer the helper tree that matches $GIT (conda git needs its libexec).
+if [[ -z "${GIT_EXEC_PATH:-}" ]]; then
+  if [[ -x /home/shchoi/miniconda3/libexec/git-core/git-remote-https ]]; then
+    export GIT_EXEC_PATH=/home/shchoi/miniconda3/libexec/git-core
+  elif [[ -x /usr/lib/git-core/git-remote-https ]]; then
+    export GIT_EXEC_PATH=/usr/lib/git-core
+  fi
+fi
+if [[ -z "${GIT_TEMPLATE_DIR:-}" ]]; then
+  if [[ -d /home/shchoi/miniconda3/share/git-core/templates ]]; then
+    export GIT_TEMPLATE_DIR=/home/shchoi/miniconda3/share/git-core/templates
+  elif [[ -d /usr/share/git-core/templates ]]; then
+    export GIT_TEMPLATE_DIR=/usr/share/git-core/templates
+  fi
+fi
 ROOT="${AMO_LOG_ROOT:-/home/shchoi/amo_log}"
 LOG="${AMO_LOG_PUSH_LOG:-/home/shchoi/amo_log/.auto_push.log}"
 LOCK="${AMO_LOG_PUSH_LOCK:-/home/shchoi/amo_log/.auto_push.lock}"
