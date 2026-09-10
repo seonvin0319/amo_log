@@ -4,8 +4,8 @@ Total runs: **68**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
-| amo | antmaze_t_init_tune | `amu_s0_te1_tb1__27fc6fa1` | antmaze-umaze-v2 | 0 | 1000000 | 595000 | 84.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb1__27fc6fa1` |
-| amo | antmaze_t_init_tune | `amu_s0_te1_tb5__590131b8` | antmaze-umaze-v2 | 0 | 1000000 | 600000 | 97.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb5__590131b8` |
+| amo | antmaze_t_init_tune | `amu_s0_te1_tb1__27fc6fa1` | antmaze-umaze-v2 | 0 | 1000000 | 640000 | 92.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb1__27fc6fa1` |
+| amo | antmaze_t_init_tune | `amu_s0_te1_tb5__590131b8` | antmaze-umaze-v2 | 0 | 1000000 | 645000 | 93.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te1_tb5__590131b8` |
 | amo | segment_interval | `hopme_s0_seg4_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423` |
 | amo | segment_interval | `hopme_s0_seg4_te1.25_smoke__c3cff423` | hopper-medium-expert-v2 | 0 | 4000 | — | — | `runs/amo/segment_interval/hopme_s0_seg4_te1.25_smoke__c3cff423` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
