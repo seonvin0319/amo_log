@@ -6,16 +6,16 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L0p2_h-m_s0/checkpoint_999999.pt",
-  "collected_at": "2026-09-10T19:48:12+09:00",
+  "collected_at": "2026-09-10T19:51:25+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "four_eval_fixed_n",
-  "final_score": null,
+  "final_score": 49.07003062221791,
   "git": {
     "code_commit": null,
     "code_repo": "AMO-adaptive-t-four-eval-v1"
   },
-  "last_eval_step": null,
+  "last_eval_step": 5000,
   "legacy_name": "four_eval_N3_T10L0p2_h-m_s0",
   "run_id": "hopm_s0_four_eval_N3_T10L0p2_h-m__fd6594ff",
   "seed": 0,
