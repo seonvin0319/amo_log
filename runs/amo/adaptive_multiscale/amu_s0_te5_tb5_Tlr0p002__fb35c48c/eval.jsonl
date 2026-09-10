@@ -70,3 +70,6 @@
 {"step": 350000, "t": 350000, "d4rl_normalized_score": 80.0, "eval_return": 0.8}
 {"step": 355000, "t": 355000, "d4rl_normalized_score": 40.0, "eval_return": 0.4}
 {"step": 360000, "t": 360000, "d4rl_normalized_score": 90.0, "eval_return": 0.9}
+{"step": 365000, "t": 365000, "d4rl_normalized_score": 80.0, "eval_return": 0.8}
+{"step": 370000, "t": 370000, "d4rl_normalized_score": 80.0, "eval_return": 0.8}
+{"step": 375000, "t": 375000, "d4rl_normalized_score": 80.0, "eval_return": 0.8}
