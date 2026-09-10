@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/dual_n24_tlr/runs/door_dual_N4_T1.25_Tlr5e-5_s0-door-cloned-v1-a5778e9c",
-  "collected_at": "2026-09-10T21:29:26+00:00",
+  "collected_at": "2026-09-10T21:34:46+00:00",
   "env": "door-cloned-v1",
   "env_short": "doorcl",
   "family": "dual_proximal",
