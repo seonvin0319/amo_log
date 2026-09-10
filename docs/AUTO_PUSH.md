@@ -2,7 +2,26 @@
 
 호스트 `ext_csv`에서 **2시간마다** 로컬 실험 로그를 ingest → catalog → commit → `origin/ext_csv` push 합니다.
 
+## GitHub write access (one-time)
+
+This host has no personal GitHub credential. Push uses deploy key:
+
+- private: `/home/ext_csv/.ssh/id_ed25519_amo_log`
+- public: `/home/ext_csv/.ssh/id_ed25519_amo_log.pub`
+- SSH host alias: `github-amo-log` (see `~/.ssh/config`)
+- remote push URL: `git@github-amo-log:seonvin0319/amo_log.git`
+
+Add the **public** key as a **read/write deploy key** on
+https://github.com/seonvin0319/amo_log/settings/keys
+
+Then:
+
+```bash
+cd /home/ext_csv/amo_log && bash scripts/auto_push.sh
+```
+
 ## 스케줄
+
 
 `crontab`이 없는 환경이라 **루프 래퍼**를 씁니다:
 

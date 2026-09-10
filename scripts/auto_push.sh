@@ -11,6 +11,13 @@ LOG="${AMO_LOG_PUSH_LOG:-/home/ext_csv/logs/amo_log_auto_push.log}"
 LOCK="${AMO_LOG_PUSH_LOCK:-/home/ext_csv/.amo_log_auto_push.lock}"
 PY="${PYTHON_BIN:-/home/ext_csv/miniconda3/bin/python3}"
 BRANCH="${AMO_LOG_BRANCH:-ext_csv}"
+# Dedicated deploy key (write access must be granted on GitHub).
+export GIT_SSH_COMMAND="${GIT_SSH_COMMAND:-ssh -i /home/ext_csv/.ssh/id_ed25519_amo_log -o IdentitiesOnly=yes -o BatchMode=yes}"
+export GIT_AUTHOR_NAME="${GIT_AUTHOR_NAME:-SChoish}"
+export GIT_AUTHOR_EMAIL="${GIT_AUTHOR_EMAIL:-petersun0221@hanyang.ac.kr}"
+export GIT_COMMITTER_NAME="${GIT_COMMITTER_NAME:-$GIT_AUTHOR_NAME}"
+export GIT_COMMITTER_EMAIL="${GIT_COMMITTER_EMAIL:-$GIT_AUTHOR_EMAIL}"
+
 
 mkdir -p "$(dirname "$LOG")"
 exec 9>"$LOCK"
@@ -71,10 +78,6 @@ if "$GIT" diff --cached --quiet; then
 fi
 
 MSG="collect(ext_csv): auto ingest $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M %Z')"
-export GIT_AUTHOR_NAME="${GIT_AUTHOR_NAME:-$("$GIT" config user.name 2>/dev/null || echo amo_log-cron)}"
-export GIT_AUTHOR_EMAIL="${GIT_AUTHOR_EMAIL:-$("$GIT" config user.email 2>/dev/null || echo amo_log-cron@ext_csv)}"
-export GIT_COMMITTER_NAME="${GIT_COMMITTER_NAME:-$GIT_AUTHOR_NAME}"
-export GIT_COMMITTER_EMAIL="${GIT_COMMITTER_EMAIL:-$GIT_AUTHOR_EMAIL}"
 
 if ! "$GIT" commit -m "$MSG" >>"$LOG" 2>&1; then
   log "ERROR: git commit failed"
@@ -96,7 +99,7 @@ if ! "$GIT" push -u origin "HEAD:$BRANCH" >>"$LOG" 2>&1; then
     fi
   fi
   if ! "$GIT" push -u origin "HEAD:$BRANCH" >>"$LOG" 2>&1; then
-    log "ERROR: git push failed after retry"
+    log "ERROR: git push failed after retry (add write deploy key id_ed25519_amo_log.pub on seonvin0319/amo_log)"
     exit 1
   fi
 fi
