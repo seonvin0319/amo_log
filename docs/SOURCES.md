@@ -8,6 +8,7 @@ Collected on host `choi` at ingest time. Checkpoint weights were **not** copied.
 | `/home/choi/APART/results_pi_only_xfit_target` | apart | `pi_only_xfit_target` | 9 |
 | `/home/choi/APART/results_pi_only_xfit_target_mpi_nstep` | apart | `pi_only_xfit_mpi_nstep` | 8 |
 | `/home/choi/amo/results/segment_interval` | amo | `segment_interval` | 1 (smoke) |
+| `/home/choi/amo/results/amo_antmaze_t_init_tune_seed0` | amo | `antmaze_t_init_tune` | live (5m cron) |
 
 Not collected (empty or logs-only):
 

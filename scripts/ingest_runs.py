@@ -79,6 +79,14 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "segment_interval",
         "nested": True,
     },
+    {
+        "algo": "amo",
+        "root": Path("/home/choi/amo/results/amo_antmaze_t_init_tune_seed0"),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "antmaze_t_init_tune",
+        "nested": True,
+    },
 ]
 
 
@@ -180,6 +188,17 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
     if family == "segment_interval":
         segs = int(cfg.get("pi_bound_segments", 4) or 4)
         tokens.append(f"seg{segs}")
+    if family in ("adaptive_multiscale", "antmaze_t_init_tune") or cfg.get(
+        "adaptive_multiscale"
+    ):
+        te = cfg.get("T_E")
+        tb = cfg.get("T_B")
+        if te is not None:
+            te_f = float(te)
+            tokens.append(f"te{int(te_f) if te_f.is_integer() else te_f}")
+        if tb is not None:
+            tb_f = float(tb)
+            tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")

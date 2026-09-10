@@ -1,0 +1,43 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-10T19:49:59+09:00",
+  "env": "antmaze-umaze-v2",
+  "env_short": "amu",
+  "family": "antmaze_t_init_tune",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amo_am_te1_tb5_amu_s0-antmaze-umaze-v2-590131b8",
+  "run_id": "amu_s0_te1_tb5__590131b8",
+  "seed": 0,
+  "settings": {
+    "T_B": 5.0,
+    "T_E": 1.0,
+    "T_freq": 10,
+    "T_lr": 0.0002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-umaze-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/amo/results/amo_antmaze_t_init_tune_seed0/runs/amo_am_te1_tb5_amu_s0-antmaze-umaze-v2-590131b8",
+  "variant": "te1_tb5"
+}
