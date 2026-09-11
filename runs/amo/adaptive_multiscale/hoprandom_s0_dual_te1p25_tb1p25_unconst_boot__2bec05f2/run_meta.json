@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_h-r_s0-hopper-random-v2-2bec05f2",
-  "collected_at": "2026-09-11T16:06:12+00:00",
+  "collected_at": "2026-09-11T16:11:26+00:00",
   "env": "hopper-random-v2",
   "env_short": "hoprandom",
   "family": "adaptive_multiscale",
