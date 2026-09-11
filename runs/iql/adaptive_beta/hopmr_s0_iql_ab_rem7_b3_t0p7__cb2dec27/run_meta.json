@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/hopper-medium-replay-v2",
-  "collected_at": "2026-09-11T14:32:35+00:00",
+  "collected_at": "2026-09-11T14:37:46+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "adaptive_beta",
