@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te5_Tb5_s0-antmaze-medium-play-v2-009db25d",
-  "collected_at": "2026-09-11T07:01:54+00:00",
+  "collected_at": "2026-09-11T07:07:16+00:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "adaptive_multiscale",
