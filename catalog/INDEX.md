@@ -4,8 +4,8 @@ Total runs: **85**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
-| amo | antmaze_t_init_tune | `ammp_s0_te1_tb1__441c3bd8` | antmaze-medium-play-v2 | 0 | 1000000 | 165000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb1__441c3bd8` |
-| amo | antmaze_t_init_tune | `amud_s0_te10_tb10__4d06b18e` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 840000 | 82.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te10_tb10__4d06b18e` |
+| amo | antmaze_t_init_tune | `ammp_s0_te1_tb1__441c3bd8` | antmaze-medium-play-v2 | 0 | 1000000 | 185000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb1__441c3bd8` |
+| amo | antmaze_t_init_tune | `amud_s0_te10_tb10__4d06b18e` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 880000 | 78.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te10_tb10__4d06b18e` |
 | amo | antmaze_t_init_tune | `amud_s0_te10_tb1__532582c3` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 47.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te10_tb1__532582c3` |
 | amo | antmaze_t_init_tune | `amud_s0_te10_tb5__3b6bb766` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 86.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te10_tb5__3b6bb766` |
 | amo | antmaze_t_init_tune | `amud_s0_te1_tb10__623c6050` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 89.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te1_tb10__623c6050` |
