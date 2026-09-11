@@ -214,6 +214,24 @@ for _name, _tag in (
         }
     )
 
+# CORL IQL+AMO dual B_PI sweep (corl_iql_amo_bpi_v1).
+# Layout: <suite>/cells/<rlrX_bY>/<env-v2>/{resolved_config.yaml,...}
+DEFAULT_SOURCES.append(
+    {
+        "algo": "iql",
+        "root": Path(
+            "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/"
+            "iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells"
+        ),
+        "host": "ext_csh",
+        "code_repo": "CORL-iql-adaptive-beta-v1",
+        "family_force": "amo_bpi",
+        "config_file": "resolved_config.yaml",
+        "nested": True,
+        "variant_tag": "bpi_sweep",
+    }
+)
+
 
 def _parse_yaml_scalar(raw: str) -> Any:
     raw = raw.strip().strip("'\"")
@@ -413,6 +431,19 @@ def build_variant(
         tau = cfg.get("iql_tau")
         if tau is not None:
             tokens.append(f"t{fmt_num(float(tau))}")
+    if family == "amo_bpi":
+        tokens.append("iql_amo_bpi")
+        if cfg.get("_variant_tag"):
+            tokens.append(str(cfg["_variant_tag"]))
+        rlr = cfg.get("rho_lr")
+        if rlr is not None:
+            tokens.append("rlr" + fmt_num(float(rlr)))
+        b0 = cfg.get("beta_initial", cfg.get("beta_init", cfg.get("beta")))
+        if b0 is not None:
+            tokens.append(f"b{fmt_num(float(b0))}")
+        tau = cfg.get("iql_tau")
+        if tau is not None:
+            tokens.append(f"t{fmt_num(float(tau))}")
     if not tokens:
         tokens.append("default")
 
@@ -467,6 +498,7 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "meta_interval",
         "rho_lr",
         "weight_cap",
+        "amo_dual_bpi",
     ]
     out = {}
     for key in keys:
@@ -505,12 +537,18 @@ def ingest_one(
     if not cfg_path.exists():
         return None
 
-    if cfg_path.name == "resolved_config.yaml" or family_force == "adaptive_beta":
+    if cfg_path.name == "resolved_config.yaml" or family_force in (
+        "adaptive_beta",
+        "amo_bpi",
+    ):
         cfg = load_iql_resolved_config(cfg_path)
     else:
         cfg = load_yaml_lite(cfg_path)
     if variant_tag:
         cfg["_variant_tag"] = variant_tag
+    # Nested cell tag (e.g. rlr2e-3_b1) for amo_bpi uniqueness.
+    if family_force == "amo_bpi" and src.parent is not None:
+        cfg["_cell"] = src.parent.name
 
     env = str(cfg.get("env") or src.name or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
@@ -518,8 +556,14 @@ def ingest_one(
     # Adaptive-multiscale always archives under amo/, even if code lived in APART/.
     if family == "adaptive_multiscale":
         algo = "amo"
-    variant = build_variant(algo, family, cfg, src.name, source_root=source_root)
-    uuid8 = extract_uuid8(src.name)
+    # Include parent cell dir in dirname blob so uuid/variant stay unique per cell.
+    dirname_for_variant = (
+        f"{src.parent.name}_{src.name}" if family == "amo_bpi" else src.name
+    )
+    variant = build_variant(
+        algo, family, cfg, dirname_for_variant, source_root=source_root
+    )
+    uuid8 = extract_uuid8(dirname_for_variant)
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
@@ -549,6 +593,10 @@ def ingest_one(
     }
     if family == "adaptive_beta":
         meta["protocol"] = "corl_iql_adaptive_beta_v1"
+    if family == "amo_bpi":
+        meta["protocol"] = "corl_iql_amo_bpi_v1"
+        if cfg.get("_cell"):
+            meta["cell"] = cfg["_cell"]
 
     if dry_run:
         print(f"DRY {src} -> {dest.relative_to(ROOT)}")

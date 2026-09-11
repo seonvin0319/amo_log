@@ -1,0 +1,71 @@
+corl:
+  actor_lr: 3e-4
+  batch_size: 256
+  beta: 10.0
+  buffer_size: 10000000
+  checkpoints_path: null
+  device: cuda:0
+  discount: 0.99
+  env: antmaze-medium-diverse-v2
+  eval_freq: 5000
+  group: iql-antmaze-medium-diverse-v2-multiseed-v0
+  iql_deterministic: false
+  iql_tau: 0.9
+  load_model: ''
+  max_timesteps: 1000000
+  n_episodes: 100
+  name: IQL
+  normalize: true
+  normalize_reward: true
+  qf_lr: 3e-4
+  project: CORL
+  seed: 0
+  tau: 0.005
+  vf_lr: 3e-4
+meta:
+  adaptive_enabled: true
+  beta_initial: 1.0
+  beta_fixed: 1.0
+  beta_min: 0.05
+  beta_max: 100.0
+  rho_parameterization: log_beta
+  rho_dtype: float64
+  rho_lr: 0.002
+  rho_adam_betas:
+  - 0.0
+  - 0.999
+  rho_adam_eps: 1e-8
+  rho_weight_decay: 0
+  meta_warmup_steps: 100000
+  meta_interval: 20
+  outer_batch_size: 256
+  outer_reference: current_beta_stopgrad
+  weight_cap: 100.0
+  amo_dual_bpi: true
+  smoothness_eps: 1.0e-06
+cli:
+  config: /home/ext_csh/CORL-iql-adaptive-beta-v1/configs/offline/iql/antmaze/medium_diverse_v2.yaml
+  meta_config: /home/ext_csh/CORL-iql-adaptive-beta-v1/configs/offline/iql_adaptive_beta/meta_amo_bpi_v1.yaml
+  env: antmaze-medium-diverse-v2
+  seed: 0
+  device: cuda:0
+  dataset_path: /home/ext_csh/.d4rl/datasets/Ant_maze_big-maze_noisy_multistart_True_multigoal_True_sparse_fixed.hdf5
+  output_dir: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-medium-diverse-v2
+  resume: ''
+  mode: train
+  checkpoint: ''
+  max_timesteps: null
+  meta_warmup_steps: null
+  meta_interval: null
+  eval_episodes: null
+  eval_freq: null
+  checkpoint_freq: null
+  metrics_freq: null
+  adaptive_enabled: null
+  amo_dual_bpi: true
+  no_amo_dual_bpi: false
+  beta_init: 1.0
+  rho_lr: 0.002
+code_hash: 0575334c3f43d7f6982bd2d9c137a78d3037c4df0da70429c51ed2e0b2c941c2
+base_commit: 7857425517f84420b1b4ac48a7ac666e4c00a579
+mode: train
