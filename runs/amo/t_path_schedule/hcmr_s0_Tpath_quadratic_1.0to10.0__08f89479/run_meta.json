@@ -6,7 +6,7 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_1to10_1m-halfcheetah-medium-replay-v2-08f89479/checkpoint_999999.pt",
-  "collected_at": "2026-09-11T00:41:42+09:00",
+  "collected_at": "2026-09-11T10:00:16+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "t_path_schedule",

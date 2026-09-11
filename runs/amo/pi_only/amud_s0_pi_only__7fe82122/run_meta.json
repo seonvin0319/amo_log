@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/amud_s0_pi_only-antmaze-umaze-diverse-v2-7fe82122/checkpoint_999999.pt",
-  "collected_at": "2026-09-11T00:41:42+09:00",
+  "collected_at": "2026-09-11T10:00:16+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "pi_only",

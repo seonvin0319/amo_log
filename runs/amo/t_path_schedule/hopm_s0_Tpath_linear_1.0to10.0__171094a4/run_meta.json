@@ -6,16 +6,16 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_1to10_1m-hopper-medium-v2-171094a4/checkpoint_999999.pt",
-  "collected_at": "2026-09-11T00:41:42+09:00",
+  "collected_at": "2026-09-11T10:00:16+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "t_path_schedule",
-  "final_score": 89.0627684688976,
+  "final_score": 101.56886647317131,
   "git": {
     "code_commit": null,
     "code_repo": "AMO-t-path-linear-vs-quadratic"
   },
-  "last_eval_step": 275000,
+  "last_eval_step": 1000000,
   "legacy_name": "hopm_s0_Tpath_linear_1to10_1m-hopper-medium-v2-171094a4",
   "run_id": "hopm_s0_Tpath_linear_1.0to10.0__171094a4",
   "seed": 0,

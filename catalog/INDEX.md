@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **104**
+Total runs: **112**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -40,10 +40,18 @@ Total runs: **104**
 | amo | t_path_schedule | `hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 48.21 | `runs/amo/t_path_schedule/hcmr_s0_Tpath_quadratic_1.0to10.0__08f89479` |
 | amo | t_path_schedule | `hcm_s0_Tpath_linear_1.0to10.0__080c8e19` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 58.04 | `runs/amo/t_path_schedule/hcm_s0_Tpath_linear_1.0to10.0__080c8e19` |
 | amo | t_path_schedule | `hcm_s0_Tpath_quadratic_1.0to10.0__2f88ba54` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 57.94 | `runs/amo/t_path_schedule/hcm_s0_Tpath_quadratic_1.0to10.0__2f88ba54` |
-| amo | t_path_schedule | `hopm_s0_Tpath_linear_1.0to10.0__171094a4` | hopper-medium-v2 | 0 | 1000000 | 275000 | 89.06 | `runs/amo/t_path_schedule/hopm_s0_Tpath_linear_1.0to10.0__171094a4` |
-| amo | t_path_schedule | `hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` | hopper-medium-v2 | 0 | 1000000 | 280000 | 56.73 | `runs/amo/t_path_schedule/hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` |
+| amo | t_path_schedule | `hopme_s0_Tpath_linear_1.0to10.0__055e5c1e` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 57.21 | `runs/amo/t_path_schedule/hopme_s0_Tpath_linear_1.0to10.0__055e5c1e` |
+| amo | t_path_schedule | `hopme_s0_Tpath_quadratic_1.0to10.0__c2843b7d` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 103.56 | `runs/amo/t_path_schedule/hopme_s0_Tpath_quadratic_1.0to10.0__c2843b7d` |
+| amo | t_path_schedule | `hopmr_s0_Tpath_linear_1.0to10.0__47681588` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 101.93 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_linear_1.0to10.0__47681588` |
+| amo | t_path_schedule | `hopmr_s0_Tpath_quadratic_1.0to10.0__a7ae045e` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 101.05 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_1.0to10.0__a7ae045e` |
+| amo | t_path_schedule | `hopm_s0_Tpath_linear_1.0to10.0__171094a4` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 101.57 | `runs/amo/t_path_schedule/hopm_s0_Tpath_linear_1.0to10.0__171094a4` |
+| amo | t_path_schedule | `hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 96.72 | `runs/amo/t_path_schedule/hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` |
+| amo | t_path_schedule | `wme_s0_Tpath_linear_1.0to10.0__7a24b86a` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.08 | `runs/amo/t_path_schedule/wme_s0_Tpath_linear_1.0to10.0__7a24b86a` |
+| amo | t_path_schedule | `wme_s0_Tpath_quadratic_1.0to10.0__292326c9` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.82 | `runs/amo/t_path_schedule/wme_s0_Tpath_quadratic_1.0to10.0__292326c9` |
 | amo | t_path_schedule | `wmr_s0_Tpath_linear_1.0to10.0__eed248b9` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.53 | `runs/amo/t_path_schedule/wmr_s0_Tpath_linear_1.0to10.0__eed248b9` |
 | amo | t_path_schedule | `wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 94.65 | `runs/amo/t_path_schedule/wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1` |
+| amo | t_path_schedule | `wm_s0_Tpath_linear_1.0to10.0__c8b1a97b` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 91.86 | `runs/amo/t_path_schedule/wm_s0_Tpath_linear_1.0to10.0__c8b1a97b` |
+| amo | t_path_schedule | `wm_s0_Tpath_quadratic_1.0to10.0__5ccddebd` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 6.76 | `runs/amo/t_path_schedule/wm_s0_Tpath_quadratic_1.0to10.0__5ccddebd` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
 | apart | chain | `hme_s0_n2__3a87ef6d` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 94.26 | `runs/apart/chain/hme_s0_n2__3a87ef6d` |
 | apart | chain | `hme_s0_n4_Ng__0f1a9987` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 97.00 | `runs/apart/chain/hme_s0_n4_Ng__0f1a9987` |
