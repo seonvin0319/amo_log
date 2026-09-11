@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr1e-3_te1_tb1_l1e/runs/amo_adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-44322111",
-  "collected_at": "2026-09-11T18:17:51+00:00",
+  "collected_at": "2026-09-11T18:23:05+00:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "adaptive_multiscale",
