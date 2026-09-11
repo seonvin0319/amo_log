@@ -107,3 +107,7 @@
 {"step": 535000, "t": 535000, "d4rl_normalized_score": 96.60858454654819, "eval_return": 11713.949702414262}
 {"step": 540000, "t": 540000, "d4rl_normalized_score": 97.52668959173599, "eval_return": 11827.934086750847}
 {"step": 545000, "t": 545000, "d4rl_normalized_score": 98.56287264231568, "eval_return": 11956.57806676097}
+{"step": 550000, "t": 550000, "d4rl_normalized_score": 96.3349527529411, "eval_return": 11679.977825565638}
+{"step": 555000, "t": 555000, "d4rl_normalized_score": 98.0556057158805, "eval_return": 11893.599970074662}
+{"step": 560000, "t": 560000, "d4rl_normalized_score": 96.69261148808498, "eval_return": 11724.381797574786}
+{"step": 565000, "t": 565000, "d4rl_normalized_score": 95.42468185852748, "eval_return": 11566.966065067112}
