@@ -1,12 +1,36 @@
 # Experiment catalog
 
-Total runs: **111**
+Total runs: **135**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
-| amo | adaptive_multiscale | `amu_s0_TE10_Tlr0p002__6c5f879c` | antmaze-umaze-v2 | 0 | 1000000 | 330000 | 90.00 | `runs/amo/adaptive_multiscale/amu_s0_TE10_Tlr0p002__6c5f879c` |
-| amo | adaptive_multiscale | `amu_s0_TE1_Tlr0p001__129d7e93` | antmaze-umaze-v2 | 0 | 1000000 | 340000 | 80.00 | `runs/amo/adaptive_multiscale/amu_s0_TE1_Tlr0p001__129d7e93` |
+| amo | adaptive_multiscale | `ammd_s0_TE1_Tlr0p002__8ec281ac` | antmaze-medium-diverse-v2 | 0 | 1000000 | 720000 | 30.00 | `runs/amo/adaptive_multiscale/ammd_s0_TE1_Tlr0p002__8ec281ac` |
+| amo | adaptive_multiscale | `ammp_s0_TE10_Tlr0p0003__b490b5f3` | antmaze-medium-play-v2 | 0 | 1000000 | 830000 | 70.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE10_Tlr0p0003__b490b5f3` |
+| amo | adaptive_multiscale | `ammp_s0_TE10_Tlr0p001__04e2f5f2` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE10_Tlr0p001__04e2f5f2` |
+| amo | adaptive_multiscale | `ammp_s0_TE10_Tlr0p002__de63d5a9` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE10_Tlr0p002__de63d5a9` |
+| amo | adaptive_multiscale | `ammp_s0_TE1_Tlr0p0003__9e0e981f` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE1_Tlr0p0003__9e0e981f` |
+| amo | adaptive_multiscale | `ammp_s0_TE1_Tlr0p001__b57b7ebf` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE1_Tlr0p001__b57b7ebf` |
+| amo | adaptive_multiscale | `ammp_s0_TE1_Tlr0p002__2feccd52` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 60.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE1_Tlr0p002__2feccd52` |
+| amo | adaptive_multiscale | `ammp_s0_TE5_Tlr0p0003__e573328f` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE5_Tlr0p0003__e573328f` |
+| amo | adaptive_multiscale | `ammp_s0_TE5_Tlr0p001__a9b856bd` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 60.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE5_Tlr0p001__a9b856bd` |
+| amo | adaptive_multiscale | `ammp_s0_TE5_Tlr0p002__434ebbe7` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 70.00 | `runs/amo/adaptive_multiscale/ammp_s0_TE5_Tlr0p002__434ebbe7` |
+| amo | adaptive_multiscale | `amud_s0_TE10_Tlr0p0003__a70db821` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 90.00 | `runs/amo/adaptive_multiscale/amud_s0_TE10_Tlr0p0003__a70db821` |
+| amo | adaptive_multiscale | `amud_s0_TE10_Tlr0p001__3c97d285` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 70.00 | `runs/amo/adaptive_multiscale/amud_s0_TE10_Tlr0p001__3c97d285` |
+| amo | adaptive_multiscale | `amud_s0_TE10_Tlr0p002__f48acf6b` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 70.00 | `runs/amo/adaptive_multiscale/amud_s0_TE10_Tlr0p002__f48acf6b` |
+| amo | adaptive_multiscale | `amud_s0_TE1_Tlr0p0003__765ac073` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/amud_s0_TE1_Tlr0p0003__765ac073` |
+| amo | adaptive_multiscale | `amud_s0_TE1_Tlr0p001__e529fdff` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/amud_s0_TE1_Tlr0p001__e529fdff` |
+| amo | adaptive_multiscale | `amud_s0_TE1_Tlr0p002__2c250b9e` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/amo/adaptive_multiscale/amud_s0_TE1_Tlr0p002__2c250b9e` |
+| amo | adaptive_multiscale | `amud_s0_TE5_Tlr0p0003__9275df28` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 90.00 | `runs/amo/adaptive_multiscale/amud_s0_TE5_Tlr0p0003__9275df28` |
+| amo | adaptive_multiscale | `amud_s0_TE5_Tlr0p001__bcbd4042` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/amo/adaptive_multiscale/amud_s0_TE5_Tlr0p001__bcbd4042` |
+| amo | adaptive_multiscale | `amud_s0_TE5_Tlr0p002__9b1f1863` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/amud_s0_TE5_Tlr0p002__9b1f1863` |
+| amo | adaptive_multiscale | `amu_s0_TE10_Tlr0p0003__177bf30c` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE10_Tlr0p0003__177bf30c` |
+| amo | adaptive_multiscale | `amu_s0_TE10_Tlr0p001__ab6ca031` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/amu_s0_TE10_Tlr0p001__ab6ca031` |
+| amo | adaptive_multiscale | `amu_s0_TE10_Tlr0p002__6c5f879c` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/amu_s0_TE10_Tlr0p002__6c5f879c` |
+| amo | adaptive_multiscale | `amu_s0_TE1_Tlr0p0003__82b63148` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE1_Tlr0p0003__82b63148` |
+| amo | adaptive_multiscale | `amu_s0_TE1_Tlr0p001__129d7e93` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE1_Tlr0p001__129d7e93` |
 | amo | adaptive_multiscale | `amu_s0_TE1_Tlr0p002__95383ef4` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 80.00 | `runs/amo/adaptive_multiscale/amu_s0_TE1_Tlr0p002__95383ef4` |
+| amo | adaptive_multiscale | `amu_s0_TE5_Tlr0p0003__6e715fad` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 90.00 | `runs/amo/adaptive_multiscale/amu_s0_TE5_Tlr0p0003__6e715fad` |
+| amo | adaptive_multiscale | `amu_s0_TE5_Tlr0p001__730129f0` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE5_Tlr0p001__730129f0` |
 | amo | adaptive_multiscale | `amu_s0_TE5_Tlr0p002__50b982af` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE5_Tlr0p002__50b982af` |
 | amo | amo_td3bc | `hme_s0_qouter__2c7cd16c` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 101.29 | `runs/amo/amo_td3bc/hme_s0_qouter__2c7cd16c` |
 | amo | amo_td3bc | `hcmr_s0_qouter__dacfe9c9` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 46.90 | `runs/amo/amo_td3bc/hcmr_s0_qouter__dacfe9c9` |

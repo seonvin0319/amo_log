@@ -5,16 +5,16 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-11T13:24:44+09:00",
-  "env": "antmaze-umaze-v2",
-  "env_short": "amu",
+  "collected_at": "2026-09-11T13:24:45+09:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
   "family": "adaptive_multiscale",
   "git": {
     "code_commit": null,
     "code_repo": "amo"
   },
-  "legacy_name": "amo_ams_au_tlr2e-03_t10_s0-antmaze-umaze-v2-6c5f879c",
-  "run_id": "amu_s0_TE10_Tlr0p002__6c5f879c",
+  "legacy_name": "amo_ams_aud_tlr2e-03_t10_s0-antmaze-umaze-diverse-v2-f48acf6b",
+  "run_id": "amud_s0_TE10_Tlr0p002__f48acf6b",
   "seed": 0,
   "settings": {
     "T_B": 10.0,
@@ -24,7 +24,7 @@
     "adaptive_multiscale": true,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "antmaze-umaze-v2",
+    "env": "antmaze-umaze-diverse-v2",
     "eval_freq": 5000,
     "last_metrics_step": 1000000,
     "max_timesteps": 1000000,
@@ -39,6 +39,6 @@
     "tau": 0.005
   },
   "source_host": "shchoi",
-  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_au_tlr2e-03_t10_s0-antmaze-umaze-v2-6c5f879c",
+  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_aud_tlr2e-03_t10_s0-antmaze-umaze-diverse-v2-f48acf6b",
   "variant": "TE10_Tlr0p002"
 }
