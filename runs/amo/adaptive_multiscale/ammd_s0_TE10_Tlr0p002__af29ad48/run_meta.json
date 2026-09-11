@@ -1,0 +1,44 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-11T14:03:01+09:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "amo"
+  },
+  "legacy_name": "amo_ams_amd_tlr2e-03_t10_s0-antmaze-medium-diverse-v2-af29ad48",
+  "run_id": "ammd_s0_TE10_Tlr0p002__af29ad48",
+  "seed": 0,
+  "settings": {
+    "T_B": 10.0,
+    "T_E": 10.0,
+    "T_freq": 10,
+    "T_lr": 0.002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-medium-diverse-v2",
+    "eval_freq": 5000,
+    "last_metrics_step": 165000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_amd_tlr2e-03_t10_s0-antmaze-medium-diverse-v2-af29ad48",
+  "variant": "TE10_Tlr0p002"
+}
