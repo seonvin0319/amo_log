@@ -1,0 +1,44 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te10_tb10/runs/amo_adaptive_multiscale_am-ud_s0_tlr2e-3_te10_tb10-antmaze-umaze-diverse-v2-e57232a5",
+  "collected_at": "2026-09-11T02:54:45+00:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amo_adaptive_multiscale_am-ud_s0_tlr2e-3_te10_tb10-antmaze-umaze-diverse-v2-e57232a5",
+  "run_id": "amud_s0_te10_tb10_Tlr0p002__e57232a5",
+  "seed": 0,
+  "settings": {
+    "T_B": 10.0,
+    "T_E": 10.0,
+    "T_freq": 10,
+    "T_lr": 0.002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-umaze-diverse-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te10_tb10/runs/amo_adaptive_multiscale_am-ud_s0_tlr2e-3_te10_tb10-antmaze-umaze-diverse-v2-e57232a5",
+  "variant": "te10_tb10_Tlr0p002"
+}
