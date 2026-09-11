@@ -196,3 +196,5 @@
 {"step": 980000, "t": 980000, "d4rl_normalized_score": 70.0, "eval_return": 0.7}
 {"step": 985000, "t": 985000, "d4rl_normalized_score": 60.0, "eval_return": 0.6}
 {"step": 990000, "t": 990000, "d4rl_normalized_score": 30.0, "eval_return": 0.3}
+{"step": 995000, "t": 995000, "d4rl_normalized_score": 40.0, "eval_return": 0.4}
+{"step": 1000000, "t": 1000000, "d4rl_normalized_score": 60.0, "eval_return": 0.6}
