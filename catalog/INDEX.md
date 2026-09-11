@@ -7,8 +7,8 @@ Total runs: **89**
 | amo | antmaze_t_init_tune | `ammp_s0_te1_tb10__b596daab` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb10__b596daab` |
 | amo | antmaze_t_init_tune | `ammp_s0_te1_tb1__441c3bd8` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb1__441c3bd8` |
 | amo | antmaze_t_init_tune | `ammp_s0_te1_tb5__0cf2381f` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb5__0cf2381f` |
-| amo | antmaze_t_init_tune | `ammp_s0_te5_tb1__1ca51c91` | antmaze-medium-play-v2 | 0 | 1000000 | 835000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te5_tb1__1ca51c91` |
-| amo | antmaze_t_init_tune | `ammp_s0_te5_tb5__5544f59a` | antmaze-medium-play-v2 | 0 | 1000000 | 80000 | 2.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te5_tb5__5544f59a` |
+| amo | antmaze_t_init_tune | `ammp_s0_te5_tb1__1ca51c91` | antmaze-medium-play-v2 | 0 | 1000000 | 850000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te5_tb1__1ca51c91` |
+| amo | antmaze_t_init_tune | `ammp_s0_te5_tb5__5544f59a` | antmaze-medium-play-v2 | 0 | 1000000 | 100000 | 2.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te5_tb5__5544f59a` |
 | amo | antmaze_t_init_tune | `amud_s0_te10_tb10__4d06b18e` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 76.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te10_tb10__4d06b18e` |
 | amo | antmaze_t_init_tune | `amud_s0_te10_tb1__532582c3` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 47.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te10_tb1__532582c3` |
 | amo | antmaze_t_init_tune | `amud_s0_te10_tb5__3b6bb766` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 86.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te10_tb5__3b6bb766` |
