@@ -51,7 +51,7 @@ cli:
   device: cuda:0
   dataset_path: /home/ext_csh/.d4rl/datasets/halfcheetah_medium_expert-v2.hdf5
   output_dir: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-expert-v2
-  resume: ''
+  resume: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-expert-v2/checkpoint_300000.pt
   mode: train
   checkpoint: ''
   max_timesteps: null
