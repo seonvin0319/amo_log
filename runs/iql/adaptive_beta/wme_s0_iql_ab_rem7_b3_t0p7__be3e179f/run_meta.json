@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/walker2d-medium-expert-v2",
-  "collected_at": "2026-09-11T23:29:34+00:00",
+  "collected_at": "2026-09-11T23:34:45+00:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "adaptive_beta",
