@@ -5,26 +5,26 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-11T13:02:02+09:00",
-  "env": "antmaze-umaze-v2",
-  "env_short": "amu",
+  "collected_at": "2026-09-11T13:02:01+09:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
   "family": "antmaze_t_init_tune",
   "git": {
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "legacy_name": "amo_am_te5_tb5_amu_s0-antmaze-umaze-v2-ed7d7e67",
-  "run_id": "amu_s0_te5_tb5__ed7d7e67",
+  "legacy_name": "amo_am_te10_tb1_amud_s0-antmaze-umaze-diverse-v2-532582c3",
+  "run_id": "amud_s0_te10_tb1__532582c3",
   "seed": 0,
   "settings": {
-    "T_B": 5.0,
-    "T_E": 5.0,
+    "T_B": 1.0,
+    "T_E": 10.0,
     "T_freq": 10,
     "T_lr": 0.0002,
     "adaptive_multiscale": true,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "antmaze-umaze-v2",
+    "env": "antmaze-umaze-diverse-v2",
     "eval_freq": 5000,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/amo/results/amo_antmaze_t_init_tune_seed0/runs/amo_am_te5_tb5_amu_s0-antmaze-umaze-v2-ed7d7e67",
-  "variant": "te5_tb5"
+  "source_path": "/home/choi/amo/results/amo_antmaze_t_init_tune_seed0/runs/amo_am_te10_tb1_amud_s0-antmaze-umaze-diverse-v2-532582c3",
+  "variant": "te10_tb1"
 }
