@@ -7,9 +7,9 @@ Total runs: **81**
 | amo | antmaze_t_init_tune | `amud_s0_te1_tb10__623c6050` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 89.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te1_tb10__623c6050` |
 | amo | antmaze_t_init_tune | `amud_s0_te1_tb1__81f1616b` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 47.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te1_tb1__81f1616b` |
 | amo | antmaze_t_init_tune | `amud_s0_te1_tb5__f16ee0e4` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 68.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te1_tb5__f16ee0e4` |
-| amo | antmaze_t_init_tune | `amud_s0_te5_tb10__9dc648a0` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 170000 | 82.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te5_tb10__9dc648a0` |
+| amo | antmaze_t_init_tune | `amud_s0_te5_tb10__9dc648a0` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 205000 | 80.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te5_tb10__9dc648a0` |
 | amo | antmaze_t_init_tune | `amud_s0_te5_tb1__945b7ce2` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 44.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te5_tb1__945b7ce2` |
-| amo | antmaze_t_init_tune | `amud_s0_te5_tb5__887d9381` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 770000 | 52.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te5_tb5__887d9381` |
+| amo | antmaze_t_init_tune | `amud_s0_te5_tb5__887d9381` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 800000 | 42.00 | `runs/amo/antmaze_t_init_tune/amud_s0_te5_tb5__887d9381` |
 | amo | antmaze_t_init_tune | `amu_s0_te10_tb10__d9fcd8e1` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 86.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te10_tb10__d9fcd8e1` |
 | amo | antmaze_t_init_tune | `amu_s0_te10_tb1__378d41ca` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 65.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te10_tb1__378d41ca` |
 | amo | antmaze_t_init_tune | `amu_s0_te10_tb5__56e7aad2` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 88.00 | `runs/amo/antmaze_t_init_tune/amu_s0_te10_tb5__56e7aad2` |
