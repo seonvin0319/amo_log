@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_remaining7_jp2_s0/halfcheetah-medium-replay-v2",
-  "collected_at": "2026-09-11T18:54:26+00:00",
+  "collected_at": "2026-09-11T18:59:39+00:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "adaptive_beta",
