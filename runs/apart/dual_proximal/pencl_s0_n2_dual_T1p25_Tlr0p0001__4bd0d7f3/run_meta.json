@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/dual_n24_tlr/runs/pen_dual_N2_T1.25_Tlr1e-4_s0-pen-cloned-v1-4bd0d7f3",
-  "collected_at": "2026-09-11T18:49:12+00:00",
+  "collected_at": "2026-09-11T18:54:26+00:00",
   "env": "pen-cloned-v1",
   "env_short": "pencl",
   "family": "dual_proximal",
