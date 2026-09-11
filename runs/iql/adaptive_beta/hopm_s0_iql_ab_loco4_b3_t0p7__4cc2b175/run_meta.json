@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_beta_locomotion4_s0/hopper-medium-v2",
-  "collected_at": "2026-09-11T18:38:46+00:00",
+  "collected_at": "2026-09-11T18:43:59+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "adaptive_beta",
