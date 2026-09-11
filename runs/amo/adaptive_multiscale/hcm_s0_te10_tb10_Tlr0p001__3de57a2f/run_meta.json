@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te10_Tb10_Tlr0p001_s0-halfcheetah-medium-v2-3de57a2f",
-  "collected_at": "2026-09-11T18:40:15+00:00",
+  "collected_at": "2026-09-11T18:45:36+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "adaptive_multiscale",
