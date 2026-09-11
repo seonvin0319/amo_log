@@ -8,7 +8,7 @@
     "run_manifest.json"
   ],
   "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
-  "collected_at": "2026-09-11T23:21:27+00:00",
+  "collected_at": "2026-09-11T23:26:50+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "behavior_bc_l1_joint",
