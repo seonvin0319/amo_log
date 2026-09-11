@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-12T03:02:01+09:00",
+  "collected_at": "2026-09-12T03:07:01+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "dual_proximal",
