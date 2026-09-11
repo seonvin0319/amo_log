@@ -8,7 +8,7 @@
     "run_manifest.json"
   ],
   "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0",
-  "collected_at": "2026-09-11T03:51:27+00:00",
+  "collected_at": "2026-09-11T03:56:47+00:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "behavior_bc_l1_joint",
