@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s3-walker2d-medium-v2-61585211",
-  "collected_at": "2026-09-11T06:13:40+00:00",
+  "collected_at": "2026-09-11T06:19:01+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "adaptive_multiscale",
