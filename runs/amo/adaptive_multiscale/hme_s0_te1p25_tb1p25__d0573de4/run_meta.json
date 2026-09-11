@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_multiscale_locomotion9_seed0/runs/adaptive_multiscale_hc-me_s0-halfcheetah-medium-expert-v2-d0573de4",
-  "collected_at": "2026-09-11T02:12:12+00:00",
+  "collected_at": "2026-09-11T02:17:32+00:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "adaptive_multiscale",
