@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-11T12:37:02+09:00",
+  "collected_at": "2026-09-11T12:42:02+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "pi_only_xfit_target",
