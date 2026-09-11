@@ -13,12 +13,12 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "legacy_name": "amo_am_te1_tb5_amud_s0-antmaze-umaze-diverse-v2-f16ee0e4",
-  "run_id": "amud_s0_te1_tb5__f16ee0e4",
+  "legacy_name": "amo_am_te10_tb10_amud_s0-antmaze-umaze-diverse-v2-4d06b18e",
+  "run_id": "amud_s0_te10_tb10__4d06b18e",
   "seed": 0,
   "settings": {
-    "T_B": 5.0,
-    "T_E": 1.0,
+    "T_B": 10.0,
+    "T_E": 10.0,
     "T_freq": 10,
     "T_lr": 0.0002,
     "adaptive_multiscale": true,
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/amo/results/amo_antmaze_t_init_tune_seed0/runs/amo_am_te1_tb5_amud_s0-antmaze-umaze-diverse-v2-f16ee0e4",
-  "variant": "te1_tb5"
+  "source_path": "/home/choi/amo/results/amo_antmaze_t_init_tune_seed0/runs/amo_am_te10_tb10_amud_s0-antmaze-umaze-diverse-v2-4d06b18e",
+  "variant": "te10_tb10"
 }
