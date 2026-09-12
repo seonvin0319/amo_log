@@ -1,0 +1,49 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T21:11:29+09:00",
+  "env": "antmaze-large-diverse-v2",
+  "env_short": "amld",
+  "eval_source": "synthesized_from_mpi_actor0_log",
+  "family": "vanilla",
+  "git": {
+    "code_commit": null,
+    "code_repo": "MPI"
+  },
+  "legacy_name": "run_seed0_inv2w0.01_fbtau0.01.log",
+  "mpi_source": {
+    "final_det_mean": 34.0,
+    "final_stoch_mean": 24.0,
+    "num_actors": 3,
+    "use_fb": true,
+    "w2_weights": "[50.0, 50.0]"
+  },
+  "notes": "Actor0/pi_base scores from MPI-IQL (num_actors>1). Actor0 has no W2/FB term and matches vanilla IQL under the same IQL hparams.",
+  "run_id": "amld_s0_pi_base__58475c36",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "beta": 10.0,
+    "discount": 0.99,
+    "env": "antmaze-large-diverse-v2",
+    "eval_freq": 5000,
+    "iql_tau": 0.9,
+    "max_timesteps": 1000000,
+    "n_episodes": 10,
+    "normalize": true,
+    "normalize_reward": true,
+    "qf_lr": 0.0003,
+    "seed": 0,
+    "tau": 0.005,
+    "vf_lr": 0.0003
+  },
+  "source_config": "/home/choi/MPI/configs/offline/mpi/antmaze/large_diverse_v2_iql_fb.yaml",
+  "source_host": "choi",
+  "source_log": "/home/choi/MPI/results/iql/antmaze/large_diverse_v2/seed_0/logs/run_seed0_inv2w0.01_fbtau0.01.log",
+  "source_path": "/home/choi/MPI/results/iql/antmaze/large_diverse_v2/seed_0",
+  "variant": "pi_base"
+}

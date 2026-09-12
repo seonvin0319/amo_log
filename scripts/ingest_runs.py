@@ -96,6 +96,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "aspc_rc",
         "log_dir": Path("/home/choi/ASPC/results/td3bc_aspc_table6/logs"),
     },
+    {
+        # MPI-IQL Actor0 / pi_base == vanilla IQL update (W2/FB only on Actor1+).
+        # Source layout has no per-run config.yaml; special-cased in main().
+        "algo": "iql",
+        "root": Path("/home/choi/MPI/results/iql"),
+        "host": "choi",
+        "code_repo": "MPI",
+        "family_force": "vanilla",
+        "kind": "mpi_iql_actor0",
+        "config_root": Path("/home/choi/MPI/configs/offline/mpi"),
+    },
 ]
 
 
@@ -225,6 +236,9 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         if alpha is not None:
             a = float(alpha)
             tokens.append(f"a{int(a) if a.is_integer() else str(a).replace('.', 'p')}")
+    if family == "vanilla" and algo == "iql":
+        # Scores extracted from MPI multi-actor Actor0 (pi_base).
+        tokens.append("pi_base")
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")
@@ -274,6 +288,12 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "smoothness_max",
         "actor_lr",
         "alpha",
+        "beta",
+        "iql_tau",
+        "iql_deterministic",
+        "vf_lr",
+        "qf_lr",
+        "n_episodes",
     ]
     out = {}
     for k in keys:
@@ -344,6 +364,240 @@ def synthesize_eval_jsonl_from_aspc_log(
         )
         step = None
     return rows
+
+
+MPI_IQL_DROP_KEYS = {
+    "num_actors",
+    "w2_weights",
+    "use_fb",
+    "fb_tau",
+    "sinkhorn_K",
+    "sinkhorn_blur",
+    "sinkhorn_backend",
+    "algorithm",  # kept implicitly via algo=iql
+}
+
+
+def discover_mpi_iql_actor0_logs(root: Path) -> List[Path]:
+    """Return completed MPI-IQL stdout logs under results/iql/.../logs/*.log."""
+    if not root.exists():
+        return []
+    out: List[Path] = []
+    for log in sorted(root.glob("*/*/seed_*/logs/*.log")):
+        text = log.read_text(errors="ignore")
+        if "Training completed" not in text:
+            continue
+        if "Actor 0 - Raw:" not in text:
+            continue
+        out.append(log)
+    return out
+
+
+def mpi_iql_config_path(log_path: Path, config_root: Path) -> Optional[Path]:
+    # .../results/iql/{domain}/{dataset}/seed_N/logs/run_....log
+    parts = log_path.parts
+    try:
+        i = parts.index("iql")
+        domain, dataset = parts[i + 1], parts[i + 2]
+    except (ValueError, IndexError):
+        return None
+    for name in (f"{dataset}_iql_fb.yaml", f"{dataset}_iql.yaml"):
+        cand = config_root / domain / name
+        if cand.exists():
+            return cand
+    return None
+
+
+def synthesize_eval_jsonl_from_mpi_iql_actor0(
+    log_path: Path, eval_freq: int = 5000
+) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Parse MPI multi-actor IQL logs; keep Actor 0 (pi_base) only."""
+    text = log_path.read_text(errors="ignore")
+    rows: List[Dict[str, Any]] = []
+    step: Optional[int] = None
+    header: Dict[str, Any] = {}
+    m = re.search(r"Env:\s*([^\s,]+)", text)
+    if m:
+        header["env"] = m.group(1)
+    m = re.search(r"seed:\s*(\d+)", text)
+    if m:
+        header["seed"] = int(m.group(1))
+    m = re.search(r"num_actors:\s*(\d+)", text)
+    if m:
+        header["num_actors"] = int(m.group(1))
+    m = re.search(r"w2_weights:\s*(\[[^\]]+\])", text)
+    if m:
+        header["w2_weights"] = m.group(1)
+    m = re.search(r"use_fb:\s*(True|False)", text)
+    if m:
+        header["use_fb"] = m.group(1) == "True"
+    for line in text.splitlines():
+        tm = re.search(r"Time steps:\s*(\d+)", line)
+        if tm:
+            step = int(tm.group(1))
+            continue
+        am = re.search(
+            r"Actor 0 - Raw:\s*([-\d.]+),\s*D4RL score:\s*([-\d.]+)",
+            line,
+        )
+        if not am:
+            continue
+        if step is None:
+            step = (len(rows) + 1) * int(eval_freq)
+        rows.append(
+            {
+                "step": step,
+                "return_mean": float(am.group(1)),
+                "d4rl_normalized_score": float(am.group(2)),
+                "actor": 0,
+            }
+        )
+        step = None
+    fm = re.search(
+        r"Actor 0 final - det_mean:\s*([-\d.]+),\s*stoch_mean:\s*([-\d.]+)",
+        text,
+    )
+    if fm:
+        header["final_det_mean"] = float(fm.group(1))
+        header["final_stoch_mean"] = float(fm.group(2))
+    return rows, header
+
+
+def write_vanilla_iql_config_from_mpi(cfg: Dict[str, Any]) -> str:
+    """Emit a flat YAML for Actor0 / vanilla IQL (MPI multi-actor fields dropped)."""
+    keep_order = [
+        "env",
+        "seed",
+        "eval_freq",
+        "n_episodes",
+        "max_timesteps",
+        "iql_tau",
+        "beta",
+        "vf_lr",
+        "qf_lr",
+        "actor_lr",
+        "iql_deterministic",
+        "actor_dropout",
+        "batch_size",
+        "discount",
+        "tau",
+        "buffer_size",
+        "normalize",
+        "normalize_reward",
+        "final_eval_runs",
+        "final_eval_episodes",
+        "project",
+        "group",
+        "name",
+    ]
+    lines = [
+        "# Vanilla IQL (pi_base / Actor0 extracted from MPI-IQL).",
+        "# Multi-actor W2/FB fields were dropped; Actor0 update matches standalone IQL.",
+        "algo: iql",
+        "family: vanilla",
+        "extracted_from: mpi_iql_actor0",
+    ]
+    seen = set()
+    for key in keep_order:
+        if key not in cfg or cfg[key] is None:
+            continue
+        seen.add(key)
+        val = cfg[key]
+        if isinstance(val, bool):
+            raw = "true" if val else "false"
+        else:
+            raw = str(val)
+        lines.append(f"{key}: {raw}")
+    for key, val in cfg.items():
+        if key in seen or key in MPI_IQL_DROP_KEYS or val is None:
+            continue
+        if isinstance(val, (list, dict)):
+            continue
+        if isinstance(val, bool):
+            raw = "true" if val else "false"
+        else:
+            raw = str(val)
+        lines.append(f"{key}: {raw}")
+    return "\n".join(lines) + "\n"
+
+
+def ingest_mpi_iql_actor0(
+    log_path: Path,
+    *,
+    host: str,
+    code_repo: str,
+    config_root: Path,
+    dry_run: bool,
+) -> Optional[Dict[str, Any]]:
+    cfg_path = mpi_iql_config_path(log_path, config_root)
+    if cfg_path is None:
+        print(f"SKIP no config for {log_path}")
+        return None
+    cfg = load_yaml_lite(cfg_path)
+    eval_rows, header = synthesize_eval_jsonl_from_mpi_iql_actor0(
+        log_path, int(cfg.get("eval_freq", 5000) or 5000)
+    )
+    if not eval_rows:
+        print(f"SKIP no Actor0 evals in {log_path}")
+        return None
+
+    env = str(header.get("env") or cfg.get("env") or "unknown")
+    seed = int(header.get("seed", cfg.get("seed", 0)) or 0)
+    cfg["env"] = env
+    cfg["seed"] = seed
+    family = "vanilla"
+    algo = "iql"
+    dirname = log_path.parent.parent.name + "_" + log_path.stem
+    variant = build_variant(algo, family, cfg, dirname)
+    uuid8 = hashlib.sha1(str(log_path.resolve()).encode()).hexdigest()[:8]
+    short = env_short(env)
+    run_id = f"{short}_s{seed}_{variant}__{uuid8}"
+    dest = RUNS / algo / family / run_id
+
+    artifacts = ["config.yaml", "eval.jsonl"]
+    meta = {
+        "algo": algo,
+        "family": family,
+        "run_id": run_id,
+        "env": env,
+        "env_short": short,
+        "seed": seed,
+        "variant": variant,
+        "legacy_name": log_path.name,
+        "source_path": str(log_path.parent.parent.resolve()),  # seed_N dir
+        "source_host": host,
+        "source_log": str(log_path.resolve()),
+        "source_config": str(cfg_path.resolve()),
+        "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+        "settings": settings_summary(algo, cfg),
+        "artifacts": artifacts,
+        "git": {"code_repo": code_repo, "code_commit": None},
+        "eval_source": "synthesized_from_mpi_actor0_log",
+        "notes": (
+            "Actor0/pi_base scores from MPI-IQL (num_actors>1). "
+            "Actor0 has no W2/FB term and matches vanilla IQL under the same IQL hparams."
+        ),
+        "mpi_source": {
+            "num_actors": header.get("num_actors"),
+            "w2_weights": header.get("w2_weights"),
+            "use_fb": header.get("use_fb"),
+            "final_det_mean": header.get("final_det_mean"),
+            "final_stoch_mean": header.get("final_stoch_mean"),
+        },
+    }
+
+    if dry_run:
+        print(f"DRY {log_path} -> {dest.relative_to(ROOT)} eval_rows={len(eval_rows)}")
+        return meta
+
+    dest.mkdir(parents=True, exist_ok=True)
+    (dest / "config.yaml").write_text(write_vanilla_iql_config_from_mpi(cfg))
+    (dest / "eval.jsonl").write_text(
+        "".join(json.dumps(row) + "\n" for row in eval_rows)
+    )
+    (dest / "run_meta.json").write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n")
+    print(f"OK  {dest.relative_to(ROOT)}")
+    return meta
 
 
 def ingest_one(
@@ -433,6 +687,19 @@ def main() -> int:
     collected: List[Dict[str, Any]] = []
     for src_spec in DEFAULT_SOURCES:
         root: Path = src_spec["root"]
+        if src_spec.get("kind") == "mpi_iql_actor0":
+            config_root: Path = src_spec["config_root"]
+            for log_path in discover_mpi_iql_actor0_logs(root):
+                meta = ingest_mpi_iql_actor0(
+                    log_path,
+                    host=src_spec["host"],
+                    code_repo=src_spec["code_repo"],
+                    config_root=config_root,
+                    dry_run=args.dry_run,
+                )
+                if meta:
+                    collected.append(meta)
+            continue
         for run_dir in discover_run_dirs(root, bool(src_spec.get("nested"))):
             meta = ingest_one(
                 run_dir,

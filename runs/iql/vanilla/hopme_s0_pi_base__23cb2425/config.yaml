@@ -1,0 +1,25 @@
+# Vanilla IQL (pi_base / Actor0 extracted from MPI-IQL).
+# Multi-actor W2/FB fields were dropped; Actor0 update matches standalone IQL.
+algo: iql
+family: vanilla
+extracted_from: mpi_iql_actor0
+env: hopper-medium-expert-v2
+seed: 0
+eval_freq: 5000
+n_episodes: 10
+max_timesteps: 1000000
+iql_tau: 0.7
+beta: 3.0
+vf_lr: 0.0003
+qf_lr: 0.0003
+actor_lr: 0.0003
+iql_deterministic: false
+batch_size: 256
+discount: 0.99
+tau: 0.005
+buffer_size: 2000000
+normalize: true
+normalize_reward: false
+project: PORL
+group: iql-fb
+name: hopper-me-iql-fb
