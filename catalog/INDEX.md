@@ -7,8 +7,8 @@ Total runs: **176**
 | amo | antmaze_t_init_tune | `ammd_s0_te1_tb10__fc864b46` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammd_s0_te1_tb10__fc864b46` |
 | amo | antmaze_t_init_tune | `ammd_s0_te1_tb1__e9e1ddec` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammd_s0_te1_tb1__e9e1ddec` |
 | amo | antmaze_t_init_tune | `ammd_s0_te1_tb5__729b8247` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammd_s0_te1_tb5__729b8247` |
-| amo | antmaze_t_init_tune | `ammd_s0_te5_tb1__aad4f10d` | antmaze-medium-diverse-v2 | 0 | 1000000 | 850000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammd_s0_te5_tb1__aad4f10d` |
-| amo | antmaze_t_init_tune | `ammd_s0_te5_tb5__9aaf759a` | antmaze-medium-diverse-v2 | 0 | 1000000 | 550000 | 2.00 | `runs/amo/antmaze_t_init_tune/ammd_s0_te5_tb5__9aaf759a` |
+| amo | antmaze_t_init_tune | `ammd_s0_te5_tb1__aad4f10d` | antmaze-medium-diverse-v2 | 0 | 1000000 | 865000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammd_s0_te5_tb1__aad4f10d` |
+| amo | antmaze_t_init_tune | `ammd_s0_te5_tb5__9aaf759a` | antmaze-medium-diverse-v2 | 0 | 1000000 | 565000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammd_s0_te5_tb5__9aaf759a` |
 | amo | antmaze_t_init_tune | `ammp_s0_te10_tb10__4aecd0cc` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 24.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te10_tb10__4aecd0cc` |
 | amo | antmaze_t_init_tune | `ammp_s0_te10_tb1__ab31b013` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te10_tb1__ab31b013` |
 | amo | antmaze_t_init_tune | `ammp_s0_te10_tb5__09a6ef01` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 7.00 | `runs/amo/antmaze_t_init_tune/ammp_s0_te10_tb5__09a6ef01` |
@@ -177,6 +177,6 @@ Total runs: **176**
 | td3bc | aspc_rc | `wm_s1_aspc_rc_a2p5__081c7511` | walker2d-medium-v2 | 1 | 1000000 | 1000000 | 86.00 | `runs/td3bc/aspc_rc/wm_s1_aspc_rc_a2p5__081c7511` |
 | td3bc | aspc_rc | `wm_s2_aspc_rc_a2p5__5b8c2bc3` | walker2d-medium-v2 | 2 | 1000000 | 1000000 | 85.07 | `runs/td3bc/aspc_rc/wm_s2_aspc_rc_a2p5__5b8c2bc3` |
 | td3bc | aspc_rc | `wm_s3_aspc_rc_a2p5__99606682` | walker2d-medium-v2 | 3 | 1000000 | 1000000 | 84.08 | `runs/td3bc/aspc_rc/wm_s3_aspc_rc_a2p5__99606682` |
-| wpc | benchmark | `hme_s2_wpc__29d0451d` | halfcheetah-medium-expert-v2 | 2 | 1000000 | 680000 | 95.39 | `runs/wpc/benchmark/hme_s2_wpc__29d0451d` |
+| wpc | benchmark | `hme_s2_wpc__29d0451d` | halfcheetah-medium-expert-v2 | 2 | 1000000 | 820000 | 99.51 | `runs/wpc/benchmark/hme_s2_wpc__29d0451d` |
 | wpc | benchmark | `hcmr_s3_wpc__fbe65fc3` | halfcheetah-medium-replay-v2 | 3 | 1000000 | 1000000 | 48.27 | `runs/wpc/benchmark/hcmr_s3_wpc__fbe65fc3` |
 | wpc | benchmark | `hcm_s2_wpc__69d73d4e` | halfcheetah-medium-v2 | 2 | 1000000 | 1000000 | 54.16 | `runs/wpc/benchmark/hcm_s2_wpc__69d73d4e` |
