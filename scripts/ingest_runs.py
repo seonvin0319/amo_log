@@ -148,6 +148,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
         "root": Path(
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-lambda0-te-tb",
+        "code_commit": _LAMBDA0,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
             "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs"
         ),
         "host": "ext_csv",
