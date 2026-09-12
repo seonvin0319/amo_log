@@ -6,7 +6,7 @@
     "summary.json"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/hopper-medium-v2/seed3/s3-hopper-medium-v2-225bda22",
-  "collected_at": "2026-09-12T10:00:12+00:00",
+  "collected_at": "2026-09-12T10:05:26+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "paper_benchmark",

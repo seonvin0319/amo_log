@@ -6,7 +6,7 @@
     "summary.json"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/walker2d-medium-expert-v2/seed0/s0-walker2d-medium-expert-v2-9294cabc",
-  "collected_at": "2026-09-12T10:00:12+00:00",
+  "collected_at": "2026-09-12T10:05:26+00:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "paper_benchmark",
