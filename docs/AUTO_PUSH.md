@@ -15,19 +15,24 @@
 ## 스케줄 (choi)
 
 ```cron
-11 */2 * * * /home/choi/amo_log/scripts/auto_push.sh
+# amo_log ingest + push (choi branch), every 20 minutes
+8,28,48 * * * * /home/choi/amo_log/scripts/auto_push.sh
+
+# canvas only every 5m (no amo_log push)
+2-57/5 * * * * /home/choi/amo/scripts/refresh_antmaze_t_init_5m.sh
 ```
 
 다른 머신:
 
 ```bash
 export AMO_LOG_HOST_ALIAS=offrl   # 또는 svcho / ext_csv / ext_csh
-# 동일 스크립트 + cron → origin/offrl 등으로 push
+# 동일 auto_push.sh + cron → origin/offrl 등으로 push
 ```
 
 - 로그: `/home/choi/logs/amo_log_auto_push.log`
 - 락: `/home/choi/.amo_log_auto_push.lock`
 - **pull/fetch/rebase 절대 안 함**
+- canvas 5분 갱신과 분리: amo_log는 **20분**마다만 push
 
 ## 동작
 
