@@ -5,17 +5,17 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-halfcheetah-medium-v2-a07156cf/checkpoint_99999.pt",
-  "collected_at": "2026-09-13T00:30:36+09:00",
+  "collected_at": "2026-09-13T00:40:49+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "benchmark",
-  "final_score": 55.254234012063776,
+  "final_score": 54.61844896793679,
   "git": {
     "code_commit": "3119fbefd99ed73134ba26a4db7caf3315cc2250",
     "code_remote": "https://github.com/Colin-Jing/ASPC.git",
     "code_repo": "ASPC"
   },
-  "last_eval_step": 800000,
+  "last_eval_step": 960000,
   "legacy_name": "wpc_s3-halfcheetah-medium-v2-a07156cf",
   "run_id": "hcm_s3_wpc_benchmark_1m__fc941e4c",
   "seed": 3,
