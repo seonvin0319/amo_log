@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **251**
+Total runs: **263**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -162,15 +162,21 @@ Total runs: **251**
 | amo | t_path_schedule | `hcm_s0_Tpath_step100k_1.0to10.0__f24c045f` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 57.61 | `runs/amo/t_path_schedule/hcm_s0_Tpath_step100k_1.0to10.0__f24c045f` |
 | amo | t_path_schedule | `hcm_s0_Tpath_step100k_10.0to1.0__6bfa9651` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 49.39 | `runs/amo/t_path_schedule/hcm_s0_Tpath_step100k_10.0to1.0__6bfa9651` |
 | amo | t_path_schedule | `hopme_s0_Tpath_linear_1.0to10.0__055e5c1e` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 57.21 | `runs/amo/t_path_schedule/hopme_s0_Tpath_linear_1.0to10.0__055e5c1e` |
+| amo | t_path_schedule | `hopme_s0_Tpath_linear_10.0to1.0__3abcd078` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 99.99 | `runs/amo/t_path_schedule/hopme_s0_Tpath_linear_10.0to1.0__3abcd078` |
 | amo | t_path_schedule | `hopme_s0_Tpath_quadratic_1.0to10.0__c2843b7d` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 103.56 | `runs/amo/t_path_schedule/hopme_s0_Tpath_quadratic_1.0to10.0__c2843b7d` |
+| amo | t_path_schedule | `hopme_s0_Tpath_quadratic_10.0to1.0__746e4fa2` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 108.24 | `runs/amo/t_path_schedule/hopme_s0_Tpath_quadratic_10.0to1.0__746e4fa2` |
 | amo | t_path_schedule | `hopme_s0_Tpath_quadratic_up_1.0to10.0__144e7e1f` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 74.07 | `runs/amo/t_path_schedule/hopme_s0_Tpath_quadratic_up_1.0to10.0__144e7e1f` |
+| amo | t_path_schedule | `hopme_s0_Tpath_quadratic_up_10.0to1.0__7d82c9da` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 95.02 | `runs/amo/t_path_schedule/hopme_s0_Tpath_quadratic_up_10.0to1.0__7d82c9da` |
 | amo | t_path_schedule | `hopme_s0_Tpath_step100k_1.0to10.0__cd168bd3` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 99.07 | `runs/amo/t_path_schedule/hopme_s0_Tpath_step100k_1.0to10.0__cd168bd3` |
+| amo | t_path_schedule | `hopme_s0_Tpath_step100k_10.0to1.0__51988ac5` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.08 | `runs/amo/t_path_schedule/hopme_s0_Tpath_step100k_10.0to1.0__51988ac5` |
 | amo | t_path_schedule | `hopmr_s0_Tpath_linear_1.0to10.0__47681588` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 101.93 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_linear_1.0to10.0__47681588` |
-| amo | t_path_schedule | `hopmr_s0_Tpath_linear_10.0to1.0__c3f233cd` | hopper-medium-replay-v2 | 0 | 1000000 | 430000 | 62.70 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_linear_10.0to1.0__c3f233cd` |
+| amo | t_path_schedule | `hopmr_s0_Tpath_linear_10.0to1.0__c3f233cd` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 32.80 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_linear_10.0to1.0__c3f233cd` |
 | amo | t_path_schedule | `hopmr_s0_Tpath_quadratic_1.0to10.0__a7ae045e` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 101.05 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_1.0to10.0__a7ae045e` |
-| amo | t_path_schedule | `hopmr_s0_Tpath_quadratic_10.0to1.0__0e05ca26` | hopper-medium-replay-v2 | 0 | 1000000 | 395000 | 102.42 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_10.0to1.0__0e05ca26` |
+| amo | t_path_schedule | `hopmr_s0_Tpath_quadratic_10.0to1.0__0e05ca26` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 56.72 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_10.0to1.0__0e05ca26` |
 | amo | t_path_schedule | `hopmr_s0_Tpath_quadratic_up_1.0to10.0__6c728003` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 102.68 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_up_1.0to10.0__6c728003` |
+| amo | t_path_schedule | `hopmr_s0_Tpath_quadratic_up_10.0to1.0__48306f5b` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 71.79 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_up_10.0to1.0__48306f5b` |
 | amo | t_path_schedule | `hopmr_s0_Tpath_step100k_1.0to10.0__6869a386` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 101.93 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_step100k_1.0to10.0__6869a386` |
+| amo | t_path_schedule | `hopmr_s0_Tpath_step100k_10.0to1.0__deaea369` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 71.63 | `runs/amo/t_path_schedule/hopmr_s0_Tpath_step100k_10.0to1.0__deaea369` |
 | amo | t_path_schedule | `hopm_s0_Tpath_linear_1.0to10.0__171094a4` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 101.57 | `runs/amo/t_path_schedule/hopm_s0_Tpath_linear_1.0to10.0__171094a4` |
 | amo | t_path_schedule | `hopm_s0_Tpath_linear_10.0to1.0__c4ed4f01` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 59.64 | `runs/amo/t_path_schedule/hopm_s0_Tpath_linear_10.0to1.0__c4ed4f01` |
 | amo | t_path_schedule | `hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 96.72 | `runs/amo/t_path_schedule/hopm_s0_Tpath_quadratic_1.0to10.0__4fc25738` |
@@ -180,7 +186,9 @@ Total runs: **251**
 | amo | t_path_schedule | `hopm_s0_Tpath_step100k_1.0to10.0__b674f7b9` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 101.94 | `runs/amo/t_path_schedule/hopm_s0_Tpath_step100k_1.0to10.0__b674f7b9` |
 | amo | t_path_schedule | `hopm_s0_Tpath_step100k_10.0to1.0__1b83cb4d` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 65.42 | `runs/amo/t_path_schedule/hopm_s0_Tpath_step100k_10.0to1.0__1b83cb4d` |
 | amo | t_path_schedule | `wme_s0_Tpath_linear_1.0to10.0__7a24b86a` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.08 | `runs/amo/t_path_schedule/wme_s0_Tpath_linear_1.0to10.0__7a24b86a` |
+| amo | t_path_schedule | `wme_s0_Tpath_linear_10.0to1.0__e6d120ee` | walker2d-medium-expert-v2 | 0 | 1000000 | 150000 | 109.90 | `runs/amo/t_path_schedule/wme_s0_Tpath_linear_10.0to1.0__e6d120ee` |
 | amo | t_path_schedule | `wme_s0_Tpath_quadratic_1.0to10.0__292326c9` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.82 | `runs/amo/t_path_schedule/wme_s0_Tpath_quadratic_1.0to10.0__292326c9` |
+| amo | t_path_schedule | `wme_s0_Tpath_quadratic_10.0to1.0__ee1f0109` | walker2d-medium-expert-v2 | 0 | 1000000 | 150000 | 110.02 | `runs/amo/t_path_schedule/wme_s0_Tpath_quadratic_10.0to1.0__ee1f0109` |
 | amo | t_path_schedule | `wme_s0_Tpath_quadratic_up_1.0to10.0__6d648ebc` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.81 | `runs/amo/t_path_schedule/wme_s0_Tpath_quadratic_up_1.0to10.0__6d648ebc` |
 | amo | t_path_schedule | `wme_s0_Tpath_step100k_1.0to10.0__e0740718` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.09 | `runs/amo/t_path_schedule/wme_s0_Tpath_step100k_1.0to10.0__e0740718` |
 | amo | t_path_schedule | `wmr_s0_Tpath_linear_1.0to10.0__eed248b9` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 99.53 | `runs/amo/t_path_schedule/wmr_s0_Tpath_linear_1.0to10.0__eed248b9` |
@@ -188,9 +196,13 @@ Total runs: **251**
 | amo | t_path_schedule | `wmr_s0_Tpath_quadratic_up_1.0to10.0__7527b80e` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 95.66 | `runs/amo/t_path_schedule/wmr_s0_Tpath_quadratic_up_1.0to10.0__7527b80e` |
 | amo | t_path_schedule | `wmr_s0_Tpath_step100k_1.0to10.0__e10fb892` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 89.29 | `runs/amo/t_path_schedule/wmr_s0_Tpath_step100k_1.0to10.0__e10fb892` |
 | amo | t_path_schedule | `wm_s0_Tpath_linear_1.0to10.0__c8b1a97b` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 91.86 | `runs/amo/t_path_schedule/wm_s0_Tpath_linear_1.0to10.0__c8b1a97b` |
+| amo | t_path_schedule | `wm_s0_Tpath_linear_10.0to1.0__8d85edea` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 79.64 | `runs/amo/t_path_schedule/wm_s0_Tpath_linear_10.0to1.0__8d85edea` |
 | amo | t_path_schedule | `wm_s0_Tpath_quadratic_1.0to10.0__5ccddebd` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 6.76 | `runs/amo/t_path_schedule/wm_s0_Tpath_quadratic_1.0to10.0__5ccddebd` |
+| amo | t_path_schedule | `wm_s0_Tpath_quadratic_10.0to1.0__641439c2` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 84.38 | `runs/amo/t_path_schedule/wm_s0_Tpath_quadratic_10.0to1.0__641439c2` |
 | amo | t_path_schedule | `wm_s0_Tpath_quadratic_up_1.0to10.0__dbd1c670` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 62.77 | `runs/amo/t_path_schedule/wm_s0_Tpath_quadratic_up_1.0to10.0__dbd1c670` |
+| amo | t_path_schedule | `wm_s0_Tpath_quadratic_up_10.0to1.0__c454209c` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 84.03 | `runs/amo/t_path_schedule/wm_s0_Tpath_quadratic_up_10.0to1.0__c454209c` |
 | amo | t_path_schedule | `wm_s0_Tpath_step100k_1.0to10.0__72edb4ab` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 99.41 | `runs/amo/t_path_schedule/wm_s0_Tpath_step100k_1.0to10.0__72edb4ab` |
+| amo | t_path_schedule | `wm_s0_Tpath_step100k_10.0to1.0__b8e4753c` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 84.16 | `runs/amo/t_path_schedule/wm_s0_Tpath_step100k_10.0to1.0__b8e4753c` |
 | apart | chain | `hme_s0_n2_Ng__5cf34db9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 96.95 | `runs/apart/chain/hme_s0_n2_Ng__5cf34db9` |
 | apart | chain | `hme_s0_n2__3a87ef6d` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 94.26 | `runs/apart/chain/hme_s0_n2__3a87ef6d` |
 | apart | chain | `hme_s0_n4_Ng__0f1a9987` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 97.00 | `runs/apart/chain/hme_s0_n4_Ng__0f1a9987` |

@@ -103,6 +103,7 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `t_path_schedule` | Controlled T-path linear vs quadratic (`T_schedule`)
 | `four_eval_fixed_n` | Adaptive-T four_eval fixed-N experiments
 | `aspc_table1` | Official A2PR ASPC Table-1 benchmark (loco/antmaze/adroit, seeds 0–3)
+| `benchmark` | Official ASPC-repo wPC locomotion cohort (`results_wpc`)
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기

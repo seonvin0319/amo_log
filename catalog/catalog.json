@@ -1,5 +1,5 @@
 {
-  "n_runs": 251,
+  "n_runs": 263,
   "runs": [
     {
       "algo": "amo",
@@ -3276,7 +3276,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/ammp_s0_pi_local-antmaze-medium-play-v2-e72a82c2/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "pi_local",
@@ -3323,7 +3323,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/amu_s0_pi_local-antmaze-umaze-v2-8ab60e58/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "pi_local",
@@ -3370,7 +3370,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/amud_s0_pi_local-antmaze-umaze-diverse-v2-00a44985/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "pi_local",
@@ -3417,7 +3417,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amld_s0_pi_local-antmaze-large-diverse-v2-61e93897/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "pi_local_aspc",
@@ -3464,7 +3464,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amlp_s0_pi_local-antmaze-large-play-v2-d2ba4448/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "pi_local_aspc",
@@ -3511,7 +3511,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/ammd_s0_pi_local-antmaze-medium-diverse-v2-2a9ff0af/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "pi_local_aspc",
@@ -3558,7 +3558,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/ammp_s0_pi_local-antmaze-medium-play-v2-2fee7f1d/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "pi_local_aspc",
@@ -3605,7 +3605,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amu_s0_pi_local-antmaze-umaze-v2-7c112a78/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "pi_local_aspc",
@@ -3652,7 +3652,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amud_s0_pi_local-antmaze-umaze-diverse-v2-834ef84b/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "pi_local_aspc",
@@ -3699,7 +3699,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "pi_only",
@@ -3746,7 +3746,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/amu_s0_pi_only-antmaze-umaze-v2-5015e62a/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "pi_only",
@@ -3793,7 +3793,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/amud_s0_pi_only-antmaze-umaze-diverse-v2-7fe82122/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "pi_only",
@@ -3839,8 +3839,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_h-m_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_h-m_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "four_eval_fixed_n",
@@ -3858,6 +3858,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "hopper-medium-v2",
         "noise_clip": 0.5,
@@ -3865,7 +3866,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_h-m_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_h-m_s0",
       "variant": "four_eval_N3_T10L02_h-m"
     },
     {
@@ -3875,8 +3876,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L0p2_h-m_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L0p2_h-m_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "four_eval_fixed_n",
@@ -3894,6 +3895,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "hopper-medium-v2",
         "noise_clip": 0.5,
@@ -3901,7 +3903,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L0p2_h-m_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L0p2_h-m_s0",
       "variant": "four_eval_N3_T10L0p2_h-m"
     },
     {
@@ -3911,8 +3913,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-m_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_h-m_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "four_eval_fixed_n",
@@ -3930,6 +3932,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "hopper-medium-v2",
         "noise_clip": 0.5,
@@ -3937,7 +3940,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-m_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_h-m_s0",
       "variant": "four_eval_N3_h-m"
     },
     {
@@ -3947,8 +3950,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_h-me_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_h-me_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "four_eval_fixed_n",
@@ -3966,6 +3969,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "hopper-medium-expert-v2",
         "noise_clip": 0.5,
@@ -3973,7 +3977,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_h-me_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_h-me_s0",
       "variant": "four_eval_N3_T10L02_h-me"
     },
     {
@@ -3983,8 +3987,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-me_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_h-me_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "four_eval_fixed_n",
@@ -4002,6 +4006,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "hopper-medium-expert-v2",
         "noise_clip": 0.5,
@@ -4009,7 +4014,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-me_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_h-me_s0",
       "variant": "four_eval_N3_h-me"
     },
     {
@@ -4019,8 +4024,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-mr_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_h-mr_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "four_eval_fixed_n",
@@ -4038,6 +4043,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "hopper-medium-replay-v2",
         "noise_clip": 0.5,
@@ -4045,7 +4051,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_h-mr_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_h-mr_s0",
       "variant": "four_eval_N3_h-mr"
     },
     {
@@ -4055,8 +4061,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_w-m_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_w-m_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "four_eval_fixed_n",
@@ -4074,6 +4080,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "walker2d-medium-v2",
         "noise_clip": 0.5,
@@ -4081,7 +4088,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_w-m_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_w-m_s0",
       "variant": "four_eval_N3_T10L02_w-m"
     },
     {
@@ -4091,8 +4098,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_w-m_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_w-m_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "four_eval_fixed_n",
@@ -4110,6 +4117,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "walker2d-medium-v2",
         "noise_clip": 0.5,
@@ -4117,7 +4125,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_w-m_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_w-m_s0",
       "variant": "four_eval_N3_w-m"
     },
     {
@@ -4127,8 +4135,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_w-mr_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_w-mr_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "four_eval_fixed_n",
@@ -4146,6 +4154,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "walker2d-medium-replay-v2",
         "noise_clip": 0.5,
@@ -4153,7 +4162,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_w-mr_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_w-mr_s0",
       "variant": "four_eval_N3_T10L02_w-mr"
     },
     {
@@ -4163,8 +4172,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_w-mr_s0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_w-mr_s0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "four_eval_fixed_n",
@@ -4182,6 +4191,7 @@
       "settings": {
         "actor_lr": 0.0003,
         "batch_size": 256,
+        "critic_lr": 0.0003,
         "discount": 0.99,
         "env": "walker2d-medium-replay-v2",
         "noise_clip": 0.5,
@@ -4189,7 +4199,7 @@
         "seed": 0
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_w-mr_s0",
+      "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_w-mr_s0",
       "variant": "four_eval_N3_w-mr"
     },
     {
@@ -4199,8 +4209,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_linear_1to10_1m-walker2d-medium-replay-v2-eed248b9/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_linear_1to10_1m-walker2d-medium-replay-v2-eed248b9/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "t_path_schedule",
@@ -4245,7 +4255,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_linear_1to10_1m-walker2d-medium-replay-v2-eed248b9",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_linear_1to10_1m-walker2d-medium-replay-v2-eed248b9",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -4255,8 +4265,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quad_1to10_1m-walker2d-medium-replay-v2-ef8007d1/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quad_1to10_1m-walker2d-medium-replay-v2-ef8007d1/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "t_path_schedule",
@@ -4301,7 +4311,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quad_1to10_1m-walker2d-medium-replay-v2-ef8007d1",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quad_1to10_1m-walker2d-medium-replay-v2-ef8007d1",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -4311,8 +4321,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_1to10_1m-halfcheetah-medium-replay-v2-b7b4432c/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_1to10_1m-halfcheetah-medium-replay-v2-b7b4432c/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -4356,7 +4366,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_1to10_1m-halfcheetah-medium-replay-v2-b7b4432c",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_1to10_1m-halfcheetah-medium-replay-v2-b7b4432c",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -4366,8 +4376,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_1to10_1m-halfcheetah-medium-replay-v2-08f89479/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_1to10_1m-halfcheetah-medium-replay-v2-08f89479/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -4411,7 +4421,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_1to10_1m-halfcheetah-medium-replay-v2-08f89479",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_1to10_1m-halfcheetah-medium-replay-v2-08f89479",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -4421,8 +4431,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_1to10_1m-halfcheetah-medium-v2-080c8e19/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_1to10_1m-halfcheetah-medium-v2-080c8e19/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -4466,7 +4476,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_1to10_1m-halfcheetah-medium-v2-080c8e19",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_1to10_1m-halfcheetah-medium-v2-080c8e19",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -4476,8 +4486,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_1to10_1m-halfcheetah-medium-v2-2f88ba54/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_1to10_1m-halfcheetah-medium-v2-2f88ba54/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -4521,7 +4531,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_1to10_1m-halfcheetah-medium-v2-2f88ba54",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_1to10_1m-halfcheetah-medium-v2-2f88ba54",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -4531,8 +4541,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_1to10_1m-halfcheetah-medium-expert-v2-7dad0748/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_1to10_1m-halfcheetah-medium-expert-v2-7dad0748/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -4576,7 +4586,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_1to10_1m-halfcheetah-medium-expert-v2-7dad0748",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_1to10_1m-halfcheetah-medium-expert-v2-7dad0748",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -4586,8 +4596,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_1to10_1m-halfcheetah-medium-expert-v2-d666a769/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_1to10_1m-halfcheetah-medium-expert-v2-d666a769/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -4631,7 +4641,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_1to10_1m-halfcheetah-medium-expert-v2-d666a769",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_1to10_1m-halfcheetah-medium-expert-v2-d666a769",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -4641,8 +4651,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_1to10_1m-hopper-medium-v2-171094a4/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_1to10_1m-hopper-medium-v2-171094a4/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -4686,7 +4696,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_1to10_1m-hopper-medium-v2-171094a4",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_1to10_1m-hopper-medium-v2-171094a4",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -4696,8 +4706,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_1to10_1m-hopper-medium-v2-4fc25738/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_1to10_1m-hopper-medium-v2-4fc25738/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -4741,7 +4751,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_1to10_1m-hopper-medium-v2-4fc25738",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_1to10_1m-hopper-medium-v2-4fc25738",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -4751,8 +4761,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_linear_1to10_1m-hopper-medium-expert-v2-055e5c1e/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_linear_1to10_1m-hopper-medium-expert-v2-055e5c1e/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "t_path_schedule",
@@ -4796,7 +4806,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_linear_1to10_1m-hopper-medium-expert-v2-055e5c1e",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_linear_1to10_1m-hopper-medium-expert-v2-055e5c1e",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -4806,8 +4816,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quad_1to10_1m-hopper-medium-expert-v2-c2843b7d/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quad_1to10_1m-hopper-medium-expert-v2-c2843b7d/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "t_path_schedule",
@@ -4851,7 +4861,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quad_1to10_1m-hopper-medium-expert-v2-c2843b7d",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quad_1to10_1m-hopper-medium-expert-v2-c2843b7d",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -4861,8 +4871,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_1to10_1m-hopper-medium-replay-v2-47681588/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_1to10_1m-hopper-medium-replay-v2-47681588/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "t_path_schedule",
@@ -4906,7 +4916,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_1to10_1m-hopper-medium-replay-v2-47681588",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_1to10_1m-hopper-medium-replay-v2-47681588",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -4916,8 +4926,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_1to10_1m-hopper-medium-replay-v2-a7ae045e/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_1to10_1m-hopper-medium-replay-v2-a7ae045e/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "t_path_schedule",
@@ -4961,7 +4971,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_1to10_1m-hopper-medium-replay-v2-a7ae045e",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_1to10_1m-hopper-medium-replay-v2-a7ae045e",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -4971,8 +4981,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "t_path_schedule",
@@ -5016,7 +5026,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -5026,8 +5036,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quad_1to10_1m-walker2d-medium-v2-5ccddebd/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quad_1to10_1m-walker2d-medium-v2-5ccddebd/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "t_path_schedule",
@@ -5071,7 +5081,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quad_1to10_1m-walker2d-medium-v2-5ccddebd",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quad_1to10_1m-walker2d-medium-v2-5ccddebd",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -5081,8 +5091,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_linear_1to10_1m-walker2d-medium-expert-v2-7a24b86a/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_linear_1to10_1m-walker2d-medium-expert-v2-7a24b86a/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "t_path_schedule",
@@ -5126,7 +5136,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_linear_1to10_1m-walker2d-medium-expert-v2-7a24b86a",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_linear_1to10_1m-walker2d-medium-expert-v2-7a24b86a",
       "variant": "Tpath_linear_1.0to10.0"
     },
     {
@@ -5136,8 +5146,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quad_1to10_1m-walker2d-medium-expert-v2-292326c9/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quad_1to10_1m-walker2d-medium-expert-v2-292326c9/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "t_path_schedule",
@@ -5181,7 +5191,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quad_1to10_1m-walker2d-medium-expert-v2-292326c9",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quad_1to10_1m-walker2d-medium-expert-v2-292326c9",
       "variant": "Tpath_quadratic_1.0to10.0"
     },
     {
@@ -5191,8 +5201,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_10to1_1m-halfcheetah-medium-v2-b44b24d1/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_10to1_1m-halfcheetah-medium-v2-b44b24d1/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -5236,7 +5246,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_10to1_1m-halfcheetah-medium-v2-b44b24d1",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_linear_10to1_1m-halfcheetah-medium-v2-b44b24d1",
       "variant": "Tpath_linear_10.0to1.0"
     },
     {
@@ -5246,8 +5256,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_10to1_1m-halfcheetah-medium-v2-1e690d2a/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_10to1_1m-halfcheetah-medium-v2-1e690d2a/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -5291,7 +5301,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_10to1_1m-halfcheetah-medium-v2-1e690d2a",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quad_10to1_1m-halfcheetah-medium-v2-1e690d2a",
       "variant": "Tpath_quadratic_10.0to1.0"
     },
     {
@@ -5301,8 +5311,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-v2-6b099a00/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-v2-6b099a00/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -5346,7 +5356,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-v2-6b099a00",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-v2-6b099a00",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -5356,8 +5366,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-v2-c5892304/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-v2-c5892304/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -5401,7 +5411,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-v2-c5892304",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-v2-c5892304",
       "variant": "Tpath_quadratic_up_10.0to1.0"
     },
     {
@@ -5411,8 +5421,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-v2-f24c045f/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-v2-f24c045f/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -5456,7 +5466,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-v2-f24c045f",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-v2-f24c045f",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -5466,8 +5476,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-v2-6bfa9651/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-v2-6bfa9651/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "t_path_schedule",
@@ -5511,7 +5521,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-v2-6bfa9651",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-v2-6bfa9651",
       "variant": "Tpath_step100k_10.0to1.0"
     },
     {
@@ -5521,8 +5531,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_10to1_1m-halfcheetah-medium-replay-v2-509754ff/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_10to1_1m-halfcheetah-medium-replay-v2-509754ff/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -5566,7 +5576,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_10to1_1m-halfcheetah-medium-replay-v2-509754ff",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_linear_10to1_1m-halfcheetah-medium-replay-v2-509754ff",
       "variant": "Tpath_linear_10.0to1.0"
     },
     {
@@ -5576,8 +5586,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_10to1_1m-halfcheetah-medium-replay-v2-c351c236/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_10to1_1m-halfcheetah-medium-replay-v2-c351c236/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -5621,7 +5631,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_10to1_1m-halfcheetah-medium-replay-v2-c351c236",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quad_10to1_1m-halfcheetah-medium-replay-v2-c351c236",
       "variant": "Tpath_quadratic_10.0to1.0"
     },
     {
@@ -5631,8 +5641,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-replay-v2-24cf87d3/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-replay-v2-24cf87d3/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -5676,7 +5686,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-replay-v2-24cf87d3",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-replay-v2-24cf87d3",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -5686,8 +5696,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-replay-v2-eed9d612/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-replay-v2-eed9d612/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -5731,7 +5741,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-replay-v2-eed9d612",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-replay-v2-eed9d612",
       "variant": "Tpath_quadratic_up_10.0to1.0"
     },
     {
@@ -5741,8 +5751,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-replay-v2-a090adc0/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-replay-v2-a090adc0/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -5786,7 +5796,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-replay-v2-a090adc0",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-replay-v2-a090adc0",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -5796,8 +5806,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-replay-v2-a7bfb670/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-replay-v2-a7bfb670/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "t_path_schedule",
@@ -5841,7 +5851,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-replay-v2-a7bfb670",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcmr_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-replay-v2-a7bfb670",
       "variant": "Tpath_step100k_10.0to1.0"
     },
     {
@@ -5851,8 +5861,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_10to1_1m-halfcheetah-medium-expert-v2-d6bdb19e/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_10to1_1m-halfcheetah-medium-expert-v2-d6bdb19e/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -5896,7 +5906,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_10to1_1m-halfcheetah-medium-expert-v2-d6bdb19e",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_linear_10to1_1m-halfcheetah-medium-expert-v2-d6bdb19e",
       "variant": "Tpath_linear_10.0to1.0"
     },
     {
@@ -5906,8 +5916,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_10to1_1m-halfcheetah-medium-expert-v2-badcb7f3/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_10to1_1m-halfcheetah-medium-expert-v2-badcb7f3/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -5951,7 +5961,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_10to1_1m-halfcheetah-medium-expert-v2-badcb7f3",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quad_10to1_1m-halfcheetah-medium-expert-v2-badcb7f3",
       "variant": "Tpath_quadratic_10.0to1.0"
     },
     {
@@ -5961,8 +5971,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-expert-v2-50643ab1/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-expert-v2-50643ab1/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -6006,7 +6016,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-expert-v2-50643ab1",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-expert-v2-50643ab1",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -6016,8 +6026,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-expert-v2-51ae9173/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-expert-v2-51ae9173/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -6061,7 +6071,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-expert-v2-51ae9173",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-expert-v2-51ae9173",
       "variant": "Tpath_quadratic_up_10.0to1.0"
     },
     {
@@ -6071,8 +6081,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-expert-v2-64b9a654/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-expert-v2-64b9a654/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -6116,7 +6126,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-expert-v2-64b9a654",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_1to10_1m-halfcheetah-medium-expert-v2-64b9a654",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -6126,8 +6136,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-expert-v2-5340c2dd/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-expert-v2-5340c2dd/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "t_path_schedule",
@@ -6171,7 +6181,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-expert-v2-5340c2dd",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcme_s0_Tpath_step100k_10to1_1m-halfcheetah-medium-expert-v2-5340c2dd",
       "variant": "Tpath_step100k_10.0to1.0"
     },
     {
@@ -6181,8 +6191,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_10to1_1m-hopper-medium-v2-c4ed4f01/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_10to1_1m-hopper-medium-v2-c4ed4f01/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -6226,7 +6236,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_10to1_1m-hopper-medium-v2-c4ed4f01",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_linear_10to1_1m-hopper-medium-v2-c4ed4f01",
       "variant": "Tpath_linear_10.0to1.0"
     },
     {
@@ -6236,8 +6246,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -6281,7 +6291,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563",
       "variant": "Tpath_quadratic_10.0to1.0"
     },
     {
@@ -6291,8 +6301,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -6336,7 +6346,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -6346,8 +6356,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_10to1_1m-hopper-medium-v2-9c8f46bb/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_10to1_1m-hopper-medium-v2-9c8f46bb/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -6391,7 +6401,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_10to1_1m-hopper-medium-v2-9c8f46bb",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_10to1_1m-hopper-medium-v2-9c8f46bb",
       "variant": "Tpath_quadratic_up_10.0to1.0"
     },
     {
@@ -6401,8 +6411,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_1to10_1m-hopper-medium-v2-b674f7b9/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_1to10_1m-hopper-medium-v2-b674f7b9/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -6446,7 +6456,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_1to10_1m-hopper-medium-v2-b674f7b9",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_1to10_1m-hopper-medium-v2-b674f7b9",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -6456,8 +6466,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "t_path_schedule",
@@ -6501,7 +6511,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d",
       "variant": "Tpath_step100k_10.0to1.0"
     },
     {
@@ -6511,8 +6521,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quadup_1to10_1m-hopper-medium-expert-v2-144e7e1f/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quadup_1to10_1m-hopper-medium-expert-v2-144e7e1f/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "t_path_schedule",
@@ -6556,7 +6566,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quadup_1to10_1m-hopper-medium-expert-v2-144e7e1f",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quadup_1to10_1m-hopper-medium-expert-v2-144e7e1f",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -6566,8 +6576,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_1to10_1m-hopper-medium-expert-v2-cd168bd3/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_1to10_1m-hopper-medium-expert-v2-cd168bd3/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "t_path_schedule",
@@ -6611,7 +6621,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_1to10_1m-hopper-medium-expert-v2-cd168bd3",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_1to10_1m-hopper-medium-expert-v2-cd168bd3",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -6621,17 +6631,17 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "t_path_schedule",
-      "final_score": 62.699953100646766,
+      "final_score": 32.797264507570056,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-t-path-linear-vs-quadratic"
       },
-      "last_eval_step": 430000,
+      "last_eval_step": 1000000,
       "legacy_name": "hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/t_path_schedule/hopmr_s0_Tpath_linear_10.0to1.0__c3f233cd",
@@ -6666,7 +6676,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd",
       "variant": "Tpath_linear_10.0to1.0"
     },
     {
@@ -6676,17 +6686,17 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_10to1_1m-hopper-medium-replay-v2-0e05ca26/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_10to1_1m-hopper-medium-replay-v2-0e05ca26/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "t_path_schedule",
-      "final_score": 102.42344923049518,
+      "final_score": 56.72246871889729,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-t-path-linear-vs-quadratic"
       },
-      "last_eval_step": 395000,
+      "last_eval_step": 1000000,
       "legacy_name": "hopmr_s0_Tpath_quad_10to1_1m-hopper-medium-replay-v2-0e05ca26",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_10.0to1.0__0e05ca26",
@@ -6721,7 +6731,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_10to1_1m-hopper-medium-replay-v2-0e05ca26",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quad_10to1_1m-hopper-medium-replay-v2-0e05ca26",
       "variant": "Tpath_quadratic_10.0to1.0"
     },
     {
@@ -6731,8 +6741,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quadup_1to10_1m-hopper-medium-replay-v2-6c728003/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quadup_1to10_1m-hopper-medium-replay-v2-6c728003/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "t_path_schedule",
@@ -6776,7 +6786,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quadup_1to10_1m-hopper-medium-replay-v2-6c728003",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quadup_1to10_1m-hopper-medium-replay-v2-6c728003",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -6786,8 +6796,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_step100k_1to10_1m-hopper-medium-replay-v2-6869a386/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_step100k_1to10_1m-hopper-medium-replay-v2-6869a386/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "t_path_schedule",
@@ -6831,7 +6841,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_step100k_1to10_1m-hopper-medium-replay-v2-6869a386",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_step100k_1to10_1m-hopper-medium-replay-v2-6869a386",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -6841,8 +6851,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quadup_1to10_1m-walker2d-medium-v2-dbd1c670/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quadup_1to10_1m-walker2d-medium-v2-dbd1c670/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "t_path_schedule",
@@ -6886,7 +6896,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quadup_1to10_1m-walker2d-medium-v2-dbd1c670",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quadup_1to10_1m-walker2d-medium-v2-dbd1c670",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -6896,8 +6906,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_step100k_1to10_1m-walker2d-medium-v2-72edb4ab/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_step100k_1to10_1m-walker2d-medium-v2-72edb4ab/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "t_path_schedule",
@@ -6941,7 +6951,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_step100k_1to10_1m-walker2d-medium-v2-72edb4ab",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_step100k_1to10_1m-walker2d-medium-v2-72edb4ab",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -6951,8 +6961,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quadup_1to10_1m-walker2d-medium-expert-v2-6d648ebc/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quadup_1to10_1m-walker2d-medium-expert-v2-6d648ebc/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "t_path_schedule",
@@ -6996,7 +7006,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quadup_1to10_1m-walker2d-medium-expert-v2-6d648ebc",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quadup_1to10_1m-walker2d-medium-expert-v2-6d648ebc",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -7006,8 +7016,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_step100k_1to10_1m-walker2d-medium-expert-v2-e0740718/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_step100k_1to10_1m-walker2d-medium-expert-v2-e0740718/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "t_path_schedule",
@@ -7051,7 +7061,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_step100k_1to10_1m-walker2d-medium-expert-v2-e0740718",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_step100k_1to10_1m-walker2d-medium-expert-v2-e0740718",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -7061,8 +7071,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quadup_1to10_1m-walker2d-medium-replay-v2-7527b80e/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quadup_1to10_1m-walker2d-medium-replay-v2-7527b80e/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "t_path_schedule",
@@ -7106,7 +7116,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quadup_1to10_1m-walker2d-medium-replay-v2-7527b80e",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_quadup_1to10_1m-walker2d-medium-replay-v2-7527b80e",
       "variant": "Tpath_quadratic_up_1.0to10.0"
     },
     {
@@ -7116,8 +7126,8 @@
         "metrics.jsonl",
         "config.yaml"
       ],
-      "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_step100k_1to10_1m-walker2d-medium-replay-v2-e10fb892/checkpoint_999999.pt",
-      "collected_at": "2026-09-12T11:18:49+09:00",
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_step100k_1to10_1m-walker2d-medium-replay-v2-e10fb892/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "t_path_schedule",
@@ -7161,7 +7171,7 @@
         "tau": 0.005
       },
       "source_host": "svcho",
-      "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_step100k_1to10_1m-walker2d-medium-replay-v2-e10fb892",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wmr_s0_Tpath_step100k_1to10_1m-walker2d-medium-replay-v2-e10fb892",
       "variant": "Tpath_step100k_1.0to10.0"
     },
     {
@@ -7170,8 +7180,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s0/ckpt/A2PR_antmaze-large-diverse-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "aspc_table1",
@@ -7221,8 +7231,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s1/ckpt/A2PR_antmaze-large-diverse-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "aspc_table1",
@@ -7272,8 +7282,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s2/ckpt/A2PR_antmaze-large-diverse-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "aspc_table1",
@@ -7323,8 +7333,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s3/ckpt/A2PR_antmaze-large-diverse-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-diverse-v2/antmaze-large-diverse-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "aspc_table1",
@@ -7374,8 +7384,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s0/ckpt/A2PR_antmaze-large-play-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "aspc_table1",
@@ -7425,8 +7435,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s1/ckpt/A2PR_antmaze-large-play-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "aspc_table1",
@@ -7476,8 +7486,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s2/ckpt/A2PR_antmaze-large-play-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "aspc_table1",
@@ -7527,8 +7537,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s3/ckpt/A2PR_antmaze-large-play-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-large-play-v2/antmaze-large-play-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "aspc_table1",
@@ -7578,8 +7588,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s0/ckpt/A2PR_antmaze-medium-diverse-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "aspc_table1",
@@ -7629,8 +7639,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s1/ckpt/A2PR_antmaze-medium-diverse-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "aspc_table1",
@@ -7680,8 +7690,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s2/ckpt/A2PR_antmaze-medium-diverse-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "aspc_table1",
@@ -7731,8 +7741,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s3/ckpt/A2PR_antmaze-medium-diverse-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-diverse-v2/antmaze-medium-diverse-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "aspc_table1",
@@ -7782,8 +7792,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s0/ckpt/A2PR_antmaze-medium-play-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "aspc_table1",
@@ -7833,8 +7843,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s1/ckpt/A2PR_antmaze-medium-play-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "aspc_table1",
@@ -7884,8 +7894,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s2/ckpt/A2PR_antmaze-medium-play-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "aspc_table1",
@@ -7935,8 +7945,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s3/ckpt/A2PR_antmaze-medium-play-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-medium-play-v2/antmaze-medium-play-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "aspc_table1",
@@ -7986,8 +7996,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s0/ckpt/A2PR_antmaze-umaze-diverse-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "aspc_table1",
@@ -8037,8 +8047,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s1/ckpt/A2PR_antmaze-umaze-diverse-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "aspc_table1",
@@ -8088,8 +8098,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s2/ckpt/A2PR_antmaze-umaze-diverse-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "aspc_table1",
@@ -8139,8 +8149,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s3/ckpt/A2PR_antmaze-umaze-diverse-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "aspc_table1",
@@ -8190,8 +8200,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s0/ckpt/A2PR_antmaze-umaze-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "aspc_table1",
@@ -8241,8 +8251,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s1/ckpt/A2PR_antmaze-umaze-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "aspc_table1",
@@ -8292,8 +8302,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s2/ckpt/A2PR_antmaze-umaze-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "aspc_table1",
@@ -8343,8 +8353,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s3/ckpt/A2PR_antmaze-umaze-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-v2/antmaze-umaze-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "aspc_table1",
@@ -8394,8 +8404,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s0/ckpt/A2PR_door-cloned-v1_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "aspc_table1",
@@ -8445,8 +8455,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s1/ckpt/A2PR_door-cloned-v1_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "aspc_table1",
@@ -8496,8 +8506,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s2/ckpt/A2PR_door-cloned-v1_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "aspc_table1",
@@ -8547,8 +8557,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s3/ckpt/A2PR_door-cloned-v1_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-cloned-v1/door-cloned-v1_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "aspc_table1",
@@ -8598,8 +8608,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s0/ckpt/A2PR_door-expert-v1_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "aspc_table1",
@@ -8649,8 +8659,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s1/ckpt/A2PR_door-expert-v1_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "aspc_table1",
@@ -8700,8 +8710,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s2/ckpt/A2PR_door-expert-v1_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "aspc_table1",
@@ -8751,8 +8761,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s3/ckpt/A2PR_door-expert-v1_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-expert-v1/door-expert-v1_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "aspc_table1",
@@ -8802,8 +8812,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s0/ckpt/A2PR_door-human-v1_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "aspc_table1",
@@ -8853,8 +8863,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s1/ckpt/A2PR_door-human-v1_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "aspc_table1",
@@ -8904,8 +8914,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s2/ckpt/A2PR_door-human-v1_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "aspc_table1",
@@ -8955,8 +8965,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s3/ckpt/A2PR_door-human-v1_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "aspc_table1",
@@ -9006,8 +9016,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s0/ckpt/A2PR_halfcheetah-expert-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "aspc_table1",
@@ -9057,8 +9067,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s1/ckpt/A2PR_halfcheetah-expert-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "aspc_table1",
@@ -9108,8 +9118,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s2/ckpt/A2PR_halfcheetah-expert-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "aspc_table1",
@@ -9159,8 +9169,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s3/ckpt/A2PR_halfcheetah-expert-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-expert-v2/halfcheetah-expert-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "aspc_table1",
@@ -9210,8 +9220,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s0/ckpt/A2PR_halfcheetah-medium-expert-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "aspc_table1",
@@ -9261,8 +9271,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s1/ckpt/A2PR_halfcheetah-medium-expert-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "aspc_table1",
@@ -9312,8 +9322,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s2/ckpt/A2PR_halfcheetah-medium-expert-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "aspc_table1",
@@ -9363,8 +9373,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s3/ckpt/A2PR_halfcheetah-medium-expert-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "aspc_table1",
@@ -9414,8 +9424,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s0/ckpt/A2PR_halfcheetah-medium-replay-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "aspc_table1",
@@ -9465,8 +9475,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s1/ckpt/A2PR_halfcheetah-medium-replay-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "aspc_table1",
@@ -9516,8 +9526,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s2/ckpt/A2PR_halfcheetah-medium-replay-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "aspc_table1",
@@ -9567,8 +9577,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s3/ckpt/A2PR_halfcheetah-medium-replay-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-replay-v2/halfcheetah-medium-replay-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "aspc_table1",
@@ -9618,8 +9628,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s0/ckpt/A2PR_halfcheetah-medium-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "aspc_table1",
@@ -9669,8 +9679,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s1/ckpt/A2PR_halfcheetah-medium-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "aspc_table1",
@@ -9720,8 +9730,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s2/ckpt/A2PR_halfcheetah-medium-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "aspc_table1",
@@ -9771,8 +9781,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s3/ckpt/A2PR_halfcheetah-medium-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-v2/halfcheetah-medium-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "aspc_table1",
@@ -9822,8 +9832,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s0/ckpt/A2PR_halfcheetah-random-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-random-v2",
       "env_short": "hcr",
       "family": "aspc_table1",
@@ -9873,8 +9883,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s1/ckpt/A2PR_halfcheetah-random-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-random-v2",
       "env_short": "hcr",
       "family": "aspc_table1",
@@ -9924,8 +9934,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s2/ckpt/A2PR_halfcheetah-random-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-random-v2",
       "env_short": "hcr",
       "family": "aspc_table1",
@@ -9975,8 +9985,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s3/ckpt/A2PR_halfcheetah-random-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-random-v2/halfcheetah-random-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "halfcheetah-random-v2",
       "env_short": "hcr",
       "family": "aspc_table1",
@@ -10026,8 +10036,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hammer-human-v1/hammer-human-v1_s0/ckpt/A2PR_hammer-human-v1_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hammer-human-v1/hammer-human-v1_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "aspc_table1",
@@ -10077,8 +10087,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hammer-human-v1/hammer-human-v1_s1/ckpt/A2PR_hammer-human-v1_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hammer-human-v1/hammer-human-v1_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "aspc_table1",
@@ -10128,8 +10138,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hammer-human-v1/hammer-human-v1_s2/ckpt/A2PR_hammer-human-v1_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hammer-human-v1/hammer-human-v1_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "aspc_table1",
@@ -10179,8 +10189,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s0/ckpt/A2PR_hopper-expert-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "aspc_table1",
@@ -10230,8 +10240,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s1/ckpt/A2PR_hopper-expert-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "aspc_table1",
@@ -10281,8 +10291,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s2/ckpt/A2PR_hopper-expert-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "aspc_table1",
@@ -10332,8 +10342,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s3/ckpt/A2PR_hopper-expert-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "aspc_table1",
@@ -10383,8 +10393,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s0/ckpt/A2PR_hopper-medium-expert-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "aspc_table1",
@@ -10434,8 +10444,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s1/ckpt/A2PR_hopper-medium-expert-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "aspc_table1",
@@ -10485,8 +10495,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s2/ckpt/A2PR_hopper-medium-expert-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "aspc_table1",
@@ -10536,8 +10546,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s3/ckpt/A2PR_hopper-medium-expert-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-expert-v2/hopper-medium-expert-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "aspc_table1",
@@ -10587,8 +10597,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s0/ckpt/A2PR_hopper-medium-replay-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "aspc_table1",
@@ -10638,8 +10648,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s1/ckpt/A2PR_hopper-medium-replay-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "aspc_table1",
@@ -10689,8 +10699,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s2/ckpt/A2PR_hopper-medium-replay-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "aspc_table1",
@@ -10740,8 +10750,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s3/ckpt/A2PR_hopper-medium-replay-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-replay-v2/hopper-medium-replay-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "aspc_table1",
@@ -10791,8 +10801,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s0/ckpt/A2PR_hopper-medium-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "aspc_table1",
@@ -10842,8 +10852,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s1/ckpt/A2PR_hopper-medium-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "aspc_table1",
@@ -10893,8 +10903,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s2/ckpt/A2PR_hopper-medium-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "aspc_table1",
@@ -10944,8 +10954,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s3/ckpt/A2PR_hopper-medium-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-medium-v2/hopper-medium-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "aspc_table1",
@@ -10995,8 +11005,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s0/ckpt/A2PR_pen-cloned-v1_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "aspc_table1",
@@ -11046,8 +11056,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s1/ckpt/A2PR_pen-cloned-v1_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "aspc_table1",
@@ -11097,8 +11107,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s2/ckpt/A2PR_pen-cloned-v1_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "aspc_table1",
@@ -11148,8 +11158,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s3/ckpt/A2PR_pen-cloned-v1_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-cloned-v1/pen-cloned-v1_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "aspc_table1",
@@ -11199,8 +11209,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s0/ckpt/A2PR_pen-expert-v1_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "aspc_table1",
@@ -11250,8 +11260,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s1/ckpt/A2PR_pen-expert-v1_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "aspc_table1",
@@ -11301,8 +11311,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s2/ckpt/A2PR_pen-expert-v1_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "aspc_table1",
@@ -11352,8 +11362,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s3/ckpt/A2PR_pen-expert-v1_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "aspc_table1",
@@ -11403,8 +11413,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s0/ckpt/A2PR_pen-human-v1_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "aspc_table1",
@@ -11454,8 +11464,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s1/ckpt/A2PR_pen-human-v1_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "aspc_table1",
@@ -11505,8 +11515,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s2/ckpt/A2PR_pen-human-v1_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "aspc_table1",
@@ -11556,8 +11566,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s3/ckpt/A2PR_pen-human-v1_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-human-v1/pen-human-v1_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "aspc_table1",
@@ -11607,8 +11617,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s0/ckpt/A2PR_walker2d-expert-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "aspc_table1",
@@ -11658,8 +11668,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s1/ckpt/A2PR_walker2d-expert-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "aspc_table1",
@@ -11709,8 +11719,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s2/ckpt/A2PR_walker2d-expert-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "aspc_table1",
@@ -11760,8 +11770,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s3/ckpt/A2PR_walker2d-expert-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-expert-v2/walker2d-expert-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "aspc_table1",
@@ -11811,8 +11821,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s0/ckpt/A2PR_walker2d-medium-expert-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "aspc_table1",
@@ -11862,8 +11872,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s1/ckpt/A2PR_walker2d-medium-expert-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "aspc_table1",
@@ -11913,8 +11923,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s2/ckpt/A2PR_walker2d-medium-expert-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "aspc_table1",
@@ -11964,8 +11974,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s3/ckpt/A2PR_walker2d-medium-expert-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-expert-v2/walker2d-medium-expert-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "aspc_table1",
@@ -12015,8 +12025,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s0/ckpt/A2PR_walker2d-medium-replay-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "aspc_table1",
@@ -12066,8 +12076,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s1/ckpt/A2PR_walker2d-medium-replay-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "aspc_table1",
@@ -12117,8 +12127,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s2/ckpt/A2PR_walker2d-medium-replay-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "aspc_table1",
@@ -12168,8 +12178,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s3/ckpt/A2PR_walker2d-medium-replay-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-replay-v2/walker2d-medium-replay-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "aspc_table1",
@@ -12219,8 +12229,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s0/ckpt/A2PR_walker2d-medium-v2_0_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s0/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "aspc_table1",
@@ -12270,8 +12280,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s1/ckpt/A2PR_walker2d-medium-v2_1_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s1/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "aspc_table1",
@@ -12321,8 +12331,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s2/ckpt/A2PR_walker2d-medium-v2_2_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s2/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "aspc_table1",
@@ -12372,8 +12382,8 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s3/ckpt/A2PR_walker2d-medium-v2_3_500000.pth",
-      "collected_at": "2026-09-12T14:22:44+09:00",
+      "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s3/ckpt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "aspc_table1",
@@ -12416,6 +12426,666 @@
       "source_host": "svcho",
       "source_path": "/home/svcho/A2PR/results_aspc_table1/walker2d-medium-v2/walker2d-medium-v2_s3",
       "variant": "aspc_table1_1m"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_linear_10to1_1m-hopper-medium-expert-v2-3abcd078/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "family": "t_path_schedule",
+      "final_score": 99.98988647419479,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "hopme_s0_Tpath_linear_10to1_1m-hopper-medium-expert-v2-3abcd078",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/hopme_s0_Tpath_linear_10.0to1.0__3abcd078",
+      "run_id": "hopme_s0_Tpath_linear_10.0to1.0__3abcd078",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "linear",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "hopme_s0_Tpath_linear_10to1_1m-hopper-medium-expert-v2-3abcd078",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_linear_10to1_1m-hopper-medium-expert-v2-3abcd078",
+      "variant": "Tpath_linear_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quad_10to1_1m-hopper-medium-expert-v2-746e4fa2/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "family": "t_path_schedule",
+      "final_score": 108.23849865400186,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "hopme_s0_Tpath_quad_10to1_1m-hopper-medium-expert-v2-746e4fa2",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/hopme_s0_Tpath_quadratic_10.0to1.0__746e4fa2",
+      "run_id": "hopme_s0_Tpath_quadratic_10.0to1.0__746e4fa2",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "quadratic",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "hopme_s0_Tpath_quad_10to1_1m-hopper-medium-expert-v2-746e4fa2",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quad_10to1_1m-hopper-medium-expert-v2-746e4fa2",
+      "variant": "Tpath_quadratic_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quadup_10to1_1m-hopper-medium-expert-v2-7d82c9da/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "family": "t_path_schedule",
+      "final_score": 95.02233567637484,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "hopme_s0_Tpath_quadup_10to1_1m-hopper-medium-expert-v2-7d82c9da",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/hopme_s0_Tpath_quadratic_up_10.0to1.0__7d82c9da",
+      "run_id": "hopme_s0_Tpath_quadratic_up_10.0to1.0__7d82c9da",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "quadratic_up",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "hopme_s0_Tpath_quadup_10to1_1m-hopper-medium-expert-v2-7d82c9da",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_quadup_10to1_1m-hopper-medium-expert-v2-7d82c9da",
+      "variant": "Tpath_quadratic_up_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "family": "t_path_schedule",
+      "final_score": 110.08396315888452,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/hopme_s0_Tpath_step100k_10.0to1.0__51988ac5",
+      "run_id": "hopme_s0_Tpath_step100k_10.0to1.0__51988ac5",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "step100k",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5",
+      "variant": "Tpath_step100k_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quadup_10to1_1m-hopper-medium-replay-v2-48306f5b/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "hopper-medium-replay-v2",
+      "env_short": "hopmr",
+      "family": "t_path_schedule",
+      "final_score": 71.78767566800221,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "hopmr_s0_Tpath_quadup_10to1_1m-hopper-medium-replay-v2-48306f5b",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/hopmr_s0_Tpath_quadratic_up_10.0to1.0__48306f5b",
+      "run_id": "hopmr_s0_Tpath_quadratic_up_10.0to1.0__48306f5b",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "quadratic_up",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-replay-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "hopmr_s0_Tpath_quadup_10to1_1m-hopper-medium-replay-v2-48306f5b",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_quadup_10to1_1m-hopper-medium-replay-v2-48306f5b",
+      "variant": "Tpath_quadratic_up_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_step100k_10to1_1m-hopper-medium-replay-v2-deaea369/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "hopper-medium-replay-v2",
+      "env_short": "hopmr",
+      "family": "t_path_schedule",
+      "final_score": 71.62894715557412,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "hopmr_s0_Tpath_step100k_10to1_1m-hopper-medium-replay-v2-deaea369",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/hopmr_s0_Tpath_step100k_10.0to1.0__deaea369",
+      "run_id": "hopmr_s0_Tpath_step100k_10.0to1.0__deaea369",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "step100k",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-replay-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "hopmr_s0_Tpath_step100k_10to1_1m-hopper-medium-replay-v2-deaea369",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_step100k_10to1_1m-hopper-medium-replay-v2-deaea369",
+      "variant": "Tpath_step100k_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "family": "t_path_schedule",
+      "final_score": 79.63797096363359,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/wm_s0_Tpath_linear_10.0to1.0__8d85edea",
+      "run_id": "wm_s0_Tpath_linear_10.0to1.0__8d85edea",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "linear",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea",
+      "variant": "Tpath_linear_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quad_10to1_1m-walker2d-medium-v2-641439c2/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "family": "t_path_schedule",
+      "final_score": 84.38154772751902,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "wm_s0_Tpath_quad_10to1_1m-walker2d-medium-v2-641439c2",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/wm_s0_Tpath_quadratic_10.0to1.0__641439c2",
+      "run_id": "wm_s0_Tpath_quadratic_10.0to1.0__641439c2",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "quadratic",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "wm_s0_Tpath_quad_10to1_1m-walker2d-medium-v2-641439c2",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quad_10to1_1m-walker2d-medium-v2-641439c2",
+      "variant": "Tpath_quadratic_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quadup_10to1_1m-walker2d-medium-v2-c454209c/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "family": "t_path_schedule",
+      "final_score": 84.03136404473058,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "wm_s0_Tpath_quadup_10to1_1m-walker2d-medium-v2-c454209c",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/wm_s0_Tpath_quadratic_up_10.0to1.0__c454209c",
+      "run_id": "wm_s0_Tpath_quadratic_up_10.0to1.0__c454209c",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "quadratic_up",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "wm_s0_Tpath_quadup_10to1_1m-walker2d-medium-v2-c454209c",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_quadup_10to1_1m-walker2d-medium-v2-c454209c",
+      "variant": "Tpath_quadratic_up_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_step100k_10to1_1m-walker2d-medium-v2-b8e4753c/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "family": "t_path_schedule",
+      "final_score": 84.15507166894722,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "wm_s0_Tpath_step100k_10to1_1m-walker2d-medium-v2-b8e4753c",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/wm_s0_Tpath_step100k_10.0to1.0__b8e4753c",
+      "run_id": "wm_s0_Tpath_step100k_10.0to1.0__b8e4753c",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "step100k",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "wm_s0_Tpath_step100k_10to1_1m-walker2d-medium-v2-b8e4753c",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_step100k_10to1_1m-walker2d-medium-v2-b8e4753c",
+      "variant": "Tpath_step100k_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_linear_10to1_1m-walker2d-medium-expert-v2-e6d120ee/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "walker2d-medium-expert-v2",
+      "env_short": "wme",
+      "family": "t_path_schedule",
+      "final_score": 109.90335748307733,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 150000,
+      "legacy_name": "wme_s0_Tpath_linear_10to1_1m-walker2d-medium-expert-v2-e6d120ee",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/wme_s0_Tpath_linear_10.0to1.0__e6d120ee",
+      "run_id": "wme_s0_Tpath_linear_10.0to1.0__e6d120ee",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "linear",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-expert-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "wme_s0_Tpath_linear_10to1_1m-walker2d-medium-expert-v2-e6d120ee",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_linear_10to1_1m-walker2d-medium-expert-v2-e6d120ee",
+      "variant": "Tpath_linear_10.0to1.0"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "eval.jsonl",
+        "metrics.jsonl",
+        "config.yaml"
+      ],
+      "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quad_10to1_1m-walker2d-medium-expert-v2-ee1f0109/checkpoint_999999.pt",
+      "collected_at": "2026-09-12T22:59:46+09:00",
+      "env": "walker2d-medium-expert-v2",
+      "env_short": "wme",
+      "family": "t_path_schedule",
+      "final_score": 110.01647005421988,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-t-path-linear-vs-quadratic"
+      },
+      "last_eval_step": 150000,
+      "legacy_name": "wme_s0_Tpath_quad_10to1_1m-walker2d-medium-expert-v2-ee1f0109",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/t_path_schedule/wme_s0_Tpath_quadratic_10.0to1.0__ee1f0109",
+      "run_id": "wme_s0_Tpath_quadratic_10.0to1.0__ee1f0109",
+      "seed": 0,
+      "settings": {
+        "T_B": 10.0,
+        "T_E": 10.0,
+        "T_freq": 10,
+        "T_lr": 0.0002,
+        "T_schedule": "quadratic",
+        "T_schedule_end": 1.0,
+        "T_schedule_start": 10.0,
+        "T_schedule_steps": 1000000,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-expert-v2",
+        "eval_freq": 5000,
+        "group": "t-path-linear-vs-quadratic",
+        "max_timesteps": 1000000,
+        "name": "wme_s0_Tpath_quad_10to1_1m-walker2d-medium-expert-v2-ee1f0109",
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "project": "AMO-t-path",
+        "proximal_n_steps": 1,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "svcho",
+      "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wme_s0_Tpath_quad_10to1_1m-walker2d-medium-expert-v2-ee1f0109",
+      "variant": "Tpath_quadratic_10.0to1.0"
     }
   ]
 }
