@@ -5,7 +5,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/halfcheetah-medium-v2/seed0/s0-halfcheetah-medium-v2-1827eec4",
-  "collected_at": "2026-09-12T10:15:55+00:00",
+  "collected_at": "2026-09-12T10:21:09+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "paper_benchmark",
