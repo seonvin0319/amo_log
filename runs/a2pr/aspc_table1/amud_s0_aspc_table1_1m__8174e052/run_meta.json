@@ -4,8 +4,8 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s0/ckpt/A2PR_antmaze-umaze-diverse-v2_0_500000.pth",
-  "collected_at": "2026-09-12T14:22:44+09:00",
+  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/antmaze-umaze-diverse-v2/antmaze-umaze-diverse-v2_s0/ckpt",
+  "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "aspc_table1",
