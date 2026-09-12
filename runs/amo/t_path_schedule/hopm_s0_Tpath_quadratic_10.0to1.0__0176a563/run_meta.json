@@ -1,0 +1,53 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "eval.jsonl",
+    "metrics.jsonl",
+    "config.yaml"
+  ],
+  "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563/checkpoint_999999.pt",
+  "collected_at": "2026-09-12T11:18:49+09:00",
+  "env": "hopper-medium-v2",
+  "env_short": "hopm",
+  "family": "t_path_schedule",
+  "final_score": 62.45701892437183,
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO-t-path-linear-vs-quadratic"
+  },
+  "last_eval_step": 1000000,
+  "legacy_name": "hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563",
+  "run_id": "hopm_s0_Tpath_quadratic_10.0to1.0__0176a563",
+  "seed": 0,
+  "settings": {
+    "T_B": 10.0,
+    "T_E": 10.0,
+    "T_freq": 10,
+    "T_lr": 0.0002,
+    "T_schedule": "quadratic",
+    "T_schedule_end": 1.0,
+    "T_schedule_start": 10.0,
+    "T_schedule_steps": 1000000,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "hopper-medium-v2",
+    "eval_freq": 5000,
+    "group": "t-path-linear-vs-quadratic",
+    "max_timesteps": 1000000,
+    "name": "hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "AMO-t-path",
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quad_10to1_1m-hopper-medium-v2-0176a563",
+  "variant": "Tpath_quadratic_10.0to1.0"
+}

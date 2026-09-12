@@ -6,7 +6,7 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_linear_1to10_1m-hopper-medium-expert-v2-055e5c1e/checkpoint_999999.pt",
-  "collected_at": "2026-09-11T10:00:16+09:00",
+  "collected_at": "2026-09-12T11:18:49+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "t_path_schedule",
