@@ -1,0 +1,51 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
+  ],
+  "collected_at": "2026-09-13T02:38:49+09:00",
+  "env": "walker2d-medium-expert-v2",
+  "env_short": "wme",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "wme_s0_aspc-walker2d-medium-expert-v2-52616add",
+  "run_id": "wme_s0_aspc__52616add",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "walker2d-medium-expert-v2",
+    "eval_freq": 20000,
+    "final_eval_50": {
+      "d4rl_normalized_score": 110.468176795309,
+      "device": "cpu",
+      "eval_return": 5072.859555533526,
+      "evaluated_at": "2026-09-12T17:37:25.398028+00:00",
+      "n_episodes": 50
+    },
+    "group": "pi_l3_sweep",
+    "l3_mode": "aspc",
+    "last_metrics_step": 1000000,
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_pi_l3/wme_s0_aspc-walker2d-medium-expert-v2-52616add",
+  "variant": "aspc"
+}
