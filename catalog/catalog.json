@@ -15260,16 +15260,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T02:23:16+09:00",
+      "collected_at": "2026-09-13T02:33:33+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
-      "final_score": 110.48292052411225,
+      "final_score": 110.33797535794893,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
       },
-      "last_eval_step": 820000,
+      "last_eval_step": 940000,
       "legacy_name": "wme_s0_aspc-walker2d-medium-expert-v2-52616add",
       "max_timesteps": 1000000,
       "rel_path": "runs/aspc/benchmark/wme_s0_aspc_incomplete__52616add",
@@ -15284,7 +15284,7 @@
         "eval_freq": 20000,
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
-        "last_metrics_step": 830200,
+        "last_metrics_step": 956000,
         "loss_function": 4,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
