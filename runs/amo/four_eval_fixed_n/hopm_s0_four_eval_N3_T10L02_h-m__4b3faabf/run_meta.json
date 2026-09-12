@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "config.yaml"
   ],
-  "checkpoint_hint": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_h-m_s0/checkpoint_999999.pt",
-  "collected_at": "2026-09-12T11:18:49+09:00",
+  "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_h-m_s0/checkpoint_999999.pt",
+  "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "four_eval_fixed_n",
@@ -22,6 +22,7 @@
   "settings": {
     "actor_lr": 0.0003,
     "batch_size": 256,
+    "critic_lr": 0.0003,
     "discount": 0.99,
     "env": "hopper-medium-v2",
     "noise_clip": 0.5,
@@ -29,6 +30,6 @@
     "seed": 0
   },
   "source_host": "svcho",
-  "source_path": "/home/svcho/AMO-adaptive-t-four-eval-v1/results/four_eval_N3_T10L02_h-m_s0",
+  "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L02_h-m_s0",
   "variant": "four_eval_N3_T10L02_h-m"
 }
