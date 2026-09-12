@@ -183,6 +183,6 @@ Total runs: **182**
 | wpc | benchmark | `hopme_s3_wpc__82563c0f` | hopper-medium-expert-v2 | 3 | 1000000 | 1000000 | 106.88 | `runs/wpc/benchmark/hopme_s3_wpc__82563c0f` |
 | wpc | benchmark | `hopmr_s2_wpc__a46823ff` | hopper-medium-replay-v2 | 2 | 1000000 | 1000000 | 100.66 | `runs/wpc/benchmark/hopmr_s2_wpc__a46823ff` |
 | wpc | benchmark | `hopm_s3_wpc__cb0e020a` | hopper-medium-v2 | 3 | 1000000 | 1000000 | 81.99 | `runs/wpc/benchmark/hopm_s3_wpc__cb0e020a` |
-| wpc | benchmark | `wme_s2_wpc__02c42081` | walker2d-medium-expert-v2 | 2 | 1000000 | 580000 | 110.53 | `runs/wpc/benchmark/wme_s2_wpc__02c42081` |
+| wpc | benchmark | `wme_s2_wpc__02c42081` | walker2d-medium-expert-v2 | 2 | 1000000 | 780000 | 110.23 | `runs/wpc/benchmark/wme_s2_wpc__02c42081` |
 | wpc | benchmark | `wmr_s3_wpc__3d0c3257` | walker2d-medium-replay-v2 | 3 | 1000000 | 1000000 | 88.42 | `runs/wpc/benchmark/wmr_s3_wpc__3d0c3257` |
 | wpc | benchmark | `wm_s2_wpc__a63fb641` | walker2d-medium-v2 | 2 | 1000000 | 1000000 | 86.85 | `runs/wpc/benchmark/wm_s2_wpc__a63fb641` |
