@@ -4,8 +4,8 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s1/ckpt/A2PR_pen-expert-v1_1_500000.pth",
-  "collected_at": "2026-09-12T14:22:44+09:00",
+  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/pen-expert-v1/pen-expert-v1_s1/ckpt",
+  "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "pen-expert-v1",
   "env_short": "pene",
   "family": "aspc_table1",
