@@ -5,17 +5,17 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-hopper-medium-replay-v2-0103e1d9/checkpoint_99999.pt",
-  "collected_at": "2026-09-13T02:12:53+09:00",
+  "collected_at": "2026-09-13T02:23:04+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "benchmark",
-  "final_score": 99.49003192796326,
+  "final_score": 100.7222789844259,
   "git": {
     "code_commit": "3119fbefd99ed73134ba26a4db7caf3315cc2250",
     "code_remote": "https://github.com/Colin-Jing/ASPC.git",
     "code_repo": "ASPC"
   },
-  "last_eval_step": 420000,
+  "last_eval_step": 580000,
   "legacy_name": "wpc_s3-hopper-medium-replay-v2-0103e1d9",
   "run_id": "hopmr_s3_wpc_benchmark_1m__22fec339",
   "seed": 3,
