@@ -6,7 +6,7 @@
     "config.yaml"
   ],
   "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_10to1_1m-halfcheetah-medium-v2-c5892304/checkpoint_999999.pt",
-  "collected_at": "2026-09-12T22:57:41+09:00",
+  "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "t_path_schedule",
