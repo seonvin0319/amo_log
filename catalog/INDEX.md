@@ -183,4 +183,4 @@ Total runs: **180**
 | wpc | benchmark | `hopme_s3_wpc__82563c0f` | hopper-medium-expert-v2 | 3 | 1000000 | 1000000 | 106.88 | `runs/wpc/benchmark/hopme_s3_wpc__82563c0f` |
 | wpc | benchmark | `hopmr_s2_wpc__a46823ff` | hopper-medium-replay-v2 | 2 | 1000000 | 1000000 | 100.66 | `runs/wpc/benchmark/hopmr_s2_wpc__a46823ff` |
 | wpc | benchmark | `hopm_s3_wpc__cb0e020a` | hopper-medium-v2 | 3 | 1000000 | 1000000 | 81.99 | `runs/wpc/benchmark/hopm_s3_wpc__cb0e020a` |
-| wpc | benchmark | `wm_s2_wpc__a63fb641` | walker2d-medium-v2 | 2 | 1000000 | 500000 | 89.37 | `runs/wpc/benchmark/wm_s2_wpc__a63fb641` |
+| wpc | benchmark | `wm_s2_wpc__a63fb641` | walker2d-medium-v2 | 2 | 1000000 | 680000 | 89.45 | `runs/wpc/benchmark/wm_s2_wpc__a63fb641` |
