@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **270**
+Total runs: **272**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -271,6 +271,8 @@ Total runs: **270**
 | wpc | benchmark | `hcmr_s2_wpc_benchmark_1m__9564b2c2` | halfcheetah-medium-replay-v2 | 2 | 1000000 | 1000000 | 48.34 | `runs/wpc/benchmark/hcmr_s2_wpc_benchmark_1m__9564b2c2` |
 | wpc | benchmark | `hcm_s3_wpc_benchmark_1m__70dfae5d` | halfcheetah-medium-v2 | 3 | 1000000 | 60000 | 50.75 | `runs/wpc/benchmark/hcm_s3_wpc_benchmark_1m__70dfae5d` |
 | wpc | benchmark | `hcm_s3_wpc_benchmark_1m__fc941e4c` | halfcheetah-medium-v2 | 3 | 1000000 | 1000000 | 54.83 | `runs/wpc/benchmark/hcm_s3_wpc_benchmark_1m__fc941e4c` |
-| wpc | benchmark | `hopme_s2_wpc_benchmark_1m__425c80f3` | hopper-medium-expert-v2 | 2 | 1000000 | 900000 | 101.95 | `runs/wpc/benchmark/hopme_s2_wpc_benchmark_1m__425c80f3` |
-| wpc | benchmark | `hopmr_s3_wpc_benchmark_1m__22fec339` | hopper-medium-replay-v2 | 3 | 1000000 | 900000 | 101.69 | `runs/wpc/benchmark/hopmr_s3_wpc_benchmark_1m__22fec339` |
+| wpc | benchmark | `hopme_s2_wpc_benchmark_1m__425c80f3` | hopper-medium-expert-v2 | 2 | 1000000 | 1000000 | 103.66 | `runs/wpc/benchmark/hopme_s2_wpc_benchmark_1m__425c80f3` |
+| wpc | benchmark | `hopmr_s3_wpc_benchmark_1m__22fec339` | hopper-medium-replay-v2 | 3 | 1000000 | 1000000 | 101.96 | `runs/wpc/benchmark/hopmr_s3_wpc_benchmark_1m__22fec339` |
 | wpc | benchmark | `hopm_s2_wpc_benchmark_1m__1bb19996` | hopper-medium-v2 | 2 | 1000000 | 1000000 | 90.19 | `runs/wpc/benchmark/hopm_s2_wpc_benchmark_1m__1bb19996` |
+| wpc | benchmark | `wmr_s2_wpc_benchmark_1m__e0a67149` | walker2d-medium-replay-v2 | 2 | 1000000 | 60000 | 90.17 | `runs/wpc/benchmark/wmr_s2_wpc_benchmark_1m__e0a67149` |
+| wpc | benchmark | `wm_s3_wpc_benchmark_1m__1dc34120` | walker2d-medium-v2 | 3 | 1000000 | 60000 | 71.95 | `runs/wpc/benchmark/wm_s3_wpc_benchmark_1m__1dc34120` |
