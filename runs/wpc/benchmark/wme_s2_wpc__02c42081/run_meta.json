@@ -1,26 +1,25 @@
 {
   "algo": "wpc",
   "artifacts": [
-    "config.yaml",
-    "eval.jsonl"
+    "config.yaml"
   ],
   "collected_at": "2026-09-13T05:50:01+09:00",
-  "env": "hopper-medium-v2",
-  "env_short": "hopm",
+  "env": "walker2d-medium-expert-v2",
+  "env_short": "wme",
   "eval_source": "synthesized_from_stdout_log",
   "family": "benchmark",
   "git": {
     "code_commit": null,
     "code_repo": "ASPC_cohort"
   },
-  "legacy_name": "hopm_s3_wpc-hopper-medium-v2-cb0e020a",
-  "run_id": "hopm_s3_wpc__cb0e020a",
-  "seed": 3,
+  "legacy_name": "wme_s2_wpc-walker2d-medium-expert-v2-02c42081",
+  "run_id": "wme_s2_wpc__02c42081",
+  "seed": 2,
   "settings": {
     "alpha": 2.5,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "hopper-medium-v2",
+    "env": "walker2d-medium-expert-v2",
     "eval_freq": 20000,
     "max_timesteps": 1000000,
     "n_episodes": 10,
@@ -29,11 +28,11 @@
     "normalize_reward": false,
     "policy_freq": 2,
     "policy_noise": 0.2,
-    "seed": 3,
+    "seed": 2,
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_log": "/home/choi/ASPC/results_wpc/_logs/hopm_s3_wpc.log",
-  "source_path": "/home/choi/ASPC/results_wpc/hopm_s3_wpc-hopper-medium-v2-cb0e020a",
+  "source_log": "/home/choi/ASPC/results_wpc/_logs/wme_s2_wpc.log",
+  "source_path": "/home/choi/ASPC/results_wpc/wme_s2_wpc-walker2d-medium-expert-v2-02c42081",
   "variant": "wpc"
 }
