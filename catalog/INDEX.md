@@ -177,6 +177,6 @@ Total runs: **176**
 | td3bc | aspc_rc | `wm_s1_aspc_rc_a2p5__081c7511` | walker2d-medium-v2 | 1 | 1000000 | 1000000 | 86.00 | `runs/td3bc/aspc_rc/wm_s1_aspc_rc_a2p5__081c7511` |
 | td3bc | aspc_rc | `wm_s2_aspc_rc_a2p5__5b8c2bc3` | walker2d-medium-v2 | 2 | 1000000 | 1000000 | 85.07 | `runs/td3bc/aspc_rc/wm_s2_aspc_rc_a2p5__5b8c2bc3` |
 | td3bc | aspc_rc | `wm_s3_aspc_rc_a2p5__99606682` | walker2d-medium-v2 | 3 | 1000000 | 1000000 | 84.08 | `runs/td3bc/aspc_rc/wm_s3_aspc_rc_a2p5__99606682` |
-| wpc | benchmark | `hme_s2_wpc__29d0451d` | halfcheetah-medium-expert-v2 | 2 | 1000000 | 820000 | 99.51 | `runs/wpc/benchmark/hme_s2_wpc__29d0451d` |
+| wpc | benchmark | `hme_s2_wpc__29d0451d` | halfcheetah-medium-expert-v2 | 2 | 1000000 | 860000 | 93.99 | `runs/wpc/benchmark/hme_s2_wpc__29d0451d` |
 | wpc | benchmark | `hcmr_s3_wpc__fbe65fc3` | halfcheetah-medium-replay-v2 | 3 | 1000000 | 1000000 | 48.27 | `runs/wpc/benchmark/hcmr_s3_wpc__fbe65fc3` |
 | wpc | benchmark | `hcm_s2_wpc__69d73d4e` | halfcheetah-medium-v2 | 2 | 1000000 | 1000000 | 54.16 | `runs/wpc/benchmark/hcm_s2_wpc__69d73d4e` |
