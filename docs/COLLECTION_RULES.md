@@ -46,7 +46,7 @@
 | `amo` | `segment_interval` | T_E B_PI = segment directional interval |
 | `amo` | `secant` | 기본 endpoint-secant B_PI |
 | `amo` | `antmaze_t_init_tune` | antmaze T_E/T_B init grid |
-| `aspc` | `td3bc_table6` | ASPC-repo TD3+BC Table 6 benchmark (α=2.5) |
+| `td3bc` | `aspc_rc` | ASPC-style TD3+BC + Robust Critic (Table 6, α=2.5) |
 
 새 family를 만들 때는 `docs/NAMING.md`에 한 줄 추가하고, ingest 매핑 테이블을 갱신한다.
 

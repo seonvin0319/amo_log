@@ -88,11 +88,12 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "nested": True,
     },
     {
-        "algo": "aspc",
+        # ASPC-repo TD3+BC with Table 6 hparams + robust critic (3×256 + LayerNorm).
+        "algo": "td3bc",
         "root": Path("/home/choi/ASPC/results/td3bc_aspc_table6/runs"),
         "host": "choi",
         "code_repo": "ASPC",
-        "family_force": "td3bc_table6",
+        "family_force": "aspc_rc",
         "log_dir": Path("/home/choi/ASPC/results/td3bc_aspc_table6/logs"),
     },
 ]
@@ -158,10 +159,15 @@ def extract_uuid8(dirname: str) -> str:
 def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str:
     if force:
         return force
+    if algo == "td3bc":
+        name = str(cfg.get("name", "")).lower()
+        if "aspc" in name or "td3bc_aspc" in name:
+            return "aspc_rc"
+        return "misc"
     if algo == "aspc":
         name = str(cfg.get("name", "")).lower()
         if "td3bc" in name or "td3_bc" in name or "alpha" in cfg:
-            return "td3bc_table6"
+            return "aspc_rc"
         return "misc"
     if algo == "amo":
         method = str(cfg.get("pi_bound_method", "secant"))
@@ -212,8 +218,9 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         if tb is not None:
             tb_f = float(tb)
             tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
-    if family == "td3bc_table6" or algo == "aspc":
-        tokens.append("td3bc")
+    if family == "aspc_rc" or family == "td3bc_table6" or algo in ("td3bc", "aspc"):
+        # ASPC-style robust critic TD3+BC (Table 6).
+        tokens.append("aspc_rc")
         alpha = cfg.get("alpha")
         if alpha is not None:
             a = float(alpha)

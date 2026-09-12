@@ -1,0 +1,38 @@
+{
+  "algo": "td3bc",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:15:04+09:00",
+  "env": "antmaze-large-diverse-v2",
+  "env_short": "amld",
+  "eval_source": "synthesized_from_stdout_log",
+  "family": "aspc_rc",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "td3bc_aspc_amld_s1-antmaze-large-diverse-v2-1b742297",
+  "run_id": "amld_s1_aspc_rc_a2p5__1b742297",
+  "seed": 1,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-large-diverse-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "seed": 1,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amld_s1.log",
+  "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amld_s1-antmaze-large-diverse-v2-1b742297",
+  "variant": "aspc_rc_a2p5"
+}
