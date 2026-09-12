@@ -1,0 +1,32 @@
+{
+  "algo": "rebrac",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T21:02:47+09:00",
+  "env": "walker2d-medium-expert-v2",
+  "env_short": "wme",
+  "family": "pogo_w2",
+  "final_score": 112.036,
+  "git": {
+    "code_commit": "eae16502f468d2839016a72adea74711d832eb88",
+    "code_repo": "PORL"
+  },
+  "last_eval_step": 1000000,
+  "legacy_name": "walker2d_medium_expert_v2_rebrac_w50_seed2.log",
+  "notes": "Not vanilla ReBRAC; POGO multi-actor + Wasserstein. Scores are Actor0.",
+  "run_id": "wme_s2_pogo_w2_w50_a0__87798384",
+  "seed": 2,
+  "settings": {
+    "env": "walker2d-medium-expert-v2",
+    "max_timesteps": 1000000,
+    "num_actors": 6,
+    "reported_actor": 0,
+    "seed": 2,
+    "w2_weight": 50
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/PORL/training_curve/unified_logs/rebrac/wasserstein/walker2d_medium_expert_v2/w50/seed2/walker2d_medium_expert_v2_rebrac_w50_seed2.log",
+  "variant": "pogo_w2_w50_a0"
+}

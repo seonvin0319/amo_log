@@ -1,0 +1,32 @@
+{
+  "algo": "rebrac",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T21:02:47+09:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "family": "pogo_w2",
+  "final_score": 92.0,
+  "git": {
+    "code_commit": "eae16502f468d2839016a72adea74711d832eb88",
+    "code_repo": "PORL"
+  },
+  "last_eval_step": 1000000,
+  "legacy_name": "antmaze_medium_diverse_v2_rebrac_w50_seed0.log",
+  "notes": "Not vanilla ReBRAC; POGO multi-actor + Wasserstein. Scores are Actor0.",
+  "run_id": "ammd_s0_pogo_w2_w50_a0__eb819163",
+  "seed": 0,
+  "settings": {
+    "env": "antmaze-medium-diverse-v2",
+    "max_timesteps": 1000000,
+    "num_actors": 6,
+    "reported_actor": 0,
+    "seed": 0,
+    "w2_weight": 50
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/PORL/training_curve/unified_logs/rebrac/wasserstein/antmaze_medium_diverse_v2/w50/seed0/antmaze_medium_diverse_v2_rebrac_w50_seed0.log",
+  "variant": "pogo_w2_w50_a0"
+}

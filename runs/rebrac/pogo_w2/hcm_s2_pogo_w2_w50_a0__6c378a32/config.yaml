@@ -1,0 +1,11 @@
+algo: rebrac
+family: pogo_w2
+env: halfcheetah-medium-v2
+seed: 2
+max_timesteps: 1000000
+eval_freq: 5000
+w2_weight: 50
+num_actors: 6
+reported_actor: 0
+note: POGO multi-actor ReBRAC+W2; Actor0 uses original ReBRAC loss only
+source_log: /home/svcho/PORL/training_curve/unified_logs/rebrac/wasserstein/halfcheetah_medium_v2/w50/seed2/halfcheetah_medium_v2_rebrac_w50_seed2.log

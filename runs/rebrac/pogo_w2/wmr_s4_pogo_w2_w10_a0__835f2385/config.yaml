@@ -1,0 +1,11 @@
+algo: rebrac
+family: pogo_w2
+env: walker2d-medium-replay-v2
+seed: 4
+max_timesteps: 1000000
+eval_freq: 5000
+w2_weight: 10
+num_actors: 6
+reported_actor: 0
+note: POGO multi-actor ReBRAC+W2; Actor0 uses original ReBRAC loss only
+source_log: /home/svcho/PORL/training_curve/unified_logs/rebrac/wasserstein/walker2d_medium_replay_v2/w10/seed4/walker2d_medium_replay_v2_rebrac_w10_seed4.log

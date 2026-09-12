@@ -1,0 +1,32 @@
+{
+  "algo": "rebrac",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T21:02:47+09:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "pogo_w2",
+  "final_score": 63.586,
+  "git": {
+    "code_commit": "eae16502f468d2839016a72adea74711d832eb88",
+    "code_repo": "PORL"
+  },
+  "last_eval_step": 1000000,
+  "legacy_name": "halfcheetah_medium_v2_rebrac_w500_seed3.log",
+  "notes": "Not vanilla ReBRAC; POGO multi-actor + Wasserstein. Scores are Actor0.",
+  "run_id": "hcm_s3_pogo_w2_w500_a0__5f843897",
+  "seed": 3,
+  "settings": {
+    "env": "halfcheetah-medium-v2",
+    "max_timesteps": 1000000,
+    "num_actors": 6,
+    "reported_actor": 0,
+    "seed": 3,
+    "w2_weight": 500
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/PORL/training_curve/unified_logs/rebrac/wasserstein/halfcheetah_medium_v2/w500/seed3/halfcheetah_medium_v2_rebrac_w500_seed3.log",
+  "variant": "pogo_w2_w500_a0"
+}

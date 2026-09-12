@@ -342,3 +342,13 @@ Collected on host `svcho` without cloning checkpoint weights.
 
 Incomplete A2PR cells (no `.npy` / <199 evals) skipped. Checkpoints/tfevents not uploaded.
 
+## svcho refresh (2026-09-12 21:02 KST)
+
+Collected on host `svcho` without cloning checkpoint weights.
+
+| Source path | algo | family (assigned) | #runs |
+|-------------|------|-------------------|------:|
+| `/home/svcho/PORL/training_curve/unified_logs/rebrac/wasserstein` | rebrac | `pogo_w2` | 300 |
+
+Note: these are **not** vanilla ReBRAC. They are POGO multi-actor ReBRAC+W2 logs; catalog scores use **Actor0** (original ReBRAC loss only). Full train logs not uploaded.
+
