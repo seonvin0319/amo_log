@@ -1,9 +1,10 @@
 {
   "algo": "wpc",
   "artifacts": [
-    "config.yaml"
+    "config.yaml",
+    "eval.jsonl"
   ],
-  "collected_at": "2026-09-12T14:14:27+09:00",
+  "collected_at": "2026-09-12T14:16:52+09:00",
   "env": "halfcheetah-expert-v2",
   "env_short": "hce",
   "family": "benchmark",

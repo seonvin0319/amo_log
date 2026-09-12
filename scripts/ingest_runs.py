@@ -592,6 +592,10 @@ def wpc_log_path(src: Path) -> Optional[Path]:
 def parse_wpc_eval_log(log_path: Path) -> List[Dict[str, Any]]:
     """Recover eval curve from WPC stdout logs (no metrics.jsonl on disk)."""
     step_re = re.compile(r"Time steps:\s*(\d+)")
+    # Often one line: "Evaluation over 10 episodes: 1.000 , D4RL score: 100.000"
+    eval_line_re = re.compile(
+        r"Evaluation over\s+\d+\s+episodes:\s*([0-9.]+)\s*,\s*D4RL score:\s*([0-9.]+)"
+    )
     score_re = re.compile(r"D4RL score:\s*([0-9.]+)")
     ret_re = re.compile(r"Evaluation over\s+\d+\s+episodes:\s*([0-9.]+)")
     by_step: Dict[int, Dict[str, Any]] = {}
@@ -601,6 +605,17 @@ def parse_wpc_eval_log(log_path: Path) -> List[Dict[str, Any]]:
         m = step_re.search(line)
         if m:
             pending_step = int(m.group(1))
+            pending_return = None
+            continue
+        m = eval_line_re.search(line)
+        if m and pending_step is not None:
+            by_step[pending_step] = {
+                "step": pending_step,
+                "t": pending_step,
+                "d4rl_normalized_score": float(m.group(2)),
+                "eval_return": float(m.group(1)),
+            }
+            pending_step = None
             pending_return = None
             continue
         m = ret_re.search(line)

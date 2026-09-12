@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-12T14:14:19+09:00",
+  "collected_at": "2026-09-12T14:16:44+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "adaptive_multiscale",
@@ -27,7 +27,7 @@
     "env": "antmaze-large-play-v2",
     "eval_freq": 5000,
     "group": "amo-antmaze6-tlr-tinit-seed0",
-    "last_metrics_step": 164400,
+    "last_metrics_step": 190000,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
     "normalize": true,
