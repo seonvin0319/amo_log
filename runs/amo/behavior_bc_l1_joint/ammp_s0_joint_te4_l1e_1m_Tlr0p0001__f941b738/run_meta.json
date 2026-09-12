@@ -8,7 +8,7 @@
     "run_manifest.json"
   ],
   "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_med-play_s0",
-  "collected_at": "2026-09-12T08:32:47+00:00",
+  "collected_at": "2026-09-12T08:38:08+00:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "behavior_bc_l1_joint",
