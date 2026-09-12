@@ -27,3 +27,5 @@
 {"step": 540000, "t": 540000, "d4rl_normalized_score": 101.82442866246728, "eval_return": 3293.6773499731426, "n_episodes": 10}
 {"step": 560000, "t": 560000, "d4rl_normalized_score": 102.0235625442606, "eval_return": 3300.1583061398587, "n_episodes": 10}
 {"step": 580000, "t": 580000, "d4rl_normalized_score": 101.81577782863936, "eval_return": 3293.395802331227, "n_episodes": 10}
+{"step": 600000, "t": 600000, "d4rl_normalized_score": 101.98885132878853, "eval_return": 3299.028604534376, "n_episodes": 10}
+{"step": 620000, "t": 620000, "d4rl_normalized_score": 101.87112043785433, "eval_return": 3295.196967563602, "n_episodes": 10}
