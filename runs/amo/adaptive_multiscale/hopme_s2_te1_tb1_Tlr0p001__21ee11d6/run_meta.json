@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s2-hopper-medium-expert-v2-21ee11d6",
-  "collected_at": "2026-09-12T19:00:15+00:00",
+  "collected_at": "2026-09-12T19:10:36+00:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "adaptive_multiscale",
