@@ -6,7 +6,7 @@
     "summary.json"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/halfcheetah-medium-replay-v2/seed1/s1-halfcheetah-medium-replay-v2-5afe25e4",
-  "collected_at": "2026-09-12T09:44:30+00:00",
+  "collected_at": "2026-09-12T09:49:44+00:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "paper_benchmark",
