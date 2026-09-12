@@ -31,7 +31,7 @@ policy_noise: 0.2
 profile_runtime: false
 project: AMO-adaptive-multiscale
 proximal_n_steps: 1
-resume_tag: ''
+resume_tag: amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s2
 save_freq: 20000
 seed: 2
 smoothness_eps: 1.0e-06
