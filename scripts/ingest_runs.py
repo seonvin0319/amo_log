@@ -141,6 +141,24 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "amo",
         "family_force": "adaptive_multiscale",
     },
+    # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
+    {
+        "algo": "aspc",
+        "root": Path("/home/shchoi/ASPC/results_aspc"),
+        "host": "shchoi",
+        "code_repo": "ASPC",
+        "family_force": "benchmark",
+        "dirname_contains": "_aspc-",
+    },
+    # seed0 locomotion ASPC completed before the full sweep
+    {
+        "algo": "aspc",
+        "root": Path("/home/shchoi/ASPC/results_pi_l3"),
+        "host": "shchoi",
+        "code_repo": "ASPC",
+        "family_force": "benchmark",
+        "dirname_contains": "_aspc-",
+    },
 ]
 
 
@@ -338,6 +356,8 @@ def write_eval_jsonl(metrics_path: Path, dest: Path) -> bool:
 def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str:
     if force:
         return force
+    if algo == "aspc":
+        return "benchmark"
     if algo == "amo":
         if cfg.get("use_amo_v3b"):
             return "jax_v3b"
@@ -434,6 +454,8 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
                 tokens.append(
                     "TB" + f"{tb_f:g}".replace(".", "p").replace("-", "m")
                 )
+    if family == "benchmark" and algo == "aspc":
+        tokens.append("aspc")
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")
@@ -497,6 +519,11 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "actor_n_hiddens",
         "run_id",
         "sweep_name",
+        "l3_mode",
+        "loss_function",
+        "ema_alpha",
+        "project",
+        "group",
     ]
     out = {}
     for k in keys:
@@ -505,14 +532,23 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
     return out
 
 
-def discover_run_dirs(root: Path, nested: bool, kind: str = "yaml") -> List[Path]:
+def discover_run_dirs(
+    root: Path,
+    nested: bool,
+    kind: str = "yaml",
+    dirname_contains: Optional[str] = None,
+) -> List[Path]:
     if not root.exists():
         return []
     name = "config.json" if kind == "jax" else "config.yaml"
     if nested:
         found = set(root.glob(f"*/*/{name}")) | set(root.glob(f"*/{name}"))
-        return sorted({p.parent for p in found})
-    return sorted({p.parent for p in root.glob(f"*/{name}")})
+        dirs = sorted({p.parent for p in found})
+    else:
+        dirs = sorted({p.parent for p in root.glob(f"*/{name}")})
+    if dirname_contains:
+        dirs = [d for d in dirs if dirname_contains in d.name]
+    return dirs
 
 
 def ingest_one(
@@ -551,11 +587,11 @@ def ingest_one(
     max_t = int(cfg.get("max_timesteps", 0) or 0)
     eval_freq = int(cfg.get("eval_freq", 5000) or 5000)
     incomplete = (
-        kind == "jax"
-        and last_step is not None
+        last_step is not None
         and max_t > 0
         and summary_status != "complete"
         and last_step < max_t - eval_freq
+        and (kind == "jax" or algo == "aspc")
     )
     if incomplete and "incomplete" not in variant.split("_"):
         variant = f"{variant}_incomplete"
@@ -636,7 +672,12 @@ def main() -> int:
     for src_spec in DEFAULT_SOURCES:
         root: Path = src_spec["root"]
         kind = src_spec.get("kind", "yaml")
-        for run_dir in discover_run_dirs(root, bool(src_spec.get("nested")), kind=kind):
+        for run_dir in discover_run_dirs(
+            root,
+            bool(src_spec.get("nested")),
+            kind=kind,
+            dirname_contains=src_spec.get("dirname_contains"),
+        ):
             meta = ingest_one(
                 run_dir,
                 algo=src_spec["algo"],

@@ -1,0 +1,43 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:11:24+09:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "wm_s0_aspc-walker2d-medium-v2-09e74ee1",
+  "run_id": "wm_s0_aspc_incomplete__09e74ee1",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "walker2d-medium-v2",
+    "eval_freq": 20000,
+    "group": "pi_l3_sweep",
+    "l3_mode": "aspc",
+    "last_metrics_step": 839200,
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_pi_l3/wm_s0_aspc-walker2d-medium-v2-09e74ee1",
+  "variant": "aspc_incomplete"
+}

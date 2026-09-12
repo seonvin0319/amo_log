@@ -1,0 +1,43 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:11:24+09:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "wm_s3_aspc-walker2d-medium-v2-b502c4cb",
+  "run_id": "wm_s3_aspc__b502c4cb",
+  "seed": 3,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "walker2d-medium-v2",
+    "eval_freq": 20000,
+    "group": "aspc_locomotion",
+    "l3_mode": "aspc",
+    "last_metrics_step": 1000000,
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_WPC_FULL",
+    "seed": 3,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_aspc/wm_s3_aspc-walker2d-medium-v2-b502c4cb",
+  "variant": "aspc"
+}

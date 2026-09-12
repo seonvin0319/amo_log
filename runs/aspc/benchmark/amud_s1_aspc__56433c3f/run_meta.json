@@ -1,0 +1,43 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:11:23+09:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "aud_s1_aspc-antmaze-umaze-diverse-v2-56433c3f",
+  "run_id": "amud_s1_aspc__56433c3f",
+  "seed": 1,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "antmaze-umaze-diverse-v2",
+    "eval_freq": 20000,
+    "group": "aspc_antmaze",
+    "l3_mode": "aspc",
+    "last_metrics_step": 1000000,
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_WPC_FULL",
+    "seed": 1,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_aspc/aud_s1_aspc-antmaze-umaze-diverse-v2-56433c3f",
+  "variant": "aspc"
+}

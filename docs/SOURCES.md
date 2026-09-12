@@ -26,6 +26,8 @@ Collected 2026-09-07 (JAX) and 2026-09-10 (PyTorch). **No APART tree on this hos
 | `/home/shchoi/amo_td3bc/results/amo_td3bc_locomotion9_seed0/runs` | amo | `amo_td3bc` | locomotion-9 seed 0 (live) |
 | `/home/shchoi/amo_lambda0_fork_diag/results/rebrac_amo_locomotion9_seed0/runs` | amo | `rebrac_amo` | locomotion-9 seed 0 |
 | `/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs` | amo | `adaptive_multiscale` | AntMaze-6 B_PI sweep: T_lr×T_E=T_B init (live) |
+| `/home/shchoi/ASPC/results_aspc` | aspc | `benchmark` | ASPC D4RL full sweep (`_aspc-*`, 1M) |
+| `/home/shchoi/ASPC/results_pi_l3` | aspc | `benchmark` | seed0 locomotion ASPC (`_aspc-*`; incomplete tagged) |
 
 Not collected:
 

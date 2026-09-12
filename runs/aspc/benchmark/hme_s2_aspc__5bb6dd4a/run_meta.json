@@ -1,0 +1,43 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:11:23+09:00",
+  "env": "halfcheetah-medium-expert-v2",
+  "env_short": "hme",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "cme_s2_aspc-halfcheetah-medium-expert-v2-5bb6dd4a",
+  "run_id": "hme_s2_aspc__5bb6dd4a",
+  "seed": 2,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "halfcheetah-medium-expert-v2",
+    "eval_freq": 20000,
+    "group": "aspc_locomotion",
+    "l3_mode": "aspc",
+    "last_metrics_step": 1000000,
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_WPC_FULL",
+    "seed": 2,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_aspc/cme_s2_aspc-halfcheetah-medium-expert-v2-5bb6dd4a",
+  "variant": "aspc"
+}
