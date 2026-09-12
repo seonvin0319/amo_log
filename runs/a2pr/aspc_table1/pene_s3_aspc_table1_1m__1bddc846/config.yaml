@@ -1,0 +1,33 @@
+policy: A2PR
+env_id: pen-expert-v1
+seed: 3
+mask: 1.0
+vae_weight: 1.0
+eval_freq: 5000
+save_model_freq: 500000
+max_timesteps: 1000000
+save_model: true
+load_model: default
+device: cuda
+info: default
+actor_lr: 0.0003
+critic_lr: 0.0003
+expl_noise: 0.1
+batch_size: 256
+discount: 0.99
+tau: 0.005
+policy_noise: 0.2
+noise_clip: 0.5
+policy_freq: 2
+normalize: true
+scale: 1
+shift: 0
+load_emb_model: 
+save_eigen: false
+opt_predictor: true
+load_encoder_model: true
+encoder_model_path: 
+alpha: 2.5
+gamma: 0.5
+eta: 0.5
+env: pen-expert-v1

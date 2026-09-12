@@ -1,0 +1,49 @@
+{
+  "algo": "a2pr",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s3/ckpt/A2PR_door-human-v1_3_500000.pth",
+  "collected_at": "2026-09-12T14:22:44+09:00",
+  "env": "door-human-v1",
+  "env_short": "doorh",
+  "family": "aspc_table1",
+  "final_score": -0.044674462409006785,
+  "git": {
+    "code_commit": "f92a2a4e638c0a72718fbc8c67e7a66030db5f9c",
+    "code_remote": "https://github.com/ltlhuuu/A2PR.git",
+    "code_repo": "A2PR"
+  },
+  "last_eval_step": 1000000,
+  "legacy_name": "door-human-v1_s3",
+  "run_id": "doorh_s3_aspc_table1_1m__9d738c85",
+  "seed": 3,
+  "settings": {
+    "actor_lr": 0.0003,
+    "alpha": 2.5,
+    "batch_size": 256,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "door-human-v1",
+    "env_id": "door-human-v1",
+    "eta": 0.5,
+    "eval_freq": 5000,
+    "gamma": 0.5,
+    "mask": 1.0,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy": "A2PR",
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "scale": 1,
+    "seed": 3,
+    "shift": 0,
+    "tau": 0.005,
+    "vae_weight": 1.0
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/A2PR/results_aspc_table1/door-human-v1/door-human-v1_s3",
+  "variant": "aspc_table1_1m"
+}

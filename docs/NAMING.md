@@ -52,6 +52,19 @@ runs/{algo}/{family}/{run_id}/
 | antmaze-medium-diverse-v2 | `ammd` |
 | antmaze-large-play-v2 | `amlp` |
 | antmaze-large-diverse-v2 | `amld` |
+| relocate-expert-v1 | `rele` |
+| relocate-cloned-v1 | `relc` |
+| relocate-human-v1 | `relh` |
+| hammer-expert-v1 | `hame` |
+| hammer-cloned-v1 | `hamc` |
+| hammer-human-v1 | `hamh` |
+| door-expert-v1 | `doore` |
+| door-cloned-v1 | `doorc` |
+| door-human-v1 | `doorh` |
+| pen-expert-v1 | `pene` |
+| pen-cloned-v1 | `penc` |
+| pen-human-v1 | `penh` |
+| halfcheetah-random-v2 | `hcr` |
 
 새 env는 이 표에 추가한 뒤 사용한다. 임시로 풀네임을 쓰지 않는다.
 
@@ -89,6 +102,7 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `pi_local` / `pi_local_aspc` / `pi_only` | CORL `amo` ASPC-PI L3 antmaze runs on svcho |
 | `t_path_schedule` | Controlled T-path linear vs quadratic (`T_schedule`)
 | `four_eval_fixed_n` | Adaptive-T four_eval fixed-N experiments
+| `aspc_table1` | Official A2PR ASPC Table-1 benchmark (loco/antmaze/adroit, seeds 0–3)
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기

@@ -1,0 +1,49 @@
+{
+  "algo": "a2pr",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s1/ckpt/A2PR_halfcheetah-medium-expert-v2_1_500000.pth",
+  "collected_at": "2026-09-12T14:22:44+09:00",
+  "env": "halfcheetah-medium-expert-v2",
+  "env_short": "hme",
+  "family": "aspc_table1",
+  "final_score": 100.07826212347335,
+  "git": {
+    "code_commit": "f92a2a4e638c0a72718fbc8c67e7a66030db5f9c",
+    "code_remote": "https://github.com/ltlhuuu/A2PR.git",
+    "code_repo": "A2PR"
+  },
+  "last_eval_step": 1000000,
+  "legacy_name": "halfcheetah-medium-expert-v2_s1",
+  "run_id": "hme_s1_aspc_table1_1m__c13e7bca",
+  "seed": 1,
+  "settings": {
+    "actor_lr": 0.0003,
+    "alpha": 2.5,
+    "batch_size": 256,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-expert-v2",
+    "env_id": "halfcheetah-medium-expert-v2",
+    "eta": 0.5,
+    "eval_freq": 5000,
+    "gamma": 0.5,
+    "mask": 1.0,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy": "A2PR",
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "scale": 1,
+    "seed": 1,
+    "shift": 0,
+    "tau": 0.005,
+    "vae_weight": 1.0
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/A2PR/results_aspc_table1/halfcheetah-medium-expert-v2/halfcheetah-medium-expert-v2_s1",
+  "variant": "aspc_table1_1m"
+}

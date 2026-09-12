@@ -332,3 +332,13 @@ Collected on host `svcho` without cloning checkpoint weights.
 
 Not found on svcho: APART `results_apart*`.
 
+## svcho refresh (2026-09-12 14:22 KST)
+
+Collected on host `svcho` without cloning checkpoint weights.
+
+| Source path | algo | family (assigned) | #runs |
+|-------------|------|-------------------|------:|
+| `/home/svcho/A2PR/results_aspc_table1` | a2pr | `aspc_table1` | 103 |
+
+Incomplete A2PR cells (no `.npy` / <199 evals) skipped. Checkpoints/tfevents not uploaded.
+
