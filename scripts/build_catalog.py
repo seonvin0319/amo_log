@@ -30,6 +30,7 @@ def last_eval_score(eval_path: Path) -> Optional[float]:
             "d4rl_normalized_score",
             "normalized_score",
             "eval/d4rl_normalized_score",
+            "d4rl",
             "score",
         ):
             if key in obj:
