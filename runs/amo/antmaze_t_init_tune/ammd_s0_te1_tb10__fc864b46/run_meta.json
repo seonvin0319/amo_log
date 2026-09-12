@@ -6,25 +6,25 @@
     "eval.jsonl"
   ],
   "collected_at": "2026-09-12T17:28:02+09:00",
-  "env": "antmaze-medium-play-v2",
-  "env_short": "ammp",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
   "family": "antmaze_t_init_tune",
   "git": {
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "legacy_name": "amo_am_te10_tb1_ammp_s0-antmaze-medium-play-v2-ab31b013",
-  "run_id": "ammp_s0_te10_tb1__ab31b013",
+  "legacy_name": "amo_am_te1_tb10_ammd_s0-antmaze-medium-diverse-v2-fc864b46",
+  "run_id": "ammd_s0_te1_tb10__fc864b46",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 10.0,
+    "T_B": 10.0,
+    "T_E": 1.0,
     "T_freq": 10,
     "T_lr": 0.0002,
     "adaptive_multiscale": true,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "antmaze-medium-play-v2",
+    "env": "antmaze-medium-diverse-v2",
     "eval_freq": 5000,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
@@ -38,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/amo/results/amo_antmaze_t_init_tune_seed0/runs/amo_am_te10_tb1_ammp_s0-antmaze-medium-play-v2-ab31b013",
-  "variant": "te10_tb1"
+  "source_path": "/home/choi/amo/results/amo_antmaze_t_init_tune_seed0/runs/amo_am_te1_tb10_ammd_s0-antmaze-medium-diverse-v2-fc864b46",
+  "variant": "te1_tb10"
 }
