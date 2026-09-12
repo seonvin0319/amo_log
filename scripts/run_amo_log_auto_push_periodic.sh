@@ -3,7 +3,7 @@
 set -uo pipefail
 
 RUNTIME_DIR="${AMO_LOG_PERIODIC_DIR:-/home/ext_csh/logs/amo_log_periodic}"
-INTERVAL_SEC="${INTERVAL_SEC:-300}"
+INTERVAL_SEC="${INTERVAL_SEC:-600}"
 PID_FILE="${RUNTIME_DIR}/pid"
 RUN_LOG="${RUNTIME_DIR}/periodic.log"
 PUSH_SCRIPT="${AMO_LOG_ROOT:-/home/ext_csh/amo_log}/scripts/auto_push_ext_csh.sh"
