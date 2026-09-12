@@ -4,7 +4,7 @@ Total runs: **363**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
-| amo | adaptive_multiscale | `amld_s0_TE10_Tlr0p0003__833a6c83` | antmaze-large-diverse-v2 | 0 | 1000000 | 905000 | 50.00 | `runs/amo/adaptive_multiscale/amld_s0_TE10_Tlr0p0003__833a6c83` |
+| amo | adaptive_multiscale | `amld_s0_TE10_Tlr0p0003__833a6c83` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/amo/adaptive_multiscale/amld_s0_TE10_Tlr0p0003__833a6c83` |
 | amo | adaptive_multiscale | `amld_s0_TE10_Tlr0p001__81c2be96` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/amo/adaptive_multiscale/amld_s0_TE10_Tlr0p001__81c2be96` |
 | amo | adaptive_multiscale | `amld_s0_TE10_Tlr0p002__afe19e3a` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 30.00 | `runs/amo/adaptive_multiscale/amld_s0_TE10_Tlr0p002__afe19e3a` |
 | amo | adaptive_multiscale | `amld_s0_TE1_Tlr0p0003__9f8d7f20` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 10.00 | `runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p0003__9f8d7f20` |

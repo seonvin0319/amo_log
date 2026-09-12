@@ -8,16 +8,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T23:39:01+09:00",
+      "collected_at": "2026-09-12T23:49:21+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
-      "final_score": 50.0,
+      "final_score": 40.0,
       "git": {
         "code_commit": null,
         "code_repo": "amo"
       },
-      "last_eval_step": 905000,
+      "last_eval_step": 1000000,
       "legacy_name": "amo_ams_ald_tlr3e-04_t10_s0-antmaze-large-diverse-v2-833a6c83",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/amld_s0_TE10_Tlr0p0003__833a6c83",
@@ -34,7 +34,7 @@
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
         "group": "amo-antmaze6-tlr-tinit-seed0",
-        "last_metrics_step": 906600,
+        "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
         "normalize": true,
