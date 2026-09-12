@@ -27,3 +27,11 @@
 {"step": 540000, "return_mean": 3313.0008309790187, "d4rl_normalized_score": 102.41816200728158, "n_episodes": 10, "is_final": false}
 {"step": 560000, "return_mean": 3299.2769260863142, "d4rl_normalized_score": 101.99648125765988, "n_episodes": 10, "is_final": false}
 {"step": 580000, "return_mean": 3257.8070917919604, "d4rl_normalized_score": 100.7222789844259, "n_episodes": 10, "is_final": false}
+{"step": 600000, "return_mean": 3179.625417122421, "d4rl_normalized_score": 98.32006857572091, "n_episodes": 10, "is_final": false}
+{"step": 620000, "return_mean": 3297.8826664779785, "d4rl_normalized_score": 101.953641232069, "n_episodes": 10, "is_final": false}
+{"step": 640000, "return_mean": 3318.6582701247185, "d4rl_normalized_score": 102.59199250221354, "n_episodes": 10, "is_final": false}
+{"step": 660000, "return_mean": 3277.5608475030945, "d4rl_normalized_score": 101.32923295133534, "n_episodes": 10, "is_final": false}
+{"step": 680000, "return_mean": 3299.2449609122004, "d4rl_normalized_score": 101.99549909560852, "n_episodes": 10, "is_final": false}
+{"step": 700000, "return_mean": 3307.449861374138, "d4rl_normalized_score": 102.24760289583234, "n_episodes": 10, "is_final": false}
+{"step": 720000, "return_mean": 3298.12541587336, "d4rl_normalized_score": 101.96109995083856, "n_episodes": 10, "is_final": false}
+{"step": 740000, "return_mean": 3319.7811217036747, "d4rl_normalized_score": 102.62649324374664, "n_episodes": 10, "is_final": false}
