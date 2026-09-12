@@ -102,7 +102,7 @@ Total runs: **183**
 | apart | pi_only_xfit_target | `wme_s0_pi_only_xfit__fc11e1e8` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.07 | `runs/apart/pi_only_xfit_target/wme_s0_pi_only_xfit__fc11e1e8` |
 | apart | pi_only_xfit_target | `wmr_s0_pi_only_xfit__600eab13` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.77 | `runs/apart/pi_only_xfit_target/wmr_s0_pi_only_xfit__600eab13` |
 | apart | pi_only_xfit_target | `wm_s0_pi_only_xfit__247c4d61` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 100.47 | `runs/apart/pi_only_xfit_target/wm_s0_pi_only_xfit__247c4d61` |
-| aspc | benchmark | `wme_s0_aspc_rc_a2p5_aspc__a24170b4` | walker2d-medium-expert-v2 | 0 | 1000000 | 880000 | 111.06 | `runs/aspc/benchmark/wme_s0_aspc_rc_a2p5_aspc__a24170b4` |
+| aspc | benchmark | `wme_s0_aspc_rc_a2p5_aspc__a24170b4` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.76 | `runs/aspc/benchmark/wme_s0_aspc_rc_a2p5_aspc__a24170b4` |
 | iql | vanilla | `amld_s0_pi_base__58475c36` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/iql/vanilla/amld_s0_pi_base__58475c36` |
 | iql | vanilla | `amlp_s0_pi_base__f9cdca04` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/iql/vanilla/amlp_s0_pi_base__f9cdca04` |
 | iql | vanilla | `ammd_s0_pi_base__f00a9ad1` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/iql/vanilla/ammd_s0_pi_base__f00a9ad1` |
