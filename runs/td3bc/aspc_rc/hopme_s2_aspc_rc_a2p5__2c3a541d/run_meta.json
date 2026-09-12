@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-12T18:48:02+09:00",
+  "collected_at": "2026-09-12T19:08:02+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "eval_source": "synthesized_from_stdout_log",
