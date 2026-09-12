@@ -267,8 +267,8 @@ Total runs: **268**
 | apart | pi_only_xfit_target | `wme_s0_pi_only_xfit__fc11e1e8` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.07 | `runs/apart/pi_only_xfit_target/wme_s0_pi_only_xfit__fc11e1e8` |
 | apart | pi_only_xfit_target | `wmr_s0_pi_only_xfit__600eab13` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.77 | `runs/apart/pi_only_xfit_target/wmr_s0_pi_only_xfit__600eab13` |
 | apart | pi_only_xfit_target | `wm_s0_pi_only_xfit__247c4d61` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 100.47 | `runs/apart/pi_only_xfit_target/wm_s0_pi_only_xfit__247c4d61` |
-| wpc | benchmark | `hme_s3_wpc_benchmark_1m__61a473bf` | halfcheetah-medium-expert-v2 | 3 | 1000000 | 760000 | 99.91 | `runs/wpc/benchmark/hme_s3_wpc_benchmark_1m__61a473bf` |
+| wpc | benchmark | `hme_s3_wpc_benchmark_1m__61a473bf` | halfcheetah-medium-expert-v2 | 3 | 1000000 | 920000 | 89.81 | `runs/wpc/benchmark/hme_s3_wpc_benchmark_1m__61a473bf` |
 | wpc | benchmark | `hcmr_s2_wpc_benchmark_1m__9564b2c2` | halfcheetah-medium-replay-v2 | 2 | 1000000 | 1000000 | 48.34 | `runs/wpc/benchmark/hcmr_s2_wpc_benchmark_1m__9564b2c2` |
 | wpc | benchmark | `hcm_s3_wpc_benchmark_1m__70dfae5d` | halfcheetah-medium-v2 | 3 | 1000000 | 60000 | 50.75 | `runs/wpc/benchmark/hcm_s3_wpc_benchmark_1m__70dfae5d` |
 | wpc | benchmark | `hcm_s3_wpc_benchmark_1m__fc941e4c` | halfcheetah-medium-v2 | 3 | 1000000 | 1000000 | 54.83 | `runs/wpc/benchmark/hcm_s3_wpc_benchmark_1m__fc941e4c` |
-| wpc | benchmark | `hopm_s2_wpc_benchmark_1m__1bb19996` | hopper-medium-v2 | 2 | 1000000 | 780000 | 100.32 | `runs/wpc/benchmark/hopm_s2_wpc_benchmark_1m__1bb19996` |
+| wpc | benchmark | `hopm_s2_wpc_benchmark_1m__1bb19996` | hopper-medium-v2 | 2 | 1000000 | 940000 | 83.79 | `runs/wpc/benchmark/hopm_s2_wpc_benchmark_1m__1bb19996` |
