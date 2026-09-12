@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-12T22:08:01+09:00",
+  "collected_at": "2026-09-12T22:28:01+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "pi_only_xfit_mpi_nstep",
@@ -18,11 +18,16 @@
   "seed": 0,
   "settings": {
     "alpha": 2.5,
+    "alpha_freq": 10,
     "batch_size": 256,
     "discount": 0.99,
+    "ema_alpha": 0.995,
     "env": "hopper-medium-expert-v2",
     "eval_freq": 20000,
+    "l3_mode": "pi_only_xfit_target_mpi_nstep",
+    "loss_function": 4,
     "max_timesteps": 1000000,
+    "metrics_log_freq": 200,
     "n_episodes": 10,
     "noise_clip": 0.5,
     "normalize": true,
@@ -30,6 +35,7 @@
     "policy_freq": 2,
     "policy_noise": 0.2,
     "proximal_n_steps": 4,
+    "save_freq": 200000,
     "seed": 0,
     "tau": 0.005
   },
