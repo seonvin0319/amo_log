@@ -180,4 +180,4 @@ Total runs: **177**
 | wpc | benchmark | `hme_s2_wpc__29d0451d` | halfcheetah-medium-expert-v2 | 2 | 1000000 | 1000000 | 99.53 | `runs/wpc/benchmark/hme_s2_wpc__29d0451d` |
 | wpc | benchmark | `hcmr_s3_wpc__fbe65fc3` | halfcheetah-medium-replay-v2 | 3 | 1000000 | 1000000 | 48.27 | `runs/wpc/benchmark/hcmr_s3_wpc__fbe65fc3` |
 | wpc | benchmark | `hcm_s2_wpc__69d73d4e` | halfcheetah-medium-v2 | 2 | 1000000 | 1000000 | 54.16 | `runs/wpc/benchmark/hcm_s2_wpc__69d73d4e` |
-| wpc | benchmark | `hopm_s3_wpc__cb0e020a` | hopper-medium-v2 | 3 | 1000000 | 620000 | 86.16 | `runs/wpc/benchmark/hopm_s3_wpc__cb0e020a` |
+| wpc | benchmark | `hopm_s3_wpc__cb0e020a` | hopper-medium-v2 | 3 | 1000000 | 820000 | 89.72 | `runs/wpc/benchmark/hopm_s3_wpc__cb0e020a` |
