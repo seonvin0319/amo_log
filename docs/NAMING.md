@@ -70,6 +70,8 @@ runs/{algo}/{family}/{run_id}/
 | `alr1e4` | actor lr = 1e-4 등 |
 | `seg{M}` | `pi_bound_segments=M` |
 | `secant` / `segint` | `pi_bound_method` |
+| `td3bc` | ASPC/CORL TD3+BC |
+| `a2` / `a2p5` | TD3+BC `alpha` |
 | `smoke` | 짧은 검증 런 |
 | `Tlr2e3` | `T_lr=2e-3` |
 
@@ -85,6 +87,8 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `pi_only_xfit_mpi_nstep` | π-only + MPI/N-step/alr ablations |
 | `segment_interval` | AMO segment-interval B_PI |
 | `adaptive_multiscale` | AMO T_E/T_B 분리 |
+| `antmaze_t_init_tune` | AMO antmaze T_E×T_B init grid |
+| `td3bc_table6` | ASPC TD3+BC Table 6 benchmark |
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기

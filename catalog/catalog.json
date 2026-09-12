@@ -1,5 +1,5 @@
 {
-  "n_runs": 94,
+  "n_runs": 154,
   "runs": [
     {
       "algo": "amo",
@@ -8,7 +8,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -17,7 +17,7 @@
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 290000,
+      "last_eval_step": 310000,
       "legacy_name": "amo_am_te1_tb1_ammd_s0-antmaze-medium-diverse-v2-e9e1ddec",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/antmaze_t_init_tune/ammd_s0_te1_tb1__e9e1ddec",
@@ -55,16 +55,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
-      "final_score": 22.0,
+      "final_score": 12.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 555000,
+      "last_eval_step": 575000,
       "legacy_name": "amo_am_te10_tb10_ammp_s0-antmaze-medium-play-v2-4aecd0cc",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te10_tb10__4aecd0cc",
@@ -102,7 +102,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -149,7 +149,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -196,7 +196,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -243,7 +243,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -290,7 +290,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -337,7 +337,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -384,7 +384,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -431,7 +431,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:17+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -478,7 +478,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -525,7 +525,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -572,7 +572,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -619,7 +619,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -666,7 +666,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -713,7 +713,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -760,7 +760,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -807,7 +807,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -854,7 +854,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:17+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -901,7 +901,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -948,7 +948,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -995,7 +995,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1042,7 +1042,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1089,7 +1089,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1136,7 +1136,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1183,7 +1183,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1230,7 +1230,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:17+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1277,7 +1277,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:02+09:00",
+      "collected_at": "2026-09-12T14:13:17+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1372,7 +1372,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "segment_interval",
@@ -1420,7 +1420,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1465,7 +1465,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1510,7 +1510,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1555,7 +1555,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1600,7 +1600,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "chain",
@@ -1645,7 +1645,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1691,7 +1691,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1737,7 +1737,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1783,7 +1783,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1829,7 +1829,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1875,7 +1875,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1921,7 +1921,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1967,7 +1967,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2013,7 +2013,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -2059,7 +2059,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -2105,7 +2105,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -2151,7 +2151,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -2197,7 +2197,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -2243,7 +2243,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -2289,7 +2289,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2335,7 +2335,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2381,7 +2381,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2427,7 +2427,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2473,7 +2473,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2519,7 +2519,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2565,7 +2565,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2611,7 +2611,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2657,7 +2657,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -2703,7 +2703,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -2749,7 +2749,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -2795,7 +2795,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -2841,7 +2841,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -2887,7 +2887,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -2933,7 +2933,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -2979,7 +2979,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3025,7 +3025,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3071,7 +3071,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3117,7 +3117,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3163,7 +3163,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3209,7 +3209,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3255,7 +3255,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3301,7 +3301,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -3347,7 +3347,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -3393,7 +3393,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -3439,7 +3439,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -3485,7 +3485,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -3531,7 +3531,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -3577,7 +3577,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3619,7 +3619,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3661,7 +3661,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3703,7 +3703,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3745,7 +3745,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3787,7 +3787,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3829,7 +3829,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3871,7 +3871,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_mpi_nstep",
@@ -3913,7 +3913,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "pi_only_xfit_target",
@@ -3954,7 +3954,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "pi_only_xfit_target",
@@ -3995,7 +3995,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "pi_only_xfit_target",
@@ -4036,7 +4036,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "pi_only_xfit_target",
@@ -4077,7 +4077,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_target",
@@ -4118,7 +4118,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "pi_only_xfit_target",
@@ -4159,7 +4159,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "pi_only_xfit_target",
@@ -4200,7 +4200,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "pi_only_xfit_target",
@@ -4241,7 +4241,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:08:01+09:00",
+      "collected_at": "2026-09-12T14:13:16+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_target",
@@ -4274,6 +4274,2526 @@
       "source_host": "choi",
       "source_path": "/home/choi/APART/results_pi_only_xfit_target/wmr_s0_pi_only_xfit_target-walker2d-medium-replay-v2-600eab13",
       "variant": "pi_only_xfit"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-diverse-v2",
+      "env_short": "amld",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amld_s0-antmaze-large-diverse-v2-5a7370d0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amld_s0_td3bc_a2p5__5a7370d0",
+      "run_id": "amld_s0_td3bc_a2p5__5a7370d0",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amld_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amld_s0-antmaze-large-diverse-v2-5a7370d0",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-diverse-v2",
+      "env_short": "amld",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amld_s1-antmaze-large-diverse-v2-1b742297",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amld_s1_td3bc_a2p5__1b742297",
+      "run_id": "amld_s1_td3bc_a2p5__1b742297",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amld_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amld_s1-antmaze-large-diverse-v2-1b742297",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-diverse-v2",
+      "env_short": "amld",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amld_s2-antmaze-large-diverse-v2-0a4c8312",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amld_s2_td3bc_a2p5__0a4c8312",
+      "run_id": "amld_s2_td3bc_a2p5__0a4c8312",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amld_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amld_s2-antmaze-large-diverse-v2-0a4c8312",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-diverse-v2",
+      "env_short": "amld",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amld_s3-antmaze-large-diverse-v2-d754ddd3",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amld_s3_td3bc_a2p5__d754ddd3",
+      "run_id": "amld_s3_td3bc_a2p5__d754ddd3",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amld_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amld_s3-antmaze-large-diverse-v2-d754ddd3",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-play-v2",
+      "env_short": "amlp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amlp_s0-antmaze-large-play-v2-87ecd1d4",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amlp_s0_td3bc_a2p5__87ecd1d4",
+      "run_id": "amlp_s0_td3bc_a2p5__87ecd1d4",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amlp_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amlp_s0-antmaze-large-play-v2-87ecd1d4",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-play-v2",
+      "env_short": "amlp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amlp_s1-antmaze-large-play-v2-4edfec34",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amlp_s1_td3bc_a2p5__4edfec34",
+      "run_id": "amlp_s1_td3bc_a2p5__4edfec34",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amlp_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amlp_s1-antmaze-large-play-v2-4edfec34",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-play-v2",
+      "env_short": "amlp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amlp_s2-antmaze-large-play-v2-98e7831f",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amlp_s2_td3bc_a2p5__98e7831f",
+      "run_id": "amlp_s2_td3bc_a2p5__98e7831f",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amlp_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amlp_s2-antmaze-large-play-v2-98e7831f",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-large-play-v2",
+      "env_short": "amlp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amlp_s3-antmaze-large-play-v2-45707a5a",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amlp_s3_td3bc_a2p5__45707a5a",
+      "run_id": "amlp_s3_td3bc_a2p5__45707a5a",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amlp_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amlp_s3-antmaze-large-play-v2-45707a5a",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-diverse-v2",
+      "env_short": "ammd",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 20.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammd_s0-antmaze-medium-diverse-v2-d2d64c4c",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammd_s0_td3bc_a2p5__d2d64c4c",
+      "run_id": "ammd_s0_td3bc_a2p5__d2d64c4c",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammd_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammd_s0-antmaze-medium-diverse-v2-d2d64c4c",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-diverse-v2",
+      "env_short": "ammd",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammd_s1-antmaze-medium-diverse-v2-64547c0c",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammd_s1_td3bc_a2p5__64547c0c",
+      "run_id": "ammd_s1_td3bc_a2p5__64547c0c",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammd_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammd_s1-antmaze-medium-diverse-v2-64547c0c",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-diverse-v2",
+      "env_short": "ammd",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 10.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammd_s2-antmaze-medium-diverse-v2-9a5076fc",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammd_s2_td3bc_a2p5__9a5076fc",
+      "run_id": "ammd_s2_td3bc_a2p5__9a5076fc",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammd_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammd_s2-antmaze-medium-diverse-v2-9a5076fc",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-diverse-v2",
+      "env_short": "ammd",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 10.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammd_s3-antmaze-medium-diverse-v2-2ee21d54",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammd_s3_td3bc_a2p5__2ee21d54",
+      "run_id": "ammd_s3_td3bc_a2p5__2ee21d54",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammd_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammd_s3-antmaze-medium-diverse-v2-2ee21d54",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-play-v2",
+      "env_short": "ammp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammp_s0-antmaze-medium-play-v2-722d3144",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammp_s0_td3bc_a2p5__722d3144",
+      "run_id": "ammp_s0_td3bc_a2p5__722d3144",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammp_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammp_s0-antmaze-medium-play-v2-722d3144",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-play-v2",
+      "env_short": "ammp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 10.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammp_s1-antmaze-medium-play-v2-2be6fa39",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammp_s1_td3bc_a2p5__2be6fa39",
+      "run_id": "ammp_s1_td3bc_a2p5__2be6fa39",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammp_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammp_s1-antmaze-medium-play-v2-2be6fa39",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-play-v2",
+      "env_short": "ammp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammp_s2-antmaze-medium-play-v2-adcc887d",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammp_s2_td3bc_a2p5__adcc887d",
+      "run_id": "ammp_s2_td3bc_a2p5__adcc887d",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammp_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammp_s2-antmaze-medium-play-v2-adcc887d",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-medium-play-v2",
+      "env_short": "ammp",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 0.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_ammp_s3-antmaze-medium-play-v2-2035abd7",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/ammp_s3_td3bc_a2p5__2035abd7",
+      "run_id": "ammp_s3_td3bc_a2p5__2035abd7",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-medium-play-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_ammp_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_ammp_s3-antmaze-medium-play-v2-2035abd7",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-v2",
+      "env_short": "amu",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 90.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amu_s0-antmaze-umaze-v2-93a61a4f",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amu_s0_td3bc_a2p5__93a61a4f",
+      "run_id": "amu_s0_td3bc_a2p5__93a61a4f",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amu_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amu_s0-antmaze-umaze-v2-93a61a4f",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-v2",
+      "env_short": "amu",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 90.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amu_s1-antmaze-umaze-v2-2defb713",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amu_s1_td3bc_a2p5__2defb713",
+      "run_id": "amu_s1_td3bc_a2p5__2defb713",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amu_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amu_s1-antmaze-umaze-v2-2defb713",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-v2",
+      "env_short": "amu",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 100.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amu_s2-antmaze-umaze-v2-685e02b3",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amu_s2_td3bc_a2p5__685e02b3",
+      "run_id": "amu_s2_td3bc_a2p5__685e02b3",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amu_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amu_s2-antmaze-umaze-v2-685e02b3",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-v2",
+      "env_short": "amu",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 80.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amu_s3-antmaze-umaze-v2-3bbe77ba",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amu_s3_td3bc_a2p5__3bbe77ba",
+      "run_id": "amu_s3_td3bc_a2p5__3bbe77ba",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amu_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amu_s3-antmaze-umaze-v2-3bbe77ba",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-diverse-v2",
+      "env_short": "amud",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 90.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amud_s0-antmaze-umaze-diverse-v2-690f67ec",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amud_s0_td3bc_a2p5__690f67ec",
+      "run_id": "amud_s0_td3bc_a2p5__690f67ec",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amud_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amud_s0-antmaze-umaze-diverse-v2-690f67ec",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-diverse-v2",
+      "env_short": "amud",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 90.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amud_s1-antmaze-umaze-diverse-v2-bce295ab",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amud_s1_td3bc_a2p5__bce295ab",
+      "run_id": "amud_s1_td3bc_a2p5__bce295ab",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amud_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amud_s1-antmaze-umaze-diverse-v2-bce295ab",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-diverse-v2",
+      "env_short": "amud",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 80.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amud_s2-antmaze-umaze-diverse-v2-411d3be9",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amud_s2_td3bc_a2p5__411d3be9",
+      "run_id": "amud_s2_td3bc_a2p5__411d3be9",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amud_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amud_s2-antmaze-umaze-diverse-v2-411d3be9",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "antmaze-umaze-diverse-v2",
+      "env_short": "amud",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 90.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_amud_s3-antmaze-umaze-diverse-v2-77aa19d5",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/amud_s3_td3bc_a2p5__77aa19d5",
+      "run_id": "amud_s3_td3bc_a2p5__77aa19d5",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-umaze-diverse-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amud_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amud_s3-antmaze-umaze-diverse-v2-77aa19d5",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-v2",
+      "env_short": "hcm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 50.436,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcm_s0-halfcheetah-medium-v2-424eac5c",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcm_s0_td3bc_a2p5__424eac5c",
+      "run_id": "hcm_s0_td3bc_a2p5__424eac5c",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcm_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcm_s0-halfcheetah-medium-v2-424eac5c",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-v2",
+      "env_short": "hcm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 48.944,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcm_s1-halfcheetah-medium-v2-69b14d28",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcm_s1_td3bc_a2p5__69b14d28",
+      "run_id": "hcm_s1_td3bc_a2p5__69b14d28",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcm_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcm_s1-halfcheetah-medium-v2-69b14d28",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-v2",
+      "env_short": "hcm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 50.121,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcm_s2-halfcheetah-medium-v2-6138a08b",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcm_s2_td3bc_a2p5__6138a08b",
+      "run_id": "hcm_s2_td3bc_a2p5__6138a08b",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcm_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcm_s2-halfcheetah-medium-v2-6138a08b",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-v2",
+      "env_short": "hcm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 50.368,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcm_s3-halfcheetah-medium-v2-28d8c03b",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcm_s3_td3bc_a2p5__28d8c03b",
+      "run_id": "hcm_s3_td3bc_a2p5__28d8c03b",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcm_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcm_s3-halfcheetah-medium-v2-28d8c03b",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-replay-v2",
+      "env_short": "hcmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 45.574,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcmr_s0-halfcheetah-medium-replay-v2-68c9bb35",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcmr_s0_td3bc_a2p5__68c9bb35",
+      "run_id": "hcmr_s0_td3bc_a2p5__68c9bb35",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcmr_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcmr_s0-halfcheetah-medium-replay-v2-68c9bb35",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-replay-v2",
+      "env_short": "hcmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 45.905,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcmr_s1-halfcheetah-medium-replay-v2-32a02662",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcmr_s1_td3bc_a2p5__32a02662",
+      "run_id": "hcmr_s1_td3bc_a2p5__32a02662",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcmr_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcmr_s1-halfcheetah-medium-replay-v2-32a02662",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-replay-v2",
+      "env_short": "hcmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 46.619,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcmr_s2-halfcheetah-medium-replay-v2-8a168332",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcmr_s2_td3bc_a2p5__8a168332",
+      "run_id": "hcmr_s2_td3bc_a2p5__8a168332",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcmr_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcmr_s2-halfcheetah-medium-replay-v2-8a168332",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-replay-v2",
+      "env_short": "hcmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 46.637,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcmr_s3-halfcheetah-medium-replay-v2-91a0af17",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hcmr_s3_td3bc_a2p5__91a0af17",
+      "run_id": "hcmr_s3_td3bc_a2p5__91a0af17",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcmr_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcmr_s3-halfcheetah-medium-replay-v2-91a0af17",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 98.565,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcme_s0-halfcheetah-medium-expert-v2-c371c90a",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hme_s0_td3bc_a2p5__c371c90a",
+      "run_id": "hme_s0_td3bc_a2p5__c371c90a",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcme_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcme_s0-halfcheetah-medium-expert-v2-c371c90a",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 98.858,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcme_s1-halfcheetah-medium-expert-v2-098e682a",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hme_s1_td3bc_a2p5__098e682a",
+      "run_id": "hme_s1_td3bc_a2p5__098e682a",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcme_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcme_s1-halfcheetah-medium-expert-v2-098e682a",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 99.923,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcme_s2-halfcheetah-medium-expert-v2-b4070bde",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hme_s2_td3bc_a2p5__b4070bde",
+      "run_id": "hme_s2_td3bc_a2p5__b4070bde",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcme_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcme_s2-halfcheetah-medium-expert-v2-b4070bde",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 100.678,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hcme_s3-halfcheetah-medium-expert-v2-52763391",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hme_s3_td3bc_a2p5__52763391",
+      "run_id": "hme_s3_td3bc_a2p5__52763391",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcme_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcme_s3-halfcheetah-medium-expert-v2-52763391",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-v2",
+      "env_short": "hopm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 62.506,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hm_s0-hopper-medium-v2-4ca5f2d3",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopm_s0_td3bc_a2p5__4ca5f2d3",
+      "run_id": "hopm_s0_td3bc_a2p5__4ca5f2d3",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hm_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hm_s0-hopper-medium-v2-4ca5f2d3",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-v2",
+      "env_short": "hopm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 59.464,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hm_s1-hopper-medium-v2-92d4fb37",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopm_s1_td3bc_a2p5__92d4fb37",
+      "run_id": "hopm_s1_td3bc_a2p5__92d4fb37",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hm_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hm_s1-hopper-medium-v2-92d4fb37",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-v2",
+      "env_short": "hopm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 64.751,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hm_s2-hopper-medium-v2-b9701048",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopm_s2_td3bc_a2p5__b9701048",
+      "run_id": "hopm_s2_td3bc_a2p5__b9701048",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hm_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hm_s2-hopper-medium-v2-b9701048",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-v2",
+      "env_short": "hopm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 59.161,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hm_s3-hopper-medium-v2-3802d10d",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopm_s3_td3bc_a2p5__3802d10d",
+      "run_id": "hopm_s3_td3bc_a2p5__3802d10d",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hm_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hm_s3-hopper-medium-v2-3802d10d",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 108.371,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hme_s0-hopper-medium-expert-v2-48c2a779",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopme_s0_td3bc_a2p5__48c2a779",
+      "run_id": "hopme_s0_td3bc_a2p5__48c2a779",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hme_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hme_s0-hopper-medium-expert-v2-48c2a779",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 112.46,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hme_s1-hopper-medium-expert-v2-38f3b315",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopme_s1_td3bc_a2p5__38f3b315",
+      "run_id": "hopme_s1_td3bc_a2p5__38f3b315",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hme_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hme_s1-hopper-medium-expert-v2-38f3b315",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 111.967,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hme_s2-hopper-medium-expert-v2-2c3a541d",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopme_s2_td3bc_a2p5__2c3a541d",
+      "run_id": "hopme_s2_td3bc_a2p5__2c3a541d",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hme_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hme_s2-hopper-medium-expert-v2-2c3a541d",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 112.715,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hme_s3-hopper-medium-expert-v2-f95dc97e",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopme_s3_td3bc_a2p5__f95dc97e",
+      "run_id": "hopme_s3_td3bc_a2p5__f95dc97e",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hme_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hme_s3-hopper-medium-expert-v2-f95dc97e",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-replay-v2",
+      "env_short": "hopmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 92.654,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hmr_s0-hopper-medium-replay-v2-bb6bdc7b",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopmr_s0_td3bc_a2p5__bb6bdc7b",
+      "run_id": "hopmr_s0_td3bc_a2p5__bb6bdc7b",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hmr_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hmr_s0-hopper-medium-replay-v2-bb6bdc7b",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-replay-v2",
+      "env_short": "hopmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 98.444,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hmr_s1-hopper-medium-replay-v2-e98c1721",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopmr_s1_td3bc_a2p5__e98c1721",
+      "run_id": "hopmr_s1_td3bc_a2p5__e98c1721",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hmr_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hmr_s1-hopper-medium-replay-v2-e98c1721",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-replay-v2",
+      "env_short": "hopmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 27.695,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hmr_s2-hopper-medium-replay-v2-20abaae1",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopmr_s2_td3bc_a2p5__20abaae1",
+      "run_id": "hopmr_s2_td3bc_a2p5__20abaae1",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hmr_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hmr_s2-hopper-medium-replay-v2-20abaae1",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "hopper-medium-replay-v2",
+      "env_short": "hopmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 96.591,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_hmr_s3-hopper-medium-replay-v2-9f124f02",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/hopmr_s3_td3bc_a2p5__9f124f02",
+      "run_id": "hopmr_s3_td3bc_a2p5__9f124f02",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "hopper-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hmr_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hmr_s3-hopper-medium-replay-v2-9f124f02",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 79.772,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wm_s0-walker2d-medium-v2-331fd673",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wm_s0_td3bc_a2p5__331fd673",
+      "run_id": "wm_s0_td3bc_a2p5__331fd673",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wm_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wm_s0-walker2d-medium-v2-331fd673",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 85.998,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wm_s1-walker2d-medium-v2-081c7511",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wm_s1_td3bc_a2p5__081c7511",
+      "run_id": "wm_s1_td3bc_a2p5__081c7511",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wm_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wm_s1-walker2d-medium-v2-081c7511",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 85.066,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wm_s2-walker2d-medium-v2-5b8c2bc3",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wm_s2_td3bc_a2p5__5b8c2bc3",
+      "run_id": "wm_s2_td3bc_a2p5__5b8c2bc3",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wm_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wm_s2-walker2d-medium-v2-5b8c2bc3",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 84.082,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wm_s3-walker2d-medium-v2-99606682",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wm_s3_td3bc_a2p5__99606682",
+      "run_id": "wm_s3_td3bc_a2p5__99606682",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wm_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wm_s3-walker2d-medium-v2-99606682",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-expert-v2",
+      "env_short": "wme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 110.098,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wme_s0-walker2d-medium-expert-v2-8051ac40",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wme_s0_td3bc_a2p5__8051ac40",
+      "run_id": "wme_s0_td3bc_a2p5__8051ac40",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wme_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wme_s0-walker2d-medium-expert-v2-8051ac40",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-expert-v2",
+      "env_short": "wme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 108.718,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wme_s1-walker2d-medium-expert-v2-67ddd17d",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wme_s1_td3bc_a2p5__67ddd17d",
+      "run_id": "wme_s1_td3bc_a2p5__67ddd17d",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wme_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wme_s1-walker2d-medium-expert-v2-67ddd17d",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-expert-v2",
+      "env_short": "wme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 109.724,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wme_s2-walker2d-medium-expert-v2-291268de",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wme_s2_td3bc_a2p5__291268de",
+      "run_id": "wme_s2_td3bc_a2p5__291268de",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wme_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wme_s2-walker2d-medium-expert-v2-291268de",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-expert-v2",
+      "env_short": "wme",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 110.19,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wme_s3-walker2d-medium-expert-v2-06f5da0d",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wme_s3_td3bc_a2p5__06f5da0d",
+      "run_id": "wme_s3_td3bc_a2p5__06f5da0d",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-expert-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wme_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wme_s3-walker2d-medium-expert-v2-06f5da0d",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-replay-v2",
+      "env_short": "wmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 86.141,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wmr_s0-walker2d-medium-replay-v2-bc79b498",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wmr_s0_td3bc_a2p5__bc79b498",
+      "run_id": "wmr_s0_td3bc_a2p5__bc79b498",
+      "seed": 0,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wmr_s0.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wmr_s0-walker2d-medium-replay-v2-bc79b498",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-replay-v2",
+      "env_short": "wmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 93.64,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wmr_s1-walker2d-medium-replay-v2-eacea5ad",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wmr_s1_td3bc_a2p5__eacea5ad",
+      "run_id": "wmr_s1_td3bc_a2p5__eacea5ad",
+      "seed": 1,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wmr_s1.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wmr_s1-walker2d-medium-replay-v2-eacea5ad",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-replay-v2",
+      "env_short": "wmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 87.147,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wmr_s2-walker2d-medium-replay-v2-48e1c688",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wmr_s2_td3bc_a2p5__48e1c688",
+      "run_id": "wmr_s2_td3bc_a2p5__48e1c688",
+      "seed": 2,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wmr_s2.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wmr_s2-walker2d-medium-replay-v2-48e1c688",
+      "variant": "td3bc_a2p5"
+    },
+    {
+      "algo": "aspc",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-12T14:13:17+09:00",
+      "env": "walker2d-medium-replay-v2",
+      "env_short": "wmr",
+      "eval_source": "synthesized_from_stdout_log",
+      "family": "td3bc_table6",
+      "final_score": 79.994,
+      "git": {
+        "code_commit": null,
+        "code_repo": "ASPC"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "td3bc_aspc_wmr_s3-walker2d-medium-replay-v2-8df42cae",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/aspc/td3bc_table6/wmr_s3_td3bc_a2p5__8df42cae",
+      "run_id": "wmr_s3_td3bc_a2p5__8df42cae",
+      "seed": 3,
+      "settings": {
+        "alpha": 2.5,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "walker2d-medium-replay-v2",
+        "eval_freq": 5000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "normalize_reward": false,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wmr_s3.log",
+      "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wmr_s3-walker2d-medium-replay-v2-8df42cae",
+      "variant": "td3bc_a2p5"
     }
   ]
 }

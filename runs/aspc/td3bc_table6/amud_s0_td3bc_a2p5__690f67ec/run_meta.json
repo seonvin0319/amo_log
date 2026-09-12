@@ -1,0 +1,38 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:13:17+09:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
+  "eval_source": "synthesized_from_stdout_log",
+  "family": "td3bc_table6",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "td3bc_aspc_amud_s0-antmaze-umaze-diverse-v2-690f67ec",
+  "run_id": "amud_s0_td3bc_a2p5__690f67ec",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-umaze-diverse-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_amud_s0.log",
+  "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_amud_s0-antmaze-umaze-diverse-v2-690f67ec",
+  "variant": "td3bc_a2p5"
+}

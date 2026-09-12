@@ -8,7 +8,10 @@ Collected on host `choi` at ingest time. Checkpoint weights were **not** copied.
 | `/home/choi/APART/results_pi_only_xfit_target` | apart | `pi_only_xfit_target` | 9 |
 | `/home/choi/APART/results_pi_only_xfit_target_mpi_nstep` | apart | `pi_only_xfit_mpi_nstep` | 8 |
 | `/home/choi/amo/results/segment_interval` | amo | `segment_interval` | 1 (smoke) |
-| `/home/choi/amo/results/amo_antmaze_t_init_tune_seed0` | amo | `antmaze_t_init_tune` | live (5m cron) |
+| `/home/choi/amo/results/amo_antmaze_t_init_tune_seed0` | amo | `antmaze_t_init_tune` | live (cron) |
+| `/home/choi/ASPC/results/td3bc_aspc_table6/runs` | aspc | `td3bc_table6` | 60 (eval from stdout logs) |
+
+ASPC TD3+BC는 run dir에 `eval.jsonl`이 없어 `logs/*.log`의 Evaluation 줄을 ingest 시 `eval.jsonl`로 합성한다. checkpoint는 올리지 않는다.
 
 Not collected (empty or logs-only):
 

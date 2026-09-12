@@ -87,6 +87,14 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "antmaze_t_init_tune",
         "nested": True,
     },
+    {
+        "algo": "aspc",
+        "root": Path("/home/choi/ASPC/results/td3bc_aspc_table6/runs"),
+        "host": "choi",
+        "code_repo": "ASPC",
+        "family_force": "td3bc_table6",
+        "log_dir": Path("/home/choi/ASPC/results/td3bc_aspc_table6/logs"),
+    },
 ]
 
 
@@ -150,6 +158,11 @@ def extract_uuid8(dirname: str) -> str:
 def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str:
     if force:
         return force
+    if algo == "aspc":
+        name = str(cfg.get("name", "")).lower()
+        if "td3bc" in name or "td3_bc" in name or "alpha" in cfg:
+            return "td3bc_table6"
+        return "misc"
     if algo == "amo":
         method = str(cfg.get("pi_bound_method", "secant"))
         if method == "segment_interval":
@@ -199,6 +212,12 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         if tb is not None:
             tb_f = float(tb)
             tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
+    if family == "td3bc_table6" or algo == "aspc":
+        tokens.append("td3bc")
+        alpha = cfg.get("alpha")
+        if alpha is not None:
+            a = float(alpha)
+            tokens.append(f"a{int(a) if a.is_integer() else str(a).replace('.', 'p')}")
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")
@@ -265,6 +284,61 @@ def discover_run_dirs(root: Path, nested: bool) -> List[Path]:
     return sorted({p.parent for p in root.glob("*/config.yaml")})
 
 
+def aspc_log_path(src: Path, log_dir: Optional[Path]) -> Optional[Path]:
+    if log_dir is None or not log_dir.exists():
+        return None
+    m = re.match(r"(td3bc_aspc_[a-z0-9]+_s\d+)-", src.name)
+    if not m:
+        # fall back to config name prefix before first '-' env chunk
+        cfg = src / "config.yaml"
+        if cfg.exists():
+            name = str(load_yaml_lite(cfg).get("name") or "")
+            # name may already include env-uuid suffix
+            m2 = re.match(r"(td3bc_aspc_[a-z0-9]+_s\d+)", name)
+            if m2:
+                candidate = log_dir / f"{m2.group(1)}.log"
+                return candidate if candidate.exists() else None
+        return None
+    candidate = log_dir / f"{m.group(1)}.log"
+    return candidate if candidate.exists() else None
+
+
+def synthesize_eval_jsonl_from_aspc_log(
+    log_path: Path, eval_freq: int = 5000
+) -> List[Dict[str, Any]]:
+    """Parse CORL/ASPC stdout logs into eval records.
+
+    Training prints `Time steps: N` then the Evaluation block. Fallback: assume
+    evals at eval_freq, 2*eval_freq, ...
+    """
+    text = log_path.read_text(errors="ignore")
+    rows: List[Dict[str, Any]] = []
+    step: Optional[int] = None
+    for line in text.splitlines():
+        tm = re.search(r"Time steps:\s*(\d+)", line)
+        if tm:
+            step = int(tm.group(1))
+            continue
+        em = re.search(
+            r"Evaluation over\s+(\d+)\s+episodes:\s*([-\d.]+)\s*,\s*D4RL score:\s*([-\d.]+)",
+            line,
+        )
+        if not em:
+            continue
+        if step is None:
+            step = (len(rows) + 1) * int(eval_freq)
+        rows.append(
+            {
+                "step": step,
+                "n_episodes": int(em.group(1)),
+                "return_mean": float(em.group(2)),
+                "d4rl_normalized_score": float(em.group(3)),
+            }
+        )
+        step = None
+    return rows
+
+
 def ingest_one(
     src: Path,
     algo: str,
@@ -272,6 +346,7 @@ def ingest_one(
     code_repo: str,
     family_force: Optional[str],
     dry_run: bool,
+    log_dir: Optional[Path] = None,
 ) -> Optional[Dict[str, Any]]:
     cfg_path = src / "config.yaml"
     if not cfg_path.exists():
@@ -286,7 +361,17 @@ def ingest_one(
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
 
+    # Materialize eval.jsonl for ASPC TD3+BC (stdout-only logging).
+    synthesized_eval: Optional[List[Dict[str, Any]]] = None
+    log_path = aspc_log_path(src, log_dir)
+    if not (src / "eval.jsonl").exists() and log_path is not None:
+        synthesized_eval = synthesize_eval_jsonl_from_aspc_log(
+            log_path, int(cfg.get("eval_freq", 5000) or 5000)
+        )
+
     artifacts = [f for f in KEEP_FILES if (src / f).exists()]
+    if synthesized_eval and "eval.jsonl" not in artifacts:
+        artifacts.append("eval.jsonl")
     meta = {
         "algo": algo,
         "family": family,
@@ -303,15 +388,26 @@ def ingest_one(
         "artifacts": artifacts,
         "git": {"code_repo": code_repo, "code_commit": None},
     }
+    if log_path is not None:
+        meta["source_log"] = str(log_path.resolve())
+    if synthesized_eval is not None:
+        meta["eval_source"] = "synthesized_from_stdout_log"
 
     if dry_run:
-        print(f"DRY {src} -> {dest.relative_to(ROOT)}")
+        print(
+            f"DRY {src} -> {dest.relative_to(ROOT)}"
+            + (f" eval_rows={len(synthesized_eval)}" if synthesized_eval else "")
+        )
         return meta
 
     dest.mkdir(parents=True, exist_ok=True)
     for name in artifacts:
-        shutil.copy2(src / name, dest / name)
-    # optional tiny extras
+        if name == "eval.jsonl" and synthesized_eval is not None and not (src / name).exists():
+            (dest / name).write_text(
+                "".join(json.dumps(row) + "\n" for row in synthesized_eval)
+            )
+        else:
+            shutil.copy2(src / name, dest / name)
     for extra in ("launch_cmd.txt", "notes.md"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)
@@ -338,6 +434,7 @@ def main() -> int:
                 code_repo=src_spec["code_repo"],
                 family_force=src_spec.get("family_force"),
                 dry_run=args.dry_run,
+                log_dir=src_spec.get("log_dir"),
             )
             if meta:
                 collected.append(meta)
