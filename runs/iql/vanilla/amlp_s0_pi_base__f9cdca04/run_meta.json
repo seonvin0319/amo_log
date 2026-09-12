@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-12T21:11:29+09:00",
+  "collected_at": "2026-09-12T21:28:02+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "eval_source": "synthesized_from_mpi_actor0_log",

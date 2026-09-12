@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-12T21:08:01+09:00",
+  "collected_at": "2026-09-12T21:28:01+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "pi_only_xfit_target",
@@ -23,6 +23,7 @@
     "env": "walker2d-medium-replay-v2",
     "eval_freq": 20000,
     "max_timesteps": 1000000,
+    "n_episodes": 10,
     "noise_clip": 0.5,
     "normalize": true,
     "normalize_reward": false,
