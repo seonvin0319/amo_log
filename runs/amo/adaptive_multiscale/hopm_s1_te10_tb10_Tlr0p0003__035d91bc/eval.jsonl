@@ -45,3 +45,9 @@
 {"step": 900000, "t": 900000, "d4rl_normalized_score": 102.66684919112154, "eval_return": 3321.094535190359, "n_episodes": 10}
 {"step": 920000, "t": 920000, "d4rl_normalized_score": 102.25558223951177, "eval_return": 3307.7095548836487, "n_episodes": 10}
 {"step": 940000, "t": 940000, "d4rl_normalized_score": 102.36277504705032, "eval_return": 3311.1982223107507, "n_episodes": 10}
+{"step": 960000, "t": 960000, "d4rl_normalized_score": 102.22266713276727, "eval_return": 3306.6383089353812, "n_episodes": 10}
+{"step": 980000, "t": 980000, "d4rl_normalized_score": 102.37460057171744, "eval_return": 3311.583092561488, "n_episodes": 10}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 0, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 1, "d4rl_normalized_score": 102.74794093355051, "eval_return": 3323.733724581093}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 1, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 2, "d4rl_normalized_score": 102.85274000937399, "eval_return": 3327.1444862787407}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 2, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 3, "d4rl_normalized_score": 102.66038557294648, "eval_return": 3320.884172063332}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 3, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 4, "d4rl_normalized_score": 102.63390762488653, "eval_return": 3320.0224280988405}
