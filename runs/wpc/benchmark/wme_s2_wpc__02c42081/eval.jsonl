@@ -46,3 +46,5 @@
 {"step": 920000, "n_episodes": 10, "return_mean": 5053.607, "d4rl_normalized_score": 110.049}
 {"step": 940000, "n_episodes": 10, "return_mean": 5064.961, "d4rl_normalized_score": 110.296}
 {"step": 960000, "n_episodes": 10, "return_mean": 5071.577, "d4rl_normalized_score": 110.44}
+{"step": 980000, "n_episodes": 10, "return_mean": 5077.655, "d4rl_normalized_score": 110.573}
+{"step": 1000000, "n_episodes": 50, "return_mean": 5040.62, "d4rl_normalized_score": 109.766}

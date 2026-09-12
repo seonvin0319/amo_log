@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **182**
+Total runs: **183**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -102,6 +102,7 @@ Total runs: **182**
 | apart | pi_only_xfit_target | `wme_s0_pi_only_xfit__fc11e1e8` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.07 | `runs/apart/pi_only_xfit_target/wme_s0_pi_only_xfit__fc11e1e8` |
 | apart | pi_only_xfit_target | `wmr_s0_pi_only_xfit__600eab13` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.77 | `runs/apart/pi_only_xfit_target/wmr_s0_pi_only_xfit__600eab13` |
 | apart | pi_only_xfit_target | `wm_s0_pi_only_xfit__247c4d61` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 100.47 | `runs/apart/pi_only_xfit_target/wm_s0_pi_only_xfit__247c4d61` |
+| aspc | benchmark | `wme_s0_aspc_rc_a2p5_aspc__a24170b4` | walker2d-medium-expert-v2 | 0 | 1000000 | 140000 | 109.76 | `runs/aspc/benchmark/wme_s0_aspc_rc_a2p5_aspc__a24170b4` |
 | iql | vanilla | `amld_s0_pi_base__58475c36` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/iql/vanilla/amld_s0_pi_base__58475c36` |
 | iql | vanilla | `amlp_s0_pi_base__f9cdca04` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/iql/vanilla/amlp_s0_pi_base__f9cdca04` |
 | iql | vanilla | `ammd_s0_pi_base__f00a9ad1` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/iql/vanilla/ammd_s0_pi_base__f00a9ad1` |
@@ -183,6 +184,6 @@ Total runs: **182**
 | wpc | benchmark | `hopme_s3_wpc__82563c0f` | hopper-medium-expert-v2 | 3 | 1000000 | 1000000 | 106.88 | `runs/wpc/benchmark/hopme_s3_wpc__82563c0f` |
 | wpc | benchmark | `hopmr_s2_wpc__a46823ff` | hopper-medium-replay-v2 | 2 | 1000000 | 1000000 | 100.66 | `runs/wpc/benchmark/hopmr_s2_wpc__a46823ff` |
 | wpc | benchmark | `hopm_s3_wpc__cb0e020a` | hopper-medium-v2 | 3 | 1000000 | 1000000 | 81.99 | `runs/wpc/benchmark/hopm_s3_wpc__cb0e020a` |
-| wpc | benchmark | `wme_s2_wpc__02c42081` | walker2d-medium-expert-v2 | 2 | 1000000 | 960000 | 110.44 | `runs/wpc/benchmark/wme_s2_wpc__02c42081` |
+| wpc | benchmark | `wme_s2_wpc__02c42081` | walker2d-medium-expert-v2 | 2 | 1000000 | 1000000 | 109.77 | `runs/wpc/benchmark/wme_s2_wpc__02c42081` |
 | wpc | benchmark | `wmr_s3_wpc__3d0c3257` | walker2d-medium-replay-v2 | 3 | 1000000 | 1000000 | 88.42 | `runs/wpc/benchmark/wmr_s3_wpc__3d0c3257` |
 | wpc | benchmark | `wm_s2_wpc__a63fb641` | walker2d-medium-v2 | 2 | 1000000 | 1000000 | 86.85 | `runs/wpc/benchmark/wm_s2_wpc__a63fb641` |
