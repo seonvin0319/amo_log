@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-ld_s0_tlr2e-3_te1_tb1-antmaze-large-diverse-v2-1576d8fa",
-  "collected_at": "2026-09-12T11:23:57+00:00",
+  "collected_at": "2026-09-12T11:29:34+00:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "adaptive_multiscale",
