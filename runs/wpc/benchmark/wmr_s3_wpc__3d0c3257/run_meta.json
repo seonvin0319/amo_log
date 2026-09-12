@@ -1,27 +1,27 @@
 {
-  "algo": "td3bc",
+  "algo": "wpc",
   "artifacts": [
     "config.yaml",
     "eval.jsonl"
   ],
   "collected_at": "2026-09-13T05:00:02+09:00",
-  "env": "halfcheetah-medium-v2",
-  "env_short": "hcm",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
   "eval_source": "synthesized_from_stdout_log",
-  "family": "aspc_rc",
+  "family": "benchmark",
   "git": {
     "code_commit": null,
-    "code_repo": "ASPC"
+    "code_repo": "ASPC_cohort"
   },
-  "legacy_name": "td3bc_aspc_hcm_s3-halfcheetah-medium-v2-28d8c03b",
-  "run_id": "hcm_s3_aspc_rc_a2p5__28d8c03b",
+  "legacy_name": "wmr_s3_wpc-walker2d-medium-replay-v2-3d0c3257",
+  "run_id": "wmr_s3_wpc__3d0c3257",
   "seed": 3,
   "settings": {
     "alpha": 2.5,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "halfcheetah-medium-v2",
-    "eval_freq": 5000,
+    "env": "walker2d-medium-replay-v2",
+    "eval_freq": 20000,
     "max_timesteps": 1000000,
     "n_episodes": 10,
     "noise_clip": 0.5,
@@ -33,7 +33,7 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_hcm_s3.log",
-  "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_hcm_s3-halfcheetah-medium-v2-28d8c03b",
-  "variant": "aspc_rc_a2p5"
+  "source_log": "/home/choi/ASPC/results_wpc/_logs/wmr_s3_wpc.log",
+  "source_path": "/home/choi/ASPC/results_wpc/wmr_s3_wpc-walker2d-medium-replay-v2-3d0c3257",
+  "variant": "wpc"
 }

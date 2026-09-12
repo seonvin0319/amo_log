@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-13T04:50:02+09:00",
+  "collected_at": "2026-09-13T05:00:01+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "antmaze_t_init_tune",
