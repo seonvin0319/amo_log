@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-13T06:30:02+09:00",
+  "collected_at": "2026-09-13T06:40:02+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "eval_source": "synthesized_from_mpi_actor0_log",
