@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_hc-m_s0-halfcheetah-medium-v2-e5c4a21a",
-  "collected_at": "2026-09-12T12:06:15+00:00",
+  "collected_at": "2026-09-12T12:11:29+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "adaptive_multiscale",
