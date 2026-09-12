@@ -1,0 +1,10 @@
+{
+  "env": "walker2d-medium-expert-v2",
+  "seed": 0,
+  "algo": "wpc",
+  "status": "interrupted",
+  "final_d4rl": 110.23847508578572,
+  "best_d4rl": 111.91675999546725,
+  "n_evals": 58,
+  "step": 293928
+}

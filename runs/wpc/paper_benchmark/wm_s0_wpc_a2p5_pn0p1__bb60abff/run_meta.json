@@ -1,0 +1,49 @@
+{
+  "algo": "wpc",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl",
+    "summary.json"
+  ],
+  "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/walker2d-medium-v2/seed0/s0-walker2d-medium-v2-bb60abff",
+  "collected_at": "2026-09-12T05:17:48+00:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "paper_benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "benchmark/ASPC"
+  },
+  "legacy_name": "s0-walker2d-medium-v2-bb60abff",
+  "protocol": "aspc_paper_d4rl_benchmark",
+  "run_id": "wm_s0_wpc_a2p5_pn0p1__bb60abff",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.1,
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/benchmark/results/wpc/walker2d-medium-v2/seed0/s0-walker2d-medium-v2-bb60abff",
+  "summary": {
+    "algo": "wpc",
+    "best_d4rl": 91.08700738149561,
+    "env": "walker2d-medium-v2",
+    "final_d4rl": 85.83336209140168,
+    "n_evals": 69,
+    "seed": 0,
+    "status": "interrupted",
+    "step": 347709
+  },
+  "variant": "wpc_a2p5_pn0p1"
+}

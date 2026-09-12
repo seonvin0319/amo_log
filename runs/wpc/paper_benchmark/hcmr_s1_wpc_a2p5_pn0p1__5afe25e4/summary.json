@@ -1,0 +1,10 @@
+{
+  "env": "halfcheetah-medium-replay-v2",
+  "seed": 1,
+  "algo": "wpc",
+  "status": "complete",
+  "final_d4rl": 47.96550928809457,
+  "best_d4rl": 48.665311340859304,
+  "n_evals": 200,
+  "step": 1000000
+}

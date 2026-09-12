@@ -232,6 +232,23 @@ DEFAULT_SOURCES.append(
     }
 )
 
+# D4RL WPC / ASPC paper benchmark on ext_csh.
+# Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
+_BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
+if _BENCHMARK_RESULTS.is_dir():
+    for _algo_dir in sorted(p for p in _BENCHMARK_RESULTS.iterdir() if p.is_dir()):
+        DEFAULT_SOURCES.append(
+            {
+                "algo": _algo_dir.name,  # wpc / aspc
+                "root": _algo_dir,
+                "host": "ext_csh",
+                "code_repo": "benchmark/ASPC",
+                "family_force": "paper_benchmark",
+                "nested_depth": 3,  # env/seed/run
+                "eval_file": "evaluations.jsonl",
+            }
+        )
+
 
 def _parse_yaml_scalar(raw: str) -> Any:
     raw = raw.strip().strip("'\"")
@@ -444,6 +461,14 @@ def build_variant(
         tau = cfg.get("iql_tau")
         if tau is not None:
             tokens.append(f"t{fmt_num(float(tau))}")
+    if family == "paper_benchmark":
+        tokens.append(algo if algo in ("wpc", "aspc") else "bench")
+        alpha = cfg.get("alpha")
+        if alpha is not None:
+            tokens.append(f"a{fmt_num(float(alpha))}")
+        pn = cfg.get("policy_noise")
+        if pn is not None:
+            tokens.append(f"pn{fmt_num(float(pn))}")
     if not tokens:
         tokens.append("default")
 
@@ -510,14 +535,39 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def discover_run_dirs(
-    root: Path, nested: bool, config_file: str = "config.yaml"
+    root: Path,
+    nested: bool,
+    config_file: str = "config.yaml",
+    nested_depth: Optional[int] = None,
 ) -> List[Path]:
     if not root.exists():
         return []
-    if nested:
-        # <pack>/runs/<run>/config.yaml  or  <pack>/<group>/<run>/config.yaml
-        return sorted({p.parent for p in root.glob(f"*/*/{config_file}")})
-    return sorted({p.parent for p in root.glob(f"*/{config_file}")})
+    depth = nested_depth
+    if depth is None:
+        depth = 2 if nested else 1
+    pattern = "/".join(["*"] * int(depth) + [config_file])
+    return sorted({p.parent for p in root.glob(pattern)})
+
+
+def normalize_benchmark_eval(src_eval: Path, dest_eval: Path) -> None:
+    """Copy ASPC evaluations.jsonl → eval.jsonl with catalog-friendly keys."""
+    out_lines: List[str] = []
+    for line in src_eval.read_text(errors="ignore").splitlines():
+        if not line.strip():
+            continue
+        try:
+            obj = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if "d4rl" in obj and "d4rl_normalized_score" not in obj:
+            try:
+                obj["d4rl_normalized_score"] = float(obj["d4rl"])
+            except (TypeError, ValueError):
+                pass
+        if "return_mean" in obj and "mean_return" not in obj:
+            obj["mean_return"] = obj["return_mean"]
+        out_lines.append(json.dumps(obj, sort_keys=True))
+    dest_eval.write_text("\n".join(out_lines) + ("\n" if out_lines else ""))
 
 
 def ingest_one(
@@ -530,6 +580,7 @@ def ingest_one(
     source_root: Optional[Path] = None,
     config_file: str = "config.yaml",
     variant_tag: Optional[str] = None,
+    eval_file: Optional[str] = None,
 ) -> Optional[Dict[str, Any]]:
     cfg_path = src / config_file
     if not cfg_path.exists() and config_file != "config.yaml":
@@ -569,7 +620,9 @@ def ingest_one(
     dest = RUNS / algo / family / run_id
 
     present = [f for f in ("metrics.jsonl", "eval.jsonl") if (src / f).exists()]
-    if not present:
+    src_eval_alt = src / (eval_file or "")
+    has_alt_eval = bool(eval_file) and src_eval_alt.is_file()
+    if not present and not has_alt_eval:
         return None
 
     meta: Dict[str, Any] = {
@@ -588,7 +641,7 @@ def ingest_one(
         .astimezone()
         .isoformat(timespec="seconds"),
         "settings": settings_summary(algo, cfg),
-        "artifacts": ["config.yaml"] + present,
+        "artifacts": ["config.yaml"] + list(present),
         "git": {"code_repo": code_repo, "code_commit": None},
     }
     if family == "adaptive_beta":
@@ -597,6 +650,14 @@ def ingest_one(
         meta["protocol"] = "corl_iql_amo_bpi_v1"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
+    if family == "paper_benchmark":
+        meta["protocol"] = "aspc_paper_d4rl_benchmark"
+        summary_path = src / "summary.json"
+        if summary_path.is_file():
+            try:
+                meta["summary"] = json.loads(summary_path.read_text())
+            except json.JSONDecodeError:
+                pass
 
     if dry_run:
         print(f"DRY {src} -> {dest.relative_to(ROOT)}")
@@ -607,7 +668,11 @@ def ingest_one(
     shutil.copy2(cfg_path, dest / "config.yaml")
     for name in present:
         shutil.copy2(src / name, dest / name)
-    for extra in ("launch_cmd.txt", "notes.md"):
+    if has_alt_eval:
+        normalize_benchmark_eval(src_eval_alt, dest / "eval.jsonl")
+        if "eval.jsonl" not in meta["artifacts"]:
+            meta["artifacts"].append("eval.jsonl")
+    for extra in ("launch_cmd.txt", "notes.md", "summary.json"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)
             meta["artifacts"].append(extra)
@@ -636,7 +701,10 @@ def main() -> int:
         root: Path = src_spec["root"]
         config_file = str(src_spec.get("config_file") or "config.yaml")
         for run_dir in discover_run_dirs(
-            root, bool(src_spec.get("nested")), config_file=config_file
+            root,
+            bool(src_spec.get("nested")),
+            config_file=config_file,
+            nested_depth=src_spec.get("nested_depth"),
         ):
             meta = ingest_one(
                 run_dir,
@@ -648,6 +716,7 @@ def main() -> int:
                 source_root=root,
                 config_file=config_file,
                 variant_tag=src_spec.get("variant_tag"),
+                eval_file=src_spec.get("eval_file"),
             )
             if meta:
                 collected.append(meta)

@@ -1,0 +1,10 @@
+{
+  "env": "hopper-medium-expert-v2",
+  "seed": 1,
+  "algo": "wpc",
+  "status": "complete",
+  "final_d4rl": 67.9298251874443,
+  "best_d4rl": 113.8718919156779,
+  "n_evals": 200,
+  "step": 1000000
+}

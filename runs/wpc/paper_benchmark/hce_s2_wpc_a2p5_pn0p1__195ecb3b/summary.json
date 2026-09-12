@@ -1,0 +1,10 @@
+{
+  "env": "halfcheetah-expert-v2",
+  "seed": 2,
+  "algo": "wpc",
+  "status": "complete",
+  "final_d4rl": 103.21550757308009,
+  "best_d4rl": 105.15065815196093,
+  "n_evals": 200,
+  "step": 1000000
+}

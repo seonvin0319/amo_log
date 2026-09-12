@@ -1,0 +1,49 @@
+{
+  "algo": "wpc",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl",
+    "summary.json"
+  ],
+  "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/hopper-medium-expert-v2/seed0/s0-hopper-medium-expert-v2-b369102e",
+  "collected_at": "2026-09-12T05:17:48+00:00",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
+  "family": "paper_benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "benchmark/ASPC"
+  },
+  "legacy_name": "s0-hopper-medium-expert-v2-b369102e",
+  "protocol": "aspc_paper_d4rl_benchmark",
+  "run_id": "hopme_s0_wpc_a2p5_pn0p1__b369102e",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "hopper-medium-expert-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.1,
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/benchmark/results/wpc/hopper-medium-expert-v2/seed0/s0-hopper-medium-expert-v2-b369102e",
+  "summary": {
+    "algo": "wpc",
+    "best_d4rl": 114.98607558151038,
+    "env": "hopper-medium-expert-v2",
+    "final_d4rl": 96.42863022203882,
+    "n_evals": 200,
+    "seed": 0,
+    "status": "complete",
+    "step": 1000000
+  },
+  "variant": "wpc_a2p5_pn0p1"
+}

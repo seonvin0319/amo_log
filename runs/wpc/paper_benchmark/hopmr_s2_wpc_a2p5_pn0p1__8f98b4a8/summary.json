@@ -1,0 +1,10 @@
+{
+  "env": "hopper-medium-replay-v2",
+  "seed": 2,
+  "algo": "wpc",
+  "status": "complete",
+  "final_d4rl": 100.95067450726157,
+  "best_d4rl": 103.2006667744019,
+  "n_evals": 200,
+  "step": 1000000
+}

@@ -1,0 +1,49 @@
+{
+  "algo": "wpc",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl",
+    "summary.json"
+  ],
+  "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/halfcheetah-medium-replay-v2/seed2/s2-halfcheetah-medium-replay-v2-a077aa1c",
+  "collected_at": "2026-09-12T05:17:48+00:00",
+  "env": "halfcheetah-medium-replay-v2",
+  "env_short": "hcmr",
+  "family": "paper_benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "benchmark/ASPC"
+  },
+  "legacy_name": "s2-halfcheetah-medium-replay-v2-a077aa1c",
+  "protocol": "aspc_paper_d4rl_benchmark",
+  "run_id": "hcmr_s2_wpc_a2p5_pn0p1__a077aa1c",
+  "seed": 2,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-replay-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.1,
+    "seed": 2,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/benchmark/results/wpc/halfcheetah-medium-replay-v2/seed2/s2-halfcheetah-medium-replay-v2-a077aa1c",
+  "summary": {
+    "algo": "wpc",
+    "best_d4rl": 49.24781658664374,
+    "env": "halfcheetah-medium-replay-v2",
+    "final_d4rl": 47.64883429375077,
+    "n_evals": 200,
+    "seed": 2,
+    "status": "complete",
+    "step": 1000000
+  },
+  "variant": "wpc_a2p5_pn0p1"
+}

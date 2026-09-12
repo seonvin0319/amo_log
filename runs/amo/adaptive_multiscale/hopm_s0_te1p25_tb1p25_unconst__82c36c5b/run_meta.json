@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_multiscale_locomotion9_unconstrained_seed0/runs/adaptive_multiscale_h-m_s0-hopper-medium-v2-82c36c5b",
-  "collected_at": "2026-09-12T05:12:34+00:00",
+  "collected_at": "2026-09-12T05:17:48+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "adaptive_multiscale",
