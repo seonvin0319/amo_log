@@ -352,3 +352,9 @@ Collected on host `svcho` without cloning checkpoint weights.
 
 Note: these are **not** vanilla ReBRAC. They are POGO multi-actor ReBRAC+W2 logs; catalog scores use **Actor0** (original ReBRAC loss only). Full train logs not uploaded.
 
+## svcho refresh (2026-09-12 21:13 KST)
+
+Removed mistaken `rebrac/pogo_w2` upload (POGO multi-actor + W2, not vanilla ReBRAC).
+- deleted 300 runs from `runs/rebrac/pogo_w2/`
+- catalog regenerated without those entries
+
