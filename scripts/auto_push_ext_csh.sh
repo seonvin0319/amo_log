@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Ingest local AMO/APART runs on ext_csh into amo_log and push origin/ext_csh.
-# Periodic: every 5 minutes via scripts/run_amo_log_auto_push_periodic.sh.
+# Periodic: every 10 minutes via scripts/run_amo_log_auto_push_periodic.sh.
 set -uo pipefail
 
 export GIT_EXEC_PATH="${GIT_EXEC_PATH:-/usr/lib/git-core}"
