@@ -1,5 +1,5 @@
 {
-  "algo": "td3bc",
+  "algo": "wpc",
   "artifacts": [
     "config.yaml",
     "eval.jsonl"
@@ -8,20 +8,20 @@
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "eval_source": "synthesized_from_stdout_log",
-  "family": "aspc_rc",
+  "family": "benchmark",
   "git": {
     "code_commit": null,
-    "code_repo": "ASPC"
+    "code_repo": "ASPC_cohort"
   },
-  "legacy_name": "td3bc_aspc_wm_s3-walker2d-medium-v2-99606682",
-  "run_id": "wm_s3_aspc_rc_a2p5__99606682",
-  "seed": 3,
+  "legacy_name": "wm_s2_wpc-walker2d-medium-v2-a63fb641",
+  "run_id": "wm_s2_wpc__a63fb641",
+  "seed": 2,
   "settings": {
     "alpha": 2.5,
     "batch_size": 256,
     "discount": 0.99,
     "env": "walker2d-medium-v2",
-    "eval_freq": 5000,
+    "eval_freq": 20000,
     "max_timesteps": 1000000,
     "n_episodes": 10,
     "noise_clip": 0.5,
@@ -29,11 +29,11 @@
     "normalize_reward": false,
     "policy_freq": 2,
     "policy_noise": 0.2,
-    "seed": 3,
+    "seed": 2,
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_log": "/home/choi/ASPC/results/td3bc_aspc_table6/logs/td3bc_aspc_wm_s3.log",
-  "source_path": "/home/choi/ASPC/results/td3bc_aspc_table6/runs/td3bc_aspc_wm_s3-walker2d-medium-v2-99606682",
-  "variant": "aspc_rc_a2p5"
+  "source_log": "/home/choi/ASPC/results_wpc/_logs/wm_s2_wpc.log",
+  "source_path": "/home/choi/ASPC/results_wpc/wm_s2_wpc-walker2d-medium-v2-a63fb641",
+  "variant": "wpc"
 }

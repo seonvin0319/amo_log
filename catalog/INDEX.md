@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **179**
+Total runs: **180**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -180,6 +180,7 @@ Total runs: **179**
 | wpc | benchmark | `hme_s2_wpc__29d0451d` | halfcheetah-medium-expert-v2 | 2 | 1000000 | 1000000 | 99.53 | `runs/wpc/benchmark/hme_s2_wpc__29d0451d` |
 | wpc | benchmark | `hcmr_s3_wpc__fbe65fc3` | halfcheetah-medium-replay-v2 | 3 | 1000000 | 1000000 | 48.27 | `runs/wpc/benchmark/hcmr_s3_wpc__fbe65fc3` |
 | wpc | benchmark | `hcm_s2_wpc__69d73d4e` | halfcheetah-medium-v2 | 2 | 1000000 | 1000000 | 54.16 | `runs/wpc/benchmark/hcm_s2_wpc__69d73d4e` |
-| wpc | benchmark | `hopme_s3_wpc__82563c0f` | hopper-medium-expert-v2 | 3 | 1000000 | 920000 | 64.03 | `runs/wpc/benchmark/hopme_s3_wpc__82563c0f` |
+| wpc | benchmark | `hopme_s3_wpc__82563c0f` | hopper-medium-expert-v2 | 3 | 1000000 | 1000000 | 106.88 | `runs/wpc/benchmark/hopme_s3_wpc__82563c0f` |
 | wpc | benchmark | `hopmr_s2_wpc__a46823ff` | hopper-medium-replay-v2 | 2 | 1000000 | 1000000 | 100.66 | `runs/wpc/benchmark/hopmr_s2_wpc__a46823ff` |
 | wpc | benchmark | `hopm_s3_wpc__cb0e020a` | hopper-medium-v2 | 3 | 1000000 | 1000000 | 81.99 | `runs/wpc/benchmark/hopm_s3_wpc__cb0e020a` |
+| wpc | benchmark | `wm_s2_wpc__a63fb641` | walker2d-medium-v2 | 2 | 1000000 | 120000 | 86.00 | `runs/wpc/benchmark/wm_s2_wpc__a63fb641` |
