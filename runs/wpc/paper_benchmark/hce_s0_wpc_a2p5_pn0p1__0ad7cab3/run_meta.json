@@ -6,7 +6,7 @@
     "summary.json"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/halfcheetah-expert-v2/seed0/s0-halfcheetah-expert-v2-0ad7cab3",
-  "collected_at": "2026-09-12T15:11:08+00:00",
+  "collected_at": "2026-09-12T15:21:22+00:00",
   "env": "halfcheetah-expert-v2",
   "env_short": "hce",
   "family": "paper_benchmark",
