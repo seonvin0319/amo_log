@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr1e-3_te1_tb1_l1e/runs/amo_adaptive_multiscale_h-m_s0-hopper-medium-v2-deb8b8d1",
-  "collected_at": "2026-09-12T13:19:30+00:00",
+  "collected_at": "2026-09-12T13:24:44+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "adaptive_multiscale",
