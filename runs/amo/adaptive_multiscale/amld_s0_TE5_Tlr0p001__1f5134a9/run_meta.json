@@ -6,28 +6,28 @@
     "eval.jsonl"
   ],
   "collected_at": "2026-09-12T22:36:53+09:00",
-  "env": "antmaze-large-play-v2",
-  "env_short": "amlp",
+  "env": "antmaze-large-diverse-v2",
+  "env_short": "amld",
   "family": "adaptive_multiscale",
   "git": {
     "code_commit": null,
     "code_repo": "amo"
   },
-  "legacy_name": "amo_ams_alp_tlr2e-03_t10_s0-antmaze-large-play-v2-7b72426b",
-  "run_id": "amlp_s0_TE10_Tlr0p002__7b72426b",
+  "legacy_name": "amo_ams_ald_tlr1e-03_t5_s0-antmaze-large-diverse-v2-1f5134a9",
+  "run_id": "amld_s0_TE5_Tlr0p001__1f5134a9",
   "seed": 0,
   "settings": {
-    "T_B": 10.0,
-    "T_E": 10.0,
+    "T_B": 5.0,
+    "T_E": 5.0,
     "T_freq": 10,
-    "T_lr": 0.002,
+    "T_lr": 0.001,
     "adaptive_multiscale": true,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "antmaze-large-play-v2",
+    "env": "antmaze-large-diverse-v2",
     "eval_freq": 5000,
     "group": "amo-antmaze6-tlr-tinit-seed0",
-    "last_metrics_step": 1000000,
+    "last_metrics_step": 749600,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
     "normalize": true,
@@ -41,6 +41,6 @@
     "tau": 0.005
   },
   "source_host": "shchoi",
-  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_alp_tlr2e-03_t10_s0-antmaze-large-play-v2-7b72426b",
-  "variant": "TE10_Tlr0p002"
+  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_ald_tlr1e-03_t5_s0-antmaze-large-diverse-v2-1f5134a9",
+  "variant": "TE5_Tlr0p001"
 }

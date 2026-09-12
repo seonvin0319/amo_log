@@ -13,14 +13,14 @@
     "code_commit": null,
     "code_repo": "amo"
   },
-  "legacy_name": "amo_ams_alp_tlr2e-03_t10_s0-antmaze-large-play-v2-7b72426b",
-  "run_id": "amlp_s0_TE10_Tlr0p002__7b72426b",
+  "legacy_name": "amo_ams_alp_tlr3e-04_t1_s0-antmaze-large-play-v2-cdabceae",
+  "run_id": "amlp_s0_TE1_Tlr0p0003__cdabceae",
   "seed": 0,
   "settings": {
-    "T_B": 10.0,
-    "T_E": 10.0,
+    "T_B": 1.0,
+    "T_E": 1.0,
     "T_freq": 10,
-    "T_lr": 0.002,
+    "T_lr": 0.0003,
     "adaptive_multiscale": true,
     "batch_size": 256,
     "discount": 0.99,
@@ -41,6 +41,6 @@
     "tau": 0.005
   },
   "source_host": "shchoi",
-  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_alp_tlr2e-03_t10_s0-antmaze-large-play-v2-7b72426b",
-  "variant": "TE10_Tlr0p002"
+  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_alp_tlr3e-04_t1_s0-antmaze-large-play-v2-cdabceae",
+  "variant": "TE1_Tlr0p0003"
 }
