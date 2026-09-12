@@ -3,9 +3,10 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
-  "collected_at": "2026-09-12T14:11:23+09:00",
+  "collected_at": "2026-09-13T02:10:46+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "benchmark",
@@ -23,6 +24,13 @@
     "ema_alpha": 0.995,
     "env": "halfcheetah-medium-replay-v2",
     "eval_freq": 20000,
+    "final_eval_50": {
+      "d4rl_normalized_score": 49.9417981959851,
+      "device": "cpu",
+      "eval_return": 5920.1846653776765,
+      "evaluated_at": "2026-09-12T17:04:41.291111+00:00",
+      "n_episodes": 50
+    },
     "group": "aspc_locomotion",
     "l3_mode": "aspc",
     "last_metrics_step": 1000000,

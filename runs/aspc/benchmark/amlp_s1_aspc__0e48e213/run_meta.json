@@ -3,9 +3,10 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
-  "collected_at": "2026-09-12T14:11:23+09:00",
+  "collected_at": "2026-09-13T02:10:44+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "benchmark",
@@ -23,6 +24,13 @@
     "ema_alpha": 0.995,
     "env": "antmaze-large-play-v2",
     "eval_freq": 20000,
+    "final_eval_50": {
+      "d4rl_normalized_score": 64.0,
+      "device": "cpu",
+      "eval_return": 0.64,
+      "evaluated_at": "2026-09-12T17:03:59.409077+00:00",
+      "n_episodes": 50
+    },
     "group": "aspc_antmaze",
     "l3_mode": "aspc",
     "last_metrics_step": 1000000,

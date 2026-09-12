@@ -3,9 +3,10 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
-  "collected_at": "2026-09-12T14:11:24+09:00",
+  "collected_at": "2026-09-13T02:10:47+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "benchmark",
@@ -23,6 +24,13 @@
     "ema_alpha": 0.995,
     "env": "walker2d-medium-expert-v2",
     "eval_freq": 20000,
+    "final_eval_50": {
+      "d4rl_normalized_score": 110.52742921128966,
+      "device": "cpu",
+      "eval_return": 5075.5796390060095,
+      "evaluated_at": "2026-09-12T17:05:15.615761+00:00",
+      "n_episodes": 50
+    },
     "group": "aspc_locomotion",
     "l3_mode": "aspc",
     "last_metrics_step": 1000000,

@@ -16,7 +16,7 @@ from typing import Any, Dict, List, Optional, Tuple
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
 
-KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl")
+KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "final_eval_50.jsonl")
 
 ENV_SHORT = {
     "halfcheetah-medium-v2": "hcm",
@@ -717,6 +717,14 @@ def ingest_one(
     dest = RUNS / algo / family / run_id
     src_metrics = src / "metrics.jsonl"
     dest_metrics = dest / "metrics.jsonl"
+    src_fe = src / "final_eval_50.jsonl"
+    dest_fe = dest / "final_eval_50.jsonl"
+    need_final_eval = src_fe.exists() and src_fe.stat().st_size > 0 and (
+        (not dest_fe.exists())
+        or dest_fe.stat().st_size == 0
+        or dest_fe.stat().st_mtime < src_fe.stat().st_mtime
+        or dest_fe.stat().st_size != src_fe.stat().st_size
+    )
     if dest_metrics.exists() and src_metrics.exists():
         dest_step = last_metrics_step(dest_metrics)
         if (
@@ -724,6 +732,7 @@ def ingest_one(
             and last_step is not None
             and dest_step >= last_step
             and dest_metrics.stat().st_size >= src_metrics.stat().st_size
+            and not need_final_eval
         ):
             print(f"SKIP {dest.relative_to(ROOT)} step={dest_step}", flush=True)
             return None
@@ -732,13 +741,16 @@ def ingest_one(
         not src_metrics.exists()
         and (dest / "eval.jsonl").exists()
         and last_step is not None
+        and not need_final_eval
     ):
         dest_eval_step = last_eval_step(dest / "eval.jsonl")
         if dest_eval_step is not None and dest_eval_step >= last_step:
             print(f"SKIP {dest.relative_to(ROOT)} eval_step={dest_eval_step}", flush=True)
             return None
 
-    artifacts = [f for f in KEEP_FILES if (src / f).exists()]
+    artifacts = [
+        f for f in KEEP_FILES if (src / f).exists() and (src / f).stat().st_size > 0
+    ]
     meta = {
         "algo": algo,
         "family": family,
@@ -759,6 +771,18 @@ def ingest_one(
         meta["settings"]["last_metrics_step"] = last_step
     if summary_status:
         meta["settings"]["source_status"] = summary_status
+    if src_fe.exists() and src_fe.stat().st_size > 0:
+        try:
+            fe = json.loads(src_fe.read_text().strip().splitlines()[0])
+            meta["settings"]["final_eval_50"] = {
+                "d4rl_normalized_score": fe.get("d4rl_normalized_score"),
+                "eval_return": fe.get("eval_return"),
+                "n_episodes": fe.get("n_episodes"),
+                "device": fe.get("device"),
+                "evaluated_at": fe.get("evaluated_at"),
+            }
+        except Exception:
+            pass
     if kind == "jax":
         meta["checkpoint_hint"] = str(src.resolve())
     if log_path is not None:

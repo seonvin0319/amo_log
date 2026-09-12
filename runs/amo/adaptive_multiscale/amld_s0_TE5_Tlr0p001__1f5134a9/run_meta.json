@@ -3,9 +3,10 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
-  "collected_at": "2026-09-12T23:08:02+09:00",
+  "collected_at": "2026-09-13T02:10:38+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "adaptive_multiscale",
@@ -26,6 +27,13 @@
     "discount": 0.99,
     "env": "antmaze-large-diverse-v2",
     "eval_freq": 5000,
+    "final_eval_50": {
+      "d4rl_normalized_score": 46.0,
+      "device": "cpu",
+      "eval_return": 0.46,
+      "evaluated_at": "2026-09-12T16:31:09.864917+00:00",
+      "n_episodes": 50
+    },
     "group": "amo-antmaze6-tlr-tinit-seed0",
     "last_metrics_step": 1000000,
     "max_timesteps": 1000000,

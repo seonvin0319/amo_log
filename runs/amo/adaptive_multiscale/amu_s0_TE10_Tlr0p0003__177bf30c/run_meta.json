@@ -3,9 +3,10 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
-  "collected_at": "2026-09-11T13:24:45+09:00",
+  "collected_at": "2026-09-13T02:10:42+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "adaptive_multiscale",
@@ -26,6 +27,14 @@
     "discount": 0.99,
     "env": "antmaze-umaze-v2",
     "eval_freq": 5000,
+    "final_eval_50": {
+      "d4rl_normalized_score": 92.0,
+      "device": "cpu",
+      "eval_return": 0.92,
+      "evaluated_at": "2026-09-12T16:29:45.881772+00:00",
+      "n_episodes": 50
+    },
+    "group": "amo-antmaze6-tlr-tinit-seed0",
     "last_metrics_step": 1000000,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
@@ -33,6 +42,7 @@
     "normalize_reward": false,
     "policy_freq": 2,
     "policy_noise": 0.2,
+    "project": "AMO-adaptive-multiscale-antmaze6",
     "proximal_n_steps": 1,
     "seed": 0,
     "smoothness_eps": 1e-06,

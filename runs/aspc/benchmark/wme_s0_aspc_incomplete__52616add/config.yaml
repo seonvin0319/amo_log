@@ -25,6 +25,8 @@ pi_l3_eps_L: 1.0e-06
 policy_freq: 2
 policy_noise: 0.2
 project: ASPC_PI_L3
+resume_tag: wme_s0_aspc
 save_freq: 200000
 seed: 0
+t_b_ratio: 0.5
 tau: 0.005

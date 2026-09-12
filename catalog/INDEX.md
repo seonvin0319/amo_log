@@ -295,7 +295,7 @@ Total runs: **363**
 | aspc | benchmark | `we_s1_aspc__296e7a85` | walker2d-expert-v2 | 1 | 1000000 | 1000000 | 110.38 | `runs/aspc/benchmark/we_s1_aspc__296e7a85` |
 | aspc | benchmark | `we_s2_aspc__ed53cdbf` | walker2d-expert-v2 | 2 | 1000000 | 1000000 | 110.97 | `runs/aspc/benchmark/we_s2_aspc__ed53cdbf` |
 | aspc | benchmark | `we_s3_aspc__69ed2625` | walker2d-expert-v2 | 3 | 1000000 | 1000000 | 110.85 | `runs/aspc/benchmark/we_s3_aspc__69ed2625` |
-| aspc | benchmark | `wme_s0_aspc_incomplete__52616add` | walker2d-medium-expert-v2 | 0 | 1000000 | 760000 | 110.68 | `runs/aspc/benchmark/wme_s0_aspc_incomplete__52616add` |
+| aspc | benchmark | `wme_s0_aspc_incomplete__52616add` | walker2d-medium-expert-v2 | 0 | 1000000 | 660000 | 109.78 | `runs/aspc/benchmark/wme_s0_aspc_incomplete__52616add` |
 | aspc | benchmark | `wme_s0_multiscale__c37e07ed` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.59 | `runs/aspc/benchmark/wme_s0_multiscale__c37e07ed` |
 | aspc | benchmark | `wme_s0_pi_only__e1962690` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 110.76 | `runs/aspc/benchmark/wme_s0_pi_only__e1962690` |
 | aspc | benchmark | `wme_s1_aspc__20c33500` | walker2d-medium-expert-v2 | 1 | 1000000 | 1000000 | 110.42 | `runs/aspc/benchmark/wme_s1_aspc__20c33500` |

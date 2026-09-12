@@ -6,9 +6,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T23:49:21+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -33,6 +34,13 @@
         "discount": 0.99,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 26.0,
+          "device": "cpu",
+          "eval_return": 0.26,
+          "evaluated_at": "2026-09-12T16:31:09.126498+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -56,9 +64,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T23:39:00+09:00",
+      "collected_at": "2026-09-13T02:10:37+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -83,6 +92,13 @@
         "discount": 0.99,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 8.0,
+          "device": "cpu",
+          "eval_return": 0.08,
+          "evaluated_at": "2026-09-12T16:31:23.790242+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -106,9 +122,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -133,6 +150,13 @@
         "discount": 0.99,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 18.0,
+          "device": "cpu",
+          "eval_return": 0.18,
+          "evaluated_at": "2026-09-12T16:31:28.410938+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -156,9 +180,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -183,6 +208,13 @@
         "discount": 0.99,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 2.0,
+          "device": "cpu",
+          "eval_return": 0.02,
+          "evaluated_at": "2026-09-12T16:31:09.832123+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -301,9 +333,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -328,6 +361,13 @@
         "discount": 0.99,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 18.0,
+          "device": "cpu",
+          "eval_return": 0.18,
+          "evaluated_at": "2026-09-12T16:31:08.358053+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -351,9 +391,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T23:08:02+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -378,6 +419,13 @@
         "discount": 0.99,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 46.0,
+          "device": "cpu",
+          "eval_return": 0.46,
+          "evaluated_at": "2026-09-12T16:31:09.864917+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -401,9 +449,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -428,6 +477,13 @@
         "discount": 0.99,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 24.0,
+          "device": "cpu",
+          "eval_return": 0.24,
+          "evaluated_at": "2026-09-12T16:31:27.394286+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -600,9 +656,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:39+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -627,6 +684,13 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 72.0,
+          "device": "cpu",
+          "eval_return": 0.72,
+          "evaluated_at": "2026-09-12T16:30:49.201408+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -650,9 +714,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -677,6 +742,13 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 0.0,
+          "device": "cpu",
+          "eval_return": 0.0,
+          "evaluated_at": "2026-09-12T16:31:04.041100+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -700,9 +772,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:39+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -727,6 +800,13 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 28.000000000000004,
+          "device": "cpu",
+          "eval_return": 0.28,
+          "evaluated_at": "2026-09-12T16:31:07.801074+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -750,9 +830,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:39+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -777,6 +858,13 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 2.0,
+          "device": "cpu",
+          "eval_return": 0.02,
+          "evaluated_at": "2026-09-12T16:30:50.019302+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -895,9 +983,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:39+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -922,6 +1011,13 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 40.0,
+          "device": "cpu",
+          "eval_return": 0.4,
+          "evaluated_at": "2026-09-12T16:30:49.052786+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -945,9 +1041,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T22:36:53+09:00",
+      "collected_at": "2026-09-13T02:10:38+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -972,6 +1069,13 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 40.0,
+          "device": "cpu",
+          "eval_return": 0.4,
+          "evaluated_at": "2026-09-12T16:30:53.172011+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -1192,9 +1296,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:19+09:00",
+      "collected_at": "2026-09-13T02:10:40+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1219,6 +1324,13 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 16.0,
+          "device": "cpu",
+          "eval_return": 0.16,
+          "evaluated_at": "2026-09-12T16:30:29.488945+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -1242,9 +1354,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:18+09:00",
+      "collected_at": "2026-09-13T02:10:39+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1269,6 +1382,13 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 30.0,
+          "device": "cpu",
+          "eval_return": 0.3,
+          "evaluated_at": "2026-09-12T16:30:35.293541+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -1292,9 +1412,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T03:06:26+09:00",
+      "collected_at": "2026-09-13T02:10:39+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1319,6 +1440,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 32.0,
+          "device": "cpu",
+          "eval_return": 0.32,
+          "evaluated_at": "2026-09-12T16:30:43.480212+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -1326,6 +1455,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -1340,9 +1470,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:19+09:00",
+      "collected_at": "2026-09-13T02:10:40+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1367,6 +1498,13 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 8.0,
+          "device": "cpu",
+          "eval_return": 0.08,
+          "evaluated_at": "2026-09-12T16:30:28.698726+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -1438,9 +1576,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T14:03:01+09:00",
+      "collected_at": "2026-09-13T02:10:40+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1465,6 +1604,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 28.000000000000004,
+          "device": "cpu",
+          "eval_return": 0.28,
+          "evaluated_at": "2026-09-12T16:30:35.594058+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -1472,6 +1619,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -1534,9 +1682,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:19+09:00",
+      "collected_at": "2026-09-13T02:10:40+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1561,6 +1710,13 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 20.0,
+          "device": "cpu",
+          "eval_return": 0.2,
+          "evaluated_at": "2026-09-12T16:30:26.903281+00:00",
+          "n_episodes": 50
+        },
         "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
@@ -1584,9 +1740,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T03:06:26+09:00",
+      "collected_at": "2026-09-13T02:10:39+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1611,6 +1768,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 68.0,
+          "device": "cpu",
+          "eval_return": 0.68,
+          "evaluated_at": "2026-09-12T16:30:31.121852+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -1618,6 +1783,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -1632,9 +1798,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T14:03:01+09:00",
+      "collected_at": "2026-09-13T02:10:40+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1659,6 +1826,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 4.0,
+          "device": "cpu",
+          "eval_return": 0.04,
+          "evaluated_at": "2026-09-12T16:30:43.601628+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 272000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -1666,6 +1841,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -1927,9 +2103,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T14:03:02+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1954,6 +2131,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 80.0,
+          "device": "cpu",
+          "eval_return": 0.8,
+          "evaluated_at": "2026-09-12T16:30:08.469395+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -1961,6 +2146,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -1975,9 +2161,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:40+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2002,6 +2189,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 62.0,
+          "device": "cpu",
+          "eval_return": 0.62,
+          "evaluated_at": "2026-09-12T16:30:11.647353+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2009,6 +2204,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2023,9 +2219,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2050,6 +2247,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 64.0,
+          "device": "cpu",
+          "eval_return": 0.64,
+          "evaluated_at": "2026-09-12T16:30:20.865126+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2057,6 +2262,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2071,9 +2277,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2098,6 +2305,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 20.0,
+          "device": "cpu",
+          "eval_return": 0.2,
+          "evaluated_at": "2026-09-12T16:30:14.292189+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2105,6 +2320,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2119,9 +2335,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:40+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2146,6 +2363,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 70.0,
+          "device": "cpu",
+          "eval_return": 0.7,
+          "evaluated_at": "2026-09-12T16:30:10.027920+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2153,6 +2378,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2214,9 +2440,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2241,6 +2468,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 66.0,
+          "device": "cpu",
+          "eval_return": 0.66,
+          "evaluated_at": "2026-09-12T16:30:17.355504+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2248,6 +2483,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2310,9 +2546,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2337,6 +2574,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 86.0,
+          "device": "cpu",
+          "eval_return": 0.86,
+          "evaluated_at": "2026-09-12T16:30:06.621315+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2344,6 +2589,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2358,9 +2604,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2385,6 +2632,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 56.00000000000001,
+          "device": "cpu",
+          "eval_return": 0.56,
+          "evaluated_at": "2026-09-12T16:30:11.672288+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2392,6 +2647,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2454,9 +2710,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2481,6 +2738,14 @@
         "discount": 0.99,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 57.99999999999999,
+          "device": "cpu",
+          "eval_return": 0.58,
+          "evaluated_at": "2026-09-12T16:30:21.161653+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2488,6 +2753,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2701,9 +2967,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:42+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2728,6 +2995,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 92.0,
+          "device": "cpu",
+          "eval_return": 0.92,
+          "evaluated_at": "2026-09-12T16:29:45.881772+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2735,6 +3010,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2749,9 +3025,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:41+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2776,6 +3053,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 94.0,
+          "device": "cpu",
+          "eval_return": 0.94,
+          "evaluated_at": "2026-09-12T16:29:45.796195+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2783,6 +3068,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2797,9 +3083,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:42+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2824,6 +3111,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 78.0,
+          "device": "cpu",
+          "eval_return": 0.78,
+          "evaluated_at": "2026-09-12T16:29:52.421941+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2831,6 +3126,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2845,9 +3141,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:42+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2872,6 +3169,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 94.0,
+          "device": "cpu",
+          "eval_return": 0.94,
+          "evaluated_at": "2026-09-12T16:29:45.541900+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2879,6 +3184,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -2893,9 +3199,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:42+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2920,6 +3227,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 96.0,
+          "device": "cpu",
+          "eval_return": 0.96,
+          "evaluated_at": "2026-09-12T16:29:45.588971+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -2927,6 +3242,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3036,9 +3352,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-10T20:05:57+09:00",
+      "collected_at": "2026-09-13T02:10:42+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -3063,6 +3380,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 80.0,
+          "device": "cpu",
+          "eval_return": 0.8,
+          "evaluated_at": "2026-09-12T16:29:51.721399+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3070,6 +3395,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3084,9 +3410,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:43+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -3111,6 +3438,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 88.0,
+          "device": "cpu",
+          "eval_return": 0.88,
+          "evaluated_at": "2026-09-12T16:29:45.784574+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3118,6 +3453,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3132,9 +3468,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:44+09:00",
+      "collected_at": "2026-09-13T02:10:42+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -3159,6 +3496,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 88.0,
+          "device": "cpu",
+          "eval_return": 0.88,
+          "evaluated_at": "2026-09-12T16:29:45.917344+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3166,6 +3511,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3180,9 +3526,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-10T20:05:57+09:00",
+      "collected_at": "2026-09-13T02:10:42+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -3207,6 +3554,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 82.0,
+          "device": "cpu",
+          "eval_return": 0.82,
+          "evaluated_at": "2026-09-12T16:29:51.743950+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3214,6 +3569,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3475,9 +3831,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3502,6 +3859,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 80.0,
+          "device": "cpu",
+          "eval_return": 0.8,
+          "evaluated_at": "2026-09-12T16:29:52.325360+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3509,6 +3874,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3523,9 +3889,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:43+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3550,6 +3917,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 60.0,
+          "device": "cpu",
+          "eval_return": 0.6,
+          "evaluated_at": "2026-09-12T16:30:00.090941+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3557,6 +3932,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3571,9 +3947,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:43+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3598,6 +3975,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 56.00000000000001,
+          "device": "cpu",
+          "eval_return": 0.56,
+          "evaluated_at": "2026-09-12T16:30:00.793175+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3605,6 +3990,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3619,9 +4005,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3646,6 +4033,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 76.0,
+          "device": "cpu",
+          "eval_return": 0.76,
+          "evaluated_at": "2026-09-12T16:29:52.666164+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3653,6 +4048,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3714,9 +4110,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:43+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3741,6 +4138,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 78.0,
+          "device": "cpu",
+          "eval_return": 0.78,
+          "evaluated_at": "2026-09-12T16:29:58.097769+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3748,6 +4153,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3810,9 +4216,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:43+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3837,6 +4244,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 82.0,
+          "device": "cpu",
+          "eval_return": 0.82,
+          "evaluated_at": "2026-09-12T16:29:58.549740+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3844,6 +4259,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3858,9 +4274,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3885,6 +4302,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 72.0,
+          "device": "cpu",
+          "eval_return": 0.72,
+          "evaluated_at": "2026-09-12T16:29:52.867452+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3892,6 +4317,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3906,9 +4332,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:43+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3933,6 +4360,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 50.0,
+          "device": "cpu",
+          "eval_return": 0.5,
+          "evaluated_at": "2026-09-12T16:30:00.293833+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3940,6 +4375,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -3954,9 +4390,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-11T13:24:45+09:00",
+      "collected_at": "2026-09-13T02:10:43+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -3981,6 +4418,14 @@
         "discount": 0.99,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 5000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 70.0,
+          "device": "cpu",
+          "eval_return": 0.7,
+          "evaluated_at": "2026-09-12T16:29:59.631238+00:00",
+          "n_episodes": 50
+        },
+        "group": "amo-antmaze6-tlr-tinit-seed0",
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -3988,6 +4433,7 @@
         "normalize_reward": false,
         "policy_freq": 2,
         "policy_noise": 0.2,
+        "project": "AMO-adaptive-multiscale-antmaze6",
         "proximal_n_steps": 1,
         "seed": 0,
         "smoothness_eps": 1e-06,
@@ -9318,9 +9764,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:22+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "benchmark",
@@ -9342,6 +9789,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 20.0,
+          "device": "cpu",
+          "eval_return": 0.2,
+          "evaluated_at": "2026-09-12T17:04:03.105850+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9365,9 +9819,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:22+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "benchmark",
@@ -9389,6 +9844,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 54.0,
+          "device": "cpu",
+          "eval_return": 0.54,
+          "evaluated_at": "2026-09-12T17:04:01.680328+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9412,9 +9874,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:22+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "benchmark",
@@ -9436,6 +9899,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 46.0,
+          "device": "cpu",
+          "eval_return": 0.46,
+          "evaluated_at": "2026-09-12T17:04:01.866405+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9459,9 +9929,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:22+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "benchmark",
@@ -9483,6 +9954,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 10.0,
+          "device": "cpu",
+          "eval_return": 0.1,
+          "evaluated_at": "2026-09-12T17:04:03.983576+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9506,9 +9984,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:22+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "benchmark",
@@ -9530,6 +10009,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 64.0,
+          "device": "cpu",
+          "eval_return": 0.64,
+          "evaluated_at": "2026-09-12T17:03:59.698923+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9553,9 +10039,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "benchmark",
@@ -9577,6 +10064,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 64.0,
+          "device": "cpu",
+          "eval_return": 0.64,
+          "evaluated_at": "2026-09-12T17:03:59.409077+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9600,9 +10094,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "benchmark",
@@ -9624,6 +10119,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 62.0,
+          "device": "cpu",
+          "eval_return": 0.62,
+          "evaluated_at": "2026-09-12T17:04:15.223770+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9647,9 +10149,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "benchmark",
@@ -9671,6 +10174,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-large-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 24.0,
+          "device": "cpu",
+          "eval_return": 0.24,
+          "evaluated_at": "2026-09-12T17:04:18.613873+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9694,9 +10204,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "benchmark",
@@ -9718,6 +10229,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 46.0,
+          "device": "cpu",
+          "eval_return": 0.46,
+          "evaluated_at": "2026-09-12T17:04:14.911046+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9741,9 +10259,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "benchmark",
@@ -9765,6 +10284,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 82.0,
+          "device": "cpu",
+          "eval_return": 0.82,
+          "evaluated_at": "2026-09-12T17:04:11.923282+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9788,9 +10314,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "benchmark",
@@ -9812,6 +10339,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 36.0,
+          "device": "cpu",
+          "eval_return": 0.36,
+          "evaluated_at": "2026-09-12T17:04:17.698252+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9835,9 +10369,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "benchmark",
@@ -9859,6 +10394,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 34.0,
+          "device": "cpu",
+          "eval_return": 0.34,
+          "evaluated_at": "2026-09-12T17:04:18.425515+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9882,9 +10424,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "benchmark",
@@ -9906,6 +10449,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 78.0,
+          "device": "cpu",
+          "eval_return": 0.78,
+          "evaluated_at": "2026-09-12T17:04:21.188776+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9929,9 +10479,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:44+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "benchmark",
@@ -9953,6 +10504,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 86.0,
+          "device": "cpu",
+          "eval_return": 0.86,
+          "evaluated_at": "2026-09-12T17:04:23.537783+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -9976,9 +10534,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "benchmark",
@@ -10000,6 +10559,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 82.0,
+          "device": "cpu",
+          "eval_return": 0.82,
+          "evaluated_at": "2026-09-12T17:04:24.089211+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10023,9 +10589,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "benchmark",
@@ -10047,6 +10614,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-medium-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 57.99999999999999,
+          "device": "cpu",
+          "eval_return": 0.58,
+          "evaluated_at": "2026-09-12T17:04:29.803878+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10070,9 +10644,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "benchmark",
@@ -10094,6 +10669,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 84.0,
+          "device": "cpu",
+          "eval_return": 0.84,
+          "evaluated_at": "2026-09-12T17:04:29.905971+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10117,9 +10699,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "benchmark",
@@ -10141,6 +10724,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 86.0,
+          "device": "cpu",
+          "eval_return": 0.86,
+          "evaluated_at": "2026-09-12T17:04:30.081569+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10164,9 +10754,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "benchmark",
@@ -10188,6 +10779,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 90.0,
+          "device": "cpu",
+          "eval_return": 0.9,
+          "evaluated_at": "2026-09-12T17:04:29.781477+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10211,9 +10809,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "benchmark",
@@ -10235,6 +10834,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 92.0,
+          "device": "cpu",
+          "eval_return": 0.92,
+          "evaluated_at": "2026-09-12T17:04:32.913370+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10258,9 +10864,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "benchmark",
@@ -10282,6 +10889,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 86.0,
+          "device": "cpu",
+          "eval_return": 0.86,
+          "evaluated_at": "2026-09-12T17:04:24.415378+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10305,9 +10919,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "benchmark",
@@ -10329,6 +10944,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 86.0,
+          "device": "cpu",
+          "eval_return": 0.86,
+          "evaluated_at": "2026-09-12T17:04:24.378764+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10352,9 +10974,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "benchmark",
@@ -10376,6 +10999,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 76.0,
+          "device": "cpu",
+          "eval_return": 0.76,
+          "evaluated_at": "2026-09-12T17:04:27.745514+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10399,9 +11029,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "benchmark",
@@ -10423,6 +11054,13 @@
         "ema_alpha": 0.995,
         "env": "antmaze-umaze-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 82.0,
+          "device": "cpu",
+          "eval_return": 0.82,
+          "evaluated_at": "2026-09-12T17:04:29.568270+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_antmaze",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10446,9 +11084,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "benchmark",
@@ -10470,6 +11109,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 101.57977533494926,
+          "device": "cpu",
+          "eval_return": 12331.131934889307,
+          "evaluated_at": "2026-09-12T17:04:34.726247+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10540,9 +11186,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "benchmark",
@@ -10564,6 +11211,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 101.19953869793605,
+          "device": "cpu",
+          "eval_return": 12283.924875959246,
+          "evaluated_at": "2026-09-12T17:04:35.117806+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10587,9 +11241,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "benchmark",
@@ -10611,6 +11266,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 97.97355874629176,
+          "device": "cpu",
+          "eval_return": 11883.413691974705,
+          "evaluated_at": "2026-09-12T17:04:35.136328+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10634,9 +11296,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "benchmark",
@@ -10658,6 +11321,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 104.4678545685838,
+          "device": "cpu",
+          "eval_return": 12689.692140049467,
+          "evaluated_at": "2026-09-12T17:04:35.184002+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -10681,9 +11351,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "benchmark",
@@ -10705,6 +11376,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 58.52954369866411,
+          "device": "cpu",
+          "eval_return": 6986.368637563485,
+          "evaluated_at": "2026-09-12T17:04:43.595453+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11057,9 +11735,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "benchmark",
@@ -11081,6 +11760,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 57.91284621137899,
+          "device": "cpu",
+          "eval_return": 6909.804540918382,
+          "evaluated_at": "2026-09-12T17:04:46.538219+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11104,9 +11790,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "benchmark",
@@ -11128,6 +11815,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 56.806539598713535,
+          "device": "cpu",
+          "eval_return": 6772.454595187094,
+          "evaluated_at": "2026-09-12T17:04:46.419190+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11151,9 +11845,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "benchmark",
@@ -11175,6 +11870,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 57.93388622421883,
+          "device": "cpu",
+          "eval_return": 6912.416696164184,
+          "evaluated_at": "2026-09-12T17:04:46.569998+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11198,9 +11900,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:48+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "benchmark",
@@ -11222,6 +11925,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 48.42579633579597,
+          "device": "cpu",
+          "eval_return": 5731.970321504387,
+          "evaluated_at": "2026-09-12T17:04:38.384805+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11574,9 +12284,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "benchmark",
@@ -11598,6 +12309,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 51.382864948490436,
+          "device": "cpu",
+          "eval_return": 6099.095681533399,
+          "evaluated_at": "2026-09-12T17:04:38.183573+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11621,9 +12339,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "benchmark",
@@ -11645,6 +12364,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 50.74201967205935,
+          "device": "cpu",
+          "eval_return": 6019.533593652633,
+          "evaluated_at": "2026-09-12T17:04:41.204283+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11668,9 +12394,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "benchmark",
@@ -11692,6 +12419,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 49.9417981959851,
+          "device": "cpu",
+          "eval_return": 5920.1846653776765,
+          "evaluated_at": "2026-09-12T17:04:41.291111+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11715,9 +12449,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "benchmark",
@@ -11739,6 +12474,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 103.38390163312863,
+          "device": "cpu",
+          "eval_return": 12555.117443346408,
+          "evaluated_at": "2026-09-12T17:04:38.215836+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -11997,9 +12739,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "benchmark",
@@ -12021,6 +12764,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 76.09285026112704,
+          "device": "cpu",
+          "eval_return": 9166.88457735725,
+          "evaluated_at": "2026-09-12T17:04:41.028765+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12044,9 +12794,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "benchmark",
@@ -12068,6 +12819,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 87.7356876453992,
+          "device": "cpu",
+          "eval_return": 10612.363673821423,
+          "evaluated_at": "2026-09-12T17:04:42.599835+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12091,9 +12849,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:45+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "benchmark",
@@ -12115,6 +12874,13 @@
         "ema_alpha": 0.995,
         "env": "halfcheetah-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 101.5725284802616,
+          "device": "cpu",
+          "eval_return": 12330.232224911368,
+          "evaluated_at": "2026-09-12T17:04:43.054455+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12138,9 +12904,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "benchmark",
@@ -12162,6 +12929,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 103.4016399804108,
+          "device": "cpu",
+          "eval_return": 3345.0088327182575,
+          "evaluated_at": "2026-09-12T17:04:48.380492+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12232,9 +13006,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "benchmark",
@@ -12256,6 +13031,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 112.20772490566931,
+          "device": "cpu",
+          "eval_return": 3631.6092338505005,
+          "evaluated_at": "2026-09-12T17:04:49.112201+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12279,9 +13061,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "benchmark",
@@ -12303,6 +13086,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 87.79235830860486,
+          "device": "cpu",
+          "eval_return": 2836.9934744182206,
+          "evaluated_at": "2026-09-12T17:04:48.858952+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12326,9 +13116,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "benchmark",
@@ -12350,6 +13141,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.60879947387004,
+          "device": "cpu",
+          "eval_return": 3579.57104956956,
+          "evaluated_at": "2026-09-12T17:04:52.315908+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12373,9 +13171,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:48+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "benchmark",
@@ -12397,6 +13196,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 83.15544383453538,
+          "device": "cpu",
+          "eval_return": 2686.0817401386184,
+          "evaluated_at": "2026-09-12T17:05:00.703550+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12702,9 +13508,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "benchmark",
@@ -12726,6 +13533,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 85.95985773279725,
+          "device": "cpu",
+          "eval_return": 2777.35341818902,
+          "evaluated_at": "2026-09-12T17:05:02.416497+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12749,9 +13563,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "benchmark",
@@ -12773,6 +13588,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 84.1257236414816,
+          "device": "cpu",
+          "eval_return": 2717.660198016498,
+          "evaluated_at": "2026-09-12T17:05:02.628945+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12796,9 +13618,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "benchmark",
@@ -12820,6 +13643,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 74.3147040323748,
+          "device": "cpu",
+          "eval_return": 2398.353470980389,
+          "evaluated_at": "2026-09-12T17:05:02.752583+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -12843,9 +13673,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:48+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "benchmark",
@@ -12867,6 +13698,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 111.7948853377617,
+          "device": "cpu",
+          "eval_return": 3618.173071609298,
+          "evaluated_at": "2026-09-12T17:04:55.162474+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13078,9 +13916,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "benchmark",
@@ -13102,6 +13941,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 105.39567269706203,
+          "device": "cpu",
+          "eval_return": 3409.9060692670273,
+          "evaluated_at": "2026-09-12T17:04:54.897941+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13125,9 +13971,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "benchmark",
@@ -13149,6 +13996,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 109.77555696024915,
+          "device": "cpu",
+          "eval_return": 3552.452569487769,
+          "evaluated_at": "2026-09-12T17:04:57.013891+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13172,9 +14026,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "benchmark",
@@ -13196,6 +14051,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.02184127686702,
+          "device": "cpu",
+          "eval_return": 3560.4680706479726,
+          "evaluated_at": "2026-09-12T17:04:57.524697+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13219,9 +14081,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:49+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "benchmark",
@@ -13243,6 +14106,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 101.54575166389344,
+          "device": "cpu",
+          "eval_return": 3284.6076055571525,
+          "evaluated_at": "2026-09-12T17:04:53.812349+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13501,9 +14371,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "benchmark",
@@ -13525,6 +14396,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 101.17763147158402,
+          "device": "cpu",
+          "eval_return": 3272.6268677291378,
+          "evaluated_at": "2026-09-12T17:04:56.923416+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13548,9 +14426,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "benchmark",
@@ -13572,6 +14451,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 93.61905856637736,
+          "device": "cpu",
+          "eval_return": 3026.6276473030475,
+          "evaluated_at": "2026-09-12T17:04:58.473393+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13595,9 +14481,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "benchmark",
@@ -13619,6 +14506,13 @@
         "ema_alpha": 0.995,
         "env": "hopper-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 102.04326907013072,
+          "device": "cpu",
+          "eval_return": 3300.799669273106,
+          "evaluated_at": "2026-09-12T17:04:59.579618+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13642,9 +14536,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:23+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "benchmark",
@@ -13666,6 +14561,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.92069949359033,
+          "device": "cpu",
+          "eval_return": 5093.633383775743,
+          "evaluated_at": "2026-09-12T17:05:05.541100+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13736,9 +14638,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "benchmark",
@@ -13760,6 +14663,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.40394017870807,
+          "device": "cpu",
+          "eval_return": 5069.910663808984,
+          "evaluated_at": "2026-09-12T17:05:06.691331+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13783,9 +14693,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "benchmark",
@@ -13807,6 +14718,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.97735863867986,
+          "device": "cpu",
+          "eval_return": 5096.234418713682,
+          "evaluated_at": "2026-09-12T17:05:07.846924+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13830,9 +14748,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "benchmark",
@@ -13854,6 +14773,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.82303603443752,
+          "device": "cpu",
+          "eval_return": 5089.149975686631,
+          "evaluated_at": "2026-09-12T17:05:09.524188+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion_expert",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -13877,9 +14803,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:49+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "benchmark",
@@ -13901,6 +14828,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 67.15190867987158,
+          "device": "cpu",
+          "eval_return": 3084.352200341195,
+          "evaluated_at": "2026-09-12T17:05:18.661943+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14159,9 +15093,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "benchmark",
@@ -14183,6 +15118,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 102.14758511389196,
+          "device": "cpu",
+          "eval_return": 4690.888566851949,
+          "evaluated_at": "2026-09-12T17:05:20.216293+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14206,9 +15148,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "benchmark",
@@ -14230,6 +15173,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 92.93461649297906,
+          "device": "cpu",
+          "eval_return": 4267.951488869638,
+          "evaluated_at": "2026-09-12T17:05:20.235534+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14253,9 +15203,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:46+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "benchmark",
@@ -14277,6 +15228,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 95.83011660991968,
+          "device": "cpu",
+          "eval_return": 4400.874372811357,
+          "evaluated_at": "2026-09-12T17:05:21.981005+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14302,16 +15260,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:49+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
-      "final_score": 110.6807511528699,
+      "final_score": 109.77995007387855,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
       },
-      "last_eval_step": 760000,
+      "last_eval_step": 660000,
       "legacy_name": "wme_s0_aspc-walker2d-medium-expert-v2-52616add",
       "max_timesteps": 1000000,
       "rel_path": "runs/aspc/benchmark/wme_s0_aspc_incomplete__52616add",
@@ -14326,7 +15284,7 @@
         "eval_freq": 20000,
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
-        "last_metrics_step": 771200,
+        "last_metrics_step": 679400,
         "loss_function": 4,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
@@ -14441,9 +15399,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
@@ -14465,6 +15424,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.42460989904887,
+          "device": "cpu",
+          "eval_return": 5070.859542664797,
+          "evaluated_at": "2026-09-12T17:05:12.896987+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14488,9 +15454,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
@@ -14512,6 +15479,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.32891287974435,
+          "device": "cpu",
+          "eval_return": 5066.466407359377,
+          "evaluated_at": "2026-09-12T17:05:12.905518+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14535,9 +15509,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
@@ -14559,6 +15534,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-expert-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 110.52742921128966,
+          "device": "cpu",
+          "eval_return": 5075.5796390060095,
+          "evaluated_at": "2026-09-12T17:05:15.615761+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14582,9 +15564,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:49+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "benchmark",
@@ -14606,6 +15589,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 94.29155585989946,
+          "device": "cpu",
+          "eval_return": 4330.244110765881,
+          "evaluated_at": "2026-09-12T17:05:11.780888+00:00",
+          "n_episodes": 50
+        },
         "group": "pi_l3_sweep",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14864,9 +15854,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "benchmark",
@@ -14888,6 +15879,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 95.75900154965439,
+          "device": "cpu",
+          "eval_return": 4397.609714368815,
+          "evaluated_at": "2026-09-12T17:05:13.223162+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14911,9 +15909,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "benchmark",
@@ -14935,6 +15934,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 95.80826862986187,
+          "device": "cpu",
+          "eval_return": 4399.871403928505,
+          "evaluated_at": "2026-09-12T17:05:14.900004+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
@@ -14958,9 +15964,10 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
-      "collected_at": "2026-09-12T14:11:24+09:00",
+      "collected_at": "2026-09-13T02:10:47+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "benchmark",
@@ -14982,6 +15989,13 @@
         "ema_alpha": 0.995,
         "env": "walker2d-medium-replay-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 76.51185607548271,
+          "device": "cpu",
+          "eval_return": 3514.0365902979743,
+          "evaluated_at": "2026-09-12T17:05:16.058593+00:00",
+          "n_episodes": 50
+        },
         "group": "aspc_locomotion",
         "l3_mode": "aspc",
         "last_metrics_step": 1000000,
