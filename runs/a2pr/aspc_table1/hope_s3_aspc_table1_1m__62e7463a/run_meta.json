@@ -4,8 +4,8 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s3/ckpt/A2PR_hopper-expert-v2_3_500000.pth",
-  "collected_at": "2026-09-12T14:22:44+09:00",
+  "checkpoint_hint": "/home/svcho/A2PR/results_aspc_table1/hopper-expert-v2/hopper-expert-v2_s3/ckpt",
+  "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "hopper-expert-v2",
   "env_short": "hope",
   "family": "aspc_table1",
