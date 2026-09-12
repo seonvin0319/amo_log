@@ -6,7 +6,7 @@
     "summary.json"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/hopper-medium-expert-v2/seed2/s2-hopper-medium-expert-v2-02f9c349",
-  "collected_at": "2026-09-12T08:31:14+00:00",
+  "collected_at": "2026-09-12T08:36:28+00:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "paper_benchmark",
