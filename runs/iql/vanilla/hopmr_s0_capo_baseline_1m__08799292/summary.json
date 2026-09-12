@@ -1,0 +1,26 @@
+{
+  "algorithm": "iql",
+  "env": "hopper-medium-replay-v2",
+  "seed": 0,
+  "capo_mode": "teacher",
+  "best_student_score": 103.72287509781579,
+  "best_learn_score": 103.72287509781579,
+  "best_base_score": 103.72287509781579,
+  "final_eval": {
+    "step": 1000000,
+    "return_mean": 2798.1904426609985,
+    "return_std": 905.7915237662122,
+    "critic_loss": 0.943768322467804,
+    "value_loss": 0.49372220039367676,
+    "actor_loss": 1.2815492153167725,
+    "bc_teacher": 0.0,
+    "has_teacher": 0.0,
+    "capo_selected_n": 0.0,
+    "student_d4rl_score": 86.60009621943239,
+    "d4rl_score": 86.60009621943239,
+    "base_d4rl_score": 86.60009621943239
+  },
+  "run_dir": "results/iql/hopper-medium-replay-v2/s0/0803_1156_baseline_iql_hopper-medium-replay-v2_s0",
+  "elapsed_sec": 2342.7414565086365,
+  "note": "student_d4rl_score is \u03b8L under teacher guidance after CAPO starts; use --no_capo for pure TD3+BC control. Certificate calibration: see capo_refresh.jsonl paired \u0394J."
+}

@@ -1,0 +1,11 @@
+{
+  "run_dir": "/home/offrl/CAPO/results/iql/halfcheetah-medium-replay-v2/s0/0803_1355_baseline_iql_halfcheetah-medium-replay-v2_s0",
+  "n_points": 200,
+  "final_step": 1000000,
+  "final_student": 36.643855781630066,
+  "final_teacher": null,
+  "plots": [
+    "/home/offrl/CAPO/results/iql/halfcheetah-medium-replay-v2/s0/0803_1355_baseline_iql_halfcheetah-medium-replay-v2_s0/training_curve.png",
+    "/home/offrl/CAPO/results/iql/halfcheetah-medium-replay-v2/s0/0803_1355_baseline_iql_halfcheetah-medium-replay-v2_s0/training_curve_losses.png"
+  ]
+}

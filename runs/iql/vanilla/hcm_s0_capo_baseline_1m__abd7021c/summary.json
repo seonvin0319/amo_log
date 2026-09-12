@@ -1,0 +1,26 @@
+{
+  "algorithm": "iql",
+  "env": "halfcheetah-medium-v2",
+  "seed": 0,
+  "capo_mode": "teacher",
+  "best_student_score": 47.79052417251008,
+  "best_learn_score": 47.79052417251008,
+  "best_base_score": 47.79052417251008,
+  "final_eval": {
+    "step": 1000000,
+    "return_mean": 5576.330796322935,
+    "return_std": 93.85406534418188,
+    "critic_loss": 0.968262255191803,
+    "value_loss": 0.1773078739643097,
+    "actor_loss": 0.3890743851661682,
+    "bc_teacher": 0.0,
+    "has_teacher": 0.0,
+    "capo_selected_n": 0.0,
+    "student_d4rl_score": 47.172173445858945,
+    "d4rl_score": 47.172173445858945,
+    "base_d4rl_score": 47.172173445858945
+  },
+  "run_dir": "results/iql/halfcheetah-medium-v2/s0/0803_1235_baseline_iql_halfcheetah-medium-v2_s0",
+  "elapsed_sec": 2364.3545303344727,
+  "note": "student_d4rl_score is \u03b8L under teacher guidance after CAPO starts; use --no_capo for pure TD3+BC control. Certificate calibration: see capo_refresh.jsonl paired \u0394J."
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm": "iql",
+  "env": "walker2d-medium-v2",
+  "seed": 0,
+  "capo_mode": "teacher",
+  "best_student_score": 85.22156507952258,
+  "best_learn_score": 85.22156507952258,
+  "best_base_score": 85.22156507952258,
+  "final_eval": {
+    "step": 1000000,
+    "return_mean": 3798.42907875909,
+    "return_std": 55.74526807696125,
+    "critic_loss": 0.481601744890213,
+    "value_loss": 0.11571869999170303,
+    "actor_loss": 0.8702945709228516,
+    "bc_teacher": 0.0,
+    "has_teacher": 0.0,
+    "capo_selected_n": 0.0,
+    "student_d4rl_score": 82.70686523551,
+    "d4rl_score": 82.70686523551,
+    "base_d4rl_score": 82.70686523551
+  },
+  "run_dir": "results/iql/walker2d-medium-v2/s0/0803_1434_baseline_iql_walker2d-medium-v2_s0",
+  "elapsed_sec": 2464.2825317382812,
+  "note": "student_d4rl_score is \u03b8L under teacher guidance after CAPO starts; use --no_capo for pure TD3+BC control. Certificate calibration: see capo_refresh.jsonl paired \u0394J."
+}

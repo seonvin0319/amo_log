@@ -1,0 +1,45 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "summary.json",
+    "training_curve_meta.json"
+  ],
+  "collected_at": "2026-09-12T21:21:18+09:00",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
+  "family": "vanilla",
+  "git": {
+    "code_commit": null,
+    "code_repo": "CAPO"
+  },
+  "legacy_name": "0803_1116_baseline_iql_hopper-medium-expert-v2_s0",
+  "notes": "Vanilla IQL (use_capo=false) from CAPO configs/baseline_iql.yaml; checkpoints not uploaded.",
+  "protocol": "capo_baseline_iql",
+  "run_id": "hopme_s0_capo_baseline_1m__307f4125",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "algorithm": "iql",
+    "batch_size": 256,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "hopper-medium-expert-v2",
+    "eval_freq": 5000,
+    "iql_beta": 3.0,
+    "iql_tau": 0.7,
+    "max_timesteps": 1000000,
+    "n_critics": 4,
+    "normalize": true,
+    "normalize_reward": true,
+    "run_tag": "baseline",
+    "seed": 0,
+    "use_capo": false,
+    "vf_lr": 0.0003
+  },
+  "source_host": "offrl",
+  "source_path": "/home/offrl/CAPO/results/iql/hopper-medium-expert-v2/s0/0803_1116_baseline_iql_hopper-medium-expert-v2_s0",
+  "variant": "capo_baseline_1m"
+}
