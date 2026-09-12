@@ -92,6 +92,7 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `antmaze_t_init_tune` | AMO antmaze T_E×T_B init grid |
 | `aspc_rc` | TD3+BC ASPC Table 6 + Robust Critic benchmark |
 | `vanilla` | Standalone / pi_base IQL (MPI Actor0 추출 포함) |
+| `benchmark` | WPC / ASPC D4RL benchmark cohort |
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기

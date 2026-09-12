@@ -107,6 +107,24 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "kind": "mpi_iql_actor0",
         "config_root": Path("/home/choi/MPI/configs/offline/mpi"),
     },
+    {
+        # choi wPC cohort (policy_noise=0.2), cross-host seed split with svcho.
+        "algo": "wpc",
+        "root": Path("/home/choi/ASPC/results_wpc"),
+        "host": "choi",
+        "code_repo": "ASPC_cohort",
+        "family_force": "benchmark",
+        "log_dir": Path("/home/choi/ASPC/results_wpc/_logs"),
+    },
+    {
+        # choi ASPC cohort (l3_mode=aspc, policy_noise=0.2); WME s0 fresh 1M.
+        "algo": "aspc",
+        "root": Path("/home/choi/ASPC/results_aspc"),
+        "host": "choi",
+        "code_repo": "ASPC_cohort",
+        "family_force": "benchmark",
+        "log_dir": Path("/home/choi/ASPC/results_aspc/_logs"),
+    },
 ]
 
 
@@ -175,11 +193,8 @@ def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str
         if "aspc" in name or "td3bc_aspc" in name:
             return "aspc_rc"
         return "misc"
-    if algo == "aspc":
-        name = str(cfg.get("name", "")).lower()
-        if "td3bc" in name or "td3_bc" in name or "alpha" in cfg:
-            return "aspc_rc"
-        return "misc"
+    if algo in ("aspc", "wpc"):
+        return force or "benchmark"
     if algo == "amo":
         method = str(cfg.get("pi_bound_method", "secant"))
         if method == "segment_interval":
@@ -239,6 +254,14 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
     if family == "vanilla" and algo == "iql":
         # Scores extracted from MPI multi-actor Actor0 (pi_base).
         tokens.append("pi_base")
+    if algo in ("wpc", "aspc") or family == "benchmark":
+        if algo == "wpc" or "wpc" in dirname:
+            tokens.append("wpc")
+        elif algo == "aspc" or "_aspc" in dirname or dirname.endswith("aspc"):
+            tokens.append("aspc")
+            mode = str(cfg.get("l3_mode", "aspc"))
+            if mode and mode != "aspc":
+                tokens.append(mode)
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")
@@ -294,6 +317,12 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "vf_lr",
         "qf_lr",
         "n_episodes",
+        "alpha_freq",
+        "ema_alpha",
+        "loss_function",
+        "l3_mode",
+        "metrics_log_freq",
+        "save_freq",
     ]
     out = {}
     for k in keys:
@@ -316,12 +345,17 @@ def aspc_log_path(src: Path, log_dir: Optional[Path]) -> Optional[Path]:
         return None
     m = re.match(r"(td3bc_aspc_[a-z0-9]+_s\d+)-", src.name)
     if not m:
+        # wpc / aspc cohort: {short}_s{seed}_{wpc|aspc}-{env}-{uuid}
+        m = re.match(r"((?:[a-z0-9]+)_s\d+_(?:wpc|aspc))-", src.name)
+    if not m:
         # fall back to config name prefix before first '-' env chunk
         cfg = src / "config.yaml"
         if cfg.exists():
             name = str(load_yaml_lite(cfg).get("name") or "")
             # name may already include env-uuid suffix
             m2 = re.match(r"(td3bc_aspc_[a-z0-9]+_s\d+)", name)
+            if not m2:
+                m2 = re.match(r"((?:[a-z0-9]+)_s\d+_(?:wpc|aspc))", name)
             if m2:
                 candidate = log_dir / f"{m2.group(1)}.log"
                 return candidate if candidate.exists() else None

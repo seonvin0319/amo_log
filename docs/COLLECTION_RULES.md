@@ -48,6 +48,8 @@
 | `amo` | `antmaze_t_init_tune` | antmaze T_E/T_B init grid |
 | `td3bc` | `aspc_rc` | ASPC-style TD3+BC + Robust Critic (Table 6, α=2.5) |
 | `iql` | `vanilla` | Vanilla IQL. MPI-IQL Actor0/pi_base eval 추출 포함 |
+| `wpc` | `benchmark` | WPC baseline (ASPC-repo), policy_noise=0.2 cohort |
+| `aspc` | `benchmark` | ASPC (`l3_mode=aspc`), policy_noise=0.2 cohort |
 
 새 family를 만들 때는 `docs/NAMING.md`에 한 줄 추가하고, ingest 매핑 테이블을 갱신한다.
 
