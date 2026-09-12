@@ -5,8 +5,8 @@
     "metrics.jsonl",
     "config.yaml"
   ],
-  "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9/checkpoint_999999.pt",
-  "collected_at": "2026-09-12T11:18:49+09:00",
+  "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9/checkpoint_999999.pt",
+  "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "t_path_schedule",
@@ -48,6 +48,6 @@
     "tau": 0.005
   },
   "source_host": "svcho",
-  "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9",
+  "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_quadup_1to10_1m-hopper-medium-v2-343002d9",
   "variant": "Tpath_quadratic_up_1.0to10.0"
 }

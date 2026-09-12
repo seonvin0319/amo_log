@@ -5,19 +5,19 @@
     "metrics.jsonl",
     "config.yaml"
   ],
-  "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d/checkpoint_999999.pt",
+  "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5/checkpoint_999999.pt",
   "collected_at": "2026-09-12T22:59:46+09:00",
-  "env": "hopper-medium-v2",
-  "env_short": "hopm",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
   "family": "t_path_schedule",
-  "final_score": 65.41600009525611,
+  "final_score": 110.08396315888452,
   "git": {
     "code_commit": null,
     "code_repo": "AMO-t-path-linear-vs-quadratic"
   },
   "last_eval_step": 1000000,
-  "legacy_name": "hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d",
-  "run_id": "hopm_s0_Tpath_step100k_10.0to1.0__1b83cb4d",
+  "legacy_name": "hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5",
+  "run_id": "hopme_s0_Tpath_step100k_10.0to1.0__51988ac5",
   "seed": 0,
   "settings": {
     "T_B": 10.0,
@@ -31,11 +31,11 @@
     "adaptive_multiscale": true,
     "batch_size": 256,
     "discount": 0.99,
-    "env": "hopper-medium-v2",
+    "env": "hopper-medium-expert-v2",
     "eval_freq": 5000,
     "group": "t-path-linear-vs-quadratic",
     "max_timesteps": 1000000,
-    "name": "hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d",
+    "name": "hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5",
     "noise_clip": 0.5,
     "normalize": true,
     "normalize_reward": false,
@@ -48,6 +48,6 @@
     "tau": 0.005
   },
   "source_host": "svcho",
-  "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopm_s0_Tpath_step100k_10to1_1m-hopper-medium-v2-1b83cb4d",
+  "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopme_s0_Tpath_step100k_10to1_1m-hopper-medium-expert-v2-51988ac5",
   "variant": "Tpath_step100k_10.0to1.0"
 }

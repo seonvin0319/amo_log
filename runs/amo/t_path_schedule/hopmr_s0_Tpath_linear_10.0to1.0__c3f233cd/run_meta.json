@@ -5,17 +5,17 @@
     "metrics.jsonl",
     "config.yaml"
   ],
-  "checkpoint_hint": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd/checkpoint_999999.pt",
-  "collected_at": "2026-09-12T11:18:49+09:00",
+  "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd/checkpoint_999999.pt",
+  "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "t_path_schedule",
-  "final_score": 62.699953100646766,
+  "final_score": 32.797264507570056,
   "git": {
     "code_commit": null,
     "code_repo": "AMO-t-path-linear-vs-quadratic"
   },
-  "last_eval_step": 430000,
+  "last_eval_step": 1000000,
   "legacy_name": "hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd",
   "run_id": "hopmr_s0_Tpath_linear_10.0to1.0__c3f233cd",
   "seed": 0,
@@ -48,6 +48,6 @@
     "tau": 0.005
   },
   "source_host": "svcho",
-  "source_path": "/home/svcho/AMO-t-path-linear-vs-quadratic/results/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd",
+  "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hopmr_s0_Tpath_linear_10to1_1m-hopper-medium-replay-v2-c3f233cd",
   "variant": "Tpath_linear_10.0to1.0"
 }
