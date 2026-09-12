@@ -2,20 +2,23 @@
   "algo": "wpc",
   "artifacts": [
     "config.yaml",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.json",
+    "final_eval_50.jsonl"
   ],
   "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-halfcheetah-medium-v2-a07156cf/checkpoint_999999.pt",
-  "collected_at": "2026-09-13T00:51:01+09:00",
+  "collected_at": "2026-09-13T01:42:07+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "benchmark",
-  "final_score": 54.82520256600526,
+  "final_eval_50_score": 54.78173145130327,
+  "final_score": 54.78173145130327,
   "git": {
     "code_commit": "3119fbefd99ed73134ba26a4db7caf3315cc2250",
     "code_remote": "https://github.com/Colin-Jing/ASPC.git",
     "code_repo": "ASPC"
   },
-  "last_eval_step": 1000000,
+  "last_eval_step": 999999,
   "legacy_name": "wpc_s3-halfcheetah-medium-v2-a07156cf",
   "run_id": "hcm_s3_wpc_benchmark_1m__fc941e4c",
   "seed": 3,
