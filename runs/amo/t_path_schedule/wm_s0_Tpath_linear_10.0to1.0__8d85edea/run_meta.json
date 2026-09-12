@@ -5,28 +5,28 @@
     "metrics.jsonl",
     "config.yaml"
   ],
-  "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b/checkpoint_999999.pt",
+  "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea/checkpoint_999999.pt",
   "collected_at": "2026-09-12T22:59:46+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "t_path_schedule",
-  "final_score": 91.85810213546678,
+  "final_score": 79.63797096363359,
   "git": {
     "code_commit": null,
     "code_repo": "AMO-t-path-linear-vs-quadratic"
   },
   "last_eval_step": 1000000,
-  "legacy_name": "wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b",
-  "run_id": "wm_s0_Tpath_linear_1.0to10.0__c8b1a97b",
+  "legacy_name": "wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea",
+  "run_id": "wm_s0_Tpath_linear_10.0to1.0__8d85edea",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
+    "T_B": 10.0,
+    "T_E": 10.0,
     "T_freq": 10,
     "T_lr": 0.0002,
     "T_schedule": "linear",
-    "T_schedule_end": 10.0,
-    "T_schedule_start": 1.0,
+    "T_schedule_end": 1.0,
+    "T_schedule_start": 10.0,
     "T_schedule_steps": 1000000,
     "adaptive_multiscale": true,
     "batch_size": 256,
@@ -35,7 +35,7 @@
     "eval_freq": 5000,
     "group": "t-path-linear-vs-quadratic",
     "max_timesteps": 1000000,
-    "name": "wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b",
+    "name": "wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea",
     "noise_clip": 0.5,
     "normalize": true,
     "normalize_reward": false,
@@ -48,6 +48,6 @@
     "tau": 0.005
   },
   "source_host": "svcho",
-  "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_1to10_1m-walker2d-medium-v2-c8b1a97b",
-  "variant": "Tpath_linear_1.0to10.0"
+  "source_path": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/wm_s0_Tpath_linear_10to1_1m-walker2d-medium-v2-8d85edea",
+  "variant": "Tpath_linear_10.0to1.0"
 }
