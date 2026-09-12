@@ -6,7 +6,7 @@
     "summary.json"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/walker2d-medium-v2/seed0/s0-walker2d-medium-v2-bb60abff",
-  "collected_at": "2026-09-12T13:03:50+00:00",
+  "collected_at": "2026-09-12T13:09:04+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "paper_benchmark",
