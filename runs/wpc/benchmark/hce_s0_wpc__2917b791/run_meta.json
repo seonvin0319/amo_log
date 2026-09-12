@@ -1,0 +1,39 @@
+{
+  "algo": "wpc",
+  "artifacts": [
+    "config.yaml"
+  ],
+  "collected_at": "2026-09-12T14:14:27+09:00",
+  "env": "halfcheetah-expert-v2",
+  "env_short": "hce",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "ce_s0_wpc-halfcheetah-expert-v2-2917b791",
+  "run_id": "hce_s0_wpc__2917b791",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "halfcheetah-expert-v2",
+    "eval_freq": 20000,
+    "group": "wpc_locomotion",
+    "last_metrics_step": 1000000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_WPC_FULL",
+    "score_source": "/home/shchoi/ASPC/results_wpc/_logs/ce_s0_wpc.log",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_wpc/ce_s0_wpc-halfcheetah-expert-v2-2917b791",
+  "variant": "wpc"
+}

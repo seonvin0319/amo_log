@@ -1,0 +1,43 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:14:28+09:00",
+  "env": "hopper-medium-replay-v2",
+  "env_short": "hopmr",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "hmr_s0_pi_no_l2-hopper-medium-replay-v2-fe2ca513",
+  "run_id": "hopmr_s0_pi_no_l2_incomplete__fe2ca513",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "hopper-medium-replay-v2",
+    "eval_freq": 20000,
+    "group": "pi_no_l2",
+    "l3_mode": "pi_local",
+    "last_metrics_step": 879400,
+    "loss_function": 3,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_pi_l3/hmr_s0_pi_no_l2-hopper-medium-replay-v2-fe2ca513",
+  "variant": "pi_no_l2_incomplete"
+}

@@ -101,7 +101,7 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `jax_td3bc` | JAX TD3+BC baseline (AMO 꺼짐) |
 | `rebrac_amo` | PyTorch AMO + ReBRAC critic BC |
 | `amo_td3bc` | PyTorch AMO, T_E maximizes Q_1_target(s, π+) |
-| `benchmark` | ASPC D4RL benchmark (`algo=aspc`, variant `aspc`) |
+| `benchmark` | ASPC/WPC D4RL benchmark (`algo=aspc|wpc`; variant = `l3_mode` / `wpc`) |
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기

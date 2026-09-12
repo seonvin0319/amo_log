@@ -1,0 +1,39 @@
+{
+  "algo": "wpc",
+  "artifacts": [
+    "config.yaml"
+  ],
+  "collected_at": "2026-09-12T14:14:27+09:00",
+  "env": "antmaze-large-diverse-v2",
+  "env_short": "amld",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "ald_s1_wpc-antmaze-large-diverse-v2-2f90a2c3",
+  "run_id": "amld_s1_wpc__2f90a2c3",
+  "seed": 1,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-large-diverse-v2",
+    "eval_freq": 20000,
+    "group": "wpc_antmaze",
+    "last_metrics_step": 1000000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_WPC_FULL",
+    "score_source": "/home/shchoi/ASPC/results_wpc/_logs/ald_s1_wpc.log",
+    "seed": 1,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_wpc/ald_s1_wpc-antmaze-large-diverse-v2-2f90a2c3",
+  "variant": "wpc"
+}

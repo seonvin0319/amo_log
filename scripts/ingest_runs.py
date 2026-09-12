@@ -150,14 +150,30 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "benchmark",
         "dirname_contains": "_aspc-",
     },
-    # seed0 locomotion ASPC completed before the full sweep
+    # WPC baseline (same ASPC_WPC_FULL sweep); scores recovered from _logs/
+    {
+        "algo": "wpc",
+        "root": Path("/home/shchoi/ASPC/results_wpc"),
+        "host": "shchoi",
+        "code_repo": "ASPC",
+        "family_force": "benchmark",
+        "dirname_contains": "_wpc-",
+    },
+    # ASPC-repo L3 / multiscale / ablation runs (aspc.py modes)
     {
         "algo": "aspc",
         "root": Path("/home/shchoi/ASPC/results_pi_l3"),
         "host": "shchoi",
         "code_repo": "ASPC",
         "family_force": "benchmark",
-        "dirname_contains": "_aspc-",
+    },
+    {
+        "algo": "aspc",
+        "root": Path("/home/shchoi/ASPC/results_multiscale"),
+        "host": "shchoi",
+        "code_repo": "ASPC",
+        "family_force": "benchmark",
+        "dirname_contains": "_multiscale-",
     },
 ]
 
@@ -356,7 +372,7 @@ def write_eval_jsonl(metrics_path: Path, dest: Path) -> bool:
 def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str:
     if force:
         return force
-    if algo == "aspc":
+    if algo in ("aspc", "wpc"):
         return "benchmark"
     if algo == "amo":
         if cfg.get("use_amo_v3b"):
@@ -454,8 +470,22 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
                 tokens.append(
                     "TB" + f"{tb_f:g}".replace(".", "p").replace("-", "m")
                 )
-    if family == "benchmark" and algo == "aspc":
-        tokens.append("aspc")
+    if family == "benchmark" and algo in ("aspc", "wpc"):
+        # Prefer dirname tag (distinguishes pi_no_l2 from pi_local).
+        m = re.search(
+            r"_(aspc|wpc|multiscale|pi_local|pi_only|pi_raw|pi_no_l2)-",
+            dirname,
+        )
+        if m:
+            tokens.append(m.group(1))
+        else:
+            mode = str(cfg.get("l3_mode") or "").strip()
+            if mode:
+                tokens.append(
+                    re.sub(r"[^0-9a-zA-Z]+", "_", mode).strip("_") or algo
+                )
+            else:
+                tokens.append(algo)
     if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
         if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
             tokens.append("smoke")
@@ -551,6 +581,65 @@ def discover_run_dirs(
     return dirs
 
 
+def wpc_log_path(src: Path) -> Optional[Path]:
+    m = re.match(r"(.+_wpc)-", src.name)
+    if not m:
+        return None
+    candidate = src.parent / "_logs" / f"{m.group(1)}.log"
+    return candidate if candidate.exists() else None
+
+
+def parse_wpc_eval_log(log_path: Path) -> List[Dict[str, Any]]:
+    """Recover eval curve from WPC stdout logs (no metrics.jsonl on disk)."""
+    step_re = re.compile(r"Time steps:\s*(\d+)")
+    score_re = re.compile(r"D4RL score:\s*([0-9.]+)")
+    ret_re = re.compile(r"Evaluation over\s+\d+\s+episodes:\s*([0-9.]+)")
+    by_step: Dict[int, Dict[str, Any]] = {}
+    pending_step: Optional[int] = None
+    pending_return: Optional[float] = None
+    for line in log_path.read_text(errors="ignore").splitlines():
+        m = step_re.search(line)
+        if m:
+            pending_step = int(m.group(1))
+            pending_return = None
+            continue
+        m = ret_re.search(line)
+        if m:
+            pending_return = float(m.group(1))
+            continue
+        m = score_re.search(line)
+        if m and pending_step is not None:
+            rec: Dict[str, Any] = {
+                "step": pending_step,
+                "t": pending_step,
+                "d4rl_normalized_score": float(m.group(1)),
+            }
+            if pending_return is not None:
+                rec["eval_return"] = pending_return
+            by_step[pending_step] = rec
+            pending_step = None
+            pending_return = None
+    return [by_step[k] for k in sorted(by_step)]
+
+
+def last_eval_step(path: Path) -> Optional[int]:
+    rows = []
+    if path.exists():
+        for line in path.read_text(errors="ignore").splitlines():
+            if not line.strip():
+                continue
+            try:
+                rows.append(json.loads(line))
+            except json.JSONDecodeError:
+                pass
+    if not rows:
+        return None
+    try:
+        return int(rows[-1].get("step", 0) or 0)
+    except (TypeError, ValueError):
+        return None
+
+
 def ingest_one(
     src: Path,
     algo: str,
@@ -577,6 +666,16 @@ def ingest_one(
     family = classify_family(algo, cfg, family_force)
     variant = build_variant(algo, family, cfg, src.name)
     last_step = last_metrics_step(src / "metrics.jsonl")
+    if last_step is None and (src / "eval.jsonl").exists():
+        last_step = last_eval_step(src / "eval.jsonl")
+    synthesized_eval: Optional[List[Dict[str, Any]]] = None
+    log_path = wpc_log_path(src) if algo == "wpc" else None
+    if algo == "wpc" and not (src / "eval.jsonl").exists() and log_path is not None:
+        synthesized_eval = parse_wpc_eval_log(log_path)
+        if synthesized_eval and last_step is None:
+            last_step = int(synthesized_eval[-1]["step"])
+    if last_step is None and (src / "checkpoint_999999.pt").exists():
+        last_step = 1_000_000
     summary_status = None
     summary_path = src / "summary.json"
     if summary_path.exists():
@@ -591,7 +690,7 @@ def ingest_one(
         and max_t > 0
         and summary_status != "complete"
         and last_step < max_t - eval_freq
-        and (kind == "jax" or algo == "aspc")
+        and (kind == "jax" or algo in ("aspc", "wpc"))
     )
     if incomplete and "incomplete" not in variant.split("_"):
         variant = f"{variant}_incomplete"
@@ -612,6 +711,16 @@ def ingest_one(
             and dest_metrics.stat().st_size >= src_metrics.stat().st_size
         ):
             print(f"SKIP {dest.relative_to(ROOT)} step={dest_step}", flush=True)
+            return None
+    # WPC/config-only: skip if dest already has equal-or-newer eval
+    if (
+        not src_metrics.exists()
+        and (dest / "eval.jsonl").exists()
+        and last_step is not None
+    ):
+        dest_eval_step = last_eval_step(dest / "eval.jsonl")
+        if dest_eval_step is not None and dest_eval_step >= last_step:
+            print(f"SKIP {dest.relative_to(ROOT)} eval_step={dest_eval_step}", flush=True)
             return None
 
     artifacts = [f for f in KEEP_FILES if (src / f).exists()]
@@ -637,6 +746,8 @@ def ingest_one(
         meta["settings"]["source_status"] = summary_status
     if kind == "jax":
         meta["checkpoint_hint"] = str(src.resolve())
+    if log_path is not None:
+        meta["settings"]["score_source"] = str(log_path.resolve())
 
     if dry_run:
         print(f"DRY {src} -> {dest.relative_to(ROOT)}")
@@ -653,6 +764,11 @@ def ingest_one(
     else:
         for name in artifacts:
             shutil.copy2(src / name, dest / name)
+        if synthesized_eval and "eval.jsonl" not in artifacts:
+            (dest / "eval.jsonl").write_text(
+                "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in synthesized_eval)
+            )
+            meta["artifacts"].append("eval.jsonl")
     for extra in ("launch_cmd.txt", "notes.md"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)

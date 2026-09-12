@@ -1,0 +1,43 @@
+{
+  "algo": "aspc",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-12T14:14:27+09:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC"
+  },
+  "legacy_name": "cm_s0_pi_only-halfcheetah-medium-v2-ed644028",
+  "run_id": "hcm_s0_pi_only__ed644028",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 20000,
+    "group": "pi_only",
+    "l3_mode": "pi_only",
+    "last_metrics_step": 1000000,
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/ASPC/results_pi_l3/cm_s0_pi_only-halfcheetah-medium-v2-ed644028",
+  "variant": "pi_only"
+}
