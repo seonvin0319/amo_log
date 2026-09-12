@@ -6,14 +6,24 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.json"
       ],
       "checkpoint_hint": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-ld_s0-antmaze-large-diverse-v2-14647b84",
       "collected_at": "2026-09-12T16:12:32+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
-      "final_score": 10.0,
+      "final_eval_50": {
+        "d4rl_normalized_score": 8.0,
+        "eval_return": 0.08,
+        "group_mean": 8.0,
+        "group_std": 10.954451150103322,
+        "n_episodes": 50,
+        "protocol": "5 groups x 10 episodes",
+        "source_final_eval_50": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-ld_s0-antmaze-large-diverse-v2-14647b84/final_eval_50.json"
+      },
+      "final_score": 8.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -53,14 +63,24 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.json"
       ],
       "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-ld_s0_tlr2e-3_te1_tb1-antmaze-large-diverse-v2-1576d8fa",
       "collected_at": "2026-09-12T16:12:31+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
-      "final_score": 30.0,
+      "final_eval_50": {
+        "d4rl_normalized_score": 18.0,
+        "eval_return": 0.18,
+        "group_mean": 18.0,
+        "group_std": 4.47213595499958,
+        "n_episodes": 50,
+        "protocol": "5 groups x 10 episodes",
+        "source_final_eval_50": "/home/ext_csh/AMO-antmaze-bpi-tlr-init-sweep/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-ld_s0_tlr2e-3_te1_tb1-antmaze-large-diverse-v2-1576d8fa/final_eval_50.json"
+      },
+      "final_score": 18.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -149,14 +169,24 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.json"
       ],
       "checkpoint_hint": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-lp_s0-antmaze-large-play-v2-3d4cb5df",
       "collected_at": "2026-09-12T16:12:32+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
-      "final_score": 10.0,
+      "final_eval_50": {
+        "d4rl_normalized_score": 18.0,
+        "eval_return": 0.18,
+        "group_mean": 18.0,
+        "group_std": 8.366600265340756,
+        "n_episodes": 50,
+        "protocol": "5 groups x 10 episodes",
+        "source_final_eval_50": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-lp_s0-antmaze-large-play-v2-3d4cb5df/final_eval_50.json"
+      },
+      "final_score": 18.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -196,14 +226,24 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.json"
       ],
       "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-lp_s0_tlr2e-3_te1_tb1-antmaze-large-play-v2-e58298ee",
       "collected_at": "2026-09-12T16:12:31+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
-      "final_score": 40.0,
+      "final_eval_50": {
+        "d4rl_normalized_score": 28.000000000000004,
+        "eval_return": 0.28,
+        "group_mean": 28.0,
+        "group_std": 13.038404810405298,
+        "n_episodes": 50,
+        "protocol": "5 groups x 10 episodes",
+        "source_final_eval_50": "/home/ext_csh/AMO-antmaze-bpi-tlr-init-sweep/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-lp_s0_tlr2e-3_te1_tb1-antmaze-large-play-v2-e58298ee/final_eval_50.json"
+      },
+      "final_score": 28.000000000000004,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -244,14 +284,24 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.json"
       ],
       "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te5_tb5/runs/amo_adaptive_multiscale_am-lp_s0_tlr2e-3_te5_tb5-antmaze-large-play-v2-a5e5361e",
       "collected_at": "2026-09-12T16:12:31+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
-      "final_score": 20.0,
+      "final_eval_50": {
+        "d4rl_normalized_score": 16.0,
+        "eval_return": 0.16,
+        "group_mean": 16.0,
+        "group_std": 13.416407864998739,
+        "n_episodes": 50,
+        "protocol": "5 groups x 10 episodes",
+        "source_final_eval_50": "/home/ext_csh/AMO-antmaze-bpi-tlr-init-sweep/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te5_tb5/runs/amo_adaptive_multiscale_am-lp_s0_tlr2e-3_te5_tb5-antmaze-large-play-v2-a5e5361e/final_eval_50.json"
+      },
+      "final_score": 16.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -340,14 +390,24 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
-        "eval.jsonl"
+        "eval.jsonl",
+        "final_eval_50.json"
       ],
       "checkpoint_hint": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-md_s0-antmaze-medium-diverse-v2-aa94b452",
       "collected_at": "2026-09-12T16:12:32+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
-      "final_score": 20.0,
+      "final_eval_50": {
+        "d4rl_normalized_score": 22.0,
+        "eval_return": 0.22,
+        "group_mean": 22.0,
+        "group_std": 14.832396974191326,
+        "n_episodes": 50,
+        "protocol": "5 groups x 10 episodes",
+        "source_final_eval_50": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-md_s0-antmaze-medium-diverse-v2-aa94b452/final_eval_50.json"
+      },
+      "final_score": 22.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"

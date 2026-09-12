@@ -3,7 +3,8 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.json"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-lp_s0_tlr2e-3_te1_tb1-antmaze-large-play-v2-e58298ee",
   "collected_at": "2026-09-12T16:12:31+00:00",
@@ -40,5 +41,14 @@
   },
   "source_host": "ext_csh",
   "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-lp_s0_tlr2e-3_te1_tb1-antmaze-large-play-v2-e58298ee",
-  "variant": "te1_tb1_Tlr0p002"
+  "variant": "te1_tb1_Tlr0p002",
+  "final_eval_50": {
+    "d4rl_normalized_score": 28.000000000000004,
+    "eval_return": 0.28,
+    "group_mean": 28.0,
+    "group_std": 13.038404810405298,
+    "n_episodes": 50,
+    "protocol": "5 groups x 10 episodes",
+    "source_final_eval_50": "/home/ext_csh/AMO-antmaze-bpi-tlr-init-sweep/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_am-lp_s0_tlr2e-3_te1_tb1-antmaze-large-play-v2-e58298ee/final_eval_50.json"
+  }
 }

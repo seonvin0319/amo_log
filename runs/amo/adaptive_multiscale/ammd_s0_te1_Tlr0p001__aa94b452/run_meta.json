@@ -3,7 +3,8 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "final_eval_50.json"
   ],
   "checkpoint_hint": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-md_s0-antmaze-medium-diverse-v2-aa94b452",
   "collected_at": "2026-09-12T16:12:32+00:00",
@@ -39,5 +40,14 @@
   },
   "source_host": "ext_csh",
   "source_path": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-md_s0-antmaze-medium-diverse-v2-aa94b452",
-  "variant": "te1_Tlr0p001"
+  "variant": "te1_Tlr0p001",
+  "final_eval_50": {
+    "d4rl_normalized_score": 22.0,
+    "eval_return": 0.22,
+    "group_mean": 22.0,
+    "group_std": 14.832396974191326,
+    "n_episodes": 50,
+    "protocol": "5 groups x 10 episodes",
+    "source_final_eval_50": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-md_s0-antmaze-medium-diverse-v2-aa94b452/final_eval_50.json"
+  }
 }

@@ -1,0 +1,47 @@
+{
+  "env": "antmaze-medium-diverse-v2",
+  "short": "antmaze-medium-diverse-v2",
+  "run_dir": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-md_s0-antmaze-medium-diverse-v2-aa94b452",
+  "checkpoint": "/home/ext_csh/AMO-a8c1e48-te1tb1/results/amo_antmaze6_s0_tlr1e-3_te1_tb_div2/runs/amo_adaptive_multiscale_am-md_s0-antmaze-medium-diverse-v2-aa94b452/checkpoint_999999.pt",
+  "n_groups": 5,
+  "n_episodes_per_group": 10,
+  "n_episodes_total": 50,
+  "groups": [
+    {
+      "seed": 0,
+      "n_episodes": 10,
+      "eval_return": 0.2,
+      "d4rl_normalized_score": 20.0
+    },
+    {
+      "seed": 1,
+      "n_episodes": 10,
+      "eval_return": 0.0,
+      "d4rl_normalized_score": 0.0
+    },
+    {
+      "seed": 2,
+      "n_episodes": 10,
+      "eval_return": 0.4,
+      "d4rl_normalized_score": 40.0
+    },
+    {
+      "seed": 3,
+      "n_episodes": 10,
+      "eval_return": 0.2,
+      "d4rl_normalized_score": 20.0
+    },
+    {
+      "seed": 4,
+      "n_episodes": 10,
+      "eval_return": 0.3,
+      "d4rl_normalized_score": 30.0
+    }
+  ],
+  "d4rl_normalized_score": 22.0,
+  "eval_return": 0.22,
+  "group_mean": 22.0,
+  "group_std": 14.832396974191326,
+  "train_last_10ep": 20.0,
+  "seed0_10ep": 20.0
+}
