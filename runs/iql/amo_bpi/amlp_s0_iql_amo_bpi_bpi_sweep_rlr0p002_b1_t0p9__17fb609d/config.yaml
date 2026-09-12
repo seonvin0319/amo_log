@@ -51,7 +51,7 @@ cli:
   device: cuda:0
   dataset_path: /home/ext_csh/.d4rl/datasets/Ant_maze_hardest-maze_noisy_multistart_True_multigoal_False_sparse_fixed.hdf5
   output_dir: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-large-play-v2
-  resume: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-large-play-v2/checkpoint_100000.pt
+  resume: /home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-large-play-v2/checkpoint_750000.pt
   mode: train
   checkpoint: ''
   max_timesteps: null
