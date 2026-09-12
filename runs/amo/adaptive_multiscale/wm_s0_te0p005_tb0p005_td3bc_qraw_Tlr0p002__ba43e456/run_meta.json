@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te0.005_tb0.005_td3bc_critic_qraw/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-ba43e456",
-  "collected_at": "2026-09-12T07:59:49+00:00",
+  "collected_at": "2026-09-12T08:05:03+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "adaptive_multiscale",
