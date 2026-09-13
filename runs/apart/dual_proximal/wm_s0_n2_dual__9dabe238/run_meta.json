@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-13T09:30:02+09:00",
+  "collected_at": "2026-09-13T09:40:01+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "dual_proximal",
