@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **185**
+Total runs: **186**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -116,7 +116,8 @@ Total runs: **185**
 | iql | vanilla | `hopmr_s0_pi_base__5b989a7a` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.80 | `runs/iql/vanilla/hopmr_s0_pi_base__5b989a7a` |
 | iql | vanilla | `hopm_s0_pi_base__2ba4840d` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 66.70 | `runs/iql/vanilla/hopm_s0_pi_base__2ba4840d` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__825a40bc` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__825a40bc` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__999b0074` | unknown | 0 | — | 980000 | 70.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__999b0074` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__999b0074` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__999b0074` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__d7d9a642` | unknown | 0 | — | 320000 | 40.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d7d9a642` |
 | iql | vanilla | `wme_s0_pi_base__c39ecd24` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.70 | `runs/iql/vanilla/wme_s0_pi_base__c39ecd24` |
 | iql | vanilla | `wmr_s0_pi_base__5284a370` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 82.00 | `runs/iql/vanilla/wmr_s0_pi_base__5284a370` |
 | iql | vanilla | `wm_s0_pi_base__245350fc` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 84.00 | `runs/iql/vanilla/wm_s0_pi_base__245350fc` |

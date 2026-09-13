@@ -47,3 +47,4 @@
 {"step": 940000, "return_mean": 0.6, "normalized_score": 60.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [0.6], "eval_seed": 1, "seed_stride": 1}
 {"step": 960000, "return_mean": 0.7, "normalized_score": 70.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [0.7], "eval_seed": 1, "seed_stride": 1}
 {"step": 980000, "return_mean": 0.7, "normalized_score": 70.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [0.7], "eval_seed": 1, "seed_stride": 1}
+{"step": 1000000, "return_mean": 0.88, "normalized_score": 88.0, "episodes": 50, "episodes_per_repeat": 50, "repeats": 1, "repeat_returns": [0.88], "eval_seed": 1, "seed_stride": 1}
