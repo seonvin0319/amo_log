@@ -5,18 +5,18 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te5_Tb5_Tlr0p0003_s0-halfcheetah-medium-expert-v2-dac7e83d",
-  "collected_at": "2026-09-13T02:35:21+00:00",
-  "env": "halfcheetah-medium-expert-v2",
-  "env_short": "hme",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-me_Te5_Tb5_Tlr0p0003_s1-walker2d-medium-expert-v2-555e9685",
+  "collected_at": "2026-09-13T02:35:22+00:00",
+  "env": "walker2d-medium-expert-v2",
+  "env_short": "wme",
   "family": "adaptive_multiscale",
   "git": {
     "code_commit": "30abcfcfbc62b892c6c0a7d0763c1c8323154d11",
     "code_repo": "AMO-lambda0-te-tb"
   },
-  "legacy_name": "amo_ams_hc-me_Te5_Tb5_Tlr0p0003_s0-halfcheetah-medium-expert-v2-dac7e83d",
-  "run_id": "hme_s0_te5_tb5_Tlr0p0003__dac7e83d",
-  "seed": 0,
+  "legacy_name": "amo_ams_w-me_Te5_Tb5_Tlr0p0003_s1-walker2d-medium-expert-v2-555e9685",
+  "run_id": "wme_s1_te5_tb5_Tlr0p0003__555e9685",
+  "seed": 1,
   "settings": {
     "T_B": 5.0,
     "T_E": 5.0,
@@ -28,8 +28,8 @@
     "critic_layernorm": true,
     "critic_n_hiddens": 3,
     "discount": 0.99,
-    "env": "halfcheetah-medium-expert-v2",
-    "eval_freq": 5000,
+    "env": "walker2d-medium-expert-v2",
+    "eval_freq": 20000,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
     "normalize": true,
@@ -37,12 +37,12 @@
     "policy_freq": 2,
     "policy_noise": 0.2,
     "proximal_n_steps": 1,
-    "seed": 0,
+    "seed": 1,
     "smoothness_eps": 1e-06,
     "tau": 0.005
   },
   "source_config": "config.yaml",
   "source_host": "ext_csv",
-  "source_path": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te5_Tb5_Tlr0p0003_s0-halfcheetah-medium-expert-v2-dac7e83d",
+  "source_path": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-me_Te5_Tb5_Tlr0p0003_s1-walker2d-medium-expert-v2-555e9685",
   "variant": "te5_tb5_Tlr0p0003"
 }
