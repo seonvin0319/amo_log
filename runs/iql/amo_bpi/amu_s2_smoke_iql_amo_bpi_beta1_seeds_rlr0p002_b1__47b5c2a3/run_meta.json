@@ -1,0 +1,43 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "cell": "s2",
+  "checkpoint_hint": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-v2",
+  "collected_at": "2026-09-13T20:39:20+00:00",
+  "env": "antmaze-umaze-v2",
+  "env_short": "amu",
+  "family": "amo_bpi",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO_release"
+  },
+  "legacy_name": "antmaze-umaze-v2",
+  "protocol": "jax_iql_amo_bpi_v1",
+  "run_id": "amu_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__47b5c2a3",
+  "seed": 2,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "beta_initial": 1.0,
+    "critic_layernorm": false,
+    "discount": 0.99,
+    "env": "antmaze-umaze-v2",
+    "eval_freq": 20000,
+    "meta_interval": 20,
+    "meta_warmup_steps": 100000,
+    "normalize": true,
+    "policy_freq": 1,
+    "rho_lr": 0.002,
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005,
+    "weight_cap": 100.0
+  },
+  "source_host": "ext_csh",
+  "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-v2",
+  "variant": "smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1"
+}
