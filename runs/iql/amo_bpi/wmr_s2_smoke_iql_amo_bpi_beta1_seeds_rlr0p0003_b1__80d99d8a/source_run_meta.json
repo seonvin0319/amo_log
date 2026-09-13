@@ -1,0 +1,10 @@
+{
+  "algorithm": "iql_amo",
+  "backend": "jax",
+  "env": "walker2d-medium-replay-v2",
+  "seed": 2,
+  "dataset_sha256": "c097ab2a7a527de70ba83721c74e97e9d7a1c1837516a17e83fea089b94f3295",
+  "python": "3.10.20",
+  "device": "cuda:0",
+  "replay_device": "cpu"
+}
