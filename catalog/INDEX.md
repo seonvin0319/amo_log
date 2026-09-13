@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **184**
+Total runs: **186**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -170,10 +170,11 @@ Total runs: **184**
 | amo | behavior_bc_l1_joint | `hopme_s0_joint_te4_l1e_1m_Tlr0p0001__f1184e87` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.94 | `runs/amo/behavior_bc_l1_joint/hopme_s0_joint_te4_l1e_1m_Tlr0p0001__f1184e87` |
 | amo | behavior_bc_l1_joint | `hopm_s0_joint_te4_l1e_1m_Tlr0p0001__8506951f` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 78.19 | `runs/amo/behavior_bc_l1_joint/hopm_s0_joint_te4_l1e_1m_Tlr0p0001__8506951f` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__0d3a2c31` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__0d3a2c31` |
-| td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__2ab16251` | unknown | 0 | 1000000 | 240000 | 95.00 | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__2ab16251` |
+| td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__2ab16251` | unknown | 0 | 1000000 | 600000 | 95.95 | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__2ab16251` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__3fc350b0` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__3fc350b0` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__46cc470a` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__46cc470a` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__4c87df69` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__4c87df69` |
+| td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__4f9e3fa5` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__4f9e3fa5` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__61354335` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__61354335` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__6839b1d7` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__6839b1d7` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__7baff2a1` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__7baff2a1` |
@@ -183,8 +184,9 @@ Total runs: **184**
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__b3871a7e` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__b3871a7e` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__b7140194` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__b7140194` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__bb0e4f6b` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__bb0e4f6b` |
-| td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__d9e6219f` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__d9e6219f` |
+| td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__d9e6219f` | unknown | 0 | 1000000 | 260000 | 94.08 | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__d9e6219f` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__df1ca886` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__df1ca886` |
+| td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__e0f17f06` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__e0f17f06` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__f57fbdb0` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__f57fbdb0` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__fc380fe7` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__fc380fe7` |
 | td3_amo | td3_amo_jax | `unknown_s0_Tlr0p001__fc411eda` | unknown | 0 | 1000000 | — | — | `runs/td3_amo/td3_amo_jax/unknown_s0_Tlr0p001__fc411eda` |
