@@ -5,7 +5,7 @@
     "metrics.jsonl"
   ],
   "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr3e-04_t1_s2",
-  "collected_at": "2026-09-13T23:31:42+09:00",
+  "collected_at": "2026-09-13T23:35:23+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "adaptive_multiscale",
@@ -26,7 +26,7 @@
     "discount": 0.99,
     "env": "antmaze-large-play-v2",
     "eval_freq": 20000,
-    "last_metrics_step": 396800,
+    "last_metrics_step": 592800,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
     "normalize": true,
