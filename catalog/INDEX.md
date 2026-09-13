@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **473**
+Total runs: **477**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -385,6 +385,7 @@ Total runs: **473**
 | iql | amo_bpi | `hopme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__171359eb` | hopper-medium-expert-v2 | 0 | — | 1000000 | 109.13 | `runs/iql/amo_bpi/hopme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__171359eb` |
 | iql | amo_bpi | `hopme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__6d7d83ae` | hopper-medium-expert-v2 | 0 | — | 1000000 | 111.70 | `runs/iql/amo_bpi/hopme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__6d7d83ae` |
 | iql | amo_bpi | `hopme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ad2e32f8` | hopper-medium-expert-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ad2e32f8` |
+| iql | amo_bpi | `hopme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ad2e32f8` | hopper-medium-expert-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ad2e32f8` |
 | iql | amo_bpi | `hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e0a8b8ce` | hopper-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e0a8b8ce` |
 | iql | amo_bpi | `hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__eb8f022c` | hopper-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__eb8f022c` |
 | iql | amo_bpi | `hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__754eba12` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__754eba12` |
@@ -394,6 +395,7 @@ Total runs: **473**
 | iql | amo_bpi | `hopmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__04d5338e` | hopper-medium-replay-v2 | 0 | — | 1000000 | 87.85 | `runs/iql/amo_bpi/hopmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__04d5338e` |
 | iql | amo_bpi | `hopmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__f8d9dcb6` | hopper-medium-replay-v2 | 0 | — | 1000000 | 95.88 | `runs/iql/amo_bpi/hopmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__f8d9dcb6` |
 | iql | amo_bpi | `hopmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ee44a242` | hopper-medium-replay-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ee44a242` |
+| iql | amo_bpi | `hopmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ee44a242` | hopper-medium-replay-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ee44a242` |
 | iql | amo_bpi | `hopmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__4938a259` | hopper-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hopmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__4938a259` |
 | iql | amo_bpi | `hopmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__69427913` | hopper-medium-replay-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hopmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__69427913` |
 | iql | amo_bpi | `hopm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__ac07f702` | hopper-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hopm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__ac07f702` |
@@ -403,6 +405,7 @@ Total runs: **473**
 | iql | amo_bpi | `hopm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__ced0c293` | hopper-medium-v2 | 0 | — | 1000000 | 62.39 | `runs/iql/amo_bpi/hopm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__ced0c293` |
 | iql | amo_bpi | `hopm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__7e436036` | hopper-medium-v2 | 0 | — | 1000000 | 65.23 | `runs/iql/amo_bpi/hopm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__7e436036` |
 | iql | amo_bpi | `hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7e25c7c1` | hopper-medium-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7e25c7c1` |
+| iql | amo_bpi | `hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7e25c7c1` | hopper-medium-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7e25c7c1` |
 | iql | amo_bpi | `hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6b232c9a` | hopper-medium-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6b232c9a` |
 | iql | amo_bpi | `hopm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a09b6279` | hopper-medium-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hopm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a09b6279` |
 | iql | amo_bpi | `wme_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__8d15f663` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wme_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__8d15f663` |
@@ -427,6 +430,7 @@ Total runs: **473**
 | iql | amo_bpi | `wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__27edf9c6` | walker2d-medium-v2 | 0 | — | 1000000 | 85.84 | `runs/iql/amo_bpi/wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__27edf9c6` |
 | iql | amo_bpi | `wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__60003988` | walker2d-medium-v2 | 0 | — | — | — | `runs/iql/amo_bpi/wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__60003988` |
 | iql | amo_bpi | `wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__5effc769` | walker2d-medium-v2 | 1 | — | — | — | `runs/iql/amo_bpi/wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__5effc769` |
+| iql | amo_bpi | `wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__5effc769` | walker2d-medium-v2 | 1 | — | — | — | `runs/iql/amo_bpi/wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__5effc769` |
 | iql | amo_bpi | `wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a0cb3162` | walker2d-medium-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a0cb3162` |
 | iql | amo_bpi | `wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__59c557a0` | walker2d-medium-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__59c557a0` |
 | wpc | paper_benchmark | `hce_s0_wpc_a2p5_pn0p1__0ad7cab3` | halfcheetah-expert-v2 | 0 | 1000000 | 1000000 | 101.95 | `runs/wpc/paper_benchmark/hce_s0_wpc_a2p5_pn0p1__0ad7cab3` |
