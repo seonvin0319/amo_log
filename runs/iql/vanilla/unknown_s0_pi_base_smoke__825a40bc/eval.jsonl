@@ -3,3 +3,12 @@
 {"step": 15000, "return_mean": 0.0, "normalized_score": 0.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.0], "eval_seed": 0, "seed_stride": 1}
 {"step": 20000, "return_mean": 0.05, "normalized_score": 5.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.05], "eval_seed": 0, "seed_stride": 1}
 {"step": 25000, "return_mean": 0.07, "normalized_score": 7.000000000000001, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.07], "eval_seed": 0, "seed_stride": 1}
+{"step": 30000, "return_mean": 0.0, "normalized_score": 0.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.0], "eval_seed": 0, "seed_stride": 1}
+{"step": 35000, "return_mean": 0.1, "normalized_score": 10.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.1], "eval_seed": 0, "seed_stride": 1}
+{"step": 40000, "return_mean": 0.07, "normalized_score": 7.000000000000001, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.07], "eval_seed": 0, "seed_stride": 1}
+{"step": 45000, "return_mean": 0.03, "normalized_score": 3.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.03], "eval_seed": 0, "seed_stride": 1}
+{"step": 50000, "return_mean": 0.06, "normalized_score": 6.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.06], "eval_seed": 0, "seed_stride": 1}
+{"step": 55000, "return_mean": 0.05, "normalized_score": 5.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.05], "eval_seed": 0, "seed_stride": 1}
+{"step": 60000, "return_mean": 0.01, "normalized_score": 1.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.01], "eval_seed": 0, "seed_stride": 1}
+{"step": 65000, "return_mean": 0.06, "normalized_score": 6.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.06], "eval_seed": 0, "seed_stride": 1}
+{"step": 70000, "return_mean": 0.05, "normalized_score": 5.0, "episodes": 100, "episodes_per_repeat": 100, "repeats": 1, "repeat_returns": [0.05], "eval_seed": 0, "seed_stride": 1}
