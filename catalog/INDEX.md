@@ -122,7 +122,7 @@ Total runs: **426**
 | amo | adaptive_multiscale | `amud_s1_TE5_Tlr0p0003__d377ba0f` | antmaze-umaze-diverse-v2 | 1 | 1000000 | 1000000 | 90.00 | `runs/amo/adaptive_multiscale/amud_s1_TE5_Tlr0p0003__d377ba0f` |
 | amo | adaptive_multiscale | `amud_s1_TE5_Tlr0p001__5f47319e` | antmaze-umaze-diverse-v2 | 1 | 1000000 | 1000000 | 70.00 | `runs/amo/adaptive_multiscale/amud_s1_TE5_Tlr0p001__5f47319e` |
 | amo | adaptive_multiscale | `amud_s1_TE5_Tlr0p002__fb720d92` | antmaze-umaze-diverse-v2 | 1 | 1000000 | 1000000 | 64.00 | `runs/amo/adaptive_multiscale/amud_s1_TE5_Tlr0p002__fb720d92` |
-| amo | adaptive_multiscale | `amud_s2_TE1_Tlr0p0003__5630fd77` | antmaze-umaze-diverse-v2 | 2 | 1000000 | — | — | `runs/amo/adaptive_multiscale/amud_s2_TE1_Tlr0p0003__5630fd77` |
+| amo | adaptive_multiscale | `amud_s2_TE1_Tlr0p0003__5630fd77` | antmaze-umaze-diverse-v2 | 2 | 1000000 | 1000000 | 86.00 | `runs/amo/adaptive_multiscale/amud_s2_TE1_Tlr0p0003__5630fd77` |
 | amo | adaptive_multiscale | `amud_s2_TE1_Tlr0p001__0a73b366` | antmaze-umaze-diverse-v2 | 2 | 1000000 | — | — | `runs/amo/adaptive_multiscale/amud_s2_TE1_Tlr0p001__0a73b366` |
 | amo | adaptive_multiscale | `amud_s2_TE1_Tlr0p002__3a6d4ffb` | antmaze-umaze-diverse-v2 | 2 | 1000000 | — | — | `runs/amo/adaptive_multiscale/amud_s2_TE1_Tlr0p002__3a6d4ffb` |
 | amo | adaptive_multiscale | `amu_s0_TE10_Tlr0p0003__177bf30c` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s0_TE10_Tlr0p0003__177bf30c` |
