@@ -1087,3 +1087,21 @@ Collected on host `svcho` without cloning checkpoint weights.
 Not found on svcho: APART `results_apart*`. Incomplete A2PR cells (no `.npy`) skipped.
 wPC / IQL+AMO partial runs (eval.jsonl present) are uploaded every refresh.
 
+## svcho refresh (2026-09-13 23:15 KST)
+
+Collected on host `svcho` without cloning checkpoint weights.
+
+| Source path | algo | family (assigned) | #runs |
+|-------------|------|-------------------|------:|
+| `/home/svcho/amo/results_pi_*` | amo | `pi_local`/`pi_local_aspc`/`pi_only` | 12 |
+| `/home/svcho/CaPO/results_amo_*` | amo | `capo_td3bc` | 0 |
+| `/home/svcho/amo/results_t_path` | amo | `t_path_schedule` | 66 |
+| `/home/svcho/amo/results_four_eval` | amo | `four_eval_fixed_n` | 10 |
+| `/home/svcho/A2PR/results_aspc_table1` | a2pr | `aspc_table1` | 103 |
+| `/home/svcho/A2PR/results_aspc_table1_final50` | a2pr | `aspc_table1_final50` | 0 |
+| `/home/svcho/ASPC/results_wpc` | wpc | `benchmark` | 10 |
+| `/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0` | iql_amo | `lr1e3_beta_sweep` | 79 |
+
+Not found on svcho: APART `results_apart*`. Incomplete A2PR cells (no `.npy`) skipped.
+wPC / IQL+AMO partial runs (eval.jsonl present) are uploaded every refresh.
+
