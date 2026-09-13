@@ -1,9 +1,7 @@
 {
   "algo": "iql",
   "artifacts": [
-    "config.yaml",
-    "metrics.jsonl",
-    "eval.jsonl"
+    "config.yaml"
   ],
   "collected_at": "2026-09-13T17:30:02+09:00",
   "env": "unknown",
@@ -13,8 +11,8 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "legacy_name": "ammd_s3_iql",
-  "run_id": "unknown_s0_pi_base_smoke__5f60c73a",
+  "legacy_name": "amlp_s1_iql",
+  "run_id": "unknown_s0_pi_base_smoke__c26378fb",
   "seed": 0,
   "settings": {
     "actor_lr": 0.0003,
@@ -27,6 +25,6 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammd_s3_iql",
+  "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amlp_s1_iql",
   "variant": "pi_base_smoke"
 }
