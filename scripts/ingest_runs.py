@@ -56,6 +56,7 @@ ENV_SHORT = {
 # Prefer /raid/ext_csv/AMO_store when that is the canonical store (home may symlink).
 _LAMBDA0 = "30abcfcfbc62b892c6c0a7d0763c1c8323154d11"
 _AMO = "c45671c47cfae89154331e9c9dab59b9cdbc9c40"
+_AMO_MAIN = "3fdd895194b2ca8bb6c2777567f3deccd0b60822"
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
@@ -165,6 +166,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO",
         "code_commit": _AMO,
         "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-main",
+        "code_commit": _AMO_MAIN,
+        "family_force": "td3_amo_jax",
         "nested": False,
     },
 ]
