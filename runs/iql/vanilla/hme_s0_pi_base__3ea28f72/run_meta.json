@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-13T12:20:02+09:00",
+  "collected_at": "2026-09-13T12:30:02+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "eval_source": "synthesized_from_mpi_actor0_log",
