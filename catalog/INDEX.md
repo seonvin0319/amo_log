@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **217**
+Total runs: **218**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -131,22 +131,23 @@ Total runs: **217**
 | iql | vanilla | `hopmr_s0_pi_base__5b989a7a` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.80 | `runs/iql/vanilla/hopmr_s0_pi_base__5b989a7a` |
 | iql | vanilla | `hopm_s0_pi_base__2ba4840d` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 66.70 | `runs/iql/vanilla/hopm_s0_pi_base__2ba4840d` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__0914ebb0` | unknown | 0 | — | 1000000 | 60.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__0914ebb0` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__0d019e34` | unknown | 0 | — | 40000 | 10.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__0d019e34` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__28faf962` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__28faf962` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__45be22c6` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__45be22c6` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__463f4326` | unknown | 0 | — | 720000 | 70.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__463f4326` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__5f60c73a` | unknown | 0 | — | 480000 | 60.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__5f60c73a` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__463f4326` | unknown | 0 | — | 840000 | 40.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__463f4326` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__5f60c73a` | unknown | 0 | — | 640000 | 60.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__5f60c73a` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__825a40bc` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__825a40bc` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__8298c024` | unknown | 0 | — | 120000 | 20.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__8298c024` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__8298c024` | unknown | 0 | — | 240000 | 10.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__8298c024` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__8ff3dfb7` | unknown | 0 | — | 700000 | 100.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__8ff3dfb7` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__999b0074` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__999b0074` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__ad68e832` | unknown | 0 | — | 1000000 | 64.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__ad68e832` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__c26378fb` | unknown | 0 | — | 320000 | 40.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__c26378fb` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__c26378fb` | unknown | 0 | — | 440000 | 50.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__c26378fb` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__c5d727e8` | unknown | 0 | — | 1000000 | 58.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__c5d727e8` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__d14d4311` | unknown | 0 | — | 1000000 | 72.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d14d4311` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__d51250f3` | unknown | 0 | — | 1000000 | 64.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d51250f3` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__d5436deb` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d5436deb` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__d7d9a642` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d7d9a642` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__dbe604aa` | unknown | 0 | — | 960000 | 60.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__dbe604aa` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__dbe604aa` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__dbe604aa` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__ed111b91` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__ed111b91` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__f2bda956` | unknown | 0 | — | 1000000 | 58.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__f2bda956` |
 | iql | vanilla | `wme_s0_pi_base__c39ecd24` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.70 | `runs/iql/vanilla/wme_s0_pi_base__c39ecd24` |
