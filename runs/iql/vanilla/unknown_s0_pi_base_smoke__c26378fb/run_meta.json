@@ -1,9 +1,11 @@
 {
   "algo": "iql",
   "artifacts": [
-    "config.yaml"
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
   ],
-  "collected_at": "2026-09-13T17:30:02+09:00",
+  "collected_at": "2026-09-13T17:40:02+09:00",
   "env": "unknown",
   "env_short": "unknown",
   "family": "vanilla",
