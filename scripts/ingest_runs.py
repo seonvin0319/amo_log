@@ -55,8 +55,9 @@ ENV_SHORT = {
 # Host ext_csv only. Other machines keep their own branches/sources.
 # Prefer /raid/ext_csv/AMO_store when that is the canonical store (home may symlink).
 _LAMBDA0 = "30abcfcfbc62b892c6c0a7d0763c1c8323154d11"
+_LAMBDA0_GAPFILL = "eee3d486fac0c9f5ecbbea411424e6691b715265"
 _AMO = "c45671c47cfae89154331e9c9dab59b9cdbc9c40"
-_AMO_MAIN = "3fdd895194b2ca8bb6c2777567f3deccd0b60822"
+_AMO_MAIN = "b9338d9815525482d2cf34d6fc6315ea4d2f93a6"
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
@@ -165,6 +166,28 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "host": "ext_csv",
         "code_repo": "AMO",
         "code_commit": _AMO,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te_tb_tlr_grid_seed0/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-lambda0-te-tb",
+        "code_commit": _LAMBDA0,
+        "family_force": "adaptive_multiscale",
+        "nested": False,
+    },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-lambda0-te-tb",
+        "code_commit": _LAMBDA0_GAPFILL,
         "family_force": "adaptive_multiscale",
         "nested": False,
     },

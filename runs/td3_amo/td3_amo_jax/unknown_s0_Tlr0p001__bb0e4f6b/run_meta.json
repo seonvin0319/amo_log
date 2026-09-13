@@ -2,15 +2,16 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s1",
-  "collected_at": "2026-09-13T08:13:56+00:00",
+  "collected_at": "2026-09-13T12:28:54+00:00",
   "env": "unknown",
   "env_short": "unknown",
   "family": "td3_amo_jax",
   "git": {
-    "code_commit": "3fdd895194b2ca8bb6c2777567f3deccd0b60822",
+    "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
     "code_repo": "AMO-main"
   },
   "legacy_name": "td3amo_jax_hc-m_s1",
