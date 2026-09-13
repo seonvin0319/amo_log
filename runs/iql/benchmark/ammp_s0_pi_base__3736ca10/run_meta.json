@@ -1,0 +1,38 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-13T12:50:02+09:00",
+  "env": "antmaze-medium-play-v2",
+  "env_short": "ammp",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "seed_0",
+  "run_id": "ammp_s0_pi_base__3736ca10",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "beta": 10.0,
+    "discount": 0.99,
+    "env": "antmaze-medium-play-v2",
+    "eval_freq": 5000,
+    "iql_tau": 0.9,
+    "max_timesteps": 1000000,
+    "n_episodes": 10,
+    "normalize": true,
+    "normalize_reward": true,
+    "qf_lr": 0.0003,
+    "seed": 0,
+    "tau": 0.005,
+    "vf_lr": 0.0003
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-play-v2/seed_0",
+  "variant": "pi_base"
+}

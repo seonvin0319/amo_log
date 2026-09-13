@@ -97,15 +97,13 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "log_dir": Path("/home/choi/ASPC/results/td3bc_aspc_table6/logs"),
     },
     {
-        # MPI-IQL Actor0 / pi_base == vanilla IQL update (W2/FB only on Actor1+).
-        # Source layout has no per-run config.yaml; special-cased in main().
+        # Vanilla IQL Actor0/pi_base extracted into amo/benchmark/iql/{env}/seed_N.
         "algo": "iql",
-        "root": Path("/home/choi/MPI/results/iql"),
+        "root": Path("/home/choi/amo/benchmark/iql"),
         "host": "choi",
-        "code_repo": "MPI",
-        "family_force": "vanilla",
-        "kind": "mpi_iql_actor0",
-        "config_root": Path("/home/choi/MPI/configs/offline/mpi"),
+        "code_repo": "AMO",
+        "family_force": "benchmark",
+        "nested": True,
     },
     {
         # choi wPC cohort (policy_noise=0.2), cross-host seed split with svcho.
@@ -262,7 +260,9 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
     if family == "vanilla" and algo == "iql":
         # Scores extracted from MPI multi-actor Actor0 (pi_base).
         tokens.append("pi_base")
-    if algo in ("wpc", "aspc") or family == "benchmark":
+    if family == "benchmark" and algo == "iql":
+        tokens.append("pi_base")
+    if algo in ("wpc", "aspc") or (family == "benchmark" and algo in ("wpc", "aspc")):
         if algo == "wpc" or "wpc" in dirname:
             tokens.append("wpc")
         elif algo == "aspc" or "_aspc" in dirname or dirname.endswith("aspc"):
@@ -659,7 +659,10 @@ def ingest_one(
     seed = int(cfg.get("seed", 0) or 0)
     family = classify_family(algo, cfg, family_force)
     variant = build_variant(algo, family, cfg, src.name)
+    # seed_N / flat names without trailing uuid: hash full source path
     uuid8 = extract_uuid8(src.name)
+    if re.fullmatch(r"seed_\d+", src.name) or uuid8 == hashlib.sha1(src.name.encode()).hexdigest()[:8]:
+        uuid8 = hashlib.sha1(str(src.resolve()).encode()).hexdigest()[:8]
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id

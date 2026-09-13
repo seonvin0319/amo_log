@@ -1,0 +1,32 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-13T12:50:02+09:00",
+  "env": "unknown",
+  "env_short": "unknown",
+  "family": "vanilla",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amu_s2_iql",
+  "run_id": "unknown_s0_pi_base_smoke__45be22c6",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "beta": 10.0,
+    "discount": 0.99,
+    "eval_freq": 20000,
+    "normalize": true,
+    "policy_freq": 1,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amu_s2_iql",
+  "variant": "pi_base_smoke"
+}

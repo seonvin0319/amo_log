@@ -1,0 +1,22 @@
+# Actor0 / pi_base extracted from MPI-IQL (vanilla IQL update).
+# W2/FB / multi-actor fields dropped.
+algo: iql
+family: benchmark
+extracted_from: mpi_iql_actor0
+env: hopper-medium-replay-v2
+seed: 0
+eval_freq: 5000
+n_episodes: 10
+max_timesteps: 1000000
+iql_tau: 0.7
+beta: 3.0
+vf_lr: 0.0003
+qf_lr: 0.0003
+actor_lr: 0.0003
+iql_deterministic: false
+batch_size: 256
+discount: 0.99
+tau: 0.005
+buffer_size: 2000000
+normalize: true
+normalize_reward: false
