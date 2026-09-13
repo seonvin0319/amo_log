@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **345**
+Total runs: **347**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -275,10 +275,12 @@ Total runs: **345**
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta1__c5260f3f` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 22.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta1__c5260f3f` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta5__4758ec6d` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta5__4758ec6d` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s1_iql_amo_lr1e3_beta1__7a693073` | antmaze-large-play-v2 | 1 | 1000000 | 1000000 | 48.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s1_iql_amo_lr1e3_beta1__7a693073` |
+| iql_amo | lr1e3_beta_sweep | `amlp_s2_iql_amo_lr1e3_beta1__76364512` | antmaze-large-play-v2 | 2 | 1000000 | 1000000 | 32.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s2_iql_amo_lr1e3_beta1__76364512` |
 | iql_amo | lr1e3_beta_sweep | `ammd_s0_iql_amo_lr1e3_beta10__5de7e116` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 70.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s0_iql_amo_lr1e3_beta10__5de7e116` |
 | iql_amo | lr1e3_beta_sweep | `ammd_s0_iql_amo_lr1e3_beta1__d9cb81b9` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 70.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s0_iql_amo_lr1e3_beta1__d9cb81b9` |
 | iql_amo | lr1e3_beta_sweep | `ammd_s0_iql_amo_lr1e3_beta5__7cec0746` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 72.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s0_iql_amo_lr1e3_beta5__7cec0746` |
 | iql_amo | lr1e3_beta_sweep | `ammd_s1_iql_amo_lr1e3_beta1__6c560674` | antmaze-medium-diverse-v2 | 1 | 1000000 | 1000000 | 70.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s1_iql_amo_lr1e3_beta1__6c560674` |
+| iql_amo | lr1e3_beta_sweep | `ammd_s2_iql_amo_lr1e3_beta1__3f121157` | antmaze-medium-diverse-v2 | 2 | 1000000 | 1000000 | 78.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s2_iql_amo_lr1e3_beta1__3f121157` |
 | iql_amo | lr1e3_beta_sweep | `ammp_s0_iql_amo_lr1e3_beta10__f6b680a3` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 58.00 | `runs/iql_amo/lr1e3_beta_sweep/ammp_s0_iql_amo_lr1e3_beta10__f6b680a3` |
 | iql_amo | lr1e3_beta_sweep | `ammp_s0_iql_amo_lr1e3_beta1__9a1fb0a3` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 54.00 | `runs/iql_amo/lr1e3_beta_sweep/ammp_s0_iql_amo_lr1e3_beta1__9a1fb0a3` |
 | iql_amo | lr1e3_beta_sweep | `ammp_s0_iql_amo_lr1e3_beta5__d1108c62` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 64.00 | `runs/iql_amo/lr1e3_beta_sweep/ammp_s0_iql_amo_lr1e3_beta5__d1108c62` |
