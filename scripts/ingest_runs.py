@@ -141,6 +141,27 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "amo",
         "family_force": "adaptive_multiscale",
     },
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/shchoi/amo/results/"
+            "amo_adaptive_multiscale_antmaze6_sweep_seeds1-2-3/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "amo",
+        "family_force": "adaptive_multiscale",
+    },
+    # JAX AMS AntMaze-6 fill (config.yaml + run_meta.json; final in posthoc_eval_cpu/)
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/shchoi/amo/results/"
+            "amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "AMO-jax-upstream",
+        "family_force": "adaptive_multiscale",
+    },
     # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
     {
         "algo": "aspc",
@@ -578,6 +599,14 @@ def discover_run_dirs(
         dirs = sorted({p.parent for p in root.glob(f"*/{name}")})
     if dirname_contains:
         dirs = [d for d in dirs if dirname_contains in d.name]
+    # skip backup / crash leftovers
+    dirs = [
+        d
+        for d in dirs
+        if ".bak" not in d.name
+        and "extcsh" not in d.name
+        and not d.name.endswith("~")
+    ]
     return dirs
 
 
@@ -655,6 +684,58 @@ def last_eval_step(path: Path) -> Optional[int]:
         return None
 
 
+def merge_run_meta(cfg: Dict[str, Any], src: Path) -> Dict[str, Any]:
+    """Fill env/seed/backend from run_meta.json when YAML omits them (JAX AMS)."""
+    meta_path = src / "run_meta.json"
+    if not meta_path.exists():
+        return cfg
+    try:
+        meta = json.loads(meta_path.read_text())
+    except Exception:
+        return cfg
+    out = dict(cfg)
+    for key in ("env", "seed", "backend", "algorithm", "device"):
+        if out.get(key) in (None, "", "unknown") and meta.get(key) is not None:
+            out[key] = meta[key]
+    if "max_timesteps" not in out and "max_steps" in out:
+        out["max_timesteps"] = out["max_steps"]
+    return out
+
+
+def read_final_eval_50_row(src: Path) -> Optional[Dict[str, Any]]:
+    """Load final_eval_50.jsonl or JAX posthoc_eval_cpu/final.json as one row."""
+    dest = src / "final_eval_50.jsonl"
+    if dest.exists() and dest.stat().st_size > 0:
+        try:
+            return json.loads(dest.read_text().strip().splitlines()[0])
+        except Exception:
+            pass
+    posthoc = src / "posthoc_eval_cpu" / "final.json"
+    if not posthoc.exists() or posthoc.stat().st_size == 0:
+        return None
+    try:
+        payload = json.loads(posthoc.read_text())
+        row = payload.get("row") if isinstance(payload, dict) else None
+        if not isinstance(row, dict):
+            row = payload if isinstance(payload, dict) else None
+        if not isinstance(row, dict):
+            return None
+        return {
+            "step": int(row.get("step") or 1_000_000),
+            "d4rl_normalized_score": row.get(
+                "normalized_score", row.get("d4rl_normalized_score")
+            ),
+            "eval_return": row.get("return_mean", row.get("eval_return")),
+            "n_episodes": row.get("episodes", row.get("n_episodes")),
+            "device": row.get("device", "cpu"),
+            "evaluated_at": row.get("evaluated_at"),
+            "tag": row.get("tag", "posthoc_cpu_final"),
+            "backend": row.get("backend"),
+        }
+    except Exception:
+        return None
+
+
 def ingest_one(
     src: Path,
     algo: str,
@@ -675,7 +756,12 @@ def ingest_one(
         cfg_path = src / "config.yaml"
         if not cfg_path.exists():
             return None
-        cfg = load_yaml_lite(cfg_path)
+        cfg = merge_run_meta(load_yaml_lite(cfg_path), src)
+    if family_force == "adaptive_multiscale":
+        cfg.setdefault("adaptive_multiscale", True)
+    if "max_timesteps" not in cfg and cfg.get("max_steps") is not None:
+        cfg["max_timesteps"] = cfg["max_steps"]
+    fe_row = read_final_eval_50_row(src)
     env = str(cfg.get("env") or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
     family = classify_family(algo, cfg, family_force)
@@ -710,7 +796,9 @@ def ingest_one(
     if incomplete and "incomplete" not in variant.split("_"):
         variant = f"{variant}_incomplete"
     uuid8 = extract_uuid8(src.name)
-    if kind == "jax" and not re.search(r"[0-9a-fA-F]{8}$", src.name):
+    if (kind == "jax" or cfg.get("backend") == "jax") and not re.search(
+        r"[0-9a-fA-F]{8}$", src.name
+    ):
         uuid8 = hashlib.sha1(str(src.resolve()).encode()).hexdigest()[:8]
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
@@ -719,11 +807,24 @@ def ingest_one(
     dest_metrics = dest / "metrics.jsonl"
     src_fe = src / "final_eval_50.jsonl"
     dest_fe = dest / "final_eval_50.jsonl"
-    need_final_eval = src_fe.exists() and src_fe.stat().st_size > 0 and (
+    need_final_eval = bool(fe_row) and (
         (not dest_fe.exists())
         or dest_fe.stat().st_size == 0
-        or dest_fe.stat().st_mtime < src_fe.stat().st_mtime
-        or dest_fe.stat().st_size != src_fe.stat().st_size
+        or (
+            src_fe.exists()
+            and dest_fe.exists()
+            and (
+                dest_fe.stat().st_mtime < src_fe.stat().st_mtime
+                or dest_fe.stat().st_size != src_fe.stat().st_size
+            )
+        )
+        or (
+            not src_fe.exists()
+            and dest_fe.exists()
+            and (src / "posthoc_eval_cpu" / "final.json").exists()
+            and dest_fe.stat().st_mtime
+            < (src / "posthoc_eval_cpu" / "final.json").stat().st_mtime
+        )
     )
     if dest_metrics.exists() and src_metrics.exists():
         dest_step = last_metrics_step(dest_metrics)
@@ -751,6 +852,8 @@ def ingest_one(
     artifacts = [
         f for f in KEEP_FILES if (src / f).exists() and (src / f).stat().st_size > 0
     ]
+    if fe_row and "final_eval_50.jsonl" not in artifacts:
+        artifacts.append("final_eval_50.jsonl")
     meta = {
         "algo": algo,
         "family": family,
@@ -771,19 +874,15 @@ def ingest_one(
         meta["settings"]["last_metrics_step"] = last_step
     if summary_status:
         meta["settings"]["source_status"] = summary_status
-    if src_fe.exists() and src_fe.stat().st_size > 0:
-        try:
-            fe = json.loads(src_fe.read_text().strip().splitlines()[0])
-            meta["settings"]["final_eval_50"] = {
-                "d4rl_normalized_score": fe.get("d4rl_normalized_score"),
-                "eval_return": fe.get("eval_return"),
-                "n_episodes": fe.get("n_episodes"),
-                "device": fe.get("device"),
-                "evaluated_at": fe.get("evaluated_at"),
-            }
-        except Exception:
-            pass
-    if kind == "jax":
+    if fe_row:
+        meta["settings"]["final_eval_50"] = {
+            "d4rl_normalized_score": fe_row.get("d4rl_normalized_score"),
+            "eval_return": fe_row.get("eval_return"),
+            "n_episodes": fe_row.get("n_episodes"),
+            "device": fe_row.get("device"),
+            "evaluated_at": fe_row.get("evaluated_at"),
+        }
+    if kind == "jax" or cfg.get("backend") == "jax":
         meta["checkpoint_hint"] = str(src.resolve())
     if log_path is not None:
         meta["settings"]["score_source"] = str(log_path.resolve())
@@ -802,12 +901,22 @@ def ingest_one(
         meta["artifacts"] = artifacts
     else:
         for name in artifacts:
+            if name == "final_eval_50.jsonl" and not (
+                src / "final_eval_50.jsonl"
+            ).exists():
+                continue
             shutil.copy2(src / name, dest / name)
         if synthesized_eval and "eval.jsonl" not in artifacts:
             (dest / "eval.jsonl").write_text(
                 "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in synthesized_eval)
             )
             meta["artifacts"].append("eval.jsonl")
+    if fe_row:
+        (dest / "final_eval_50.jsonl").write_text(
+            json.dumps(fe_row, ensure_ascii=False) + "\n"
+        )
+        if "final_eval_50.jsonl" not in meta["artifacts"]:
+            meta["artifacts"].append("final_eval_50.jsonl")
     for extra in ("launch_cmd.txt", "notes.md"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)
