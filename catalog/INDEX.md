@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **347**
+Total runs: **348**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -271,6 +271,7 @@ Total runs: **347**
 | iql_amo | lr1e3_beta_sweep | `amld_s0_iql_amo_lr1e3_beta1__f9d84bfb` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 22.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s0_iql_amo_lr1e3_beta1__f9d84bfb` |
 | iql_amo | lr1e3_beta_sweep | `amld_s0_iql_amo_lr1e3_beta5__8991efd6` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 36.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s0_iql_amo_lr1e3_beta5__8991efd6` |
 | iql_amo | lr1e3_beta_sweep | `amld_s1_iql_amo_lr1e3_beta1__15552df1` | antmaze-large-diverse-v2 | 1 | 1000000 | 1000000 | 28.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s1_iql_amo_lr1e3_beta1__15552df1` |
+| iql_amo | lr1e3_beta_sweep | `amld_s2_iql_amo_lr1e3_beta1__8f05b04a` | antmaze-large-diverse-v2 | 2 | 1000000 | 1000000 | 14.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s2_iql_amo_lr1e3_beta1__8f05b04a` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta10__797e6924` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta10__797e6924` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta1__c5260f3f` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 22.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta1__c5260f3f` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta5__4758ec6d` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta5__4758ec6d` |
