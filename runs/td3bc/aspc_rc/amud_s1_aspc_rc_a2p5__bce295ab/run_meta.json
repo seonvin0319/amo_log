@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-13T11:50:02+09:00",
+  "collected_at": "2026-09-13T12:00:02+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "eval_source": "synthesized_from_stdout_log",
