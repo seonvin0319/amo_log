@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **501**
+Total runs: **503**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -373,6 +373,7 @@ Total runs: **501**
 | iql | amo_bpi | `hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__c3db5e59` | halfcheetah-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__c3db5e59` |
 | iql | amo_bpi | `hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__c3db5e59` | halfcheetah-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__c3db5e59` |
 | iql | amo_bpi | `hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7d2696f2` | halfcheetah-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7d2696f2` |
+| iql | amo_bpi | `hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7d2696f2` | halfcheetah-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7d2696f2` |
 | iql | amo_bpi | `hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__ef593dab` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__ef593dab` |
 | iql | amo_bpi | `hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__27b1753b` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__27b1753b` |
 | iql | amo_bpi | `hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__67c7278c` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__67c7278c` |
@@ -383,6 +384,7 @@ Total runs: **501**
 | iql | amo_bpi | `hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__220d0f47` | halfcheetah-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__220d0f47` |
 | iql | amo_bpi | `hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__220d0f47` | halfcheetah-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__220d0f47` |
 | iql | amo_bpi | `hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a430096d` | halfcheetah-medium-replay-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a430096d` |
+| iql | amo_bpi | `hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__a430096d` | halfcheetah-medium-replay-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__a430096d` |
 | iql | amo_bpi | `hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c092ff37` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c092ff37` |
 | iql | amo_bpi | `hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__3340ad4f` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__3340ad4f` |
 | iql | amo_bpi | `hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__a0054342` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__a0054342` |
