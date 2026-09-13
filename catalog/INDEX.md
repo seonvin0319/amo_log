@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **318**
+Total runs: **333**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -270,48 +270,63 @@ Total runs: **318**
 | iql_amo | lr1e3_beta_sweep | `amld_s0_iql_amo_lr1e3_beta10__b4387e16` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 24.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s0_iql_amo_lr1e3_beta10__b4387e16` |
 | iql_amo | lr1e3_beta_sweep | `amld_s0_iql_amo_lr1e3_beta1__f9d84bfb` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 22.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s0_iql_amo_lr1e3_beta1__f9d84bfb` |
 | iql_amo | lr1e3_beta_sweep | `amld_s0_iql_amo_lr1e3_beta5__8991efd6` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 36.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s0_iql_amo_lr1e3_beta5__8991efd6` |
+| iql_amo | lr1e3_beta_sweep | `amld_s1_iql_amo_lr1e3_beta1__15552df1` | antmaze-large-diverse-v2 | 1 | 1000000 | 1000000 | 28.00 | `runs/iql_amo/lr1e3_beta_sweep/amld_s1_iql_amo_lr1e3_beta1__15552df1` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta10__797e6924` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta10__797e6924` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta1__c5260f3f` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 22.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta1__c5260f3f` |
 | iql_amo | lr1e3_beta_sweep | `amlp_s0_iql_amo_lr1e3_beta5__4758ec6d` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s0_iql_amo_lr1e3_beta5__4758ec6d` |
+| iql_amo | lr1e3_beta_sweep | `amlp_s1_iql_amo_lr1e3_beta1__7a693073` | antmaze-large-play-v2 | 1 | 1000000 | 1000000 | 48.00 | `runs/iql_amo/lr1e3_beta_sweep/amlp_s1_iql_amo_lr1e3_beta1__7a693073` |
 | iql_amo | lr1e3_beta_sweep | `ammd_s0_iql_amo_lr1e3_beta10__5de7e116` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 70.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s0_iql_amo_lr1e3_beta10__5de7e116` |
 | iql_amo | lr1e3_beta_sweep | `ammd_s0_iql_amo_lr1e3_beta1__d9cb81b9` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 70.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s0_iql_amo_lr1e3_beta1__d9cb81b9` |
 | iql_amo | lr1e3_beta_sweep | `ammd_s0_iql_amo_lr1e3_beta5__7cec0746` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 72.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s0_iql_amo_lr1e3_beta5__7cec0746` |
+| iql_amo | lr1e3_beta_sweep | `ammd_s1_iql_amo_lr1e3_beta1__6c560674` | antmaze-medium-diverse-v2 | 1 | 1000000 | 1000000 | 70.00 | `runs/iql_amo/lr1e3_beta_sweep/ammd_s1_iql_amo_lr1e3_beta1__6c560674` |
 | iql_amo | lr1e3_beta_sweep | `ammp_s0_iql_amo_lr1e3_beta10__f6b680a3` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 58.00 | `runs/iql_amo/lr1e3_beta_sweep/ammp_s0_iql_amo_lr1e3_beta10__f6b680a3` |
 | iql_amo | lr1e3_beta_sweep | `ammp_s0_iql_amo_lr1e3_beta1__9a1fb0a3` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 54.00 | `runs/iql_amo/lr1e3_beta_sweep/ammp_s0_iql_amo_lr1e3_beta1__9a1fb0a3` |
 | iql_amo | lr1e3_beta_sweep | `ammp_s0_iql_amo_lr1e3_beta5__d1108c62` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 64.00 | `runs/iql_amo/lr1e3_beta_sweep/ammp_s0_iql_amo_lr1e3_beta5__d1108c62` |
+| iql_amo | lr1e3_beta_sweep | `ammp_s1_iql_amo_lr1e3_beta1__6df84861` | antmaze-medium-play-v2 | 1 | 1000000 | 1000000 | 68.00 | `runs/iql_amo/lr1e3_beta_sweep/ammp_s1_iql_amo_lr1e3_beta1__6df84861` |
 | iql_amo | lr1e3_beta_sweep | `amud_s0_iql_amo_lr1e3_beta10__aa4b7ad6` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 66.00 | `runs/iql_amo/lr1e3_beta_sweep/amud_s0_iql_amo_lr1e3_beta10__aa4b7ad6` |
 | iql_amo | lr1e3_beta_sweep | `amud_s0_iql_amo_lr1e3_beta1__3a264635` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 56.00 | `runs/iql_amo/lr1e3_beta_sweep/amud_s0_iql_amo_lr1e3_beta1__3a264635` |
 | iql_amo | lr1e3_beta_sweep | `amud_s0_iql_amo_lr1e3_beta5__4a52de55` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 54.00 | `runs/iql_amo/lr1e3_beta_sweep/amud_s0_iql_amo_lr1e3_beta5__4a52de55` |
+| iql_amo | lr1e3_beta_sweep | `amud_s1_iql_amo_lr1e3_beta1__f1f9210b` | antmaze-umaze-diverse-v2 | 1 | 1000000 | 1000000 | 52.00 | `runs/iql_amo/lr1e3_beta_sweep/amud_s1_iql_amo_lr1e3_beta1__f1f9210b` |
 | iql_amo | lr1e3_beta_sweep | `amu_s0_iql_amo_lr1e3_beta10__88436bec` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 82.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s0_iql_amo_lr1e3_beta10__88436bec` |
 | iql_amo | lr1e3_beta_sweep | `amu_s0_iql_amo_lr1e3_beta1__6ae76e26` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 82.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s0_iql_amo_lr1e3_beta1__6ae76e26` |
 | iql_amo | lr1e3_beta_sweep | `amu_s0_iql_amo_lr1e3_beta5__9de0f5b6` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 66.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s0_iql_amo_lr1e3_beta5__9de0f5b6` |
+| iql_amo | lr1e3_beta_sweep | `amu_s1_iql_amo_lr1e3_beta1__54f74dcc` | antmaze-umaze-v2 | 1 | 1000000 | 1000000 | 18.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s1_iql_amo_lr1e3_beta1__54f74dcc` |
 | iql_amo | lr1e3_beta_sweep | `hme_s0_iql_amo_lr1e3_beta10__41a95442` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 93.45 | `runs/iql_amo/lr1e3_beta_sweep/hme_s0_iql_amo_lr1e3_beta10__41a95442` |
 | iql_amo | lr1e3_beta_sweep | `hme_s0_iql_amo_lr1e3_beta1__4f4daab7` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 91.79 | `runs/iql_amo/lr1e3_beta_sweep/hme_s0_iql_amo_lr1e3_beta1__4f4daab7` |
 | iql_amo | lr1e3_beta_sweep | `hme_s0_iql_amo_lr1e3_beta5__f4aa60fb` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 93.91 | `runs/iql_amo/lr1e3_beta_sweep/hme_s0_iql_amo_lr1e3_beta5__f4aa60fb` |
+| iql_amo | lr1e3_beta_sweep | `hme_s1_iql_amo_lr1e3_beta1__4cf535d4` | halfcheetah-medium-expert-v2 | 1 | 1000000 | 1000000 | 87.15 | `runs/iql_amo/lr1e3_beta_sweep/hme_s1_iql_amo_lr1e3_beta1__4cf535d4` |
 | iql_amo | lr1e3_beta_sweep | `hcmr_s0_iql_amo_lr1e3_beta10__8f094a26` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 41.16 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s0_iql_amo_lr1e3_beta10__8f094a26` |
 | iql_amo | lr1e3_beta_sweep | `hcmr_s0_iql_amo_lr1e3_beta1__58ca7436` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 44.92 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s0_iql_amo_lr1e3_beta1__58ca7436` |
 | iql_amo | lr1e3_beta_sweep | `hcmr_s0_iql_amo_lr1e3_beta5__50e4f37d` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 44.57 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s0_iql_amo_lr1e3_beta5__50e4f37d` |
+| iql_amo | lr1e3_beta_sweep | `hcmr_s1_iql_amo_lr1e3_beta1__f529c686` | halfcheetah-medium-replay-v2 | 1 | 1000000 | 1000000 | 44.57 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s1_iql_amo_lr1e3_beta1__f529c686` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s0_iql_amo_lr1e3_beta10__2fe1b054` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 48.28 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s0_iql_amo_lr1e3_beta10__2fe1b054` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s0_iql_amo_lr1e3_beta1__1028c9ea` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 47.96 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s0_iql_amo_lr1e3_beta1__1028c9ea` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s0_iql_amo_lr1e3_beta5__8479a86c` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 48.25 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s0_iql_amo_lr1e3_beta5__8479a86c` |
+| iql_amo | lr1e3_beta_sweep | `hcm_s1_iql_amo_lr1e3_beta1__c306b2dd` | halfcheetah-medium-v2 | 1 | 1000000 | 1000000 | 48.67 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s1_iql_amo_lr1e3_beta1__c306b2dd` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta10__3f8fc7aa` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 107.02 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta10__3f8fc7aa` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta1__0ed6b33a` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.92 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta1__0ed6b33a` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta5__87e12d6f` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 112.41 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta5__87e12d6f` |
+| iql_amo | lr1e3_beta_sweep | `hopme_s1_iql_amo_lr1e3_beta1__7ca54288` | hopper-medium-expert-v2 | 1 | 1000000 | 1000000 | 106.27 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s1_iql_amo_lr1e3_beta1__7ca54288` |
 | iql_amo | lr1e3_beta_sweep | `hopmr_s0_iql_amo_lr1e3_beta10__54b69170` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 72.28 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s0_iql_amo_lr1e3_beta10__54b69170` |
 | iql_amo | lr1e3_beta_sweep | `hopmr_s0_iql_amo_lr1e3_beta1__e6da08b4` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 59.54 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s0_iql_amo_lr1e3_beta1__e6da08b4` |
 | iql_amo | lr1e3_beta_sweep | `hopmr_s0_iql_amo_lr1e3_beta5__b4df0cee` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 65.34 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s0_iql_amo_lr1e3_beta5__b4df0cee` |
+| iql_amo | lr1e3_beta_sweep | `hopmr_s1_iql_amo_lr1e3_beta1__8911ddec` | hopper-medium-replay-v2 | 1 | 1000000 | 1000000 | 85.29 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s1_iql_amo_lr1e3_beta1__8911ddec` |
 | iql_amo | lr1e3_beta_sweep | `hopm_s0_iql_amo_lr1e3_beta10__78b5fdfb` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 51.61 | `runs/iql_amo/lr1e3_beta_sweep/hopm_s0_iql_amo_lr1e3_beta10__78b5fdfb` |
 | iql_amo | lr1e3_beta_sweep | `hopm_s0_iql_amo_lr1e3_beta1__5ee35a14` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 58.80 | `runs/iql_amo/lr1e3_beta_sweep/hopm_s0_iql_amo_lr1e3_beta1__5ee35a14` |
 | iql_amo | lr1e3_beta_sweep | `hopm_s0_iql_amo_lr1e3_beta5__1ef9d5b7` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 59.70 | `runs/iql_amo/lr1e3_beta_sweep/hopm_s0_iql_amo_lr1e3_beta5__1ef9d5b7` |
+| iql_amo | lr1e3_beta_sweep | `hopm_s1_iql_amo_lr1e3_beta1__e237cb2c` | hopper-medium-v2 | 1 | 1000000 | 1000000 | 53.78 | `runs/iql_amo/lr1e3_beta_sweep/hopm_s1_iql_amo_lr1e3_beta1__e237cb2c` |
 | iql_amo | lr1e3_beta_sweep | `wme_s0_iql_amo_lr1e3_beta10__a8439d10` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 112.05 | `runs/iql_amo/lr1e3_beta_sweep/wme_s0_iql_amo_lr1e3_beta10__a8439d10` |
 | iql_amo | lr1e3_beta_sweep | `wme_s0_iql_amo_lr1e3_beta1__834314cb` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.61 | `runs/iql_amo/lr1e3_beta_sweep/wme_s0_iql_amo_lr1e3_beta1__834314cb` |
 | iql_amo | lr1e3_beta_sweep | `wme_s0_iql_amo_lr1e3_beta5__145a69b8` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.07 | `runs/iql_amo/lr1e3_beta_sweep/wme_s0_iql_amo_lr1e3_beta5__145a69b8` |
+| iql_amo | lr1e3_beta_sweep | `wme_s1_iql_amo_lr1e3_beta1__3d8187d6` | walker2d-medium-expert-v2 | 1 | 1000000 | 1000000 | 111.09 | `runs/iql_amo/lr1e3_beta_sweep/wme_s1_iql_amo_lr1e3_beta1__3d8187d6` |
 | iql_amo | lr1e3_beta_sweep | `wmr_s0_iql_amo_lr1e3_beta10__01808782` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 88.56 | `runs/iql_amo/lr1e3_beta_sweep/wmr_s0_iql_amo_lr1e3_beta10__01808782` |
 | iql_amo | lr1e3_beta_sweep | `wmr_s0_iql_amo_lr1e3_beta1__0d0c440e` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 72.11 | `runs/iql_amo/lr1e3_beta_sweep/wmr_s0_iql_amo_lr1e3_beta1__0d0c440e` |
 | iql_amo | lr1e3_beta_sweep | `wmr_s0_iql_amo_lr1e3_beta5__cc981eee` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 61.50 | `runs/iql_amo/lr1e3_beta_sweep/wmr_s0_iql_amo_lr1e3_beta5__cc981eee` |
+| iql_amo | lr1e3_beta_sweep | `wmr_s1_iql_amo_lr1e3_beta1__3bdaa7e6` | walker2d-medium-replay-v2 | 1 | 1000000 | 1000000 | 60.16 | `runs/iql_amo/lr1e3_beta_sweep/wmr_s1_iql_amo_lr1e3_beta1__3bdaa7e6` |
 | iql_amo | lr1e3_beta_sweep | `wm_s0_iql_amo_lr1e3_beta10__56f51c21` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 80.69 | `runs/iql_amo/lr1e3_beta_sweep/wm_s0_iql_amo_lr1e3_beta10__56f51c21` |
 | iql_amo | lr1e3_beta_sweep | `wm_s0_iql_amo_lr1e3_beta1__732665b7` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 86.31 | `runs/iql_amo/lr1e3_beta_sweep/wm_s0_iql_amo_lr1e3_beta1__732665b7` |
 | iql_amo | lr1e3_beta_sweep | `wm_s0_iql_amo_lr1e3_beta5__2d7e716e` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 76.81 | `runs/iql_amo/lr1e3_beta_sweep/wm_s0_iql_amo_lr1e3_beta5__2d7e716e` |
+| iql_amo | lr1e3_beta_sweep | `wm_s1_iql_amo_lr1e3_beta1__6d73c3e8` | walker2d-medium-v2 | 1 | 1000000 | 1000000 | 81.30 | `runs/iql_amo/lr1e3_beta_sweep/wm_s1_iql_amo_lr1e3_beta1__6d73c3e8` |
 | wpc | benchmark | `hme_s3_wpc_benchmark_1m__61a473bf` | halfcheetah-medium-expert-v2 | 3 | 1000000 | 1000000 | 99.94 | `runs/wpc/benchmark/hme_s3_wpc_benchmark_1m__61a473bf` |
 | wpc | benchmark | `hcmr_s2_wpc_benchmark_1m__9564b2c2` | halfcheetah-medium-replay-v2 | 2 | 1000000 | 1000000 | 48.34 | `runs/wpc/benchmark/hcmr_s2_wpc_benchmark_1m__9564b2c2` |
 | wpc | benchmark | `hcm_s3_wpc_benchmark_1m__70dfae5d` | halfcheetah-medium-v2 | 3 | 1000000 | 60000 | 50.75 | `runs/wpc/benchmark/hcm_s3_wpc_benchmark_1m__70dfae5d` |
