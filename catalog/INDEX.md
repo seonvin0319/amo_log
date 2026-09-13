@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **341**
+Total runs: **343**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -291,6 +291,7 @@ Total runs: **341**
 | iql_amo | lr1e3_beta_sweep | `amu_s0_iql_amo_lr1e3_beta1__6ae76e26` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 82.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s0_iql_amo_lr1e3_beta1__6ae76e26` |
 | iql_amo | lr1e3_beta_sweep | `amu_s0_iql_amo_lr1e3_beta5__9de0f5b6` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 66.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s0_iql_amo_lr1e3_beta5__9de0f5b6` |
 | iql_amo | lr1e3_beta_sweep | `amu_s1_iql_amo_lr1e3_beta1__54f74dcc` | antmaze-umaze-v2 | 1 | 1000000 | 1000000 | 18.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s1_iql_amo_lr1e3_beta1__54f74dcc` |
+| iql_amo | lr1e3_beta_sweep | `amu_s2_iql_amo_lr1e3_beta1__0c965c16` | antmaze-umaze-v2 | 2 | 1000000 | 1000000 | 82.00 | `runs/iql_amo/lr1e3_beta_sweep/amu_s2_iql_amo_lr1e3_beta1__0c965c16` |
 | iql_amo | lr1e3_beta_sweep | `hme_s0_iql_amo_lr1e3_beta10__41a95442` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 93.45 | `runs/iql_amo/lr1e3_beta_sweep/hme_s0_iql_amo_lr1e3_beta10__41a95442` |
 | iql_amo | lr1e3_beta_sweep | `hme_s0_iql_amo_lr1e3_beta1__4f4daab7` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 91.79 | `runs/iql_amo/lr1e3_beta_sweep/hme_s0_iql_amo_lr1e3_beta1__4f4daab7` |
 | iql_amo | lr1e3_beta_sweep | `hme_s0_iql_amo_lr1e3_beta5__f4aa60fb` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 93.91 | `runs/iql_amo/lr1e3_beta_sweep/hme_s0_iql_amo_lr1e3_beta5__f4aa60fb` |
@@ -325,6 +326,7 @@ Total runs: **341**
 | iql_amo | lr1e3_beta_sweep | `wme_s0_iql_amo_lr1e3_beta1__834314cb` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.61 | `runs/iql_amo/lr1e3_beta_sweep/wme_s0_iql_amo_lr1e3_beta1__834314cb` |
 | iql_amo | lr1e3_beta_sweep | `wme_s0_iql_amo_lr1e3_beta5__145a69b8` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.07 | `runs/iql_amo/lr1e3_beta_sweep/wme_s0_iql_amo_lr1e3_beta5__145a69b8` |
 | iql_amo | lr1e3_beta_sweep | `wme_s1_iql_amo_lr1e3_beta1__3d8187d6` | walker2d-medium-expert-v2 | 1 | 1000000 | 1000000 | 111.09 | `runs/iql_amo/lr1e3_beta_sweep/wme_s1_iql_amo_lr1e3_beta1__3d8187d6` |
+| iql_amo | lr1e3_beta_sweep | `wme_s2_iql_amo_lr1e3_beta1__c81ed1ed` | walker2d-medium-expert-v2 | 2 | 1000000 | 1000000 | 112.06 | `runs/iql_amo/lr1e3_beta_sweep/wme_s2_iql_amo_lr1e3_beta1__c81ed1ed` |
 | iql_amo | lr1e3_beta_sweep | `wmr_s0_iql_amo_lr1e3_beta10__01808782` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 88.56 | `runs/iql_amo/lr1e3_beta_sweep/wmr_s0_iql_amo_lr1e3_beta10__01808782` |
 | iql_amo | lr1e3_beta_sweep | `wmr_s0_iql_amo_lr1e3_beta1__0d0c440e` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 72.11 | `runs/iql_amo/lr1e3_beta_sweep/wmr_s0_iql_amo_lr1e3_beta1__0d0c440e` |
 | iql_amo | lr1e3_beta_sweep | `wmr_s0_iql_amo_lr1e3_beta5__cc981eee` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 61.50 | `runs/iql_amo/lr1e3_beta_sweep/wmr_s0_iql_amo_lr1e3_beta5__cc981eee` |
