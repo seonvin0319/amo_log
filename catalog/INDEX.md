@@ -130,7 +130,7 @@ Total runs: **209**
 | iql | vanilla | `hopme_s0_pi_base__23cb2425` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 112.10 | `runs/iql/vanilla/hopme_s0_pi_base__23cb2425` |
 | iql | vanilla | `hopmr_s0_pi_base__5b989a7a` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.80 | `runs/iql/vanilla/hopmr_s0_pi_base__5b989a7a` |
 | iql | vanilla | `hopm_s0_pi_base__2ba4840d` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 66.70 | `runs/iql/vanilla/hopm_s0_pi_base__2ba4840d` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__0914ebb0` | unknown | 0 | — | 80000 | 40.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__0914ebb0` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__0914ebb0` | unknown | 0 | — | 420000 | 50.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__0914ebb0` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__28faf962` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__28faf962` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__45be22c6` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__45be22c6` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__825a40bc` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__825a40bc` |
