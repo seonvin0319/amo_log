@@ -1,0 +1,45 @@
+{
+  "algo": "rebrac",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-13T13:12:08+09:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "eval_source": "synthesized_from_pogo_actor0_log",
+  "family": "vanilla",
+  "git": {
+    "code_commit": null,
+    "code_repo": "PORL"
+  },
+  "legacy_name": "antmaze_medium_diverse_v2_rebrac_w10_seed1.log",
+  "notes": "Actor0/pi_base scores from POGO multi-actor REBRAC. Actor0 has no W2/Fisher-Rao/Sinkhorn term and is vanilla algorithm performance.",
+  "pogo_source": {
+    "actor_types": "['deterministic', 'deterministic', 'deterministic', 'deterministic', 'deterministic', 'deterministic']",
+    "completed": true,
+    "final_det_mean": 78.2,
+    "final_det_std": 2.315,
+    "final_stoch_mean": 78.2,
+    "final_stoch_std": 2.315,
+    "metric": "wasserstein",
+    "num_actors": 6,
+    "w2_weights": "[10.0, 10.0, 10.0, 10.0, 10.0]",
+    "weight": 10.0
+  },
+  "run_id": "ammd_s1_pi_base__960538e8",
+  "seed": 1,
+  "settings": {
+    "env": "antmaze-medium-diverse-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "n_episodes": 10,
+    "policy_freq": 2,
+    "seed": 1
+  },
+  "source_host": "choi",
+  "source_log": "C:\\Users\\USER\\Desktop\\unified_logs\\rebrac\\wasserstein\\antmaze_medium_diverse_v2\\w10\\seed1\\antmaze_medium_diverse_v2_rebrac_w10_seed1.log",
+  "source_path": "C:\\Users\\USER\\Desktop\\unified_logs\\rebrac\\wasserstein\\antmaze_medium_diverse_v2\\w10\\seed1",
+  "source_user": "choi",
+  "variant": "pi_base"
+}

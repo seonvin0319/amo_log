@@ -81,7 +81,8 @@ def build() -> None:
         )
 
     (CATALOG / "catalog.json").write_text(
-        json.dumps({"n_runs": len(rows), "runs": rows}, indent=2, sort_keys=True) + "\n"
+        json.dumps({"n_runs": len(rows), "runs": rows}, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
     )
 
     lines = [
@@ -101,7 +102,7 @@ def build() -> None:
             f"{mstep} | {step} | {score} | `{r['rel_path']}` |"
         )
     lines.append("")
-    (CATALOG / "INDEX.md").write_text("\n".join(lines))
+    (CATALOG / "INDEX.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"catalog: {len(rows)} runs -> catalog/INDEX.md, catalog/catalog.json")
 
 

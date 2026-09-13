@@ -1,0 +1,56 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-13T13:12:08+09:00",
+  "env": "halfcheetah-medium-replay-v2",
+  "env_short": "hcmr",
+  "eval_source": "synthesized_from_pogo_actor0_log",
+  "family": "vanilla",
+  "git": {
+    "code_commit": null,
+    "code_repo": "PORL"
+  },
+  "legacy_name": "halfcheetah_medium_replay_v2_iql_w10_seed3.log",
+  "notes": "Actor0/pi_base scores from POGO multi-actor IQL. Actor0 has no W2/Fisher-Rao/Sinkhorn term and is vanilla algorithm performance.",
+  "pogo_source": {
+    "actor_types": null,
+    "completed": true,
+    "final_det_mean": 43.906,
+    "final_det_std": 1.06,
+    "final_stoch_mean": 43.627,
+    "final_stoch_std": 1.127,
+    "metric": "wasserstein",
+    "num_actors": 3,
+    "w2_weights": "[10.0, 10.0]",
+    "weight": 10.0
+  },
+  "run_id": "hcmr_s3_pi_base__09c1a045",
+  "seed": 3,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "beta": 3.0,
+    "buffer_size": 2000000,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-replay-v2",
+    "eval_freq": 5000,
+    "iql_deterministic": false,
+    "iql_tau": 0.7,
+    "max_timesteps": 1000000,
+    "n_episodes": 10,
+    "normalize": true,
+    "normalize_reward": false,
+    "qf_lr": 0.0003,
+    "seed": 3,
+    "tau": 0.005,
+    "vf_lr": 0.0003
+  },
+  "source_host": "choi",
+  "source_log": "C:\\Users\\USER\\Desktop\\unified_logs\\iql\\wasserstein\\halfcheetah_medium_replay_v2\\w10\\seed3\\halfcheetah_medium_replay_v2_iql_w10_seed3.log",
+  "source_path": "C:\\Users\\USER\\Desktop\\unified_logs\\iql\\wasserstein\\halfcheetah_medium_replay_v2\\w10\\seed3",
+  "source_user": "offrl",
+  "variant": "pi_base"
+}

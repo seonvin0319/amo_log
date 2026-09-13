@@ -1,0 +1,22 @@
+# Vanilla IQL (pi_base / Actor0 extracted from POGO multi-actor).
+# Actor1+ W2/Fisher-Rao/Sinkhorn fields were dropped; Actor0 uses the original loss only.
+algo: iql
+family: vanilla
+extracted_from: pogo_actor0
+env: walker2d-medium-v2
+seed: 2
+eval_freq: 5000
+n_episodes: 10
+max_timesteps: 1000000
+iql_tau: 0.7
+beta: 3.0
+vf_lr: 0.0003
+qf_lr: 0.0003
+actor_lr: 0.0003
+iql_deterministic: false
+batch_size: 256
+discount: 0.99
+tau: 0.005
+buffer_size: 2000000
+normalize: true
+normalize_reward: false

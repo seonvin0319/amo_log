@@ -73,7 +73,7 @@ runs/{algo}/{family}/{run_id}/
 | `td3bc` | CORL/ASPC TD3+BC |
 | `aspc_rc` | ASPC-style Robust Critic (3×256 + LayerNorm) |
 | `a2` / `a2p5` | TD3+BC `alpha` |
-| `pi_base` | MPI multi-actor의 Actor0 (vanilla IQL과 동일 업데이트) |
+| `pi_base` | MPI/POGO multi-actor의 Actor0 (vanilla IQL/ReBRAC과 동일 업데이트) |
 | `smoke` | 짧은 검증 런 |
 | `Tlr2e3` | `T_lr=2e-3` |
 
@@ -91,7 +91,7 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `adaptive_multiscale` | AMO T_E/T_B 분리 |
 | `antmaze_t_init_tune` | AMO antmaze T_E×T_B init grid |
 | `aspc_rc` | TD3+BC ASPC Table 6 + Robust Critic benchmark |
-| `vanilla` | Standalone / pi_base IQL (MPI Actor0 추출 포함) |
+| `vanilla` | Standalone / pi_base IQL·ReBRAC (MPI/POGO Actor0 추출 포함) |
 | `benchmark` | WPC / ASPC D4RL benchmark cohort |
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 

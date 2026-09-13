@@ -47,7 +47,8 @@
 | `amo` | `secant` | 기본 endpoint-secant B_PI |
 | `amo` | `antmaze_t_init_tune` | antmaze T_E/T_B init grid |
 | `td3bc` | `aspc_rc` | ASPC-style TD3+BC + Robust Critic (Table 6, α=2.5) |
-| `iql` | `vanilla` | Vanilla IQL. MPI-IQL Actor0/pi_base eval 추출 포함 |
+| `iql` | `vanilla` | Vanilla IQL. MPI-IQL / POGO Actor0/pi_base eval 추출 포함 |
+| `rebrac` | `vanilla` | Vanilla ReBRAC. POGO multi-actor Actor0 eval 추출 |
 | `wpc` | `benchmark` | WPC baseline (ASPC-repo), policy_noise=0.2 cohort |
 | `aspc` | `benchmark` | ASPC (`l3_mode=aspc`), policy_noise=0.2 cohort |
 
