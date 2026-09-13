@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **462**
+Total runs: **464**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -403,6 +403,7 @@ Total runs: **462**
 | iql | amo_bpi | `wme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__957ba561` | walker2d-medium-expert-v2 | 0 | — | — | — | `runs/iql/amo_bpi/wme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__957ba561` |
 | iql | amo_bpi | `wme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__8bb425a6` | walker2d-medium-expert-v2 | 1 | — | — | — | `runs/iql/amo_bpi/wme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__8bb425a6` |
 | iql | amo_bpi | `wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__3ed43c30` | walker2d-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__3ed43c30` |
+| iql | amo_bpi | `wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__939d8dca` | walker2d-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__939d8dca` |
 | iql | amo_bpi | `wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__7dce388b` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__7dce388b` |
 | iql | amo_bpi | `wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__daa9623b` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__daa9623b` |
 | iql | amo_bpi | `wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__e1aa91f5` | walker2d-medium-replay-v2 | 0 | — | 1000000 | 66.05 | `runs/iql/amo_bpi/wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__e1aa91f5` |
@@ -410,6 +411,7 @@ Total runs: **462**
 | iql | amo_bpi | `wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__2b0d698d` | walker2d-medium-replay-v2 | 0 | — | — | — | `runs/iql/amo_bpi/wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__2b0d698d` |
 | iql | amo_bpi | `wmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ef503053` | walker2d-medium-replay-v2 | 1 | — | — | — | `runs/iql/amo_bpi/wmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ef503053` |
 | iql | amo_bpi | `wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__80d99d8a` | walker2d-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__80d99d8a` |
+| iql | amo_bpi | `wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ca60b2af` | walker2d-medium-replay-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ca60b2af` |
 | iql | amo_bpi | `wm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c81ee2ff` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c81ee2ff` |
 | iql | amo_bpi | `wm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__b21b55a5` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__b21b55a5` |
 | iql | amo_bpi | `wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d2182e3a` | walker2d-medium-v2 | 0 | — | 1000000 | 72.93 | `runs/iql/amo_bpi/wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d2182e3a` |
