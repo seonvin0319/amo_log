@@ -1,0 +1,2 @@
+{"step": 1000, "actor_loss": 3.9486923217773438, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 3.9486923217773438, "critic_loss": 0.5540386438369751, "value_loss": 0.0806589424610138}
+{"step": 2000, "actor_loss": 2.801576614379883, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 2.801576614379883, "critic_loss": 0.6809078454971313, "value_loss": 0.18979650735855103}
