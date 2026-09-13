@@ -33,3 +33,6 @@
 {"step": 660000, "return_mean": 1.0, "normalized_score": 100.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [1.0], "eval_seed": 3, "seed_stride": 1}
 {"step": 680000, "return_mean": 0.7, "normalized_score": 70.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [0.7], "eval_seed": 3, "seed_stride": 1}
 {"step": 700000, "return_mean": 1.0, "normalized_score": 100.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [1.0], "eval_seed": 3, "seed_stride": 1}
+{"step": 720000, "return_mean": 0.8, "normalized_score": 80.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [0.8], "eval_seed": 3, "seed_stride": 1}
+{"step": 740000, "return_mean": 0.7, "normalized_score": 70.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [0.7], "eval_seed": 3, "seed_stride": 1}
+{"step": 760000, "return_mean": 0.8, "normalized_score": 80.0, "episodes": 10, "episodes_per_repeat": 10, "repeats": 1, "repeat_returns": [0.8], "eval_seed": 3, "seed_stride": 1}

@@ -13,8 +13,8 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "legacy_name": "amu_s0_iql",
-  "run_id": "unknown_s0_pi_base_smoke__ed111b91",
+  "legacy_name": "amud_s1_iql",
+  "run_id": "unknown_s0_pi_base_smoke__c5d727e8",
   "seed": 0,
   "settings": {
     "actor_lr": 0.0003,
@@ -27,6 +27,6 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amu_s0_iql",
+  "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amud_s1_iql",
   "variant": "pi_base_smoke"
 }
