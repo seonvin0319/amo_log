@@ -5,7 +5,7 @@
     "metrics.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-mr_s2",
-  "collected_at": "2026-09-13T06:41:55+00:00",
+  "collected_at": "2026-09-13T06:52:08+00:00",
   "env": "unknown",
   "env_short": "unknown",
   "family": "td3_amo_jax",
