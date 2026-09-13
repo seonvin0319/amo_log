@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **420**
+Total runs: **421**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -11,7 +11,7 @@ Total runs: **420**
 | amo | adaptive_multiscale | `amld_s0_TE1_Tlr0p001__8061f94e` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p001__8061f94e` |
 | amo | adaptive_multiscale | `amld_s0_TE1_Tlr0p001__f62a8857` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 10.00 | `runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p001__f62a8857` |
 | amo | adaptive_multiscale | `amld_s0_TE1_Tlr0p002__211e9fa7` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 30.00 | `runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p002__211e9fa7` |
-| amo | adaptive_multiscale | `amld_s0_TE1_Tlr0p002__f6cab601` | antmaze-large-diverse-v2 | 0 | 1000000 | — | — | `runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p002__f6cab601` |
+| amo | adaptive_multiscale | `amld_s0_TE1_Tlr0p002__f6cab601` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p002__f6cab601` |
 | amo | adaptive_multiscale | `amld_s0_TE5_Tlr0p0003__5468a9e9` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/amo/adaptive_multiscale/amld_s0_TE5_Tlr0p0003__5468a9e9` |
 | amo | adaptive_multiscale | `amld_s0_TE5_Tlr0p001__1f5134a9` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/amo/adaptive_multiscale/amld_s0_TE5_Tlr0p001__1f5134a9` |
 | amo | adaptive_multiscale | `amld_s0_TE5_Tlr0p002__d0968b5d` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/amo/adaptive_multiscale/amld_s0_TE5_Tlr0p002__d0968b5d` |
@@ -147,6 +147,7 @@ Total runs: **420**
 | amo | adaptive_multiscale | `amu_s1_TE5_Tlr0p0003__0dfe9b11` | antmaze-umaze-v2 | 1 | 1000000 | 1000000 | 90.00 | `runs/amo/adaptive_multiscale/amu_s1_TE5_Tlr0p0003__0dfe9b11` |
 | amo | adaptive_multiscale | `amu_s1_TE5_Tlr0p001__4f3fcc07` | antmaze-umaze-v2 | 1 | 1000000 | 1000000 | 70.00 | `runs/amo/adaptive_multiscale/amu_s1_TE5_Tlr0p001__4f3fcc07` |
 | amo | adaptive_multiscale | `amu_s1_TE5_Tlr0p002__f7da7627` | antmaze-umaze-v2 | 1 | 1000000 | 1000000 | 100.00 | `runs/amo/adaptive_multiscale/amu_s1_TE5_Tlr0p002__f7da7627` |
+| amo | adaptive_multiscale | `amu_s2_TE1_Tlr0p0003__b910c352` | antmaze-umaze-v2 | 2 | 1000000 | — | — | `runs/amo/adaptive_multiscale/amu_s2_TE1_Tlr0p0003__b910c352` |
 | amo | amo_td3bc | `hme_s0_qouter__2c7cd16c` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 101.29 | `runs/amo/amo_td3bc/hme_s0_qouter__2c7cd16c` |
 | amo | amo_td3bc | `hcmr_s0_qouter__dacfe9c9` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 46.90 | `runs/amo/amo_td3bc/hcmr_s0_qouter__dacfe9c9` |
 | amo | amo_td3bc | `hcm_s0_qouter__f2e53379` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 53.01 | `runs/amo/amo_td3bc/hcm_s0_qouter__f2e53379` |

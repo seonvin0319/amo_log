@@ -2,10 +2,12 @@
   "algo": "amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
   "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr2e-03_t1_s0",
-  "collected_at": "2026-09-13T21:59:12+09:00",
+  "collected_at": "2026-09-13T22:02:43+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "adaptive_multiscale",
@@ -26,7 +28,14 @@
     "discount": 0.99,
     "env": "antmaze-large-diverse-v2",
     "eval_freq": 20000,
-    "last_metrics_step": 988600,
+    "final_eval_50": {
+      "d4rl_normalized_score": 0.0,
+      "device": "cpu",
+      "eval_return": 0.0,
+      "evaluated_at": "2026-09-13T13:00:00.337144+00:00",
+      "n_episodes": 50
+    },
+    "last_metrics_step": 1000000,
     "max_timesteps": 1000000,
     "noise_clip": 0.5,
     "normalize": true,
