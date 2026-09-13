@@ -91,6 +91,7 @@ _AMO_EXT_PACKS = [
     "amo_loco9_s0_tlr2e-3_te1_tb1",
     "amo_loco9_s0_tlr2e-3_te10_tb10",
     "amo_loco9_s0_tlr1e-3_te1_tb1",
+    "amo_loco9_te1_tb1_tlr1e-3_seeds0to3",
     "amo_loco9_s0_tlr5e-4_te1_tb1",
     "amo_loco9_s0_tlr2e-3_te1_tb1_l1e",
     "amo_loco9_s0_tlr1e-3_te1_tb1_l1e",
@@ -229,6 +230,23 @@ DEFAULT_SOURCES.append(
         "config_file": "resolved_config.yaml",
         "nested": True,
         "variant_tag": "bpi_sweep",
+    }
+)
+
+# AMO-main JAX remainder of the same B_PI sweep (train-only + CPU eval).
+# Layout: cells/<rlrX_bY>/<env-v2>/{config.yaml,metrics.jsonl,eval.jsonl}
+DEFAULT_SOURCES.append(
+    {
+        "algo": "iql",
+        "root": Path(
+            "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO_release",
+        "family_force": "amo_bpi",
+        "config_file": "config.yaml",
+        "nested": True,
+        "variant_tag": "jax_rem",
     }
 )
 
@@ -588,13 +606,27 @@ def ingest_one(
     if not cfg_path.exists():
         return None
 
-    if cfg_path.name == "resolved_config.yaml" or family_force in (
-        "adaptive_beta",
-        "amo_bpi",
+    if cfg_path.name == "resolved_config.yaml" or (
+        family_force in ("adaptive_beta", "amo_bpi")
+        and any(
+            line.startswith("corl:") or line.startswith("meta:")
+            for line in cfg_path.read_text(errors="ignore").splitlines()[:40]
+        )
     ):
         cfg = load_iql_resolved_config(cfg_path)
     else:
         cfg = load_yaml_lite(cfg_path)
+    # AMO JAX run_meta carries env/seed when config.yaml is hyperparams-only.
+    run_meta_path = src / "run_meta.json"
+    if run_meta_path.is_file():
+        try:
+            run_meta = json.loads(run_meta_path.read_text())
+        except (OSError, json.JSONDecodeError, TypeError):
+            run_meta = {}
+        if isinstance(run_meta, dict):
+            for key in ("env", "seed", "algorithm", "backend"):
+                if run_meta.get(key) is not None and cfg.get(key) is None:
+                    cfg[key] = run_meta[key]
     if variant_tag:
         cfg["_variant_tag"] = variant_tag
     # Nested cell tag (e.g. rlr2e-3_b1) for amo_bpi uniqueness.
@@ -647,7 +679,12 @@ def ingest_one(
     if family == "adaptive_beta":
         meta["protocol"] = "corl_iql_adaptive_beta_v1"
     if family == "amo_bpi":
-        meta["protocol"] = "corl_iql_amo_bpi_v1"
+        if str(cfg.get("backend") or "").lower() == "jax" or "jax_rem" in str(
+            cfg.get("_variant_tag") or ""
+        ):
+            meta["protocol"] = "jax_iql_amo_bpi_v1"
+        else:
+            meta["protocol"] = "corl_iql_amo_bpi_v1"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
     if family == "paper_benchmark":
@@ -672,6 +709,11 @@ def ingest_one(
         normalize_benchmark_eval(src_eval_alt, dest / "eval.jsonl")
         if "eval.jsonl" not in meta["artifacts"]:
             meta["artifacts"].append("eval.jsonl")
+    # Keep original AMO run_meta alongside catalog meta when present.
+    if run_meta_path.is_file():
+        shutil.copy2(run_meta_path, dest / "source_run_meta.json")
+        if "source_run_meta.json" not in meta["artifacts"]:
+            meta["artifacts"].append("source_run_meta.json")
     for extra in ("launch_cmd.txt", "notes.md", "summary.json"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)

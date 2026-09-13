@@ -1,0 +1,48 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_te1_tb1_tlr1e-3_seeds0to3/runs/amo_adaptive_multiscale_hc-m_s3_tlr1e-3_te1_tb1-halfcheetah-medium-v2-1630e46d",
+  "collected_at": "2026-09-13T12:49:19+00:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amo_adaptive_multiscale_hc-m_s3_tlr1e-3_te1_tb1-halfcheetah-medium-v2-1630e46d",
+  "run_id": "hcm_s3_te1_tb1_Tlr0p001__1630e46d",
+  "seed": 3,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 1.0,
+    "T_freq": 10,
+    "T_lr": 0.001,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "critic_hidden_dim": 256,
+    "critic_layernorm": true,
+    "critic_n_hiddens": 3,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_q": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_te1_tb1_tlr1e-3_seeds0to3/runs/amo_adaptive_multiscale_hc-m_s3_tlr1e-3_te1_tb1-halfcheetah-medium-v2-1630e46d",
+  "variant": "te1_tb1_Tlr0p001"
+}
