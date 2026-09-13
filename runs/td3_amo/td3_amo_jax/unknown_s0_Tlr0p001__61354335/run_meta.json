@@ -1,0 +1,41 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl"
+  ],
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s2",
+  "collected_at": "2026-09-13T06:21:30+00:00",
+  "env": "unknown",
+  "env_short": "unknown",
+  "family": "td3_amo_jax",
+  "git": {
+    "code_commit": "3fdd895194b2ca8bb6c2777567f3deccd0b60822",
+    "code_repo": "AMO-main"
+  },
+  "legacy_name": "td3amo_jax_hc-m_s2",
+  "run_id": "unknown_s0_Tlr0p001__61354335",
+  "seed": 0,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 1.0,
+    "T_lr": 0.001,
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "critic_layernorm": true,
+    "discount": 0.99,
+    "eval_freq": 20000,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s2",
+  "variant": "Tlr0p001"
+}
