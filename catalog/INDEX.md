@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **486**
+Total runs: **487**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -374,6 +374,7 @@ Total runs: **486**
 | iql | amo_bpi | `hcmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__63206efd` | halfcheetah-medium-replay-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hcmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__63206efd` |
 | iql | amo_bpi | `hcmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__63206efd` | halfcheetah-medium-replay-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hcmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__63206efd` |
 | iql | amo_bpi | `hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__220d0f47` | halfcheetah-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__220d0f47` |
+| iql | amo_bpi | `hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__220d0f47` | halfcheetah-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__220d0f47` |
 | iql | amo_bpi | `hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a430096d` | halfcheetah-medium-replay-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a430096d` |
 | iql | amo_bpi | `hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c092ff37` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c092ff37` |
 | iql | amo_bpi | `hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__3340ad4f` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__3340ad4f` |
