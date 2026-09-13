@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **348**
+Total runs: **350**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -307,11 +307,13 @@ Total runs: **348**
 | iql_amo | lr1e3_beta_sweep | `hcmr_s0_iql_amo_lr1e3_beta5__50e4f37d` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 44.57 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s0_iql_amo_lr1e3_beta5__50e4f37d` |
 | iql_amo | lr1e3_beta_sweep | `hcmr_s1_iql_amo_lr1e3_beta1__f529c686` | halfcheetah-medium-replay-v2 | 1 | 1000000 | 1000000 | 44.57 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s1_iql_amo_lr1e3_beta1__f529c686` |
 | iql_amo | lr1e3_beta_sweep | `hcmr_s2_iql_amo_lr1e3_beta1__121c300b` | halfcheetah-medium-replay-v2 | 2 | 1000000 | 1000000 | 44.86 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s2_iql_amo_lr1e3_beta1__121c300b` |
+| iql_amo | lr1e3_beta_sweep | `hcmr_s3_iql_amo_lr1e3_beta1__aa347717` | halfcheetah-medium-replay-v2 | 3 | 1000000 | 1000000 | 40.88 | `runs/iql_amo/lr1e3_beta_sweep/hcmr_s3_iql_amo_lr1e3_beta1__aa347717` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s0_iql_amo_lr1e3_beta10__2fe1b054` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 48.28 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s0_iql_amo_lr1e3_beta10__2fe1b054` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s0_iql_amo_lr1e3_beta1__1028c9ea` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 47.96 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s0_iql_amo_lr1e3_beta1__1028c9ea` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s0_iql_amo_lr1e3_beta5__8479a86c` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 48.25 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s0_iql_amo_lr1e3_beta5__8479a86c` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s1_iql_amo_lr1e3_beta1__c306b2dd` | halfcheetah-medium-v2 | 1 | 1000000 | 1000000 | 48.67 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s1_iql_amo_lr1e3_beta1__c306b2dd` |
 | iql_amo | lr1e3_beta_sweep | `hcm_s2_iql_amo_lr1e3_beta1__dfab8745` | halfcheetah-medium-v2 | 2 | 1000000 | 1000000 | 48.24 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s2_iql_amo_lr1e3_beta1__dfab8745` |
+| iql_amo | lr1e3_beta_sweep | `hcm_s3_iql_amo_lr1e3_beta1__6e7a7917` | halfcheetah-medium-v2 | 3 | 1000000 | 1000000 | 48.26 | `runs/iql_amo/lr1e3_beta_sweep/hcm_s3_iql_amo_lr1e3_beta1__6e7a7917` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta10__3f8fc7aa` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 107.02 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta10__3f8fc7aa` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta1__0ed6b33a` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.92 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta1__0ed6b33a` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta5__87e12d6f` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 112.41 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta5__87e12d6f` |
