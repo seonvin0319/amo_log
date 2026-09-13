@@ -258,8 +258,13 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
             a = float(alpha)
             tokens.append(f"a{int(a) if a.is_integer() else str(a).replace('.', 'p')}")
     if family == "vanilla" and algo == "iql":
-        # Scores extracted from MPI multi-actor Actor0 (pi_base).
-        tokens.append("pi_base")
+        # Prefer explicit backend tag for AMO release JAX/Torch runs.
+        backend = str(cfg.get("backend") or "").lower()
+        if backend in ("jax", "torch"):
+            tokens.append(backend)
+        else:
+            # Legacy MPI Actor0 extractions.
+            tokens.append("pi_base")
     if family == "benchmark" and algo == "iql":
         tokens.append("pi_base")
     if algo in ("wpc", "aspc") or (family == "benchmark" and algo in ("wpc", "aspc")):
@@ -270,8 +275,11 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
             mode = str(cfg.get("l3_mode", "aspc"))
             if mode and mode != "aspc":
                 tokens.append(mode)
-    if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
-        if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
+    if "smoke" in dirname:
+        tokens.append("smoke")
+    else:
+        horizon = cfg.get("max_timesteps", cfg.get("max_steps", None))
+        if horizon is not None and int(horizon) <= 20_000:
             tokens.append("smoke")
     t_lr = cfg.get("T_lr")
     if t_lr is not None and float(t_lr) not in (2e-4, 0.0002):
@@ -321,9 +329,15 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "alpha",
         "beta",
         "iql_tau",
+        "expectile",
         "iql_deterministic",
         "vf_lr",
         "qf_lr",
+        "value_lr",
+        "critic_lr",
+        "max_steps",
+        "reward_transform",
+        "backend",
         "n_episodes",
         "alpha_freq",
         "ema_alpha",
@@ -655,6 +669,22 @@ def ingest_one(
     if not cfg_path.exists():
         return None
     cfg = load_yaml_lite(cfg_path)
+    # AMO release train.py stores env/seed/backend in run_meta.json, not config.yaml.
+    meta_path = src / "run_meta.json"
+    if meta_path.exists():
+        try:
+            run_meta = json.loads(meta_path.read_text())
+        except (OSError, json.JSONDecodeError, TypeError):
+            run_meta = {}
+        for key in ("env", "seed", "algorithm", "backend", "device"):
+            if key in run_meta and run_meta[key] is not None and key not in cfg:
+                cfg[key] = run_meta[key]
+            elif key in run_meta and run_meta[key] is not None and cfg.get(key) in (None, ""):
+                cfg[key] = run_meta[key]
+    if "max_timesteps" not in cfg and "max_steps" in cfg:
+        cfg["max_timesteps"] = cfg["max_steps"]
+    if "iql_tau" not in cfg and "expectile" in cfg:
+        cfg["iql_tau"] = cfg["expectile"]
     env = str(cfg.get("env") or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
     family = classify_family(algo, cfg, family_force)

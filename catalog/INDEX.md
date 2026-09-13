@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **221**
+Total runs: **217**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -119,40 +119,36 @@ Total runs: **221**
 | iql | benchmark | `wmr_s0_pi_base__d831fdac` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 82.00 | `runs/iql/benchmark/wmr_s0_pi_base__d831fdac` |
 | iql | benchmark | `wm_s0_pi_base__7a2b5104` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 84.00 | `runs/iql/benchmark/wm_s0_pi_base__7a2b5104` |
 | iql | vanilla | `amld_s0_pi_base__58475c36` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/iql/vanilla/amld_s0_pi_base__58475c36` |
+| iql | vanilla | `amld_s1_jax__dc428eb9` | antmaze-large-diverse-v2 | 1 | 1000000 | 1000000 | 46.00 | `runs/iql/vanilla/amld_s1_jax__dc428eb9` |
+| iql | vanilla | `amld_s2_jax__408b1020` | antmaze-large-diverse-v2 | 2 | 1000000 | 1000000 | 22.00 | `runs/iql/vanilla/amld_s2_jax__408b1020` |
+| iql | vanilla | `amld_s3_jax__8a820005` | antmaze-large-diverse-v2 | 3 | 1000000 | 1000000 | 28.00 | `runs/iql/vanilla/amld_s3_jax__8a820005` |
 | iql | vanilla | `amlp_s0_pi_base__f9cdca04` | antmaze-large-play-v2 | 0 | 1000000 | 1000000 | 20.00 | `runs/iql/vanilla/amlp_s0_pi_base__f9cdca04` |
+| iql | vanilla | `amlp_s1_jax__c26378fb` | antmaze-large-play-v2 | 1 | 1000000 | 1000000 | 38.00 | `runs/iql/vanilla/amlp_s1_jax__c26378fb` |
+| iql | vanilla | `amlp_s2_jax__8298c024` | antmaze-large-play-v2 | 2 | 1000000 | 1000000 | 44.00 | `runs/iql/vanilla/amlp_s2_jax__8298c024` |
+| iql | vanilla | `amlp_s3_jax__0d019e34` | antmaze-large-play-v2 | 3 | 1000000 | 1000000 | 38.00 | `runs/iql/vanilla/amlp_s3_jax__0d019e34` |
 | iql | vanilla | `ammd_s0_pi_base__f00a9ad1` | antmaze-medium-diverse-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/iql/vanilla/ammd_s0_pi_base__f00a9ad1` |
+| iql | vanilla | `ammd_s1_jax__dbe604aa` | antmaze-medium-diverse-v2 | 1 | 1000000 | 1000000 | 66.00 | `runs/iql/vanilla/ammd_s1_jax__dbe604aa` |
+| iql | vanilla | `ammd_s2_jax__463f4326` | antmaze-medium-diverse-v2 | 2 | 1000000 | 1000000 | 82.00 | `runs/iql/vanilla/ammd_s2_jax__463f4326` |
+| iql | vanilla | `ammd_s3_jax__5f60c73a` | antmaze-medium-diverse-v2 | 3 | 1000000 | 1000000 | 66.00 | `runs/iql/vanilla/ammd_s3_jax__5f60c73a` |
 | iql | vanilla | `ammp_s0_pi_base__2666ee95` | antmaze-medium-play-v2 | 0 | 1000000 | 1000000 | 60.00 | `runs/iql/vanilla/ammp_s0_pi_base__2666ee95` |
+| iql | vanilla | `ammp_s1_jax__f2bda956` | antmaze-medium-play-v2 | 1 | 1000000 | 1000000 | 58.00 | `runs/iql/vanilla/ammp_s1_jax__f2bda956` |
+| iql | vanilla | `ammp_s2_jax__d51250f3` | antmaze-medium-play-v2 | 2 | 1000000 | 1000000 | 64.00 | `runs/iql/vanilla/ammp_s2_jax__d51250f3` |
+| iql | vanilla | `ammp_s3_jax__d14d4311` | antmaze-medium-play-v2 | 3 | 1000000 | 1000000 | 72.00 | `runs/iql/vanilla/ammp_s3_jax__d14d4311` |
 | iql | vanilla | `amud_s0_pi_base__f673faa4` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/iql/vanilla/amud_s0_pi_base__f673faa4` |
+| iql | vanilla | `amud_s1_jax__c5d727e8` | antmaze-umaze-diverse-v2 | 1 | 1000000 | 1000000 | 58.00 | `runs/iql/vanilla/amud_s1_jax__c5d727e8` |
+| iql | vanilla | `amud_s2_jax__ad68e832` | antmaze-umaze-diverse-v2 | 2 | 1000000 | 1000000 | 64.00 | `runs/iql/vanilla/amud_s2_jax__ad68e832` |
+| iql | vanilla | `amud_s3_jax__0914ebb0` | antmaze-umaze-diverse-v2 | 3 | 1000000 | 1000000 | 60.00 | `runs/iql/vanilla/amud_s3_jax__0914ebb0` |
+| iql | vanilla | `amu_s0_jax__ed111b91` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 62.00 | `runs/iql/vanilla/amu_s0_jax__ed111b91` |
 | iql | vanilla | `amu_s0_pi_base__d02593f5` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | 40.00 | `runs/iql/vanilla/amu_s0_pi_base__d02593f5` |
+| iql | vanilla | `amu_s1_jax__d5436deb` | antmaze-umaze-v2 | 1 | 1000000 | 1000000 | 88.00 | `runs/iql/vanilla/amu_s1_jax__d5436deb` |
+| iql | vanilla | `amu_s2_jax__45be22c6` | antmaze-umaze-v2 | 2 | 1000000 | 1000000 | 66.00 | `runs/iql/vanilla/amu_s2_jax__45be22c6` |
+| iql | vanilla | `amu_s3_jax__28faf962` | antmaze-umaze-v2 | 3 | 1000000 | 1000000 | 88.00 | `runs/iql/vanilla/amu_s3_jax__28faf962` |
 | iql | vanilla | `hme_s0_pi_base__3ea28f72` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 94.20 | `runs/iql/vanilla/hme_s0_pi_base__3ea28f72` |
 | iql | vanilla | `hcmr_s0_pi_base__3fb94e79` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | 44.00 | `runs/iql/vanilla/hcmr_s0_pi_base__3fb94e79` |
 | iql | vanilla | `hcm_s0_pi_base__230e3cf0` | halfcheetah-medium-v2 | 0 | 1000000 | 1000000 | 48.60 | `runs/iql/vanilla/hcm_s0_pi_base__230e3cf0` |
 | iql | vanilla | `hopme_s0_pi_base__23cb2425` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 112.10 | `runs/iql/vanilla/hopme_s0_pi_base__23cb2425` |
 | iql | vanilla | `hopmr_s0_pi_base__5b989a7a` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 97.80 | `runs/iql/vanilla/hopmr_s0_pi_base__5b989a7a` |
 | iql | vanilla | `hopm_s0_pi_base__2ba4840d` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 66.70 | `runs/iql/vanilla/hopm_s0_pi_base__2ba4840d` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__0914ebb0` | unknown | 0 | — | 1000000 | 60.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__0914ebb0` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__0d019e34` | unknown | 0 | — | 1000000 | 38.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__0d019e34` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__28faf962` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__28faf962` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__408b1020` | unknown | 0 | — | 1000000 | 22.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__408b1020` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__45be22c6` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__45be22c6` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__463f4326` | unknown | 0 | — | 1000000 | 82.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__463f4326` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__5f60c73a` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__5f60c73a` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__825a40bc` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__825a40bc` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__8298c024` | unknown | 0 | — | 1000000 | 44.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__8298c024` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__8a820005` | unknown | 0 | — | 1000000 | 28.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__8a820005` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__8ff3dfb7` | unknown | 0 | — | 700000 | 100.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__8ff3dfb7` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__999b0074` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__999b0074` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__ad68e832` | unknown | 0 | — | 1000000 | 64.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__ad68e832` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__c26378fb` | unknown | 0 | — | 1000000 | 38.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__c26378fb` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__c5d727e8` | unknown | 0 | — | 1000000 | 58.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__c5d727e8` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__d14d4311` | unknown | 0 | — | 1000000 | 72.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d14d4311` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__d51250f3` | unknown | 0 | — | 1000000 | 64.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d51250f3` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__d5436deb` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d5436deb` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__d7d9a642` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d7d9a642` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__dbe604aa` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__dbe604aa` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__dc428eb9` | unknown | 0 | — | 1000000 | 46.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__dc428eb9` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__ed111b91` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__ed111b91` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__f2bda956` | unknown | 0 | — | 1000000 | 58.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__f2bda956` |
 | iql | vanilla | `wme_s0_pi_base__c39ecd24` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.70 | `runs/iql/vanilla/wme_s0_pi_base__c39ecd24` |
 | iql | vanilla | `wmr_s0_pi_base__5284a370` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | 82.00 | `runs/iql/vanilla/wmr_s0_pi_base__5284a370` |
 | iql | vanilla | `wm_s0_pi_base__245350fc` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | 84.00 | `runs/iql/vanilla/wm_s0_pi_base__245350fc` |

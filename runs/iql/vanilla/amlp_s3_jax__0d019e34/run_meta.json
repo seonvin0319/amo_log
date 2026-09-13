@@ -1,0 +1,42 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-13T19:17:43+09:00",
+  "env": "antmaze-large-play-v2",
+  "env_short": "amlp",
+  "family": "vanilla",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "amlp_s3_iql",
+  "run_id": "amlp_s3_jax__0d019e34",
+  "seed": 3,
+  "settings": {
+    "actor_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "beta": 10.0,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "antmaze-large-play-v2",
+    "eval_freq": 20000,
+    "expectile": 0.9,
+    "iql_tau": 0.9,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "normalize": true,
+    "policy_freq": 1,
+    "reward_transform": "antmaze_shift",
+    "seed": 3,
+    "tau": 0.005,
+    "value_lr": 0.0003
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amlp_s3_iql",
+  "variant": "jax"
+}
