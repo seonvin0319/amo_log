@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **487**
+Total runs: **489**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -365,6 +365,7 @@ Total runs: **487**
 | iql | amo_bpi | `hme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__b936ba42` | halfcheetah-medium-expert-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__b936ba42` |
 | iql | amo_bpi | `hme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__b936ba42` | halfcheetah-medium-expert-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__b936ba42` |
 | iql | amo_bpi | `hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__c3db5e59` | halfcheetah-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__c3db5e59` |
+| iql | amo_bpi | `hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__c3db5e59` | halfcheetah-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__c3db5e59` |
 | iql | amo_bpi | `hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7d2696f2` | halfcheetah-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7d2696f2` |
 | iql | amo_bpi | `hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__ef593dab` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__ef593dab` |
 | iql | amo_bpi | `hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__27b1753b` | halfcheetah-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hcmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__27b1753b` |
@@ -415,6 +416,7 @@ Total runs: **487**
 | iql | amo_bpi | `hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7e25c7c1` | hopper-medium-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7e25c7c1` |
 | iql | amo_bpi | `hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7e25c7c1` | hopper-medium-v2 | 1 | — | — | — | `runs/iql/amo_bpi/hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7e25c7c1` |
 | iql | amo_bpi | `hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6b232c9a` | hopper-medium-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6b232c9a` |
+| iql | amo_bpi | `hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__6b232c9a` | hopper-medium-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__6b232c9a` |
 | iql | amo_bpi | `hopm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a09b6279` | hopper-medium-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hopm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a09b6279` |
 | iql | amo_bpi | `wme_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__8d15f663` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wme_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__8d15f663` |
 | iql | amo_bpi | `wme_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__922ccc77` | walker2d-medium-expert-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wme_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__922ccc77` |
