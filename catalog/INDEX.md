@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **207**
+Total runs: **208**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -135,7 +135,8 @@ Total runs: **207**
 | iql | vanilla | `unknown_s0_pi_base_smoke__825a40bc` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__825a40bc` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__8ff3dfb7` | unknown | 0 | — | 700000 | 100.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__8ff3dfb7` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__999b0074` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__999b0074` |
-| iql | vanilla | `unknown_s0_pi_base_smoke__c5d727e8` | unknown | 0 | — | 700000 | 70.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__c5d727e8` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__ad68e832` | unknown | 0 | — | 40000 | 30.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__ad68e832` |
+| iql | vanilla | `unknown_s0_pi_base_smoke__c5d727e8` | unknown | 0 | — | 1000000 | 58.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__c5d727e8` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__d5436deb` | unknown | 0 | — | 1000000 | 88.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d5436deb` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__d7d9a642` | unknown | 0 | — | 1000000 | 66.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__d7d9a642` |
 | iql | vanilla | `unknown_s0_pi_base_smoke__ed111b91` | unknown | 0 | — | 1000000 | 62.00 | `runs/iql/vanilla/unknown_s0_pi_base_smoke__ed111b91` |
