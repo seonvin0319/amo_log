@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **505**
+Total runs: **510**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -363,6 +363,7 @@ Total runs: **505**
 | iql | amo_bpi | `amu_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__47b5c2a3` | antmaze-umaze-v2 | 2 | — | — | — | `runs/iql/amo_bpi/amu_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__47b5c2a3` |
 | iql | amo_bpi | `amu_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__47b5c2a3` | antmaze-umaze-v2 | 2 | — | — | — | `runs/iql/amo_bpi/amu_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__47b5c2a3` |
 | iql | amo_bpi | `amu_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__f712f5de` | antmaze-umaze-v2 | 3 | — | — | — | `runs/iql/amo_bpi/amu_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__f712f5de` |
+| iql | amo_bpi | `amu_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__f712f5de` | antmaze-umaze-v2 | 3 | — | — | — | `runs/iql/amo_bpi/amu_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__f712f5de` |
 | iql | amo_bpi | `hme_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c7154db3` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hme_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c7154db3` |
 | iql | amo_bpi | `hme_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__0a5c336e` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hme_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__0a5c336e` |
 | iql | amo_bpi | `hme_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__102b43d9` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hme_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__102b43d9` |
@@ -407,6 +408,7 @@ Total runs: **505**
 | iql | amo_bpi | `hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e0a8b8ce` | hopper-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e0a8b8ce` |
 | iql | amo_bpi | `hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__e0a8b8ce` | hopper-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__e0a8b8ce` |
 | iql | amo_bpi | `hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__eb8f022c` | hopper-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__eb8f022c` |
+| iql | amo_bpi | `hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__eb8f022c` | hopper-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__eb8f022c` |
 | iql | amo_bpi | `hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__754eba12` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__754eba12` |
 | iql | amo_bpi | `hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__147e49b4` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__147e49b4` |
 | iql | amo_bpi | `hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__f8d9dcb6` | hopper-medium-replay-v2 | 0 | 1000000 | 5000 | — | `runs/iql/amo_bpi/hopmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b5_t0p7__f8d9dcb6` |
@@ -441,6 +443,7 @@ Total runs: **505**
 | iql | amo_bpi | `wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__3ed43c30` | walker2d-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__3ed43c30` |
 | iql | amo_bpi | `wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__3ed43c30` | walker2d-medium-expert-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__3ed43c30` |
 | iql | amo_bpi | `wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__939d8dca` | walker2d-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__939d8dca` |
+| iql | amo_bpi | `wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__939d8dca` | walker2d-medium-expert-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__939d8dca` |
 | iql | amo_bpi | `wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__7dce388b` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__7dce388b` |
 | iql | amo_bpi | `wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__daa9623b` | walker2d-medium-replay-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wmr_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__daa9623b` |
 | iql | amo_bpi | `wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__e1aa91f5` | walker2d-medium-replay-v2 | 0 | — | 1000000 | 66.05 | `runs/iql/amo_bpi/wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__e1aa91f5` |
@@ -451,6 +454,7 @@ Total runs: **505**
 | iql | amo_bpi | `wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__80d99d8a` | walker2d-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__80d99d8a` |
 | iql | amo_bpi | `wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__80d99d8a` | walker2d-medium-replay-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__80d99d8a` |
 | iql | amo_bpi | `wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ca60b2af` | walker2d-medium-replay-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ca60b2af` |
+| iql | amo_bpi | `wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ca60b2af` | walker2d-medium-replay-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ca60b2af` |
 | iql | amo_bpi | `wm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c81ee2ff` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c81ee2ff` |
 | iql | amo_bpi | `wm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__b21b55a5` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__b21b55a5` |
 | iql | amo_bpi | `wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d2182e3a` | walker2d-medium-v2 | 0 | — | 1000000 | 72.93 | `runs/iql/amo_bpi/wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d2182e3a` |
@@ -461,6 +465,7 @@ Total runs: **505**
 | iql | amo_bpi | `wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a0cb3162` | walker2d-medium-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a0cb3162` |
 | iql | amo_bpi | `wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__a0cb3162` | walker2d-medium-v2 | 2 | — | — | — | `runs/iql/amo_bpi/wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__a0cb3162` |
 | iql | amo_bpi | `wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__59c557a0` | walker2d-medium-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__59c557a0` |
+| iql | amo_bpi | `wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__59c557a0` | walker2d-medium-v2 | 3 | — | — | — | `runs/iql/amo_bpi/wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__59c557a0` |
 | wpc | paper_benchmark | `hce_s0_wpc_a2p5_pn0p1__0ad7cab3` | halfcheetah-expert-v2 | 0 | 1000000 | 1000000 | 101.95 | `runs/wpc/paper_benchmark/hce_s0_wpc_a2p5_pn0p1__0ad7cab3` |
 | wpc | paper_benchmark | `hce_s0_wpc_a2p5_pn0p1__297da39f` | halfcheetah-expert-v2 | 0 | 1000000 | 85000 | 41.80 | `runs/wpc/paper_benchmark/hce_s0_wpc_a2p5_pn0p1__297da39f` |
 | wpc | paper_benchmark | `hce_s1_wpc_a2p5_pn0p1__2428544f` | halfcheetah-expert-v2 | 1 | 1000000 | 1000000 | 103.94 | `runs/wpc/paper_benchmark/hce_s1_wpc_a2p5_pn0p1__2428544f` |
