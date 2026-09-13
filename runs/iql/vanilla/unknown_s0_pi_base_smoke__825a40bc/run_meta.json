@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-13T11:00:02+09:00",
+  "collected_at": "2026-09-13T11:10:02+09:00",
   "env": "unknown",
   "env_short": "unknown",
   "family": "vanilla",
@@ -21,7 +21,7 @@
     "batch_size": 256,
     "beta": 10.0,
     "discount": 0.99,
-    "eval_freq": 5000,
+    "eval_freq": 20000,
     "normalize": true,
     "policy_freq": 1,
     "tau": 0.005
