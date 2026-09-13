@@ -125,6 +125,14 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "benchmark",
         "log_dir": Path("/home/choi/ASPC/results_aspc/_logs"),
     },
+    {
+        # Vanilla IQL JAX (AMO release train.py), paper antmaze settings.
+        "algo": "iql",
+        "root": Path("/home/choi/amo_jax/results/iql_vanilla_antmaze"),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "vanilla",
+    },
 ]
 
 
