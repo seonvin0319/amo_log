@@ -1,0 +1,3 @@
+{"step": 20000, "t": 20000, "d4rl_normalized_score": 19.636381343536407, "eval_return": 903.0706702162258, "n_episodes": 10}
+{"step": 40000, "t": 40000, "d4rl_normalized_score": 108.30943244313953, "eval_return": 4973.758704767044, "n_episodes": 10}
+{"step": 60000, "t": 60000, "d4rl_normalized_score": 107.33569759180226, "eval_return": 4929.057741407709, "n_episodes": 10}
