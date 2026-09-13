@@ -45,3 +45,11 @@
 {"step": 900000, "t": 900000, "d4rl_normalized_score": 110.42697815383843, "eval_return": 5070.968261450438, "n_episodes": 10}
 {"step": 920000, "t": 920000, "d4rl_normalized_score": 110.06505535154089, "eval_return": 5054.353576351932, "n_episodes": 10}
 {"step": 940000, "t": 940000, "d4rl_normalized_score": 109.58188212743461, "eval_return": 5032.172683311773, "n_episodes": 10}
+{"step": 960000, "t": 960000, "d4rl_normalized_score": 110.05131288091796, "eval_return": 5053.722704739461, "n_episodes": 10}
+{"step": 980000, "t": 980000, "d4rl_normalized_score": 110.26203509997691, "eval_return": 5063.396268523499, "n_episodes": 10}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 0, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 2, "d4rl_normalized_score": 111.07754439421416, "eval_return": 5100.833617131112}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 1, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 3, "d4rl_normalized_score": 111.11541671288575, "eval_return": 5102.572210678366}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 2, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 4, "d4rl_normalized_score": 111.09396361379015, "eval_return": 5101.5873694813}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 3, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 5, "d4rl_normalized_score": 111.09186953617944, "eval_return": 5101.491237267875}
+{"step": 1000000, "t": 1000000, "final_eval": true, "final_eval_repeat": 4, "final_eval_repeats": 5, "n_episodes": 10, "eval_seed": 6, "d4rl_normalized_score": 111.10996563084936, "eval_return": 5102.321969436572}
+{"step": 1000000, "t": 1000000, "d4rl_normalized_score": 111.09775197758377, "eval_return": 5101.761280799045, "n_episodes": 10, "final_eval": true, "final_eval_repeats": 5, "final_eval_aggregate": true, "final_eval_returns": [5100.833617131112, 5102.572210678366, 5101.5873694813, 5101.491237267875, 5102.321969436572], "final_eval_d4rl_scores": [111.07754439421416, 111.11541671288575, 111.09396361379015, 111.09186953617944, 111.10996563084936]}
