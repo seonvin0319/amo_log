@@ -1,5 +1,5 @@
 {
-  "n_runs": 416,
+  "n_runs": 418,
   "runs": [
     {
       "algo": "amo",
@@ -232,6 +232,52 @@
       "source_host": "shchoi",
       "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_ald_tlr3e-04_t1_s0-antmaze-large-diverse-v2-9f8d7f20",
       "variant": "TE1_Tlr0p0003"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl"
+      ],
+      "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr1e-03_t1_s0",
+      "collected_at": "2026-09-13T21:37:32+09:00",
+      "env": "antmaze-large-diverse-v2",
+      "env_short": "amld",
+      "family": "adaptive_multiscale",
+      "final_score": null,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-jax-upstream"
+      },
+      "last_eval_step": null,
+      "legacy_name": "amo_ams_ald_tlr1e-03_t1_s0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p001__8061f94e",
+      "run_id": "amld_s0_TE1_Tlr0p001__8061f94e",
+      "seed": 0,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.001,
+        "actor_lr": 0.0003,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-diverse-v2",
+        "eval_freq": 20000,
+        "last_metrics_step": 191200,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "shchoi",
+      "source_path": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr1e-03_t1_s0",
+      "variant": "TE1_Tlr0p001"
     },
     {
       "algo": "amo",
@@ -1200,19 +1246,21 @@
       "algo": "amo",
       "artifacts": [
         "config.yaml",
-        "metrics.jsonl"
+        "metrics.jsonl",
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr1e-03_t1_s0",
-      "collected_at": "2026-09-13T21:31:51+09:00",
+      "collected_at": "2026-09-13T21:37:32+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
-      "final_score": null,
+      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "legacy_name": "amo_ams_alp_tlr1e-03_t1_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/amlp_s0_TE1_Tlr0p001__ecfa5efe",
@@ -1228,7 +1276,14 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 20000,
-        "last_metrics_step": 855800,
+        "final_eval_50": {
+          "d4rl_normalized_score": 0.0,
+          "device": "cpu",
+          "eval_return": 0.0,
+          "evaluated_at": "2026-09-13T12:34:45.479598+00:00",
+          "n_episodes": 50
+        },
+        "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
         "normalize": true,
@@ -1241,6 +1296,52 @@
       "source_host": "shchoi",
       "source_path": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr1e-03_t1_s0",
       "variant": "TE1_Tlr0p001"
+    },
+    {
+      "algo": "amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl"
+      ],
+      "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr2e-03_t1_s0",
+      "collected_at": "2026-09-13T21:37:32+09:00",
+      "env": "antmaze-large-play-v2",
+      "env_short": "amlp",
+      "family": "adaptive_multiscale",
+      "final_score": null,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO-jax-upstream"
+      },
+      "last_eval_step": null,
+      "legacy_name": "amo_ams_alp_tlr2e-03_t1_s0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/amo/adaptive_multiscale/amlp_s0_TE1_Tlr0p002__76a710d6",
+      "run_id": "amlp_s0_TE1_Tlr0p002__76a710d6",
+      "seed": 0,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.002,
+        "actor_lr": 0.0003,
+        "adaptive_multiscale": true,
+        "batch_size": 256,
+        "discount": 0.99,
+        "env": "antmaze-large-play-v2",
+        "eval_freq": 20000,
+        "last_metrics_step": 394400,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "shchoi",
+      "source_path": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr2e-03_t1_s0",
+      "variant": "TE1_Tlr0p002"
     },
     {
       "algo": "amo",
@@ -2334,19 +2435,21 @@
       "algo": "amo",
       "artifacts": [
         "config.yaml",
-        "metrics.jsonl"
+        "metrics.jsonl",
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_amd_tlr1e-03_t1_s0",
-      "collected_at": "2026-09-13T21:31:51+09:00",
+      "collected_at": "2026-09-13T21:37:32+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
-      "final_score": null,
+      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "legacy_name": "amo_ams_amd_tlr1e-03_t1_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/ammd_s0_TE1_Tlr0p001__477e1c16",
@@ -2362,6 +2465,13 @@
         "discount": 0.99,
         "env": "antmaze-medium-diverse-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 0.0,
+          "device": "cpu",
+          "eval_return": 0.0,
+          "evaluated_at": "2026-09-13T12:32:21.965983+00:00",
+          "n_episodes": 50
+        },
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
