@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **495**
+Total runs: **497**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -336,6 +336,7 @@ Total runs: **495**
 | iql | amo_bpi | `ammp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7076c657` | antmaze-medium-play-v2 | 1 | — | — | — | `runs/iql/amo_bpi/ammp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7076c657` |
 | iql | amo_bpi | `ammp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7076c657` | antmaze-medium-play-v2 | 1 | — | — | — | `runs/iql/amo_bpi/ammp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7076c657` |
 | iql | amo_bpi | `ammp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__1e4a1e91` | antmaze-medium-play-v2 | 2 | — | — | — | `runs/iql/amo_bpi/ammp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__1e4a1e91` |
+| iql | amo_bpi | `ammp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__1e4a1e91` | antmaze-medium-play-v2 | 2 | — | — | — | `runs/iql/amo_bpi/ammp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__1e4a1e91` |
 | iql | amo_bpi | `ammp_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__65cf1671` | antmaze-medium-play-v2 | 3 | — | — | — | `runs/iql/amo_bpi/ammp_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__65cf1671` |
 | iql | amo_bpi | `amud_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p9__0ba97574` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 580000 | — | `runs/iql/amo_bpi/amud_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p9__0ba97574` |
 | iql | amo_bpi | `amud_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p9__7252b6f1` | antmaze-umaze-diverse-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/amud_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p9__7252b6f1` |
@@ -346,6 +347,7 @@ Total runs: **495**
 | iql | amo_bpi | `amud_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e7c595a4` | antmaze-umaze-diverse-v2 | 1 | — | — | — | `runs/iql/amo_bpi/amud_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e7c595a4` |
 | iql | amo_bpi | `amud_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__e7c595a4` | antmaze-umaze-diverse-v2 | 1 | — | — | — | `runs/iql/amo_bpi/amud_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__e7c595a4` |
 | iql | amo_bpi | `amud_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__20051fcb` | antmaze-umaze-diverse-v2 | 2 | — | — | — | `runs/iql/amo_bpi/amud_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__20051fcb` |
+| iql | amo_bpi | `amud_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__20051fcb` | antmaze-umaze-diverse-v2 | 2 | — | — | — | `runs/iql/amo_bpi/amud_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__20051fcb` |
 | iql | amo_bpi | `amud_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6296fb4c` | antmaze-umaze-diverse-v2 | 3 | — | — | — | `runs/iql/amo_bpi/amud_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6296fb4c` |
 | iql | amo_bpi | `amu_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p9__198b85c4` | antmaze-umaze-v2 | 0 | 1000000 | 680000 | — | `runs/iql/amo_bpi/amu_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p9__198b85c4` |
 | iql | amo_bpi | `amu_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p9__7514f28f` | antmaze-umaze-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/amu_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p9__7514f28f` |
