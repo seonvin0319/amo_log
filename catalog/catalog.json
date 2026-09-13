@@ -1,5 +1,5 @@
 {
-  "n_runs": 214,
+  "n_runs": 215,
   "runs": [
     {
       "algo": "amo",
@@ -8,7 +8,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -58,7 +58,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -108,7 +108,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -158,7 +158,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -208,7 +208,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -258,7 +258,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -308,7 +308,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -358,7 +358,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -408,7 +408,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -458,7 +458,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -508,7 +508,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -558,7 +558,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -608,7 +608,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -658,7 +658,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -708,7 +708,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -758,7 +758,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -808,7 +808,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -858,7 +858,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -908,7 +908,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -958,7 +958,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1008,7 +1008,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1058,7 +1058,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1108,7 +1108,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1158,7 +1158,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1208,7 +1208,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1258,7 +1258,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1308,7 +1308,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1358,7 +1358,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1408,7 +1408,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1458,7 +1458,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1508,7 +1508,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1558,7 +1558,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1656,7 +1656,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "segment_interval",
@@ -1707,7 +1707,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1755,7 +1755,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1803,7 +1803,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1851,7 +1851,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1899,7 +1899,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "chain",
@@ -1947,7 +1947,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1996,7 +1996,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2045,7 +2045,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2094,7 +2094,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2143,7 +2143,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2192,7 +2192,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2241,7 +2241,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2290,7 +2290,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2339,7 +2339,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -2388,7 +2388,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -2437,7 +2437,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -2486,7 +2486,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -2535,7 +2535,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -2584,7 +2584,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -2633,7 +2633,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2682,7 +2682,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2731,7 +2731,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2780,7 +2780,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2829,7 +2829,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2878,7 +2878,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2927,7 +2927,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2976,7 +2976,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -3025,7 +3025,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -3074,7 +3074,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -3123,7 +3123,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -3172,7 +3172,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -3221,7 +3221,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -3270,7 +3270,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -3319,7 +3319,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3368,7 +3368,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3417,7 +3417,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3466,7 +3466,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:01+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3515,7 +3515,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3564,7 +3564,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3613,7 +3613,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3662,7 +3662,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3711,7 +3711,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -3760,7 +3760,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -3809,7 +3809,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -3858,7 +3858,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -3907,7 +3907,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -3956,7 +3956,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -4005,7 +4005,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4054,7 +4054,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4103,7 +4103,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4152,7 +4152,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4201,7 +4201,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4250,7 +4250,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4299,7 +4299,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4348,7 +4348,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4397,7 +4397,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "pi_only_xfit_target",
@@ -4445,7 +4445,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "pi_only_xfit_target",
@@ -4493,7 +4493,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "pi_only_xfit_target",
@@ -4541,7 +4541,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "pi_only_xfit_target",
@@ -4589,7 +4589,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_target",
@@ -4637,7 +4637,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "pi_only_xfit_target",
@@ -4685,7 +4685,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "pi_only_xfit_target",
@@ -4733,7 +4733,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "pi_only_xfit_target",
@@ -4781,7 +4781,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_target",
@@ -4829,7 +4829,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
@@ -4877,7 +4877,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "benchmark",
@@ -4919,7 +4919,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "benchmark",
@@ -4961,7 +4961,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "benchmark",
@@ -5003,7 +5003,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "benchmark",
@@ -5045,7 +5045,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "benchmark",
@@ -5087,7 +5087,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "benchmark",
@@ -5129,7 +5129,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "benchmark",
@@ -5172,7 +5172,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "benchmark",
@@ -5215,7 +5215,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "benchmark",
@@ -5258,7 +5258,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "benchmark",
@@ -5301,7 +5301,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "benchmark",
@@ -5344,7 +5344,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "benchmark",
@@ -5387,7 +5387,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "benchmark",
@@ -5430,7 +5430,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
@@ -5473,7 +5473,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "benchmark",
@@ -6159,7 +6159,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6195,7 +6195,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6231,7 +6231,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6267,16 +6267,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
-      "final_score": 40.0,
+      "final_score": 60.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 80000,
+      "last_eval_step": 240000,
       "legacy_name": "ammd_s2_iql",
       "max_timesteps": null,
       "rel_path": "runs/iql/vanilla/unknown_s0_pi_base_smoke__463f4326",
@@ -6294,6 +6294,42 @@
       },
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammd_s2_iql",
+      "variant": "pi_base_smoke"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-13T17:20:02+09:00",
+      "env": "unknown",
+      "env_short": "unknown",
+      "family": "vanilla",
+      "final_score": 10.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 40000,
+      "legacy_name": "ammd_s3_iql",
+      "max_timesteps": null,
+      "rel_path": "runs/iql/vanilla/unknown_s0_pi_base_smoke__5f60c73a",
+      "run_id": "unknown_s0_pi_base_smoke__5f60c73a",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 10.0,
+        "discount": 0.99,
+        "eval_freq": 20000,
+        "normalize": true,
+        "policy_freq": 1,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammd_s3_iql",
       "variant": "pi_base_smoke"
     },
     {
@@ -6411,7 +6447,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6447,7 +6483,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6483,16 +6519,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
-      "final_score": 70.0,
+      "final_score": 50.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 500000,
+      "last_eval_step": 680000,
       "legacy_name": "ammp_s3_iql",
       "max_timesteps": null,
       "rel_path": "runs/iql/vanilla/unknown_s0_pi_base_smoke__d14d4311",
@@ -6519,16 +6555,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
-      "final_score": 70.0,
+      "final_score": 64.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 880000,
+      "last_eval_step": 1000000,
       "legacy_name": "ammp_s2_iql",
       "max_timesteps": null,
       "rel_path": "runs/iql/vanilla/unknown_s0_pi_base_smoke__d51250f3",
@@ -6555,7 +6591,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6627,16 +6663,16 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
-      "final_score": 60.0,
+      "final_score": 70.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": 320000,
+      "last_eval_step": 480000,
       "legacy_name": "ammd_s1_iql",
       "max_timesteps": null,
       "rel_path": "runs/iql/vanilla/unknown_s0_pi_base_smoke__dbe604aa",
@@ -6663,7 +6699,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6699,7 +6735,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "unknown",
       "env_short": "unknown",
       "family": "vanilla",
@@ -6896,7 +6932,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -6939,7 +6975,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -6982,7 +7018,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -7025,7 +7061,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -7068,7 +7104,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7111,7 +7147,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7154,7 +7190,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7197,7 +7233,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7240,7 +7276,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -7283,7 +7319,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -7326,7 +7362,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -7369,7 +7405,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -7412,7 +7448,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7455,7 +7491,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7498,7 +7534,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7541,7 +7577,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -7584,7 +7620,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -7627,7 +7663,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -7670,7 +7706,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -7713,7 +7749,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -7756,7 +7792,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -7799,7 +7835,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -7842,7 +7878,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -7885,7 +7921,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -7928,7 +7964,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -7971,7 +8007,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -8014,7 +8050,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -8057,7 +8093,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -8100,7 +8136,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8143,7 +8179,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8186,7 +8222,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8229,7 +8265,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8272,7 +8308,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8315,7 +8351,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8358,7 +8394,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8401,7 +8437,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8444,7 +8480,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -8487,7 +8523,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -8530,7 +8566,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -8573,7 +8609,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -8616,7 +8652,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8659,7 +8695,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8702,7 +8738,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8745,7 +8781,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -8788,7 +8824,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8831,7 +8867,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8874,7 +8910,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8917,7 +8953,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -8960,7 +8996,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9003,7 +9039,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9046,7 +9082,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9089,7 +9125,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9132,7 +9168,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9175,7 +9211,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9218,7 +9254,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9261,7 +9297,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9304,7 +9340,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9347,7 +9383,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9390,7 +9426,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9433,7 +9469,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:01+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9476,7 +9512,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9519,7 +9555,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9562,7 +9598,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9605,7 +9641,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9648,7 +9684,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9691,7 +9727,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9734,7 +9770,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9777,7 +9813,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9820,7 +9856,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-13T17:10:02+09:00",
+      "collected_at": "2026-09-13T17:20:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
