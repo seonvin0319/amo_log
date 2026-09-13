@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **337**
+Total runs: **339**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -310,10 +310,12 @@ Total runs: **337**
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta1__0ed6b33a` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 111.92 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta1__0ed6b33a` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s0_iql_amo_lr1e3_beta5__87e12d6f` | hopper-medium-expert-v2 | 0 | 1000000 | 1000000 | 112.41 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s0_iql_amo_lr1e3_beta5__87e12d6f` |
 | iql_amo | lr1e3_beta_sweep | `hopme_s1_iql_amo_lr1e3_beta1__7ca54288` | hopper-medium-expert-v2 | 1 | 1000000 | 1000000 | 106.27 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s1_iql_amo_lr1e3_beta1__7ca54288` |
+| iql_amo | lr1e3_beta_sweep | `hopme_s2_iql_amo_lr1e3_beta1__dce5a0ae` | hopper-medium-expert-v2 | 2 | 1000000 | 1000000 | 110.56 | `runs/iql_amo/lr1e3_beta_sweep/hopme_s2_iql_amo_lr1e3_beta1__dce5a0ae` |
 | iql_amo | lr1e3_beta_sweep | `hopmr_s0_iql_amo_lr1e3_beta10__54b69170` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 72.28 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s0_iql_amo_lr1e3_beta10__54b69170` |
 | iql_amo | lr1e3_beta_sweep | `hopmr_s0_iql_amo_lr1e3_beta1__e6da08b4` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 59.54 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s0_iql_amo_lr1e3_beta1__e6da08b4` |
 | iql_amo | lr1e3_beta_sweep | `hopmr_s0_iql_amo_lr1e3_beta5__b4df0cee` | hopper-medium-replay-v2 | 0 | 1000000 | 1000000 | 65.34 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s0_iql_amo_lr1e3_beta5__b4df0cee` |
 | iql_amo | lr1e3_beta_sweep | `hopmr_s1_iql_amo_lr1e3_beta1__8911ddec` | hopper-medium-replay-v2 | 1 | 1000000 | 1000000 | 85.29 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s1_iql_amo_lr1e3_beta1__8911ddec` |
+| iql_amo | lr1e3_beta_sweep | `hopmr_s2_iql_amo_lr1e3_beta1__6dde8997` | hopper-medium-replay-v2 | 2 | 1000000 | 1000000 | 78.75 | `runs/iql_amo/lr1e3_beta_sweep/hopmr_s2_iql_amo_lr1e3_beta1__6dde8997` |
 | iql_amo | lr1e3_beta_sweep | `hopm_s0_iql_amo_lr1e3_beta10__78b5fdfb` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 51.61 | `runs/iql_amo/lr1e3_beta_sweep/hopm_s0_iql_amo_lr1e3_beta10__78b5fdfb` |
 | iql_amo | lr1e3_beta_sweep | `hopm_s0_iql_amo_lr1e3_beta1__5ee35a14` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 58.80 | `runs/iql_amo/lr1e3_beta_sweep/hopm_s0_iql_amo_lr1e3_beta1__5ee35a14` |
 | iql_amo | lr1e3_beta_sweep | `hopm_s0_iql_amo_lr1e3_beta5__1ef9d5b7` | hopper-medium-v2 | 0 | 1000000 | 1000000 | 59.70 | `runs/iql_amo/lr1e3_beta_sweep/hopm_s0_iql_amo_lr1e3_beta5__1ef9d5b7` |
