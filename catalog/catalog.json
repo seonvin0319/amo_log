@@ -2331,19 +2331,21 @@
       "algo": "amo",
       "artifacts": [
         "config.yaml",
-        "metrics.jsonl"
+        "metrics.jsonl",
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr3e-04_t1_s2",
-      "collected_at": "2026-09-13T23:42:35+09:00",
+      "collected_at": "2026-09-13T23:45:44+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
-      "final_score": null,
+      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "legacy_name": "amo_ams_alp_tlr3e-04_t1_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/amlp_s2_TE1_Tlr0p0003__4f334944",
@@ -2359,6 +2361,13 @@
         "discount": 0.99,
         "env": "antmaze-large-play-v2",
         "eval_freq": 20000,
+        "final_eval_50": {
+          "d4rl_normalized_score": 0.0,
+          "device": "cpu",
+          "eval_return": 0.0,
+          "evaluated_at": "2026-09-13T14:43:39.480554+00:00",
+          "n_episodes": 50
+        },
         "last_metrics_step": 1000000,
         "max_timesteps": 1000000,
         "noise_clip": 0.5,
