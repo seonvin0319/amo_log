@@ -250,6 +250,24 @@ DEFAULT_SOURCES.append(
     }
 )
 
+# IQL+AMO β=1 × ρ_lr∈{3e-4,2e-3} × seeds 0–3
+DEFAULT_SOURCES.append(
+    {
+        "algo": "iql",
+        "root": Path(
+            "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO_release",
+        "family_force": "amo_bpi",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 3,  # rlr_b / sK / env
+        "variant_tag": "beta1_seeds",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
