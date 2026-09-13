@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **431**
+Total runs: **433**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -382,11 +382,13 @@ Total runs: **431**
 | iql | amo_bpi | `wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__e1aa91f5` | walker2d-medium-replay-v2 | 0 | — | 1000000 | 66.05 | `runs/iql/amo_bpi/wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__e1aa91f5` |
 | iql | amo_bpi | `wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__6ebdf3f7` | walker2d-medium-replay-v2 | 0 | — | 1000000 | 77.28 | `runs/iql/amo_bpi/wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__6ebdf3f7` |
 | iql | amo_bpi | `wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__2b0d698d` | walker2d-medium-replay-v2 | 0 | — | — | — | `runs/iql/amo_bpi/wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__2b0d698d` |
+| iql | amo_bpi | `wmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ef503053` | walker2d-medium-replay-v2 | 1 | — | — | — | `runs/iql/amo_bpi/wmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ef503053` |
 | iql | amo_bpi | `wm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c81ee2ff` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wm_s0_iql_amo_bpi_bpi_sweep_rlr0p0003_b1_t0p7__c81ee2ff` |
 | iql | amo_bpi | `wm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__b21b55a5` | walker2d-medium-v2 | 0 | 1000000 | 1000000 | — | `runs/iql/amo_bpi/wm_s0_iql_amo_bpi_bpi_sweep_rlr0p002_b1_t0p7__b21b55a5` |
 | iql | amo_bpi | `wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d2182e3a` | walker2d-medium-v2 | 0 | — | 1000000 | 72.93 | `runs/iql/amo_bpi/wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d2182e3a` |
 | iql | amo_bpi | `wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__27edf9c6` | walker2d-medium-v2 | 0 | — | 1000000 | 85.84 | `runs/iql/amo_bpi/wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__27edf9c6` |
 | iql | amo_bpi | `wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__60003988` | walker2d-medium-v2 | 0 | — | — | — | `runs/iql/amo_bpi/wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__60003988` |
+| iql | amo_bpi | `wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__5effc769` | walker2d-medium-v2 | 1 | — | — | — | `runs/iql/amo_bpi/wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__5effc769` |
 | wpc | paper_benchmark | `hce_s0_wpc_a2p5_pn0p1__0ad7cab3` | halfcheetah-expert-v2 | 0 | 1000000 | 1000000 | 101.95 | `runs/wpc/paper_benchmark/hce_s0_wpc_a2p5_pn0p1__0ad7cab3` |
 | wpc | paper_benchmark | `hce_s0_wpc_a2p5_pn0p1__297da39f` | halfcheetah-expert-v2 | 0 | 1000000 | 85000 | 41.80 | `runs/wpc/paper_benchmark/hce_s0_wpc_a2p5_pn0p1__297da39f` |
 | wpc | paper_benchmark | `hce_s1_wpc_a2p5_pn0p1__2428544f` | halfcheetah-expert-v2 | 1 | 1000000 | 1000000 | 103.94 | `runs/wpc/paper_benchmark/hce_s1_wpc_a2p5_pn0p1__2428544f` |
