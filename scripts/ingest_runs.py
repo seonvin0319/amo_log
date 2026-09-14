@@ -248,6 +248,10 @@ def main() -> int:
             print(f"WARN: unknown kind={kind} for {root}")
 
     print(f"# collected {len(collected)} runs")
+    if not args.dry_run:
+        from log_layout import normalize
+        normalize(ROOT)
+
     if args.rebuild_catalog and not args.dry_run:
         import sys
 
