@@ -1,7 +1,7 @@
 {
   "alias_of": "wm_s0_default__7a2b5104",
   "canonical_rel_path": "runs/iql/benchmark/wm_s0_default__7a2b5104",
-  "collected_at": "2026-09-14T11:40:02+09:00",
+  "collected_at": "2026-09-14T11:50:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `wm_s0_default__7a2b5104`, map stale variant id `wm_s0_pi_base__7a2b5104` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-v2/seed_0",
