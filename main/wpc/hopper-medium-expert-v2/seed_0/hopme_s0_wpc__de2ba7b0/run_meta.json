@@ -6,7 +6,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T07:05:02+09:00",
+  "collected_at": "2026-09-15T07:15:11+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "benchmark",
