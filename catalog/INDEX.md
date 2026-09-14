@@ -177,9 +177,9 @@ Total runs: **245**
 | td3_amo | adroit | `ham_h_s2_jax_te1_tb1_Tlr0p0003__bcb45b88` | hammer-human-v1 | 2 | 1000000 | 1000000 | 0.21 | `runs/td3_amo/adroit/ham_h_s2_jax_te1_tb1_Tlr0p0003__bcb45b88` |
 | td3_amo | adroit | `ham_h_s3_jax_te1_tb1_Tlr0p0003__cde54da9` | hammer-human-v1 | 3 | 1000000 | 1000000 | -0.16 | `runs/td3_amo/adroit/ham_h_s3_jax_te1_tb1_Tlr0p0003__cde54da9` |
 | td3_amo | adroit | `pen_h_s0_jax_te1_tb1_Tlr0p0003__4838360c` | pen-human-v1 | 0 | 1000000 | 1000000 | 8.78 | `runs/td3_amo/adroit/pen_h_s0_jax_te1_tb1_Tlr0p0003__4838360c` |
-| td3_amo | adroit | `pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` | pen-human-v1 | 1 | 1000000 | 720000 | 22.08 | `runs/td3_amo/adroit/pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` |
-| td3_amo | adroit | `pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` | pen-human-v1 | 2 | 1000000 | 360000 | 38.94 | `runs/td3_amo/adroit/pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` |
-| td3_amo | adroit | `pen_h_s3_jax_te1_tb1_Tlr0p0003__bc355bab` | pen-human-v1 | 3 | 1000000 | 40000 | 46.80 | `runs/td3_amo/adroit/pen_h_s3_jax_te1_tb1_Tlr0p0003__bc355bab` |
+| td3_amo | adroit | `pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` | pen-human-v1 | 1 | 1000000 | 920000 | 10.83 | `runs/td3_amo/adroit/pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` |
+| td3_amo | adroit | `pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` | pen-human-v1 | 2 | 1000000 | 560000 | 31.15 | `runs/td3_amo/adroit/pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` |
+| td3_amo | adroit | `pen_h_s3_jax_te1_tb1_Tlr0p0003__bc355bab` | pen-human-v1 | 3 | 1000000 | 240000 | 27.20 | `runs/td3_amo/adroit/pen_h_s3_jax_te1_tb1_Tlr0p0003__bc355bab` |
 | td3bc | aspc_rc | `amld_s0_aspc_rc_a2p5__5a7370d0` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/td3bc/aspc_rc/amld_s0_aspc_rc_a2p5__5a7370d0` |
 | td3bc | aspc_rc | `amld_s1_aspc_rc_a2p5__1b742297` | antmaze-large-diverse-v2 | 1 | 1000000 | 1000000 | 0.00 | `runs/td3bc/aspc_rc/amld_s1_aspc_rc_a2p5__1b742297` |
 | td3bc | aspc_rc | `amld_s2_aspc_rc_a2p5__0a4c8312` | antmaze-large-diverse-v2 | 2 | 1000000 | 1000000 | 0.00 | `runs/td3bc/aspc_rc/amld_s2_aspc_rc_a2p5__0a4c8312` |
