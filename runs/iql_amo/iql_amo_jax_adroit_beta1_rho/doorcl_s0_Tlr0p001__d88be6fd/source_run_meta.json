@@ -1,0 +1,10 @@
+{
+  "algorithm": "iql_amo",
+  "backend": "jax",
+  "dataset_sha256": "679a10da8c4bc421b8dd0750dcda5634f39782f2fbf4831c41f0c7ef06202767",
+  "device": "cuda:0",
+  "env": "door-cloned-v1",
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 0
+}

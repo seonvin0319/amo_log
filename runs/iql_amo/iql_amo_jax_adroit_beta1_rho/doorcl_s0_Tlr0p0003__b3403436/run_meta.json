@@ -1,0 +1,54 @@
+{
+  "algo": "iql_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho3em4_s0",
+  "collected_at": "2026-09-14T00:53:02+00:00",
+  "env": "door-cloned-v1",
+  "env_short": "doorcl",
+  "family": "iql_amo_jax_adroit_beta1_rho",
+  "git": {
+    "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+    "code_repo": "AMO-main"
+  },
+  "identity_uuid8": "b3403436",
+  "legacy_name": "iqlamo_jax_door-cln_beta1_rho3em4_s0",
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho3em4_s0/checkpoints/step_1000000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "run_id": "doorcl_s0_Tlr0p0003__b3403436",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "algorithm": "iql_amo",
+    "backend": "jax",
+    "batch_size": 256,
+    "beta_initial": 1.0,
+    "critic_layernorm": false,
+    "discount": 0.99,
+    "env": "door-cloned-v1",
+    "eval_freq": 20000,
+    "expectile": 0.7,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_warmup_steps": 100000,
+    "normalize": true,
+    "policy_freq": 1,
+    "rho_lr": 0.0003,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho3em4_s0",
+  "variant": "Tlr0p0003"
+}

@@ -16,7 +16,7 @@ from typing import Any, Dict, List, Optional
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
 
-KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl")
+KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "eval_final50_v1.jsonl")
 
 ENV_SHORT = {
     "halfcheetah-medium-v2": "hcm",
@@ -284,6 +284,222 @@ def fmt_num(value: float) -> str:
     return f"{float(value):g}".replace(".", "p").replace("-", "m")
 
 
+def load_json_dict(path: Path) -> Dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(errors="ignore"))
+    except (OSError, json.JSONDecodeError, TypeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def load_checkpoint_metadata(src: Path) -> Dict[str, Any]:
+    """Read __metadata__ from the best available checkpoint without mutating it."""
+    candidates: List[Path] = []
+    final = src / "checkpoints" / "step_1000000.npz"
+    if final.exists():
+        candidates.append(final)
+    ckpt_dir = src / "checkpoints"
+    if ckpt_dir.is_dir():
+        stepped = []
+        for path in ckpt_dir.iterdir():
+            match = re.match(r"^step_(\d+)\.npz$", path.name)
+            if match:
+                stepped.append((int(match.group(1)), path))
+        stepped.sort(key=lambda item: item[0], reverse=True)
+        candidates.extend(path for _, path in stepped)
+    root_ckpt = src / "checkpoint.npz"
+    if root_ckpt.exists():
+        candidates.append(root_ckpt)
+    seen = set()
+    for path in candidates:
+        resolved = str(path.resolve())
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        try:
+            import numpy as np  # local import: ingest may run without numpy
+
+            with np.load(path, allow_pickle=False) as data:
+                if "__metadata__" not in data:
+                    continue
+                meta = json.loads(str(data["__metadata__"]))
+            if isinstance(meta, dict):
+                meta = dict(meta)
+                meta["_checkpoint_path"] = str(path)
+                return meta
+        except Exception:
+            continue
+    return {}
+
+
+def infer_env_seed_from_dirname(dirname: str) -> Dict[str, Any]:
+    """Best-effort dirname parse. Never treat as verified truth alone."""
+    out: Dict[str, Any] = {}
+    seed_m = re.search(r"_s(\d+)(?:_|$)", dirname)
+    if seed_m:
+        out["seed"] = int(seed_m.group(1))
+    # td3amo_jax_w-mr_s0 / iqlamo_jax_door-cln_beta1_rho3em4_s2
+    env_map = {
+        "hcm": "halfcheetah-medium-v2",
+        "hc-m": "halfcheetah-medium-v2",
+        "hcmr": "halfcheetah-medium-replay-v2",
+        "hc-mr": "halfcheetah-medium-replay-v2",
+        "hcme": "halfcheetah-medium-expert-v2",
+        "hc-me": "halfcheetah-medium-expert-v2",
+        "hopm": "hopper-medium-v2",
+        "h-m": "hopper-medium-v2",
+        "hopmr": "hopper-medium-replay-v2",
+        "h-mr": "hopper-medium-replay-v2",
+        "hopme": "hopper-medium-expert-v2",
+        "h-me": "hopper-medium-expert-v2",
+        "wm": "walker2d-medium-v2",
+        "w-m": "walker2d-medium-v2",
+        "wmr": "walker2d-medium-replay-v2",
+        "w-mr": "walker2d-medium-replay-v2",
+        "wme": "walker2d-medium-expert-v2",
+        "w-me": "walker2d-medium-expert-v2",
+        "door-hum": "door-human-v1",
+        "door-cln": "door-cloned-v1",
+        "door-exp": "door-expert-v1",
+        "hammer-hum": "hammer-human-v1",
+        "hammer-cln": "hammer-cloned-v1",
+        "hammer-exp": "hammer-expert-v1",
+        "pen-hum": "pen-human-v1",
+        "pen-cln": "pen-cloned-v1",
+        "pen-exp": "pen-expert-v1",
+        "relocate-hum": "relocate-human-v1",
+        "relocate-cln": "relocate-cloned-v1",
+        "relocate-exp": "relocate-expert-v1",
+    }
+    for key, env in env_map.items():
+        if f"_{key}_" in f"_{dirname}_" or f"_{key}_s" in dirname or dirname.endswith(f"_{key}"):
+            # prefer more specific keys already ordered loosely by length in dict insertion
+            if "env" not in out or len(key) > 3:
+                out["env"] = env
+    # more reliable: look for explicit tokens in iql / td3 names
+    m = re.search(
+        r"(?:td3amo_jax_|iqlamo_jax_)([a-z0-9-]+?)(?:_beta1|_s\d|$)",
+        dirname,
+    )
+    if m:
+        token = m.group(1)
+        if token in env_map:
+            out["env"] = env_map[token]
+    return out
+
+
+def resolve_env_seed(
+    src: Path, cfg: Dict[str, Any]
+) -> tuple[str, int, Dict[str, Any], Dict[str, Any]]:
+    """Merge env/seed: source run_meta → checkpoint extra → config → dirname (inferred)."""
+    source_run_meta = load_json_dict(src / "run_meta.json")
+    ckpt_meta = load_checkpoint_metadata(src)
+    extra = ckpt_meta.get("extra") if isinstance(ckpt_meta.get("extra"), dict) else {}
+    provenance: Dict[str, Any] = {
+        "env_source": None,
+        "seed_source": None,
+        "inferred": False,
+        "verified_against_checkpoint": False,
+        "checkpoint_path": ckpt_meta.get("_checkpoint_path"),
+    }
+    env: Optional[str] = None
+    seed: Optional[int] = None
+
+    def take_env(value: Any, source: str) -> None:
+        nonlocal env
+        if env is None and value not in (None, "", "unknown"):
+            env = str(value)
+            provenance["env_source"] = source
+
+    def take_seed(value: Any, source: str) -> None:
+        nonlocal seed
+        if seed is None and value is not None and str(value) != "":
+            try:
+                seed = int(value)
+                provenance["seed_source"] = source
+            except (TypeError, ValueError):
+                pass
+
+    take_env(source_run_meta.get("env"), "source_run_meta.json")
+    take_seed(source_run_meta.get("seed"), "source_run_meta.json")
+    take_env(extra.get("env"), "checkpoint.extra")
+    take_seed(extra.get("seed"), "checkpoint.extra")
+    take_env(ckpt_meta.get("env"), "checkpoint.meta")
+    take_seed(ckpt_meta.get("seed"), "checkpoint.meta")
+    take_env(cfg.get("env"), "config.yaml")
+    take_seed(cfg.get("seed"), "config.yaml")
+
+    inferred = infer_env_seed_from_dirname(src.name)
+    if env is None and inferred.get("env"):
+        env = str(inferred["env"])
+        provenance["env_source"] = "dirname_inferred"
+        provenance["inferred"] = True
+    if seed is None and inferred.get("seed") is not None:
+        seed = int(inferred["seed"])
+        provenance["seed_source"] = "dirname_inferred"
+        provenance["inferred"] = True
+
+    # If dirname was used, require checkpoint extra agreement when available.
+    if provenance["inferred"] and extra.get("env") and env and str(extra["env"]) != env:
+        env = str(extra["env"])
+        provenance["env_source"] = "checkpoint.extra_overrides_inferred"
+        provenance["inferred"] = False
+    if provenance["inferred"] and extra.get("seed") is not None and seed is not None:
+        if int(extra["seed"]) != int(seed):
+            seed = int(extra["seed"])
+            provenance["seed_source"] = "checkpoint.extra_overrides_inferred"
+            provenance["inferred"] = False
+    if extra.get("env") and env and str(extra["env"]) == env:
+        if extra.get("seed") is None or seed is None or int(extra["seed"]) == int(seed):
+            provenance["verified_against_checkpoint"] = True
+    if source_run_meta.get("env") and env and str(source_run_meta["env"]) == env:
+        if source_run_meta.get("seed") is None or seed is None or int(source_run_meta["seed"]) == int(seed):
+            provenance["verified_against_checkpoint"] = (
+                provenance["verified_against_checkpoint"] or bool(extra)
+            )
+
+    if env is None:
+        env = "unknown"
+    if seed is None:
+        seed = 0
+    return env, int(seed), provenance, source_run_meta
+
+
+def remap_existing_by_uuid(
+    family_dir: Path, run_id: str, uuid8: str, dry_run: bool
+) -> Optional[Path]:
+    """Preserve identity: move unknown_*__uuid8 → corrected run_id if needed."""
+    if not family_dir.is_dir():
+        return None
+    matches = sorted(family_dir.glob(f"*__{uuid8}"))
+    if not matches:
+        return None
+    dest = family_dir / run_id
+    # Prefer exact dest if already present.
+    if dest.exists():
+        for old in matches:
+            if old.resolve() == dest.resolve():
+                continue
+            if dry_run:
+                print(f"DRY remove-dup {old} (keep {dest})")
+            else:
+                shutil.rmtree(old, ignore_errors=True)
+        return dest
+    primary = matches[0]
+    if primary.name == run_id:
+        return primary
+    if dry_run:
+        print(f"DRY remap {primary.name} -> {run_id}")
+        return dest
+    primary.rename(dest)
+    for old in matches[1:]:
+        if old.exists() and old.resolve() != dest.resolve():
+            shutil.rmtree(old, ignore_errors=True)
+    return dest
+
+
 def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str:
     if force:
         return force
@@ -435,6 +651,11 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "critic_n_hiddens",
         "critic_hidden_dim",
         "critic_layernorm",
+        "beta_initial",
+        "rho_lr",
+        "expectile",
+        "algorithm",
+        "backend",
     ]
     out = {}
     for key in keys:
@@ -477,17 +698,26 @@ def ingest_one(
     if cfg_path is None:
         return None
     cfg = load_yaml_lite(cfg_path)
-    env = str(cfg.get("env") or "unknown")
-    seed = int(cfg.get("seed", 0) or 0)
+    env, seed, provenance, source_run_meta = resolve_env_seed(src, cfg)
     family = classify_family(algo, cfg, family_force)
     # Adaptive-multiscale always archives under amo/, even if code lived in APART/.
     if family == "adaptive_multiscale":
         algo = "amo"
-    variant = build_variant(algo, family, cfg, src.name, source_root=source_root)
+    # Merge recovered env/seed into settings view without mutating source config.yaml.
+    cfg_view = dict(cfg)
+    cfg_view["env"] = env
+    cfg_view["seed"] = seed
+    if source_run_meta.get("algorithm") and "algorithm" not in cfg_view:
+        cfg_view["algorithm"] = source_run_meta.get("algorithm")
+    if source_run_meta.get("backend") and "backend" not in cfg_view:
+        cfg_view["backend"] = source_run_meta.get("backend")
+    variant = build_variant(algo, family, cfg_view, src.name, source_root=source_root)
     uuid8 = extract_uuid8(src.name)
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
-    dest = RUNS / algo / family / run_id
+    family_dir = RUNS / algo / family
+    remapped = remap_existing_by_uuid(family_dir, run_id, uuid8, dry_run=dry_run)
+    dest = remapped if remapped is not None else family_dir / run_id
 
     artifacts = ["config.yaml"]
     for name in KEEP_FILES:
@@ -496,6 +726,8 @@ def ingest_one(
         if (src / name).exists():
             artifacts.append(name)
     extras = [name for name in EXTRA_FILES if (src / name).exists()]
+    if source_run_meta:
+        artifacts.append("source_run_meta.json")
     meta = {
         "algo": algo,
         "family": family,
@@ -512,27 +744,33 @@ def ingest_one(
         "collected_at": datetime.now(timezone.utc)
         .astimezone()
         .isoformat(timespec="seconds"),
-        "settings": settings_summary(algo, cfg),
+        "settings": settings_summary(algo, cfg_view),
         "artifacts": artifacts + extras,
         "git": {"code_repo": code_repo, "code_commit": code_commit},
+        "metadata_provenance": provenance,
+        "identity_uuid8": uuid8,
     }
 
     if dry_run:
-        print(f"DRY {src} -> {dest.relative_to(ROOT)}")
+        print(f"DRY {src} -> {dest.relative_to(ROOT)} env={env} seed={seed}")
         return meta
 
     dest.mkdir(parents=True, exist_ok=True)
     shutil.copy2(cfg_path, dest / "config.yaml")
     for name in artifacts:
-        if name == "config.yaml":
+        if name in ("config.yaml", "source_run_meta.json"):
             continue
         shutil.copy2(src / name, dest / name)
     for extra in extras:
         shutil.copy2(src / extra, dest / extra)
+    if source_run_meta:
+        (dest / "source_run_meta.json").write_text(
+            json.dumps(source_run_meta, indent=2, sort_keys=True) + "\n"
+        )
     (dest / "run_meta.json").write_text(
         json.dumps(meta, indent=2, sort_keys=True) + "\n"
     )
-    print(f"OK  {dest.relative_to(ROOT)}")
+    print(f"OK  {dest.relative_to(ROOT)} env={env} seed={seed}")
     return meta
 
 

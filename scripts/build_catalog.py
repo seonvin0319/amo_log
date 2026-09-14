@@ -74,6 +74,36 @@ def last_eval_score(eval_path: Path) -> Optional[float]:
     return last_exec if last_exec is not None else last_any
 
 
+def final50_score(run_dir: Path) -> tuple[Optional[float], Optional[int], Optional[str]]:
+    """Prefer final50_singlepass_v1; return (score, step, protocol)."""
+    path = run_dir / "eval_final50_v1.jsonl"
+    if path.exists() and path.stat().st_size > 0:
+        last = None
+        for line in path.read_text(errors="ignore").splitlines():
+            if not line.strip():
+                continue
+            try:
+                obj = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if obj.get("protocol") != "final50_singlepass_v1":
+                continue
+            if obj.get("status") not in (None, "ok", "done"):
+                continue
+            score = _score_from_obj(obj)
+            if score is None:
+                continue
+            last = (score, _step_from_obj(obj), "final50_singlepass_v1")
+        if last is not None:
+            return last
+    # Preserve legacy eval.jsonl as secondary source with explicit protocol tag.
+    legacy = last_eval_score(run_dir / "eval.jsonl")
+    step = last_eval_step(run_dir / "eval.jsonl")
+    if legacy is not None:
+        return legacy, step, "legacy_eval_jsonl"
+    return None, None, None
+
+
 def last_eval_step(eval_path: Path) -> Optional[int]:
     if not eval_path.exists():
         return None
@@ -103,8 +133,7 @@ def build() -> None:
     for meta_path in sorted(RUNS.glob("*/*/*/run_meta.json")):
         meta = json.loads(meta_path.read_text())
         run_dir = meta_path.parent
-        score = last_eval_score(run_dir / "eval.jsonl")
-        step = last_eval_step(run_dir / "eval.jsonl")
+        score, step, protocol = final50_score(run_dir)
         settings = meta.get("settings", {})
         rows.append(
             {
@@ -112,6 +141,7 @@ def build() -> None:
                 "rel_path": str(run_dir.relative_to(ROOT)),
                 "final_score": score,
                 "last_eval_step": step,
+                "score_protocol": protocol,
                 "max_timesteps": settings.get("max_timesteps"),
             }
         )
@@ -125,16 +155,17 @@ def build() -> None:
         "",
         f"Total runs: **{len(rows)}**",
         "",
-        "| algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |",
-        "|------|--------|--------|-----|------|-----------|----------------|-------------|------|",
+        "| algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | protocol | path |",
+        "|------|--------|--------|-----|------|-----------|----------------|-------------|----------|------|",
     ]
     for r in sorted(rows, key=lambda x: (x["algo"], x["family"], x["env"], x["seed"], x["run_id"])):
         score = "—" if r["final_score"] is None else f"{r['final_score']:.2f}"
         step = "—" if r["last_eval_step"] is None else str(r["last_eval_step"])
         mstep = "—" if r.get("max_timesteps") is None else str(r["max_timesteps"])
+        protocol = r.get("score_protocol") or "—"
         lines.append(
             f"| {r['algo']} | {r['family']} | `{r['run_id']}` | {r['env']} | {r['seed']} | "
-            f"{mstep} | {step} | {score} | `{r['rel_path']}` |"
+            f"{mstep} | {step} | {score} | {protocol} | `{r['rel_path']}` |"
         )
     lines.append("")
     (CATALOG / "INDEX.md").write_text("\n".join(lines))

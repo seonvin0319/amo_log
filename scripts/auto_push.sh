@@ -9,7 +9,14 @@ GIT="${GIT_BIN:-/usr/bin/git}"
 ROOT="${AMO_LOG_ROOT:-/home/ext_csv/amo_log}"
 LOG="${AMO_LOG_PUSH_LOG:-/home/ext_csv/logs/amo_log_auto_push.log}"
 LOCK="${AMO_LOG_PUSH_LOCK:-/home/ext_csv/.amo_log_auto_push.lock}"
-PY="${PYTHON_BIN:-/home/ext_csv/miniconda3/bin/python3}"
+PY="${PYTHON_BIN:-}"
+if [[ -z "$PY" ]]; then
+  if [[ -x /home/ext_csv/miniconda3/envs/amo-jax/bin/python ]]; then
+    PY=/home/ext_csv/miniconda3/envs/amo-jax/bin/python
+  else
+    PY=/home/ext_csv/miniconda3/bin/python3
+  fi
+fi
 BRANCH="${AMO_LOG_BRANCH:-ext_csv}"
 # Dedicated deploy key (write access must be granted on GitHub).
 export GIT_SSH_COMMAND="${GIT_SSH_COMMAND:-ssh -i /home/ext_csv/.ssh/id_ed25519_amo_log -o IdentitiesOnly=yes -o BatchMode=yes}"

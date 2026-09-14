@@ -1,0 +1,55 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s3",
+  "collected_at": "2026-09-14T00:53:02+00:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "td3_amo_jax",
+  "git": {
+    "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+    "code_repo": "AMO-main"
+  },
+  "identity_uuid8": "46cc470a",
+  "legacy_name": "td3amo_jax_hc-m_s3",
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s3/checkpoints/step_1000000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "run_id": "hcm_s3_Tlr0p001__46cc470a",
+  "seed": 3,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 1.0,
+    "T_lr": 0.001,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_layernorm": true,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 20000,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s3",
+  "variant": "Tlr0p001"
+}

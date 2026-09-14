@@ -1,0 +1,10 @@
+{
+  "algorithm": "iql_amo",
+  "backend": "jax",
+  "dataset_sha256": "fcf7a644e2b39ed9c3f04f28cbbbba8cd93e892456c5a3c56d04d74e0e28a55f",
+  "device": "cuda:0",
+  "env": "hammer-human-v1",
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 3
+}

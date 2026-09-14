@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze-div_Te5_Tb5_s0-antmaze-umaze-diverse-v2-adac12dc",
-  "collected_at": "2026-09-14T00:42:42+00:00",
+  "collected_at": "2026-09-14T00:53:01+00:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "adaptive_multiscale",
@@ -14,7 +14,15 @@
     "code_commit": "c45671c47cfae89154331e9c9dab59b9cdbc9c40",
     "code_repo": "AMO"
   },
+  "identity_uuid8": "adac12dc",
   "legacy_name": "amo_ams_umaze-div_Te5_Tb5_s0-antmaze-umaze-diverse-v2-adac12dc",
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
   "run_id": "amud_s0_te5_tb5_Tlr0p002__adac12dc",
   "seed": 0,
   "settings": {

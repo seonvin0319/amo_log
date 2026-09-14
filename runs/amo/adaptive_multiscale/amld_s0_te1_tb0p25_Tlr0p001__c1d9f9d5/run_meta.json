@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_large-div_Te1_Tb025_1em3_s0-antmaze-large-diverse-v2-c1d9f9d5",
-  "collected_at": "2026-09-14T00:42:42+00:00",
+  "collected_at": "2026-09-14T00:53:01+00:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "adaptive_multiscale",
@@ -14,7 +14,15 @@
     "code_commit": "30abcfcfbc62b892c6c0a7d0763c1c8323154d11",
     "code_repo": "AMO-lambda0-te-tb"
   },
+  "identity_uuid8": "c1d9f9d5",
   "legacy_name": "amo_ams_large-div_Te1_Tb025_1em3_s0-antmaze-large-diverse-v2-c1d9f9d5",
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
   "run_id": "amld_s0_te1_tb0p25_Tlr0p001__c1d9f9d5",
   "seed": 0,
   "settings": {

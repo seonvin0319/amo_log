@@ -1,0 +1,10 @@
+{
+  "algorithm": "iql_amo",
+  "backend": "jax",
+  "dataset_sha256": "823733a6636e6dc659ab9af65a3af9db6208fc2e7f5b21c8929135e3eaef719f",
+  "device": "cuda:0",
+  "env": "pen-expert-v1",
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 2
+}

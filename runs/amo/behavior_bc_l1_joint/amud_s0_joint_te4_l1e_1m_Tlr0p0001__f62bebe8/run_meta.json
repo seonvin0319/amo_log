@@ -8,7 +8,7 @@
     "run_manifest.json"
   ],
   "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0",
-  "collected_at": "2026-09-14T00:42:42+00:00",
+  "collected_at": "2026-09-14T00:53:00+00:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "behavior_bc_l1_joint",
@@ -16,7 +16,15 @@
     "code_commit": "9710464f82c4db33b95ec9d6a68d7a822228e598",
     "code_repo": "AMO-behavior-l1-joint-v2"
   },
+  "identity_uuid8": "f62bebe8",
   "legacy_name": "behavior_l1_umaze-div_s0",
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
   "run_id": "amud_s0_joint_te4_l1e_1m_Tlr0p0001__f62bebe8",
   "seed": 0,
   "settings": {

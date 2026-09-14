@@ -6,7 +6,7 @@
     "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
-  "collected_at": "2026-09-14T00:42:44+00:00",
+  "collected_at": "2026-09-14T00:53:02+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "adaptive_multiscale",
@@ -14,7 +14,15 @@
     "code_commit": "eee3d486fac0c9f5ecbbea411424e6691b715265",
     "code_repo": "AMO-lambda0-te-tb"
   },
+  "identity_uuid8": "5370c612",
   "legacy_name": "amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
   "run_id": "hopmr_s1_te1_tb1_Tlr0p002__5370c612",
   "seed": 1,
   "settings": {
