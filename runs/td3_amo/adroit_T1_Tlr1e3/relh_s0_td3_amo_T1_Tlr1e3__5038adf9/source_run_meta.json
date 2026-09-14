@@ -1,0 +1,10 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "relocate-human-v1",
+  "seed": 0,
+  "dataset_sha256": "52e11b8731acc3781fd9b6a4fb2412cd2f6683ece45707307738095edffbff69",
+  "python": "3.10.18",
+  "device": "cuda:0",
+  "replay_device": "cpu"
+}
