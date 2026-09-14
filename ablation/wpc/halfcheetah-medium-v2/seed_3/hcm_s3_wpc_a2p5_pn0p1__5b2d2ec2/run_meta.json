@@ -1,0 +1,48 @@
+{
+  "algo": "wpc",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/benchmark/results/wpc/halfcheetah-medium-v2/seed3/s3-halfcheetah-medium-v2-5b2d2ec2",
+  "classification_reasons": [
+    "policy_noise"
+  ],
+  "collected_at": "2026-09-14T03:31:18+00:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "paper_benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "benchmark/ASPC"
+  },
+  "layout_version": 2,
+  "legacy_name": "s3-halfcheetah-medium-v2-5b2d2ec2",
+  "meta_lr": null,
+  "method": "wpc",
+  "original_rel_path": "runs/wpc/paper_benchmark/hcm_s3_wpc_a2p5_pn0p1__5b2d2ec2",
+  "protocol": "aspc_paper_d4rl_benchmark",
+  "rel_path": "ablation/wpc/halfcheetah-medium-v2/seed_3/hcm_s3_wpc_a2p5_pn0p1__5b2d2ec2",
+  "run_id": "hcm_s3_wpc_a2p5_pn0p1__5b2d2ec2",
+  "section": "ablation",
+  "seed": 3,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.1,
+    "seed": 3,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/benchmark/results/wpc/halfcheetah-medium-v2/seed3/s3-halfcheetah-medium-v2-5b2d2ec2",
+  "variant": "wpc_a2p5_pn0p1"
+}

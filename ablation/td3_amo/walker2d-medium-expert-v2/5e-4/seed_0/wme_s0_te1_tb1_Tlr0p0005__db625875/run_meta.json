@@ -1,0 +1,54 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1/runs/amo_adaptive_multiscale_w-me_s0-walker2d-medium-expert-v2-db625875",
+  "classification_reasons": [
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-14T03:31:16+00:00",
+  "env": "walker2d-medium-expert-v2",
+  "env_short": "wme",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "layout_version": 2,
+  "legacy_name": "amo_adaptive_multiscale_w-me_s0-walker2d-medium-expert-v2-db625875",
+  "meta_lr": 0.0005,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/wme_s0_te1_tb1_Tlr0p0005__db625875",
+  "rel_path": "ablation/td3_amo/walker2d-medium-expert-v2/5e-4/seed_0/wme_s0_te1_tb1_Tlr0p0005__db625875",
+  "run_id": "wme_s0_te1_tb1_Tlr0p0005__db625875",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 1.0,
+    "T_freq": 10,
+    "T_lr": 0.0005,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "walker2d-medium-expert-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1/runs/amo_adaptive_multiscale_w-me_s0-walker2d-medium-expert-v2-db625875",
+  "variant": "te1_tb1_Tlr0p0005"
+}

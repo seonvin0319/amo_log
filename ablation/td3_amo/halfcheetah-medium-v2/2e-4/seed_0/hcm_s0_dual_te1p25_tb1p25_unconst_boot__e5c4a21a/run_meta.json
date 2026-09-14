@@ -1,0 +1,54 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_hc-m_s0-halfcheetah-medium-v2-e5c4a21a",
+  "classification_reasons": [
+    "initial_scale_not_1",
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-14T03:31:17+00:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "APART"
+  },
+  "layout_version": 2,
+  "legacy_name": "adaptive_bootstrap_hc-m_s0-halfcheetah-medium-v2-e5c4a21a",
+  "meta_lr": 0.0002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a",
+  "rel_path": "ablation/td3_amo/halfcheetah-medium-v2/2e-4/seed_0/hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a",
+  "run_id": "hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "T": 1.25,
+    "T_freq": 10,
+    "T_lr": 0.0002,
+    "batch_size": 256,
+    "discount": 0.99,
+    "dual_proximal": true,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 20000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_hc-m_s0-halfcheetah-medium-v2-e5c4a21a",
+  "variant": "dual_te1p25_tb1p25_unconst_boot"
+}

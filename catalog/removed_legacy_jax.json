@@ -1,0 +1,681 @@
+{
+  "reason": "User requested removal of existing JAX runs; future revised JAX runs remain eligible.",
+  "runs": [
+    {
+      "code_commit": null,
+      "run_id": "amld_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__00a597b6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b1__573c7b10",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__37b64df7",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__da858658",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__da858658",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__af9c3b84",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__af9c3b84",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__b919b8c6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__b919b8c6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-large-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d1a48eb5",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b1__458afc44",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__907f4fbd",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__9c4b5084",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__9c4b5084",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__50e4ee57",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__50e4ee57",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__8e57dede",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__8e57dede",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-large-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__be7d8239",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b1__b917c887",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__8d7fda61",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__4dcecd36",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__4dcecd36",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__40d6d38a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__40d6d38a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__5d4f678c",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__5d4f678c",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-medium-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__910dc941",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b1__25926278",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__20a26100",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__f70ffc0e",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7076c657",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7076c657",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__1e4a1e91",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__1e4a1e91",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__65cf1671",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__65cf1671",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-medium-play-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__12ff03fb",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b1__198b85c4",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__4d09d89a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__85a9c144",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__aff514f5",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__aff514f5",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__47b5c2a3",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__47b5c2a3",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__f712f5de",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__f712f5de",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-umaze-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__318c1a79",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b1__0ba97574",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__440e65b0",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__4cc39ac1",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e7c595a4",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__e7c595a4",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__20051fcb",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__20051fcb",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6296fb4c",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__6296fb4c",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-umaze-diverse-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__6a72b840",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__0d549909",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__86767272",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__86767272",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__0e7bb095",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__0e7bb095",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__f2ab9d3b",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__f2ab9d3b",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__62baf0e6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__c187d368",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__63206efd",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__63206efd",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__220d0f47",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__220d0f47",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a430096d",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hcmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__a430096d",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__0e6d437b",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__68105135",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__b936ba42",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__b936ba42",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__c3db5e59",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__c3db5e59",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7d2696f2",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7d2696f2",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__0f77831e",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__ced0c293",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__7e436036",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__7e25c7c1",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__7e25c7c1",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__6b232c9a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__6b232c9a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a09b6279",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__a09b6279",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__1a965582",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__171359eb",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__6d7d83ae",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ad2e32f8",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ad2e32f8",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__e0a8b8ce",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__e0a8b8ce",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__eb8f022c",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__eb8f022c",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__8882f7ee",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__04d5338e",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__f8d9dcb6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ee44a242",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ee44a242",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__4938a259",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__4938a259",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__69427913",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__69427913",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__d2182e3a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__27edf9c6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__60003988",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__5effc769",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__5effc769",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__a0cb3162",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__a0cb3162",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__59c557a0",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wm_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__59c557a0",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__09020b16",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__fe169663",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__957ba561",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__8bb425a6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__8bb425a6",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__3ed43c30",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__3ed43c30",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__939d8dca",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wme_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__939d8dca",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-expert-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b10__e1aa91f5",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b10/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p0003_b5__6ebdf3f7",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b5/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s0_smoke_iql_amo_bpi_jax_rem_rlr0p002_b5__2b0d698d",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr2e-3_b5/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ef503053",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ef503053",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__80d99d8a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s2_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__80d99d8a",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p0003_b1__ca60b2af",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-replay-v2"
+    },
+    {
+      "code_commit": null,
+      "run_id": "wmr_s3_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__ca60b2af",
+      "source_path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-replay-v2"
+    }
+  ],
+  "snapshot_commit": "f97b1f5f2eafd863869afa8671f8bb3c01c522e9"
+}

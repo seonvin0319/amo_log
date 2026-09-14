@@ -63,7 +63,7 @@ if ! "$PY" scripts/build_catalog.py >>"$LOG" 2>&1; then
   exit 1
 fi
 
-"$GIT" add runs catalog docs scripts README.md .gitignore 2>/dev/null || true
+"$GIT" add -A -- main ablation catalog docs scripts README.md .gitignore 2>/dev/null || true
 
 if "$GIT" diff --cached --quiet; then
   log "nothing to commit"
@@ -91,7 +91,7 @@ if ! "$GIT" push -u origin "HEAD:$BRANCH" >>"$LOG" 2>&1; then
     "$GIT" rebase --abort >>"$LOG" 2>&1 || true
     exit 1
   fi
-  "$GIT" add runs catalog docs scripts README.md .gitignore 2>/dev/null || true
+  "$GIT" add -A -- main ablation catalog docs scripts README.md .gitignore 2>/dev/null || true
   if ! "$GIT" diff --cached --quiet; then
     "$GIT" -c user.name="$GIT_AUTHOR_NAME" -c user.email="$GIT_AUTHOR_EMAIL" \
       commit -m "collect(ext_csh): after rebase $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M %Z')" \

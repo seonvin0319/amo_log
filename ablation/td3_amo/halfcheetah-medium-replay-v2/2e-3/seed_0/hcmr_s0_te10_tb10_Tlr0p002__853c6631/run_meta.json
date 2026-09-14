@@ -1,0 +1,54 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te10_tb10/runs/amo_adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-853c6631",
+  "classification_reasons": [
+    "initial_scale_not_1"
+  ],
+  "collected_at": "2026-09-14T03:31:16+00:00",
+  "env": "halfcheetah-medium-replay-v2",
+  "env_short": "hcmr",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "layout_version": 2,
+  "legacy_name": "amo_adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-853c6631",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/hcmr_s0_te10_tb10_Tlr0p002__853c6631",
+  "rel_path": "ablation/td3_amo/halfcheetah-medium-replay-v2/2e-3/seed_0/hcmr_s0_te10_tb10_Tlr0p002__853c6631",
+  "run_id": "hcmr_s0_te10_tb10_Tlr0p002__853c6631",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "T_B": 10.0,
+    "T_E": 10.0,
+    "T_freq": 10,
+    "T_lr": 0.002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-replay-v2",
+    "eval_freq": 5000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te10_tb10/runs/amo_adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-853c6631",
+  "variant": "te10_tb10_Tlr0p002"
+}
