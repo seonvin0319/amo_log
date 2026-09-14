@@ -7,7 +7,7 @@
     "final_eval_50.jsonl"
   ],
   "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_au_tlr3e-04_t1_s2",
-  "collected_at": "2026-09-13T22:15:28+09:00",
+  "collected_at": "2026-09-14T10:07:12+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "adaptive_multiscale",
@@ -29,10 +29,10 @@
     "env": "antmaze-umaze-v2",
     "eval_freq": 20000,
     "final_eval_50": {
-      "d4rl_normalized_score": 82.0,
+      "d4rl_normalized_score": 78.0,
       "device": "cpu",
-      "eval_return": 0.82,
-      "evaluated_at": "2026-09-13T13:14:30.178744+00:00",
+      "eval_return": 0.78,
+      "evaluated_at": "2026-09-14T01:03:13.361872+00:00",
       "n_episodes": 50
     },
     "last_metrics_step": 1000000,

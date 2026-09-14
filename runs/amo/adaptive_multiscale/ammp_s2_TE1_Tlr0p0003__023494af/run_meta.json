@@ -7,7 +7,7 @@
     "final_eval_50.jsonl"
   ],
   "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_amp_tlr3e-04_t1_s2",
-  "collected_at": "2026-09-13T22:59:00+09:00",
+  "collected_at": "2026-09-14T10:07:12+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "adaptive_multiscale",
@@ -32,7 +32,7 @@
       "d4rl_normalized_score": 0.0,
       "device": "cpu",
       "eval_return": 0.0,
-      "evaluated_at": "2026-09-13T13:56:37.201793+00:00",
+      "evaluated_at": "2026-09-14T01:04:23.251723+00:00",
       "n_episodes": 50
     },
     "last_metrics_step": 1000000,
