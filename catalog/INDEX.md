@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **363**
+Total runs: **411**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -357,6 +357,54 @@ Total runs: **363**
 | iql_amo | lr1e3_beta_sweep | `wm_s1_iql_amo_lr1e3_beta1__6d73c3e8` | walker2d-medium-v2 | 1 | 1000000 | 1000000 | 81.30 | `runs/iql_amo/lr1e3_beta_sweep/wm_s1_iql_amo_lr1e3_beta1__6d73c3e8` |
 | iql_amo | lr1e3_beta_sweep | `wm_s2_iql_amo_lr1e3_beta1__d6472702` | walker2d-medium-v2 | 2 | 1000000 | 1000000 | 78.12 | `runs/iql_amo/lr1e3_beta_sweep/wm_s2_iql_amo_lr1e3_beta1__d6472702` |
 | iql_amo | lr1e3_beta_sweep | `wm_s3_iql_amo_lr1e3_beta1__c7013202` | walker2d-medium-v2 | 3 | 1000000 | 1000000 | 75.53 | `runs/iql_amo/lr1e3_beta_sweep/wm_s3_iql_amo_lr1e3_beta1__c7013202` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorc_s0_td3_amo_T1_Tlr1e3__609b5c2c` | door-cloned-v1 | 0 | 1000000 | 1000000 | -0.18 | `runs/td3_amo/adroit_T1_Tlr1e3/doorc_s0_td3_amo_T1_Tlr1e3__609b5c2c` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorc_s1_td3_amo_T1_Tlr1e3__e8e7fbd9` | door-cloned-v1 | 1 | 1000000 | 1000000 | 0.04 | `runs/td3_amo/adroit_T1_Tlr1e3/doorc_s1_td3_amo_T1_Tlr1e3__e8e7fbd9` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorc_s2_td3_amo_T1_Tlr1e3__94ed9433` | door-cloned-v1 | 2 | 1000000 | 1000000 | 0.05 | `runs/td3_amo/adroit_T1_Tlr1e3/doorc_s2_td3_amo_T1_Tlr1e3__94ed9433` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorc_s3_td3_amo_T1_Tlr1e3__8d7dc79d` | door-cloned-v1 | 3 | 1000000 | 1000000 | -0.09 | `runs/td3_amo/adroit_T1_Tlr1e3/doorc_s3_td3_amo_T1_Tlr1e3__8d7dc79d` |
+| td3_amo | adroit_T1_Tlr1e3 | `doore_s0_td3_amo_T1_Tlr1e3__e5283967` | door-expert-v1 | 0 | 1000000 | 1000000 | 2.71 | `runs/td3_amo/adroit_T1_Tlr1e3/doore_s0_td3_amo_T1_Tlr1e3__e5283967` |
+| td3_amo | adroit_T1_Tlr1e3 | `doore_s1_td3_amo_T1_Tlr1e3__86e17e3c` | door-expert-v1 | 1 | 1000000 | 1000000 | 4.63 | `runs/td3_amo/adroit_T1_Tlr1e3/doore_s1_td3_amo_T1_Tlr1e3__86e17e3c` |
+| td3_amo | adroit_T1_Tlr1e3 | `doore_s2_td3_amo_T1_Tlr1e3__c418a69e` | door-expert-v1 | 2 | 1000000 | 1000000 | 7.39 | `runs/td3_amo/adroit_T1_Tlr1e3/doore_s2_td3_amo_T1_Tlr1e3__c418a69e` |
+| td3_amo | adroit_T1_Tlr1e3 | `doore_s3_td3_amo_T1_Tlr1e3__7f20e0cc` | door-expert-v1 | 3 | 1000000 | 1000000 | 2.79 | `runs/td3_amo/adroit_T1_Tlr1e3/doore_s3_td3_amo_T1_Tlr1e3__7f20e0cc` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorh_s0_td3_amo_T1_Tlr1e3__b7e4d01d` | door-human-v1 | 0 | 1000000 | 1000000 | -0.35 | `runs/td3_amo/adroit_T1_Tlr1e3/doorh_s0_td3_amo_T1_Tlr1e3__b7e4d01d` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorh_s1_td3_amo_T1_Tlr1e3__a60292b4` | door-human-v1 | 1 | 1000000 | 1000000 | -0.36 | `runs/td3_amo/adroit_T1_Tlr1e3/doorh_s1_td3_amo_T1_Tlr1e3__a60292b4` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorh_s2_td3_amo_T1_Tlr1e3__4116b861` | door-human-v1 | 2 | 1000000 | 1000000 | -0.38 | `runs/td3_amo/adroit_T1_Tlr1e3/doorh_s2_td3_amo_T1_Tlr1e3__4116b861` |
+| td3_amo | adroit_T1_Tlr1e3 | `doorh_s3_td3_amo_T1_Tlr1e3__93d10cc2` | door-human-v1 | 3 | 1000000 | 1000000 | -0.35 | `runs/td3_amo/adroit_T1_Tlr1e3/doorh_s3_td3_amo_T1_Tlr1e3__93d10cc2` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamc_s0_td3_amo_T1_Tlr1e3__04d8a5a2` | hammer-cloned-v1 | 0 | 1000000 | 1000000 | 0.16 | `runs/td3_amo/adroit_T1_Tlr1e3/hamc_s0_td3_amo_T1_Tlr1e3__04d8a5a2` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamc_s1_td3_amo_T1_Tlr1e3__3587078f` | hammer-cloned-v1 | 1 | 1000000 | 1000000 | -0.01 | `runs/td3_amo/adroit_T1_Tlr1e3/hamc_s1_td3_amo_T1_Tlr1e3__3587078f` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamc_s2_td3_amo_T1_Tlr1e3__db5c3673` | hammer-cloned-v1 | 2 | 1000000 | 1000000 | -0.11 | `runs/td3_amo/adroit_T1_Tlr1e3/hamc_s2_td3_amo_T1_Tlr1e3__db5c3673` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamc_s3_td3_amo_T1_Tlr1e3__9dbbc618` | hammer-cloned-v1 | 3 | 1000000 | 1000000 | -0.21 | `runs/td3_amo/adroit_T1_Tlr1e3/hamc_s3_td3_amo_T1_Tlr1e3__9dbbc618` |
+| td3_amo | adroit_T1_Tlr1e3 | `hame_s0_td3_amo_T1_Tlr1e3__6aa56f51` | hammer-expert-v1 | 0 | 1000000 | 1000000 | 117.70 | `runs/td3_amo/adroit_T1_Tlr1e3/hame_s0_td3_amo_T1_Tlr1e3__6aa56f51` |
+| td3_amo | adroit_T1_Tlr1e3 | `hame_s1_td3_amo_T1_Tlr1e3__b91ba047` | hammer-expert-v1 | 1 | 1000000 | 1000000 | 0.57 | `runs/td3_amo/adroit_T1_Tlr1e3/hame_s1_td3_amo_T1_Tlr1e3__b91ba047` |
+| td3_amo | adroit_T1_Tlr1e3 | `hame_s2_td3_amo_T1_Tlr1e3__43901005` | hammer-expert-v1 | 2 | 1000000 | 1000000 | 29.26 | `runs/td3_amo/adroit_T1_Tlr1e3/hame_s2_td3_amo_T1_Tlr1e3__43901005` |
+| td3_amo | adroit_T1_Tlr1e3 | `hame_s3_td3_amo_T1_Tlr1e3__2d1f3f7b` | hammer-expert-v1 | 3 | 1000000 | 1000000 | 116.25 | `runs/td3_amo/adroit_T1_Tlr1e3/hame_s3_td3_amo_T1_Tlr1e3__2d1f3f7b` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamh_s0_td3_amo_T1_Tlr1e3__26a54c54` | hammer-human-v1 | 0 | 1000000 | 1000000 | 0.12 | `runs/td3_amo/adroit_T1_Tlr1e3/hamh_s0_td3_amo_T1_Tlr1e3__26a54c54` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamh_s1_td3_amo_T1_Tlr1e3__dc9d82f7` | hammer-human-v1 | 1 | 1000000 | 1000000 | 0.00 | `runs/td3_amo/adroit_T1_Tlr1e3/hamh_s1_td3_amo_T1_Tlr1e3__dc9d82f7` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamh_s2_td3_amo_T1_Tlr1e3__14bf5bc2` | hammer-human-v1 | 2 | 1000000 | 1000000 | -0.08 | `runs/td3_amo/adroit_T1_Tlr1e3/hamh_s2_td3_amo_T1_Tlr1e3__14bf5bc2` |
+| td3_amo | adroit_T1_Tlr1e3 | `hamh_s3_td3_amo_T1_Tlr1e3__0ee4d03e` | hammer-human-v1 | 3 | 1000000 | 1000000 | -0.13 | `runs/td3_amo/adroit_T1_Tlr1e3/hamh_s3_td3_amo_T1_Tlr1e3__0ee4d03e` |
+| td3_amo | adroit_T1_Tlr1e3 | `penc_s0_td3_amo_T1_Tlr1e3__d35a36f5` | pen-cloned-v1 | 0 | 1000000 | 1000000 | -3.12 | `runs/td3_amo/adroit_T1_Tlr1e3/penc_s0_td3_amo_T1_Tlr1e3__d35a36f5` |
+| td3_amo | adroit_T1_Tlr1e3 | `penc_s1_td3_amo_T1_Tlr1e3__dca22015` | pen-cloned-v1 | 1 | 1000000 | 1000000 | -1.96 | `runs/td3_amo/adroit_T1_Tlr1e3/penc_s1_td3_amo_T1_Tlr1e3__dca22015` |
+| td3_amo | adroit_T1_Tlr1e3 | `penc_s2_td3_amo_T1_Tlr1e3__c9343e31` | pen-cloned-v1 | 2 | 1000000 | 1000000 | -0.64 | `runs/td3_amo/adroit_T1_Tlr1e3/penc_s2_td3_amo_T1_Tlr1e3__c9343e31` |
+| td3_amo | adroit_T1_Tlr1e3 | `penc_s3_td3_amo_T1_Tlr1e3__3ba3983d` | pen-cloned-v1 | 3 | 1000000 | 1000000 | 1.18 | `runs/td3_amo/adroit_T1_Tlr1e3/penc_s3_td3_amo_T1_Tlr1e3__3ba3983d` |
+| td3_amo | adroit_T1_Tlr1e3 | `pene_s0_td3_amo_T1_Tlr1e3__c708e625` | pen-expert-v1 | 0 | 1000000 | 1000000 | 5.73 | `runs/td3_amo/adroit_T1_Tlr1e3/pene_s0_td3_amo_T1_Tlr1e3__c708e625` |
+| td3_amo | adroit_T1_Tlr1e3 | `pene_s1_td3_amo_T1_Tlr1e3__81c50a33` | pen-expert-v1 | 1 | 1000000 | 1000000 | 2.65 | `runs/td3_amo/adroit_T1_Tlr1e3/pene_s1_td3_amo_T1_Tlr1e3__81c50a33` |
+| td3_amo | adroit_T1_Tlr1e3 | `pene_s2_td3_amo_T1_Tlr1e3__88a22d99` | pen-expert-v1 | 2 | 1000000 | 1000000 | 14.10 | `runs/td3_amo/adroit_T1_Tlr1e3/pene_s2_td3_amo_T1_Tlr1e3__88a22d99` |
+| td3_amo | adroit_T1_Tlr1e3 | `pene_s3_td3_amo_T1_Tlr1e3__912adaaf` | pen-expert-v1 | 3 | 1000000 | 1000000 | 17.64 | `runs/td3_amo/adroit_T1_Tlr1e3/pene_s3_td3_amo_T1_Tlr1e3__912adaaf` |
+| td3_amo | adroit_T1_Tlr1e3 | `penh_s0_td3_amo_T1_Tlr1e3__e8fbaf83` | pen-human-v1 | 0 | 1000000 | 1000000 | -3.00 | `runs/td3_amo/adroit_T1_Tlr1e3/penh_s0_td3_amo_T1_Tlr1e3__e8fbaf83` |
+| td3_amo | adroit_T1_Tlr1e3 | `penh_s1_td3_amo_T1_Tlr1e3__2ca180f8` | pen-human-v1 | 1 | 1000000 | 1000000 | -2.87 | `runs/td3_amo/adroit_T1_Tlr1e3/penh_s1_td3_amo_T1_Tlr1e3__2ca180f8` |
+| td3_amo | adroit_T1_Tlr1e3 | `penh_s2_td3_amo_T1_Tlr1e3__1204c44c` | pen-human-v1 | 2 | 1000000 | 1000000 | -3.58 | `runs/td3_amo/adroit_T1_Tlr1e3/penh_s2_td3_amo_T1_Tlr1e3__1204c44c` |
+| td3_amo | adroit_T1_Tlr1e3 | `penh_s3_td3_amo_T1_Tlr1e3__ae5b19b5` | pen-human-v1 | 3 | 1000000 | 1000000 | -2.84 | `runs/td3_amo/adroit_T1_Tlr1e3/penh_s3_td3_amo_T1_Tlr1e3__ae5b19b5` |
+| td3_amo | adroit_T1_Tlr1e3 | `relc_s0_td3_amo_T1_Tlr1e3__8f37013e` | relocate-cloned-v1 | 0 | 1000000 | 1000000 | -0.26 | `runs/td3_amo/adroit_T1_Tlr1e3/relc_s0_td3_amo_T1_Tlr1e3__8f37013e` |
+| td3_amo | adroit_T1_Tlr1e3 | `relc_s1_td3_amo_T1_Tlr1e3__7b09370f` | relocate-cloned-v1 | 1 | 1000000 | 1000000 | -0.26 | `runs/td3_amo/adroit_T1_Tlr1e3/relc_s1_td3_amo_T1_Tlr1e3__7b09370f` |
+| td3_amo | adroit_T1_Tlr1e3 | `relc_s2_td3_amo_T1_Tlr1e3__7b03c056` | relocate-cloned-v1 | 2 | 1000000 | 1000000 | -0.18 | `runs/td3_amo/adroit_T1_Tlr1e3/relc_s2_td3_amo_T1_Tlr1e3__7b03c056` |
+| td3_amo | adroit_T1_Tlr1e3 | `relc_s3_td3_amo_T1_Tlr1e3__a6560e56` | relocate-cloned-v1 | 3 | 1000000 | 1000000 | -0.24 | `runs/td3_amo/adroit_T1_Tlr1e3/relc_s3_td3_amo_T1_Tlr1e3__a6560e56` |
+| td3_amo | adroit_T1_Tlr1e3 | `rele_s0_td3_amo_T1_Tlr1e3__86d92db5` | relocate-expert-v1 | 0 | 1000000 | 1000000 | 0.04 | `runs/td3_amo/adroit_T1_Tlr1e3/rele_s0_td3_amo_T1_Tlr1e3__86d92db5` |
+| td3_amo | adroit_T1_Tlr1e3 | `rele_s1_td3_amo_T1_Tlr1e3__60b3642f` | relocate-expert-v1 | 1 | 1000000 | 1000000 | -0.08 | `runs/td3_amo/adroit_T1_Tlr1e3/rele_s1_td3_amo_T1_Tlr1e3__60b3642f` |
+| td3_amo | adroit_T1_Tlr1e3 | `rele_s2_td3_amo_T1_Tlr1e3__4c47cd94` | relocate-expert-v1 | 2 | 1000000 | 1000000 | 0.19 | `runs/td3_amo/adroit_T1_Tlr1e3/rele_s2_td3_amo_T1_Tlr1e3__4c47cd94` |
+| td3_amo | adroit_T1_Tlr1e3 | `rele_s3_td3_amo_T1_Tlr1e3__a1adfc92` | relocate-expert-v1 | 3 | 1000000 | 1000000 | 0.14 | `runs/td3_amo/adroit_T1_Tlr1e3/rele_s3_td3_amo_T1_Tlr1e3__a1adfc92` |
+| td3_amo | adroit_T1_Tlr1e3 | `relh_s0_td3_amo_T1_Tlr1e3__f709021d` | relocate-human-v1 | 0 | 1000000 | 1000000 | -0.17 | `runs/td3_amo/adroit_T1_Tlr1e3/relh_s0_td3_amo_T1_Tlr1e3__f709021d` |
+| td3_amo | adroit_T1_Tlr1e3 | `relh_s1_td3_amo_T1_Tlr1e3__6daabaa5` | relocate-human-v1 | 1 | 1000000 | 1000000 | -0.14 | `runs/td3_amo/adroit_T1_Tlr1e3/relh_s1_td3_amo_T1_Tlr1e3__6daabaa5` |
+| td3_amo | adroit_T1_Tlr1e3 | `relh_s2_td3_amo_T1_Tlr1e3__ca460a03` | relocate-human-v1 | 2 | 1000000 | 1000000 | -0.24 | `runs/td3_amo/adroit_T1_Tlr1e3/relh_s2_td3_amo_T1_Tlr1e3__ca460a03` |
+| td3_amo | adroit_T1_Tlr1e3 | `relh_s3_td3_amo_T1_Tlr1e3__0238c2fe` | relocate-human-v1 | 3 | 1000000 | 1000000 | -0.23 | `runs/td3_amo/adroit_T1_Tlr1e3/relh_s3_td3_amo_T1_Tlr1e3__0238c2fe` |
 | wpc | benchmark | `hme_s3_wpc_benchmark_1m__61a473bf` | halfcheetah-medium-expert-v2 | 3 | 1000000 | 1000000 | 99.94 | `runs/wpc/benchmark/hme_s3_wpc_benchmark_1m__61a473bf` |
 | wpc | benchmark | `hcmr_s2_wpc_benchmark_1m__9564b2c2` | halfcheetah-medium-replay-v2 | 2 | 1000000 | 1000000 | 48.34 | `runs/wpc/benchmark/hcmr_s2_wpc_benchmark_1m__9564b2c2` |
 | wpc | benchmark | `hcm_s3_wpc_benchmark_1m__70dfae5d` | halfcheetah-medium-v2 | 3 | 1000000 | 60000 | 50.75 | `runs/wpc/benchmark/hcm_s3_wpc_benchmark_1m__70dfae5d` |

@@ -106,6 +106,7 @@ family는 **실험 프로토콜** 단위다. 하이퍼 하나 바뀐 정도는 v
 | `benchmark` | Official ASPC-repo wPC locomotion cohort (`results_wpc`)
 | `aspc_table1_final50` | A2PR retrain: final-eval-only 50 episodes
 | `lr1e3_beta_sweep` | JAX IQL+AMO `lr=1e-3`, `beta_initial∈{1,5,10}` (seed 0)
+| `adroit_T1_Tlr1e3` | JAX TD3+AMO Adroit `T_E=T_B=1`, `T_lr=1e-3`, seeds 0–3
 | `misc` | 위 어디에도 안 들어가면 임시. 곧 family를 승격할 것 |
 
 ## 5. 카탈로그 표기
