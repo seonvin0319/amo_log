@@ -1,0 +1,466 @@
+{
+  "reason": "User requested removal of existing JAX runs; future revised JAX runs remain eligible.",
+  "runs": [
+    {
+      "code_commit": null,
+      "run_id": "amld_s1_jax__dc428eb9",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amld_s1_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s2_jax__408b1020",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amld_s2_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amld_s3_jax__8a820005",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amld_s3_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s1_jax__c26378fb",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amlp_s1_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s2_jax__8298c024",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amlp_s2_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amlp_s3_jax__0d019e34",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amlp_s3_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s1_jax__dbe604aa",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammd_s1_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s2_jax__463f4326",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammd_s2_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammd_s3_jax__5f60c73a",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammd_s3_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s1_jax__f2bda956",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammp_s1_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s2_jax__d51250f3",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammp_s2_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ammp_s3_jax__d14d4311",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/ammp_s3_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s0_jax__ed111b91",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amu_s0_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s1_jax__d5436deb",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amu_s1_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s2_jax__45be22c6",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amu_s2_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amu_s3_jax__28faf962",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amu_s3_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s1_jax__c5d727e8",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amud_s1_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s2_jax__ad68e832",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amud_s2_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "amud_s3_jax__0914ebb0",
+      "source_path": "/home/choi/amo_jax/results/iql_vanilla_antmaze/amud_s3_iql"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s0_jax_te1_tb1_Tlr0p0003__907411f0",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__907411f0",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__907411f0",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s1_jax_te1_tb1_Tlr0p0003__f3dfb0b6",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s1_jax_te1_tb1_pi_base_Tlr0p0003__f3dfb0b6",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s1_jax_te1_tb1_tlr3em4_Tlr0p0003__f3dfb0b6",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s2_jax_te1_tb1_Tlr0p0003__baf9fe71",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s2_jax_te1_tb1_pi_base_Tlr0p0003__baf9fe71",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s2_jax_te1_tb1_tlr3em4_Tlr0p0003__baf9fe71",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s3_jax_te1_tb1_Tlr0p0003__bdbcc19c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s3_jax_te1_tb1_pi_base_Tlr0p0003__bdbcc19c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_c_s3_jax_te1_tb1_tlr3em4_Tlr0p0003__bdbcc19c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s0_jax_te1_tb1_Tlr0p0003__21266d42",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s0_jax_te1_tb1_pi_base_Tlr0p0003__21266d42",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__21266d42",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s1_jax_te1_tb1_Tlr0p0003__67c41aee",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s1_jax_te1_tb1_pi_base_Tlr0p0003__67c41aee",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s1_jax_te1_tb1_tlr3em4_Tlr0p0003__67c41aee",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s2_jax_te1_tb1_Tlr0p0003__93a90551",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s2_jax_te1_tb1_pi_base_Tlr0p0003__93a90551",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s2_jax_te1_tb1_tlr3em4_Tlr0p0003__93a90551",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s3_jax_te1_tb1_Tlr0p0003__decdc1d1",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s3_jax_te1_tb1_pi_base_Tlr0p0003__decdc1d1",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_e_s3_jax_te1_tb1_tlr3em4_Tlr0p0003__decdc1d1",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s0_jax_te1_tb1_Tlr0p0003__0abb342d",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__0abb342d",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__0abb342d",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s1_jax_te1_tb1_Tlr0p0003__17061a75",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__17061a75",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s1_jax_te1_tb1_tlr3em4_Tlr0p0003__17061a75",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s2_jax_te1_tb1_Tlr0p0003__536b911a",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s2_jax_te1_tb1_pi_base_Tlr0p0003__536b911a",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s2_jax_te1_tb1_tlr3em4_Tlr0p0003__536b911a",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s3_jax_te1_tb1_Tlr0p0003__eb543c8d",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__eb543c8d",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "door_h_s3_jax_te1_tb1_tlr3em4_Tlr0p0003__eb543c8d",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s0_jax_te1_tb1_Tlr0p0003__e7328db5",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__e7328db5",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s1_jax_te1_tb1_Tlr0p0003__1371fdd0",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s1_jax_te1_tb1_pi_base_Tlr0p0003__1371fdd0",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s2_jax_te1_tb1_Tlr0p0003__25c58d64",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s2_jax_te1_tb1_pi_base_Tlr0p0003__25c58d64",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_c_s3_jax_te1_tb1_Tlr0p0003__4bf26e3b",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_e_s0_jax_te1_tb1_Tlr0p0003__94119809",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_e_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_e_s1_jax_te1_tb1_Tlr0p0003__bded916a",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_e_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_e_s2_jax_te1_tb1_Tlr0p0003__9e390104",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_e_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_e_s3_jax_te1_tb1_Tlr0p0003__6519623c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_e_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s0_jax_te1_tb1_Tlr0p0003__bd30503c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__bd30503c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__bd30503c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s1_jax_te1_tb1_Tlr0p0003__f1810b17",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__f1810b17",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s1_jax_te1_tb1_tlr3em4_Tlr0p0003__f1810b17",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s2_jax_te1_tb1_Tlr0p0003__bcb45b88",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s2_jax_te1_tb1_pi_base_Tlr0p0003__bcb45b88",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s2_jax_te1_tb1_tlr3em4_Tlr0p0003__bcb45b88",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s3_jax_te1_tb1_Tlr0p0003__cde54da9",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__cde54da9",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "ham_h_s3_jax_te1_tb1_tlr3em4_Tlr0p0003__cde54da9",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_c_s0_jax_te1_tb1_Tlr0p0003__e1d4c8f9",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_c_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_c_s1_jax_te1_tb1_Tlr0p0003__4e289b22",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_c_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_c_s2_jax_te1_tb1_Tlr0p0003__47727467",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_c_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_c_s3_jax_te1_tb1_Tlr0p0003__37d6ead6",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_c_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_e_s0_jax_te1_tb1_Tlr0p0003__557ea5e7",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_e_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_e_s1_jax_te1_tb1_Tlr0p0003__0b78bac6",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_e_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_e_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_e_s3_jax_te1_tb1_Tlr0p0003__58a45055",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_e_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_h_s0_jax_te1_tb1_Tlr0p0003__4838360c",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_h_s0_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_h_s1_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_h_s2_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "pen_h_s3_jax_te1_tb1_Tlr0p0003__bc355bab",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_h_s3_td3amo"
+    },
+    {
+      "code_commit": null,
+      "run_id": "rel_h_s0_jax_te1_tb1_Tlr0p0003__124a9af5",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/rel_h_s0_td3amo"
+    }
+  ],
+  "snapshot_commit": "c38fe57a6030fb0d2057834683d05f1769dd0cdf"
+}

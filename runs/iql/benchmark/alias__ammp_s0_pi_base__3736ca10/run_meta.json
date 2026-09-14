@@ -1,9 +1,0 @@
-{
-  "alias_of": "ammp_s0_default__3736ca10",
-  "canonical_rel_path": "runs/iql/benchmark/ammp_s0_default__3736ca10",
-  "collected_at": "2026-09-14T15:10:02+09:00",
-  "is_alias": true,
-  "note": "Same source_path reused; keep canonical `ammp_s0_default__3736ca10`, map stale variant id `ammp_s0_pi_base__3736ca10` as alias (do not double-count seeds).",
-  "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-play-v2/seed_0",
-  "stale_run_id": "ammp_s0_pi_base__3736ca10"
-}

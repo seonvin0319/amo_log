@@ -60,7 +60,7 @@ if ! "$PY" scripts/build_catalog.py >>"$LOG" 2>&1; then
   exit 1
 fi
 
-"$GIT" add runs catalog docs scripts README.md .gitignore 2>/dev/null || true
+"$GIT" add -A -- main ablation catalog docs scripts README.md .gitignore 2>/dev/null || true
 
 export GIT_AUTHOR_NAME="${GIT_AUTHOR_NAME:-$("$GIT" config user.name 2>/dev/null || echo amo_log-cron)}"
 export GIT_AUTHOR_EMAIL="${GIT_AUTHOR_EMAIL:-$("$GIT" config user.email 2>/dev/null || echo amo_log-cron@${HOST_ALIAS})}"

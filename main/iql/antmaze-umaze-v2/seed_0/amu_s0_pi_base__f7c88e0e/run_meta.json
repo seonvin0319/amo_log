@@ -1,0 +1,50 @@
+{
+  "algo": "iql",
+  "alias_of": "amu_s0_default__f7c88e0e",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [],
+  "collected_at": "2026-09-14T10:00:01+09:00",
+  "env": "antmaze-umaze-v2",
+  "env_short": "amu",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "is_alias": true,
+  "layout_version": 2,
+  "legacy_name": "seed_0",
+  "meta_lr": null,
+  "method": "iql",
+  "note": "Variant-name duplicate of same amo/benchmark seed_0 source (default vs pi_base). Keep default as canonical; do not double-count.",
+  "original_rel_path": "runs/iql/benchmark/amu_s0_pi_base__f7c88e0e",
+  "rel_path": "main/iql/antmaze-umaze-v2/seed_0/amu_s0_pi_base__f7c88e0e",
+  "run_id": "amu_s0_pi_base__f7c88e0e",
+  "section": "main",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "beta": 10.0,
+    "discount": 0.99,
+    "env": "antmaze-umaze-v2",
+    "eval_freq": 5000,
+    "iql_tau": 0.9,
+    "max_timesteps": 1000000,
+    "n_episodes": 10,
+    "normalize": true,
+    "normalize_reward": true,
+    "qf_lr": 0.0003,
+    "seed": 0,
+    "tau": 0.005,
+    "vf_lr": 0.0003
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-v2/seed_0",
+  "superseded": true,
+  "variant": "pi_base"
+}

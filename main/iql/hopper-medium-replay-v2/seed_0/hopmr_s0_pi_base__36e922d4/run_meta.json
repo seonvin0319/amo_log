@@ -1,0 +1,51 @@
+{
+  "algo": "iql",
+  "alias_of": "hopmr_s0_default__36e922d4",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [],
+  "collected_at": "2026-09-14T09:50:02+09:00",
+  "env": "hopper-medium-replay-v2",
+  "env_short": "hopmr",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "is_alias": true,
+  "layout_version": 2,
+  "legacy_name": "seed_0",
+  "meta_lr": null,
+  "method": "iql",
+  "note": "Variant-name duplicate of same amo/benchmark seed_0 source (default vs pi_base). Keep default as canonical; do not double-count.",
+  "original_rel_path": "runs/iql/benchmark/hopmr_s0_pi_base__36e922d4",
+  "rel_path": "main/iql/hopper-medium-replay-v2/seed_0/hopmr_s0_pi_base__36e922d4",
+  "run_id": "hopmr_s0_pi_base__36e922d4",
+  "section": "main",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "beta": 3.0,
+    "discount": 0.99,
+    "env": "hopper-medium-replay-v2",
+    "eval_freq": 5000,
+    "iql_deterministic": false,
+    "iql_tau": 0.7,
+    "max_timesteps": 1000000,
+    "n_episodes": 10,
+    "normalize": true,
+    "normalize_reward": false,
+    "qf_lr": 0.0003,
+    "seed": 0,
+    "tau": 0.005,
+    "vf_lr": 0.0003
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-replay-v2/seed_0",
+  "superseded": true,
+  "variant": "pi_base"
+}

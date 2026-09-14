@@ -692,14 +692,14 @@ def load_source_index(algo: str, family: str) -> Dict[str, str]:
     """Map absolute source_path -> canonical run_id under runs/<algo>/<family>/."""
     index: Dict[str, str] = {}
     root = RUNS / algo / family
-    if not root.exists():
-        return index
-    for meta_path in root.glob("*/run_meta.json"):
+    candidates = list(root.glob("*/run_meta.json"))
+    candidates += [p for section in ("main", "ablation") for p in (ROOT / section).rglob("run_meta.json")]
+    for meta_path in candidates:
         try:
             meta = json.loads(meta_path.read_text())
         except (OSError, json.JSONDecodeError, TypeError):
             continue
-        if meta.get("is_alias"):
+        if meta.get("is_alias") or meta.get("algo") != algo or meta.get("family") != family:
             continue
         src = meta.get("source_path")
         run_id = meta.get("run_id") or meta_path.parent.name
@@ -781,6 +781,12 @@ def ingest_one(
     existing_id = source_index.get(source_path)
     if existing_id and existing_id != run_id:
         canon = RUNS / algo / family / existing_id
+        if not canon.exists():
+            for section in ("main", "ablation"):
+                for candidate in (ROOT / section).rglob(existing_id + "/run_meta.json"):
+                    cm = json.loads(candidate.read_text())
+                    if cm.get("source_path") == source_path and not cm.get("is_alias"):
+                        canon = candidate.parent
         note = (
             f"Same source_path reused; keep canonical `{existing_id}`, "
             f"map stale variant id `{run_id}` as alias (do not double-count seeds)."
@@ -939,6 +945,10 @@ def main() -> int:
                 collected.append(meta)
 
     print(f"# collected {len(collected)} runs")
+    if not args.dry_run:
+        from log_layout import normalize
+        normalize(ROOT)
+
     if args.rebuild_catalog and not args.dry_run:
         import sys
 

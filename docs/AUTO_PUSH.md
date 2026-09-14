@@ -1,64 +1,13 @@
-# 자동 Push (cron) — multi-host, pull 없음
+# 자동 수집 (choi)
 
-여러 머신이 같은 `amo_log`에 올리되, **디스크를 아끼기 위해 pull/fetch 하지 않습니다.**
-
-## 모델
-
-| 역할 | ref |
-|------|-----|
-| 각 호스트 cron | `<alias>` 브랜치만 push (`choi`, `offrl`, `svcho`, …) |
-| `main` | 초기 스냅샷 / 디스크 여유 있는 곳에서 merge |
-
-같은 `main`에 여러 호스트가 pull 없이 push하면 non-fast-forward로 막힙니다.  
-그래서 **호스트당 브랜치 1개**(`choi` 등)를 소유하고, 그 브랜치만 fast-forward push 합니다.
-
-## 스케줄 (choi)
-
-```cron
-# amo_log ingest + push (choi branch), every 20 minutes
-8,28,48 * * * * /home/choi/amo_log/scripts/auto_push.sh
-
-# canvas only every 5m (no amo_log push)
-2-57/5 * * * * /home/choi/amo/scripts/refresh_antmaze_t_init_5m.sh
-```
-
-다른 머신:
+최신 origin/choi 변경을 먼저 반영한 뒤 기존 수집 스크립트를 실행합니다. main 브랜치에 로그를 올리지 않습니다.
 
 ```bash
-export AMO_LOG_HOST_ALIAS=offrl   # 또는 svcho / ext_csv / ext_csh
-# 동일 auto_push.sh + cron → origin/offrl 등으로 push
+python scripts/ingest_runs.py
+python scripts/build_catalog.py
+git add -A -- main ablation catalog docs scripts README.md .gitignore
+git commit -m "collect(choi): refresh experiment logs"
+git push origin HEAD:choi
 ```
 
-- 로그: `/home/choi/logs/amo_log_auto_push.log`
-- 락: `/home/choi/.amo_log_auto_push.lock`
-- **pull/fetch/rebase 절대 안 함**
-- canvas 5분 갱신과 분리: amo_log는 **20분**마다만 push
-
-## 동작
-
-1. `checkout` → 로컬 `choi` (없으면 생성; alias에 따라 다름)
-2. `ingest_runs.py` → `build_catalog.py`
-3. 변경 있으면 commit
-4. `git push origin HEAD:refs/heads/choi`
-
-## `main`으로 합치기 (디스크 여유 있는 머신에서만)
-
-```bash
-git fetch origin
-git checkout main
-git merge --no-ff origin/choi origin/offrl   # 필요한 호스트만
-git push origin main
-```
-
-## 수동 실행
-
-```bash
-AMO_LOG_HOST_ALIAS=choi /home/choi/amo_log/scripts/auto_push.sh
-tail -n 50 /home/choi/logs/amo_log_auto_push.log
-```
-
-## 끄기
-
-```bash
-crontab -l | grep -v amo_log/scripts/auto_push.sh | crontab -
-```
+기존 JAX 제거 목록은 특정 실행·코드 버전에만 적용됩니다.

@@ -1,0 +1,57 @@
+{
+  "algo": "apart",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [
+    "method_variant:pi_only_xfit_target",
+    "initial_scale_not_1",
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-14T15:10:01+09:00",
+  "env": "hopper-medium-v2",
+  "env_short": "hopm",
+  "family": "pi_only_xfit_target",
+  "git": {
+    "code_commit": null,
+    "code_repo": "APART"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "hm_s0_pi_only_xfit_target-hopper-medium-v2-f63febbd",
+  "meta_lr": null,
+  "method": "td3_amo",
+  "original_rel_path": "runs/apart/pi_only_xfit_target/hopm_s0_pi_only_xfit__f63febbd",
+  "rel_path": "ablation/td3_amo/hopper-medium-v2/unspecified/seed_0/hopm_s0_pi_only_xfit__f63febbd",
+  "run_id": "hopm_s0_pi_only_xfit__f63febbd",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "batch_size": 256,
+    "discount": 0.99,
+    "ema_alpha": 0.995,
+    "env": "hopper-medium-v2",
+    "eval_freq": 20000,
+    "l3_mode": "pi_only_xfit_target",
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "metrics_log_freq": 200,
+    "n_episodes": 10,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "save_freq": 200000,
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/APART/results_pi_only_xfit_target/hm_s0_pi_only_xfit_target-hopper-medium-v2-f63febbd",
+  "variant": "pi_only_xfit"
+}

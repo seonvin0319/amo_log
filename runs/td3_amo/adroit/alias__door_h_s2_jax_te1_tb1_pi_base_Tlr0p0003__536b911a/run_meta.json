@@ -1,9 +1,0 @@
-{
-  "alias_of": "door_h_s2_jax_te1_tb1_Tlr0p0003__536b911a",
-  "canonical_rel_path": "runs/td3_amo/adroit/door_h_s2_jax_te1_tb1_Tlr0p0003__536b911a",
-  "collected_at": "2026-09-14T09:51:51+09:00",
-  "is_alias": true,
-  "note": "Dedup 2026-09-14: same source_path exported under variant name drift (pi_base vs Tlr tags).",
-  "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s2_td3amo",
-  "stale_run_id": "door_h_s2_jax_te1_tb1_pi_base_Tlr0p0003__536b911a"
-}

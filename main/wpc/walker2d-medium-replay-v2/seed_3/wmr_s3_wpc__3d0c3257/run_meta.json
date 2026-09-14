@@ -1,0 +1,48 @@
+{
+  "algo": "wpc",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [],
+  "collected_at": "2026-09-14T15:10:02+09:00",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
+  "eval_source": "synthesized_from_stdout_log",
+  "family": "benchmark",
+  "git": {
+    "code_commit": null,
+    "code_repo": "ASPC_cohort"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "wmr_s3_wpc-walker2d-medium-replay-v2-3d0c3257",
+  "meta_lr": null,
+  "method": "wpc",
+  "original_rel_path": "runs/wpc/benchmark/wmr_s3_wpc__3d0c3257",
+  "rel_path": "main/wpc/walker2d-medium-replay-v2/seed_3/wmr_s3_wpc__3d0c3257",
+  "run_id": "wmr_s3_wpc__3d0c3257",
+  "section": "main",
+  "seed": 3,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "walker2d-medium-replay-v2",
+    "eval_freq": 20000,
+    "max_timesteps": 1000000,
+    "n_episodes": 10,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "seed": 3,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_log": "/home/choi/ASPC/results_wpc/_logs/wmr_s3_wpc.log",
+  "source_path": "/home/choi/ASPC/results_wpc/wmr_s3_wpc-walker2d-medium-replay-v2-3d0c3257",
+  "variant": "wpc"
+}
