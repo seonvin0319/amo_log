@@ -1,7 +1,7 @@
 {
   "alias_of": "amud_s0_default__4335ee82",
   "canonical_rel_path": "runs/iql/benchmark/amud_s0_default__4335ee82",
-  "collected_at": "2026-09-14T12:40:02+09:00",
+  "collected_at": "2026-09-14T12:50:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `amud_s0_default__4335ee82`, map stale variant id `amud_s0_pi_base__4335ee82` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-diverse-v2/seed_0",
