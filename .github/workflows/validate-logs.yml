@@ -1,0 +1,19 @@
+name: Validate log conventions
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: scripts
+      - name: Fetch common rules
+        run: git fetch --filter=blob:none --depth=1 origin main:refs/remotes/origin/main
+      - name: Validate committed snapshot
+        env:
+          LOG_BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: python3 scripts/validate_logs.py --branch "$LOG_BRANCH" --common-ref origin/main
