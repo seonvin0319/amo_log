@@ -18,6 +18,27 @@ RUNS = ROOT / "runs"
 
 KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "eval_final50_v1.jsonl")
 
+
+def load_removed_jax_entries() -> List[Dict[str, Any]]:
+    path = ROOT / "catalog" / "removed_legacy_jax.json"
+    if not path.exists():
+        return []
+    try:
+        return list(json.loads(path.read_text()).get("runs") or [])
+    except (OSError, json.JSONDecodeError, TypeError, AttributeError):
+        return []
+
+
+def is_removed_jax(source_path: str, code_commit: Optional[str], run_id: Optional[str] = None) -> bool:
+    for entry in load_removed_jax_entries():
+        if entry.get("source_path") != source_path:
+            continue
+        if entry.get("code_commit") != code_commit:
+            continue
+        if source_path or entry.get("run_id") == run_id:
+            return True
+    return False
+
 ENV_SHORT = {
     "halfcheetah-medium-v2": "hcm",
     "halfcheetah-medium-replay-v2": "hcmr",
@@ -748,6 +769,7 @@ def ingest_one(
     cfg = load_yaml_lite(cfg_path)
     # AMO release train.py stores env/seed/backend in run_meta.json, not config.yaml.
     meta_path = src / "run_meta.json"
+    run_meta: Dict[str, Any] = {}
     if meta_path.exists():
         try:
             run_meta = json.loads(meta_path.read_text())
@@ -850,6 +872,23 @@ def ingest_one(
     artifacts = [f for f in KEEP_FILES if (src / f).exists()]
     if synthesized_eval and "eval.jsonl" not in artifacts:
         artifacts.append("eval.jsonl")
+    backend = str(cfg.get("backend") or "").lower()
+    if not backend:
+        # Heuristic aligned with log_layout.backend(): amo_jax trees are JAX.
+        backend = "jax" if "/amo_jax/" in source_path.replace("\\", "/") else "torch"
+    # Do not invent code_commit from repo HEAD; that would reintroduce removed JAX
+    # fingerprints under a new commit. Only keep an explicit source-recorded value.
+    code_commit = None
+    git_meta = run_meta.get("git") if isinstance(run_meta, dict) else None
+    if isinstance(git_meta, dict) and git_meta.get("code_commit"):
+        code_commit = str(git_meta.get("code_commit"))
+    if backend == "jax" and is_removed_jax(source_path, code_commit, run_id):
+        print(f"SKIP removed legacy JAX {src}")
+        return None
+    if backend == "jax" and not code_commit:
+        # New JAX is allowed only with an explicit code commit (LOGGING_RULES).
+        print(f"SKIP jax without code_commit {src}")
+        return None
     meta = {
         "algo": algo,
         "family": family,
@@ -861,10 +900,11 @@ def ingest_one(
         "legacy_name": src.name,
         "source_path": source_path,
         "source_host": host,
+        "backend": backend,
         "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
         "settings": settings_summary(algo, cfg),
         "artifacts": artifacts,
-        "git": {"code_repo": code_repo, "code_commit": None},
+        "git": {"code_repo": code_repo, "code_commit": code_commit},
         "is_alias": False,
     }
     if log_path is not None:
