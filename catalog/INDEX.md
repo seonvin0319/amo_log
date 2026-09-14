@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **325**
+Total runs: **327**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | protocol | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|----------|------|
@@ -289,8 +289,10 @@ Total runs: **325**
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s1_Tlr0p0003__1f16774f` | relocate-human-v1 | 1 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s1_Tlr0p0003__1f16774f` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s1_Tlr0p001__535c6cd2` | relocate-human-v1 | 1 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s1_Tlr0p001__535c6cd2` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s1_Tlr0p002__3251fa9d` | relocate-human-v1 | 1 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s1_Tlr0p002__3251fa9d` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s2_Tlr0p0003__60501b79` | relocate-human-v1 | 2 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s2_Tlr0p0003__60501b79` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s2_Tlr0p001__2912f71b` | relocate-human-v1 | 2 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s2_Tlr0p001__2912f71b` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s2_Tlr0p002__e9e5bcbd` | relocate-human-v1 | 2 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s2_Tlr0p002__e9e5bcbd` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s3_Tlr0p0003__f3b45d30` | relocate-human-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s3_Tlr0p0003__f3b45d30` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s3_Tlr0p001__72cec075` | relocate-human-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s3_Tlr0p001__72cec075` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s3_Tlr0p002__d65f4b69` | relocate-human-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s3_Tlr0p002__d65f4b69` |
 | td3_amo | td3_amo_jax | `hme_s0_Tlr0p001__6839b1d7` | halfcheetah-medium-expert-v2 | 0 | 1000000 | 1000000 | 95.92 | final50_singlepass_v1 | `runs/td3_amo/td3_amo_jax/hme_s0_Tlr0p001__6839b1d7` |
