@@ -1,0 +1,52 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "eval.jsonl",
+    "metrics.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hame_s1/run/checkpoints/step_1000000.npz",
+  "collected_at": "2026-09-15T00:43:44+09:00",
+  "env": "hammer-expert-v1",
+  "env_short": "hame",
+  "family": "adroit_T1_Tlr1e3",
+  "final_score": 0.5708647593831178,
+  "git": {
+    "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+    "code_path": "/home/svcho/amo_iql_sweep",
+    "code_remote": "https://github.com/seonvin0319/AMO.git",
+    "code_repo": "AMO"
+  },
+  "last_eval_step": 1000000,
+  "legacy_name": "hame_s1",
+  "run_id": "hame_s1_td3_amo_T1_Tlr1e3__b63edd66",
+  "seed": 1,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 1.0,
+    "T_lr": 0.001,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "batch_size": 256,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "hammer-expert-v1",
+    "eval_freq": 20000,
+    "final_eval_repeats": 5,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hame_s1/run",
+  "variant": "td3_amo_T1_Tlr1e3"
+}
