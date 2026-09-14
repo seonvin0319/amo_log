@@ -8,7 +8,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho1em3_s0",
-  "collected_at": "2026-09-14T02:05:09+00:00",
+  "collected_at": "2026-09-14T02:15:23+00:00",
   "env": "hammer-expert-v1",
   "env_short": "hame",
   "family": "iql_amo_jax_adroit_beta1_rho",
