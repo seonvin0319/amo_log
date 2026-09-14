@@ -1,7 +1,7 @@
 {
   "alias_of": "hme_s0_default__af1658b2",
   "canonical_rel_path": "runs/iql/benchmark/hme_s0_default__af1658b2",
-  "collected_at": "2026-09-14T13:50:02+09:00",
+  "collected_at": "2026-09-14T14:00:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `hme_s0_default__af1658b2`, map stale variant id `hme_s0_pi_base__af1658b2` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-expert-v2/seed_0",
