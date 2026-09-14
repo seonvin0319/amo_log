@@ -290,20 +290,13 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         tokens.append(backend if backend in ("jax", "torch") else "jax")
         te = cfg.get("T_E")
         tb = cfg.get("T_B")
-        tlr = cfg.get("T_lr")
         if te is not None:
             te_f = float(te)
             tokens.append(f"te{int(te_f) if te_f.is_integer() else te_f}")
         if tb is not None:
             tb_f = float(tb)
             tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
-        if tlr is not None:
-            tlr_f = float(tlr)
-            if abs(tlr_f - 3e-4) < 1e-12:
-                tokens.append("tlr3em4")
-            else:
-                tokens.append(f"tlr{tlr_f:g}".replace(".", "p").replace("-", "m"))
-    if family == "benchmark" and algo == "iql":
+        # T_lr tag comes from the shared T_lr suffix below.    if family == "benchmark" and algo == "iql":
         tokens.append("pi_base")
     if algo in ("wpc", "aspc") or (family == "benchmark" and algo in ("wpc", "aspc")):
         if algo == "wpc" or "wpc" in dirname:

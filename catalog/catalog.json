@@ -1,5 +1,5 @@
 {
-  "n_runs": 234,
+  "n_runs": 266,
   "runs": [
     {
       "algo": "amo",
@@ -8,7 +8,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -58,7 +58,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -108,7 +108,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -158,7 +158,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -208,7 +208,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "antmaze_t_init_tune",
@@ -258,7 +258,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -308,7 +308,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -358,7 +358,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -408,7 +408,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -458,7 +458,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -508,7 +508,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -558,7 +558,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -608,7 +608,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -658,7 +658,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "antmaze_t_init_tune",
@@ -708,7 +708,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -758,7 +758,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -808,7 +808,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -858,7 +858,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -908,7 +908,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -958,7 +958,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1008,7 +1008,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1058,7 +1058,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1108,7 +1108,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "antmaze_t_init_tune",
@@ -1158,7 +1158,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1208,7 +1208,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1258,7 +1258,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1308,7 +1308,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1358,7 +1358,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1408,7 +1408,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1458,7 +1458,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1508,7 +1508,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1558,7 +1558,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "antmaze_t_init_tune",
@@ -1656,7 +1656,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "segment_interval",
@@ -1707,7 +1707,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1755,7 +1755,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1803,7 +1803,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1851,7 +1851,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "chain",
@@ -1899,7 +1899,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "chain",
@@ -1947,7 +1947,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -1996,7 +1996,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2045,7 +2045,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2094,7 +2094,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2143,7 +2143,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2192,7 +2192,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2241,7 +2241,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2290,7 +2290,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "family": "dual_proximal",
@@ -2339,7 +2339,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -2388,7 +2388,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "dual_proximal",
@@ -2437,7 +2437,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -2486,7 +2486,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "dual_proximal",
@@ -2535,7 +2535,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -2584,7 +2584,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "dual_proximal",
@@ -2633,7 +2633,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2682,7 +2682,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2731,7 +2731,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2780,7 +2780,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2829,7 +2829,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2878,7 +2878,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2927,7 +2927,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -2976,7 +2976,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "family": "dual_proximal",
@@ -3025,7 +3025,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -3074,7 +3074,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "dual_proximal",
@@ -3123,7 +3123,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -3172,7 +3172,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "dual_proximal",
@@ -3221,7 +3221,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -3270,7 +3270,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "dual_proximal",
@@ -3319,7 +3319,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3368,7 +3368,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3417,7 +3417,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3466,7 +3466,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3515,7 +3515,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3564,7 +3564,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3613,7 +3613,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3662,7 +3662,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "family": "dual_proximal",
@@ -3711,7 +3711,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -3760,7 +3760,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "dual_proximal",
@@ -3809,7 +3809,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -3858,7 +3858,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "dual_proximal",
@@ -3907,7 +3907,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -3956,7 +3956,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "dual_proximal",
@@ -4005,7 +4005,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4054,7 +4054,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4103,7 +4103,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4152,7 +4152,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4201,7 +4201,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4250,7 +4250,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4299,7 +4299,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4348,7 +4348,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_mpi_nstep",
@@ -4397,7 +4397,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "pi_only_xfit_target",
@@ -4445,7 +4445,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "pi_only_xfit_target",
@@ -4493,7 +4493,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "pi_only_xfit_target",
@@ -4541,7 +4541,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "pi_only_xfit_target",
@@ -4589,7 +4589,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "pi_only_xfit_target",
@@ -4637,7 +4637,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "pi_only_xfit_target",
@@ -4685,7 +4685,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "pi_only_xfit_target",
@@ -4733,7 +4733,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "pi_only_xfit_target",
@@ -4781,7 +4781,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "pi_only_xfit_target",
@@ -4829,7 +4829,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
@@ -4870,6 +4870,48 @@
       "source_log": "/home/choi/ASPC/results_aspc/_logs/wme_s0_aspc.log",
       "source_path": "/home/choi/ASPC/results_aspc/wme_s0_aspc-walker2d-medium-expert-v2-a24170b4",
       "variant": "aspc_rc_a2p5_aspc"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "antmaze-large-diverse-v2",
+      "env_short": "amld",
+      "family": "benchmark",
+      "final_score": 40.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/amld_s0_default__6bcc7208",
+      "run_id": "amld_s0_default__6bcc7208",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 10.0,
+        "discount": 0.99,
+        "env": "antmaze-large-diverse-v2",
+        "eval_freq": 5000,
+        "iql_tau": 0.9,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": true,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/antmaze-large-diverse-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -4919,6 +4961,48 @@
         "config.yaml",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "antmaze-large-play-v2",
+      "env_short": "amlp",
+      "family": "benchmark",
+      "final_score": 20.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/amlp_s0_default__02e09f2f",
+      "run_id": "amlp_s0_default__02e09f2f",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 10.0,
+        "discount": 0.99,
+        "env": "antmaze-large-play-v2",
+        "eval_freq": 5000,
+        "iql_tau": 0.9,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": true,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/antmaze-large-play-v2/seed_0",
+      "variant": "default"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
@@ -4954,6 +5038,48 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/antmaze-large-play-v2/seed_0",
       "variant": "pi_base"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "antmaze-medium-diverse-v2",
+      "env_short": "ammd",
+      "family": "benchmark",
+      "final_score": 50.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/ammd_s0_default__14c27359",
+      "run_id": "ammd_s0_default__14c27359",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 10.0,
+        "discount": 0.99,
+        "env": "antmaze-medium-diverse-v2",
+        "eval_freq": 5000,
+        "iql_tau": 0.9,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": true,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-diverse-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -5003,6 +5129,48 @@
         "config.yaml",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "antmaze-medium-play-v2",
+      "env_short": "ammp",
+      "family": "benchmark",
+      "final_score": 60.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/ammp_s0_default__3736ca10",
+      "run_id": "ammp_s0_default__3736ca10",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 10.0,
+        "discount": 0.99,
+        "env": "antmaze-medium-play-v2",
+        "eval_freq": 5000,
+        "iql_tau": 0.9,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": true,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-play-v2/seed_0",
+      "variant": "default"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
@@ -5038,6 +5206,48 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-play-v2/seed_0",
       "variant": "pi_base"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "antmaze-umaze-v2",
+      "env_short": "amu",
+      "family": "benchmark",
+      "final_score": 40.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/amu_s0_default__f7c88e0e",
+      "run_id": "amu_s0_default__f7c88e0e",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 10.0,
+        "discount": 0.99,
+        "env": "antmaze-umaze-v2",
+        "eval_freq": 5000,
+        "iql_tau": 0.9,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": true,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -5087,6 +5297,48 @@
         "config.yaml",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "antmaze-umaze-diverse-v2",
+      "env_short": "amud",
+      "family": "benchmark",
+      "final_score": 50.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/amud_s0_default__4335ee82",
+      "run_id": "amud_s0_default__4335ee82",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 10.0,
+        "discount": 0.99,
+        "env": "antmaze-umaze-diverse-v2",
+        "eval_freq": 5000,
+        "iql_tau": 0.9,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": true,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-diverse-v2/seed_0",
+      "variant": "default"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
@@ -5122,6 +5374,49 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-diverse-v2/seed_0",
       "variant": "pi_base"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "halfcheetah-medium-v2",
+      "env_short": "hcm",
+      "family": "benchmark",
+      "final_score": 48.6,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/hcm_s0_default__493ddaec",
+      "run_id": "hcm_s0_default__493ddaec",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -5172,6 +5467,49 @@
         "config.yaml",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "halfcheetah-medium-replay-v2",
+      "env_short": "hcmr",
+      "family": "benchmark",
+      "final_score": 44.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/hcmr_s0_default__03cbbf5a",
+      "run_id": "hcmr_s0_default__03cbbf5a",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-replay-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-replay-v2/seed_0",
+      "variant": "default"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
@@ -5208,6 +5546,49 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-replay-v2/seed_0",
       "variant": "pi_base"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "benchmark",
+      "final_score": 94.2,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/hme_s0_default__af1658b2",
+      "run_id": "hme_s0_default__af1658b2",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-expert-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -5258,6 +5639,49 @@
         "config.yaml",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hopper-medium-v2",
+      "env_short": "hopm",
+      "family": "benchmark",
+      "final_score": 66.7,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/hopm_s0_default__49a09161",
+      "run_id": "hopm_s0_default__49a09161",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "hopper-medium-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-v2/seed_0",
+      "variant": "default"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
@@ -5294,6 +5718,49 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-v2/seed_0",
       "variant": "pi_base"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hopper-medium-expert-v2",
+      "env_short": "hopme",
+      "family": "benchmark",
+      "final_score": 112.1,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/hopme_s0_default__eeec316b",
+      "run_id": "hopme_s0_default__eeec316b",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "hopper-medium-expert-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-expert-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -5344,6 +5811,49 @@
         "config.yaml",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hopper-medium-replay-v2",
+      "env_short": "hopmr",
+      "family": "benchmark",
+      "final_score": 97.8,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/hopmr_s0_default__36e922d4",
+      "run_id": "hopmr_s0_default__36e922d4",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "hopper-medium-replay-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-replay-v2/seed_0",
+      "variant": "default"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
@@ -5380,6 +5890,49 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-replay-v2/seed_0",
       "variant": "pi_base"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "walker2d-medium-v2",
+      "env_short": "wm",
+      "family": "benchmark",
+      "final_score": 84.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/wm_s0_default__7a2b5104",
+      "run_id": "wm_s0_default__7a2b5104",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "walker2d-medium-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -5430,6 +5983,49 @@
         "config.yaml",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "walker2d-medium-expert-v2",
+      "env_short": "wme",
+      "family": "benchmark",
+      "final_score": 111.7,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/wme_s0_default__cd69cae4",
+      "run_id": "wme_s0_default__cd69cae4",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "walker2d-medium-expert-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-expert-v2/seed_0",
+      "variant": "default"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
@@ -5466,6 +6062,49 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-expert-v2/seed_0",
       "variant": "pi_base"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "walker2d-medium-replay-v2",
+      "env_short": "wmr",
+      "family": "benchmark",
+      "final_score": 82.0,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "seed_0",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/benchmark/wmr_s0_default__d831fdac",
+      "run_id": "wmr_s0_default__d831fdac",
+      "seed": 0,
+      "settings": {
+        "actor_lr": 0.0003,
+        "batch_size": 256,
+        "beta": 3.0,
+        "discount": 0.99,
+        "env": "walker2d-medium-replay-v2",
+        "eval_freq": 5000,
+        "iql_deterministic": false,
+        "iql_tau": 0.7,
+        "max_timesteps": 1000000,
+        "n_episodes": 10,
+        "normalize": true,
+        "normalize_reward": false,
+        "qf_lr": 0.0003,
+        "seed": 0,
+        "tau": 0.005,
+        "vf_lr": 0.0003
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-replay-v2/seed_0",
+      "variant": "default"
     },
     {
       "algo": "iql",
@@ -5570,7 +6209,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "vanilla",
@@ -5616,7 +6255,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "vanilla",
@@ -5662,7 +6301,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "vanilla",
@@ -5761,7 +6400,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "vanilla",
@@ -5807,7 +6446,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "vanilla",
@@ -5853,7 +6492,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "vanilla",
@@ -5952,7 +6591,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "vanilla",
@@ -5998,7 +6637,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "vanilla",
@@ -6044,7 +6683,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "vanilla",
@@ -6143,7 +6782,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "vanilla",
@@ -6189,7 +6828,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "vanilla",
@@ -6235,7 +6874,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "vanilla",
@@ -6281,7 +6920,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "vanilla",
@@ -6380,7 +7019,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "vanilla",
@@ -6426,7 +7065,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "vanilla",
@@ -6472,7 +7111,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "vanilla",
@@ -6571,7 +7210,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "vanilla",
@@ -6617,7 +7256,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "vanilla",
@@ -6663,7 +7302,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "vanilla",
@@ -7195,6 +7834,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-cloned-v1",
+      "env_short": "door_c",
+      "family": "adroit",
+      "final_score": -0.11206514150471315,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_c_s0_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__907411f0",
+      "run_id": "door_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__907411f0",
+      "seed": 0,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-cloned-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s0_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "door-cloned-v1",
       "env_short": "door_c",
@@ -7234,6 +7920,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s0_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-cloned-v1",
+      "env_short": "door_c",
+      "family": "adroit",
+      "final_score": -0.07554457147820559,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_c_s1_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_c_s1_jax_te1_tb1_pi_base_Tlr0p0003__f3dfb0b6",
+      "run_id": "door_c_s1_jax_te1_tb1_pi_base_Tlr0p0003__f3dfb0b6",
+      "seed": 1,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-cloned-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s1_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7289,6 +8022,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-cloned-v1",
+      "env_short": "door_c",
+      "family": "adroit",
+      "final_score": -0.3427156945953699,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_c_s2_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_c_s2_jax_te1_tb1_pi_base_Tlr0p0003__baf9fe71",
+      "run_id": "door_c_s2_jax_te1_tb1_pi_base_Tlr0p0003__baf9fe71",
+      "seed": 2,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-cloned-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s2_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "door-cloned-v1",
       "env_short": "door_c",
@@ -7328,6 +8108,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s2_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-cloned-v1",
+      "env_short": "door_c",
+      "family": "adroit",
+      "final_score": 0.1795081644844171,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_c_s3_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_c_s3_jax_te1_tb1_pi_base_Tlr0p0003__bdbcc19c",
+      "run_id": "door_c_s3_jax_te1_tb1_pi_base_Tlr0p0003__bdbcc19c",
+      "seed": 3,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-cloned-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s3_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7383,6 +8210,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-expert-v1",
+      "env_short": "door_e",
+      "family": "adroit",
+      "final_score": 14.580378781526631,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_e_s0_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_e_s0_jax_te1_tb1_pi_base_Tlr0p0003__21266d42",
+      "run_id": "door_e_s0_jax_te1_tb1_pi_base_Tlr0p0003__21266d42",
+      "seed": 0,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-expert-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s0_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "door-expert-v1",
       "env_short": "door_e",
@@ -7422,6 +8296,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s0_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-expert-v1",
+      "env_short": "door_e",
+      "family": "adroit",
+      "final_score": 36.05360613126084,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_e_s1_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_e_s1_jax_te1_tb1_pi_base_Tlr0p0003__67c41aee",
+      "run_id": "door_e_s1_jax_te1_tb1_pi_base_Tlr0p0003__67c41aee",
+      "seed": 1,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-expert-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s1_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7477,6 +8398,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-expert-v1",
+      "env_short": "door_e",
+      "family": "adroit",
+      "final_score": 10.358607927276788,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_e_s2_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_e_s2_jax_te1_tb1_pi_base_Tlr0p0003__93a90551",
+      "run_id": "door_e_s2_jax_te1_tb1_pi_base_Tlr0p0003__93a90551",
+      "seed": 2,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-expert-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s2_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "door-expert-v1",
       "env_short": "door_e",
@@ -7516,6 +8484,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s2_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-expert-v1",
+      "env_short": "door_e",
+      "family": "adroit",
+      "final_score": 19.293909915410346,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_e_s3_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_e_s3_jax_te1_tb1_pi_base_Tlr0p0003__decdc1d1",
+      "run_id": "door_e_s3_jax_te1_tb1_pi_base_Tlr0p0003__decdc1d1",
+      "seed": 3,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-expert-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s3_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7571,6 +8586,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-human-v1",
+      "env_short": "door_h",
+      "family": "adroit",
+      "final_score": -0.2501008089133511,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_h_s0_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__0abb342d",
+      "run_id": "door_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__0abb342d",
+      "seed": 0,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s0_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "door-human-v1",
       "env_short": "door_h",
@@ -7610,6 +8672,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s0_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-human-v1",
+      "env_short": "door_h",
+      "family": "adroit",
+      "final_score": -0.16275709720055062,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_h_s1_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__17061a75",
+      "run_id": "door_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__17061a75",
+      "seed": 1,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s1_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7665,6 +8774,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-human-v1",
+      "env_short": "door_h",
+      "family": "adroit",
+      "final_score": -0.21930453836128716,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_h_s2_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_h_s2_jax_te1_tb1_pi_base_Tlr0p0003__536b911a",
+      "run_id": "door_h_s2_jax_te1_tb1_pi_base_Tlr0p0003__536b911a",
+      "seed": 2,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s2_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "door-human-v1",
       "env_short": "door_h",
@@ -7704,6 +8860,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s2_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "door-human-v1",
+      "env_short": "door_h",
+      "family": "adroit",
+      "final_score": -0.26306481947158056,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "door_h_s3_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/door_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__eb543c8d",
+      "run_id": "door_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__eb543c8d",
+      "seed": 3,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "door-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_h_s3_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7759,6 +8962,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hammer-cloned-v1",
+      "env_short": "ham_c",
+      "family": "adroit",
+      "final_score": 1.7895944532940564,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 180000,
+      "legacy_name": "ham_c_s0_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5",
+      "run_id": "ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5",
+      "seed": 0,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "hammer-cloned-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s0_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "ham_c",
@@ -7798,6 +9048,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s0_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hammer-human-v1",
+      "env_short": "ham_h",
+      "family": "adroit",
+      "final_score": 2.52393545517085,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "ham_h_s0_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/ham_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__bd30503c",
+      "run_id": "ham_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__bd30503c",
+      "seed": 0,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "hammer-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s0_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7853,6 +9150,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hammer-human-v1",
+      "env_short": "ham_h",
+      "family": "adroit",
+      "final_score": -0.5144585295434996,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "ham_h_s1_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/ham_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__f1810b17",
+      "run_id": "ham_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__f1810b17",
+      "seed": 1,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "hammer-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 1,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s1_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "hammer-human-v1",
       "env_short": "ham_h",
@@ -7892,6 +9236,53 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s1_td3amo",
       "variant": "jax_te1_tb1_tlr3em4_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hammer-human-v1",
+      "env_short": "ham_h",
+      "family": "adroit",
+      "final_score": 0.20329780037037676,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "ham_h_s2_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/ham_h_s2_jax_te1_tb1_pi_base_Tlr0p0003__bcb45b88",
+      "run_id": "ham_h_s2_jax_te1_tb1_pi_base_Tlr0p0003__bcb45b88",
+      "seed": 2,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "hammer-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s2_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
     },
     {
       "algo": "td3_amo",
@@ -7947,6 +9338,53 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
+      "collected_at": "2026-09-14T09:10:02+09:00",
+      "env": "hammer-human-v1",
+      "env_short": "ham_h",
+      "family": "adroit",
+      "final_score": -0.12094229410191118,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": 1000000,
+      "legacy_name": "ham_h_s3_td3amo",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/td3_amo/adroit/ham_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__cde54da9",
+      "run_id": "ham_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__cde54da9",
+      "seed": 3,
+      "settings": {
+        "T_B": 1.0,
+        "T_E": 1.0,
+        "T_lr": 0.0003,
+        "actor_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_lr": 0.0003,
+        "discount": 0.99,
+        "env": "hammer-human-v1",
+        "eval_freq": 20000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "seed": 3,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "choi",
+      "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_h_s3_td3amo",
+      "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
       "collected_at": "2026-09-14T09:05:05+09:00",
       "env": "hammer-human-v1",
       "env_short": "ham_h",
@@ -7993,7 +9431,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -8036,7 +9474,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -8079,7 +9517,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -8122,7 +9560,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_source": "synthesized_from_stdout_log",
@@ -8165,7 +9603,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8208,7 +9646,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8251,7 +9689,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8294,7 +9732,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8337,7 +9775,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -8380,7 +9818,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -8423,7 +9861,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -8466,7 +9904,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_source": "synthesized_from_stdout_log",
@@ -8509,7 +9947,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8552,7 +9990,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8595,7 +10033,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8638,7 +10076,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_source": "synthesized_from_stdout_log",
@@ -8681,7 +10119,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -8724,7 +10162,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -8767,7 +10205,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -8810,7 +10248,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_source": "synthesized_from_stdout_log",
@@ -8853,7 +10291,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -8896,7 +10334,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -8939,7 +10377,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -8982,7 +10420,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_source": "synthesized_from_stdout_log",
@@ -9025,7 +10463,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9068,7 +10506,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9111,7 +10549,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9154,7 +10592,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9197,7 +10635,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9240,7 +10678,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9283,7 +10721,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9326,7 +10764,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9369,7 +10807,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9412,7 +10850,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9455,7 +10893,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9498,7 +10936,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9541,7 +10979,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9584,7 +11022,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9627,7 +11065,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9670,7 +11108,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -9713,7 +11151,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9756,7 +11194,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9799,7 +11237,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9842,7 +11280,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -9885,7 +11323,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9928,7 +11366,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -9971,7 +11409,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10014,7 +11452,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10057,7 +11495,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -10100,7 +11538,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -10143,7 +11581,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -10186,7 +11624,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -10229,7 +11667,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -10272,7 +11710,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -10315,7 +11753,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -10358,7 +11796,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -10401,7 +11839,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10444,7 +11882,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10487,7 +11925,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10530,7 +11968,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10573,7 +12011,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_source": "synthesized_from_stdout_log",
@@ -10616,7 +12054,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10659,7 +12097,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_source": "synthesized_from_stdout_log",
@@ -10702,7 +12140,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_source": "synthesized_from_stdout_log",
@@ -10745,7 +12183,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_source": "synthesized_from_stdout_log",
@@ -10788,7 +12226,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_source": "synthesized_from_stdout_log",
@@ -10831,7 +12269,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_source": "synthesized_from_stdout_log",
@@ -10874,7 +12312,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_source": "synthesized_from_stdout_log",
@@ -10917,7 +12355,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T09:05:05+09:00",
+      "collected_at": "2026-09-14T09:10:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_source": "synthesized_from_stdout_log",

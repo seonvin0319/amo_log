@@ -1,0 +1,43 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "collected_at": "2026-09-14T09:10:02+09:00",
+  "env": "hammer-cloned-v1",
+  "env_short": "ham_c",
+  "family": "adroit",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "legacy_name": "ham_c_s0_td3amo",
+  "run_id": "ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5",
+  "seed": 0,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 1.0,
+    "T_lr": 0.0003,
+    "actor_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "hammer-cloned-v1",
+    "eval_freq": 20000,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s0_td3amo",
+  "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
+}
