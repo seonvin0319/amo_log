@@ -2,10 +2,11 @@
   "algo": "iql_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho2em3_s0",
-  "collected_at": "2026-09-14T00:32:31+00:00",
+  "collected_at": "2026-09-14T00:42:44+00:00",
   "env": "unknown",
   "env_short": "unknown",
   "family": "iql_amo_jax_adroit_beta1_rho",
