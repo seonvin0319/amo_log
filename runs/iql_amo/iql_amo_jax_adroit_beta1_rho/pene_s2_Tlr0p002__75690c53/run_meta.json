@@ -7,7 +7,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho2em3_s2",
-  "collected_at": "2026-09-14T03:16:52+00:00",
+  "collected_at": "2026-09-14T03:27:07+00:00",
   "env": "pen-expert-v1",
   "env_short": "pene",
   "family": "iql_amo_jax_adroit_beta1_rho",
