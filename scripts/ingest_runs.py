@@ -185,6 +185,16 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO-jax-upstream",
         "family_force": "adaptive_multiscale",
     },
+    # IQL+AMO adaptive-beta (AMO_EXP iql-amo) · shchoi 69-job matrix
+    {
+        "algo": "iql",
+        "root": Path(
+            "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "AMO_EXP_iql-amo",
+        "family_force": "iql_adaptive_beta",
+    },
     # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
     {
         "algo": "aspc",
@@ -493,6 +503,15 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         tokens.append("rebrac")
     if family == "amo_td3bc":
         tokens.append("qouter")
+    if family == "iql_adaptive_beta":
+        rho = cfg.get("rho_lr", cfg.get("T_lr"))
+        if rho is not None:
+            tokens.append(
+                "rho"
+                + f"{float(rho):g}".replace(".", "p").replace("-", "m").replace("+", "")
+            )
+        else:
+            tokens.append("adaptive_beta")
     if family == "adaptive_multiscale":
         te = cfg.get("T_E")
         if te is not None:
@@ -569,6 +588,10 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "T_E",
         "T_B",
         "T_lr",
+        "rho_lr",
+        "beta",
+        "beta_initial",
+        "adaptive_enabled",
         "T_freq",
         "proximal_n_steps",
         "dual_proximal",
