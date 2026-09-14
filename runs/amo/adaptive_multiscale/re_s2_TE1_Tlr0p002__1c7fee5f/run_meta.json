@@ -7,7 +7,7 @@
     "final_eval_50.jsonl"
   ],
   "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_re_t1_tlr2e3_s2",
-  "collected_at": "2026-09-14T09:00:37+09:00",
+  "collected_at": "2026-09-14T10:22:38+09:00",
   "env": "relocate-expert-v1",
   "env_short": "re",
   "family": "adaptive_multiscale",
@@ -29,10 +29,10 @@
     "env": "relocate-expert-v1",
     "eval_freq": 20000,
     "final_eval_50": {
-      "d4rl_normalized_score": -0.19478368137193855,
+      "d4rl_normalized_score": -0.130330107806266,
       "device": "cpu",
-      "eval_return": -14.685330665212962,
-      "evaluated_at": "2026-09-13T23:48:50.487360+00:00",
+      "eval_return": -11.95230339489945,
+      "evaluated_at": "2026-09-14T01:21:32.211504+00:00",
       "n_episodes": 50
     },
     "last_metrics_step": 1000000,

@@ -8539,16 +8539,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dc_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-cloned-v1",
       "env_short": "dc",
       "family": "adaptive_multiscale",
-      "final_score": -0.32604739282425654,
+      "final_score": -0.4148706347367626,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dc_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dc_s0_TE1_Tlr0p002__ba92ce0e",
@@ -8565,10 +8565,10 @@
         "env": "door-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.32604739282425654,
+          "d4rl_normalized_score": -0.3375523805447217,
           "device": "cpu",
-          "eval_return": -66.08911274821709,
-          "evaluated_at": "2026-09-13T23:47:03.912846+00:00",
+          "eval_return": -66.42702368796309,
+          "evaluated_at": "2026-09-14T01:19:20.338949+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8594,16 +8594,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dc_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-cloned-v1",
       "env_short": "dc",
       "family": "adaptive_multiscale",
-      "final_score": -0.1253898803456706,
+      "final_score": -0.1774219105394903,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dc_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dc_s1_TE1_Tlr0p002__68bcf67d",
@@ -8620,10 +8620,10 @@
         "env": "door-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.1253898803456706,
+          "d4rl_normalized_score": -0.1193830553087822,
           "device": "cpu",
-          "eval_return": -60.19563678316915,
-          "evaluated_at": "2026-09-13T23:47:06.705273+00:00",
+          "eval_return": -60.01921139772574,
+          "evaluated_at": "2026-09-14T01:19:23.755178+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8649,16 +8649,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dc_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-cloned-v1",
       "env_short": "dc",
       "family": "adaptive_multiscale",
-      "final_score": -0.3819108929352821,
+      "final_score": -0.34292939708351056,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dc_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dc_s2_TE1_Tlr0p002__dc3eaa3a",
@@ -8675,10 +8675,10 @@
         "env": "door-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.3819108929352821,
+          "d4rl_normalized_score": -0.3845095257358409,
           "device": "cpu",
-          "eval_return": -67.72986963372327,
-          "evaluated_at": "2026-09-13T23:47:09.202171+00:00",
+          "eval_return": -67.80619361363762,
+          "evaluated_at": "2026-09-14T01:19:26.864849+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8704,16 +8704,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dc_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-cloned-v1",
       "env_short": "dc",
       "family": "adaptive_multiscale",
-      "final_score": -0.3273500909745875,
+      "final_score": -0.20697676067243384,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dc_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dc_s3_TE1_Tlr0p002__e9760a2d",
@@ -8730,10 +8730,10 @@
         "env": "door-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.3273500909745875,
+          "d4rl_normalized_score": -0.30867482272068625,
           "device": "cpu",
-          "eval_return": -66.1273740629511,
-          "evaluated_at": "2026-09-13T23:47:11.730574+00:00",
+          "eval_return": -65.57886609414562,
+          "evaluated_at": "2026-09-14T01:19:30.066544+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8759,16 +8759,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_de_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-expert-v1",
       "env_short": "de",
       "family": "adaptive_multiscale",
-      "final_score": -0.05000606081267186,
+      "final_score": 2.2966193287734993,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_de_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/de_s0_TE1_Tlr0p002__093f4ea6",
@@ -8785,10 +8785,10 @@
         "env": "door-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.05000606081267186,
+          "d4rl_normalized_score": 0.20567135951558177,
           "device": "cpu",
-          "eval_return": -57.981552081911566,
-          "evaluated_at": "2026-09-13T23:47:16.081404+00:00",
+          "eval_return": -50.4720962290148,
+          "evaluated_at": "2026-09-14T01:19:34.982811+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8814,16 +8814,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_de_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-expert-v1",
       "env_short": "de",
       "family": "adaptive_multiscale",
-      "final_score": 0.030251461618074377,
+      "final_score": -0.01702971244073608,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_de_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/de_s1_TE1_Tlr0p002__79d324b3",
@@ -8840,10 +8840,10 @@
         "env": "door-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 0.030251461618074377,
+          "d4rl_normalized_score": 0.9908753287465887,
           "device": "cpu",
-          "eval_return": -55.62432272320327,
-          "evaluated_at": "2026-09-13T23:47:20.173682+00:00",
+          "eval_return": -27.410010672576764,
+          "evaluated_at": "2026-09-14T01:19:39.442630+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8869,16 +8869,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_de_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-expert-v1",
       "env_short": "de",
       "family": "adaptive_multiscale",
-      "final_score": 1.653622798386921,
+      "final_score": 1.1975191493678645,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_de_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/de_s2_TE1_Tlr0p002__b009e032",
@@ -8895,10 +8895,10 @@
         "env": "door-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 1.653622798386921,
+          "d4rl_normalized_score": 1.2184757204708394,
           "device": "cpu",
-          "eval_return": -7.944573097003954,
-          "evaluated_at": "2026-09-13T23:47:24.504468+00:00",
+          "eval_return": -20.72520021273656,
+          "evaluated_at": "2026-09-14T01:19:44.084110+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8924,16 +8924,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_de_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-expert-v1",
       "env_short": "de",
       "family": "adaptive_multiscale",
-      "final_score": -0.009800865845254528,
+      "final_score": 0.08375111394664911,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_de_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/de_s3_TE1_Tlr0p002__f787bc3f",
@@ -8950,10 +8950,10 @@
         "env": "door-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.009800865845254528,
+          "d4rl_normalized_score": 0.7629885707868748,
           "device": "cpu",
-          "eval_return": -56.800692480475874,
-          "evaluated_at": "2026-09-13T23:47:28.226775+00:00",
+          "eval_return": -34.103231943978706,
+          "evaluated_at": "2026-09-14T01:19:48.547048+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -8979,16 +8979,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dh_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-human-v1",
       "env_short": "dh",
       "family": "adaptive_multiscale",
-      "final_score": -0.3357379725425799,
+      "final_score": -0.3989810639117872,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dh_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dh_s0_TE1_Tlr0p002__3163152d",
@@ -9005,10 +9005,10 @@
         "env": "door-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.3357379725425799,
+          "d4rl_normalized_score": -0.33828796598588395,
           "device": "cpu",
-          "eval_return": -66.37373303455406,
-          "evaluated_at": "2026-09-13T23:47:30.609501+00:00",
+          "eval_return": -66.44862843659263,
+          "evaluated_at": "2026-09-14T01:19:51.567011+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9034,16 +9034,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dh_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-human-v1",
       "env_short": "dh",
       "family": "adaptive_multiscale",
-      "final_score": -0.3672892148741762,
+      "final_score": -0.39161248108715063,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dh_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dh_s1_TE1_Tlr0p002__8651c0c3",
@@ -9060,10 +9060,10 @@
         "env": "door-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.3672892148741762,
+          "d4rl_normalized_score": -0.36648799051635306,
           "device": "cpu",
-          "eval_return": -67.3004189385693,
-          "evaluated_at": "2026-09-13T23:47:33.088660+00:00",
+          "eval_return": -67.27688632104048,
+          "evaluated_at": "2026-09-14T01:19:54.657725+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9089,16 +9089,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dh_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-human-v1",
       "env_short": "dh",
       "family": "adaptive_multiscale",
-      "final_score": -0.3319968230418958,
+      "final_score": -0.37071095038518015,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dh_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dh_s2_TE1_Tlr0p002__2fdd2bd4",
@@ -9115,10 +9115,10 @@
         "env": "door-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.3319968230418958,
+          "d4rl_normalized_score": -0.3367816079361363,
           "device": "cpu",
-          "eval_return": -66.26385240067405,
-          "evaluated_at": "2026-09-13T23:47:35.696419+00:00",
+          "eval_return": -66.40438546332298,
+          "evaluated_at": "2026-09-14T01:19:57.845442+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9144,16 +9144,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_dh_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "door-human-v1",
       "env_short": "dh",
       "family": "adaptive_multiscale",
-      "final_score": -0.2917103188852163,
+      "final_score": -0.3154184885424789,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_dh_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/dh_s3_TE1_Tlr0p002__cfa1cafd",
@@ -9170,10 +9170,10 @@
         "env": "door-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.2917103188852163,
+          "d4rl_normalized_score": -0.2922577373537858,
           "device": "cpu",
-          "eval_return": -65.08060468156096,
-          "evaluated_at": "2026-09-13T23:47:38.350991+00:00",
+          "eval_return": -65.09668281164184,
+          "evaluated_at": "2026-09-14T01:20:01.132125+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9199,16 +9199,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hc_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:37+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hc",
       "family": "adaptive_multiscale",
-      "final_score": -0.08839492845009737,
+      "final_score": -0.23640498467663099,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hc_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hc_s0_TE1_Tlr0p002__30192588",
@@ -9225,10 +9225,10 @@
         "env": "hammer-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.08839492845009737,
+          "d4rl_normalized_score": -0.10102814998513697,
           "device": "cpu",
-          "eval_return": -286.4089035999699,
-          "evaluated_at": "2026-09-13T23:47:41.599300+00:00",
+          "eval_return": -288.059938236326,
+          "evaluated_at": "2026-09-14T01:20:04.930847+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9254,16 +9254,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hc_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hc",
       "family": "adaptive_multiscale",
-      "final_score": 0.1413241124933005,
+      "final_score": 0.1053199281209953,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hc_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hc_s1_TE1_Tlr0p002__82801140",
@@ -9280,10 +9280,10 @@
         "env": "hammer-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 0.1413241124933005,
+          "d4rl_normalized_score": 0.11977698725680642,
           "device": "cpu",
-          "eval_return": -256.38694188766283,
-          "evaluated_at": "2026-09-13T23:47:44.807957+00:00",
+          "eval_return": -259.2029338324477,
+          "evaluated_at": "2026-09-14T01:20:08.730686+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9309,16 +9309,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hc_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hc",
       "family": "adaptive_multiscale",
-      "final_score": -0.9434735212117051,
+      "final_score": -0.32122766575640405,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hc_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hc_s2_TE1_Tlr0p002__260d9e5c",
@@ -9335,10 +9335,10 @@
         "env": "hammer-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.9434735212117051,
+          "d4rl_normalized_score": -1.176453670082366,
           "device": "cpu",
-          "eval_return": -398.15905137821915,
-          "evaluated_at": "2026-09-13T23:47:48.065484+00:00",
+          "eval_return": -428.6072070051879,
+          "evaluated_at": "2026-09-14T01:20:12.724509+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9364,16 +9364,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hc_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hc",
       "family": "adaptive_multiscale",
-      "final_score": -0.3812129745615532,
+      "final_score": -0.1096217573713173,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hc_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hc_s3_TE1_Tlr0p002__61defd8c",
@@ -9390,10 +9390,10 @@
         "env": "hammer-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.3812129745615532,
+          "d4rl_normalized_score": -0.24899178677109468,
           "device": "cpu",
-          "eval_return": -324.677268873168,
-          "evaluated_at": "2026-09-13T23:47:51.354786+00:00",
+          "eval_return": -307.39729320768106,
+          "evaluated_at": "2026-09-14T01:20:16.604241+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9419,16 +9419,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_he_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-expert-v1",
       "env_short": "he",
       "family": "adaptive_multiscale",
-      "final_score": 15.713889954108662,
+      "final_score": 0.16499265424146015,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_he_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/he_s0_TE1_Tlr0p002__ff33e706",
@@ -9445,10 +9445,10 @@
         "env": "hammer-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 15.713889954108662,
+          "d4rl_normalized_score": 10.071494672303741,
           "device": "cpu",
-          "eval_return": 1778.7903492039916,
-          "evaluated_at": "2026-09-13T23:47:54.799322+00:00",
+          "eval_return": 1041.3861948927777,
+          "evaluated_at": "2026-09-14T01:20:20.596493+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9474,16 +9474,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_he_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-expert-v1",
       "env_short": "he",
       "family": "adaptive_multiscale",
-      "final_score": -0.03673210819845198,
+      "final_score": 0.12574269876728675,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_he_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/he_s1_TE1_Tlr0p002__fc4e77b0",
@@ -9500,10 +9500,10 @@
         "env": "hammer-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.03673210819845198,
+          "d4rl_normalized_score": 0.0003444268612879112,
           "device": "cpu",
-          "eval_return": -279.657094062654,
-          "evaluated_at": "2026-09-13T23:47:58.351701+00:00",
+          "eval_return": -274.81156488310813,
+          "evaluated_at": "2026-09-14T01:20:24.661589+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9529,16 +9529,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_he_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:36+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-expert-v1",
       "env_short": "he",
       "family": "adaptive_multiscale",
-      "final_score": 26.108536451347618,
+      "final_score": 0.0319677532737861,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_he_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/he_s2_TE1_Tlr0p002__5e5b7b48",
@@ -9555,10 +9555,10 @@
         "env": "hammer-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 26.108536451347618,
+          "d4rl_normalized_score": 21.661663588108087,
           "device": "cpu",
-          "eval_return": 3137.2658063166973,
-          "evaluated_at": "2026-09-13T23:48:02.159088+00:00",
+          "eval_return": 2556.1043741106078,
+          "evaluated_at": "2026-09-14T01:20:29.060151+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9584,16 +9584,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_he_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-expert-v1",
       "env_short": "he",
       "family": "adaptive_multiscale",
-      "final_score": 59.504519199145356,
+      "final_score": -0.26000233745512136,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_he_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/he_s3_TE1_Tlr0p002__660fcca5",
@@ -9610,10 +9610,10 @@
         "env": "hammer-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 59.504519199145356,
+          "d4rl_normalized_score": 56.71600108993447,
           "device": "cpu",
-          "eval_return": 7501.783920626135,
-          "evaluated_at": "2026-09-13T23:48:05.890741+00:00",
+          "eval_return": 7137.352728657893,
+          "evaluated_at": "2026-09-14T01:20:33.284666+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9639,16 +9639,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hh_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-human-v1",
       "env_short": "hh",
       "family": "adaptive_multiscale",
-      "final_score": -0.7808948159087109,
+      "final_score": 0.12180555132729697,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hh_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hh_s0_TE1_Tlr0p002__8ddc3cf5",
@@ -9665,10 +9665,10 @@
         "env": "hammer-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.7808948159087109,
+          "d4rl_normalized_score": -0.5221020482099232,
           "device": "cpu",
-          "eval_return": -376.9116543588071,
-          "evaluated_at": "2026-09-13T23:48:09.216006+00:00",
+          "eval_return": -343.0900497962608,
+          "evaluated_at": "2026-09-14T01:20:37.171409+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9694,16 +9694,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hh_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-human-v1",
       "env_short": "hh",
       "family": "adaptive_multiscale",
-      "final_score": 0.04248956173791611,
+      "final_score": -0.16871747471894374,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hh_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hh_s1_TE1_Tlr0p002__e6961222",
@@ -9720,10 +9720,10 @@
         "env": "hammer-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 0.04248956173791611,
+          "d4rl_normalized_score": 0.03916697680966992,
           "device": "cpu",
-          "eval_return": -269.3036208292327,
-          "evaluated_at": "2026-09-13T23:48:12.413308+00:00",
+          "eval_return": -269.7378491678678,
+          "evaluated_at": "2026-09-14T01:20:41.049075+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9749,16 +9749,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hh_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-human-v1",
       "env_short": "hh",
       "family": "adaptive_multiscale",
-      "final_score": -0.21327607281349803,
+      "final_score": -0.447476072437516,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hh_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hh_s2_TE1_Tlr0p002__0dc1d350",
@@ -9775,10 +9775,10 @@
         "env": "hammer-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.21327607281349803,
+          "d4rl_normalized_score": -0.19941075981631265,
           "device": "cpu",
-          "eval_return": -302.72960962098665,
-          "evaluated_at": "2026-09-13T23:48:15.703634+00:00",
+          "eval_return": -300.9175530573637,
+          "evaluated_at": "2026-09-14T01:20:45.025106+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9804,16 +9804,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_hh_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "hammer-human-v1",
       "env_short": "hh",
       "family": "adaptive_multiscale",
-      "final_score": -0.2435193798102347,
+      "final_score": -0.29296278372544565,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_hh_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/hh_s3_TE1_Tlr0p002__f213d6fa",
@@ -9830,10 +9830,10 @@
         "env": "hammer-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.2435193798102347,
+          "d4rl_normalized_score": -0.2585939864089742,
           "device": "cpu",
-          "eval_return": -306.6821048124205,
-          "evaluated_at": "2026-09-13T23:48:18.933575+00:00",
+          "eval_return": -308.6522038528695,
+          "evaluated_at": "2026-09-14T01:20:48.935517+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9859,16 +9859,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pc_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pc",
       "family": "adaptive_multiscale",
-      "final_score": -3.0228813341628555,
+      "final_score": -3.7142298849756776,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pc_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pc_s0_TE1_Tlr0p002__15c7265e",
@@ -9885,10 +9885,10 @@
         "env": "pen-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -3.0228813341628555,
+          "d4rl_normalized_score": 3.019503708495503,
           "device": "cpu",
-          "eval_return": 6.163695665580839,
-          "evaluated_at": "2026-09-13T23:48:19.842872+00:00",
+          "eval_return": 186.2612298268389,
+          "evaluated_at": "2026-09-14T01:20:50.509899+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9914,16 +9914,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pc_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pc",
       "family": "adaptive_multiscale",
-      "final_score": -0.09174168236365529,
+      "final_score": -2.5770114601457905,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pc_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pc_s1_TE1_Tlr0p002__3fbdb201",
@@ -9940,10 +9940,10 @@
         "env": "pen-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.09174168236365529,
+          "d4rl_normalized_score": 6.105039416934511,
           "device": "cpu",
-          "eval_return": 93.52837366019567,
-          "evaluated_at": "2026-09-13T23:48:20.916993+00:00",
+          "eval_return": 278.2277908343274,
+          "evaluated_at": "2026-09-14T01:20:52.268584+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -9969,16 +9969,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pc_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pc",
       "family": "adaptive_multiscale",
-      "final_score": -2.5040474613411394,
+      "final_score": -2.9960129946826233,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pc_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pc_s2_TE1_Tlr0p002__407ffc79",
@@ -9995,10 +9995,10 @@
         "env": "pen-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -2.5040474613411394,
+          "d4rl_normalized_score": -0.2527655895234838,
           "device": "cpu",
-          "eval_return": 21.627903999682204,
-          "evaluated_at": "2026-09-13T23:48:21.925130+00:00",
+          "eval_return": 88.72894290300945,
+          "evaluated_at": "2026-09-14T01:20:53.858249+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10024,16 +10024,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pc_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pc",
       "family": "adaptive_multiscale",
-      "final_score": -2.543411562658384,
+      "final_score": -3.2608840454973884,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pc_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pc_s3_TE1_Tlr0p002__2b2da905",
@@ -10050,10 +10050,10 @@
         "env": "pen-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -2.543411562658384,
+          "d4rl_normalized_score": -2.9240772194199525,
           "device": "cpu",
-          "eval_return": 20.454629285863124,
-          "evaluated_at": "2026-09-13T23:48:22.744720+00:00",
+          "eval_return": 9.108621767535125,
+          "evaluated_at": "2026-09-14T01:20:55.153359+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10079,16 +10079,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pe_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-expert-v1",
       "env_short": "pe",
       "family": "adaptive_multiscale",
-      "final_score": 6.59265350798279,
+      "final_score": 8.835318380897734,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pe_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pe_s0_TE1_Tlr0p002__ee2eef53",
@@ -10105,10 +10105,10 @@
         "env": "pen-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 6.59265350798279,
+          "d4rl_normalized_score": 14.295936464710229,
           "device": "cpu",
-          "eval_return": 292.7614716242961,
-          "evaluated_at": "2026-09-13T23:48:24.015036+00:00",
+          "eval_return": 522.3632357718343,
+          "evaluated_at": "2026-09-14T01:20:56.914697+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10134,16 +10134,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pe_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-expert-v1",
       "env_short": "pe",
       "family": "adaptive_multiscale",
-      "final_score": 6.687301764442783,
+      "final_score": -1.0807032390447082,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pe_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pe_s1_TE1_Tlr0p002__4aa8919d",
@@ -10160,10 +10160,10 @@
         "env": "pen-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 6.687301764442783,
+          "d4rl_normalized_score": 14.269694598047325,
           "device": "cpu",
-          "eval_return": 295.58252944844423,
-          "evaluated_at": "2026-09-13T23:48:25.241407+00:00",
+          "eval_return": 521.581078487184,
+          "evaluated_at": "2026-09-14T01:20:58.815840+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10189,16 +10189,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pe_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-expert-v1",
       "env_short": "pe",
       "family": "adaptive_multiscale",
-      "final_score": -0.10390981780866958,
+      "final_score": -0.8608478109683767,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pe_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pe_s2_TE1_Tlr0p002__0b2617d7",
@@ -10215,10 +10215,10 @@
         "env": "pen-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.10390981780866958,
+          "d4rl_normalized_score": -0.9285608092496886,
           "device": "cpu",
-          "eval_return": 93.1656938287192,
-          "evaluated_at": "2026-09-13T23:48:26.177703+00:00",
+          "eval_return": 68.58639127622519,
+          "evaluated_at": "2026-09-14T01:21:00.368922+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10244,16 +10244,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_pe_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-expert-v1",
       "env_short": "pe",
       "family": "adaptive_multiscale",
-      "final_score": 4.11217261397341,
+      "final_score": -1.8165348834943893,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_pe_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/pe_s3_TE1_Tlr0p002__cd879ab7",
@@ -10270,10 +10270,10 @@
         "env": "pen-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 4.11217261397341,
+          "d4rl_normalized_score": 2.8815748542574537,
           "device": "cpu",
-          "eval_return": 218.82899473125403,
-          "evaluated_at": "2026-09-13T23:48:27.298318+00:00",
+          "eval_return": 182.15016335845118,
+          "evaluated_at": "2026-09-14T01:21:02.078262+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10299,16 +10299,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_ph_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-human-v1",
       "env_short": "ph",
       "family": "adaptive_multiscale",
-      "final_score": -2.734215374929462,
+      "final_score": -2.3139508442814245,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_ph_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/ph_s0_TE1_Tlr0p002__3ff593ab",
@@ -10325,10 +10325,10 @@
         "env": "pen-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -2.734215374929462,
+          "d4rl_normalized_score": 0.12866127169516883,
           "device": "cpu",
-          "eval_return": 14.767587520734146,
-          "evaluated_at": "2026-09-13T23:48:28.393837+00:00",
+          "eval_return": 100.09763865532875,
+          "evaluated_at": "2026-09-14T01:21:03.653016+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10354,16 +10354,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_ph_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-human-v1",
       "env_short": "ph",
       "family": "adaptive_multiscale",
-      "final_score": 0.14888529687988006,
+      "final_score": -2.8531367094188513,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_ph_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/ph_s1_TE1_Tlr0p002__1ca75457",
@@ -10380,10 +10380,10 @@
         "env": "pen-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 0.14888529687988006,
+          "d4rl_normalized_score": -2.2956130560102586,
           "device": "cpu",
-          "eval_return": 100.70042994401155,
-          "evaluated_at": "2026-09-13T23:48:29.387465+00:00",
+          "eval_return": 27.84043798575613,
+          "evaluated_at": "2026-09-14T01:21:05.298377+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10409,16 +10409,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_ph_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-human-v1",
       "env_short": "ph",
       "family": "adaptive_multiscale",
-      "final_score": -3.3156814522563707,
+      "final_score": -0.5955875306903988,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_ph_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/ph_s2_TE1_Tlr0p002__833e3771",
@@ -10435,10 +10435,10 @@
         "env": "pen-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -3.3156814522563707,
+          "d4rl_normalized_score": -2.396364995554876,
           "device": "cpu",
-          "eval_return": -2.563417700827128,
-          "evaluated_at": "2026-09-13T23:48:30.407107+00:00",
+          "eval_return": 24.837455596211697,
+          "evaluated_at": "2026-09-14T01:21:06.950708+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10464,16 +10464,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_ph_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "pen-human-v1",
       "env_short": "ph",
       "family": "adaptive_multiscale",
-      "final_score": -1.892170729094447,
+      "final_score": -3.447902965177202,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_ph_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/ph_s3_TE1_Tlr0p002__4fa86ab7",
@@ -10490,10 +10490,10 @@
         "env": "pen-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -1.892170729094447,
+          "d4rl_normalized_score": -2.8935431227074693,
           "device": "cpu",
-          "eval_return": 39.86532017066426,
-          "evaluated_at": "2026-09-13T23:48:31.594371+00:00",
+          "eval_return": 10.018711986370352,
+          "evaluated_at": "2026-09-14T01:21:08.743972+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10519,16 +10519,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rc_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "rc",
       "family": "adaptive_multiscale",
-      "final_score": -0.2187739788484303,
+      "final_score": -0.16657503349351374,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rc_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rc_s0_TE1_Tlr0p002__6a38ff39",
@@ -10545,10 +10545,10 @@
         "env": "relocate-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.2187739788484303,
+          "d4rl_normalized_score": -0.21766835986267163,
           "device": "cpu",
-          "eval_return": -15.702592138843736,
-          "evaluated_at": "2026-09-13T23:48:34.427336+00:00",
+          "eval_return": -15.6557105359862,
+          "evaluated_at": "2026-09-14T01:21:12.290971+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10574,16 +10574,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rc_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "rc",
       "family": "adaptive_multiscale",
-      "final_score": -0.2486879473630852,
+      "final_score": -0.23012720713934953,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rc_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rc_s1_TE1_Tlr0p002__43c346b5",
@@ -10600,10 +10600,10 @@
         "env": "relocate-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.2486879473630852,
+          "d4rl_normalized_score": -0.23942093891662938,
           "device": "cpu",
-          "eval_return": -16.971035255198636,
-          "evaluated_at": "2026-09-13T23:48:37.072033+00:00",
+          "eval_return": -16.57808595235535,
+          "evaluated_at": "2026-09-14T01:21:15.587801+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10629,16 +10629,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rc_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "rc",
       "family": "adaptive_multiscale",
-      "final_score": -0.2259480320547147,
+      "final_score": -0.24000579809203315,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rc_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rc_s2_TE1_Tlr0p002__5ca990cc",
@@ -10655,10 +10655,10 @@
         "env": "relocate-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.2259480320547147,
+          "d4rl_normalized_score": -0.21254202426201368,
           "device": "cpu",
-          "eval_return": -16.006793783015993,
-          "evaluated_at": "2026-09-13T23:48:39.772117+00:00",
+          "eval_return": -15.43833833738961,
+          "evaluated_at": "2026-09-14T01:21:18.937013+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10684,16 +10684,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rc_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "rc",
       "family": "adaptive_multiscale",
-      "final_score": -0.23213725961063353,
+      "final_score": -0.21830503110670693,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rc_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rc_s3_TE1_Tlr0p002__67d4517a",
@@ -10710,10 +10710,10 @@
         "env": "relocate-cloned-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.23213725961063353,
+          "d4rl_normalized_score": -0.2433295530246269,
           "device": "cpu",
-          "eval_return": -16.26923582861129,
-          "evaluated_at": "2026-09-13T23:48:42.430883+00:00",
+          "eval_return": -16.74382306133667,
+          "evaluated_at": "2026-09-14T01:21:22.252615+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10739,16 +10739,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_re_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-expert-v1",
       "env_short": "re",
       "family": "adaptive_multiscale",
-      "final_score": -0.07780543723364625,
+      "final_score": -0.20466109474205507,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_re_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/re_s0_TE1_Tlr0p002__38db879a",
@@ -10765,10 +10765,10 @@
         "env": "relocate-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.07780543723364625,
+          "d4rl_normalized_score": -0.10341459409523641,
           "device": "cpu",
-          "eval_return": -9.725097840611026,
-          "evaluated_at": "2026-09-13T23:48:45.103467+00:00",
+          "eval_return": -10.811003868787232,
+          "evaluated_at": "2026-09-14T01:21:25.559238+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10794,16 +10794,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_re_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-expert-v1",
       "env_short": "re",
       "family": "adaptive_multiscale",
-      "final_score": -0.16585225205352894,
+      "final_score": -0.18546093124898624,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_re_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/re_s1_TE1_Tlr0p002__774cc9ba",
@@ -10820,10 +10820,10 @@
         "env": "relocate-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.16585225205352894,
+          "d4rl_normalized_score": -0.11048800093192519,
           "device": "cpu",
-          "eval_return": -13.458550194836164,
-          "evaluated_at": "2026-09-13T23:48:47.780874+00:00",
+          "eval_return": -11.110937801216828,
+          "evaluated_at": "2026-09-14T01:21:28.894082+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10849,16 +10849,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_re_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-expert-v1",
       "env_short": "re",
       "family": "adaptive_multiscale",
-      "final_score": -0.19478368137193855,
+      "final_score": -0.2352768904855472,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_re_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/re_s2_TE1_Tlr0p002__1c7fee5f",
@@ -10875,10 +10875,10 @@
         "env": "relocate-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.19478368137193855,
+          "d4rl_normalized_score": -0.130330107806266,
           "device": "cpu",
-          "eval_return": -14.685330665212962,
-          "evaluated_at": "2026-09-13T23:48:50.487360+00:00",
+          "eval_return": -11.95230339489945,
+          "evaluated_at": "2026-09-14T01:21:32.211504+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10904,16 +10904,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_re_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-expert-v1",
       "env_short": "re",
       "family": "adaptive_multiscale",
-      "final_score": 0.022382057420700072,
+      "final_score": -0.11277590061712685,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_re_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/re_s3_TE1_Tlr0p002__9d35e8c8",
@@ -10930,10 +10930,10 @@
         "env": "relocate-expert-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": 0.022382057420700072,
+          "d4rl_normalized_score": 0.07372567788553896,
           "device": "cpu",
-          "eval_return": -5.476843789100227,
-          "evaluated_at": "2026-09-13T23:48:53.230587+00:00",
+          "eval_return": -3.299718346333981,
+          "evaluated_at": "2026-09-14T01:21:35.635186+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -10959,16 +10959,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rh_t1_tlr2e3_s0",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-human-v1",
       "env_short": "rh",
       "family": "adaptive_multiscale",
-      "final_score": -0.12319311732684352,
+      "final_score": -0.22340718734938422,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rh_t1_tlr2e3_s0",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rh_s0_TE1_Tlr0p002__b41a46bd",
@@ -10985,10 +10985,10 @@
         "env": "relocate-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.12319311732684352,
+          "d4rl_normalized_score": -0.16187462118665658,
           "device": "cpu",
-          "eval_return": -11.649673322908871,
-          "evaluated_at": "2026-09-13T23:48:56.377670+00:00",
+          "eval_return": -13.289886565668631,
+          "evaluated_at": "2026-09-14T01:21:39.628700+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -11014,16 +11014,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rh_t1_tlr2e3_s1",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-human-v1",
       "env_short": "rh",
       "family": "adaptive_multiscale",
-      "final_score": -0.24869111571634586,
+      "final_score": -0.2897375180777272,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rh_t1_tlr2e3_s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rh_s1_TE1_Tlr0p002__984145d1",
@@ -11040,10 +11040,10 @@
         "env": "relocate-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.24869111571634586,
+          "d4rl_normalized_score": -0.2391208717187324,
           "device": "cpu",
-          "eval_return": -16.971169602999453,
-          "evaluated_at": "2026-09-13T23:48:59.024218+00:00",
+          "eval_return": -16.565362191834247,
+          "evaluated_at": "2026-09-14T01:21:42.941008+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -11069,16 +11069,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rh_t1_tlr2e3_s2",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-human-v1",
       "env_short": "rh",
       "family": "adaptive_multiscale",
-      "final_score": -0.22809791500698007,
+      "final_score": -0.18969807743086392,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rh_t1_tlr2e3_s2",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rh_s2_TE1_Tlr0p002__d8fa4224",
@@ -11095,10 +11095,10 @@
         "env": "relocate-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.22809791500698007,
+          "d4rl_normalized_score": -0.22023727711761848,
           "device": "cpu",
-          "eval_return": -16.09795534957423,
-          "evaluated_at": "2026-09-13T23:49:01.883046+00:00",
+          "eval_return": -15.764640429621885,
+          "evaluated_at": "2026-09-14T01:21:46.419613+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -11124,16 +11124,16 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_rh_t1_tlr2e3_s3",
-      "collected_at": "2026-09-14T09:00:37+09:00",
+      "collected_at": "2026-09-14T10:22:38+09:00",
       "env": "relocate-human-v1",
       "env_short": "rh",
       "family": "adaptive_multiscale",
-      "final_score": -0.0582694975457732,
+      "final_score": -0.3027247043708543,
       "git": {
         "code_commit": null,
         "code_repo": "AMO-jax-upstream"
       },
-      "last_eval_step": 1000000,
+      "last_eval_step": 800000,
       "legacy_name": "td3amo_adroit_rh_t1_tlr2e3_s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/amo/adaptive_multiscale/rh_s3_TE1_Tlr0p002__cb5334ef",
@@ -11150,10 +11150,10 @@
         "env": "relocate-human-v1",
         "eval_freq": 20000,
         "final_eval_50": {
-          "d4rl_normalized_score": -0.0582694975457732,
+          "d4rl_normalized_score": -0.07974178376210748,
           "device": "cpu",
-          "eval_return": -8.896714665491107,
-          "evaluated_at": "2026-09-13T23:49:05.091358+00:00",
+          "eval_return": -9.807204814271211,
+          "evaluated_at": "2026-09-14T01:21:50.244338+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,

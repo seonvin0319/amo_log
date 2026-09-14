@@ -7,7 +7,7 @@
     "final_eval_50.jsonl"
   ],
   "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_td3amo_adroit_t1_tlr2e3/runs/td3amo_adroit_de_t1_tlr2e3_s0",
-  "collected_at": "2026-09-14T09:00:36+09:00",
+  "collected_at": "2026-09-14T10:22:37+09:00",
   "env": "door-expert-v1",
   "env_short": "de",
   "family": "adaptive_multiscale",
@@ -29,10 +29,10 @@
     "env": "door-expert-v1",
     "eval_freq": 20000,
     "final_eval_50": {
-      "d4rl_normalized_score": -0.05000606081267186,
+      "d4rl_normalized_score": 0.20567135951558177,
       "device": "cpu",
-      "eval_return": -57.981552081911566,
-      "evaluated_at": "2026-09-13T23:47:16.081404+00:00",
+      "eval_return": -50.4720962290148,
+      "evaluated_at": "2026-09-14T01:19:34.982811+00:00",
       "n_episodes": 50
     },
     "last_metrics_step": 1000000,
