@@ -1,0 +1,10 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "pen-cloned-v1",
+  "seed": 1,
+  "dataset_sha256": "082e89fd75210946195e6e65b9edf26364e16b6110f4c5f4f528d91006f114e5",
+  "python": "3.10.18",
+  "device": "cuda:0",
+  "replay_device": "cpu"
+}
