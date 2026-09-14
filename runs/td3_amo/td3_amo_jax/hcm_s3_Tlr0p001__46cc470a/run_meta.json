@@ -8,7 +8,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s3",
-  "collected_at": "2026-09-14T02:35:54+00:00",
+  "collected_at": "2026-09-14T02:46:07+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "td3_amo_jax",
