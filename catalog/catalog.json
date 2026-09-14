@@ -242,7 +242,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr1e-03_t1_s0",
-      "collected_at": "2026-09-13T21:52:24+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -271,7 +271,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T12:49:32.144276+00:00",
+          "evaluated_at": "2026-09-14T01:10:02.590243+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -392,7 +392,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr2e-03_t1_s0",
-      "collected_at": "2026-09-13T22:02:43+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -421,7 +421,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T13:00:00.337144+00:00",
+          "evaluated_at": "2026-09-14T01:10:40.987830+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -825,7 +825,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr3e-04_t1_s1",
-      "collected_at": "2026-09-14T10:07:11+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -880,7 +880,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr1e-03_t1_s1",
-      "collected_at": "2026-09-13T21:31:51+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -909,7 +909,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T10:38:52.845188+00:00",
+          "evaluated_at": "2026-09-14T01:10:21.734495+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -935,7 +935,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_ald_tlr2e-03_t1_s1",
-      "collected_at": "2026-09-13T22:04:37+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -964,7 +964,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T13:03:26.312018+00:00",
+          "evaluated_at": "2026-09-14T01:11:00.145087+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -1370,7 +1370,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr1e-03_t1_s0",
-      "collected_at": "2026-09-13T21:37:32+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -1399,7 +1399,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T12:34:45.479598+00:00",
+          "evaluated_at": "2026-09-14T01:08:27.695976+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -1425,7 +1425,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr2e-03_t1_s0",
-      "collected_at": "2026-09-13T21:48:22+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -1454,7 +1454,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T12:46:09.480835+00:00",
+          "evaluated_at": "2026-09-14T01:09:05.149801+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -2006,7 +2006,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr3e-04_t1_s1",
-      "collected_at": "2026-09-13T21:31:51+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -2035,7 +2035,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T09:45:07.395397+00:00",
+          "evaluated_at": "2026-09-14T01:07:48.733900+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -2061,7 +2061,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr1e-03_t1_s1",
-      "collected_at": "2026-09-13T21:31:51+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -2090,7 +2090,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T09:59:43.637724+00:00",
+          "evaluated_at": "2026-09-14T01:08:46.922462+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -2116,7 +2116,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr2e-03_t1_s1",
-      "collected_at": "2026-09-13T21:31:51+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -2145,7 +2145,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T10:01:06.626830+00:00",
+          "evaluated_at": "2026-09-14T01:09:24.659561+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -2336,7 +2336,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_alp_tlr3e-04_t1_s2",
-      "collected_at": "2026-09-13T23:45:44+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -2365,7 +2365,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T14:43:39.480554+00:00",
+          "evaluated_at": "2026-09-14T01:08:07.949885+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -3528,7 +3528,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_amd_tlr2e-03_t1_s1",
-      "collected_at": "2026-09-13T21:31:51+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -3557,7 +3557,7 @@
           "d4rl_normalized_score": 0.0,
           "device": "cpu",
           "eval_return": 0.0,
-          "evaluated_at": "2026-09-13T09:11:12.176926+00:00",
+          "evaluated_at": "2026-09-14T01:07:12.417376+00:00",
           "n_episodes": 50
         },
         "last_metrics_step": 1000000,
@@ -3858,7 +3858,7 @@
         "final_eval_50.jsonl"
       ],
       "checkpoint_hint": "/home/shchoi/amo/results/amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs/amo_ams_amd_tlr2e-03_t1_s2",
-      "collected_at": "2026-09-14T10:07:12+09:00",
+      "collected_at": "2026-09-14T10:12:24+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
