@@ -1,7 +1,7 @@
 {
   "alias_of": "amu_s0_default__f7c88e0e",
   "canonical_rel_path": "runs/iql/benchmark/amu_s0_default__f7c88e0e",
-  "collected_at": "2026-09-14T10:20:02+09:00",
+  "collected_at": "2026-09-14T10:30:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `amu_s0_default__f7c88e0e`, map stale variant id `amu_s0_pi_base__f7c88e0e` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-v2/seed_0",
