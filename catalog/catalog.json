@@ -13,7 +13,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -94,7 +94,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -174,7 +174,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -255,7 +255,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -335,7 +335,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -416,7 +416,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -496,7 +496,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -576,7 +576,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -656,7 +656,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -737,7 +737,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -817,7 +817,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -897,7 +897,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -983,7 +983,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "behavior_bc_l1_joint",
@@ -1109,7 +1109,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1190,7 +1190,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1270,7 +1270,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1350,7 +1350,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1436,7 +1436,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "behavior_bc_l1_joint",
@@ -1562,7 +1562,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -1643,7 +1643,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -1723,7 +1723,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -1803,7 +1803,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -1883,7 +1883,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -1964,7 +1964,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2044,7 +2044,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2124,7 +2124,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2210,7 +2210,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "behavior_bc_l1_joint",
@@ -2336,7 +2336,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -2419,7 +2419,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -2502,7 +2502,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -2585,7 +2585,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -2665,7 +2665,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -2748,7 +2748,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -2831,7 +2831,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -2914,7 +2914,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -2997,7 +2997,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3080,7 +3080,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3163,7 +3163,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3246,7 +3246,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3326,7 +3326,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3415,7 +3415,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "behavior_bc_l1_joint",
@@ -3541,7 +3541,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3624,7 +3624,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3707,7 +3707,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3790,7 +3790,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3874,7 +3874,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3957,7 +3957,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4041,7 +4041,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4124,7 +4124,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4208,7 +4208,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4291,7 +4291,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4371,7 +4371,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4460,7 +4460,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "behavior_bc_l1_joint",
@@ -4586,7 +4586,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -4669,7 +4669,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -4752,7 +4752,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -4835,7 +4835,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -4915,7 +4915,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -4998,7 +4998,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5081,7 +5081,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5164,7 +5164,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5248,7 +5248,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5332,7 +5332,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5416,7 +5416,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5499,7 +5499,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5579,7 +5579,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -5668,7 +5668,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "behavior_bc_l1_joint",
@@ -5794,7 +5794,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5877,7 +5877,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5960,7 +5960,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6044,7 +6044,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6128,7 +6128,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6212,7 +6212,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6295,7 +6295,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6375,7 +6375,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6458,7 +6458,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -6541,7 +6541,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -6624,7 +6624,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -6708,7 +6708,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -6792,7 +6792,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -6876,7 +6876,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -6959,7 +6959,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -7039,7 +7039,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -7122,7 +7122,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7205,7 +7205,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7288,7 +7288,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7372,7 +7372,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7456,7 +7456,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7540,7 +7540,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7623,7 +7623,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7703,7 +7703,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -7786,7 +7786,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -7869,7 +7869,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -7952,7 +7952,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8035,7 +8035,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8115,7 +8115,7 @@
       "classification_reasons": [
         "initial_scale_not_1"
       ],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8196,7 +8196,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s1",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:35+00:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -8275,7 +8275,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s2",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:35+00:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -8354,7 +8354,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s3",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:35+00:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -8433,7 +8433,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-div_Te1_Tb1_1em3_s0-antmaze-large-diverse-v2-d3ec830d",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -8512,7 +8512,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_large-div_Te1_Tb1_BCq_1em3_s0-antmaze-large-diverse-v2-f1b9ca2e",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -8592,7 +8592,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_large-div_Te1_Tb1_1em3_s1-antmaze-large-diverse-v2-363a73f8",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -8673,7 +8673,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-div_Te1_Tb1_s0-antmaze-large-diverse-v2-e7595ffa",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -8751,7 +8751,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_large-play_Te1_Tb1_BCq_1em3_s0-antmaze-large-play-v2-41af8157",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -8831,7 +8831,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-play_Te1_Tb1_1em3_s0-antmaze-large-play-v2-da0b4ffa",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -8910,7 +8910,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_large-play_Te1_Tb1_1em3_s1-antmaze-large-play-v2-6e0e2162",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -8991,7 +8991,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-play_Te1_Tb1_s0-antmaze-large-play-v2-03774c0e",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -9069,7 +9069,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_med-div_Te1_Tb1_BCq_1em3_s0-antmaze-medium-diverse-v2-a96c2874",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -9149,7 +9149,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-div_Te1_Tb1_1em3_s0-antmaze-medium-diverse-v2-c136d997",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -9228,7 +9228,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_med-div_Te1_Tb1_1em3_s1-antmaze-medium-diverse-v2-d32e0ec2",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -9309,7 +9309,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-div_Te1_Tb1_s0-antmaze-medium-diverse-v2-918083c0",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -9387,7 +9387,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-play_Te1_Tb1_1em3_s0-antmaze-medium-play-v2-3655f7a4",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -9466,7 +9466,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_med-play_Te1_Tb1_BCq_1em3_s0-antmaze-medium-play-v2-79cedde3",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -9546,7 +9546,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_med-play_Te1_Tb1_1em3_s1-antmaze-medium-play-v2-c198b33f",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -9627,7 +9627,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te1_Tb1_s0-antmaze-medium-play-v2-4780db25",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -9705,7 +9705,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_umaze-div_Te1_Tb1_BCq_1em3_s0-antmaze-umaze-diverse-v2-90f71451",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -9785,7 +9785,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze-div_Te1_Tb1_1em3_s0-antmaze-umaze-diverse-v2-9a179fb0",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -9864,7 +9864,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_umaze-div_Te1_Tb1_1em3_s1-antmaze-umaze-diverse-v2-009e3452",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -9945,7 +9945,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze-div_Te1_Tb1_s0-antmaze-umaze-diverse-v2-c6a40782",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -10023,7 +10023,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_umaze_Te1_Tb1_BCq_1em3_s0-antmaze-umaze-v2-435aa2a2",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -10103,7 +10103,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze_Te1_Tb1_1em3_s0-antmaze-umaze-v2-7f3e7a0e",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -10182,7 +10182,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_umaze_Te1_Tb1_1em3_s1-antmaze-umaze-v2-8dca75a3",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -10263,7 +10263,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze_Te1_Tb1_s0-antmaze-umaze-v2-9c6fdf8b",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -10341,7 +10341,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-expert-v2-e19be219",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10422,7 +10422,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s1-halfcheetah-medium-expert-v2-ba58d9c4",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10504,7 +10504,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s2-halfcheetah-medium-expert-v2-e95efb67",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10586,7 +10586,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s3-halfcheetah-medium-expert-v2-bc9427d0",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10668,7 +10668,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s1-halfcheetah-medium-expert-v2-a7a01a9b",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10746,7 +10746,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s2-halfcheetah-medium-expert-v2-acae0113",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10824,7 +10824,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s3-halfcheetah-medium-expert-v2-749e57ed",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10902,7 +10902,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p002_s0-halfcheetah-medium-expert-v2-e7305f91",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -10984,7 +10984,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-expert-v2-3ba6d257",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -11066,7 +11066,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-mr_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-replay-v2-7647448a",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -11147,7 +11147,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s1-halfcheetah-medium-replay-v2-2479d7b2",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -11225,7 +11225,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s2-halfcheetah-medium-replay-v2-d317dbc3",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -11303,7 +11303,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s3-halfcheetah-medium-replay-v2-3f9ec528",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -11381,7 +11381,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-mr_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-replay-v2-4db153d5",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -11463,7 +11463,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-v2-7c2d557e",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -11544,7 +11544,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s1-halfcheetah-medium-v2-9cb24bd9",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -11622,7 +11622,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s2-halfcheetah-medium-v2-7bc0dfef",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -11700,7 +11700,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s3-halfcheetah-medium-v2-7693ae87",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -11778,7 +11778,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-m_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-v2-4ddad439",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -11860,7 +11860,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s0-hopper-medium-expert-v2-4079d96d",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -11941,7 +11941,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s1-hopper-medium-expert-v2-f5736030",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -12023,7 +12023,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s2-hopper-medium-expert-v2-5afd4fd1",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -12105,7 +12105,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s3-hopper-medium-expert-v2-b568fe0e",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -12187,7 +12187,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s1-hopper-medium-expert-v2-0b611349",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -12268,7 +12268,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s2-hopper-medium-expert-v2-21ee11d6",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -12349,7 +12349,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s3-hopper-medium-expert-v2-ed518fc0",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -12430,7 +12430,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p0003_s0-hopper-medium-replay-v2-6a3b732e",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -12511,7 +12511,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s1-hopper-medium-replay-v2-f080c915",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -12589,7 +12589,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s2-hopper-medium-replay-v2-b42f2154",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -12667,7 +12667,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s3-hopper-medium-replay-v2-d6f53a73",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -12748,7 +12748,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -12830,7 +12830,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-m_Te1_Tb1_Tlr0p0003_s0-hopper-medium-v2-5b41f8ad",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -12911,7 +12911,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s1-hopper-medium-v2-85749f1c",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -12989,7 +12989,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s2-hopper-medium-v2-3647d003",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -13067,7 +13067,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s3-hopper-medium-v2-a821f10d",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -13145,7 +13145,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-m_Te1_Tb1_Tlr0p002_s1-hopper-medium-v2-c8cd479a",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -13227,7 +13227,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-me_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-expert-v2-e1c0c7c2",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -13308,7 +13308,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s1-walker2d-medium-expert-v2-e0307c97",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -13389,7 +13389,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s2-walker2d-medium-expert-v2-47a0d898",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -13470,7 +13470,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s3-walker2d-medium-expert-v2-4c07cc8c",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -13551,7 +13551,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-mr_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-replay-v2-1070611e",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -13632,7 +13632,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s1-walker2d-medium-replay-v2-f0372dc0",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -13713,7 +13713,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s2-walker2d-medium-replay-v2-0700d3fe",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -13794,7 +13794,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s3-walker2d-medium-replay-v2-35b7e2b7",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -13875,7 +13875,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-v2-06068a10",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -13956,7 +13956,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s1-walker2d-medium-v2-4c3d21b0",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -14038,7 +14038,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s2-walker2d-medium-v2-fc36e71c",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -14120,7 +14120,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s3-walker2d-medium-v2-6451a151",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:21+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -14202,7 +14202,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s1-walker2d-medium-v2-37cd42ba",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -14283,7 +14283,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s2-walker2d-medium-v2-2a2bf0ad",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -14364,7 +14364,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s3-walker2d-medium-v2-61585211",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T13:47:20+00:00",
+      "collected_at": "2026-09-14T13:57:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
