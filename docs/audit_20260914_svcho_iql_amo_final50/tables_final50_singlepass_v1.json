@@ -1,0 +1,629 @@
+{
+  "created_at": "2026-09-14T09:55:56.985511+09:00",
+  "protocol": "final50_singlepass_v1",
+  "base_lr": 0.001,
+  "rho_lr": 0.002,
+  "beta_initial": 1.0,
+  "n_manifest": 60,
+  "n_final50_done": 60,
+  "incomplete": [],
+  "locomotion_table": [
+    {
+      "env": "halfcheetah-medium-v2",
+      "s0": 48.23085584611723,
+      "s1": 48.25944165553433,
+      "s2": 48.40410086935499,
+      "s3": 48.29689894305037,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 48.29782432851423,
+      "std": 0.07583659338994135,
+      "mean_std_str": "48.30\u00b10.08"
+    },
+    {
+      "env": "halfcheetah-medium-replay-v2",
+      "s0": 43.905097167447714,
+      "s1": 44.42485999042532,
+      "s2": 43.47191983640984,
+      "s3": 44.000933227736574,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 43.950702555504854,
+      "std": 0.3910077309751745,
+      "mean_std_str": "43.95\u00b10.39"
+    },
+    {
+      "env": "halfcheetah-medium-expert-v2",
+      "s0": 92.36538141643969,
+      "s1": 91.98644540656016,
+      "s2": 91.01174290369957,
+      "s3": 93.52828449315194,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 92.22296355496285,
+      "std": 1.0403752367155754,
+      "mean_std_str": "92.22\u00b11.04"
+    },
+    {
+      "env": "hopper-medium-v2",
+      "s0": 58.76319301834004,
+      "s1": 56.004476891326824,
+      "s2": 59.98103047007828,
+      "s3": 57.84818561234918,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 58.14922149802358,
+      "std": 1.6756130390873265,
+      "mean_std_str": "58.15\u00b11.68"
+    },
+    {
+      "env": "hopper-medium-replay-v2",
+      "s0": 59.67688387523431,
+      "s1": 85.31412519555057,
+      "s2": 88.93668321330108,
+      "s3": 91.13545384618806,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 81.26578653256851,
+      "std": 14.591353063213514,
+      "mean_std_str": "81.27\u00b114.59"
+    },
+    {
+      "env": "hopper-medium-expert-v2",
+      "s0": 111.96266253880603,
+      "s1": 110.33185640435318,
+      "s2": 111.88165700610429,
+      "s3": 2.444797539325387,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 84.15524337214723,
+      "std": 54.47879893973407,
+      "mean_std_str": "84.16\u00b154.48"
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "s0": 84.91791114307627,
+      "s1": 85.17991191086509,
+      "s2": 80.07459032452293,
+      "s3": 75.4089806911052,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 81.39534851739236,
+      "std": 4.630060096324046,
+      "mean_std_str": "81.40\u00b14.63"
+    },
+    {
+      "env": "walker2d-medium-replay-v2",
+      "s0": 71.07951872627328,
+      "s1": 75.47534671784506,
+      "s2": 67.20057134857588,
+      "s3": 69.78079933248497,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 70.88405903129478,
+      "std": 3.459450369870386,
+      "mean_std_str": "70.88\u00b13.46"
+    },
+    {
+      "env": "walker2d-medium-expert-v2",
+      "s0": 111.56195291814885,
+      "s1": 111.4004567860609,
+      "s2": 111.96802894633716,
+      "s3": 110.57932507085452,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 111.37744093035035,
+      "std": 0.5831973745544003,
+      "mean_std_str": "111.38\u00b10.58"
+    }
+  ],
+  "antmaze_table": [
+    {
+      "env": "antmaze-umaze-v2",
+      "s0": 84.0,
+      "s1": 16.0,
+      "s2": 90.0,
+      "s3": 82.0,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 68.0,
+      "std": 34.83293460696835,
+      "mean_std_str": "68.00\u00b134.83",
+      "median": 83.0,
+      "paper_value": 83.0
+    },
+    {
+      "env": "antmaze-umaze-diverse-v2",
+      "s0": 48.0,
+      "s1": 48.0,
+      "s2": 48.0,
+      "s3": 46.0,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 47.5,
+      "std": 1.0,
+      "mean_std_str": "47.50\u00b11.00",
+      "median": 48.0,
+      "paper_value": 48.0
+    },
+    {
+      "env": "antmaze-medium-play-v2",
+      "s0": 57.99999999999999,
+      "s1": 64.0,
+      "s2": 74.0,
+      "s3": 52.0,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 62.0,
+      "std": 9.38083151964686,
+      "mean_std_str": "62.00\u00b19.38",
+      "median": 61.0,
+      "paper_value": 61.0
+    },
+    {
+      "env": "antmaze-medium-diverse-v2",
+      "s0": 50.0,
+      "s1": 64.0,
+      "s2": 74.0,
+      "s3": 66.0,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 63.5,
+      "std": 9.983319421247959,
+      "mean_std_str": "63.50\u00b19.98",
+      "median": 65.0,
+      "paper_value": 65.0
+    },
+    {
+      "env": "antmaze-large-play-v2",
+      "s0": 24.0,
+      "s1": 24.0,
+      "s2": 36.0,
+      "s3": 36.0,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 30.0,
+      "std": 6.928203230275509,
+      "mean_std_str": "30.00\u00b16.93",
+      "median": 30.0,
+      "paper_value": 30.0
+    },
+    {
+      "env": "antmaze-large-diverse-v2",
+      "s0": 18.0,
+      "s1": 26.0,
+      "s2": 10.0,
+      "s3": 18.0,
+      "n": 4,
+      "missing_seeds": [],
+      "mean": 18.0,
+      "std": 6.531972647421808,
+      "mean_std_str": "18.00\u00b16.53",
+      "median": 18.0,
+      "paper_value": 18.0
+    }
+  ],
+  "before_after": [
+    {
+      "env": "antmaze-large-diverse-v2",
+      "seed": 0,
+      "legacy_ns": 22.0,
+      "final50_ns": 18.0,
+      "delta": -4.0
+    },
+    {
+      "env": "antmaze-large-diverse-v2",
+      "seed": 1,
+      "legacy_ns": 28.000000000000004,
+      "final50_ns": 26.0,
+      "delta": -2.0000000000000036
+    },
+    {
+      "env": "antmaze-large-diverse-v2",
+      "seed": 2,
+      "legacy_ns": 14.000000000000002,
+      "final50_ns": 10.0,
+      "delta": -4.000000000000002
+    },
+    {
+      "env": "antmaze-large-diverse-v2",
+      "seed": 3,
+      "legacy_ns": 18.0,
+      "final50_ns": 18.0,
+      "delta": 0.0
+    },
+    {
+      "env": "antmaze-large-play-v2",
+      "seed": 0,
+      "legacy_ns": 22.0,
+      "final50_ns": 24.0,
+      "delta": 2.0
+    },
+    {
+      "env": "antmaze-large-play-v2",
+      "seed": 1,
+      "legacy_ns": 48.0,
+      "final50_ns": 24.0,
+      "delta": -24.0
+    },
+    {
+      "env": "antmaze-large-play-v2",
+      "seed": 2,
+      "legacy_ns": 32.0,
+      "final50_ns": 36.0,
+      "delta": 4.0
+    },
+    {
+      "env": "antmaze-large-play-v2",
+      "seed": 3,
+      "legacy_ns": 20.0,
+      "final50_ns": 36.0,
+      "delta": 16.0
+    },
+    {
+      "env": "antmaze-medium-diverse-v2",
+      "seed": 0,
+      "legacy_ns": 70.0,
+      "final50_ns": 50.0,
+      "delta": -20.0
+    },
+    {
+      "env": "antmaze-medium-diverse-v2",
+      "seed": 1,
+      "legacy_ns": 70.0,
+      "final50_ns": 64.0,
+      "delta": -6.0
+    },
+    {
+      "env": "antmaze-medium-diverse-v2",
+      "seed": 2,
+      "legacy_ns": 78.0,
+      "final50_ns": 74.0,
+      "delta": -4.0
+    },
+    {
+      "env": "antmaze-medium-diverse-v2",
+      "seed": 3,
+      "legacy_ns": 78.0,
+      "final50_ns": 66.0,
+      "delta": -12.0
+    },
+    {
+      "env": "antmaze-medium-play-v2",
+      "seed": 0,
+      "legacy_ns": 54.0,
+      "final50_ns": 57.99999999999999,
+      "delta": 3.999999999999993
+    },
+    {
+      "env": "antmaze-medium-play-v2",
+      "seed": 1,
+      "legacy_ns": 68.0,
+      "final50_ns": 64.0,
+      "delta": -4.0
+    },
+    {
+      "env": "antmaze-medium-play-v2",
+      "seed": 2,
+      "legacy_ns": 76.0,
+      "final50_ns": 74.0,
+      "delta": -2.0
+    },
+    {
+      "env": "antmaze-medium-play-v2",
+      "seed": 3,
+      "legacy_ns": 57.99999999999999,
+      "final50_ns": 52.0,
+      "delta": -5.999999999999993
+    },
+    {
+      "env": "antmaze-umaze-diverse-v2",
+      "seed": 0,
+      "legacy_ns": 56.00000000000001,
+      "final50_ns": 48.0,
+      "delta": -8.000000000000007
+    },
+    {
+      "env": "antmaze-umaze-diverse-v2",
+      "seed": 1,
+      "legacy_ns": 52.0,
+      "final50_ns": 48.0,
+      "delta": -4.0
+    },
+    {
+      "env": "antmaze-umaze-diverse-v2",
+      "seed": 2,
+      "legacy_ns": 36.0,
+      "final50_ns": 48.0,
+      "delta": 12.0
+    },
+    {
+      "env": "antmaze-umaze-diverse-v2",
+      "seed": 3,
+      "legacy_ns": 57.99999999999999,
+      "final50_ns": 46.0,
+      "delta": -11.999999999999993
+    },
+    {
+      "env": "antmaze-umaze-v2",
+      "seed": 0,
+      "legacy_ns": 82.0,
+      "final50_ns": 84.0,
+      "delta": 2.0
+    },
+    {
+      "env": "antmaze-umaze-v2",
+      "seed": 1,
+      "legacy_ns": 18.0,
+      "final50_ns": 16.0,
+      "delta": -2.0
+    },
+    {
+      "env": "antmaze-umaze-v2",
+      "seed": 2,
+      "legacy_ns": 82.0,
+      "final50_ns": 90.0,
+      "delta": 8.0
+    },
+    {
+      "env": "antmaze-umaze-v2",
+      "seed": 3,
+      "legacy_ns": 90.0,
+      "final50_ns": 82.0,
+      "delta": -8.0
+    },
+    {
+      "env": "halfcheetah-medium-expert-v2",
+      "seed": 0,
+      "legacy_ns": 91.79044332595963,
+      "final50_ns": 92.36538141643969,
+      "delta": 0.5749380904800603
+    },
+    {
+      "env": "halfcheetah-medium-expert-v2",
+      "seed": 1,
+      "legacy_ns": 87.15024089065273,
+      "final50_ns": 91.98644540656016,
+      "delta": 4.83620451590744
+    },
+    {
+      "env": "halfcheetah-medium-expert-v2",
+      "seed": 2,
+      "legacy_ns": 90.25468065986551,
+      "final50_ns": 91.01174290369957,
+      "delta": 0.7570622438340564
+    },
+    {
+      "env": "halfcheetah-medium-expert-v2",
+      "seed": 3,
+      "legacy_ns": 94.02215466726294,
+      "final50_ns": 93.52828449315194,
+      "delta": -0.4938701741109952
+    },
+    {
+      "env": "halfcheetah-medium-replay-v2",
+      "seed": 0,
+      "legacy_ns": 44.92455392270037,
+      "final50_ns": 43.905097167447714,
+      "delta": -1.019456755252655
+    },
+    {
+      "env": "halfcheetah-medium-replay-v2",
+      "seed": 1,
+      "legacy_ns": 44.569227226803825,
+      "final50_ns": 44.42485999042532,
+      "delta": -0.1443672363785069
+    },
+    {
+      "env": "halfcheetah-medium-replay-v2",
+      "seed": 2,
+      "legacy_ns": 44.859215738904254,
+      "final50_ns": 43.47191983640984,
+      "delta": -1.3872959024944151
+    },
+    {
+      "env": "halfcheetah-medium-replay-v2",
+      "seed": 3,
+      "legacy_ns": 40.876422394626324,
+      "final50_ns": 44.000933227736574,
+      "delta": 3.12451083311025
+    },
+    {
+      "env": "halfcheetah-medium-v2",
+      "seed": 0,
+      "legacy_ns": 47.96313397420865,
+      "final50_ns": 48.23085584611723,
+      "delta": 0.2677218719085772
+    },
+    {
+      "env": "halfcheetah-medium-v2",
+      "seed": 1,
+      "legacy_ns": 48.674333357877146,
+      "final50_ns": 48.25944165553433,
+      "delta": -0.41489170234281403
+    },
+    {
+      "env": "halfcheetah-medium-v2",
+      "seed": 2,
+      "legacy_ns": 48.240295147847796,
+      "final50_ns": 48.40410086935499,
+      "delta": 0.1638057215071953
+    },
+    {
+      "env": "halfcheetah-medium-v2",
+      "seed": 3,
+      "legacy_ns": 48.260438952377406,
+      "final50_ns": 48.29689894305037,
+      "delta": 0.03645999067296657
+    },
+    {
+      "env": "hopper-medium-expert-v2",
+      "seed": 0,
+      "legacy_ns": 111.91525415651063,
+      "final50_ns": 111.96266253880603,
+      "delta": 0.04740838229540145
+    },
+    {
+      "env": "hopper-medium-expert-v2",
+      "seed": 1,
+      "legacy_ns": 106.27024219206672,
+      "final50_ns": 110.33185640435318,
+      "delta": 4.061614212286457
+    },
+    {
+      "env": "hopper-medium-expert-v2",
+      "seed": 2,
+      "legacy_ns": 110.5647829516768,
+      "final50_ns": 111.88165700610429,
+      "delta": 1.3168740544274868
+    },
+    {
+      "env": "hopper-medium-expert-v2",
+      "seed": 3,
+      "legacy_ns": 2.4444499876437042,
+      "final50_ns": 2.444797539325387,
+      "delta": 0.00034755168168265627
+    },
+    {
+      "env": "hopper-medium-replay-v2",
+      "seed": 0,
+      "legacy_ns": 59.538295336797184,
+      "final50_ns": 59.67688387523431,
+      "delta": 0.13858853843712637
+    },
+    {
+      "env": "hopper-medium-replay-v2",
+      "seed": 1,
+      "legacy_ns": 85.28658493394077,
+      "final50_ns": 85.31412519555057,
+      "delta": 0.02754026160980061
+    },
+    {
+      "env": "hopper-medium-replay-v2",
+      "seed": 2,
+      "legacy_ns": 78.74916228640124,
+      "final50_ns": 88.93668321330108,
+      "delta": 10.187520926899836
+    },
+    {
+      "env": "hopper-medium-replay-v2",
+      "seed": 3,
+      "legacy_ns": 90.73603199553604,
+      "final50_ns": 91.13545384618806,
+      "delta": 0.3994218506520184
+    },
+    {
+      "env": "hopper-medium-v2",
+      "seed": 0,
+      "legacy_ns": 58.80108627123728,
+      "final50_ns": 58.76319301834004,
+      "delta": -0.037893252897241325
+    },
+    {
+      "env": "hopper-medium-v2",
+      "seed": 1,
+      "legacy_ns": 53.78277314148473,
+      "final50_ns": 56.004476891326824,
+      "delta": 2.221703749842092
+    },
+    {
+      "env": "hopper-medium-v2",
+      "seed": 2,
+      "legacy_ns": 56.78156049181825,
+      "final50_ns": 59.98103047007828,
+      "delta": 3.1994699782600335
+    },
+    {
+      "env": "hopper-medium-v2",
+      "seed": 3,
+      "legacy_ns": 58.8142252197678,
+      "final50_ns": 57.84818561234918,
+      "delta": -0.9660396074186224
+    },
+    {
+      "env": "walker2d-medium-expert-v2",
+      "seed": 0,
+      "legacy_ns": 111.61037122756157,
+      "final50_ns": 111.56195291814885,
+      "delta": -0.048418309412724625
+    },
+    {
+      "env": "walker2d-medium-expert-v2",
+      "seed": 1,
+      "legacy_ns": 111.09176599300157,
+      "final50_ns": 111.4004567860609,
+      "delta": 0.308690793059327
+    },
+    {
+      "env": "walker2d-medium-expert-v2",
+      "seed": 2,
+      "legacy_ns": 112.06366150274982,
+      "final50_ns": 111.96802894633716,
+      "delta": -0.09563255641266721
+    },
+    {
+      "env": "walker2d-medium-expert-v2",
+      "seed": 3,
+      "legacy_ns": 111.70111655395833,
+      "final50_ns": 110.57932507085452,
+      "delta": -1.1217914831038058
+    },
+    {
+      "env": "walker2d-medium-replay-v2",
+      "seed": 0,
+      "legacy_ns": 72.11035850926336,
+      "final50_ns": 71.07951872627328,
+      "delta": -1.0308397829900855
+    },
+    {
+      "env": "walker2d-medium-replay-v2",
+      "seed": 1,
+      "legacy_ns": 60.16144751254574,
+      "final50_ns": 75.47534671784506,
+      "delta": 15.313899205299315
+    },
+    {
+      "env": "walker2d-medium-replay-v2",
+      "seed": 2,
+      "legacy_ns": 75.8984782780976,
+      "final50_ns": 67.20057134857588,
+      "delta": -8.697906929521722
+    },
+    {
+      "env": "walker2d-medium-replay-v2",
+      "seed": 3,
+      "legacy_ns": 64.17959113963067,
+      "final50_ns": 69.78079933248497,
+      "delta": 5.601208192854301
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "seed": 0,
+      "legacy_ns": 86.3111283526894,
+      "final50_ns": 84.91791114307627,
+      "delta": -1.3932172096131268
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "seed": 1,
+      "legacy_ns": 81.29565008962611,
+      "final50_ns": 85.17991191086509,
+      "delta": 3.8842618212389795
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "seed": 2,
+      "legacy_ns": 78.11984078707383,
+      "final50_ns": 80.07459032452293,
+      "delta": 1.9547495374491035
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "seed": 3,
+      "legacy_ns": 75.52976887789839,
+      "final50_ns": 75.4089806911052,
+      "delta": -0.1207881867931917
+    }
+  ],
+  "note": "Do not pool with ext_csh base_lr=3e-4. AntMaze paper value = seed median."
+}
