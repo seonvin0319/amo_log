@@ -4,14 +4,16 @@
     "config.yaml",
     "eval.jsonl",
     "metrics.jsonl",
-    "source_run_meta.json"
+    "source_run_meta.json",
+    "eval_final50_v1.jsonl",
+    "FINAL50_SINGLEPASS_V1_DONE.json"
   ],
   "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s0/run/checkpoint.npz",
-  "collected_at": "2026-09-13T19:29:26+09:00",
+  "collected_at": "2026-09-14T09:56:59+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "lr1e3_beta_sweep",
-  "final_score": 82.0,
+  "final_score": 84.0,
   "git": {
     "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
     "code_path": "/home/svcho/amo_iql_sweep",
@@ -21,6 +23,7 @@
   "last_eval_step": 1000000,
   "legacy_name": "b1_amu_s0",
   "run_id": "amu_s0_iql_amo_lr1e3_beta1__6ae76e26",
+  "score_protocol": "final50_singlepass_v1",
   "seed": 0,
   "settings": {
     "actor_lr": 0.001,
