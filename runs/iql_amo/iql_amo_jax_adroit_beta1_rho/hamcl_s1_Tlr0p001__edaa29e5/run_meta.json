@@ -4,10 +4,11 @@
     "config.yaml",
     "metrics.jsonl",
     "eval.jsonl",
+    "eval_final50_v1.jsonl",
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho1em3_s1",
-  "collected_at": "2026-09-14T01:03:35+00:00",
+  "collected_at": "2026-09-14T01:13:51+00:00",
   "env": "hammer-cloned-v1",
   "env_short": "hamcl",
   "family": "iql_amo_jax_adroit_beta1_rho",
