@@ -13,12 +13,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -27,7 +25,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb10_ammd_s0-antmaze-medium-diverse-v2-fc864b46",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammd_s0_te1_tb10__fc864b46",
@@ -87,12 +84,10 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -101,7 +96,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb1_ammd_s0-antmaze-medium-diverse-v2-e9e1ddec",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammd_s0_te1_tb1__e9e1ddec",
@@ -162,12 +156,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -176,7 +168,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb5_ammd_s0-antmaze-medium-diverse-v2-729b8247",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammd_s0_te1_tb5__729b8247",
@@ -237,12 +228,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -251,7 +240,6 @@
       "last_eval_step": 865000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb1_ammd_s0-antmaze-medium-diverse-v2-aad4f10d",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammd_s0_te5_tb1__aad4f10d",
@@ -312,12 +300,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -326,7 +312,6 @@
       "last_eval_step": 565000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb5_ammd_s0-antmaze-medium-diverse-v2-9aaf759a",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammd_s0_te5_tb5__9aaf759a",
@@ -387,12 +372,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 24.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -401,7 +384,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb10_ammp_s0-antmaze-medium-play-v2-4aecd0cc",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te10_tb10__4aecd0cc",
@@ -462,12 +444,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -476,7 +456,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb1_ammp_s0-antmaze-medium-play-v2-ab31b013",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te10_tb1__ab31b013",
@@ -537,12 +516,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 7.000000000000001,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -551,7 +528,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb5_ammp_s0-antmaze-medium-play-v2-09a6ef01",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te10_tb5__09a6ef01",
@@ -612,12 +588,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -626,7 +600,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb10_ammp_s0-antmaze-medium-play-v2-b596daab",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb10__b596daab",
@@ -686,12 +659,10 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -700,7 +671,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb1_ammp_s0-antmaze-medium-play-v2-441c3bd8",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb1__441c3bd8",
@@ -761,12 +731,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -775,7 +743,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb5_ammp_s0-antmaze-medium-play-v2-0cf2381f",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te1_tb5__0cf2381f",
@@ -836,12 +803,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 12.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -850,7 +815,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb10_ammp_s0-antmaze-medium-play-v2-a466b2f5",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te5_tb10__a466b2f5",
@@ -911,12 +875,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -925,7 +887,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb1_ammp_s0-antmaze-medium-play-v2-1ca51c91",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te5_tb1__1ca51c91",
@@ -986,12 +947,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 2.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1000,7 +959,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb5_ammp_s0-antmaze-medium-play-v2-5544f59a",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/ammp_s0_te5_tb5__5544f59a",
@@ -1061,12 +1019,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 76.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1075,7 +1031,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb10_amud_s0-antmaze-umaze-diverse-v2-4d06b18e",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te10_tb10__4d06b18e",
@@ -1136,12 +1091,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 47.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1150,7 +1103,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb1_amud_s0-antmaze-umaze-diverse-v2-532582c3",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te10_tb1__532582c3",
@@ -1211,12 +1163,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 86.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1225,7 +1175,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb5_amud_s0-antmaze-umaze-diverse-v2-3b6bb766",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te10_tb5__3b6bb766",
@@ -1286,12 +1235,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 89.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1300,7 +1247,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb10_amud_s0-antmaze-umaze-diverse-v2-623c6050",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te1_tb10__623c6050",
@@ -1360,12 +1306,10 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 47.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1374,7 +1318,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb1_amud_s0-antmaze-umaze-diverse-v2-81f1616b",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te1_tb1__81f1616b",
@@ -1435,12 +1378,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 68.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1449,7 +1390,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb5_amud_s0-antmaze-umaze-diverse-v2-f16ee0e4",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te1_tb5__f16ee0e4",
@@ -1510,12 +1450,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 84.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1524,7 +1462,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb10_amud_s0-antmaze-umaze-diverse-v2-9dc648a0",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te5_tb10__9dc648a0",
@@ -1585,12 +1522,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 44.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1599,7 +1534,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb1_amud_s0-antmaze-umaze-diverse-v2-945b7ce2",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te5_tb1__945b7ce2",
@@ -1660,12 +1594,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 92.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1674,7 +1606,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb5_amud_s0-antmaze-umaze-diverse-v2-887d9381",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amud_s0_te5_tb5__887d9381",
@@ -1735,12 +1666,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 86.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1749,7 +1678,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb10_amu_s0-antmaze-umaze-v2-d9fcd8e1",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te10_tb10__d9fcd8e1",
@@ -1810,12 +1738,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 65.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1824,7 +1750,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb1_amu_s0-antmaze-umaze-v2-378d41ca",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te10_tb1__378d41ca",
@@ -1885,12 +1810,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 88.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1899,7 +1822,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te10_tb5_amu_s0-antmaze-umaze-v2-56e7aad2",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te10_tb5__56e7aad2",
@@ -1960,12 +1882,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 94.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -1974,7 +1894,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb10_amu_s0-antmaze-umaze-v2-2c7add6b",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te1_tb10__2c7add6b",
@@ -2034,12 +1953,10 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 93.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -2048,7 +1965,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb1_amu_s0-antmaze-umaze-v2-27fc6fa1",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te1_tb1__27fc6fa1",
@@ -2109,12 +2025,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 96.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -2123,7 +2037,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te1_tb5_amu_s0-antmaze-umaze-v2-590131b8",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te1_tb5__590131b8",
@@ -2184,12 +2097,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 83.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -2198,7 +2109,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb10_amu_s0-antmaze-umaze-v2-09524cf3",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te5_tb10__09524cf3",
@@ -2259,12 +2169,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 83.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -2273,7 +2181,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb1_amu_s0-antmaze-umaze-v2-e97c64ac",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te5_tb1__e97c64ac",
@@ -2334,12 +2241,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "antmaze_t_init_tune",
-      "final_score": 86.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -2348,7 +2253,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "amo_am_te5_tb5_amu_s0-antmaze-umaze-v2-ed7d7e67",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/antmaze_t_init_tune/amu_s0_te5_tb5__ed7d7e67",
@@ -2411,12 +2315,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 100.7706776820301,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2425,7 +2327,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s0_apart_n2_dual-halfcheetah-expert-v2-1bf76cd4",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s0_n2_dual__1bf76cd4",
@@ -2485,12 +2386,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 100.70718490354878,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2499,7 +2398,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s0_apart_n4_dual-halfcheetah-expert-v2-4fe22e6b",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s0_n4_dual__4fe22e6b",
@@ -2559,12 +2457,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 100.49756807527032,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2573,7 +2469,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s1_apart_n2_dual-halfcheetah-expert-v2-2c565dc6",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s1_n2_dual__2c565dc6",
@@ -2633,12 +2528,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 101.92041798476946,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2647,7 +2540,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s1_apart_n4_dual-halfcheetah-expert-v2-26191097",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s1_n4_dual__26191097",
@@ -2707,12 +2599,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 103.39982047705259,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2721,7 +2611,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s2_apart_n2_dual-halfcheetah-expert-v2-c4799704",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s2_n2_dual__c4799704",
@@ -2781,12 +2670,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 102.45234985781535,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2795,7 +2682,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s2_apart_n4_dual-halfcheetah-expert-v2-ff784a57",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s2_n4_dual__ff784a57",
@@ -2855,12 +2741,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 101.1503055526898,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2869,7 +2753,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s3_apart_n2_dual-halfcheetah-expert-v2-804a1302",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s3_n2_dual__804a1302",
@@ -2929,12 +2812,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 101.49698048254776,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -2943,7 +2824,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hce_s3_apart_n4_dual-halfcheetah-expert-v2-2c2f52c6",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hce_s3_n4_dual__2c2f52c6",
@@ -3002,12 +2882,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 100.76892462767407,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3016,7 +2894,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "cme_s0_pi_only_xfit_target-halfcheetah-medium-expert-v2-619956f1",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/hme_s0_pi_only_xfit__619956f1",
@@ -3075,12 +2952,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "chain",
-      "final_score": 96.94641816502786,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3089,7 +2964,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_apart_n2_Ng-halfcheetah-medium-expert-v2-5cf34db9",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/chain/hme_s0_n2_Ng__5cf34db9",
@@ -3148,12 +3022,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "chain",
-      "final_score": 94.26443288683649,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3162,7 +3034,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_apart_n2-halfcheetah-medium-expert-v2-3a87ef6d",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/chain/hme_s0_n2__3a87ef6d",
@@ -3221,12 +3092,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 99.5114369495504,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3235,7 +3104,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_apart_n2_dual-halfcheetah-medium-expert-v2-408b6957",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hme_s0_n2_dual__408b6957",
@@ -3295,12 +3163,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "chain",
-      "final_score": 96.99521049636046,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3309,7 +3175,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_apart_n4_Ng-halfcheetah-medium-expert-v2-0f1a9987",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/chain/hme_s0_n4_Ng__0f1a9987",
@@ -3368,12 +3233,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "chain",
-      "final_score": 91.24654254729694,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3382,7 +3245,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_apart_n4-halfcheetah-medium-expert-v2-54ac6ef5",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/chain/hme_s0_n4__54ac6ef5",
@@ -3441,12 +3303,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 100.48828261911208,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3455,7 +3315,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_apart_n4_dual-halfcheetah-medium-expert-v2-1fb26a1c",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hme_s0_n4_dual__1fb26a1c",
@@ -3514,12 +3373,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 49.43924676170548,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3528,7 +3385,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "cmr_s0_pi_only_xfit_target-halfcheetah-medium-replay-v2-cb1305e7",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/hcmr_s0_pi_only_xfit__cb1305e7",
@@ -3587,12 +3443,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 46.847225824482564,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3601,7 +3455,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hcr_s0_apart_n2_dual-halfcheetah-medium-replay-v2-d3bc3b64",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hcmr_s0_n2_dual__d3bc3b64",
@@ -3661,12 +3514,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 47.45598757343529,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3675,7 +3526,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hcr_s0_apart_n4_dual-halfcheetah-medium-replay-v2-7d04d354",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hcmr_s0_n4_dual__7d04d354",
@@ -3734,12 +3584,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 58.49923226180322,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3748,7 +3596,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "cm_s0_pi_only_xfit_target-halfcheetah-medium-v2-ef5dd431",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/hcm_s0_pi_only_xfit__ef5dd431",
@@ -3807,12 +3654,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 53.15071431887717,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3821,7 +3666,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hcm_s0_apart_n2_dual-halfcheetah-medium-v2-03a0ed96",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hcm_s0_n2_dual__03a0ed96",
@@ -3881,12 +3725,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 52.78864376783524,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3895,7 +3737,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hcm_s0_apart_n4_dual-halfcheetah-medium-v2-0cd52221",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hcm_s0_n4_dual__0cd52221",
@@ -3955,12 +3796,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 112.11172162654586,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -3969,7 +3808,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s0_apart_n2_dual-hopper-expert-v2-65d919e8",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s0_n2_dual__65d919e8",
@@ -4029,12 +3867,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 111.97712738650274,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4043,7 +3879,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s0_apart_n4_dual-hopper-expert-v2-c1e1a8e0",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s0_n4_dual__c1e1a8e0",
@@ -4103,12 +3938,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 111.76278331054546,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4117,7 +3950,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s1_apart_n2_dual-hopper-expert-v2-3d5db546",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s1_n2_dual__3d5db546",
@@ -4177,12 +4009,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 110.80351024323622,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4191,7 +4021,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s1_apart_n4_dual-hopper-expert-v2-af1b0a92",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s1_n4_dual__af1b0a92",
@@ -4251,12 +4080,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 103.20960151497098,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4265,7 +4092,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s2_apart_n2_dual-hopper-expert-v2-9d55f9db",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s2_n2_dual__9d55f9db",
@@ -4325,12 +4151,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 101.46167450553844,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4339,7 +4163,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s2_apart_n4_dual-hopper-expert-v2-4ca492b0",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s2_n4_dual__4ca492b0",
@@ -4399,12 +4222,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 111.66625052270194,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4413,7 +4234,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s3_apart_n2_dual-hopper-expert-v2-12690ecb",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s3_n2_dual__12690ecb",
@@ -4473,12 +4293,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 111.38882277261482,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4487,7 +4305,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hope_s3_apart_n4_dual-hopper-expert-v2-a58c7ff7",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hope_s3_n4_dual__a58c7ff7",
@@ -4546,12 +4363,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 104.84290749408859,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4560,7 +4375,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n1_alr1e4-hopper-medium-expert-v2-6147e9b8",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n1_alr1e4__6147e9b8",
@@ -4622,12 +4436,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 62.762529807596465,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4636,7 +4448,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n2-hopper-medium-expert-v2-1d8d8651",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n2__1d8d8651",
@@ -4697,12 +4508,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 67.720504839826,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4711,7 +4520,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n2_alr1e4-hopper-medium-expert-v2-be68bdc1",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n2_alr1e4__be68bdc1",
@@ -4773,12 +4581,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 55.019526162212685,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4787,7 +4593,6 @@
       "last_eval_step": 20000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n2_smoke20000-hopper-medium-expert-v2-a1223e3d",
-      "max_timesteps": 20000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n2_smoke__a1223e3d",
@@ -4848,12 +4653,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 33.93891277709058,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4862,7 +4665,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n4-hopper-medium-expert-v2-11bee594",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n4__11bee594",
@@ -4924,12 +4726,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 107.3903658035534,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -4938,7 +4738,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n4_alr1e4-hopper-medium-expert-v2-93ad3672",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n4_alr1e4__93ad3672",
@@ -5000,12 +4799,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 42.98125339711087,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5014,7 +4811,6 @@
       "last_eval_step": 20000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n4_smoke20000-hopper-medium-expert-v2-262f2afa",
-      "max_timesteps": 20000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n4_smoke__262f2afa",
@@ -5074,12 +4870,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 26.361607240377577,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5088,7 +4882,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s0_pi_only_xfit_target-hopper-medium-expert-v2-68128a42",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/hopme_s0_pi_only_xfit__68128a42",
@@ -5147,12 +4940,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 81.76120041130531,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5161,7 +4952,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopme_s0_apart_n2_dual-hopper-medium-expert-v2-647028cd",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hopme_s0_n2_dual__647028cd",
@@ -5221,12 +5011,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 108.39328008659001,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5235,7 +5023,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopme_s0_apart_n4_dual-hopper-medium-expert-v2-a7dc138c",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hopme_s0_n4_dual__a7dc138c",
@@ -5297,9 +5084,7 @@
       "collected_at": "2026-09-10T18:11:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": null,
       "family": "segment_interval",
-      "final_score": null,
       "git": {
         "code_commit": null,
         "code_repo": "amo"
@@ -5307,7 +5092,6 @@
       "last_eval_step": null,
       "layout_version": 2,
       "legacy_name": "amo_seg4_hme_s0_smoke-hopper-medium-expert-v2-c3cff423",
-      "max_timesteps": 4000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423",
@@ -5371,12 +5155,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": null,
       "family": "segment_interval",
-      "final_score": null,
       "git": {
         "code_commit": null,
         "code_repo": "amo"
@@ -5385,7 +5167,6 @@
       "last_eval_step": null,
       "layout_version": 2,
       "legacy_name": "amo_seg4_hme_s0_smoke-hopper-medium-expert-v2-c3cff423",
-      "max_timesteps": 4000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/amo/segment_interval/hopme_s0_seg4_te1.25_smoke__c3cff423",
@@ -5449,12 +5230,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 102.3051069115466,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5463,7 +5242,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hmr_s0_pi_only_xfit_target-hopper-medium-replay-v2-f5197b83",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/hopmr_s0_pi_only_xfit__f5197b83",
@@ -5522,12 +5300,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 101.67137410642869,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5536,7 +5312,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopmr_s0_apart_n2_dual-hopper-medium-replay-v2-6e605e1a",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hopmr_s0_n2_dual__6e605e1a",
@@ -5596,12 +5371,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 100.81207056295915,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5610,7 +5383,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopmr_s0_apart_n4_dual-hopper-medium-replay-v2-bc422dcb",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hopmr_s0_n4_dual__bc422dcb",
@@ -5669,12 +5441,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 101.76290063479985,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5683,7 +5453,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hm_s0_pi_only_xfit_target-hopper-medium-v2-f63febbd",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/hopm_s0_pi_only_xfit__f63febbd",
@@ -5742,12 +5511,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 69.3374238171216,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5756,7 +5523,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopm_s0_apart_n2_dual-hopper-medium-v2-f38fa76e",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hopm_s0_n2_dual__f38fa76e",
@@ -5816,12 +5582,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 67.09243408122563,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5830,7 +5594,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopm_s0_apart_n4_dual-hopper-medium-v2-4e1b77ba",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/hopm_s0_n4_dual__4e1b77ba",
@@ -5890,12 +5653,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 109.60638308946827,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5904,7 +5665,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s0_apart_n2_dual-walker2d-expert-v2-0e7e76db",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s0_n2_dual__0e7e76db",
@@ -5964,12 +5724,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 109.48167297949276,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -5978,7 +5736,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s0_apart_n4_dual-walker2d-expert-v2-e6ae84a0",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s0_n4_dual__e6ae84a0",
@@ -6038,12 +5795,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 109.96150724543992,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6052,7 +5807,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s1_apart_n2_dual-walker2d-expert-v2-00903301",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s1_n2_dual__00903301",
@@ -6112,12 +5866,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 109.75960768899067,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6126,7 +5878,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s1_apart_n4_dual-walker2d-expert-v2-74c1a932",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s1_n4_dual__74c1a932",
@@ -6186,12 +5937,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 109.90842215433992,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6200,7 +5949,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s2_apart_n2_dual-walker2d-expert-v2-d5f8240b",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s2_n2_dual__d5f8240b",
@@ -6260,12 +6008,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 109.81037276639982,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6274,7 +6020,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s2_apart_n4_dual-walker2d-expert-v2-d776a1c1",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s2_n4_dual__d776a1c1",
@@ -6334,12 +6079,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 110.21142259564482,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6348,7 +6091,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s3_apart_n2_dual-walker2d-expert-v2-4e59410c",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s3_n2_dual__4e59410c",
@@ -6408,12 +6150,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 110.32790568290318,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6422,7 +6162,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "we_s3_apart_n4_dual-walker2d-expert-v2-f9392a21",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/we_s3_n4_dual__f9392a21",
@@ -6481,12 +6220,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 110.06557661654546,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6495,7 +6232,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wme_s0_pi_only_xfit_target-walker2d-medium-expert-v2-fc11e1e8",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/wme_s0_pi_only_xfit__fc11e1e8",
@@ -6554,12 +6290,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 109.00131345894091,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6568,7 +6302,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wme_s0_apart_n2_dual-walker2d-medium-expert-v2-a496b0b8",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/wme_s0_n2_dual__a496b0b8",
@@ -6628,12 +6361,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 108.90105438878379,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6642,7 +6373,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wme_s0_apart_n4_dual-walker2d-medium-expert-v2-11dcdab6",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/wme_s0_n4_dual__11dcdab6",
@@ -6702,12 +6432,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_mpi_nstep",
-      "final_score": 97.23208886337703,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6716,7 +6444,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wmr_s0_pi_only_xfit_target_mpi_n2-walker2d-medium-replay-v2-fecbdb6f",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/wmr_s0_mpi_n2__fecbdb6f",
@@ -6777,12 +6504,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 97.76793616898847,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6791,7 +6516,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wmr_s0_pi_only_xfit_target-walker2d-medium-replay-v2-600eab13",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/wmr_s0_pi_only_xfit__600eab13",
@@ -6850,12 +6574,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 92.28935823335166,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6864,7 +6586,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wmr_s0_apart_n2_dual-walker2d-medium-replay-v2-9e515336",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/wmr_s0_n2_dual__9e515336",
@@ -6924,12 +6645,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "chain",
-      "final_score": 91.61581425575126,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -6938,7 +6657,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wmr_s0_apart_n4-walker2d-medium-replay-v2-8113ca80",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/chain/wmr_s0_n4__8113ca80",
@@ -6997,12 +6715,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 91.24335068431606,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -7011,7 +6727,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wmr_s0_apart_n4_dual-walker2d-medium-replay-v2-1dbd24a4",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/wmr_s0_n4_dual__1dbd24a4",
@@ -7070,12 +6785,10 @@
         "initial_scale_not_1",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "pi_only_xfit_target",
-      "final_score": 100.47007866990545,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -7084,7 +6797,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wm_s0_pi_only_xfit_target-walker2d-medium-v2-247c4d61",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/pi_only_xfit_target/wm_s0_pi_only_xfit__247c4d61",
@@ -7143,12 +6855,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 86.90790262651873,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -7157,7 +6867,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wm_s0_apart_n2_dual-walker2d-medium-v2-9dabe238",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/wm_s0_n2_dual__9dabe238",
@@ -7217,12 +6926,10 @@
         "multi_step",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-14T15:10:01+09:00",
+      "collected_at": "2026-09-14T22:20:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "dual_proximal",
-      "final_score": 84.87423749129628,
       "git": {
         "code_commit": null,
         "code_repo": "APART"
@@ -7231,7 +6938,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wm_s0_apart_n4_dual-walker2d-medium-v2-0b7fdd81",
-      "max_timesteps": 1000000,
       "meta_lr": 0.0002,
       "method": "td3_amo",
       "original_rel_path": "runs/apart/dual_proximal/wm_s0_n4_dual__0b7fdd81",
@@ -7286,12 +6992,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 110.75532348766399,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -7300,7 +7004,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wme_s0_aspc-walker2d-medium-expert-v2-a24170b4",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "aspc",
       "original_rel_path": "runs/aspc/benchmark/wme_s0_aspc_rc_a2p5_aspc__a24170b4",
@@ -7358,12 +7061,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 40.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -7371,7 +7072,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/amld_s0_default__6bcc7208",
@@ -7417,10 +7117,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 40.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -7428,7 +7126,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.01_fbtau0.01.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -7487,12 +7184,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 20.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -7500,7 +7195,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/amlp_s0_default__02e09f2f",
@@ -7546,10 +7240,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 20.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -7557,7 +7249,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.01_fbtau0.01.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -7616,12 +7307,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 50.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -7629,7 +7318,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/ammd_s0_default__14c27359",
@@ -7675,10 +7363,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 50.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -7686,7 +7372,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.01_fbtau0.01.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -7745,12 +7430,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 60.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -7758,7 +7441,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/ammp_s0_default__3736ca10",
@@ -7804,10 +7486,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 60.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -7815,7 +7495,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.01_fbtau0.01.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -7874,12 +7553,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 50.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -7887,7 +7564,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/amud_s0_default__4335ee82",
@@ -7933,10 +7609,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 50.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -7944,7 +7618,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.01_fbtau0.01.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8003,12 +7676,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 40.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8016,7 +7687,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/amu_s0_default__f7c88e0e",
@@ -8062,10 +7732,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 40.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8073,7 +7741,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.01_fbtau0.01.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8132,12 +7799,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 94.2,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8145,7 +7810,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/hme_s0_default__af1658b2",
@@ -8190,10 +7854,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 94.2,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8201,7 +7863,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.001_fbtau0.001.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8259,12 +7920,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 44.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8272,7 +7931,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/hcmr_s0_default__03cbbf5a",
@@ -8317,10 +7975,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 44.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8328,7 +7984,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.05_fbtau0.05.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8386,12 +8041,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 48.6,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8399,7 +8052,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/hcm_s0_default__493ddaec",
@@ -8444,10 +8096,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 48.6,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8455,7 +8105,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.05_fbtau0.05.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8513,12 +8162,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 112.1,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8526,7 +8173,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/hopme_s0_default__eeec316b",
@@ -8571,10 +8217,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 112.1,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8582,7 +8226,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.001_fbtau0.001.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8640,12 +8283,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 97.8,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8653,7 +8294,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/hopmr_s0_default__36e922d4",
@@ -8698,10 +8338,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 97.8,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8709,7 +8347,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.05_fbtau0.05.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8767,12 +8404,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 66.7,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8780,7 +8415,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/hopm_s0_default__49a09161",
@@ -8825,10 +8459,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 66.7,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8836,7 +8468,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.05_fbtau0.05.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -8894,12 +8525,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 111.7,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -8907,7 +8536,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/wme_s0_default__cd69cae4",
@@ -8952,10 +8580,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 111.7,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -8963,7 +8589,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.05_fbtau0.05.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -9021,12 +8646,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 82.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -9034,7 +8657,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/wmr_s0_default__d831fdac",
@@ -9079,10 +8701,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 82.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -9090,7 +8710,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.05_fbtau0.05.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -9148,12 +8767,10 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "family": "benchmark",
-      "final_score": 84.0,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
@@ -9161,7 +8778,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "original_rel_path": "runs/iql/benchmark/wm_s0_default__7a2b5104",
@@ -9206,10 +8822,8 @@
       "collected_at": "2026-09-13T12:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_mpi_actor0_log",
       "family": "vanilla",
-      "final_score": 84.0,
       "git": {
         "code_commit": null,
         "code_repo": "MPI"
@@ -9217,7 +8831,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run_seed0_inv2w0.05_fbtau0.05.log",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "iql",
       "mpi_source": {
@@ -9272,13 +8885,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9287,7 +8898,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amld_s0-antmaze-large-diverse-v2-5a7370d0",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amld_s0_aspc_rc_a2p5__5a7370d0",
@@ -9332,13 +8942,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9347,7 +8955,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amld_s1-antmaze-large-diverse-v2-1b742297",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amld_s1_aspc_rc_a2p5__1b742297",
@@ -9392,13 +8999,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9407,7 +9012,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amld_s2-antmaze-large-diverse-v2-0a4c8312",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amld_s2_aspc_rc_a2p5__0a4c8312",
@@ -9452,13 +9056,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9467,7 +9069,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amld_s3-antmaze-large-diverse-v2-d754ddd3",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amld_s3_aspc_rc_a2p5__d754ddd3",
@@ -9512,13 +9113,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9527,7 +9126,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amlp_s0-antmaze-large-play-v2-87ecd1d4",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amlp_s0_aspc_rc_a2p5__87ecd1d4",
@@ -9572,13 +9170,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9587,7 +9183,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amlp_s1-antmaze-large-play-v2-4edfec34",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amlp_s1_aspc_rc_a2p5__4edfec34",
@@ -9632,13 +9227,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9647,7 +9240,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amlp_s2-antmaze-large-play-v2-98e7831f",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amlp_s2_aspc_rc_a2p5__98e7831f",
@@ -9692,13 +9284,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9707,7 +9297,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amlp_s3-antmaze-large-play-v2-45707a5a",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amlp_s3_aspc_rc_a2p5__45707a5a",
@@ -9752,13 +9341,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 20.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9767,7 +9354,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammd_s0-antmaze-medium-diverse-v2-d2d64c4c",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammd_s0_aspc_rc_a2p5__d2d64c4c",
@@ -9812,13 +9398,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9827,7 +9411,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammd_s1-antmaze-medium-diverse-v2-64547c0c",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammd_s1_aspc_rc_a2p5__64547c0c",
@@ -9872,13 +9455,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 10.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9887,7 +9468,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammd_s2-antmaze-medium-diverse-v2-9a5076fc",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammd_s2_aspc_rc_a2p5__9a5076fc",
@@ -9932,13 +9512,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 10.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -9947,7 +9525,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammd_s3-antmaze-medium-diverse-v2-2ee21d54",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammd_s3_aspc_rc_a2p5__2ee21d54",
@@ -9992,13 +9569,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10007,7 +9582,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammp_s0-antmaze-medium-play-v2-722d3144",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammp_s0_aspc_rc_a2p5__722d3144",
@@ -10052,13 +9626,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 10.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10067,7 +9639,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammp_s1-antmaze-medium-play-v2-2be6fa39",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammp_s1_aspc_rc_a2p5__2be6fa39",
@@ -10112,13 +9683,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10127,7 +9696,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammp_s2-antmaze-medium-play-v2-adcc887d",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammp_s2_aspc_rc_a2p5__adcc887d",
@@ -10172,13 +9740,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 0.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10187,7 +9753,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_ammp_s3-antmaze-medium-play-v2-2035abd7",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/ammp_s3_aspc_rc_a2p5__2035abd7",
@@ -10232,13 +9797,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 90.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10247,7 +9810,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amud_s0-antmaze-umaze-diverse-v2-690f67ec",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amud_s0_aspc_rc_a2p5__690f67ec",
@@ -10292,13 +9854,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 90.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10307,7 +9867,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amud_s1-antmaze-umaze-diverse-v2-bce295ab",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amud_s1_aspc_rc_a2p5__bce295ab",
@@ -10352,13 +9911,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 80.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10367,7 +9924,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amud_s2-antmaze-umaze-diverse-v2-411d3be9",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amud_s2_aspc_rc_a2p5__411d3be9",
@@ -10412,13 +9968,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 90.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10427,7 +9981,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amud_s3-antmaze-umaze-diverse-v2-77aa19d5",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amud_s3_aspc_rc_a2p5__77aa19d5",
@@ -10472,13 +10025,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 90.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10487,7 +10038,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amu_s0-antmaze-umaze-v2-93a61a4f",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amu_s0_aspc_rc_a2p5__93a61a4f",
@@ -10532,13 +10082,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 90.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10547,7 +10095,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amu_s1-antmaze-umaze-v2-2defb713",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amu_s1_aspc_rc_a2p5__2defb713",
@@ -10592,13 +10139,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 100.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10607,7 +10152,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amu_s2-antmaze-umaze-v2-685e02b3",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amu_s2_aspc_rc_a2p5__685e02b3",
@@ -10652,13 +10196,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 80.0,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10667,7 +10209,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_amu_s3-antmaze-umaze-v2-3bbe77ba",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/amu_s3_aspc_rc_a2p5__3bbe77ba",
@@ -10712,13 +10253,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 98.565,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10727,7 +10266,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcme_s0-halfcheetah-medium-expert-v2-c371c90a",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hme_s0_aspc_rc_a2p5__c371c90a",
@@ -10772,13 +10310,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 98.858,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10787,7 +10323,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcme_s1-halfcheetah-medium-expert-v2-098e682a",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hme_s1_aspc_rc_a2p5__098e682a",
@@ -10832,13 +10367,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 99.923,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10847,7 +10380,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcme_s2-halfcheetah-medium-expert-v2-b4070bde",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hme_s2_aspc_rc_a2p5__b4070bde",
@@ -10892,13 +10424,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 100.678,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10907,7 +10437,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcme_s3-halfcheetah-medium-expert-v2-52763391",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hme_s3_aspc_rc_a2p5__52763391",
@@ -10952,13 +10481,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 45.574,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -10967,7 +10494,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcmr_s0-halfcheetah-medium-replay-v2-68c9bb35",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcmr_s0_aspc_rc_a2p5__68c9bb35",
@@ -11012,13 +10538,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 45.905,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11027,7 +10551,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcmr_s1-halfcheetah-medium-replay-v2-32a02662",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcmr_s1_aspc_rc_a2p5__32a02662",
@@ -11072,13 +10595,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 46.619,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11087,7 +10608,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcmr_s2-halfcheetah-medium-replay-v2-8a168332",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcmr_s2_aspc_rc_a2p5__8a168332",
@@ -11132,13 +10652,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 46.637,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11147,7 +10665,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcmr_s3-halfcheetah-medium-replay-v2-91a0af17",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcmr_s3_aspc_rc_a2p5__91a0af17",
@@ -11192,13 +10709,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 50.436,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11207,7 +10722,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcm_s0-halfcheetah-medium-v2-424eac5c",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcm_s0_aspc_rc_a2p5__424eac5c",
@@ -11252,13 +10766,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 48.944,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11267,7 +10779,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcm_s1-halfcheetah-medium-v2-69b14d28",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcm_s1_aspc_rc_a2p5__69b14d28",
@@ -11312,13 +10823,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 50.121,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11327,7 +10836,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcm_s2-halfcheetah-medium-v2-6138a08b",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcm_s2_aspc_rc_a2p5__6138a08b",
@@ -11372,13 +10880,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 50.368,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11387,7 +10893,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hcm_s3-halfcheetah-medium-v2-28d8c03b",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hcm_s3_aspc_rc_a2p5__28d8c03b",
@@ -11432,13 +10937,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 108.371,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11447,7 +10950,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hme_s0-hopper-medium-expert-v2-48c2a779",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopme_s0_aspc_rc_a2p5__48c2a779",
@@ -11492,13 +10994,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 112.46,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11507,7 +11007,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hme_s1-hopper-medium-expert-v2-38f3b315",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopme_s1_aspc_rc_a2p5__38f3b315",
@@ -11552,13 +11051,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 111.967,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11567,7 +11064,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hme_s2-hopper-medium-expert-v2-2c3a541d",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopme_s2_aspc_rc_a2p5__2c3a541d",
@@ -11612,13 +11108,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 112.715,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11627,7 +11121,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hme_s3-hopper-medium-expert-v2-f95dc97e",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopme_s3_aspc_rc_a2p5__f95dc97e",
@@ -11672,13 +11165,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 92.654,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11687,7 +11178,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hmr_s0-hopper-medium-replay-v2-bb6bdc7b",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopmr_s0_aspc_rc_a2p5__bb6bdc7b",
@@ -11732,13 +11222,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 98.444,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11747,7 +11235,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hmr_s1-hopper-medium-replay-v2-e98c1721",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopmr_s1_aspc_rc_a2p5__e98c1721",
@@ -11792,13 +11279,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 27.695,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11807,7 +11292,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hmr_s2-hopper-medium-replay-v2-20abaae1",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopmr_s2_aspc_rc_a2p5__20abaae1",
@@ -11852,13 +11336,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 96.591,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11867,7 +11349,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hmr_s3-hopper-medium-replay-v2-9f124f02",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopmr_s3_aspc_rc_a2p5__9f124f02",
@@ -11912,13 +11393,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 62.506,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11927,7 +11406,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hm_s0-hopper-medium-v2-4ca5f2d3",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopm_s0_aspc_rc_a2p5__4ca5f2d3",
@@ -11972,13 +11450,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 59.464,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -11987,7 +11463,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hm_s1-hopper-medium-v2-92d4fb37",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopm_s1_aspc_rc_a2p5__92d4fb37",
@@ -12032,13 +11507,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 64.751,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12047,7 +11520,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hm_s2-hopper-medium-v2-b9701048",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopm_s2_aspc_rc_a2p5__b9701048",
@@ -12092,13 +11564,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 59.161,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12107,7 +11577,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_hm_s3-hopper-medium-v2-3802d10d",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/hopm_s3_aspc_rc_a2p5__3802d10d",
@@ -12152,13 +11621,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 110.098,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12167,7 +11634,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wme_s0-walker2d-medium-expert-v2-8051ac40",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wme_s0_aspc_rc_a2p5__8051ac40",
@@ -12212,13 +11678,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 108.718,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12227,7 +11691,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wme_s1-walker2d-medium-expert-v2-67ddd17d",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wme_s1_aspc_rc_a2p5__67ddd17d",
@@ -12272,13 +11735,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 109.724,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12287,7 +11748,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wme_s2-walker2d-medium-expert-v2-291268de",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wme_s2_aspc_rc_a2p5__291268de",
@@ -12332,13 +11792,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 110.19,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12347,7 +11805,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wme_s3-walker2d-medium-expert-v2-06f5da0d",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wme_s3_aspc_rc_a2p5__06f5da0d",
@@ -12392,13 +11849,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 86.141,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12407,7 +11862,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wmr_s0-walker2d-medium-replay-v2-bc79b498",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wmr_s0_aspc_rc_a2p5__bc79b498",
@@ -12452,13 +11906,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 93.64,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12467,7 +11919,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wmr_s1-walker2d-medium-replay-v2-eacea5ad",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wmr_s1_aspc_rc_a2p5__eacea5ad",
@@ -12512,13 +11963,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 87.147,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12527,7 +11976,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wmr_s2-walker2d-medium-replay-v2-48e1c688",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wmr_s2_aspc_rc_a2p5__48e1c688",
@@ -12572,13 +12020,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 79.994,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12587,7 +12033,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wmr_s3-walker2d-medium-replay-v2-8df42cae",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wmr_s3_aspc_rc_a2p5__8df42cae",
@@ -12632,13 +12077,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 79.772,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12647,7 +12090,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wm_s0-walker2d-medium-v2-331fd673",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wm_s0_aspc_rc_a2p5__331fd673",
@@ -12692,13 +12134,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 85.998,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12707,7 +12147,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wm_s1-walker2d-medium-v2-081c7511",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wm_s1_aspc_rc_a2p5__081c7511",
@@ -12752,13 +12191,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 85.066,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12767,7 +12204,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wm_s2-walker2d-medium-v2-5b8c2bc3",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wm_s2_aspc_rc_a2p5__5b8c2bc3",
@@ -12812,13 +12248,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "aspc_rc",
-      "final_score": 84.082,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC"
@@ -12827,7 +12261,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3bc_aspc_wm_s3-walker2d-medium-v2-99606682",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "td3bc+rc",
       "original_rel_path": "runs/td3bc/aspc_rc/wm_s3_aspc_rc_a2p5__99606682",
@@ -12872,13 +12305,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 99.525,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -12887,7 +12318,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hme_s2_wpc-halfcheetah-medium-expert-v2-29d0451d",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/hme_s2_wpc__29d0451d",
@@ -12932,13 +12362,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 48.274,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -12947,7 +12375,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hcmr_s3_wpc-halfcheetah-medium-replay-v2-fbe65fc3",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/hcmr_s3_wpc__fbe65fc3",
@@ -12992,13 +12419,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 54.163,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -13007,7 +12432,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hcm_s2_wpc-halfcheetah-medium-v2-69d73d4e",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/hcm_s2_wpc__69d73d4e",
@@ -13052,13 +12476,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 106.883,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -13067,7 +12489,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopme_s3_wpc-hopper-medium-expert-v2-82563c0f",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/hopme_s3_wpc__82563c0f",
@@ -13113,13 +12534,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 100.662,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -13128,7 +12547,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopmr_s2_wpc-hopper-medium-replay-v2-a46823ff",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/hopmr_s2_wpc__a46823ff",
@@ -13174,13 +12592,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 81.987,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -13189,7 +12605,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "hopm_s3_wpc-hopper-medium-v2-cb0e020a",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/hopm_s3_wpc__cb0e020a",
@@ -13234,13 +12649,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 109.766,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -13249,7 +12662,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wme_s2_wpc-walker2d-medium-expert-v2-02c42081",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/wme_s2_wpc__02c42081",
@@ -13295,13 +12707,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 88.425,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -13310,7 +12720,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wmr_s3_wpc-walker2d-medium-replay-v2-3d0c3257",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/wmr_s3_wpc__3d0c3257",
@@ -13356,13 +12765,11 @@
       ],
       "backend": "torch",
       "classification_reasons": [],
-      "collected_at": "2026-09-14T15:10:02+09:00",
+      "collected_at": "2026-09-14T22:20:03+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
       "eval_source": "synthesized_from_stdout_log",
       "family": "benchmark",
-      "final_score": 86.853,
       "git": {
         "code_commit": null,
         "code_repo": "ASPC_cohort"
@@ -13371,7 +12778,6 @@
       "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "wm_s2_wpc-walker2d-medium-v2-a63fb641",
-      "max_timesteps": 1000000,
       "meta_lr": null,
       "method": "wpc",
       "original_rel_path": "runs/wpc/benchmark/wm_s2_wpc__a63fb641",
