@@ -296,7 +296,8 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         if tb is not None:
             tb_f = float(tb)
             tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
-        # T_lr tag comes from the shared T_lr suffix below.    if family == "benchmark" and algo == "iql":
+        # T_lr tag comes from the shared T_lr suffix below.
+    if family == "benchmark" and algo == "iql":
         tokens.append("pi_base")
     if algo in ("wpc", "aspc") or (family == "benchmark" and algo in ("wpc", "aspc")):
         if algo == "wpc" or "wpc" in dirname:
