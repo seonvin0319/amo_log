@@ -4,14 +4,16 @@
     "config.yaml",
     "eval.jsonl",
     "metrics.jsonl",
-    "source_run_meta.json"
+    "source_run_meta.json",
+    "eval_final50_v1.jsonl",
+    "FINAL50_SINGLEPASS_V1_DONE.json"
   ],
   "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s2/run/checkpoints/step_1000000.npz",
-  "collected_at": "2026-09-13T21:33:16+09:00",
+  "collected_at": "2026-09-14T10:00:13+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "lr1e3_beta_sweep",
-  "final_score": 48.240295147847796,
+  "final_score": 48.40410086935499,
   "git": {
     "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
     "code_path": "/home/svcho/amo_iql_sweep",
@@ -21,6 +23,7 @@
   "last_eval_step": 1000000,
   "legacy_name": "b1_hc-m_s2",
   "run_id": "hcm_s2_iql_amo_lr1e3_beta1__dfab8745",
+  "score_protocol": "final50_singlepass_v1",
   "seed": 2,
   "settings": {
     "actor_lr": 0.001,
