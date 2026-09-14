@@ -3,11 +3,12 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "cell": "s3",
   "checkpoint_hint": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-v2",
-  "collected_at": "2026-09-14T00:07:26+00:00",
+  "collected_at": "2026-09-14T00:17:13+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "amo_bpi",
