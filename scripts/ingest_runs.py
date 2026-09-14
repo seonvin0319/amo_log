@@ -726,11 +726,62 @@ def merge_run_meta(cfg: Dict[str, Any], src: Path) -> Dict[str, Any]:
 
 
 def read_final_eval_50_row(src: Path) -> Optional[Dict[str, Any]]:
-    """Load final_eval_50.jsonl or JAX posthoc_eval_cpu/final.json as one row."""
+    """Prefer final50_singlepass_v1, then final_eval_50.jsonl, then posthoc 5x10.
+
+    Protocol priority (do not mix as extra seeds):
+      1) eval_final50_v1.jsonl / posthoc_final50_v1/final.json  (50 eps, repeats=1)
+      2) final_eval_50.jsonl
+      3) posthoc_eval_cpu/final.json (legacy episodes=10, final_repeats=5)
+    Older rows are preserved in source run dirs; ingest records protocol/tag.
+    """
+    # 1) final50_singlepass_v1
+    for path in (
+        src / "eval_final50_v1.jsonl",
+        src / "posthoc_final50_v1" / "final.json",
+    ):
+        if not path.exists() or path.stat().st_size == 0:
+            continue
+        try:
+            if path.suffix == ".jsonl":
+                row = json.loads(path.read_text().strip().splitlines()[0])
+            else:
+                payload = json.loads(path.read_text())
+                row = payload.get("row") if isinstance(payload, dict) else None
+                if not isinstance(row, dict):
+                    row = payload if isinstance(payload, dict) else None
+            if not isinstance(row, dict):
+                continue
+            if row.get("status") not in (None, "done"):
+                continue
+            protocol = row.get("protocol") or row.get("tag") or "final50_singlepass_v1"
+            return {
+                "step": int(row.get("step") or 1_000_000),
+                "d4rl_normalized_score": row.get(
+                    "normalized_score", row.get("d4rl_normalized_score")
+                ),
+                "eval_return": row.get("return_mean", row.get("eval_return")),
+                "n_episodes": row.get("episodes", row.get("n_episodes")),
+                "episodes_per_repeat": row.get("episodes_per_repeat"),
+                "repeats": row.get("repeats"),
+                "device": row.get("device", "cpu"),
+                "evaluated_at": row.get("evaluated_at"),
+                "tag": row.get("tag", "final50_singlepass_v1"),
+                "protocol": protocol,
+                "backend": row.get("backend"),
+                "eval_seed": row.get("eval_seed"),
+                "checkpoint_sha256": row.get("checkpoint_sha256"),
+                "success_rate": row.get("success_rate"),
+            }
+        except Exception:
+            pass
+
     dest = src / "final_eval_50.jsonl"
     if dest.exists() and dest.stat().st_size > 0:
         try:
-            return json.loads(dest.read_text().strip().splitlines()[0])
+            row = json.loads(dest.read_text().strip().splitlines()[0])
+            row = dict(row)
+            row.setdefault("protocol", row.get("tag") or "final_eval_50")
+            return row
         except Exception:
             pass
     posthoc = src / "posthoc_eval_cpu" / "final.json"
@@ -750,9 +801,12 @@ def read_final_eval_50_row(src: Path) -> Optional[Dict[str, Any]]:
             ),
             "eval_return": row.get("return_mean", row.get("eval_return")),
             "n_episodes": row.get("episodes", row.get("n_episodes")),
+            "episodes_per_repeat": row.get("episodes_per_repeat"),
+            "repeats": row.get("repeats"),
             "device": row.get("device", "cpu"),
             "evaluated_at": row.get("evaluated_at"),
             "tag": row.get("tag", "posthoc_cpu_final"),
+            "protocol": "posthoc_cpu_final_5x10",
             "backend": row.get("backend"),
         }
     except Exception:
@@ -830,6 +884,18 @@ def ingest_one(
     dest_metrics = dest / "metrics.jsonl"
     src_fe = src / "final_eval_50.jsonl"
     dest_fe = dest / "final_eval_50.jsonl"
+    src_final50 = src / "eval_final50_v1.jsonl"
+    src_final50_marker = src / "posthoc_final50_v1" / "final.json"
+
+    def _mtime(path: Path) -> float:
+        return path.stat().st_mtime if path.exists() else 0.0
+
+    newest_src_final = max(
+        _mtime(src_fe),
+        _mtime(src / "posthoc_eval_cpu" / "final.json"),
+        _mtime(src_final50),
+        _mtime(src_final50_marker),
+    )
     need_final_eval = bool(fe_row) and (
         (not dest_fe.exists())
         or dest_fe.stat().st_size == 0
@@ -842,11 +908,8 @@ def ingest_one(
             )
         )
         or (
-            not src_fe.exists()
-            and dest_fe.exists()
-            and (src / "posthoc_eval_cpu" / "final.json").exists()
-            and dest_fe.stat().st_mtime
-            < (src / "posthoc_eval_cpu" / "final.json").stat().st_mtime
+            dest_fe.exists()
+            and newest_src_final > dest_fe.stat().st_mtime
         )
     )
     if dest_metrics.exists() and src_metrics.exists():

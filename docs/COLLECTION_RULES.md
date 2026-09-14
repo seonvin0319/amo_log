@@ -106,3 +106,16 @@ collect(<algo>/<family>): <env_short> s<seed> [<tag>]
 - 다른 호스트의 stale row를 베껴 “완료”로 표시하지 않는다.
 - metrics를 임의로 잘라 “보기 좋게” 만들지 않는다 (요약은 catalog에서).
 - 서로 다른 method/세팅의 로그를 같은 run_id에 섞지 않는다.
+
+## 9. 최종 평가 프로토콜 우선순위 (shchoi / 2026-09-14+)
+
+집계 시 **한 run당 하나의 final score**만 쓴다. 프로토콜이 다른 중복 row를 추가 seed로 세지 않는다.
+
+| 우선순위 | 출처 | 규격 |
+|---------|------|------|
+| 1 | `eval_final50_v1.jsonl` / `posthoc_final50_v1/final.json` | `final50_singlepass_v1`: 50 episodes, repeats=1, seed once |
+| 2 | `final_eval_50.jsonl` | 기존 torch/기타 50-ep 기록 |
+| 3 | `posthoc_eval_cpu/final.json` | 레거시 `episodes=10 × final_repeats=5` (보존, 하위 우선) |
+
+기존 `eval.jsonl` / posthoc 결과는 삭제하지 않고 출처 tag/protocol과 함께 유지한다.
+
