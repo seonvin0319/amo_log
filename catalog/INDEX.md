@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **252**
+Total runs: **253**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -181,8 +181,9 @@ Total runs: **252**
 | td3_amo | adroit | `pen_c_s2_jax_te1_tb1_Tlr0p0003__47727467` | pen-cloned-v1 | 2 | 1000000 | 1000000 | 0.01 | `runs/td3_amo/adroit/pen_c_s2_jax_te1_tb1_Tlr0p0003__47727467` |
 | td3_amo | adroit | `pen_c_s3_jax_te1_tb1_Tlr0p0003__37d6ead6` | pen-cloned-v1 | 3 | 1000000 | 1000000 | 7.94 | `runs/td3_amo/adroit/pen_c_s3_jax_te1_tb1_Tlr0p0003__37d6ead6` |
 | td3_amo | adroit | `pen_e_s0_jax_te1_tb1_Tlr0p0003__557ea5e7` | pen-expert-v1 | 0 | 1000000 | 1000000 | 55.52 | `runs/td3_amo/adroit/pen_e_s0_jax_te1_tb1_Tlr0p0003__557ea5e7` |
-| td3_amo | adroit | `pen_e_s1_jax_te1_tb1_Tlr0p0003__0b78bac6` | pen-expert-v1 | 1 | 1000000 | 640000 | 50.86 | `runs/td3_amo/adroit/pen_e_s1_jax_te1_tb1_Tlr0p0003__0b78bac6` |
-| td3_amo | adroit | `pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` | pen-expert-v1 | 2 | 1000000 | 280000 | 46.57 | `runs/td3_amo/adroit/pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` |
+| td3_amo | adroit | `pen_e_s1_jax_te1_tb1_Tlr0p0003__0b78bac6` | pen-expert-v1 | 1 | 1000000 | 840000 | 68.31 | `runs/td3_amo/adroit/pen_e_s1_jax_te1_tb1_Tlr0p0003__0b78bac6` |
+| td3_amo | adroit | `pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` | pen-expert-v1 | 2 | 1000000 | 480000 | 53.73 | `runs/td3_amo/adroit/pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` |
+| td3_amo | adroit | `pen_e_s3_jax_te1_tb1_Tlr0p0003__58a45055` | pen-expert-v1 | 3 | 1000000 | 120000 | 100.40 | `runs/td3_amo/adroit/pen_e_s3_jax_te1_tb1_Tlr0p0003__58a45055` |
 | td3_amo | adroit | `pen_h_s0_jax_te1_tb1_Tlr0p0003__4838360c` | pen-human-v1 | 0 | 1000000 | 1000000 | 8.78 | `runs/td3_amo/adroit/pen_h_s0_jax_te1_tb1_Tlr0p0003__4838360c` |
 | td3_amo | adroit | `pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` | pen-human-v1 | 1 | 1000000 | 1000000 | 15.14 | `runs/td3_amo/adroit/pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` |
 | td3_amo | adroit | `pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` | pen-human-v1 | 2 | 1000000 | 1000000 | 13.61 | `runs/td3_amo/adroit/pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` |
