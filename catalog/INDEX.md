@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **310**
+Total runs: **315**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -186,6 +186,7 @@ Total runs: **310**
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__5df8378f` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__5df8378f` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__65bd49c2` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__65bd49c2` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__682e26dd` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__682e26dd` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__687ef546` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__687ef546` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__6e3a0059` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__6e3a0059` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__921ffb79` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__921ffb79` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__9d698a6c` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__9d698a6c` |
@@ -198,12 +199,15 @@ Total runs: **310**
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__b91ff7ed` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__b91ff7ed` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__c67292fc` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__c67292fc` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__d6167462` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__d6167462` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__d70b05cc` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__d70b05cc` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__dc5fc303` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__dc5fc303` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__e0216a68` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__e0216a68` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__e0240cb9` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__e0240cb9` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__e7030466` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__e7030466` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__e8ecbdcb` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__e8ecbdcb` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__ec0c77b3` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__ec0c77b3` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__edebd012` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__edebd012` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__ee3deb00` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__ee3deb00` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__f2da889e` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__f2da889e` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__fcce295c` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__fcce295c` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p0003__ff3c45cf` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p0003__ff3c45cf` |
@@ -238,6 +242,7 @@ Total runs: **310**
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p001__d938093b` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p001__d938093b` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p001__d95b37bf` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p001__d95b37bf` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p001__dd54754d` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p001__dd54754d` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p001__df8d199f` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p001__df8d199f` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p001__edaa29e5` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p001__edaa29e5` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p001__ef92c74d` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p001__ef92c74d` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `unknown_s0_Tlr0p001__fc85ec43` | unknown | 0 | 1000000 | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/unknown_s0_Tlr0p001__fc85ec43` |
