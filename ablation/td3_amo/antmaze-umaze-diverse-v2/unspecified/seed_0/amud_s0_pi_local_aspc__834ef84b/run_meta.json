@@ -1,0 +1,55 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze_aspc/amud_s0_pi_local-antmaze-umaze-diverse-v2-834ef84b/checkpoint_999999.pt",
+  "classification_reasons": [
+    "method_variant:pi_local_aspc",
+    "initial_scale_not_1",
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-12T22:59:46+09:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
+  "family": "pi_local_aspc",
+  "git": {
+    "code_commit": null,
+    "code_repo": "amo"
+  },
+  "layout_version": 2,
+  "legacy_name": "amud_s0_pi_local-antmaze-umaze-diverse-v2-834ef84b",
+  "meta_lr": null,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/pi_local_aspc/amud_s0_pi_local_aspc__834ef84b",
+  "rel_path": "ablation/td3_amo/antmaze-umaze-diverse-v2/unspecified/seed_0/amud_s0_pi_local_aspc__834ef84b",
+  "run_id": "amud_s0_pi_local_aspc__834ef84b",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-umaze-diverse-v2",
+    "eval_freq": 20000,
+    "group": "pi_local_antmaze_aspc",
+    "l3_mode": "pi_local",
+    "loss_function": 4,
+    "max_timesteps": 1000000,
+    "name": "amud_s0_pi_local-antmaze-umaze-diverse-v2-834ef84b",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results_pi_local_antmaze_aspc/amud_s0_pi_local-antmaze-umaze-diverse-v2-834ef84b",
+  "variant": "pi_local_aspc"
+}

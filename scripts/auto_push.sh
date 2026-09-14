@@ -29,6 +29,11 @@ cd "$ROOT" || {
 
 log "start"
 
+if [[ "$("$GIT" branch --show-current)" != "svcho" ]]; then
+  log "ERROR: expected svcho branch"
+  exit 1
+fi
+
 if ! "$PY" scripts/ingest_runs.py >>"$LOG" 2>&1; then
   log "ERROR: ingest_runs.py failed"
   exit 1
@@ -39,13 +44,13 @@ if ! "$PY" scripts/build_catalog.py >>"$LOG" 2>&1; then
   exit 1
 fi
 
-if ! "$GIT" pull --rebase --autostash origin main >>"$LOG" 2>&1; then
+if ! "$GIT" pull --rebase --autostash origin svcho >>"$LOG" 2>&1; then
   log "ERROR: git pull --rebase failed"
   "$GIT" rebase --abort >>"$LOG" 2>&1 || true
   exit 1
 fi
 
-"$GIT" add runs catalog docs scripts README.md .gitignore 2>/dev/null || true
+"$GIT" add -A -- main ablation catalog docs scripts README.md .gitignore 2>/dev/null || true
 
 if "$GIT" diff --cached --quiet; then
   log "nothing to commit"
@@ -64,18 +69,18 @@ if ! "$GIT" commit -m "$MSG" >>"$LOG" 2>&1; then
 fi
 log "committed: $MSG"
 
-if ! "$GIT" push origin HEAD:main >>"$LOG" 2>&1; then
+if ! "$GIT" push origin HEAD:svcho >>"$LOG" 2>&1; then
   log "push failed; retrying after pull --rebase"
-  if ! "$GIT" pull --rebase --autostash origin main >>"$LOG" 2>&1; then
+  if ! "$GIT" pull --rebase --autostash origin svcho >>"$LOG" 2>&1; then
     log "ERROR: git pull --rebase failed on retry"
     "$GIT" rebase --abort >>"$LOG" 2>&1 || true
     exit 1
   fi
-  "$GIT" add runs catalog docs scripts README.md .gitignore 2>/dev/null || true
+  "$GIT" add -A -- main ablation catalog docs scripts README.md .gitignore 2>/dev/null || true
   if ! "$GIT" diff --cached --quiet; then
     "$GIT" commit -m "collect: after rebase $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M %Z')" >>"$LOG" 2>&1 || true
   fi
-  if ! "$GIT" push origin HEAD:main >>"$LOG" 2>&1; then
+  if ! "$GIT" push origin HEAD:svcho >>"$LOG" 2>&1; then
     log "ERROR: git push failed after retry"
     exit 1
   fi

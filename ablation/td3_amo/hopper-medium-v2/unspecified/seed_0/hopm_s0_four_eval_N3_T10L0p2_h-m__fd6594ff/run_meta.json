@@ -1,0 +1,48 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "eval.jsonl",
+    "metrics.jsonl",
+    "config.yaml"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L0p2_h-m_s0/checkpoint_999999.pt",
+  "classification_reasons": [
+    "method_variant:four_eval_fixed_n",
+    "initial_scale_not_1",
+    "critic_architecture",
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-12T22:59:46+09:00",
+  "env": "hopper-medium-v2",
+  "env_short": "hopm",
+  "family": "four_eval_fixed_n",
+  "final_score": 49.07003062221791,
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO-adaptive-t-four-eval-v1"
+  },
+  "last_eval_step": 5000,
+  "layout_version": 2,
+  "legacy_name": "four_eval_N3_T10L0p2_h-m_s0",
+  "meta_lr": null,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/four_eval_fixed_n/hopm_s0_four_eval_N3_T10L0p2_h-m__fd6594ff",
+  "rel_path": "ablation/td3_amo/hopper-medium-v2/unspecified/seed_0/hopm_s0_four_eval_N3_T10L0p2_h-m__fd6594ff",
+  "run_id": "hopm_s0_four_eval_N3_T10L0p2_h-m__fd6594ff",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "hopper-medium-v2",
+    "noise_clip": 0.5,
+    "normalize_reward": false,
+    "seed": 0
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_T10L0p2_h-m_s0",
+  "variant": "four_eval_N3_T10L0p2_h-m"
+}

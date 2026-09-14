@@ -1,0 +1,731 @@
+{
+  "reason": "User requested removal of existing JAX runs; future revised JAX runs remain eligible.",
+  "runs": [
+    {
+      "code_commit": null,
+      "run_id": "hopm_s0_n1_Tfreq1_l12_v2_1m__57813b23",
+      "source_path": "/home/svcho/CaPO/results_amo_v2_n1_l12_allenv/td3_bc/hopper-medium-v2/s0/0902_0200_hopper_medium_Tfreq1_N1_l12_td3_bc_jax_hopper-medium-v2_s0"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_baseline_l12_v2_smoke__09f4b020",
+      "source_path": "/home/svcho/CaPO/results_amo_v2_n1_l12_sweep/td3_bc/hopper-medium-replay-v2/s0/0902_0149_smoke_v2_l12_td3_bc_jax_hopper-medium-replay-v2_s0"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_baseline_v2_1m__09ed3b2d",
+      "source_path": "/home/svcho/CaPO/results_amo_sweep_n1/td3_bc/hopper-medium-replay-v2/s0/0901_2304_amo_baseline_parity_td3_bc_jax_hopper-medium-replay-v2_s0"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_n1_Tfreq1_l12_v2_smoke__739d7e42",
+      "source_path": "/home/svcho/CaPO/results_amo_n1_l12_sweep/td3_bc/hopper-medium-replay-v2/s0/0902_0144_smoke_l12_td3_bc_jax_hopper-medium-replay-v2_s0"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_n1_Tfreq1_v2_smoke__ac3ece59",
+      "source_path": "/home/svcho/CaPO/results_amo_pilot/td3_bc/hopper-medium-replay-v2/s0/0901_0211_amo_Tfreq1_N1_td3_bc_jax_hopper-medium-replay-v2_s0"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_n1_Tfreq1_v2_smoke__d93b755e",
+      "source_path": "/home/svcho/CaPO/results_amo_smoke/td3_bc/hopper-medium-replay-v2/s0/0901_0142_amo_integration_smoke_td3_bc_jax_hopper-medium-replay-v2_s0"
+    },
+    {
+      "code_commit": null,
+      "run_id": "hopmr_s0_n1_fixedT0p01_v2_1m__00481884",
+      "source_path": "/home/svcho/CaPO/results_amo_sweep_n1/td3_bc/hopper-medium-replay-v2/s0/0901_2343_amo_fixed_T001_N1_td3_bc_jax_hopper-medium-replay-v2_s0"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amld_s0_iql_amo_lr1e3_beta10__b4387e16",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amld_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amld_s0_iql_amo_lr1e3_beta1__f9d84bfb",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amld_s0_iql_amo_lr1e3_beta5__8991efd6",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amld_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amld_s1_iql_amo_lr1e3_beta1__15552df1",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amld_s2_iql_amo_lr1e3_beta1__8f05b04a",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amld_s3_iql_amo_lr1e3_beta1__6ed67082",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amlp_s0_iql_amo_lr1e3_beta10__797e6924",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amlp_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amlp_s0_iql_amo_lr1e3_beta1__c5260f3f",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amlp_s0_iql_amo_lr1e3_beta5__4758ec6d",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amlp_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amlp_s1_iql_amo_lr1e3_beta1__7a693073",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amlp_s2_iql_amo_lr1e3_beta1__76364512",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amlp_s3_iql_amo_lr1e3_beta1__f9679d76",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammd_s0_iql_amo_lr1e3_beta10__5de7e116",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_ammd_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammd_s0_iql_amo_lr1e3_beta1__d9cb81b9",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammd_s0_iql_amo_lr1e3_beta5__7cec0746",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_ammd_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammd_s1_iql_amo_lr1e3_beta1__6c560674",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammd_s2_iql_amo_lr1e3_beta1__3f121157",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammd_s3_iql_amo_lr1e3_beta1__911b57ef",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammp_s0_iql_amo_lr1e3_beta10__f6b680a3",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_ammp_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammp_s0_iql_amo_lr1e3_beta1__9a1fb0a3",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammp_s0_iql_amo_lr1e3_beta5__d1108c62",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_ammp_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammp_s1_iql_amo_lr1e3_beta1__6df84861",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammp_s2_iql_amo_lr1e3_beta1__06f82cb8",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "ammp_s3_iql_amo_lr1e3_beta1__34065da8",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amu_s0_iql_amo_lr1e3_beta10__88436bec",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amu_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amu_s0_iql_amo_lr1e3_beta1__6ae76e26",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amu_s0_iql_amo_lr1e3_beta5__9de0f5b6",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amu_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amu_s1_iql_amo_lr1e3_beta1__54f74dcc",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amu_s2_iql_amo_lr1e3_beta1__0c965c16",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amu_s3_iql_amo_lr1e3_beta1__669ca0eb",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amud_s0_iql_amo_lr1e3_beta10__aa4b7ad6",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amud_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amud_s0_iql_amo_lr1e3_beta1__3a264635",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amud_s0_iql_amo_lr1e3_beta5__4a52de55",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amud_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amud_s1_iql_amo_lr1e3_beta1__f1f9210b",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amud_s2_iql_amo_lr1e3_beta1__6a561415",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "amud_s3_iql_amo_lr1e3_beta1__aeb593b6",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcm_s0_iql_amo_lr1e3_beta10__2fe1b054",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_hc-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcm_s0_iql_amo_lr1e3_beta1__1028c9ea",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcm_s0_iql_amo_lr1e3_beta5__8479a86c",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcm_s1_iql_amo_lr1e3_beta1__c306b2dd",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcm_s2_iql_amo_lr1e3_beta1__dfab8745",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcm_s3_iql_amo_lr1e3_beta1__6e7a7917",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcmr_s0_iql_amo_lr1e3_beta10__8f094a26",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_hc-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcmr_s0_iql_amo_lr1e3_beta1__58ca7436",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcmr_s0_iql_amo_lr1e3_beta5__50e4f37d",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcmr_s1_iql_amo_lr1e3_beta1__f529c686",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcmr_s2_iql_amo_lr1e3_beta1__121c300b",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hcmr_s3_iql_amo_lr1e3_beta1__aa347717",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hme_s0_iql_amo_lr1e3_beta10__41a95442",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_hc-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hme_s0_iql_amo_lr1e3_beta1__4f4daab7",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hme_s0_iql_amo_lr1e3_beta5__f4aa60fb",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hme_s1_iql_amo_lr1e3_beta1__4cf535d4",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hme_s2_iql_amo_lr1e3_beta1__9bb769df",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hme_s3_iql_amo_lr1e3_beta1__4478ce51",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopm_s0_iql_amo_lr1e3_beta10__78b5fdfb",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_h-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopm_s0_iql_amo_lr1e3_beta1__5ee35a14",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopm_s0_iql_amo_lr1e3_beta5__1ef9d5b7",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopm_s1_iql_amo_lr1e3_beta1__e237cb2c",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopm_s2_iql_amo_lr1e3_beta1__1f4535fb",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopm_s3_iql_amo_lr1e3_beta1__23711131",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopme_s0_iql_amo_lr1e3_beta10__3f8fc7aa",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_h-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopme_s0_iql_amo_lr1e3_beta1__0ed6b33a",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopme_s0_iql_amo_lr1e3_beta5__87e12d6f",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopme_s1_iql_amo_lr1e3_beta1__7ca54288",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopme_s2_iql_amo_lr1e3_beta1__dce5a0ae",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopme_s3_iql_amo_lr1e3_beta1__d38738e0",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopmr_s0_iql_amo_lr1e3_beta10__54b69170",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_h-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopmr_s0_iql_amo_lr1e3_beta1__e6da08b4",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopmr_s0_iql_amo_lr1e3_beta5__b4df0cee",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopmr_s1_iql_amo_lr1e3_beta1__8911ddec",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopmr_s2_iql_amo_lr1e3_beta1__6dde8997",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hopmr_s3_iql_amo_lr1e3_beta1__6aa24559",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wm_s0_iql_amo_lr1e3_beta10__56f51c21",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_w-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wm_s0_iql_amo_lr1e3_beta1__732665b7",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wm_s0_iql_amo_lr1e3_beta5__2d7e716e",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-m_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wm_s1_iql_amo_lr1e3_beta1__6d73c3e8",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wm_s2_iql_amo_lr1e3_beta1__d6472702",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wm_s3_iql_amo_lr1e3_beta1__c7013202",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wme_s0_iql_amo_lr1e3_beta10__a8439d10",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_w-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wme_s0_iql_amo_lr1e3_beta1__834314cb",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wme_s0_iql_amo_lr1e3_beta5__145a69b8",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-me_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wme_s1_iql_amo_lr1e3_beta1__3d8187d6",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wme_s2_iql_amo_lr1e3_beta1__c81ed1ed",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wme_s3_iql_amo_lr1e3_beta1__c1e2f07e",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wmr_s0_iql_amo_lr1e3_beta10__01808782",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_w-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wmr_s0_iql_amo_lr1e3_beta1__0d0c440e",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wmr_s0_iql_amo_lr1e3_beta5__cc981eee",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-mr_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wmr_s1_iql_amo_lr1e3_beta1__3bdaa7e6",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wmr_s2_iql_amo_lr1e3_beta1__d8041023",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "wmr_s3_iql_amo_lr1e3_beta1__07592576",
+      "source_path": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorc_s0_td3_amo_T1_Tlr1e3__609b5c2c",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorc_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorc_s1_td3_amo_T1_Tlr1e3__e8e7fbd9",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorc_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorc_s2_td3_amo_T1_Tlr1e3__94ed9433",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorc_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorc_s3_td3_amo_T1_Tlr1e3__8d7dc79d",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorc_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doore_s0_td3_amo_T1_Tlr1e3__e5283967",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doore_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doore_s1_td3_amo_T1_Tlr1e3__86e17e3c",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doore_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doore_s2_td3_amo_T1_Tlr1e3__c418a69e",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doore_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doore_s3_td3_amo_T1_Tlr1e3__7f20e0cc",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doore_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorh_s0_td3_amo_T1_Tlr1e3__b7e4d01d",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorh_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorh_s1_td3_amo_T1_Tlr1e3__a60292b4",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorh_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorh_s2_td3_amo_T1_Tlr1e3__4116b861",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorh_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "doorh_s3_td3_amo_T1_Tlr1e3__93d10cc2",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/doorh_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamc_s0_td3_amo_T1_Tlr1e3__04d8a5a2",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamc_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamc_s1_td3_amo_T1_Tlr1e3__3587078f",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamc_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamc_s2_td3_amo_T1_Tlr1e3__db5c3673",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamc_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamc_s3_td3_amo_T1_Tlr1e3__9dbbc618",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamc_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hame_s0_td3_amo_T1_Tlr1e3__6aa56f51",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hame_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hame_s1_td3_amo_T1_Tlr1e3__b91ba047",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hame_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hame_s2_td3_amo_T1_Tlr1e3__43901005",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hame_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hame_s3_td3_amo_T1_Tlr1e3__2d1f3f7b",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hame_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamh_s0_td3_amo_T1_Tlr1e3__26a54c54",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamh_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamh_s1_td3_amo_T1_Tlr1e3__dc9d82f7",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamh_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamh_s2_td3_amo_T1_Tlr1e3__14bf5bc2",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamh_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "hamh_s3_td3_amo_T1_Tlr1e3__0ee4d03e",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/hamh_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penc_s0_td3_amo_T1_Tlr1e3__d35a36f5",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penc_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penc_s1_td3_amo_T1_Tlr1e3__dca22015",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penc_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penc_s2_td3_amo_T1_Tlr1e3__c9343e31",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penc_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penc_s3_td3_amo_T1_Tlr1e3__3ba3983d",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penc_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "pene_s0_td3_amo_T1_Tlr1e3__c708e625",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/pene_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "pene_s1_td3_amo_T1_Tlr1e3__81c50a33",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/pene_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "pene_s2_td3_amo_T1_Tlr1e3__88a22d99",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/pene_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "pene_s3_td3_amo_T1_Tlr1e3__912adaaf",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/pene_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penh_s0_td3_amo_T1_Tlr1e3__e8fbaf83",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penh_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penh_s1_td3_amo_T1_Tlr1e3__2ca180f8",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penh_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penh_s2_td3_amo_T1_Tlr1e3__1204c44c",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penh_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "penh_s3_td3_amo_T1_Tlr1e3__ae5b19b5",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/penh_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relc_s0_td3_amo_T1_Tlr1e3__8f37013e",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relc_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relc_s1_td3_amo_T1_Tlr1e3__7b09370f",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relc_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relc_s2_td3_amo_T1_Tlr1e3__7b03c056",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relc_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relc_s3_td3_amo_T1_Tlr1e3__a6560e56",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relc_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "rele_s0_td3_amo_T1_Tlr1e3__86d92db5",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/rele_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "rele_s1_td3_amo_T1_Tlr1e3__60b3642f",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/rele_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "rele_s2_td3_amo_T1_Tlr1e3__4c47cd94",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/rele_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "rele_s3_td3_amo_T1_Tlr1e3__a1adfc92",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/rele_s3/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relh_s0_td3_amo_T1_Tlr1e3__f709021d",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relh_s0/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relh_s1_td3_amo_T1_Tlr1e3__6daabaa5",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relh_s1/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relh_s2_td3_amo_T1_Tlr1e3__ca460a03",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relh_s2/run"
+    },
+    {
+      "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+      "run_id": "relh_s3_td3_amo_T1_Tlr1e3__0238c2fe",
+      "source_path": "/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs/relh_s3/run"
+    }
+  ],
+  "snapshot_commit": "6a27aa8936e8212623d137f3008282302b8f4074"
+}

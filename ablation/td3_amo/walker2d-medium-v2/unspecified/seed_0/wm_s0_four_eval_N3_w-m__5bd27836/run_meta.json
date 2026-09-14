@@ -1,0 +1,48 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "eval.jsonl",
+    "metrics.jsonl",
+    "config.yaml"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_w-m_s0/checkpoint_999999.pt",
+  "classification_reasons": [
+    "method_variant:four_eval_fixed_n",
+    "initial_scale_not_1",
+    "critic_architecture",
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-12T22:59:46+09:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "four_eval_fixed_n",
+  "final_score": 90.40309783886768,
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO-adaptive-t-four-eval-v1"
+  },
+  "last_eval_step": 635000,
+  "layout_version": 2,
+  "legacy_name": "four_eval_N3_w-m_s0",
+  "meta_lr": null,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/four_eval_fixed_n/wm_s0_four_eval_N3_w-m__5bd27836",
+  "rel_path": "ablation/td3_amo/walker2d-medium-v2/unspecified/seed_0/wm_s0_four_eval_N3_w-m__5bd27836",
+  "run_id": "wm_s0_four_eval_N3_w-m__5bd27836",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "noise_clip": 0.5,
+    "normalize_reward": false,
+    "seed": 0
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results_four_eval/four_eval_N3_w-m_s0",
+  "variant": "four_eval_N3_w-m"
+}

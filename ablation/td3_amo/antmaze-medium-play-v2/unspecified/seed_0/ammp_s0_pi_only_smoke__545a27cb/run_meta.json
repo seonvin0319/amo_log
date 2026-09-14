@@ -1,0 +1,55 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/home/svcho/amo/results_pi_only_antmaze/ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb/checkpoint_999999.pt",
+  "classification_reasons": [
+    "method_variant:pi_only",
+    "initial_scale_not_1",
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-12T22:59:46+09:00",
+  "env": "antmaze-medium-play-v2",
+  "env_short": "ammp",
+  "family": "pi_only",
+  "git": {
+    "code_commit": null,
+    "code_repo": "amo"
+  },
+  "layout_version": 2,
+  "legacy_name": "ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb",
+  "meta_lr": null,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/pi_only/ammp_s0_pi_only_smoke__545a27cb",
+  "rel_path": "ablation/td3_amo/antmaze-medium-play-v2/unspecified/seed_0/ammp_s0_pi_only_smoke__545a27cb",
+  "run_id": "ammp_s0_pi_only_smoke__545a27cb",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "alpha": 2.5,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-medium-play-v2",
+    "eval_freq": 2500,
+    "group": "pi_only_antmaze",
+    "l3_mode": "pi_only",
+    "loss_function": 4,
+    "max_timesteps": 5000,
+    "name": "ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "ASPC_PI_L3",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results_pi_only_antmaze/ammp_s0_pi_only_smoke-antmaze-medium-play-v2-545a27cb",
+  "variant": "pi_only_smoke"
+}
