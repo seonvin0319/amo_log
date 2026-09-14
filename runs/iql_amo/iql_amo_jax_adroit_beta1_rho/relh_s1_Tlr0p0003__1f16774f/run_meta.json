@@ -6,7 +6,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho3em4_s1",
-  "collected_at": "2026-09-14T01:54:55+00:00",
+  "collected_at": "2026-09-14T02:05:09+00:00",
   "env": "relocate-human-v1",
   "env_short": "relh",
   "family": "iql_amo_jax_adroit_beta1_rho",
