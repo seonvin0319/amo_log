@@ -1,0 +1,1291 @@
+{
+  "actor_lr": 0.0003,
+  "at": "2026-09-14T10:11:24.556946+09:00",
+  "beta_initial": 1.0,
+  "by_rho": {
+    "2e-3": {
+      "antmaze": [
+        {
+          "env": "antmaze-umaze-v2",
+          "four_seed_complete": false,
+          "mean": 81.33333333333333,
+          "mean_pm_std": "--",
+          "median": 82.0,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-umaze-v2",
+              "score": 76.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-v2",
+              "score": 86.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-umaze-v2",
+              "score": 82.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 5.033222956847166
+        },
+        {
+          "env": "antmaze-umaze-diverse-v2",
+          "four_seed_complete": false,
+          "mean": 62.666666666666664,
+          "mean_pm_std": "--",
+          "median": 64.0,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-umaze-diverse-v2",
+              "score": 54.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-diverse-v2",
+              "score": 64.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-umaze-diverse-v2",
+              "score": 70.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 8.082903768654761
+        },
+        {
+          "env": "antmaze-medium-play-v2",
+          "four_seed_complete": false,
+          "mean": 73.33333333333333,
+          "mean_pm_std": "--",
+          "median": 72.0,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-medium-play-v2",
+              "score": 72.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-medium-play-v2",
+              "score": 76.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-medium-play-v2",
+              "score": 72.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 2.3094010767585034
+        },
+        {
+          "env": "antmaze-medium-diverse-v2",
+          "four_seed_complete": false,
+          "mean": 63.333333333333336,
+          "mean_pm_std": "--",
+          "median": 62.0,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-medium-diverse-v2",
+              "score": 66.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-medium-diverse-v2",
+              "score": 62.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-medium-diverse-v2",
+              "score": 62.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 2.309401076758503
+        },
+        {
+          "env": "antmaze-large-play-v2",
+          "four_seed_complete": false,
+          "mean": 34.666666666666664,
+          "mean_pm_std": "--",
+          "median": 38.0,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-large-play-v2",
+              "score": 40.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-large-play-v2",
+              "score": 38.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-large-play-v2",
+              "score": 26.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 7.571877794400365
+        },
+        {
+          "env": "antmaze-large-diverse-v2",
+          "four_seed_complete": false,
+          "mean": 12.666666666666666,
+          "mean_pm_std": "--",
+          "median": 14.000000000000002,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-large-diverse-v2",
+              "score": 10.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-large-diverse-v2",
+              "score": 14.000000000000002,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-large-diverse-v2",
+              "score": 14.000000000000002,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 2.3094010767585043
+        }
+      ],
+      "locomotion": [
+        {
+          "env": "halfcheetah-medium-v2",
+          "four_seed_complete": false,
+          "mean": 48.43828944222329,
+          "mean_pm_std": "--",
+          "median": 48.47366713906517,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-v2",
+              "score": 48.509949346539976,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-v2",
+              "score": 48.47366713906517,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-v2",
+              "score": 48.331251841064685,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.09445573403002414
+        },
+        {
+          "env": "halfcheetah-medium-replay-v2",
+          "four_seed_complete": false,
+          "mean": 44.37086260317658,
+          "mean_pm_std": "--",
+          "median": 44.35470118524286,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-replay-v2",
+              "score": 43.98495925218931,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-replay-v2",
+              "score": 44.35470118524286,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-replay-v2",
+              "score": 44.77292737209756,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.3942325875294389
+        },
+        {
+          "env": "halfcheetah-medium-expert-v2",
+          "four_seed_complete": false,
+          "mean": 90.8956742283703,
+          "mean_pm_std": "--",
+          "median": 90.95493061855137,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-expert-v2",
+              "score": 92.06498799796388,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-expert-v2",
+              "score": 89.66710406859563,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-expert-v2",
+              "score": 90.95493061855137,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 1.2000397178900357
+        },
+        {
+          "env": "hopper-medium-v2",
+          "four_seed_complete": false,
+          "mean": 57.76627874254922,
+          "mean_pm_std": "--",
+          "median": 57.85529167359626,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-v2",
+              "score": 57.16529990536874,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-v2",
+              "score": 58.278244648682644,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-v2",
+              "score": 57.85529167359626,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.5617864156756572
+        },
+        {
+          "env": "hopper-medium-replay-v2",
+          "four_seed_complete": false,
+          "mean": 100.53718189345186,
+          "mean_pm_std": "--",
+          "median": 100.472641214679,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-replay-v2",
+              "score": 99.66145893627258,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-replay-v2",
+              "score": 101.47744552940398,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-replay-v2",
+              "score": 100.472641214679,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.9097120154315824
+        },
+        {
+          "env": "hopper-medium-expert-v2",
+          "four_seed_complete": false,
+          "mean": 94.43209427847542,
+          "mean_pm_std": "--",
+          "median": 107.37069772124148,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-expert-v2",
+              "score": 107.37069772124148,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-expert-v2",
+              "score": 109.6755813386236,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-expert-v2",
+              "score": 66.2500037755612,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 24.433599631619067
+        },
+        {
+          "env": "walker2d-medium-v2",
+          "four_seed_complete": false,
+          "mean": 79.35814869676763,
+          "mean_pm_std": "--",
+          "median": 78.48792641145876,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-v2",
+              "score": 78.48792641145876,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-v2",
+              "score": 75.27592494543758,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-v2",
+              "score": 84.31059473340653,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 4.579768516398604
+        },
+        {
+          "env": "walker2d-medium-replay-v2",
+          "four_seed_complete": false,
+          "mean": 77.17937878837664,
+          "mean_pm_std": "--",
+          "median": 77.78243470152968,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-replay-v2",
+              "score": 78.96160236243016,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-replay-v2",
+              "score": 77.78243470152968,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-replay-v2",
+              "score": 74.79409930117009,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 2.148203381245508
+        },
+        {
+          "env": "walker2d-medium-expert-v2",
+          "four_seed_complete": false,
+          "mean": 111.32872151519348,
+          "mean_pm_std": "--",
+          "median": 110.61606193670465,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.002,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-expert-v2",
+              "score": 110.61606193670465,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-expert-v2",
+              "score": 110.10303342274335,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-expert-v2",
+              "score": 113.26706918613243,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 1.6981440852030731
+        }
+      ],
+      "n_four_seed_ant": 0,
+      "n_four_seed_loco": 0,
+      "rho_lr": 0.002
+    },
+    "3e-4": {
+      "antmaze": [
+        {
+          "env": "antmaze-umaze-v2",
+          "four_seed_complete": true,
+          "mean": 69.5,
+          "mean_pm_std": "69.50 \u00b1 7.55",
+          "median": 70.0,
+          "median_str": "70.00",
+          "missing_seeds": [],
+          "n": 4,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "0": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-umaze-v2",
+              "score": 60.0,
+              "status": "evaluation_valid",
+              "tree": "jax_remainder"
+            },
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-umaze-v2",
+              "score": 68.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-umaze-v2",
+              "score": 78.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-umaze-v2",
+              "score": 72.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 7.54983443527075
+        },
+        {
+          "env": "antmaze-umaze-diverse-v2",
+          "four_seed_complete": true,
+          "mean": 55.0,
+          "mean_pm_std": "55.00 \u00b1 11.14",
+          "median": 53.0,
+          "median_str": "53.00",
+          "missing_seeds": [],
+          "n": 4,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "0": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-umaze-diverse-v2",
+              "score": 70.0,
+              "status": "evaluation_valid",
+              "tree": "jax_remainder"
+            },
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-umaze-diverse-v2",
+              "score": 44.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-umaze-diverse-v2",
+              "score": 50.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-umaze-diverse-v2",
+              "score": 56.00000000000001,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 11.135528725660043
+        },
+        {
+          "env": "antmaze-medium-play-v2",
+          "four_seed_complete": true,
+          "mean": 65.5,
+          "mean_pm_std": "65.50 \u00b1 4.12",
+          "median": 65.0,
+          "median_str": "65.00",
+          "missing_seeds": [],
+          "n": 4,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "0": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-medium-play-v2",
+              "score": 62.0,
+              "status": "evaluation_valid",
+              "tree": "jax_remainder"
+            },
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-medium-play-v2",
+              "score": 62.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-medium-play-v2",
+              "score": 70.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-medium-play-v2",
+              "score": 68.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 4.123105625617661
+        },
+        {
+          "env": "antmaze-medium-diverse-v2",
+          "four_seed_complete": true,
+          "mean": 63.5,
+          "mean_pm_std": "63.50 \u00b1 7.72",
+          "median": 63.0,
+          "median_str": "63.00",
+          "missing_seeds": [],
+          "n": 4,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "0": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-medium-diverse-v2",
+              "score": 56.00000000000001,
+              "status": "evaluation_valid",
+              "tree": "jax_remainder"
+            },
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-medium-diverse-v2",
+              "score": 72.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-medium-diverse-v2",
+              "score": 68.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-medium-diverse-v2",
+              "score": 57.99999999999999,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 7.724420150837644
+        },
+        {
+          "env": "antmaze-large-play-v2",
+          "four_seed_complete": true,
+          "mean": 30.0,
+          "mean_pm_std": "30.00 \u00b1 5.42",
+          "median": 32.0,
+          "median_str": "32.00",
+          "missing_seeds": [],
+          "n": 4,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "0": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-large-play-v2",
+              "score": 22.0,
+              "status": "evaluation_valid",
+              "tree": "jax_remainder"
+            },
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-large-play-v2",
+              "score": 32.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-large-play-v2",
+              "score": 34.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-large-play-v2",
+              "score": 32.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 5.41602560309064
+        },
+        {
+          "env": "antmaze-large-diverse-v2",
+          "four_seed_complete": true,
+          "mean": 19.5,
+          "mean_pm_std": "19.50 \u00b1 3.79",
+          "median": 21.0,
+          "median_str": "21.00",
+          "missing_seeds": [],
+          "n": 4,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "0": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-large-diverse-v2",
+              "score": 22.0,
+              "status": "evaluation_valid",
+              "tree": "jax_remainder"
+            },
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-large-diverse-v2",
+              "score": 22.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-large-diverse-v2",
+              "score": 20.0,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-large-diverse-v2",
+              "score": 14.000000000000002,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 3.785938897200182
+        }
+      ],
+      "locomotion": [
+        {
+          "env": "halfcheetah-medium-v2",
+          "four_seed_complete": false,
+          "mean": 48.5197047235259,
+          "mean_pm_std": "--",
+          "median": 48.49756735380406,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-v2",
+              "score": 48.65131438833655,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-v2",
+              "score": 48.4102324284371,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-v2",
+              "score": 48.49756735380406,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.12205603303766538
+        },
+        {
+          "env": "halfcheetah-medium-replay-v2",
+          "four_seed_complete": false,
+          "mean": 44.13359563988053,
+          "mean_pm_std": "--",
+          "median": 44.33495156259847,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-replay-v2",
+              "score": 44.33495156259847,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-replay-v2",
+              "score": 44.71906388437935,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-replay-v2",
+              "score": 43.3467714726638,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.7079581707440177
+        },
+        {
+          "env": "halfcheetah-medium-expert-v2",
+          "four_seed_complete": false,
+          "mean": 90.43284070171366,
+          "mean_pm_std": "--",
+          "median": 90.43086942464005,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-expert-v2",
+              "score": 91.1751734769474,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-expert-v2",
+              "score": 90.43086942464005,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-expert-v2",
+              "score": 89.69247920355356,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.7413491023389065
+        },
+        {
+          "env": "hopper-medium-v2",
+          "four_seed_complete": false,
+          "mean": 58.79376706734476,
+          "mean_pm_std": "--",
+          "median": 58.69535005355527,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-v2",
+              "score": 58.487299030447616,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-v2",
+              "score": 58.69535005355527,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-v2",
+              "score": 59.19865211803138,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.3657461349845944
+        },
+        {
+          "env": "hopper-medium-replay-v2",
+          "four_seed_complete": false,
+          "mean": 97.5318063582284,
+          "mean_pm_std": "--",
+          "median": 97.25310502408963,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-replay-v2",
+              "score": 94.19651336761368,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-replay-v2",
+              "score": 97.25310502408963,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-replay-v2",
+              "score": 101.14580068298187,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 3.483016562280801
+        },
+        {
+          "env": "hopper-medium-expert-v2",
+          "four_seed_complete": false,
+          "mean": 91.63802274882632,
+          "mean_pm_std": "--",
+          "median": 108.66351462618363,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-expert-v2",
+              "score": 111.96748061513289,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-expert-v2",
+              "score": 108.66351462618363,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-expert-v2",
+              "score": 54.283073005162464,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 32.39248756390551
+        },
+        {
+          "env": "walker2d-medium-v2",
+          "four_seed_complete": false,
+          "mean": 81.1447602734828,
+          "mean_pm_std": "--",
+          "median": 83.09796055629425,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-v2",
+              "score": 76.4225142631907,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-v2",
+              "score": 83.91380600096345,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-v2",
+              "score": 83.09796055629425,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 4.109879132491196
+        },
+        {
+          "env": "walker2d-medium-replay-v2",
+          "four_seed_complete": false,
+          "mean": 75.7954204284271,
+          "mean_pm_std": "--",
+          "median": 77.64149826135704,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-replay-v2",
+              "score": 79.69133124676021,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-replay-v2",
+              "score": 77.64149826135704,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-replay-v2",
+              "score": 70.05343177716404,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 5.077231437549116
+        },
+        {
+          "env": "walker2d-medium-expert-v2",
+          "four_seed_complete": false,
+          "mean": 111.12688288334283,
+          "mean_pm_std": "--",
+          "median": 111.14922249262096,
+          "median_str": "--",
+          "missing_seeds": [
+            0
+          ],
+          "n": 3,
+          "rho_lr": 0.0003,
+          "scores_by_seed": {
+            "1": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-expert-v2",
+              "score": 111.14922249262096,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "2": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-expert-v2",
+              "score": 110.61938834384605,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            },
+            "3": {
+              "backend": "jax",
+              "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-expert-v2",
+              "score": 111.61203781356149,
+              "status": "evaluation_valid",
+              "tree": "beta1_seeds123"
+            }
+          },
+          "std_sample": 0.49670165697187507
+        }
+      ],
+      "n_four_seed_ant": 6,
+      "n_four_seed_loco": 0,
+      "rho_lr": 0.0003
+    }
+  },
+  "critic_lr": 0.0003,
+  "missing_seed0": [
+    {
+      "env": "halfcheetah-medium-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "halfcheetah-medium-replay-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "halfcheetah-medium-expert-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "hopper-medium-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "hopper-medium-replay-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "hopper-medium-expert-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "walker2d-medium-replay-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "walker2d-medium-expert-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.0003
+    },
+    {
+      "env": "halfcheetah-medium-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "halfcheetah-medium-replay-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "halfcheetah-medium-expert-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "hopper-medium-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "hopper-medium-replay-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "hopper-medium-expert-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "walker2d-medium-replay-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "walker2d-medium-expert-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "antmaze-umaze-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "antmaze-umaze-diverse-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "antmaze-medium-play-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "antmaze-medium-diverse-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "antmaze-large-play-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    },
+    {
+      "env": "antmaze-large-diverse-v2",
+      "reason": "no_jax_beta1_seed0_run",
+      "rho_lr": 0.002
+    }
+  ],
+  "note": "Distinct from svcho default actor_lr=1e-3. Torch/CORL seed0 is NOT merged into these JAX cells.",
+  "protocol": "final50_singlepass_v1",
+  "value_lr": 0.0003
+}
