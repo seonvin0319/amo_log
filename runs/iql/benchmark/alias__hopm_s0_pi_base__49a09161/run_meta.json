@@ -1,7 +1,7 @@
 {
   "alias_of": "hopm_s0_default__49a09161",
   "canonical_rel_path": "runs/iql/benchmark/hopm_s0_default__49a09161",
-  "collected_at": "2026-09-14T14:20:02+09:00",
+  "collected_at": "2026-09-14T14:30:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `hopm_s0_default__49a09161`, map stale variant id `hopm_s0_pi_base__49a09161` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-v2/seed_0",
