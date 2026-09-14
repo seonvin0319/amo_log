@@ -1,570 +1,765 @@
 {
   "actor_lr": 0.0003,
-  "at": "2026-09-14T10:11:24.556946+09:00",
+  "at": "2026-09-14T10:23:51.391408+09:00",
   "beta_initial": 1.0,
   "by_rho": {
     "2e-3": {
       "antmaze": [
         {
           "env": "antmaze-umaze-v2",
-          "four_seed_complete": false,
-          "mean": 81.33333333333333,
-          "mean_pm_std": "--",
-          "median": 82.0,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 70.5,
+          "mean_pm_std": "70.50 \u00b1 22.05",
+          "median": 79.0,
+          "median_str": "79.00",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "antmaze_100",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-umaze-v2",
+              "score": 38.0,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-umaze-v2",
               "score": 76.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-v2",
               "score": 86.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-umaze-v2",
               "score": 82.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 5.033222956847166
+          "std_sample": 22.052966542697455
         },
         {
           "env": "antmaze-umaze-diverse-v2",
-          "four_seed_complete": false,
-          "mean": 62.666666666666664,
-          "mean_pm_std": "--",
-          "median": 64.0,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 62.25,
+          "mean_pm_std": "62.25 \u00b1 6.65",
+          "median": 62.5,
+          "median_str": "62.50",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "antmaze_100",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-umaze-diverse-v2",
+              "score": 61.0,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-umaze-diverse-v2",
               "score": 54.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-umaze-diverse-v2",
               "score": 64.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-umaze-diverse-v2",
               "score": 70.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 8.082903768654761
+          "std_sample": 6.652067347825035
         },
         {
           "env": "antmaze-medium-play-v2",
-          "four_seed_complete": false,
-          "mean": 73.33333333333333,
-          "mean_pm_std": "--",
-          "median": 72.0,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 74.25,
+          "mean_pm_std": "74.25 \u00b1 2.63",
+          "median": 74.0,
+          "median_str": "74.00",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "antmaze_100",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-medium-play-v2",
+              "score": 77.0,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-medium-play-v2",
               "score": 72.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-medium-play-v2",
               "score": 76.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-medium-play-v2",
               "score": 72.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 2.3094010767585034
+          "std_sample": 2.6299556396765835
         },
         {
           "env": "antmaze-medium-diverse-v2",
-          "four_seed_complete": false,
-          "mean": 63.333333333333336,
-          "mean_pm_std": "--",
-          "median": 62.0,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 64.5,
+          "mean_pm_std": "64.50 \u00b1 3.00",
+          "median": 64.0,
+          "median_str": "64.00",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "antmaze_100",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-medium-diverse-v2",
+              "score": 68.0,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-medium-diverse-v2",
               "score": 66.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-medium-diverse-v2",
               "score": 62.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-medium-diverse-v2",
               "score": 62.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 2.309401076758503
+          "std_sample": 3.0
         },
         {
           "env": "antmaze-large-play-v2",
-          "four_seed_complete": false,
-          "mean": 34.666666666666664,
-          "mean_pm_std": "--",
-          "median": 38.0,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 33.75,
+          "mean_pm_std": "33.75 \u00b1 6.45",
+          "median": 34.5,
+          "median_str": "34.50",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "antmaze_100",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-large-play-v2",
+              "score": 31.0,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-large-play-v2",
               "score": 40.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-large-play-v2",
               "score": 38.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-large-play-v2",
               "score": 26.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 7.571877794400365
+          "std_sample": 6.4485140407177015
         },
         {
           "env": "antmaze-large-diverse-v2",
-          "four_seed_complete": false,
-          "mean": 12.666666666666666,
-          "mean_pm_std": "--",
+          "four_seed_complete": true,
+          "mean": 13.75,
+          "mean_pm_std": "13.75 \u00b1 2.87",
           "median": 14.000000000000002,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "median_str": "14.00",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "antmaze_100",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-large-diverse-v2",
+              "score": 17.0,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-large-diverse-v2",
               "score": 10.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/antmaze-large-diverse-v2",
               "score": 14.000000000000002,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/antmaze-large-diverse-v2",
               "score": 14.000000000000002,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 2.3094010767585043
+          "std_sample": 2.8722813232690143
         }
       ],
       "locomotion": [
         {
           "env": "halfcheetah-medium-v2",
-          "four_seed_complete": false,
-          "mean": 48.43828944222329,
-          "mean_pm_std": "--",
-          "median": 48.47366713906517,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 48.43676628823863,
+          "mean_pm_std": "48.44 \u00b1 0.08",
+          "median": 48.45293198267494,
+          "median_str": "48.45",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-v2",
+              "score": 48.43219682628471,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-v2",
               "score": 48.509949346539976,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-v2",
               "score": 48.47366713906517,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-v2",
               "score": 48.331251841064685,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.09445573403002414
+          "std_sample": 0.07718292418886552
         },
         {
           "env": "halfcheetah-medium-replay-v2",
-          "four_seed_complete": false,
-          "mean": 44.37086260317658,
-          "mean_pm_std": "--",
-          "median": 44.35470118524286,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 43.50242623941067,
+          "mean_pm_std": "43.50 \u00b1 1.77",
+          "median": 44.169830218716086,
+          "median_str": "44.17",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-replay-v2",
+              "score": 40.897117148112926,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-replay-v2",
               "score": 43.98495925218931,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-replay-v2",
               "score": 44.35470118524286,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-replay-v2",
               "score": 44.77292737209756,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.3942325875294389
+          "std_sample": 1.766448346359803
         },
         {
           "env": "halfcheetah-medium-expert-v2",
-          "four_seed_complete": false,
-          "mean": 90.8956742283703,
-          "mean_pm_std": "--",
-          "median": 90.95493061855137,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 91.3153319085126,
+          "mean_pm_std": "91.32 \u00b1 1.29",
+          "median": 91.50995930825763,
+          "median_str": "91.51",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-expert-v2",
+              "score": 92.57430494893953,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/halfcheetah-medium-expert-v2",
               "score": 92.06498799796388,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/halfcheetah-medium-expert-v2",
               "score": 89.66710406859563,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/halfcheetah-medium-expert-v2",
               "score": 90.95493061855137,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 1.2000397178900357
+          "std_sample": 1.290160386806782
         },
         {
           "env": "hopper-medium-v2",
-          "four_seed_complete": false,
-          "mean": 57.76627874254922,
-          "mean_pm_std": "--",
-          "median": 57.85529167359626,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 57.24497676518498,
+          "mean_pm_std": "57.24 \u00b1 1.14",
+          "median": 57.5102957894825,
+          "median_str": "57.51",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/hopper-medium-v2",
+              "score": 55.68107083309228,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-v2",
               "score": 57.16529990536874,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-v2",
               "score": 58.278244648682644,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-v2",
               "score": 57.85529167359626,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.5617864156756572
+          "std_sample": 1.1390459418480794
         },
         {
           "env": "hopper-medium-replay-v2",
-          "four_seed_complete": false,
-          "mean": 100.53718189345186,
-          "mean_pm_std": "--",
-          "median": 100.472641214679,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 100.85545742147906,
+          "mean_pm_std": "100.86 \u00b1 0.98",
+          "median": 100.97504337204148,
+          "median_str": "100.98",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/hopper-medium-replay-v2",
+              "score": 101.81028400556062,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-replay-v2",
               "score": 99.66145893627258,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-replay-v2",
               "score": 101.47744552940398,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-replay-v2",
               "score": 100.472641214679,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.9097120154315824
+          "std_sample": 0.9782200916175988
         },
         {
           "env": "hopper-medium-expert-v2",
-          "four_seed_complete": false,
-          "mean": 94.43209427847542,
-          "mean_pm_std": "--",
-          "median": 107.37069772124148,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 98.73766785248446,
+          "mean_pm_std": "98.74 \u00b1 21.73",
+          "median": 108.52313952993254,
+          "median_str": "108.52",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/hopper-medium-expert-v2",
+              "score": 111.65438857451159,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/hopper-medium-expert-v2",
               "score": 107.37069772124148,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/hopper-medium-expert-v2",
               "score": 109.6755813386236,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/hopper-medium-expert-v2",
               "score": 66.2500037755612,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 24.433599631619067
+          "std_sample": 21.729067686173828
         },
         {
           "env": "walker2d-medium-v2",
-          "four_seed_complete": false,
-          "mean": 79.35814869676763,
-          "mean_pm_std": "--",
-          "median": 78.48792641145876,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 79.84781295737855,
+          "mean_pm_std": "79.85 \u00b1 3.87",
+          "median": 79.90236607533502,
+          "median_str": "79.90",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/walker2d-medium-v2",
+              "score": 81.31680573921129,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-v2",
               "score": 78.48792641145876,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-v2",
               "score": 75.27592494543758,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-v2",
               "score": 84.31059473340653,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 4.579768516398604
+          "std_sample": 3.865480236875593
         },
         {
           "env": "walker2d-medium-replay-v2",
-          "four_seed_complete": false,
-          "mean": 77.17937878837664,
-          "mean_pm_std": "--",
-          "median": 77.78243470152968,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 80.22639179298822,
+          "mean_pm_std": "80.23 \u00b1 6.34",
+          "median": 78.37201853197992,
+          "median_str": "78.37",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/walker2d-medium-replay-v2",
+              "score": 89.367430806823,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-replay-v2",
               "score": 78.96160236243016,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-replay-v2",
               "score": 77.78243470152968,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-replay-v2",
               "score": 74.79409930117009,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 2.148203381245508
+          "std_sample": 6.341425037998292
         },
         {
           "env": "walker2d-medium-expert-v2",
-          "four_seed_complete": false,
-          "mean": 111.32872151519348,
-          "mean_pm_std": "--",
-          "median": 110.61606193670465,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 111.31683056165261,
+          "mean_pm_std": "111.32 \u00b1 1.39",
+          "median": 110.94860981886731,
+          "median_str": "110.95",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.002,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "locomotion_10",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/walker2d-medium-expert-v2",
+              "score": 111.28115770102997,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/walker2d-medium-expert-v2",
               "score": 110.61606193670465,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s2/walker2d-medium-expert-v2",
               "score": 110.10303342274335,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s3/walker2d-medium-expert-v2",
               "score": 113.26706918613243,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 1.6981440852030731
+          "std_sample": 1.3867327795377762
         }
       ],
-      "n_four_seed_ant": 0,
-      "n_four_seed_loco": 0,
+      "n_four_seed_ant": 6,
+      "n_four_seed_loco": 9,
       "rho_lr": 0.002
     },
     "3e-4": {
@@ -582,29 +777,37 @@
           "scores_by_seed": {
             "0": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-umaze-v2",
               "score": 60.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "jax_remainder"
             },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-umaze-v2",
               "score": 68.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-umaze-v2",
               "score": 78.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-umaze-v2",
               "score": 72.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
@@ -624,29 +827,37 @@
           "scores_by_seed": {
             "0": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-umaze-diverse-v2",
               "score": 70.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "jax_remainder"
             },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-umaze-diverse-v2",
               "score": 44.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-umaze-diverse-v2",
               "score": 50.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-umaze-diverse-v2",
               "score": 56.00000000000001,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
@@ -666,29 +877,37 @@
           "scores_by_seed": {
             "0": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-medium-play-v2",
               "score": 62.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "jax_remainder"
             },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-medium-play-v2",
               "score": 62.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-medium-play-v2",
               "score": 70.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-medium-play-v2",
               "score": 68.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
@@ -708,29 +927,37 @@
           "scores_by_seed": {
             "0": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-medium-diverse-v2",
               "score": 56.00000000000001,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "jax_remainder"
             },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-medium-diverse-v2",
               "score": 72.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-medium-diverse-v2",
               "score": 68.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-medium-diverse-v2",
               "score": 57.99999999999999,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
@@ -750,29 +977,37 @@
           "scores_by_seed": {
             "0": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-large-play-v2",
               "score": 22.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "jax_remainder"
             },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-large-play-v2",
               "score": 32.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-large-play-v2",
               "score": 34.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-large-play-v2",
               "score": 32.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
@@ -792,29 +1027,37 @@
           "scores_by_seed": {
             "0": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_jax_remainder/cells/rlr3e-4_b1/antmaze-large-diverse-v2",
               "score": 22.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "jax_remainder"
             },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/antmaze-large-diverse-v2",
               "score": 22.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/antmaze-large-diverse-v2",
               "score": 20.0,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/antmaze-large-diverse-v2",
               "score": 14.000000000000002,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
@@ -825,467 +1068,657 @@
       "locomotion": [
         {
           "env": "halfcheetah-medium-v2",
-          "four_seed_complete": false,
-          "mean": 48.5197047235259,
-          "mean_pm_std": "--",
-          "median": 48.49756735380406,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 48.5415023813961,
+          "mean_pm_std": "48.54 \u00b1 0.11",
+          "median": 48.55223135440537,
+          "median_str": "48.55",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/halfcheetah-medium-v2",
+              "score": 48.606895355006685,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-v2",
               "score": 48.65131438833655,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-v2",
               "score": 48.4102324284371,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-v2",
               "score": 48.49756735380406,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.12205603303766538
+          "std_sample": 0.10877653709217587
         },
         {
           "env": "halfcheetah-medium-replay-v2",
-          "four_seed_complete": false,
-          "mean": 44.13359563988053,
-          "mean_pm_std": "--",
-          "median": 44.33495156259847,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 44.06937712043643,
+          "mean_pm_std": "44.07 \u00b1 0.59",
+          "median": 44.105836562351286,
+          "median_str": "44.11",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/halfcheetah-medium-replay-v2",
+              "score": 43.8767215621041,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-replay-v2",
               "score": 44.33495156259847,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-replay-v2",
               "score": 44.71906388437935,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-replay-v2",
               "score": 43.3467714726638,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.7079581707440177
+          "std_sample": 0.5921423708088996
         },
         {
           "env": "halfcheetah-medium-expert-v2",
-          "four_seed_complete": false,
-          "mean": 90.43284070171366,
-          "mean_pm_std": "--",
-          "median": 90.43086942464005,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 89.49147327476078,
+          "mean_pm_std": "89.49 \u00b1 1.98",
+          "median": 90.0616743140968,
+          "median_str": "90.06",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/halfcheetah-medium-expert-v2",
+              "score": 86.6673709939021,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/halfcheetah-medium-expert-v2",
               "score": 91.1751734769474,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/halfcheetah-medium-expert-v2",
               "score": 90.43086942464005,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/halfcheetah-medium-expert-v2",
               "score": 89.69247920355356,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.7413491023389065
+          "std_sample": 1.977647472243419
         },
         {
           "env": "hopper-medium-v2",
-          "four_seed_complete": false,
-          "mean": 58.79376706734476,
-          "mean_pm_std": "--",
-          "median": 58.69535005355527,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 57.82631062794005,
+          "mean_pm_std": "57.83 \u00b1 1.96",
+          "median": 58.591324542001445,
+          "median_str": "58.59",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/hopper-medium-v2",
+              "score": 54.92394130972593,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-v2",
               "score": 58.487299030447616,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-v2",
               "score": 58.69535005355527,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-v2",
               "score": 59.19865211803138,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.3657461349845944
+          "std_sample": 1.957822260936874
         },
         {
           "env": "hopper-medium-replay-v2",
-          "four_seed_complete": false,
-          "mean": 97.5318063582284,
-          "mean_pm_std": "--",
-          "median": 97.25310502408963,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 97.52059764255071,
+          "mean_pm_std": "97.52 \u00b1 2.84",
+          "median": 97.37003825980366,
+          "median_str": "97.37",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/hopper-medium-replay-v2",
+              "score": 97.48697149551768,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-replay-v2",
               "score": 94.19651336761368,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-replay-v2",
               "score": 97.25310502408963,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-replay-v2",
               "score": 101.14580068298187,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 3.483016562280801
+          "std_sample": 2.843959468178737
         },
         {
           "env": "hopper-medium-expert-v2",
-          "four_seed_complete": false,
-          "mean": 91.63802274882632,
-          "mean_pm_std": "--",
-          "median": 108.66351462618363,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 83.20371201415927,
+          "mean_pm_std": "83.20 \u00b1 31.37",
+          "median": 83.28214721817088,
+          "median_str": "83.28",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/hopper-medium-expert-v2",
+              "score": 57.90077981015811,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/hopper-medium-expert-v2",
               "score": 111.96748061513289,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/hopper-medium-expert-v2",
               "score": 108.66351462618363,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/hopper-medium-expert-v2",
               "score": 54.283073005162464,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 32.39248756390551
+          "std_sample": 31.369824523909305
         },
         {
           "env": "walker2d-medium-v2",
-          "four_seed_complete": false,
-          "mean": 81.1447602734828,
-          "mean_pm_std": "--",
-          "median": 83.09796055629425,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 82.65380028209742,
+          "mean_pm_std": "82.65 \u00b1 4.51",
+          "median": 83.50588327862886,
+          "median_str": "83.51",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/walker2d-medium-v2",
+              "score": 87.18092030794125,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-v2",
               "score": 76.4225142631907,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-v2",
               "score": 83.91380600096345,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-v2",
               "score": 83.09796055629425,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 4.109879132491196
+          "std_sample": 4.513263192656662
         },
         {
           "env": "walker2d-medium-replay-v2",
-          "four_seed_complete": false,
-          "mean": 75.7954204284271,
-          "mean_pm_std": "--",
-          "median": 77.64149826135704,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 76.83986665273412,
+          "mean_pm_std": "76.84 \u00b1 4.64",
+          "median": 78.66641475405862,
+          "median_str": "78.67",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/walker2d-medium-replay-v2",
+              "score": 79.97320532565514,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-replay-v2",
               "score": 79.69133124676021,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-replay-v2",
               "score": 77.64149826135704,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-replay-v2",
               "score": 70.05343177716404,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 5.077231437549116
+          "std_sample": 4.642089081670887
         },
         {
           "env": "walker2d-medium-expert-v2",
-          "four_seed_complete": false,
-          "mean": 111.12688288334283,
-          "mean_pm_std": "--",
-          "median": 111.14922249262096,
-          "median_str": "--",
-          "missing_seeds": [
-            0
-          ],
-          "n": 3,
+          "four_seed_complete": true,
+          "mean": 110.98023105502152,
+          "mean_pm_std": "110.98 \u00b1 0.50",
+          "median": 110.88430541823351,
+          "median_str": "110.88",
+          "missing_seeds": [],
+          "n": 4,
           "rho_lr": 0.0003,
           "scores_by_seed": {
+            "0": {
+              "backend": "torch_corl",
+              "eval_protocol": "final_10x5_r4",
+              "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/walker2d-medium-expert-v2",
+              "score": 110.54027557005762,
+              "score_source": "corl_eval.jsonl:mean_normalized@1M",
+              "status": "evaluation_valid",
+              "tree": "corl_seed0"
+            },
             "1": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s1/walker2d-medium-expert-v2",
               "score": 111.14922249262096,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "2": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s2/walker2d-medium-expert-v2",
               "score": 110.61938834384605,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             },
             "3": {
               "backend": "jax",
+              "eval_protocol": null,
               "path": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr3e-4_b1/s3/walker2d-medium-expert-v2",
               "score": 111.61203781356149,
+              "score_source": "eval_final50_v1.jsonl",
               "status": "evaluation_valid",
               "tree": "beta1_seeds123"
             }
           },
-          "std_sample": 0.49670165697187507
+          "std_sample": 0.5005018072151819
         }
       ],
       "n_four_seed_ant": 6,
-      "n_four_seed_loco": 0,
+      "n_four_seed_loco": 9,
       "rho_lr": 0.0003
     }
   },
-  "critic_lr": 0.0003,
-  "missing_seed0": [
+  "corl_seed0_filled": [
     {
       "env": "halfcheetah-medium-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/halfcheetah-medium-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 48.606895355006685
     },
     {
       "env": "halfcheetah-medium-replay-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/halfcheetah-medium-replay-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 43.8767215621041
     },
     {
       "env": "halfcheetah-medium-expert-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/halfcheetah-medium-expert-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 86.6673709939021
     },
     {
       "env": "hopper-medium-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/hopper-medium-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 54.92394130972593
     },
     {
       "env": "hopper-medium-replay-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/hopper-medium-replay-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 97.48697149551768
     },
     {
       "env": "hopper-medium-expert-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/hopper-medium-expert-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 57.90077981015811
     },
     {
       "env": "walker2d-medium-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/walker2d-medium-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 87.18092030794125
     },
     {
       "env": "walker2d-medium-replay-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/walker2d-medium-replay-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 79.97320532565514
     },
     {
       "env": "walker2d-medium-expert-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.0003
+      "eval_protocol": "final_10x5_r4",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr3e-4_b1/walker2d-medium-expert-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.0003,
+      "score": 110.54027557005762
     },
     {
       "env": "halfcheetah-medium-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 48.43219682628471
     },
     {
       "env": "halfcheetah-medium-replay-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-replay-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 40.897117148112926
     },
     {
       "env": "halfcheetah-medium-expert-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/halfcheetah-medium-expert-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 92.57430494893953
     },
     {
       "env": "hopper-medium-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/hopper-medium-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 55.68107083309228
     },
     {
       "env": "hopper-medium-replay-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/hopper-medium-replay-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 101.81028400556062
     },
     {
       "env": "hopper-medium-expert-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/hopper-medium-expert-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 111.65438857451159
     },
     {
       "env": "walker2d-medium-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/walker2d-medium-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 81.31680573921129
     },
     {
       "env": "walker2d-medium-replay-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/walker2d-medium-replay-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 89.367430806823
     },
     {
       "env": "walker2d-medium-expert-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "locomotion_10",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/walker2d-medium-expert-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 111.28115770102997
     },
     {
       "env": "antmaze-umaze-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "antmaze_100",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-umaze-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 38.0
     },
     {
       "env": "antmaze-umaze-diverse-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "antmaze_100",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-umaze-diverse-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 61.0
     },
     {
       "env": "antmaze-medium-play-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "antmaze_100",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-medium-play-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 77.0
     },
     {
       "env": "antmaze-medium-diverse-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "antmaze_100",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-medium-diverse-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 68.0
     },
     {
       "env": "antmaze-large-play-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "antmaze_100",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-large-play-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 31.0
     },
     {
       "env": "antmaze-large-diverse-v2",
-      "reason": "no_jax_beta1_seed0_run",
-      "rho_lr": 0.002
+      "eval_protocol": "antmaze_100",
+      "path": "/home/ext_csh/CORL-iql-adaptive-beta-v1/results/iql_amo_bpi_s0_rlr_binit_loco9_antmaze6/cells/rlr2e-3_b1/antmaze-large-diverse-v2",
+      "policy_id": "adaptive_beta",
+      "rho_lr": 0.002,
+      "score": 17.0
     }
   ],
-  "note": "Distinct from svcho default actor_lr=1e-3. Torch/CORL seed0 is NOT merged into these JAX cells.",
+  "critic_lr": 0.0003,
+  "missing_seed0": [],
+  "note": "Distinct from svcho default actor_lr=1e-3. Seed0 may be JAX final50 (preferred) or CORL Torch adaptive_beta mean_normalized@1M when JAX seed0 is absent (code/backend mixed by request).",
   "protocol": "final50_singlepass_v1",
   "value_lr": 0.0003
 }
