@@ -1,0 +1,10 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "door-expert-v1",
+  "seed": 3,
+  "dataset_sha256": "51024e7a2a25ea6a1dd0e5bbea50441ab4571320fd3c84d1ed9c4c7119ecaa6a",
+  "python": "3.10.18",
+  "device": "cuda:0",
+  "replay_device": "cpu"
+}
