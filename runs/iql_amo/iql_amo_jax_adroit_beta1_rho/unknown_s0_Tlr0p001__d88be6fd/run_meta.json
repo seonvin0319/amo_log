@@ -1,0 +1,38 @@
+{
+  "algo": "iql_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl"
+  ],
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho1em3_s0",
+  "collected_at": "2026-09-14T00:01:29+00:00",
+  "env": "unknown",
+  "env_short": "unknown",
+  "family": "iql_amo_jax_adroit_beta1_rho",
+  "git": {
+    "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+    "code_repo": "AMO-main"
+  },
+  "legacy_name": "iqlamo_jax_door-cln_beta1_rho1em3_s0",
+  "run_id": "unknown_s0_Tlr0p001__d88be6fd",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "batch_size": 256,
+    "critic_layernorm": false,
+    "discount": 0.99,
+    "eval_freq": 20000,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_warmup_steps": 100000,
+    "normalize": true,
+    "policy_freq": 1,
+    "rho_lr": 0.001,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho1em3_s0",
+  "variant": "Tlr0p001"
+}

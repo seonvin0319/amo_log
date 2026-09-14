@@ -202,6 +202,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "td3_amo_jax",
         "nested": False,
     },
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-main",
+        "code_commit": _AMO_MAIN,
+        "family_force": "iql_amo_jax_adroit_beta1_rho",
+        "nested": False,
+    },
 ]
 
 CFG_NAMES = ("config.yaml", "effective_config.yaml")
