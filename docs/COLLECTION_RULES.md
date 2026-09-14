@@ -9,9 +9,17 @@
 | 파일 | 필수 | 설명 |
 |------|------|------|
 | `config.yaml` | 예 | 학습에 사용한 전체 TrainConfig (원본 복사) |
-| `eval.jsonl` | 가능하면 | step별 evaluation / D4RL normalized score |
+| `eval.jsonl` | 가능하면 | step별 evaluation / D4RL normalized score (레거시·중간 평가 포함, 보존) |
+| `eval_final50_v1.jsonl` | 가능하면 | 공통 최종 규격 `final50_singlepass_v1` (50 ep × 1 pass) |
 | `metrics.jsonl` | 가능하면 | step별 train metric (T, loss, bound 등) |
 | `run_meta.json` | 예 | ingest가 생성: 출처 경로, algo/family, 핵심 하이퍼, 수집 시각 |
+
+### 최종 점수 선택 (`final50_singlepass_v1`)
+
+- catalog `final_score`는 **`eval_final50_v1.jsonl`에 유효한 `protocol=final50_singlepass_v1` row가 있으면 그것을 우선**한다.
+- 조건: `episodes=50`, `episodes_per_repeat=50`, `repeats=1`, `normalized_score` 수치 존재.
+- 레거시 `eval.jsonl`(예: 10×5 repeats)은 `legacy_final_score` / artifact로 **보존**하고, 프로토콜이 다른 row를 추가 seed로 세지 않는다.
+- Torch/CORL seed0와 JAX seed1–3을 같은 4-seed 셀로 자동 묶지 않는다. backend·코드·기본 LR이 다르면 별도 집계.
 
 선택적으로 작은 텍스트만 추가 가능:
 

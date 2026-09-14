@@ -14,6 +14,27 @@ RUNS = ROOT / "runs"
 CATALOG = ROOT / "catalog"
 
 
+SCORE_KEYS = (
+    "d4rl_normalized_score",
+    "normalized_score",
+    "eval/d4rl_normalized_score",
+    "d4rl",
+    "score",
+)
+PREFERRED_EVAL_FILE = "eval_final50_v1.jsonl"
+PREFERRED_EVAL_PROTOCOL = "final50_singlepass_v1"
+
+
+def _score_from_obj(obj: Dict[str, Any]) -> Optional[float]:
+    for key in SCORE_KEYS:
+        if key in obj and obj[key] is not None:
+            try:
+                return float(obj[key])
+            except (TypeError, ValueError):
+                pass
+    return None
+
+
 def last_eval_score(eval_path: Path) -> Optional[float]:
     if not eval_path.exists() or eval_path.stat().st_size == 0:
         return None
@@ -26,18 +47,9 @@ def last_eval_score(eval_path: Path) -> Optional[float]:
             obj = json.loads(line)
         except json.JSONDecodeError:
             continue
-        for key in (
-            "d4rl_normalized_score",
-            "normalized_score",
-            "eval/d4rl_normalized_score",
-            "d4rl",
-            "score",
-        ):
-            if key in obj:
-                try:
-                    last = float(obj[key])
-                except (TypeError, ValueError):
-                    pass
+        sc = _score_from_obj(obj)
+        if sc is not None:
+            last = sc
     return last
 
 
@@ -62,14 +74,54 @@ def last_eval_step(eval_path: Path) -> Optional[int]:
     return last
 
 
+def preferred_final50(run_dir: Path) -> tuple[Optional[float], Optional[int], Optional[str]]:
+    """Return (score, step, source_label) from final50_singlepass_v1 when valid."""
+    path = run_dir / PREFERRED_EVAL_FILE
+    if not path.is_file() or path.stat().st_size == 0:
+        return None, None, None
+    last_score = None
+    last_step = None
+    for line in path.read_text(errors="ignore").splitlines():
+        if not line.strip():
+            continue
+        try:
+            obj = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if obj.get("protocol") != PREFERRED_EVAL_PROTOCOL:
+            continue
+        if int(obj.get("episodes") or 0) != 50:
+            continue
+        if int(obj.get("repeats") or 0) != 1:
+            continue
+        if int(obj.get("episodes_per_repeat") or 0) != 50:
+            continue
+        sc = _score_from_obj(obj)
+        if sc is None:
+            continue
+        last_score = sc
+        try:
+            last_step = int(obj.get("step") or 0) or None
+        except (TypeError, ValueError):
+            last_step = None
+    if last_score is None:
+        return None, None, None
+    return last_score, last_step, f"{PREFERRED_EVAL_FILE}:{PREFERRED_EVAL_PROTOCOL}"
+
+
 def build() -> None:
     CATALOG.mkdir(parents=True, exist_ok=True)
     rows: List[Dict[str, Any]] = []
     for meta_path in sorted(RUNS.glob("*/*/*/run_meta.json")):
         meta = json.loads(meta_path.read_text())
         run_dir = meta_path.parent
-        score = last_eval_score(run_dir / "eval.jsonl")
-        step = last_eval_step(run_dir / "eval.jsonl")
+        pref_score, pref_step, pref_src = preferred_final50(run_dir)
+        legacy_score = last_eval_score(run_dir / "eval.jsonl")
+        legacy_step = last_eval_step(run_dir / "eval.jsonl")
+        if pref_score is not None:
+            score, step, score_source = pref_score, pref_step, pref_src
+        else:
+            score, step, score_source = legacy_score, legacy_step, "eval.jsonl"
         settings = meta.get("settings", {})
         rows.append(
             {
@@ -77,6 +129,8 @@ def build() -> None:
                 "rel_path": str(run_dir.relative_to(ROOT)),
                 "final_score": score,
                 "last_eval_step": step,
+                "score_source": score_source,
+                "legacy_final_score": legacy_score,
                 "max_timesteps": settings.get("max_timesteps"),
             }
         )

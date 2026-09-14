@@ -16,7 +16,10 @@ from typing import Any, Dict, List, Optional
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
 
-KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl")
+KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "eval_final50_v1.jsonl")
+# Preferred final eval protocol for catalog scores when present.
+PREFERRED_EVAL_PROTOCOL = "final50_singlepass_v1"
+PREFERRED_EVAL_FILE = "eval_final50_v1.jsonl"
 
 ENV_SHORT = {
     "halfcheetah-medium-v2": "hcm",
@@ -669,7 +672,11 @@ def ingest_one(
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
 
-    present = [f for f in ("metrics.jsonl", "eval.jsonl") if (src / f).exists()]
+    present = [
+        f
+        for f in ("metrics.jsonl", "eval.jsonl", PREFERRED_EVAL_FILE)
+        if (src / f).exists()
+    ]
     src_eval_alt = src / (eval_file or "")
     has_alt_eval = bool(eval_file) and src_eval_alt.is_file()
     if not present and not has_alt_eval:
@@ -705,6 +712,11 @@ def ingest_one(
             meta["protocol"] = "corl_iql_amo_bpi_v1"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
+        if (src / PREFERRED_EVAL_FILE).is_file():
+            meta["preferred_eval"] = {
+                "file": PREFERRED_EVAL_FILE,
+                "protocol": PREFERRED_EVAL_PROTOCOL,
+            }
     if family == "paper_benchmark":
         meta["protocol"] = "aspc_paper_d4rl_benchmark"
         summary_path = src / "summary.json"

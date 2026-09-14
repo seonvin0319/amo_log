@@ -4,11 +4,12 @@
     "config.yaml",
     "metrics.jsonl",
     "eval.jsonl",
+    "eval_final50_v1.jsonl",
     "source_run_meta.json"
   ],
   "cell": "s1",
   "checkpoint_hint": "/home/ext_csh/AMO_release/results/iql_amo_bpi_beta1_rlr_seeds0to3/cells/rlr2e-3_b1/s1/antmaze-umaze-diverse-v2",
-  "collected_at": "2026-09-14T00:47:51+00:00",
+  "collected_at": "2026-09-14T00:58:05+00:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "amo_bpi",
@@ -17,6 +18,10 @@
     "code_repo": "AMO_release"
   },
   "legacy_name": "antmaze-umaze-diverse-v2",
+  "preferred_eval": {
+    "file": "eval_final50_v1.jsonl",
+    "protocol": "final50_singlepass_v1"
+  },
   "protocol": "jax_iql_amo_bpi_v1",
   "run_id": "amud_s1_smoke_iql_amo_bpi_beta1_seeds_rlr0p002_b1__e7c595a4",
   "seed": 1,
