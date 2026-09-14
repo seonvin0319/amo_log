@@ -2,20 +2,19 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl",
-    "eval.jsonl"
+    "metrics.jsonl"
   ],
   "collected_at": "2026-09-14T12:00:02+09:00",
-  "env": "hammer-expert-v1",
-  "env_short": "ham_e",
+  "env": "pen-human-v1",
+  "env_short": "pen_h",
   "family": "adroit",
   "git": {
     "code_commit": null,
     "code_repo": "AMO"
   },
   "is_alias": false,
-  "legacy_name": "ham_e_s2_td3amo",
-  "run_id": "ham_e_s2_jax_te1_tb1_Tlr0p0003__9e390104",
+  "legacy_name": "pen_h_s2_td3amo",
+  "run_id": "pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2",
   "seed": 2,
   "settings": {
     "T_B": 1.0,
@@ -26,7 +25,7 @@
     "batch_size": 256,
     "critic_lr": 0.0003,
     "discount": 0.99,
-    "env": "hammer-expert-v1",
+    "env": "pen-human-v1",
     "eval_freq": 20000,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
@@ -39,6 +38,6 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_e_s2_td3amo",
+  "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/pen_h_s2_td3amo",
   "variant": "jax_te1_tb1_Tlr0p0003"
 }
