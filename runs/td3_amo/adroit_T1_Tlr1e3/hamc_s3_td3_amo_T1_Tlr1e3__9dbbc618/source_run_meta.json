@@ -1,0 +1,10 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "hammer-cloned-v1",
+  "seed": 3,
+  "dataset_sha256": "a0bc058360467ad24cb40b259abe22b2e7855b0d71a08bda1447ba0df1b471cc",
+  "python": "3.10.18",
+  "device": "cuda:0",
+  "replay_device": "cpu"
+}
