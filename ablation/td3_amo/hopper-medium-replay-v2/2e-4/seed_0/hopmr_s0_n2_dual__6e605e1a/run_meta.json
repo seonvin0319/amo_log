@@ -12,7 +12,7 @@
     "multi_step",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-14T23:20:02+09:00",
+  "collected_at": "2026-09-14T23:26:32+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "dual_proximal",
