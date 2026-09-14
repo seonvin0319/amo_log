@@ -70,7 +70,7 @@ else
   log "remote branch origin/$BRANCH missing; will create on push"
 fi
 
-"$GIT" add runs catalog docs scripts README.md .gitignore 2>/dev/null || true
+"$GIT" add -A -- main ablation catalog docs scripts README.md .gitignore 2>/dev/null || true
 
 if "$GIT" diff --cached --quiet; then
   log "nothing to commit"
@@ -100,7 +100,7 @@ if ! "$GIT" push -u origin "HEAD:$BRANCH" >>"$LOG" 2>&1; then
       "$GIT" rebase --abort >>"$LOG" 2>&1 || true
       exit 1
     fi
-    "$GIT" add runs catalog docs scripts README.md .gitignore 2>/dev/null || true
+    "$GIT" add -A -- main ablation catalog docs scripts README.md .gitignore 2>/dev/null || true
     if ! "$GIT" diff --cached --quiet; then
       "$GIT" commit -m "collect(ext_csv): after rebase $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M %Z')" >>"$LOG" 2>&1 || true
     fi

@@ -1,0 +1,63 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te5_Tb1_s0-antmaze-medium-play-v2-615f0ea5",
+  "classification_reasons": [
+    "initial_scale_not_1"
+  ],
+  "collected_at": "2026-09-14T03:27:05+00:00",
+  "env": "antmaze-medium-play-v2",
+  "env_short": "ammp",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": "c45671c47cfae89154331e9c9dab59b9cdbc9c40",
+    "code_repo": "AMO"
+  },
+  "identity_uuid8": "615f0ea5",
+  "layout_version": 2,
+  "legacy_name": "amo_ams_med-play_Te5_Tb1_s0-antmaze-medium-play-v2-615f0ea5",
+  "meta_lr": 0.002,
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/ammp_s0_te5_tb1_Tlr0p002__615f0ea5",
+  "rel_path": "ablation/td3_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_te5_tb1_Tlr0p002__615f0ea5",
+  "run_id": "ammp_s0_te5_tb1_Tlr0p002__615f0ea5",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "T_B": 1.0,
+    "T_E": 5.0,
+    "T_freq": 10,
+    "T_lr": 0.002,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-medium-play-v2",
+    "eval_freq": 20000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te5_Tb1_s0-antmaze-medium-play-v2-615f0ea5",
+  "variant": "te5_tb1_Tlr0p002"
+}

@@ -1,0 +1,65 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "train_done.json",
+    "run_manifest.json"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hc-m_s0",
+  "classification_reasons": [
+    "method_variant:behavior_bc_l1_joint",
+    "initial_scale_not_1",
+    "critic_architecture",
+    "execution_loss",
+    "meta_lr_outside_main"
+  ],
+  "collected_at": "2026-09-14T03:27:04+00:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "behavior_bc_l1_joint",
+  "git": {
+    "code_commit": "9710464f82c4db33b95ec9d6a68d7a822228e598",
+    "code_repo": "AMO-behavior-l1-joint-v2"
+  },
+  "identity_uuid8": "66b83dd3",
+  "layout_version": 2,
+  "legacy_name": "behavior_l1_hc-m_s0",
+  "meta_lr": null,
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/behavior_bc_l1_joint/hcm_s0_joint_te4_l1e_1m_Tlr0p0001__66b83dd3",
+  "rel_path": "ablation/td3_amo/halfcheetah-medium-v2/unspecified/seed_0/hcm_s0_joint_te4_l1e_1m_Tlr0p0001__66b83dd3",
+  "run_id": "hcm_s0_joint_te4_l1e_1m_Tlr0p0001__66b83dd3",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "T_init": 4.0,
+    "actor_lr": 0.0003,
+    "algorithm_id": "behavior_bc_l1_joint_v2",
+    "batch_size": 256,
+    "critic_layernorm": false,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_policy_id": "execution",
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_warmup_steps": 100000,
+    "noise_clip": 0.0,
+    "normalize_reward": false,
+    "rho_lr": 0.0001,
+    "seed": 0
+  },
+  "source_config": "effective_config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hc-m_s0",
+  "variant": "joint_te4_l1e_1m_Tlr0p0001"
+}
