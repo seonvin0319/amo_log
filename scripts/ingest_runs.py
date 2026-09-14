@@ -38,6 +38,18 @@ ENV_SHORT = {
     "antmaze-medium-diverse-v2": "ammd",
     "antmaze-large-play-v2": "amlp",
     "antmaze-large-diverse-v2": "amld",
+    "door-human-v1": "dh",
+    "door-cloned-v1": "dc",
+    "door-expert-v1": "de",
+    "hammer-human-v1": "hh",
+    "hammer-cloned-v1": "hc",
+    "hammer-expert-v1": "he",
+    "pen-human-v1": "ph",
+    "pen-cloned-v1": "pc",
+    "pen-expert-v1": "pe",
+    "relocate-human-v1": "rh",
+    "relocate-cloned-v1": "rc",
+    "relocate-expert-v1": "re",
 }
 
 # legacy short codes that appeared in older APART directory names
@@ -157,6 +169,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "root": Path(
             "/home/shchoi/amo/results/"
             "amo_jax_ams_antmaze6_sweep_seeds1-2-3/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "AMO-jax-upstream",
+        "family_force": "adaptive_multiscale",
+    },
+    # JAX TD3+AMO Adroit-12 · T=1 init · T_lr=2e-3
+    {
+        "algo": "amo",
+        "root": Path(
+            "/home/shchoi/amo/results/"
+            "amo_jax_td3amo_adroit_t1_tlr2e3/runs"
         ),
         "host": "shchoi",
         "code_repo": "AMO-jax-upstream",
