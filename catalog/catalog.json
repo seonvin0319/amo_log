@@ -8,7 +8,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -60,7 +60,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -112,7 +112,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -164,7 +164,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -216,7 +216,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -268,7 +268,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -320,7 +320,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -372,7 +372,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -424,7 +424,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -476,7 +476,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -528,7 +528,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -580,7 +580,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -632,7 +632,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -684,7 +684,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -736,7 +736,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -788,7 +788,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -840,7 +840,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -892,7 +892,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -944,7 +944,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -996,7 +996,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1048,7 +1048,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1100,7 +1100,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1152,7 +1152,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1204,7 +1204,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1256,7 +1256,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1308,7 +1308,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1360,7 +1360,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1412,7 +1412,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1464,7 +1464,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1516,7 +1516,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1568,7 +1568,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1620,7 +1620,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1721,7 +1721,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": null,
@@ -1774,7 +1774,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1824,7 +1824,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1874,7 +1874,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1924,7 +1924,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -1974,7 +1974,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2024,7 +2024,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2075,7 +2075,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2126,7 +2126,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2177,7 +2177,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2228,7 +2228,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2279,7 +2279,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2330,7 +2330,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2381,7 +2381,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-expert-v2",
       "env_short": "hce",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2432,7 +2432,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2483,7 +2483,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2534,7 +2534,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2585,7 +2585,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2636,7 +2636,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2687,7 +2687,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2738,7 +2738,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2789,7 +2789,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2840,7 +2840,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2891,7 +2891,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2942,7 +2942,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -2993,7 +2993,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3044,7 +3044,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3095,7 +3095,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-expert-v2",
       "env_short": "hope",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3146,7 +3146,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3197,7 +3197,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3248,7 +3248,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3299,7 +3299,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3350,7 +3350,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3401,7 +3401,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:01+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3452,7 +3452,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3503,7 +3503,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3554,7 +3554,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3605,7 +3605,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3656,7 +3656,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3707,7 +3707,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3758,7 +3758,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3809,7 +3809,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-expert-v2",
       "env_short": "we",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3860,7 +3860,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3911,7 +3911,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -3962,7 +3962,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4013,7 +4013,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4064,7 +4064,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4115,7 +4115,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4166,7 +4166,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4217,7 +4217,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4268,7 +4268,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4319,7 +4319,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4370,7 +4370,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4421,7 +4421,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4472,7 +4472,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4523,7 +4523,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4574,7 +4574,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4624,7 +4624,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4674,7 +4674,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4724,7 +4724,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4774,7 +4774,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4824,7 +4824,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4874,7 +4874,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4924,7 +4924,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -4974,7 +4974,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5024,7 +5024,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5077,7 +5077,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5123,7 +5123,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5169,7 +5169,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5215,7 +5215,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5261,7 +5261,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5307,7 +5307,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5353,7 +5353,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5400,7 +5400,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5447,7 +5447,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5494,7 +5494,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5541,7 +5541,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5588,7 +5588,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5635,7 +5635,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5682,7 +5682,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5729,7 +5729,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5828,7 +5828,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5876,7 +5876,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -5924,7 +5924,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6026,7 +6026,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6074,7 +6074,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6122,7 +6122,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6224,7 +6224,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6272,7 +6272,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6320,7 +6320,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6422,7 +6422,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6470,7 +6470,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6518,7 +6518,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6566,7 +6566,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6668,7 +6668,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6716,7 +6716,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6764,7 +6764,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6866,7 +6866,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6914,7 +6914,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -6962,7 +6962,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -7507,7 +7507,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-cloned-v1",
       "env_short": "door_c",
       "eval_protocol": "final50_singlepass_v1",
@@ -7558,7 +7558,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-cloned-v1",
       "env_short": "door_c",
       "eval_protocol": "final50_singlepass_v1",
@@ -7609,7 +7609,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-cloned-v1",
       "env_short": "door_c",
       "eval_protocol": "final50_singlepass_v1",
@@ -7660,7 +7660,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-cloned-v1",
       "env_short": "door_c",
       "eval_protocol": "final50_singlepass_v1",
@@ -7711,7 +7711,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-expert-v1",
       "env_short": "door_e",
       "eval_protocol": "final50_singlepass_v1",
@@ -7762,7 +7762,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-expert-v1",
       "env_short": "door_e",
       "eval_protocol": "final50_singlepass_v1",
@@ -7813,7 +7813,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-expert-v1",
       "env_short": "door_e",
       "eval_protocol": "final50_singlepass_v1",
@@ -7864,7 +7864,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-expert-v1",
       "env_short": "door_e",
       "eval_protocol": "final50_singlepass_v1",
@@ -7915,7 +7915,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-human-v1",
       "env_short": "door_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -7966,7 +7966,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-human-v1",
       "env_short": "door_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -8017,7 +8017,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-human-v1",
       "env_short": "door_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -8068,7 +8068,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "door-human-v1",
       "env_short": "door_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -8119,7 +8119,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "ham_c",
       "eval_protocol": "final50_singlepass_v1",
@@ -8170,7 +8170,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "ham_c",
       "eval_protocol": "final50_singlepass_v1",
@@ -8221,7 +8221,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "ham_c",
       "eval_protocol": "final50_singlepass_v1",
@@ -8270,7 +8270,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "ham_c",
       "eval_protocol": "legacy_eval_jsonl",
@@ -8319,7 +8319,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-expert-v1",
       "env_short": "ham_e",
       "eval_protocol": "legacy_eval_jsonl",
@@ -8368,7 +8368,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-expert-v1",
       "env_short": "ham_e",
       "eval_protocol": "legacy_eval_jsonl",
@@ -8417,7 +8417,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-expert-v1",
       "env_short": "ham_e",
       "eval_protocol": "legacy_eval_jsonl",
@@ -8466,7 +8466,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-expert-v1",
       "env_short": "ham_e",
       "eval_protocol": "legacy_eval_jsonl",
@@ -8517,7 +8517,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-human-v1",
       "env_short": "ham_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -8568,7 +8568,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-human-v1",
       "env_short": "ham_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -8619,7 +8619,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-human-v1",
       "env_short": "ham_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -8670,7 +8670,7 @@
         "eval_final50_v1.jsonl",
         "eval_final50_v1.DONE.json"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hammer-human-v1",
       "env_short": "ham_h",
       "eval_protocol": "final50_singlepass_v1",
@@ -8719,7 +8719,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pen_c",
       "eval_protocol": "legacy_eval_jsonl",
@@ -8768,18 +8768,18 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pen_c",
       "eval_protocol": "legacy_eval_jsonl",
       "family": "adroit",
-      "final_score": 0.8387606805743915,
+      "final_score": 18.184782285599567,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
       "is_alias": false,
-      "last_eval_step": 720000,
+      "last_eval_step": 880000,
       "legacy_name": "pen_c_s1_td3amo",
       "max_timesteps": 1000000,
       "rel_path": "runs/td3_amo/adroit/pen_c_s1_jax_te1_tb1_Tlr0p0003__4e289b22",
@@ -8817,18 +8817,18 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pen_c",
       "eval_protocol": "legacy_eval_jsonl",
       "family": "adroit",
-      "final_score": -2.642291770366665,
+      "final_score": 7.007492963232672,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
       "is_alias": false,
-      "last_eval_step": 320000,
+      "last_eval_step": 520000,
       "legacy_name": "pen_c_s2_td3amo",
       "max_timesteps": 1000000,
       "rel_path": "runs/td3_amo/adroit/pen_c_s2_jax_te1_tb1_Tlr0p0003__47727467",
@@ -8862,20 +8862,22 @@
     {
       "algo": "td3_amo",
       "artifacts": [
-        "config.yaml"
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-cloned-v1",
       "env_short": "pen_c",
-      "eval_protocol": null,
+      "eval_protocol": "legacy_eval_jsonl",
       "family": "adroit",
-      "final_score": null,
+      "final_score": 24.23676550680784,
       "git": {
         "code_commit": null,
         "code_repo": "AMO"
       },
       "is_alias": false,
-      "last_eval_step": null,
+      "last_eval_step": 160000,
       "legacy_name": "pen_c_s3_td3amo",
       "max_timesteps": 1000000,
       "rel_path": "runs/td3_amo/adroit/pen_c_s3_jax_te1_tb1_Tlr0p0003__37d6ead6",
@@ -8913,7 +8915,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-human-v1",
       "env_short": "pen_h",
       "eval_protocol": "legacy_eval_jsonl",
@@ -8962,7 +8964,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-human-v1",
       "env_short": "pen_h",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9011,7 +9013,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-human-v1",
       "env_short": "pen_h",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9060,7 +9062,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "pen-human-v1",
       "env_short": "pen_h",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9108,7 +9110,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9153,7 +9155,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9198,7 +9200,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9243,7 +9245,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9288,7 +9290,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9333,7 +9335,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9378,7 +9380,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9423,7 +9425,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9468,7 +9470,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9513,7 +9515,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9558,7 +9560,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9603,7 +9605,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9648,7 +9650,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9693,7 +9695,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9738,7 +9740,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9783,7 +9785,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9828,7 +9830,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9873,7 +9875,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9918,7 +9920,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -9963,7 +9965,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10008,7 +10010,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10053,7 +10055,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10098,7 +10100,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10143,7 +10145,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10188,7 +10190,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10233,7 +10235,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10278,7 +10280,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10323,7 +10325,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10368,7 +10370,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10413,7 +10415,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10458,7 +10460,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10503,7 +10505,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10548,7 +10550,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10593,7 +10595,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10638,7 +10640,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10683,7 +10685,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10728,7 +10730,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10773,7 +10775,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10818,7 +10820,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10863,7 +10865,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10908,7 +10910,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10953,7 +10955,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -10998,7 +11000,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11043,7 +11045,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11088,7 +11090,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:01+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11133,7 +11135,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11178,7 +11180,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11223,7 +11225,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11268,7 +11270,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11313,7 +11315,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11358,7 +11360,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11403,7 +11405,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11448,7 +11450,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11493,7 +11495,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11538,7 +11540,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11583,7 +11585,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11628,7 +11630,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11673,7 +11675,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11718,7 +11720,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11763,7 +11765,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11808,7 +11810,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11853,7 +11855,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11898,7 +11900,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11943,7 +11945,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -11988,7 +11990,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -12033,7 +12035,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "eval_protocol": "legacy_eval_jsonl",
@@ -12078,7 +12080,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "eval_protocol": "legacy_eval_jsonl",
@@ -12123,7 +12125,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "eval_protocol": "legacy_eval_jsonl",
@@ -12168,7 +12170,7 @@
         "config.yaml",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T13:30:02+09:00",
+      "collected_at": "2026-09-14T13:40:02+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "eval_protocol": "legacy_eval_jsonl",

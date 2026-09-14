@@ -1,7 +1,7 @@
 {
   "alias_of": "amld_s0_default__6bcc7208",
   "canonical_rel_path": "runs/iql/benchmark/amld_s0_default__6bcc7208",
-  "collected_at": "2026-09-14T13:30:02+09:00",
+  "collected_at": "2026-09-14T13:40:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `amld_s0_default__6bcc7208`, map stale variant id `amld_s0_pi_base__6bcc7208` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/antmaze-large-diverse-v2/seed_0",

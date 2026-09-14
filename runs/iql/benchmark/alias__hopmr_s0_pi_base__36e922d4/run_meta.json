@@ -1,7 +1,7 @@
 {
   "alias_of": "hopmr_s0_default__36e922d4",
   "canonical_rel_path": "runs/iql/benchmark/hopmr_s0_default__36e922d4",
-  "collected_at": "2026-09-14T13:30:02+09:00",
+  "collected_at": "2026-09-14T13:40:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `hopmr_s0_default__36e922d4`, map stale variant id `hopmr_s0_pi_base__36e922d4` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-replay-v2/seed_0",
