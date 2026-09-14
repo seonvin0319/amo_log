@@ -8,7 +8,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-m_s0",
-  "collected_at": "2026-09-14T01:24:08+00:00",
+  "collected_at": "2026-09-14T01:34:22+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_jax",

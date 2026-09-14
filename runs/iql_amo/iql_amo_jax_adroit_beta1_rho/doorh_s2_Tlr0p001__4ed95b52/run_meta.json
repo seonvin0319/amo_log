@@ -8,7 +8,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho1em3_s2",
-  "collected_at": "2026-09-14T01:24:09+00:00",
+  "collected_at": "2026-09-14T01:34:23+00:00",
   "env": "door-human-v1",
   "env_short": "doorh",
   "family": "iql_amo_jax_adroit_beta1_rho",
