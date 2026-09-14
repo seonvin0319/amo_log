@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **239**
+Total runs: **240**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -167,9 +167,10 @@ Total runs: **239**
 | td3_amo | adroit | `ham_c_s0_jax_te1_tb1_Tlr0p0003__e7328db5` | hammer-cloned-v1 | 0 | 1000000 | 1000000 | 1.38 | `runs/td3_amo/adroit/ham_c_s0_jax_te1_tb1_Tlr0p0003__e7328db5` |
 | td3_amo | adroit | `ham_c_s1_jax_te1_tb1_Tlr0p0003__1371fdd0` | hammer-cloned-v1 | 1 | 1000000 | 1000000 | 0.36 | `runs/td3_amo/adroit/ham_c_s1_jax_te1_tb1_Tlr0p0003__1371fdd0` |
 | td3_amo | adroit | `ham_c_s2_jax_te1_tb1_Tlr0p0003__25c58d64` | hammer-cloned-v1 | 2 | 1000000 | 1000000 | 2.58 | `runs/td3_amo/adroit/ham_c_s2_jax_te1_tb1_Tlr0p0003__25c58d64` |
-| td3_amo | adroit | `ham_c_s3_jax_te1_tb1_Tlr0p0003__4bf26e3b` | hammer-cloned-v1 | 3 | 1000000 | 840000 | 0.18 | `runs/td3_amo/adroit/ham_c_s3_jax_te1_tb1_Tlr0p0003__4bf26e3b` |
-| td3_amo | adroit | `ham_e_s0_jax_te1_tb1_Tlr0p0003__94119809` | hammer-expert-v1 | 0 | 1000000 | 520000 | 123.85 | `runs/td3_amo/adroit/ham_e_s0_jax_te1_tb1_Tlr0p0003__94119809` |
-| td3_amo | adroit | `ham_e_s1_jax_te1_tb1_Tlr0p0003__bded916a` | hammer-expert-v1 | 1 | 1000000 | 200000 | 134.22 | `runs/td3_amo/adroit/ham_e_s1_jax_te1_tb1_Tlr0p0003__bded916a` |
+| td3_amo | adroit | `ham_c_s3_jax_te1_tb1_Tlr0p0003__4bf26e3b` | hammer-cloned-v1 | 3 | 1000000 | 1000000 | 5.43 | `runs/td3_amo/adroit/ham_c_s3_jax_te1_tb1_Tlr0p0003__4bf26e3b` |
+| td3_amo | adroit | `ham_e_s0_jax_te1_tb1_Tlr0p0003__94119809` | hammer-expert-v1 | 0 | 1000000 | 720000 | 134.45 | `runs/td3_amo/adroit/ham_e_s0_jax_te1_tb1_Tlr0p0003__94119809` |
+| td3_amo | adroit | `ham_e_s1_jax_te1_tb1_Tlr0p0003__bded916a` | hammer-expert-v1 | 1 | 1000000 | 400000 | 43.69 | `runs/td3_amo/adroit/ham_e_s1_jax_te1_tb1_Tlr0p0003__bded916a` |
+| td3_amo | adroit | `ham_e_s2_jax_te1_tb1_Tlr0p0003__9e390104` | hammer-expert-v1 | 2 | 1000000 | 40000 | 68.67 | `runs/td3_amo/adroit/ham_e_s2_jax_te1_tb1_Tlr0p0003__9e390104` |
 | td3_amo | adroit | `ham_h_s0_jax_te1_tb1_Tlr0p0003__bd30503c` | hammer-human-v1 | 0 | 1000000 | 1000000 | -0.23 | `runs/td3_amo/adroit/ham_h_s0_jax_te1_tb1_Tlr0p0003__bd30503c` |
 | td3_amo | adroit | `ham_h_s1_jax_te1_tb1_Tlr0p0003__f1810b17` | hammer-human-v1 | 1 | 1000000 | 1000000 | -0.45 | `runs/td3_amo/adroit/ham_h_s1_jax_te1_tb1_Tlr0p0003__f1810b17` |
 | td3_amo | adroit | `ham_h_s2_jax_te1_tb1_Tlr0p0003__bcb45b88` | hammer-human-v1 | 2 | 1000000 | 1000000 | 0.21 | `runs/td3_amo/adroit/ham_h_s2_jax_te1_tb1_Tlr0p0003__bcb45b88` |
