@@ -19,6 +19,7 @@ Checkpoint weights were **not** copied. Logs only: `config.yaml` (from `effectiv
 | `/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs` | amo | `adaptive_multiscale` | Te=Tb=1 T_lr gap-fill loco+antmaze seeds0–3 |
 | `/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs` | amo | `adaptive_multiscale` | antmaze tb/bc q-improve, T_lr=1e-3, seed0 |
 | `/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs` | td3_amo | `td3_amo_jax` | JAX td3_amo loco9 default seeds0–3 |
+| `/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs` | iql_amo | `iql_amo_jax_adroit_beta1_rho` | JAX IQL+AMO Adroit β₀=1 × ρ_lr∈{2e-3,1e-3,3e-4} seeds0–3 |
 
 Code:
 
