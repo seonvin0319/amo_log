@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **253**
+Total runs: **254**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -182,12 +182,13 @@ Total runs: **253**
 | td3_amo | adroit | `pen_c_s3_jax_te1_tb1_Tlr0p0003__37d6ead6` | pen-cloned-v1 | 3 | 1000000 | 1000000 | 7.94 | `runs/td3_amo/adroit/pen_c_s3_jax_te1_tb1_Tlr0p0003__37d6ead6` |
 | td3_amo | adroit | `pen_e_s0_jax_te1_tb1_Tlr0p0003__557ea5e7` | pen-expert-v1 | 0 | 1000000 | 1000000 | 55.52 | `runs/td3_amo/adroit/pen_e_s0_jax_te1_tb1_Tlr0p0003__557ea5e7` |
 | td3_amo | adroit | `pen_e_s1_jax_te1_tb1_Tlr0p0003__0b78bac6` | pen-expert-v1 | 1 | 1000000 | 1000000 | 37.09 | `runs/td3_amo/adroit/pen_e_s1_jax_te1_tb1_Tlr0p0003__0b78bac6` |
-| td3_amo | adroit | `pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` | pen-expert-v1 | 2 | 1000000 | 640000 | 58.55 | `runs/td3_amo/adroit/pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` |
-| td3_amo | adroit | `pen_e_s3_jax_te1_tb1_Tlr0p0003__58a45055` | pen-expert-v1 | 3 | 1000000 | 280000 | 53.12 | `runs/td3_amo/adroit/pen_e_s3_jax_te1_tb1_Tlr0p0003__58a45055` |
+| td3_amo | adroit | `pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` | pen-expert-v1 | 2 | 1000000 | 840000 | 32.79 | `runs/td3_amo/adroit/pen_e_s2_jax_te1_tb1_Tlr0p0003__1da3a84b` |
+| td3_amo | adroit | `pen_e_s3_jax_te1_tb1_Tlr0p0003__58a45055` | pen-expert-v1 | 3 | 1000000 | 480000 | 71.52 | `runs/td3_amo/adroit/pen_e_s3_jax_te1_tb1_Tlr0p0003__58a45055` |
 | td3_amo | adroit | `pen_h_s0_jax_te1_tb1_Tlr0p0003__4838360c` | pen-human-v1 | 0 | 1000000 | 1000000 | 8.78 | `runs/td3_amo/adroit/pen_h_s0_jax_te1_tb1_Tlr0p0003__4838360c` |
 | td3_amo | adroit | `pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` | pen-human-v1 | 1 | 1000000 | 1000000 | 15.14 | `runs/td3_amo/adroit/pen_h_s1_jax_te1_tb1_Tlr0p0003__724003ad` |
 | td3_amo | adroit | `pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` | pen-human-v1 | 2 | 1000000 | 1000000 | 13.61 | `runs/td3_amo/adroit/pen_h_s2_jax_te1_tb1_Tlr0p0003__a31ccbd2` |
 | td3_amo | adroit | `pen_h_s3_jax_te1_tb1_Tlr0p0003__bc355bab` | pen-human-v1 | 3 | 1000000 | 1000000 | 13.01 | `runs/td3_amo/adroit/pen_h_s3_jax_te1_tb1_Tlr0p0003__bc355bab` |
+| td3_amo | adroit | `rel_h_s0_jax_te1_tb1_Tlr0p0003__124a9af5` | relocate-human-v1 | 0 | 1000000 | 120000 | -0.16 | `runs/td3_amo/adroit/rel_h_s0_jax_te1_tb1_Tlr0p0003__124a9af5` |
 | td3bc | aspc_rc | `amld_s0_aspc_rc_a2p5__5a7370d0` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 0.00 | `runs/td3bc/aspc_rc/amld_s0_aspc_rc_a2p5__5a7370d0` |
 | td3bc | aspc_rc | `amld_s1_aspc_rc_a2p5__1b742297` | antmaze-large-diverse-v2 | 1 | 1000000 | 1000000 | 0.00 | `runs/td3bc/aspc_rc/amld_s1_aspc_rc_a2p5__1b742297` |
 | td3bc | aspc_rc | `amld_s2_aspc_rc_a2p5__0a4c8312` | antmaze-large-diverse-v2 | 2 | 1000000 | 1000000 | 0.00 | `runs/td3bc/aspc_rc/amld_s2_aspc_rc_a2p5__0a4c8312` |
