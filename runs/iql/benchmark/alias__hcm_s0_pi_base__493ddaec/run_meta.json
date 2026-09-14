@@ -1,7 +1,7 @@
 {
   "alias_of": "hcm_s0_default__493ddaec",
   "canonical_rel_path": "runs/iql/benchmark/hcm_s0_default__493ddaec",
-  "collected_at": "2026-09-14T14:00:02+09:00",
+  "collected_at": "2026-09-14T14:10:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `hcm_s0_default__493ddaec`, map stale variant id `hcm_s0_pi_base__493ddaec` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-v2/seed_0",
