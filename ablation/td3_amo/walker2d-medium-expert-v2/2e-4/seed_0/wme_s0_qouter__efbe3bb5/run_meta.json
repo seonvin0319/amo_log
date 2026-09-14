@@ -11,7 +11,7 @@
     "initial_scale_not_1",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T03:51:59+09:00",
+  "collected_at": "2026-09-15T04:02:08+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "amo_td3bc",
