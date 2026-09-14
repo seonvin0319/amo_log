@@ -1,5 +1,7 @@
 # amo_log — offrl
 
+[공통 로그 규칙](LOGGING_RULES.md) · [에이전트 작업 지침](AGENTS.md)
+
 Torch 로그 10개: main 10개, ablation 0개. 정리 당시 기존 JAX 0개 제거.
 
 [본 실험](main/) · [Ablation](ablation/) · [실험 목록](catalog/INDEX.md) · [저장 규칙](docs/COLLECTION_RULES.md) · [전체 브랜치 인덱스](https://github.com/seonvin0319/amo_log/tree/main)

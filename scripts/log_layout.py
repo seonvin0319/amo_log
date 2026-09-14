@@ -105,8 +105,8 @@ def load_config(path,m):
     try:
         import yaml
         return config(m,yaml.safe_load(path.read_text()) or {})
-    except ImportError:
-        return config(m)
+    except ImportError as exc:
+        raise RuntimeError('Install log dependencies: python -m pip install -r requirements-log-tools.txt') from exc
 
 def normalize(root=None):
     root=Path(root or Path(__file__).resolve().parents[1]);legacy=root/'runs'
@@ -119,10 +119,10 @@ def normalize(root=None):
         c=load_config(src/'config.yaml',m)
         if excluded(m,c,entries):shutil.rmtree(src);continue
         layout=classify(m,c);dest=root/layout['rel_path']
-        m.update(layout);m.setdefault('original_rel_path',src.relative_to(root).as_posix());m['layout_version']=2
+        m.update(layout);m.setdefault('original_rel_path',src.relative_to(root).as_posix());m['layout_version']=2; m['settings']=c
         if dest.exists():
             old=json.loads((dest/'run_meta.json').read_text())
-            if old.get('source_path')!=m.get('source_path'):
+            if (old.get('source_path'), old.get('backend'), old.get('git',{}).get('code_commit')) != (m.get('source_path'), m.get('backend'), m.get('git',{}).get('code_commit')):
                 raise ValueError('Run-id collision at '+str(dest))
         dest.mkdir(parents=True,exist_ok=True)
         for f in src.iterdir():
