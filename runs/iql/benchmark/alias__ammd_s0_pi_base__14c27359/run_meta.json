@@ -1,7 +1,7 @@
 {
   "alias_of": "ammd_s0_default__14c27359",
   "canonical_rel_path": "runs/iql/benchmark/ammd_s0_default__14c27359",
-  "collected_at": "2026-09-14T10:50:02+09:00",
+  "collected_at": "2026-09-14T11:00:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `ammd_s0_default__14c27359`, map stale variant id `ammd_s0_pi_base__14c27359` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-diverse-v2/seed_0",
