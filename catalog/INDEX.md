@@ -437,8 +437,8 @@ Total runs: **483**
 | aspc | benchmark | `wm_s1_aspc__0b164ae1` | walker2d-medium-v2 | 1 | 1000000 | 1000000 | 102.60 | `runs/aspc/benchmark/wm_s1_aspc__0b164ae1` |
 | aspc | benchmark | `wm_s2_aspc__34aa4c77` | walker2d-medium-v2 | 2 | 1000000 | 1000000 | 94.25 | `runs/aspc/benchmark/wm_s2_aspc__34aa4c77` |
 | aspc | benchmark | `wm_s3_aspc__b502c4cb` | walker2d-medium-v2 | 3 | 1000000 | 1000000 | 95.69 | `runs/aspc/benchmark/wm_s3_aspc__b502c4cb` |
-| iql | iql_adaptive_beta | `hcm_s1_rho0p0003__40cef3cd` | halfcheetah-medium-v2 | 1 | 1000000 | 130000 | — | `runs/iql/iql_adaptive_beta/hcm_s1_rho0p0003__40cef3cd` |
-| iql | iql_adaptive_beta | `hcm_s2_rho0p0003__0f57a5d9` | halfcheetah-medium-v2 | 2 | 1000000 | 130000 | — | `runs/iql/iql_adaptive_beta/hcm_s2_rho0p0003__0f57a5d9` |
+| iql | iql_adaptive_beta | `hcm_s1_rho0p0003__40cef3cd` | halfcheetah-medium-v2 | 1 | 1000000 | 165000 | — | `runs/iql/iql_adaptive_beta/hcm_s1_rho0p0003__40cef3cd` |
+| iql | iql_adaptive_beta | `hcm_s2_rho0p0003__0f57a5d9` | halfcheetah-medium-v2 | 2 | 1000000 | 165000 | — | `runs/iql/iql_adaptive_beta/hcm_s2_rho0p0003__0f57a5d9` |
 | wpc | benchmark | `amld_s0_wpc__3350945d` | antmaze-large-diverse-v2 | 0 | 1000000 | 1000000 | 50.00 | `runs/wpc/benchmark/amld_s0_wpc__3350945d` |
 | wpc | benchmark | `amld_s1_wpc__2f90a2c3` | antmaze-large-diverse-v2 | 1 | 1000000 | 1000000 | 60.00 | `runs/wpc/benchmark/amld_s1_wpc__2f90a2c3` |
 | wpc | benchmark | `amld_s2_wpc__3b0095f1` | antmaze-large-diverse-v2 | 2 | 1000000 | 1000000 | 50.00 | `runs/wpc/benchmark/amld_s2_wpc__3b0095f1` |
