@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **266**
+Total runs: **267**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|------|
@@ -191,8 +191,9 @@ Total runs: **266**
 | td3_amo | adroit | `door_h_s2_jax_te1_tb1_tlr3em4_Tlr0p0003__536b911a` | door-human-v1 | 2 | 1000000 | 1000000 | -0.22 | `runs/td3_amo/adroit/door_h_s2_jax_te1_tb1_tlr3em4_Tlr0p0003__536b911a` |
 | td3_amo | adroit | `door_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__eb543c8d` | door-human-v1 | 3 | 1000000 | 1000000 | -0.26 | `runs/td3_amo/adroit/door_h_s3_jax_te1_tb1_pi_base_Tlr0p0003__eb543c8d` |
 | td3_amo | adroit | `door_h_s3_jax_te1_tb1_tlr3em4_Tlr0p0003__eb543c8d` | door-human-v1 | 3 | 1000000 | 1000000 | -0.26 | `runs/td3_amo/adroit/door_h_s3_jax_te1_tb1_tlr3em4_Tlr0p0003__eb543c8d` |
-| td3_amo | adroit | `ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5` | hammer-cloned-v1 | 0 | 1000000 | 180000 | 1.79 | `runs/td3_amo/adroit/ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5` |
+| td3_amo | adroit | `ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5` | hammer-cloned-v1 | 0 | 1000000 | 340000 | 1.33 | `runs/td3_amo/adroit/ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5` |
 | td3_amo | adroit | `ham_c_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__e7328db5` | hammer-cloned-v1 | 0 | 1000000 | 60000 | 0.24 | `runs/td3_amo/adroit/ham_c_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__e7328db5` |
+| td3_amo | adroit | `ham_c_s1_jax_te1_tb1_pi_base_Tlr0p0003__1371fdd0` | hammer-cloned-v1 | 1 | 1000000 | — | — | `runs/td3_amo/adroit/ham_c_s1_jax_te1_tb1_pi_base_Tlr0p0003__1371fdd0` |
 | td3_amo | adroit | `ham_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__bd30503c` | hammer-human-v1 | 0 | 1000000 | 1000000 | 2.52 | `runs/td3_amo/adroit/ham_h_s0_jax_te1_tb1_pi_base_Tlr0p0003__bd30503c` |
 | td3_amo | adroit | `ham_h_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__bd30503c` | hammer-human-v1 | 0 | 1000000 | 1000000 | 2.52 | `runs/td3_amo/adroit/ham_h_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__bd30503c` |
 | td3_amo | adroit | `ham_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__f1810b17` | hammer-human-v1 | 1 | 1000000 | 1000000 | -0.51 | `runs/td3_amo/adroit/ham_h_s1_jax_te1_tb1_pi_base_Tlr0p0003__f1810b17` |

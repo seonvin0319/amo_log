@@ -2,20 +2,19 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl",
-    "eval.jsonl"
+    "metrics.jsonl"
   ],
   "collected_at": "2026-09-14T09:20:02+09:00",
-  "env": "door-expert-v1",
-  "env_short": "door_e",
+  "env": "hammer-cloned-v1",
+  "env_short": "ham_c",
   "family": "adroit",
   "git": {
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "legacy_name": "door_e_s0_td3amo",
-  "run_id": "door_e_s0_jax_te1_tb1_pi_base_Tlr0p0003__21266d42",
-  "seed": 0,
+  "legacy_name": "ham_c_s1_td3amo",
+  "run_id": "ham_c_s1_jax_te1_tb1_pi_base_Tlr0p0003__1371fdd0",
+  "seed": 1,
   "settings": {
     "T_B": 1.0,
     "T_E": 1.0,
@@ -25,7 +24,7 @@
     "batch_size": 256,
     "critic_lr": 0.0003,
     "discount": 0.99,
-    "env": "door-expert-v1",
+    "env": "hammer-cloned-v1",
     "eval_freq": 20000,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
@@ -33,11 +32,11 @@
     "normalize": true,
     "policy_freq": 2,
     "policy_noise": 0.2,
-    "seed": 0,
+    "seed": 1,
     "smoothness_eps": 1e-06,
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_e_s0_td3amo",
+  "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s1_td3amo",
   "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
 }
