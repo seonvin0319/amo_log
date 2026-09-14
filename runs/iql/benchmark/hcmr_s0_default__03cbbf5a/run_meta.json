@@ -1,5 +1,8 @@
 {
   "algo": "iql",
+  "aliases": [
+    "hcmr_s0_pi_base__03cbbf5a"
+  ],
   "artifacts": [
     "config.yaml",
     "eval.jsonl"

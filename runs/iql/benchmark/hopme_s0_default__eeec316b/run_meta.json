@@ -1,5 +1,8 @@
 {
   "algo": "iql",
+  "aliases": [
+    "hopme_s0_pi_base__eeec316b"
+  ],
   "artifacts": [
     "config.yaml",
     "eval.jsonl"

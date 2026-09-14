@@ -1,5 +1,6 @@
 {
   "algo": "iql",
+  "alias_of": "hopme_s0_default__eeec316b",
   "artifacts": [
     "config.yaml",
     "eval.jsonl"
@@ -12,8 +13,9 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
-  "is_alias": false,
+  "is_alias": true,
   "legacy_name": "seed_0",
+  "note": "Variant-name duplicate of same amo/benchmark seed_0 source (default vs pi_base). Keep default as canonical; do not double-count.",
   "run_id": "hopme_s0_pi_base__eeec316b",
   "seed": 0,
   "settings": {
@@ -36,5 +38,6 @@
   },
   "source_host": "choi",
   "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-expert-v2/seed_0",
+  "superseded": true,
   "variant": "pi_base"
 }

@@ -1,5 +1,8 @@
 {
   "algo": "iql",
+  "aliases": [
+    "ammd_s0_pi_base__14c27359"
+  ],
   "artifacts": [
     "config.yaml",
     "eval.jsonl"

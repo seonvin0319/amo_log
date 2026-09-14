@@ -1,5 +1,5 @@
 {
-  "n_runs": 252,
+  "n_runs": 237,
   "runs": [
     {
       "algo": "amo",
@@ -5116,49 +5116,6 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "antmaze-large-diverse-v2",
-      "env_short": "amld",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 40.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/amld_s0_pi_base__6bcc7208",
-      "run_id": "amld_s0_pi_base__6bcc7208",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 10.0,
-        "discount": 0.99,
-        "env": "antmaze-large-diverse-v2",
-        "eval_freq": 5000,
-        "iql_tau": 0.9,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": true,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/antmaze-large-diverse-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "aliases": [
         "amlp_s0_pi_base__02e09f2f"
       ],
@@ -5205,49 +5162,9 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
+      "aliases": [
+        "ammd_s0_pi_base__14c27359"
       ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "antmaze-large-play-v2",
-      "env_short": "amlp",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 20.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/amlp_s0_pi_base__02e09f2f",
-      "run_id": "amlp_s0_pi_base__02e09f2f",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 10.0,
-        "discount": 0.99,
-        "env": "antmaze-large-play-v2",
-        "eval_freq": 5000,
-        "iql_tau": 0.9,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": true,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/antmaze-large-play-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "artifacts": [
         "config.yaml",
         "eval.jsonl"
@@ -5291,50 +5208,9 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
+      "aliases": [
+        "ammp_s0_pi_base__3736ca10"
       ],
-      "collected_at": "2026-09-14T10:00:01+09:00",
-      "env": "antmaze-medium-diverse-v2",
-      "env_short": "ammd",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 50.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "is_alias": false,
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/ammd_s0_pi_base__14c27359",
-      "run_id": "ammd_s0_pi_base__14c27359",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 10.0,
-        "discount": 0.99,
-        "env": "antmaze-medium-diverse-v2",
-        "eval_freq": 5000,
-        "iql_tau": 0.9,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": true,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-diverse-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "artifacts": [
         "config.yaml",
         "eval.jsonl"
@@ -5378,50 +5254,9 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
+      "aliases": [
+        "amu_s0_pi_base__f7c88e0e"
       ],
-      "collected_at": "2026-09-14T10:00:01+09:00",
-      "env": "antmaze-medium-play-v2",
-      "env_short": "ammp",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 60.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "is_alias": false,
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/ammp_s0_pi_base__3736ca10",
-      "run_id": "ammp_s0_pi_base__3736ca10",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 10.0,
-        "discount": 0.99,
-        "env": "antmaze-medium-play-v2",
-        "eval_freq": 5000,
-        "iql_tau": 0.9,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": true,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/antmaze-medium-play-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "artifacts": [
         "config.yaml",
         "eval.jsonl"
@@ -5462,50 +5297,6 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-v2/seed_0",
       "variant": "default"
-    },
-    {
-      "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T10:00:01+09:00",
-      "env": "antmaze-umaze-v2",
-      "env_short": "amu",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 40.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "is_alias": false,
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/amu_s0_pi_base__f7c88e0e",
-      "run_id": "amu_s0_pi_base__f7c88e0e",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 10.0,
-        "discount": 0.99,
-        "env": "antmaze-umaze-v2",
-        "eval_freq": 5000,
-        "iql_tau": 0.9,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": true,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-v2/seed_0",
-      "variant": "pi_base"
     },
     {
       "algo": "iql",
@@ -5552,49 +5343,6 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-diverse-v2/seed_0",
       "variant": "default"
-    },
-    {
-      "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "antmaze-umaze-diverse-v2",
-      "env_short": "amud",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 50.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/amud_s0_pi_base__4335ee82",
-      "run_id": "amud_s0_pi_base__4335ee82",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 10.0,
-        "discount": 0.99,
-        "env": "antmaze-umaze-diverse-v2",
-        "eval_freq": 5000,
-        "iql_tau": 0.9,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": true,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/antmaze-umaze-diverse-v2/seed_0",
-      "variant": "pi_base"
     },
     {
       "algo": "iql",
@@ -5645,50 +5393,9 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
+      "aliases": [
+        "hcmr_s0_pi_base__03cbbf5a"
       ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "halfcheetah-medium-v2",
-      "env_short": "hcm",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 48.6,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/hcm_s0_pi_base__493ddaec",
-      "run_id": "hcm_s0_pi_base__493ddaec",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "halfcheetah-medium-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "artifacts": [
         "config.yaml",
         "eval.jsonl"
@@ -5733,51 +5440,9 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
+      "aliases": [
+        "hme_s0_pi_base__af1658b2"
       ],
-      "collected_at": "2026-09-14T10:00:01+09:00",
-      "env": "halfcheetah-medium-replay-v2",
-      "env_short": "hcmr",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 44.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "is_alias": false,
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/hcmr_s0_pi_base__03cbbf5a",
-      "run_id": "hcmr_s0_pi_base__03cbbf5a",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "halfcheetah-medium-replay-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-replay-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "artifacts": [
         "config.yaml",
         "eval.jsonl"
@@ -5819,51 +5484,6 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-expert-v2/seed_0",
       "variant": "default"
-    },
-    {
-      "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T10:00:01+09:00",
-      "env": "halfcheetah-medium-expert-v2",
-      "env_short": "hme",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 94.2,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "is_alias": false,
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/hme_s0_pi_base__af1658b2",
-      "run_id": "hme_s0_pi_base__af1658b2",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "halfcheetah-medium-expert-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-expert-v2/seed_0",
-      "variant": "pi_base"
     },
     {
       "algo": "iql",
@@ -5914,50 +5534,9 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
+      "aliases": [
+        "hopme_s0_pi_base__eeec316b"
       ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "hopper-medium-v2",
-      "env_short": "hopm",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 66.7,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/hopm_s0_pi_base__49a09161",
-      "run_id": "hopm_s0_pi_base__49a09161",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "hopper-medium-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "artifacts": [
         "config.yaml",
         "eval.jsonl"
@@ -5999,51 +5578,6 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-expert-v2/seed_0",
       "variant": "default"
-    },
-    {
-      "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T10:00:01+09:00",
-      "env": "hopper-medium-expert-v2",
-      "env_short": "hopme",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 112.1,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "is_alias": false,
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/hopme_s0_pi_base__eeec316b",
-      "run_id": "hopme_s0_pi_base__eeec316b",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "hopper-medium-expert-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-expert-v2/seed_0",
-      "variant": "pi_base"
     },
     {
       "algo": "iql",
@@ -6094,50 +5628,6 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "hopper-medium-replay-v2",
-      "env_short": "hopmr",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 97.8,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/hopmr_s0_pi_base__36e922d4",
-      "run_id": "hopmr_s0_pi_base__36e922d4",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "hopper-medium-replay-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/hopper-medium-replay-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "aliases": [
         "wm_s0_pi_base__7a2b5104"
       ],
@@ -6182,50 +5672,6 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-v2/seed_0",
       "variant": "default"
-    },
-    {
-      "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "walker2d-medium-v2",
-      "env_short": "wm",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 84.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/wm_s0_pi_base__7a2b5104",
-      "run_id": "wm_s0_pi_base__7a2b5104",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "walker2d-medium-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-v2/seed_0",
-      "variant": "pi_base"
     },
     {
       "algo": "iql",
@@ -6276,50 +5722,6 @@
     },
     {
       "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "walker2d-medium-expert-v2",
-      "env_short": "wme",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 111.7,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/wme_s0_pi_base__cd69cae4",
-      "run_id": "wme_s0_pi_base__cd69cae4",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "walker2d-medium-expert-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-expert-v2/seed_0",
-      "variant": "pi_base"
-    },
-    {
-      "algo": "iql",
       "aliases": [
         "wmr_s0_pi_base__d831fdac"
       ],
@@ -6364,50 +5766,6 @@
       "source_host": "choi",
       "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-replay-v2/seed_0",
       "variant": "default"
-    },
-    {
-      "algo": "iql",
-      "artifacts": [
-        "config.yaml",
-        "eval.jsonl"
-      ],
-      "collected_at": "2026-09-14T09:50:02+09:00",
-      "env": "walker2d-medium-replay-v2",
-      "env_short": "wmr",
-      "eval_protocol": "legacy_eval_jsonl",
-      "family": "benchmark",
-      "final_score": 82.0,
-      "git": {
-        "code_commit": null,
-        "code_repo": "AMO"
-      },
-      "last_eval_step": 1000000,
-      "legacy_name": "seed_0",
-      "max_timesteps": 1000000,
-      "rel_path": "runs/iql/benchmark/wmr_s0_pi_base__d831fdac",
-      "run_id": "wmr_s0_pi_base__d831fdac",
-      "seed": 0,
-      "settings": {
-        "actor_lr": 0.0003,
-        "batch_size": 256,
-        "beta": 3.0,
-        "discount": 0.99,
-        "env": "walker2d-medium-replay-v2",
-        "eval_freq": 5000,
-        "iql_deterministic": false,
-        "iql_tau": 0.7,
-        "max_timesteps": 1000000,
-        "n_episodes": 10,
-        "normalize": true,
-        "normalize_reward": false,
-        "qf_lr": 0.0003,
-        "seed": 0,
-        "tau": 0.005,
-        "vf_lr": 0.0003
-      },
-      "source_host": "choi",
-      "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-replay-v2/seed_0",
-      "variant": "pi_base"
     },
     {
       "algo": "iql",
