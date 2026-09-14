@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **334**
+Total runs: **339**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | protocol | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|----------|------|
@@ -283,12 +283,17 @@ Total runs: **334**
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `penh_s3_Tlr0p0003__e0240cb9` | pen-human-v1 | 3 | 1000000 | 1000000 | 53.51 | final50_singlepass_v1 | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/penh_s3_Tlr0p0003__e0240cb9` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `penh_s3_Tlr0p001__d938093b` | pen-human-v1 | 3 | 1000000 | 1000000 | 61.43 | final50_singlepass_v1 | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/penh_s3_Tlr0p001__d938093b` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `penh_s3_Tlr0p002__cb919fcc` | pen-human-v1 | 3 | 1000000 | 1000000 | 61.75 | final50_singlepass_v1 | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/penh_s3_Tlr0p002__cb919fcc` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s0_Tlr0p0003__937623c3` | relocate-cloned-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s0_Tlr0p0003__937623c3` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s0_Tlr0p001__6738637a` | relocate-cloned-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s0_Tlr0p001__6738637a` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s0_Tlr0p002__00cec419` | relocate-cloned-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s0_Tlr0p002__00cec419` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s1_Tlr0p0003__29f3ed79` | relocate-cloned-v1 | 1 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s1_Tlr0p0003__29f3ed79` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s1_Tlr0p001__29fed19d` | relocate-cloned-v1 | 1 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s1_Tlr0p001__29fed19d` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s1_Tlr0p002__8ef48546` | relocate-cloned-v1 | 1 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s1_Tlr0p002__8ef48546` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s2_Tlr0p0003__d6e5114e` | relocate-cloned-v1 | 2 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s2_Tlr0p0003__d6e5114e` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s2_Tlr0p001__39873177` | relocate-cloned-v1 | 2 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s2_Tlr0p001__39873177` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s2_Tlr0p002__ef159ab6` | relocate-cloned-v1 | 2 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s2_Tlr0p002__ef159ab6` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s3_Tlr0p0003__7b9d2c76` | relocate-cloned-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s3_Tlr0p0003__7b9d2c76` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s3_Tlr0p001__612c8287` | relocate-cloned-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s3_Tlr0p001__612c8287` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s3_Tlr0p002__fb9e94d3` | relocate-cloned-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s3_Tlr0p002__fb9e94d3` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s0_Tlr0p0003__a7eeb3d0` | relocate-human-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s0_Tlr0p0003__a7eeb3d0` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s0_Tlr0p001__d955c221` | relocate-human-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s0_Tlr0p001__d955c221` |
