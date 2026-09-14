@@ -1,0 +1,64 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [
+    "initial_scale_not_1"
+  ],
+  "collected_at": "2026-09-13T02:10:42+09:00",
+  "env": "antmaze-umaze-v2",
+  "env_short": "amu",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "amo"
+  },
+  "layout_version": 2,
+  "legacy_name": "amo_ams_au_tlr1e-03_t5_s0-antmaze-umaze-v2-730129f0",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/amu_s0_TE5_Tlr0p001__730129f0",
+  "rel_path": "ablation/td3_amo/antmaze-umaze-v2/1e-3/seed_0/amu_s0_TE5_Tlr0p001__730129f0",
+  "run_id": "amu_s0_TE5_Tlr0p001__730129f0",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "T_B": 5.0,
+    "T_E": 5.0,
+    "T_freq": 10,
+    "T_lr": 0.001,
+    "adaptive_multiscale": true,
+    "batch_size": 256,
+    "discount": 0.99,
+    "env": "antmaze-umaze-v2",
+    "eval_freq": 5000,
+    "final_eval_50": {
+      "d4rl_normalized_score": 88.0,
+      "device": "cpu",
+      "eval_return": 0.88,
+      "evaluated_at": "2026-09-12T16:29:45.917344+00:00",
+      "n_episodes": 50
+    },
+    "group": "amo-antmaze6-tlr-tinit-seed0",
+    "last_metrics_step": 1000000,
+    "max_timesteps": 1000000,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "project": "AMO-adaptive-multiscale-antmaze6",
+    "proximal_n_steps": 1,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_au_tlr1e-03_t5_s0-antmaze-umaze-v2-730129f0",
+  "variant": "TE5_Tlr0p001"
+}

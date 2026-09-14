@@ -1,0 +1,52 @@
+{
+  "algo": "iql",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [
+    "initial_beta_not_1",
+    "method_variant:iql_adaptive_beta"
+  ],
+  "collected_at": "2026-09-14T15:16:42+09:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "iql_adaptive_beta",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO_EXP_iql-amo"
+  },
+  "layout_version": 2,
+  "legacy_name": "halfcheetah-medium-v2__rho3e-04__s3",
+  "meta_lr": 0.0003,
+  "method": "iql_amo",
+  "original_rel_path": "runs/iql/iql_adaptive_beta/hcm_s3_rho0p0003__e250cdfa",
+  "rel_path": "ablation/iql_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_rho0p0003__e250cdfa",
+  "run_id": "hcm_s3_rho0p0003__e250cdfa",
+  "section": "ablation",
+  "seed": 3,
+  "settings": {
+    "actor_lr": 0.0003,
+    "adaptive_enabled": true,
+    "batch_size": 256,
+    "beta": 3.0,
+    "beta_initial": 3.0,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_freq": 5000,
+    "group": "iql_amo_shchoi69_rho3e-04",
+    "last_metrics_step": 78000,
+    "max_timesteps": 1000000,
+    "normalize": true,
+    "normalize_reward": false,
+    "project": "CORL",
+    "rho_lr": 0.0003,
+    "seed": 3,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-v2__rho3e-04__s3",
+  "variant": "rho0p0003"
+}
