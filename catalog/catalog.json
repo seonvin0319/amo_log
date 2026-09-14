@@ -9,7 +9,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_large-div_Te1_Tb025_1em3_s0-antmaze-large-diverse-v2-c1d9f9d5",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -67,7 +67,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-div_Te1_Tb1_5em4_s0-antmaze-large-diverse-v2-e4db6bec",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -125,7 +125,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-div_Te1_Tb1_1em3_s0-antmaze-large-diverse-v2-d3ec830d",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -183,7 +183,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_large-div_Te1_Tb1_BCq_1em3_s0-antmaze-large-diverse-v2-f1b9ca2e",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -241,7 +241,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-div_Te1_Tb1_s0-antmaze-large-diverse-v2-e7595ffa",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -299,7 +299,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-div_Te5_Tb1_s0-antmaze-large-diverse-v2-9101a128",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -357,7 +357,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-div_Te5_Tb5_s0-antmaze-large-diverse-v2-32122198",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -415,7 +415,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_large-div_Te1_Tb1_1em3_s1-antmaze-large-diverse-v2-363a73f8",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -473,7 +473,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_large-play_Te1_Tb025_1em3_s0-antmaze-large-play-v2-cca47666",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -531,7 +531,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-play_Te1_Tb1_5em4_s0-antmaze-large-play-v2-8f7b103b",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -589,7 +589,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_large-play_Te1_Tb1_BCq_1em3_s0-antmaze-large-play-v2-41af8157",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -647,7 +647,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-play_Te1_Tb1_1em3_s0-antmaze-large-play-v2-da0b4ffa",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -705,7 +705,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-play_Te1_Tb1_s0-antmaze-large-play-v2-03774c0e",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -763,7 +763,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-play_Te5_Tb1_s0-antmaze-large-play-v2-52d12cfd",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -821,7 +821,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-play_Te5_Tb5_s0-antmaze-large-play-v2-c0f315dd",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -879,7 +879,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_large-play_Te1_Tb1_1em3_s1-antmaze-large-play-v2-6e0e2162",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -937,7 +937,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_med-div_Te1_Tb025_1em3_s0-antmaze-medium-diverse-v2-a0cabb92",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -995,7 +995,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-div_Te1_Tb1_5em4_s0-antmaze-medium-diverse-v2-3b854dcb",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1053,7 +1053,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_med-div_Te1_Tb1_BCq_1em3_s0-antmaze-medium-diverse-v2-a96c2874",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1111,7 +1111,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-div_Te1_Tb1_1em3_s0-antmaze-medium-diverse-v2-c136d997",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1169,7 +1169,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-div_Te1_Tb1_s0-antmaze-medium-diverse-v2-918083c0",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1227,7 +1227,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-div_Te5_Tb1_s0-antmaze-medium-diverse-v2-fa96c07d",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1285,7 +1285,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-div_Te5_Tb5_s0-antmaze-medium-diverse-v2-eef200f7",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1343,7 +1343,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_med-div_Te1_Tb1_1em3_s1-antmaze-medium-diverse-v2-d32e0ec2",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1401,7 +1401,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_med-play_Te1_Tb025_1em3_s0-antmaze-medium-play-v2-1498e9fc",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1459,7 +1459,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-play_Te1_Tb1_5em4_s0-antmaze-medium-play-v2-b29e0cf5",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1517,7 +1517,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-play_Te1_Tb1_1em3_s0-antmaze-medium-play-v2-3655f7a4",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1575,7 +1575,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_med-play_Te1_Tb1_BCq_1em3_s0-antmaze-medium-play-v2-79cedde3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1633,7 +1633,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te1_Tb1_s0-antmaze-medium-play-v2-4780db25",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1691,7 +1691,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te5_Tb1_s0-antmaze-medium-play-v2-615f0ea5",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1749,7 +1749,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te5_Tb5_s0-antmaze-medium-play-v2-009db25d",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1807,7 +1807,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_med-play_Te1_Tb1_1em3_s1-antmaze-medium-play-v2-c198b33f",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1865,7 +1865,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_umaze_Te1_Tb025_1em3_s0-antmaze-umaze-v2-de736822",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -1923,7 +1923,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze_Te1_Tb1_5em4_s0-antmaze-umaze-v2-555160aa",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -1981,7 +1981,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_umaze_Te1_Tb1_BCq_1em3_s0-antmaze-umaze-v2-435aa2a2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2039,7 +2039,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze_Te1_Tb1_1em3_s0-antmaze-umaze-v2-7f3e7a0e",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2097,7 +2097,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze_Te1_Tb1_s0-antmaze-umaze-v2-9c6fdf8b",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2155,7 +2155,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze_Te5_Tb1_s0-antmaze-umaze-v2-96ab2d75",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2213,7 +2213,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze_Te5_Tb5_s0-antmaze-umaze-v2-9e6b5864",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2271,7 +2271,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_umaze_Te1_Tb1_1em3_s1-antmaze-umaze-v2-8dca75a3",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2329,7 +2329,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_te1_tb025_seed0/runs/amo_ams_umaze-div_Te1_Tb025_1em3_s0-antmaze-umaze-diverse-v2-56d4a630",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2387,7 +2387,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze-div_Te1_Tb1_5em4_s0-antmaze-umaze-diverse-v2-4d6cfda9",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2445,7 +2445,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_umaze-div_Te1_Tb1_BCq_1em3_s0-antmaze-umaze-diverse-v2-90f71451",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2503,7 +2503,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze-div_Te1_Tb1_1em3_s0-antmaze-umaze-diverse-v2-9a179fb0",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2561,7 +2561,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze-div_Te1_Tb1_s0-antmaze-umaze-diverse-v2-c6a40782",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2619,7 +2619,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze-div_Te5_Tb1_s0-antmaze-umaze-diverse-v2-e092491a",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2677,7 +2677,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze-div_Te5_Tb5_s0-antmaze-umaze-diverse-v2-adac12dc",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2735,7 +2735,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_umaze-div_Te1_Tb1_1em3_s1-antmaze-umaze-diverse-v2-009e3452",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2793,7 +2793,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te10_Tb10_Tlr0p0003_s0-halfcheetah-medium-v2-4cd1bb08",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -2854,7 +2854,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te10_Tb10_Tlr0p001_s0-halfcheetah-medium-v2-3de57a2f",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -2915,7 +2915,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_hc-m_Te1_Tb025_1em3_s0-halfcheetah-medium-v2-91f0fe7c",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -2973,7 +2973,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-v2-7c2d557e",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3034,7 +3034,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te5_Tb5_Tlr0p0003_s0-halfcheetah-medium-v2-a11d2860",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3095,7 +3095,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te5_Tb5_Tlr0p001_s0-halfcheetah-medium-v2-ebf847ef",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3156,7 +3156,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-m_Te10_Tb10_Tlr0p0003_s1-halfcheetah-medium-v2-ccbdc78f",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3217,7 +3217,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s1-halfcheetah-medium-v2-9cb24bd9",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3275,7 +3275,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-m_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-v2-4ddad439",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3336,7 +3336,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-m_Te5_Tb5_Tlr0p0003_s1-halfcheetah-medium-v2-87428b57",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3397,7 +3397,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-m_Te10_Tb10_Tlr0p0003_s2-halfcheetah-medium-v2-93320927",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3458,7 +3458,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s2-halfcheetah-medium-v2-7bc0dfef",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3516,7 +3516,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-m_Te5_Tb5_Tlr0p0003_s2-halfcheetah-medium-v2-be886760",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3577,7 +3577,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-m_Te10_Tb10_Tlr0p0003_s3-halfcheetah-medium-v2-f90366a4",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3638,7 +3638,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s3-halfcheetah-medium-v2-7693ae87",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3696,7 +3696,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-m_Te5_Tb5_Tlr0p0003_s3-halfcheetah-medium-v2-34bf9b32",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -3757,7 +3757,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-mr_Te10_Tb10_Tlr0p0003_s0-halfcheetah-medium-replay-v2-748c0b05",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3818,7 +3818,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-mr_Te10_Tb10_Tlr0p001_s0-halfcheetah-medium-replay-v2-fa174577",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3879,7 +3879,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_hc-mr_Te1_Tb025_1em3_s0-halfcheetah-medium-replay-v2-e6e86402",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3937,7 +3937,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-mr_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-replay-v2-7647448a",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3998,7 +3998,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-mr_Te5_Tb5_Tlr0p0003_s0-halfcheetah-medium-replay-v2-c3124c3c",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4059,7 +4059,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-mr_Te5_Tb5_Tlr0p001_s0-halfcheetah-medium-replay-v2-f07c31f7",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4120,7 +4120,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-mr_Te10_Tb10_Tlr0p0003_s1-halfcheetah-medium-replay-v2-503d07bc",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4181,7 +4181,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s1-halfcheetah-medium-replay-v2-2479d7b2",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4239,7 +4239,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-mr_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-replay-v2-4db153d5",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4300,7 +4300,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-mr_Te10_Tb10_Tlr0p0003_s2-halfcheetah-medium-replay-v2-3be17c20",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4361,7 +4361,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s2-halfcheetah-medium-replay-v2-d317dbc3",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4419,7 +4419,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-mr_Te10_Tb10_Tlr0p0003_s3-halfcheetah-medium-replay-v2-d8e5a7d2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4480,7 +4480,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s3-halfcheetah-medium-replay-v2-3f9ec528",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4538,7 +4538,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te10_Tb10_Tlr0p0003_s0-halfcheetah-medium-expert-v2-b68678e7",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -4599,7 +4599,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te10_Tb10_Tlr0p001_s0-halfcheetah-medium-expert-v2-2141f64b",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -4660,7 +4660,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_hc-me_Te1_Tb025_1em3_s0-halfcheetah-medium-expert-v2-f95622b8",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -4718,7 +4718,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-expert-v2-e19be219",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -4779,7 +4779,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p002_s0-halfcheetah-medium-expert-v2-e7305f91",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -4840,7 +4840,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te5_Tb5_Tlr0p0003_s0-halfcheetah-medium-expert-v2-dac7e83d",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -4901,7 +4901,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te5_Tb5_Tlr0p001_s0-halfcheetah-medium-expert-v2-5e3d11ed",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -4962,7 +4962,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s1-halfcheetah-medium-expert-v2-ba58d9c4",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -5023,7 +5023,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s1-halfcheetah-medium-expert-v2-a7a01a9b",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -5081,7 +5081,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-expert-v2-3ba6d257",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -5142,7 +5142,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s2-halfcheetah-medium-expert-v2-e95efb67",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -5203,7 +5203,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s2-halfcheetah-medium-expert-v2-acae0113",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -5261,7 +5261,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s3-halfcheetah-medium-expert-v2-bc9427d0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -5322,7 +5322,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s3-halfcheetah-medium-expert-v2-749e57ed",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -5380,7 +5380,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-m_Te10_Tb10_Tlr0p0003_s0-hopper-medium-v2-23e68436",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5441,7 +5441,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-m_Te10_Tb10_Tlr0p001_s0-hopper-medium-v2-14a6f17a",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5502,7 +5502,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_h-m_Te1_Tb025_1em3_s0-hopper-medium-v2-ceda205a",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5560,7 +5560,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-m_Te1_Tb1_Tlr0p0003_s0-hopper-medium-v2-5b41f8ad",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5621,7 +5621,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-m_Te5_Tb5_Tlr0p0003_s0-hopper-medium-v2-b702c013",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5682,7 +5682,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-m_Te5_Tb5_Tlr0p001_s0-hopper-medium-v2-bbb73567",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5743,7 +5743,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-m_Te10_Tb10_Tlr0p0003_s1-hopper-medium-v2-035d91bc",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5804,7 +5804,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s1-hopper-medium-v2-85749f1c",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5862,7 +5862,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-m_Te1_Tb1_Tlr0p002_s1-hopper-medium-v2-c8cd479a",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5923,7 +5923,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-m_Te10_Tb10_Tlr0p0003_s2-hopper-medium-v2-93b1069f",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -5984,7 +5984,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s2-hopper-medium-v2-3647d003",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6042,7 +6042,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-m_Te10_Tb10_Tlr0p0003_s3-hopper-medium-v2-fdd1fceb",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6103,7 +6103,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s3-hopper-medium-v2-a821f10d",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -6161,7 +6161,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-me_Te10_Tb10_Tlr0p0003_s0-hopper-medium-expert-v2-008e84aa",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6222,7 +6222,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-me_Te10_Tb10_Tlr0p001_s0-hopper-medium-expert-v2-322eeaea",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6283,7 +6283,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_h-me_Te1_Tb025_1em3_s0-hopper-medium-expert-v2-b82fb9f0",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6341,7 +6341,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s0-hopper-medium-expert-v2-4079d96d",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6402,7 +6402,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-me_Te5_Tb5_Tlr0p0003_s0-hopper-medium-expert-v2-d90b0848",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6463,7 +6463,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-me_Te5_Tb5_Tlr0p001_s0-hopper-medium-expert-v2-2eb0ea41",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6524,7 +6524,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s1-hopper-medium-expert-v2-f5736030",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6585,7 +6585,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s1-hopper-medium-expert-v2-0b611349",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6646,7 +6646,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s2-hopper-medium-expert-v2-5afd4fd1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6707,7 +6707,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s2-hopper-medium-expert-v2-21ee11d6",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6768,7 +6768,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s3-hopper-medium-expert-v2-b568fe0e",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6829,7 +6829,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s3-hopper-medium-expert-v2-ed518fc0",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6890,7 +6890,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te10_Tb10_Tlr0p0003_s0-hopper-medium-replay-v2-09a8c039",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -6951,7 +6951,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te10_Tb10_Tlr0p001_s0-hopper-medium-replay-v2-098f9510",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7012,7 +7012,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_h-mr_Te1_Tb025_1em3_s0-hopper-medium-replay-v2-0c2793b4",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7070,7 +7070,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p0003_s0-hopper-medium-replay-v2-6a3b732e",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7131,7 +7131,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te5_Tb5_Tlr0p0003_s0-hopper-medium-replay-v2-b1fe91af",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7192,7 +7192,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te5_Tb5_Tlr0p001_s0-hopper-medium-replay-v2-5f2fc866",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7253,7 +7253,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s1-hopper-medium-replay-v2-f080c915",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7311,7 +7311,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7372,7 +7372,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-mr_Te5_Tb5_Tlr0p0003_s1-hopper-medium-replay-v2-53119f93",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7433,7 +7433,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s2-hopper-medium-replay-v2-b42f2154",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7491,7 +7491,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-mr_Te5_Tb5_Tlr0p0003_s2-hopper-medium-replay-v2-3224da09",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7552,7 +7552,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s3-hopper-medium-replay-v2-d6f53a73",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7613,7 +7613,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-mr_Te5_Tb5_Tlr0p0003_s3-hopper-medium-replay-v2-54bdd111",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7674,7 +7674,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-m_Te10_Tb10_Tlr0p0003_s0-walker2d-medium-v2-3d98d88a",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -7735,7 +7735,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-m_Te10_Tb10_Tlr0p001_s0-walker2d-medium-v2-b7cec18f",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -7796,7 +7796,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_w-m_Te1_Tb025_1em3_s0-walker2d-medium-v2-c151a61a",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -7854,7 +7854,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-v2-06068a10",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -7915,7 +7915,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-m_Te5_Tb5_Tlr0p0003_s0-walker2d-medium-v2-3195c7f6",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -7976,7 +7976,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-m_Te5_Tb5_Tlr0p001_s0-walker2d-medium-v2-b69b967e",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8037,7 +8037,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s1-walker2d-medium-v2-4c3d21b0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8098,7 +8098,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s1-walker2d-medium-v2-37cd42ba",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8159,7 +8159,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s2-walker2d-medium-v2-fc36e71c",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8220,7 +8220,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s2-walker2d-medium-v2-2a2bf0ad",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8281,7 +8281,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s3-walker2d-medium-v2-6451a151",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8342,7 +8342,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s3-walker2d-medium-v2-61585211",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -8403,7 +8403,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-me_Te10_Tb10_Tlr0p0003_s0-walker2d-medium-expert-v2-c19ee97b",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8464,7 +8464,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-me_Te10_Tb10_Tlr0p001_s0-walker2d-medium-expert-v2-5b2004bb",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8525,7 +8525,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_w-me_Te1_Tb025_1em3_s0-walker2d-medium-expert-v2-32c2ab5a",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8583,7 +8583,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-me_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-expert-v2-e1c0c7c2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8644,7 +8644,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-me_Te5_Tb5_Tlr0p0003_s0-walker2d-medium-expert-v2-dbcdd5c9",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8705,7 +8705,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-me_Te5_Tb5_Tlr0p001_s0-walker2d-medium-expert-v2-fbfbb788",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8766,7 +8766,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s1-walker2d-medium-expert-v2-e0307c97",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8827,7 +8827,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-me_Te5_Tb5_Tlr0p0003_s1-walker2d-medium-expert-v2-555e9685",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8888,7 +8888,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s2-walker2d-medium-expert-v2-47a0d898",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8949,7 +8949,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-me_Te5_Tb5_Tlr0p0003_s2-walker2d-medium-expert-v2-7b8123f5",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -9010,7 +9010,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s3-walker2d-medium-expert-v2-4c07cc8c",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -9071,7 +9071,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-me_Te5_Tb5_Tlr0p0003_s3-walker2d-medium-expert-v2-a7d32217",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -9132,7 +9132,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-mr_Te10_Tb10_Tlr0p0003_s0-walker2d-medium-replay-v2-e2b66dba",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9193,7 +9193,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-mr_Te10_Tb10_Tlr0p001_s0-walker2d-medium-replay-v2-aa44bf32",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9254,7 +9254,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_w-mr_Te1_Tb025_1em3_s0-walker2d-medium-replay-v2-3b11f27d",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9312,7 +9312,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-mr_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-replay-v2-1070611e",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9373,7 +9373,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-mr_Te5_Tb5_Tlr0p0003_s0-walker2d-medium-replay-v2-4b52aff4",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9434,7 +9434,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-mr_Te5_Tb5_Tlr0p001_s0-walker2d-medium-replay-v2-67519dac",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9495,7 +9495,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-mr_Te10_Tb10_Tlr0p0003_s1-walker2d-medium-replay-v2-c6d319ea",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9556,7 +9556,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s1-walker2d-medium-replay-v2-f0372dc0",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9617,7 +9617,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-mr_Te10_Tb10_Tlr0p0003_s2-walker2d-medium-replay-v2-1b3cede7",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9678,7 +9678,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s2-walker2d-medium-replay-v2-0700d3fe",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9739,7 +9739,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-mr_Te10_Tb10_Tlr0p0003_s3-walker2d-medium-replay-v2-ced31c0e",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9800,7 +9800,7 @@
         "eval.jsonl"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s3-walker2d-medium-replay-v2-35b7e2b7",
-      "collected_at": "2026-09-14T00:53:01+00:00",
+      "collected_at": "2026-09-14T01:03:34+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9863,7 +9863,7 @@
         "run_manifest.json"
       ],
       "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_med-play_s0",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "behavior_bc_l1_joint",
@@ -9919,7 +9919,7 @@
         "run_manifest.json"
       ],
       "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "behavior_bc_l1_joint",
@@ -9975,7 +9975,7 @@
         "run_manifest.json"
       ],
       "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hc-m_s0",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "behavior_bc_l1_joint",
@@ -10031,7 +10031,7 @@
         "run_manifest.json"
       ],
       "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hc-me_s0",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "behavior_bc_l1_joint",
@@ -10087,7 +10087,7 @@
         "run_manifest.json"
       ],
       "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "behavior_bc_l1_joint",
@@ -10143,7 +10143,7 @@
         "run_manifest.json"
       ],
       "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
-      "collected_at": "2026-09-14T00:53:00+00:00",
+      "collected_at": "2026-09-14T01:03:33+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "behavior_bc_l1_joint",
@@ -10198,7 +10198,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10258,7 +10258,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10317,7 +10317,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10376,7 +10376,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10436,7 +10436,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10495,7 +10495,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10555,7 +10555,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10615,7 +10615,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10674,7 +10674,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10733,7 +10733,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10792,7 +10792,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10851,7 +10851,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-cln_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-cloned-v1",
       "env_short": "doorcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10910,7 +10910,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -10969,7 +10969,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11028,7 +11028,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11087,7 +11087,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11146,7 +11146,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11205,7 +11205,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11264,7 +11264,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11323,7 +11323,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11382,7 +11382,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11441,7 +11441,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11500,7 +11500,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11559,7 +11559,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-exp_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11618,7 +11618,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11677,7 +11677,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11736,7 +11736,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11795,7 +11795,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11854,7 +11854,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11913,7 +11913,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -11972,7 +11972,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12031,7 +12031,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12090,7 +12090,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12149,7 +12149,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12208,7 +12208,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12267,7 +12267,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_door-hum_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12326,7 +12326,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12385,7 +12385,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12444,7 +12444,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12503,7 +12503,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12562,7 +12562,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12621,7 +12621,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12680,7 +12680,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12739,7 +12739,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12798,7 +12798,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12857,7 +12857,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12916,7 +12916,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -12975,7 +12975,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-cln_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamcl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13034,7 +13034,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13093,7 +13093,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13152,7 +13152,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13211,7 +13211,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13270,7 +13270,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13329,7 +13329,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13388,7 +13388,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13447,7 +13447,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13506,7 +13506,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13565,7 +13565,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13624,7 +13624,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13683,7 +13683,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-exp_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13741,7 +13741,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13800,7 +13800,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13858,7 +13858,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13916,7 +13916,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -13975,7 +13975,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14033,7 +14033,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14091,7 +14091,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14150,7 +14150,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14208,7 +14208,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14266,7 +14266,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14325,7 +14325,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14383,7 +14383,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_hammer-hum_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14441,7 +14441,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14499,7 +14499,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14557,7 +14557,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14615,7 +14615,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14673,7 +14673,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14731,7 +14731,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14789,7 +14789,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14847,7 +14847,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14905,7 +14905,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -14963,7 +14963,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15021,7 +15021,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15079,7 +15079,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-cln_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-cloned-v1",
       "env_short": "pencl",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15137,7 +15137,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15195,7 +15195,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15253,7 +15253,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15311,7 +15311,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15369,7 +15369,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15427,7 +15427,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15485,7 +15485,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15543,7 +15543,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15601,7 +15601,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15659,7 +15659,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15717,7 +15717,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15775,7 +15775,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-exp_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15833,7 +15833,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho3em4_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15891,7 +15891,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -15949,7 +15949,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16007,7 +16007,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho3em4_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16065,7 +16065,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16123,7 +16123,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16181,7 +16181,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho3em4_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16239,7 +16239,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho1em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16297,7 +16297,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16355,7 +16355,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho3em4_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16413,7 +16413,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho1em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16471,7 +16471,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_pen-hum_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16529,7 +16529,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho1em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16543,7 +16543,7 @@
       "legacy_name": "iqlamo_jax_relocate-hum_beta1_rho1em3_s0",
       "max_timesteps": 1000000,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho1em3_s0/checkpoints/step_240000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho1em3_s0/checkpoints/step_560000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -16587,7 +16587,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s0",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16601,7 +16601,7 @@
       "legacy_name": "iqlamo_jax_relocate-hum_beta1_rho2em3_s0",
       "max_timesteps": 1000000,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s0/checkpoints/step_660000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s0/checkpoints/step_980000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -16645,7 +16645,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho1em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16659,7 +16659,7 @@
       "legacy_name": "iqlamo_jax_relocate-hum_beta1_rho1em3_s1",
       "max_timesteps": 1000000,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho1em3_s1/checkpoints/step_220000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho1em3_s1/checkpoints/step_540000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -16703,7 +16703,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s1",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16717,7 +16717,7 @@
       "legacy_name": "iqlamo_jax_relocate-hum_beta1_rho2em3_s1",
       "max_timesteps": 1000000,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s1/checkpoints/step_500000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s1/checkpoints/step_820000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -16761,7 +16761,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s2",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16775,7 +16775,7 @@
       "legacy_name": "iqlamo_jax_relocate-hum_beta1_rho2em3_s2",
       "max_timesteps": 1000000,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s2/checkpoints/step_440000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s2/checkpoints/step_780000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -16819,7 +16819,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s3",
-      "collected_at": "2026-09-14T00:53:03+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -16833,7 +16833,7 @@
       "legacy_name": "iqlamo_jax_relocate-hum_beta1_rho2em3_s3",
       "max_timesteps": 1000000,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s3/checkpoints/step_340000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s3/checkpoints/step_700000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -16878,7 +16878,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -16938,7 +16938,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -16998,7 +16998,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -17058,7 +17058,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-m_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -17118,7 +17118,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-mr_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -17178,7 +17178,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-mr_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -17238,7 +17238,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-mr_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -17298,7 +17298,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-mr_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -17358,7 +17358,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-me_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "td3_amo_jax",
@@ -17418,7 +17418,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-me_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "td3_amo_jax",
@@ -17478,7 +17478,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-me_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "td3_amo_jax",
@@ -17538,7 +17538,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_hc-me_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "td3_amo_jax",
@@ -17599,7 +17599,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-m_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "td3_amo_jax",
@@ -17660,7 +17660,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-m_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "td3_amo_jax",
@@ -17720,7 +17720,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-m_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "td3_amo_jax",
@@ -17780,7 +17780,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-m_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "td3_amo_jax",
@@ -17840,7 +17840,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-me_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "td3_amo_jax",
@@ -17900,7 +17900,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-me_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "td3_amo_jax",
@@ -17960,7 +17960,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-me_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "td3_amo_jax",
@@ -18020,7 +18020,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-me_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "td3_amo_jax",
@@ -18080,7 +18080,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-mr_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "td3_amo_jax",
@@ -18140,7 +18140,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-mr_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "td3_amo_jax",
@@ -18200,7 +18200,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-mr_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "td3_amo_jax",
@@ -18260,7 +18260,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_h-mr_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "td3_amo_jax",
@@ -18320,7 +18320,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-m_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "td3_amo_jax",
@@ -18380,7 +18380,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-m_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "td3_amo_jax",
@@ -18440,7 +18440,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-m_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "td3_amo_jax",
@@ -18500,7 +18500,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-m_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "td3_amo_jax",
@@ -18560,7 +18560,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-me_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "td3_amo_jax",
@@ -18620,7 +18620,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-me_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "td3_amo_jax",
@@ -18680,7 +18680,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-me_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "td3_amo_jax",
@@ -18740,7 +18740,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-me_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "td3_amo_jax",
@@ -18800,7 +18800,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-mr_s0",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "td3_amo_jax",
@@ -18860,7 +18860,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-mr_s1",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "td3_amo_jax",
@@ -18920,7 +18920,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-mr_s2",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "td3_amo_jax",
@@ -18980,7 +18980,7 @@
         "source_run_meta.json"
       ],
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_default_seeds0to3/runs/td3amo_jax_w-mr_s3",
-      "collected_at": "2026-09-14T00:53:02+00:00",
+      "collected_at": "2026-09-14T01:03:35+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "td3_amo_jax",

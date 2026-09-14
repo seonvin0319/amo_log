@@ -6,7 +6,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s2",
-  "collected_at": "2026-09-14T00:53:03+00:00",
+  "collected_at": "2026-09-14T01:03:35+00:00",
   "env": "relocate-human-v1",
   "env_short": "relh",
   "family": "iql_amo_jax_adroit_beta1_rho",
@@ -17,7 +17,7 @@
   "identity_uuid8": "e9e5bcbd",
   "legacy_name": "iqlamo_jax_relocate-hum_beta1_rho2em3_s2",
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s2/checkpoints/step_440000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-hum_beta1_rho2em3_s2/checkpoints/step_780000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
