@@ -38,6 +38,18 @@ ENV_SHORT = {
     "antmaze-medium-diverse-v2": "ammd",
     "antmaze-large-play-v2": "amlp",
     "antmaze-large-diverse-v2": "amld",
+    "door-human-v1": "door_h",
+    "door-cloned-v1": "door_c",
+    "door-expert-v1": "door_e",
+    "hammer-human-v1": "ham_h",
+    "hammer-cloned-v1": "ham_c",
+    "hammer-expert-v1": "ham_e",
+    "pen-human-v1": "pen_h",
+    "pen-cloned-v1": "pen_c",
+    "pen-expert-v1": "pen_e",
+    "relocate-human-v1": "rel_h",
+    "relocate-cloned-v1": "rel_c",
+    "relocate-expert-v1": "rel_e",
 }
 
 # legacy short codes that appeared in older APART directory names
@@ -130,6 +142,14 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "host": "choi",
         "code_repo": "AMO",
         "family_force": "vanilla",
+    },
+    {
+        # TD3+AMO JAX Adroit: T_E=T_B=1, T_lr=3e-4, seeds 0–3.
+        "algo": "td3_amo",
+        "root": Path("/home/choi/amo_jax/results/td3_amo_adroit"),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "adroit",
     },
 ]
 
@@ -265,6 +285,24 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         else:
             # Legacy MPI Actor0 extractions.
             tokens.append("pi_base")
+    if family == "adroit" and algo == "td3_amo":
+        backend = str(cfg.get("backend") or "jax").lower()
+        tokens.append(backend if backend in ("jax", "torch") else "jax")
+        te = cfg.get("T_E")
+        tb = cfg.get("T_B")
+        tlr = cfg.get("T_lr")
+        if te is not None:
+            te_f = float(te)
+            tokens.append(f"te{int(te_f) if te_f.is_integer() else te_f}")
+        if tb is not None:
+            tb_f = float(tb)
+            tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
+        if tlr is not None:
+            tlr_f = float(tlr)
+            if abs(tlr_f - 3e-4) < 1e-12:
+                tokens.append("tlr3em4")
+            else:
+                tokens.append(f"tlr{tlr_f:g}".replace(".", "p").replace("-", "m"))
     if family == "benchmark" and algo == "iql":
         tokens.append("pi_base")
     if algo in ("wpc", "aspc") or (family == "benchmark" and algo in ("wpc", "aspc")):
