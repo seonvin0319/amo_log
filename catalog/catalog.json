@@ -1,5 +1,5 @@
 {
-  "n_runs": 485,
+  "n_runs": 489,
   "runs": [
     {
       "algo": "amo",
@@ -22601,7 +22601,7 @@
         "metrics.jsonl",
         "eval.jsonl"
       ],
-      "collected_at": "2026-09-14T15:11:16+09:00",
+      "collected_at": "2026-09-14T15:16:42+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "iql_adaptive_beta",
@@ -22610,7 +22610,7 @@
         "code_commit": null,
         "code_repo": "AMO_EXP_iql-amo"
       },
-      "last_eval_step": 45000,
+      "last_eval_step": 75000,
       "legacy_name": "halfcheetah-medium-v2__rho2e-03__s1",
       "max_timesteps": 1000000,
       "rel_path": "runs/iql/iql_adaptive_beta/hcm_s1_rho0p002__9d842989",
@@ -22626,7 +22626,7 @@
         "env": "halfcheetah-medium-v2",
         "eval_freq": 5000,
         "group": "iql_amo_shchoi69_rho2e-03",
-        "last_metrics_step": 46000,
+        "last_metrics_step": 78000,
         "max_timesteps": 1000000,
         "normalize": true,
         "normalize_reward": false,
@@ -22688,10 +22688,9 @@
       "algo": "iql",
       "artifacts": [
         "config.yaml",
-        "metrics.jsonl",
-        "eval.jsonl"
+        "metrics.jsonl"
       ],
-      "collected_at": "2026-09-14T15:11:16+09:00",
+      "collected_at": "2026-09-14T15:16:42+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "iql_adaptive_beta",
@@ -22700,7 +22699,52 @@
         "code_commit": null,
         "code_repo": "AMO_EXP_iql-amo"
       },
-      "last_eval_step": 45000,
+      "last_eval_step": null,
+      "legacy_name": "halfcheetah-medium-v2__rho2e-03__s2",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/iql_adaptive_beta/hcm_s2_rho0p002__54990440",
+      "run_id": "hcm_s2_rho0p002__54990440",
+      "seed": 2,
+      "settings": {
+        "actor_lr": 0.0003,
+        "adaptive_enabled": true,
+        "batch_size": 256,
+        "beta": 3.0,
+        "beta_initial": 3.0,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-v2",
+        "eval_freq": 5000,
+        "group": "iql_amo_shchoi69_rho2e-03",
+        "last_metrics_step": 1000,
+        "max_timesteps": 1000000,
+        "normalize": true,
+        "normalize_reward": false,
+        "project": "CORL",
+        "rho_lr": 0.002,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "shchoi",
+      "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-v2__rho2e-03__s2",
+      "variant": "rho0p002"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl"
+      ],
+      "collected_at": "2026-09-14T15:16:42+09:00",
+      "env": "halfcheetah-medium-v2",
+      "env_short": "hcm",
+      "family": "iql_adaptive_beta",
+      "final_score": null,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO_EXP_iql-amo"
+      },
+      "last_eval_step": 75000,
       "legacy_name": "halfcheetah-medium-v2__rho3e-04__s3",
       "max_timesteps": 1000000,
       "rel_path": "runs/iql/iql_adaptive_beta/hcm_s3_rho0p0003__e250cdfa",
@@ -22716,7 +22760,7 @@
         "env": "halfcheetah-medium-v2",
         "eval_freq": 5000,
         "group": "iql_amo_shchoi69_rho3e-04",
-        "last_metrics_step": 46000,
+        "last_metrics_step": 78000,
         "max_timesteps": 1000000,
         "normalize": true,
         "normalize_reward": false,
@@ -22727,6 +22771,138 @@
       },
       "source_host": "shchoi",
       "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-v2__rho3e-04__s3",
+      "variant": "rho0p0003"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl"
+      ],
+      "collected_at": "2026-09-14T15:16:42+09:00",
+      "env": "halfcheetah-medium-v2",
+      "env_short": "hcm",
+      "family": "iql_adaptive_beta",
+      "final_score": null,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO_EXP_iql-amo"
+      },
+      "last_eval_step": null,
+      "legacy_name": "halfcheetah-medium-v2__rho2e-03__s3",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/iql_adaptive_beta/hcm_s3_rho0p002__e9ec8264",
+      "run_id": "hcm_s3_rho0p002__e9ec8264",
+      "seed": 3,
+      "settings": {
+        "actor_lr": 0.0003,
+        "adaptive_enabled": true,
+        "batch_size": 256,
+        "beta": 3.0,
+        "beta_initial": 3.0,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-v2",
+        "eval_freq": 5000,
+        "group": "iql_amo_shchoi69_rho2e-03",
+        "last_metrics_step": 1000,
+        "max_timesteps": 1000000,
+        "normalize": true,
+        "normalize_reward": false,
+        "project": "CORL",
+        "rho_lr": 0.002,
+        "seed": 3,
+        "tau": 0.005
+      },
+      "source_host": "shchoi",
+      "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-v2__rho2e-03__s3",
+      "variant": "rho0p002"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl"
+      ],
+      "collected_at": "2026-09-14T15:16:42+09:00",
+      "env": "halfcheetah-medium-replay-v2",
+      "env_short": "hcmr",
+      "family": "iql_adaptive_beta",
+      "final_score": null,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO_EXP_iql-amo"
+      },
+      "last_eval_step": null,
+      "legacy_name": "halfcheetah-medium-replay-v2__rho3e-04__s1",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/iql_adaptive_beta/hcmr_s1_rho0p0003__33be0c16",
+      "run_id": "hcmr_s1_rho0p0003__33be0c16",
+      "seed": 1,
+      "settings": {
+        "actor_lr": 0.0003,
+        "adaptive_enabled": true,
+        "batch_size": 256,
+        "beta": 3.0,
+        "beta_initial": 3.0,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-replay-v2",
+        "eval_freq": 5000,
+        "group": "iql_amo_shchoi69_rho3e-04",
+        "last_metrics_step": 2000,
+        "max_timesteps": 1000000,
+        "normalize": true,
+        "normalize_reward": false,
+        "project": "CORL",
+        "rho_lr": 0.0003,
+        "seed": 1,
+        "tau": 0.005
+      },
+      "source_host": "shchoi",
+      "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-replay-v2__rho3e-04__s1",
+      "variant": "rho0p0003"
+    },
+    {
+      "algo": "iql",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl"
+      ],
+      "collected_at": "2026-09-14T15:16:42+09:00",
+      "env": "halfcheetah-medium-replay-v2",
+      "env_short": "hcmr",
+      "family": "iql_adaptive_beta",
+      "final_score": null,
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO_EXP_iql-amo"
+      },
+      "last_eval_step": null,
+      "legacy_name": "halfcheetah-medium-replay-v2__rho3e-04__s2",
+      "max_timesteps": 1000000,
+      "rel_path": "runs/iql/iql_adaptive_beta/hcmr_s2_rho0p0003__5ed6478e",
+      "run_id": "hcmr_s2_rho0p0003__5ed6478e",
+      "seed": 2,
+      "settings": {
+        "actor_lr": 0.0003,
+        "adaptive_enabled": true,
+        "batch_size": 256,
+        "beta": 3.0,
+        "beta_initial": 3.0,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-replay-v2",
+        "eval_freq": 5000,
+        "group": "iql_amo_shchoi69_rho3e-04",
+        "last_metrics_step": 2000,
+        "max_timesteps": 1000000,
+        "normalize": true,
+        "normalize_reward": false,
+        "project": "CORL",
+        "rho_lr": 0.0003,
+        "seed": 2,
+        "tau": 0.005
+      },
+      "source_host": "shchoi",
+      "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-replay-v2__rho3e-04__s2",
       "variant": "rho0p0003"
     },
     {
