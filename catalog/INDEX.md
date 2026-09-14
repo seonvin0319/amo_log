@@ -1,6 +1,6 @@
 # Experiment catalog
 
-Total runs: **340**
+Total runs: **343**
 
 | algo | family | run_id | env | seed | max_steps | last_eval_step | final_score | protocol | path |
 |------|--------|--------|-----|------|-----------|----------------|-------------|----------|------|
@@ -296,6 +296,9 @@ Total runs: **340**
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s3_Tlr0p001__612c8287` | relocate-cloned-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s3_Tlr0p001__612c8287` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relcl_s3_Tlr0p002__fb9e94d3` | relocate-cloned-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relcl_s3_Tlr0p002__fb9e94d3` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `rele_s0_Tlr0p002__a0c54324` | relocate-expert-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/rele_s0_Tlr0p002__a0c54324` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `rele_s1_Tlr0p002__53d19fea` | relocate-expert-v1 | 1 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/rele_s1_Tlr0p002__53d19fea` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `rele_s2_Tlr0p002__5ab7e104` | relocate-expert-v1 | 2 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/rele_s2_Tlr0p002__5ab7e104` |
+| iql_amo | iql_amo_jax_adroit_beta1_rho | `rele_s3_Tlr0p002__5982bb04` | relocate-expert-v1 | 3 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/rele_s3_Tlr0p002__5982bb04` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s0_Tlr0p0003__a7eeb3d0` | relocate-human-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s0_Tlr0p0003__a7eeb3d0` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s0_Tlr0p001__d955c221` | relocate-human-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s0_Tlr0p001__d955c221` |
 | iql_amo | iql_amo_jax_adroit_beta1_rho | `relh_s0_Tlr0p002__0e311f0c` | relocate-human-v1 | 0 | 1000000 | — | — | — | `runs/iql_amo/iql_amo_jax_adroit_beta1_rho/relh_s0_Tlr0p002__0e311f0c` |

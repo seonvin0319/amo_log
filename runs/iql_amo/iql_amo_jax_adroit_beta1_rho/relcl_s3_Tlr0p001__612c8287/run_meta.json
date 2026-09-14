@@ -6,7 +6,7 @@
     "source_run_meta.json"
   ],
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-cln_beta1_rho1em3_s3",
-  "collected_at": "2026-09-14T02:46:08+00:00",
+  "collected_at": "2026-09-14T02:56:23+00:00",
   "env": "relocate-cloned-v1",
   "env_short": "relcl",
   "family": "iql_amo_jax_adroit_beta1_rho",
@@ -17,7 +17,7 @@
   "identity_uuid8": "612c8287",
   "legacy_name": "iqlamo_jax_relocate-cln_beta1_rho1em3_s3",
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-cln_beta1_rho1em3_s3/checkpoints/step_880000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-cln_beta1_rho1em3_s3/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
