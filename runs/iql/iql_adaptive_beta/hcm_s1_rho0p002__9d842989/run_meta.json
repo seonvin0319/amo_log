@@ -13,8 +13,8 @@
     "code_commit": null,
     "code_repo": "AMO_EXP_iql-amo"
   },
-  "legacy_name": "halfcheetah-medium-v2__rho3e-04__s1",
-  "run_id": "hcm_s1_rho0p0003__40cef3cd",
+  "legacy_name": "halfcheetah-medium-v2__rho2e-03__s1",
+  "run_id": "hcm_s1_rho0p002__9d842989",
   "seed": 1,
   "settings": {
     "actor_lr": 0.0003,
@@ -25,17 +25,17 @@
     "discount": 0.99,
     "env": "halfcheetah-medium-v2",
     "eval_freq": 5000,
-    "group": "iql_amo_shchoi69_rho3e-04",
-    "last_metrics_step": 1000000,
+    "group": "iql_amo_shchoi69_rho2e-03",
+    "last_metrics_step": 10000,
     "max_timesteps": 1000000,
     "normalize": true,
     "normalize_reward": false,
     "project": "CORL",
-    "rho_lr": 0.0003,
+    "rho_lr": 0.002,
     "seed": 1,
     "tau": 0.005
   },
   "source_host": "shchoi",
-  "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-v2__rho3e-04__s1",
-  "variant": "rho0p0003"
+  "source_path": "/home/shchoi/AMO_EXP_iql-amo/results/iql_amo_shchoi69/runs/halfcheetah-medium-v2__rho2e-03__s1",
+  "variant": "rho0p002"
 }
