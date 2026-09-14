@@ -9,7 +9,7 @@
     "FINAL50_SINGLEPASS_V1_DONE.json"
   ],
   "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s2/run/checkpoints/step_1000000.npz",
-  "collected_at": "2026-09-14T09:56:59+09:00",
+  "collected_at": "2026-09-14T10:00:13+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "lr1e3_beta_sweep",
