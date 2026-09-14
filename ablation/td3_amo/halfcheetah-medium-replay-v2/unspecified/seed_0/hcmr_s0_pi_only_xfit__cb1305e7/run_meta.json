@@ -11,7 +11,7 @@
     "initial_scale_not_1",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-14T22:57:48+09:00",
+  "collected_at": "2026-09-14T23:00:02+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "pi_only_xfit_target",
