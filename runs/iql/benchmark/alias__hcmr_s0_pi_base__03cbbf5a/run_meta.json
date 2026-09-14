@@ -1,7 +1,7 @@
 {
   "alias_of": "hcmr_s0_default__03cbbf5a",
   "canonical_rel_path": "runs/iql/benchmark/hcmr_s0_default__03cbbf5a",
-  "collected_at": "2026-09-14T11:00:02+09:00",
+  "collected_at": "2026-09-14T11:10:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `hcmr_s0_default__03cbbf5a`, map stale variant id `hcmr_s0_pi_base__03cbbf5a` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/halfcheetah-medium-replay-v2/seed_0",

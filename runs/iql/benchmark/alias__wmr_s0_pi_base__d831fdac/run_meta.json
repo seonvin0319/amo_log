@@ -1,7 +1,7 @@
 {
   "alias_of": "wmr_s0_default__d831fdac",
   "canonical_rel_path": "runs/iql/benchmark/wmr_s0_default__d831fdac",
-  "collected_at": "2026-09-14T11:00:02+09:00",
+  "collected_at": "2026-09-14T11:10:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `wmr_s0_default__d831fdac`, map stale variant id `wmr_s0_pi_base__d831fdac` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-replay-v2/seed_0",
