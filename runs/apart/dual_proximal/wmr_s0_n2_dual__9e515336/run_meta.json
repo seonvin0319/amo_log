@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:01+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "dual_proximal",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "APART"
   },
+  "is_alias": false,
   "legacy_name": "wmr_s0_apart_n2_dual-walker2d-medium-replay-v2-9e515336",
   "run_id": "wmr_s0_n2_dual__9e515336",
   "seed": 0,

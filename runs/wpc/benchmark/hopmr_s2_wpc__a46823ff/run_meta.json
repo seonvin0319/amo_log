@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "eval_source": "synthesized_from_stdout_log",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "ASPC_cohort"
   },
+  "is_alias": false,
   "legacy_name": "hopmr_s2_wpc-hopper-medium-replay-v2-a46823ff",
   "run_id": "hopmr_s2_wpc__a46823ff",
   "seed": 2,

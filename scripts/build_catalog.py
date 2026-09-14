@@ -66,9 +66,23 @@ def build() -> None:
     rows: List[Dict[str, Any]] = []
     for meta_path in sorted(RUNS.glob("*/*/*/run_meta.json")):
         meta = json.loads(meta_path.read_text())
+        if meta.get("is_alias"):
+            continue
         run_dir = meta_path.parent
-        score = last_eval_score(run_dir / "eval.jsonl")
-        step = last_eval_step(run_dir / "eval.jsonl")
+        # Prefer final50_singlepass_v1 when present; keep legacy eval as fallback.
+        score = None
+        step = None
+        eval_protocol = None
+        f50 = run_dir / "eval_final50_v1.jsonl"
+        if f50.exists() and f50.stat().st_size:
+            score = last_eval_score(f50)
+            step = last_eval_step(f50)
+            eval_protocol = "final50_singlepass_v1"
+        if score is None:
+            score = last_eval_score(run_dir / "eval.jsonl")
+            step = last_eval_step(run_dir / "eval.jsonl")
+            if score is not None:
+                eval_protocol = "legacy_eval_jsonl"
         settings = meta.get("settings", {})
         rows.append(
             {
@@ -77,6 +91,7 @@ def build() -> None:
                 "final_score": score,
                 "last_eval_step": step,
                 "max_timesteps": settings.get("max_timesteps"),
+                "eval_protocol": eval_protocol,
             }
         )
 

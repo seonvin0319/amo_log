@@ -1,5 +1,6 @@
 {
   "algo": "td3_amo",
+  "alias_of": "ham_c_s0_jax_te1_tb1_Tlr0p0003__e7328db5",
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
@@ -13,6 +14,7 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
+  "is_alias": true,
   "legacy_name": "ham_c_s0_td3amo",
   "run_id": "ham_c_s0_jax_te1_tb1_pi_base_Tlr0p0003__e7328db5",
   "seed": 0,
@@ -39,5 +41,6 @@
   },
   "source_host": "choi",
   "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/ham_c_s0_td3amo",
+  "superseded": true,
   "variant": "jax_te1_tb1_pi_base_Tlr0p0003"
 }

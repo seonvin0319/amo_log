@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "eval_source": "synthesized_from_stdout_log",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "ASPC_cohort"
   },
+  "is_alias": false,
   "legacy_name": "hcm_s2_wpc-halfcheetah-medium-v2-69d73d4e",
   "run_id": "hcm_s2_wpc__69d73d4e",
   "seed": 2,

@@ -1,0 +1,9 @@
+{
+  "alias_of": "wme_s0_default__cd69cae4",
+  "canonical_rel_path": "runs/iql/benchmark/wme_s0_default__cd69cae4",
+  "collected_at": "2026-09-14T10:00:01+09:00",
+  "is_alias": true,
+  "note": "Same source_path reused; keep canonical `wme_s0_default__cd69cae4`, map stale variant id `wme_s0_pi_base__cd69cae4` as alias (do not double-count seeds).",
+  "source_path": "/home/choi/amo/benchmark/iql/walker2d-medium-expert-v2/seed_0",
+  "stale_run_id": "wme_s0_pi_base__cd69cae4"
+}

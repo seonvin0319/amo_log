@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:01+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "dual_proximal",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "APART"
   },
+  "is_alias": false,
   "legacy_name": "hcm_s0_apart_n4_dual-halfcheetah-medium-v2-0cd52221",
   "run_id": "hcm_s0_n4_dual__0cd52221",
   "seed": 0,

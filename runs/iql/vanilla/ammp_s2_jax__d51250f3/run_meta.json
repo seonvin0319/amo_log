@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "vanilla",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
+  "is_alias": false,
   "legacy_name": "ammp_s2_iql",
   "run_id": "ammp_s2_jax__d51250f3",
   "seed": 2,

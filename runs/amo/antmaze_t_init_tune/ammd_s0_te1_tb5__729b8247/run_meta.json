@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "antmaze_t_init_tune",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
+  "is_alias": false,
   "legacy_name": "amo_am_te1_tb5_ammd_s0-antmaze-medium-diverse-v2-729b8247",
   "run_id": "ammd_s0_te1_tb5__729b8247",
   "seed": 0,

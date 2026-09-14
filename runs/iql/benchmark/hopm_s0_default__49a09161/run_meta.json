@@ -1,10 +1,13 @@
 {
   "algo": "iql",
+  "aliases": [
+    "hopm_s0_pi_base__49a09161"
+  ],
   "artifacts": [
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:40:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "benchmark",

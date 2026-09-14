@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "benchmark",
@@ -12,6 +12,7 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
+  "is_alias": false,
   "legacy_name": "seed_0",
   "run_id": "ammp_s0_pi_base__3736ca10",
   "seed": 0,

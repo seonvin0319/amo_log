@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:01+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "pi_only_xfit_mpi_nstep",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "APART"
   },
+  "is_alias": false,
   "legacy_name": "hme_s0_pi_only_xfit_target_mpi_n1_alr1e4-hopper-medium-expert-v2-6147e9b8",
   "run_id": "hopme_s0_mpi_n1_alr1e4__6147e9b8",
   "seed": 0,

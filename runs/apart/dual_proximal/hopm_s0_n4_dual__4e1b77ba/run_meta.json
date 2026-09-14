@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:01+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "dual_proximal",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "APART"
   },
+  "is_alias": false,
   "legacy_name": "hopm_s0_apart_n4_dual-hopper-medium-v2-4e1b77ba",
   "run_id": "hopm_s0_n4_dual__4e1b77ba",
   "seed": 0,

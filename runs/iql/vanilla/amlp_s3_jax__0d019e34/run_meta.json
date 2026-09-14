@@ -5,7 +5,7 @@
     "metrics.jsonl",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "vanilla",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
+  "is_alias": false,
   "legacy_name": "amlp_s3_iql",
   "run_id": "amlp_s3_jax__0d019e34",
   "seed": 3,

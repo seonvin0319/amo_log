@@ -4,7 +4,7 @@
     "config.yaml",
     "eval.jsonl"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "eval_source": "synthesized_from_stdout_log",
@@ -13,6 +13,7 @@
     "code_commit": null,
     "code_repo": "ASPC"
   },
+  "is_alias": false,
   "legacy_name": "td3bc_aspc_amu_s1-antmaze-umaze-v2-2defb713",
   "run_id": "amu_s1_aspc_rc_a2p5__2defb713",
   "seed": 1,

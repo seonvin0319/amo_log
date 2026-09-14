@@ -16,7 +16,7 @@ from typing import Any, Dict, List, Optional, Tuple
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
 
-KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl")
+KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "eval_final50_v1.jsonl")
 
 ENV_SHORT = {
     "halfcheetah-medium-v2": "hcm",
@@ -688,6 +688,50 @@ def ingest_mpi_iql_actor0(
     return meta
 
 
+def load_source_index(algo: str, family: str) -> Dict[str, str]:
+    """Map absolute source_path -> canonical run_id under runs/<algo>/<family>/."""
+    index: Dict[str, str] = {}
+    root = RUNS / algo / family
+    if not root.exists():
+        return index
+    for meta_path in root.glob("*/run_meta.json"):
+        try:
+            meta = json.loads(meta_path.read_text())
+        except (OSError, json.JSONDecodeError, TypeError):
+            continue
+        if meta.get("is_alias"):
+            continue
+        src = meta.get("source_path")
+        run_id = meta.get("run_id") or meta_path.parent.name
+        if src and run_id:
+            index[str(Path(src).resolve())] = run_id
+    return index
+
+
+def write_alias(
+    alias_dir: Path,
+    canonical_run_id: str,
+    canonical_rel: str,
+    stale_run_id: str,
+    source_path: str,
+    note: str,
+) -> None:
+    alias_dir.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "is_alias": True,
+        "alias_of": canonical_run_id,
+        "canonical_rel_path": canonical_rel,
+        "stale_run_id": stale_run_id,
+        "source_path": source_path,
+        "note": note,
+        "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+    }
+    (alias_dir / "run_meta.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+    (alias_dir / "ALIAS.md").write_text(
+        f"Alias of `{canonical_run_id}` ({canonical_rel}).\n\n{note}\n"
+    )
+
+
 def ingest_one(
     src: Path,
     algo: str,
@@ -696,6 +740,7 @@ def ingest_one(
     family_force: Optional[str],
     dry_run: bool,
     log_dir: Optional[Path] = None,
+    source_index: Optional[Dict[str, str]] = None,
 ) -> Optional[Dict[str, Any]]:
     cfg_path = src / "config.yaml"
     if not cfg_path.exists():
@@ -728,6 +773,65 @@ def ingest_one(
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
+    source_path = str(src.resolve())
+
+    # Deduplicate by absolute source_path: one canonical export per original run.
+    if source_index is None:
+        source_index = load_source_index(algo, family)
+    existing_id = source_index.get(source_path)
+    if existing_id and existing_id != run_id:
+        canon = RUNS / algo / family / existing_id
+        note = (
+            f"Same source_path reused; keep canonical `{existing_id}`, "
+            f"map stale variant id `{run_id}` as alias (do not double-count seeds)."
+        )
+        if dry_run:
+            print(f"DRY ALIAS {src} -> {existing_id} (skip {run_id})")
+            return {
+                "algo": algo,
+                "family": family,
+                "run_id": existing_id,
+                "is_alias": True,
+                "alias_of": existing_id,
+                "stale_run_id": run_id,
+                "source_path": source_path,
+                "env": env,
+                "seed": seed,
+                "variant": variant,
+            }
+        # Refresh canonical artifacts from latest local source (not by score).
+        if canon.exists():
+            for name in KEEP_FILES:
+                if (src / name).exists():
+                    shutil.copy2(src / name, canon / name)
+            for extra in ("launch_cmd.txt", "notes.md", "eval_final50_v1.DONE.json"):
+                if (src / extra).exists():
+                    shutil.copy2(src / extra, canon / extra)
+            meta_path_c = canon / "run_meta.json"
+            if meta_path_c.exists():
+                try:
+                    cmeta = json.loads(meta_path_c.read_text())
+                except (OSError, json.JSONDecodeError, TypeError):
+                    cmeta = {}
+                cmeta["collected_at"] = datetime.now(timezone.utc).astimezone().isoformat(
+                    timespec="seconds"
+                )
+                cmeta["source_path"] = source_path
+                aliases = list(cmeta.get("aliases") or [])
+                if run_id not in aliases:
+                    aliases.append(run_id)
+                cmeta["aliases"] = aliases
+                meta_path_c.write_text(json.dumps(cmeta, indent=2, sort_keys=True) + "\n")
+        write_alias(
+            RUNS / algo / family / f"alias__{run_id}",
+            existing_id,
+            str(canon.relative_to(ROOT)),
+            run_id,
+            source_path,
+            note,
+        )
+        print(f"ALIAS {src.name} -> {existing_id} (stale {run_id})")
+        return json.loads((canon / "run_meta.json").read_text()) if (canon / "run_meta.json").exists() else None
 
     # Materialize eval.jsonl for ASPC TD3+BC (stdout-only logging).
     synthesized_eval: Optional[List[Dict[str, Any]]] = None
@@ -749,12 +853,13 @@ def ingest_one(
         "seed": seed,
         "variant": variant,
         "legacy_name": src.name,
-        "source_path": str(src.resolve()),
+        "source_path": source_path,
         "source_host": host,
         "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
         "settings": settings_summary(algo, cfg),
         "artifacts": artifacts,
         "git": {"code_repo": code_repo, "code_commit": None},
+        "is_alias": False,
     }
     if log_path is not None:
         meta["source_log"] = str(log_path.resolve())
@@ -766,6 +871,7 @@ def ingest_one(
             f"DRY {src} -> {dest.relative_to(ROOT)}"
             + (f" eval_rows={len(synthesized_eval)}" if synthesized_eval else "")
         )
+        source_index[source_path] = run_id
         return meta
 
     dest.mkdir(parents=True, exist_ok=True)
@@ -776,11 +882,13 @@ def ingest_one(
             )
         else:
             shutil.copy2(src / name, dest / name)
-    for extra in ("launch_cmd.txt", "notes.md"):
+    for extra in ("launch_cmd.txt", "notes.md", "eval_final50_v1.DONE.json"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)
-            meta["artifacts"].append(extra)
+            if extra not in meta["artifacts"]:
+                meta["artifacts"].append(extra)
     (dest / "run_meta.json").write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n")
+    source_index[source_path] = run_id
     print(f"OK  {dest.relative_to(ROOT)}")
     return meta
 
@@ -807,15 +915,25 @@ def main() -> int:
                 if meta:
                     collected.append(meta)
             continue
+        family_force = src_spec.get("family_force")
+        # Per (algo, family) source_path index so re-exports do not double-count.
+        source_index = load_source_index(src_spec["algo"], family_force or "misc")
+        # Also seed index from any existing family dirs for this algo.
+        algo_root = RUNS / src_spec["algo"]
+        if algo_root.exists():
+            for fam_dir in algo_root.iterdir():
+                if fam_dir.is_dir():
+                    source_index.update(load_source_index(src_spec["algo"], fam_dir.name))
         for run_dir in discover_run_dirs(root, bool(src_spec.get("nested"))):
             meta = ingest_one(
                 run_dir,
                 algo=src_spec["algo"],
                 host=src_spec["host"],
                 code_repo=src_spec["code_repo"],
-                family_force=src_spec.get("family_force"),
+                family_force=family_force,
                 dry_run=args.dry_run,
                 log_dir=src_spec.get("log_dir"),
+                source_index=source_index,
             )
             if meta:
                 collected.append(meta)

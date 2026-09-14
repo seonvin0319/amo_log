@@ -3,9 +3,11 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl"
+    "eval.jsonl",
+    "eval_final50_v1.jsonl",
+    "eval_final50_v1.DONE.json"
   ],
-  "collected_at": "2026-09-14T09:50:02+09:00",
+  "collected_at": "2026-09-14T10:00:01+09:00",
   "env": "door-human-v1",
   "env_short": "door_h",
   "family": "adroit",
@@ -13,6 +15,7 @@
     "code_commit": null,
     "code_repo": "AMO"
   },
+  "is_alias": false,
   "legacy_name": "door_h_s0_td3amo",
   "run_id": "door_h_s0_jax_te1_tb1_Tlr0p0003__0abb342d",
   "seed": 0,

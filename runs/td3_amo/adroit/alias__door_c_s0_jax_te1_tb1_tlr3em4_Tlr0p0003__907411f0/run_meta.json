@@ -1,0 +1,9 @@
+{
+  "alias_of": "door_c_s0_jax_te1_tb1_Tlr0p0003__907411f0",
+  "canonical_rel_path": "runs/td3_amo/adroit/door_c_s0_jax_te1_tb1_Tlr0p0003__907411f0",
+  "collected_at": "2026-09-14T09:51:51+09:00",
+  "is_alias": true,
+  "note": "Dedup 2026-09-14: same source_path exported under variant name drift (pi_base vs Tlr tags).",
+  "source_path": "/home/choi/amo_jax/results/td3_amo_adroit/door_c_s0_td3amo",
+  "stale_run_id": "door_c_s0_jax_te1_tb1_tlr3em4_Tlr0p0003__907411f0"
+}
