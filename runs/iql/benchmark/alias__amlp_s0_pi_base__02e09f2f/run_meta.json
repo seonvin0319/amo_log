@@ -1,7 +1,7 @@
 {
   "alias_of": "amlp_s0_default__02e09f2f",
   "canonical_rel_path": "runs/iql/benchmark/amlp_s0_default__02e09f2f",
-  "collected_at": "2026-09-14T13:00:02+09:00",
+  "collected_at": "2026-09-14T13:10:02+09:00",
   "is_alias": true,
   "note": "Same source_path reused; keep canonical `amlp_s0_default__02e09f2f`, map stale variant id `amlp_s0_pi_base__02e09f2f` as alias (do not double-count seeds).",
   "source_path": "/home/choi/amo/benchmark/iql/antmaze-large-play-v2/seed_0",
