@@ -2,10 +2,11 @@
 """Validate a Git snapshot; raw evaluation files are never downloaded/read."""
 import argparse,json,subprocess,os
 from pathlib import Path
-from log_layout import MAIN_LRS, MAIN_TS, MAIN_BETAS, initial_ts, is_adroit, number, classify
+from log_layout import MAIN_LRS, MAIN_ALPHAS, MAIN_BETAS, initial_alphas, is_adroit, number, classify
+from alpha_logs import SCHEMA, legacy_keys
 METHODS={'td3_amo','iql_amo','td3bc+rc','iql','a2pr','wpc','aspc'}
 BRANCHES={'main','choi','ext_csh','ext_csv','offrl','shchoi','svcho'}
-SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','.github/workflows/validate-logs.yml')
+SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','scripts/alpha_logs.py','scripts/test_alpha_logs.py','scripts/migrate_alpha_logs.py','.github/workflows/validate-logs.yml','.github/workflows/migrate-alpha-logs.yml')
 def git(root,*args,input=None):
  return subprocess.check_output(['git',*args],cwd=root,input=input)
 def entries(root,ref):
@@ -61,6 +62,8 @@ def validate(paths,contents,branch):
   if not isinstance(m['seed'],int) or m['seed']<0:fail('Invalid seed: '+p)
   if m['env']=='unknown' or not m['env'].endswith(('-v0','-v1','-v2')):fail('Invalid environment: '+p)
   if m['section']=='main' and is_adroit(m['env']):fail('Adroit must be ablation: '+p)
+  if m.get('scale_conversion',{}).get('schema')==SCHEMA and list(legacy_keys(m['settings'])):
+   fail('Legacy T settings in alpha-normalized run: '+p)
   try:
    expected_layout=classify(m,m['settings'])
    for key in ('section','method','env','seed','backend','meta_lr','classification_reasons','rel_path'):
@@ -79,8 +82,8 @@ def validate(paths,contents,branch):
     if lr not in MAIN_LRS:fail('Main meta lr: '+p)
     c=m['settings']
     if m['method']=='td3_amo':
-     te,tb=initial_ts(c)
-     if te not in MAIN_TS or tb!=te:fail('Main requires initial TE=TB in (0.5,1,2.5), alpha=2T: '+p)
+     te,tb=initial_alphas(c)
+     if te not in MAIN_ALPHAS or tb!=te:fail('Main requires initial alpha_E=alpha_B in (1,2,5): '+p)
     elif number(c.get('beta_initial')) not in MAIN_BETAS:fail('Main requires initial beta in (1,2,5): '+p)
     if m.get('classification_reasons'):fail('Ablation reasons in main: '+p)
   elif m['meta_lr'] is not None:fail('Baseline must not have meta lr: '+p)
@@ -101,7 +104,7 @@ def validate(paths,contents,branch):
  expected={p for p,m in metas.items() if not m.get('is_alias')}
  if set(by_path)!=expected:fail('Catalog run set differs from metadata')
  for p in expected & set(by_path):
-  for key in ('method','section','env','seed','backend','meta_lr','run_id'):
+  for key in ('method','section','env','seed','backend','meta_lr','run_id','settings','scale_conversion'):
    if by_path[p].get(key)!=metas[p].get(key):fail('Catalog mismatch '+key+': '+p)
  return errors
 
