@@ -111,16 +111,8 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "benchmark",
         "log_dir": Path("/home/svcho/ASPC/results_wpc/_logs"),
     },
-    {
-        "algo": "iql_amo",
-        "root": Path("/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs"),
-        "host": "svcho",
-        "code_repo": "AMO",
-        "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
-        "family_force": "lr1e3_beta_sweep",
-        "layout": "cell_jobs",
-        "require_eval": True,
-    },
+    # NOTE: iql_amo_lr1e3_beta_sweep_seed0 used actor/critic/value_lr=1e-3 (wrong;
+    # those must stay 3e-4). Do not re-ingest; removed from amo_log 2026-09-15.
     {
         "algo": "iql_amo",
         "root": Path("/home/svcho/amo/results/iql_amo_adroit_l2highest_rho_seeds03/jobs"),
@@ -828,6 +820,17 @@ def ingest_one(
     if require_eval and not (src / "eval.jsonl").exists():
         return None
     cfg = load_yaml_lite(cfg_path)
+    # Actor / critic / value LR must remain 3e-4; meta LR is alpha_lr / rho_lr only.
+    for lr_key in ("actor_lr", "critic_lr", "value_lr"):
+        if lr_key not in cfg or cfg[lr_key] is None:
+            continue
+        try:
+            lr_val = float(cfg[lr_key])
+        except (TypeError, ValueError):
+            continue
+        if abs(lr_val - 3e-4) > 1e-12:
+            print(f"SKIP non-3e-4 {lr_key}={lr_val} {src}")
+            return None
     # AMO release train.py stores env/seed/backend in run_meta.json, not config.yaml.
     meta_path = src / "run_meta.json"
     run_meta: Dict[str, Any] = {}
