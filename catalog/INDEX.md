@@ -288,6 +288,7 @@
 | main | aspc | walker2d-medium-v2 | — | — | 1 | torch | 1000000 | [wm_s1_aspc__0b164ae1](../main/aspc/walker2d-medium-v2/seed_1/wm_s1_aspc__0b164ae1/) |
 | main | aspc | walker2d-medium-v2 | — | — | 2 | torch | 1000000 | [wm_s2_aspc__34aa4c77](../main/aspc/walker2d-medium-v2/seed_2/wm_s2_aspc__34aa4c77/) |
 | main | aspc | walker2d-medium-v2 | — | — | 3 | torch | 1000000 | [wm_s3_aspc__b502c4cb](../main/aspc/walker2d-medium-v2/seed_3/wm_s3_aspc__b502c4cb/) |
+| main | iql_amo | halfcheetah-medium-expert-v2 | beta=5.0 | 0.0003 | 0 | jax | — | [hme_s0_b5_rho0p0003_jax__17971713](../main/iql_amo/halfcheetah-medium-expert-v2/3e-4/seed_0/hme_s0_b5_rho0p0003_jax__17971713/) |
 | main | iql_amo | halfcheetah-medium-expert-v2 | beta=1.0 | 0.0003 | 2 | jax | 1000000 | [hme_s2_b1_rho0p0003_jax__1eb509c8](../main/iql_amo/halfcheetah-medium-expert-v2/3e-4/seed_2/hme_s2_b1_rho0p0003_jax__1eb509c8/) |
 | main | iql_amo | halfcheetah-medium-expert-v2 | beta=1.0 | 0.0003 | 3 | jax | 1000000 | [hme_s3_b1_rho0p0003_jax__71b780f4](../main/iql_amo/halfcheetah-medium-expert-v2/3e-4/seed_3/hme_s3_b1_rho0p0003_jax__71b780f4/) |
 | main | iql_amo | halfcheetah-medium-expert-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [hme_s0_b1_rho0p001_jax__a6e8dba2](../main/iql_amo/halfcheetah-medium-expert-v2/1e-3/seed_0/hme_s0_b1_rho0p001_jax__a6e8dba2/) |
