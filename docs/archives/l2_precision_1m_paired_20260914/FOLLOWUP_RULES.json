@@ -1,0 +1,7 @@
+{
+  "scope": "after arm, each of four training seeds",
+  "trigger_final_T_B_below": 0.1,
+  "trigger_final_normalized_score_below": 50,
+  "meaning": "operational trigger for additional same-state meta diagnosis, not a statistical definition of collapse",
+  "diagnosis": "Use saved pre-meta full state at earliest T_B threshold crossing and final1M; compare Torch, pre-fix JAX and post-fix JAX L1/L2 gradients and actual scale updates on the same inner/outer/noise row."
+}

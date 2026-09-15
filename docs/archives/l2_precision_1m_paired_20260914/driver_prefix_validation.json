@@ -1,0 +1,7 @@
+{
+  "seed": 0,
+  "arm": "before",
+  "checkpoint_step": 10000,
+  "full_state_max_abs": 0.0,
+  "reference": "results/td3_amo_meta_audit/seed0_gpu_20260914/default_control/trajectory/checkpoints/step_10000.npz"
+}

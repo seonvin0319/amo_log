@@ -1,0 +1,93 @@
+{
+  "completed_evaluations": 8,
+  "runs": [
+    {
+      "T_B": 0.003292362205684185,
+      "T_E": 7.723271369934082,
+      "critic_last_window_mean": 160.0561882019043,
+      "elapsed_sec": 1169.4784543149872,
+      "score": 6.947443743315805,
+      "seed": 0,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "before"
+    },
+    {
+      "T_B": 7.078876495361328,
+      "T_E": 7.434248924255371,
+      "critic_last_window_mean": 15.424694414138793,
+      "elapsed_sec": 1198.2458003190113,
+      "score": 91.13555819353927,
+      "seed": 0,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "after"
+    },
+    {
+      "T_B": 0.0031297546811401844,
+      "T_E": 7.6770339012146,
+      "critic_last_window_mean": 128.86063400268554,
+      "elapsed_sec": 1167.9041902719764,
+      "score": -0.2775900911240625,
+      "seed": 1,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "before"
+    },
+    {
+      "T_B": 7.055199146270752,
+      "T_E": 7.652963161468506,
+      "critic_last_window_mean": 17.770058126449584,
+      "elapsed_sec": 1198.7614317110274,
+      "score": 93.99043302107687,
+      "seed": 1,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "after"
+    },
+    {
+      "T_B": 0.002989314030855894,
+      "T_E": 8.011581420898438,
+      "critic_last_window_mean": 180.1099526977539,
+      "elapsed_sec": 950.0276396949776,
+      "score": 12.545527294884987,
+      "seed": 2,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "before"
+    },
+    {
+      "T_B": 7.0022478103637695,
+      "T_E": 7.934812545776367,
+      "critic_last_window_mean": 16.39588807106018,
+      "elapsed_sec": 907.6155542470515,
+      "score": 87.8898505545888,
+      "seed": 2,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "after"
+    },
+    {
+      "T_B": 0.00309207895770669,
+      "T_E": 7.94242000579834,
+      "critic_last_window_mean": 128.53495147705078,
+      "elapsed_sec": 907.4819661870133,
+      "score": 3.964606158115818,
+      "seed": 3,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "before"
+    },
+    {
+      "T_B": 6.8443427085876465,
+      "T_E": 7.872178554534912,
+      "critic_last_window_mean": 15.37107720375061,
+      "elapsed_sec": 795.3816462449031,
+      "score": 82.14381433311722,
+      "seed": 3,
+      "status": "evaluated",
+      "step": 1000000,
+      "variant": "after"
+    }
+  ]
+}

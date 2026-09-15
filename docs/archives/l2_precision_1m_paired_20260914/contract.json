@@ -1,0 +1,139 @@
+{
+  "claim_id": "TD3_AMO_L2_HIGHEST_1M_SEEDS_0_3",
+  "mathematics": {
+    "assertion_tested": "Compare production JAX L2_RMS-highest patch against archived pre-patch code, using identical initial full state, inner/outer replay and target noise per seed; evaluate final1M execution policies identically.",
+    "coefficient_domain": "float32 native JAX training and Torch CPU evaluation; unchanged AD stop conventions",
+    "conventions": "L2 virtual bootstrap/actor/target-Q/gradient highest only; T_E=T_B=1,T_lr=.001; policyfreq2,metafreq20; JAX global precision default and autotune0 both arms",
+    "inputs": [
+      "scripts/run_td3_amo_l2_1m.py",
+      "scripts/regress_td3_amo_l2_precision.py",
+      "tests/release/test_td3_amo_l2_precision.py",
+      "algorithms/jax/td3_amo.py",
+      "algorithms/torch/td3_amo.py",
+      "common/agent.py",
+      "common/optim.py",
+      "common/torch_backend.py",
+      "common/jax_backend.py",
+      "common/networks.py",
+      "common/tree.py",
+      "common/config.py",
+      "common/data.py",
+      "common/tape_io.py",
+      "train.py",
+      "results/td3_amo_l2_highest_1m_20260914/source_before/algorithms/jax/td3_amo.py",
+      "results/td3_amo_l2_highest_1m_20260914/source_after/hashes.json",
+      "results/td3_amo_l2_highest_1m_20260914/shared/manifest.json",
+      "results/td3_amo_l2_highest_1m_20260914/regression/regression.json",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed0/initial.npz",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed0/inner.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed0/outer.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed0/noise.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed0/manifest.json",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed1/initial.npz",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed1/inner.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed1/outer.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed1/noise.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed1/manifest.json",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed2/initial.npz",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed2/inner.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed2/outer.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed2/noise.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed2/manifest.json",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed3/initial.npz",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed3/inner.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed3/outer.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed3/noise.npy",
+      "results/td3_amo_l2_highest_1m_20260914/shared/seed3/manifest.json"
+    ],
+    "bounds": {
+      "environment": "walker2d-medium-replay-v2",
+      "training_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "steps_per_run": 1000000,
+      "arms": [
+        "before",
+        "after"
+      ],
+      "batch": 256,
+      "width": 256,
+      "evaluation_seed": 0,
+      "evaluation_episodes": 50,
+      "evaluation_repeats": 1
+    },
+    "non_claims": [
+      "Not universal backend equivalence",
+      "No retuning or checkpoint selection",
+      "Training-seed SD distinct from evaluation episode variability",
+      "Archived original server hardware/framework was not recorded"
+    ]
+  },
+  "execution_artifacts": [
+    "scripts/run_td3_amo_l2_1m.py",
+    "scripts/regress_td3_amo_l2_precision.py",
+    "tests/release/test_td3_amo_l2_precision.py",
+    "algorithms/jax/td3_amo.py",
+    "algorithms/torch/td3_amo.py",
+    "common/agent.py",
+    "common/optim.py",
+    "common/torch_backend.py",
+    "common/jax_backend.py",
+    "common/networks.py",
+    "common/tree.py",
+    "common/config.py",
+    "common/data.py",
+    "common/tape_io.py",
+    "train.py",
+    "results/td3_amo_l2_highest_1m_20260914/source_before/algorithms/jax/td3_amo.py",
+    "results/td3_amo_l2_highest_1m_20260914/source_after/hashes.json",
+    "results/td3_amo_l2_highest_1m_20260914/shared/manifest.json",
+    "results/td3_amo_l2_highest_1m_20260914/regression/regression.json",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed0/initial.npz",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed0/inner.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed0/outer.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed0/noise.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed0/manifest.json",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed1/initial.npz",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed1/inner.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed1/outer.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed1/noise.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed1/manifest.json",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed2/initial.npz",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed2/inner.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed2/outer.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed2/noise.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed2/manifest.json",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed3/initial.npz",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed3/inner.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed3/outer.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed3/noise.npy",
+    "results/td3_amo_l2_highest_1m_20260914/shared/seed3/manifest.json"
+  ],
+  "software": [
+    {
+      "name": "JAX/jaxlib",
+      "version": "0.10.2 / Python3.11.15"
+    },
+    {
+      "name": "Torch",
+      "version": "2.8.0+cu128 / Python3.9.23 CPU evaluation"
+    },
+    {
+      "name": "MuJoCo",
+      "version": "2.1.0"
+    }
+  ],
+  "randomness": {
+    "used": true,
+    "generator": "NumPy PCG64 explicit shared memmapped tapes",
+    "seed": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

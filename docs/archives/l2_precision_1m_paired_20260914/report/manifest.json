@@ -1,0 +1,513 @@
+{
+  "schema_version": 2,
+  "claim_id": "TD3_AMO_L2_HIGHEST_1M_AGGREGATE",
+  "repository": {
+    "commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
+    "dirty": true
+  },
+  "command": [
+    "/home/svcho/anaconda3/envs/off_rl_gpu/bin/python",
+    "scripts/summarize_td3_amo_l2_1m.py",
+    "--root",
+    "results/td3_amo_l2_highest_1m_20260914",
+    "--output",
+    "results/td3_amo_l2_highest_1m_20260914/report"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.7"
+      },
+      {
+        "name": "Python",
+        "version": "3.9.23"
+      },
+      {
+        "name": "NumPy",
+        "version": "1.26.3"
+      }
+    ],
+    "hardware": "Linux-6.8.0-134-generic-x86_64-with-glibc2.39"
+  },
+  "mathematics": {
+    "assertion_tested": "Aggregate the completed four paired 1M runs and check input pairing, checkpoint identity, finiteness and identical evaluation protocol.",
+    "coefficient_domain": "Python/NumPy float64 aggregation of recorded float32 training metrics and evaluator returns",
+    "conventions": "Mean and sample SD (ddof=1) across four training seeds; final checkpoint only; critic mean over last50k logged steps",
+    "inputs": [
+      "scripts/summarize_td3_amo_l2_1m.py",
+      "scripts/finalize_td3_amo_l2_1m.py",
+      "common/tape_io.py",
+      "results/td3_amo_l2_highest_1m_20260914/contract.json",
+      "results/td3_amo_l2_highest_1m_20260914/FOLLOWUP_RULES.json",
+      "results/td3_amo_l2_highest_1m_20260914/execution/manifest.json",
+      "results/td3_amo_l2_highest_1m_20260914/execution/all_results.json",
+      "results/td3_amo_l2_highest_1m_20260914/regression/regression.json",
+      "results/td3_amo_l2_highest_1m_20260914/shared/manifest.json",
+      "results/td3_amo_l2_highest_1m_20260914/driver_prefix_validation.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/metrics.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/completed.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/eval_final50.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/run_meta.json",
+      "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/checkpoints/step_1000000.npz",
+      "results/td3_amo_l2_highest_1m_20260914/execution/parallel_scheduler.py",
+      "results/td3_amo_l2_highest_1m_20260914/execution/parallel_transition.json",
+      "results/td3_amo_l2_highest_1m_20260914/execution/parallel_events.jsonl",
+      "results/td3_amo_l2_highest_1m_20260914/execution/parallel_completed.json"
+    ],
+    "bounds": {
+      "training_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "arms": [
+        "before",
+        "after"
+      ],
+      "steps": 1000000,
+      "eval_episodes": 50
+    },
+    "non_claims": [
+      "No checkpoint selection",
+      "Not a statistical significance test",
+      "No claim of all-environment backend equivalence"
+    ]
+  },
+  "randomness": {
+    "used": false
+  },
+  "run": {
+    "started_at": "2026-09-14T13:08:15.285036+00:00",
+    "runtime_seconds": 0.801043,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 180.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": 1
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "scripts/summarize_td3_amo_l2_1m.py",
+    "scripts/finalize_td3_amo_l2_1m.py",
+    "common/tape_io.py",
+    "results/td3_amo_l2_highest_1m_20260914/contract.json",
+    "results/td3_amo_l2_highest_1m_20260914/FOLLOWUP_RULES.json",
+    "results/td3_amo_l2_highest_1m_20260914/execution/manifest.json",
+    "results/td3_amo_l2_highest_1m_20260914/execution/all_results.json",
+    "results/td3_amo_l2_highest_1m_20260914/regression/regression.json",
+    "results/td3_amo_l2_highest_1m_20260914/shared/manifest.json",
+    "results/td3_amo_l2_highest_1m_20260914/driver_prefix_validation.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/metrics.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/completed.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/eval_final50.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/run_meta.json",
+    "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/checkpoints/step_1000000.npz",
+    "results/td3_amo_l2_highest_1m_20260914/execution/parallel_scheduler.py",
+    "results/td3_amo_l2_highest_1m_20260914/execution/parallel_transition.json",
+    "results/td3_amo_l2_highest_1m_20260914/execution/parallel_events.jsonl",
+    "results/td3_amo_l2_highest_1m_20260914/execution/parallel_completed.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "scripts/summarize_td3_amo_l2_1m.py",
+      "sha256": "e883d9a0563fd1718cece7c5f71c3114454dec90777296a9a107ed38b4d3dedc",
+      "sha256_after": "e883d9a0563fd1718cece7c5f71c3114454dec90777296a9a107ed38b4d3dedc"
+    },
+    {
+      "path": "scripts/finalize_td3_amo_l2_1m.py",
+      "sha256": "27db0a3a675ae50ec5e68b17a04bc31128c2481ab25bf8e297b19f3a16ceeb07",
+      "sha256_after": "27db0a3a675ae50ec5e68b17a04bc31128c2481ab25bf8e297b19f3a16ceeb07"
+    },
+    {
+      "path": "common/tape_io.py",
+      "sha256": "a4935f51c8fb986136c2eef780e7eafcd9e34c6b80b40c3fe7583a12fd9e4f53",
+      "sha256_after": "a4935f51c8fb986136c2eef780e7eafcd9e34c6b80b40c3fe7583a12fd9e4f53"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/contract.json",
+      "sha256": "2123d88c20990292a129a51beaa9ee4778a613184c4a032e6f94704b211d82f3",
+      "sha256_after": "2123d88c20990292a129a51beaa9ee4778a613184c4a032e6f94704b211d82f3"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/FOLLOWUP_RULES.json",
+      "sha256": "e19f1b705104da008047ac38fd21f489b995fa3d6a2be1e69139f5477a4b9620",
+      "sha256_after": "e19f1b705104da008047ac38fd21f489b995fa3d6a2be1e69139f5477a4b9620"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/execution/manifest.json",
+      "sha256": "ea4da5f367aac58489b7422b7c5d845f80204b8636c53b4589197d75c414c9eb",
+      "sha256_after": "ea4da5f367aac58489b7422b7c5d845f80204b8636c53b4589197d75c414c9eb"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/execution/all_results.json",
+      "sha256": "4bc5f7a95f434f4e1cbeab4ba49852ac16d291b23a54185d32f897443d4b7f9f",
+      "sha256_after": "4bc5f7a95f434f4e1cbeab4ba49852ac16d291b23a54185d32f897443d4b7f9f"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/regression/regression.json",
+      "sha256": "301b8a626c7179f375b0ac881ec95b220eebf788a7064727118496506dade459",
+      "sha256_after": "301b8a626c7179f375b0ac881ec95b220eebf788a7064727118496506dade459"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/shared/manifest.json",
+      "sha256": "38f8a0cf5bda62ded842a554a7039a4b4e35ec1a7c682b8b455d0aa92a6770f1",
+      "sha256_after": "38f8a0cf5bda62ded842a554a7039a4b4e35ec1a7c682b8b455d0aa92a6770f1"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/driver_prefix_validation.json",
+      "sha256": "83d2e511b2b8319f8c90ec6b1b587264e5cacf6735ed286a3db36fb8fd70ef59",
+      "sha256_after": "83d2e511b2b8319f8c90ec6b1b587264e5cacf6735ed286a3db36fb8fd70ef59"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/metrics.jsonl",
+      "sha256": "e7159798bcf7afd6d35ac91260f7728b654ca4d864d5565ef293bfaba919f223",
+      "sha256_after": "e7159798bcf7afd6d35ac91260f7728b654ca4d864d5565ef293bfaba919f223"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/completed.json",
+      "sha256": "ab8c06f163df47b4da621a33a82ad772129b2c9f7a436c5ed831a3f2edaefe47",
+      "sha256_after": "ab8c06f163df47b4da621a33a82ad772129b2c9f7a436c5ed831a3f2edaefe47"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/eval_final50.json",
+      "sha256": "2dc72a4c7b0522aa247acdc543849731ac536e6f923c54d1147be5355e90637a",
+      "sha256_after": "2dc72a4c7b0522aa247acdc543849731ac536e6f923c54d1147be5355e90637a"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/run_meta.json",
+      "sha256": "6bad441a486203203fd43972823e3fa4c87ac0465d197113fcd2c26bd955759e",
+      "sha256_after": "6bad441a486203203fd43972823e3fa4c87ac0465d197113fcd2c26bd955759e"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_before/checkpoints/step_1000000.npz",
+      "sha256": "17f49da888e35f24ce978b66ee981ee9bf6631b299b8d40b90c3c89958820b98",
+      "sha256_after": "17f49da888e35f24ce978b66ee981ee9bf6631b299b8d40b90c3c89958820b98"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/metrics.jsonl",
+      "sha256": "0262324e6dcd4386f4d597990844af91d68d64930a602ac292c5db1b984d36b2",
+      "sha256_after": "0262324e6dcd4386f4d597990844af91d68d64930a602ac292c5db1b984d36b2"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/completed.json",
+      "sha256": "dc76b2e71a94e76ea28768e4d7c6079b5c12f8dbb0566e0c684be8c1de164718",
+      "sha256_after": "dc76b2e71a94e76ea28768e4d7c6079b5c12f8dbb0566e0c684be8c1de164718"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/eval_final50.json",
+      "sha256": "e5b0020e455d452a017a38f033e6d1a97688e3176e942c2bba184c7a6cfb6058",
+      "sha256_after": "e5b0020e455d452a017a38f033e6d1a97688e3176e942c2bba184c7a6cfb6058"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/run_meta.json",
+      "sha256": "a8787010e075e380e0491a5ba481c3bd67d73553fc0ac46f2e901758f9b9e17a",
+      "sha256_after": "a8787010e075e380e0491a5ba481c3bd67d73553fc0ac46f2e901758f9b9e17a"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed0_after/checkpoints/step_1000000.npz",
+      "sha256": "a45ae90b53d285d82224d458c43ef443e5cf250b9e499886cae0c6c8fe5408d0",
+      "sha256_after": "a45ae90b53d285d82224d458c43ef443e5cf250b9e499886cae0c6c8fe5408d0"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/metrics.jsonl",
+      "sha256": "163e6f1d14c83489eccd40c7dd9a1facfdc30b816bdbf6dacef94ad59a113c6b",
+      "sha256_after": "163e6f1d14c83489eccd40c7dd9a1facfdc30b816bdbf6dacef94ad59a113c6b"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/completed.json",
+      "sha256": "c518b8ffacf3d052e1ac4bfb5276fdf689fb38b3d8018c31d0bf1d3475e5e64b",
+      "sha256_after": "c518b8ffacf3d052e1ac4bfb5276fdf689fb38b3d8018c31d0bf1d3475e5e64b"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/eval_final50.json",
+      "sha256": "b5453ccc2175d16d815c44b8ac7d3e25a054c7a4b191658722d8c62a82eb503e",
+      "sha256_after": "b5453ccc2175d16d815c44b8ac7d3e25a054c7a4b191658722d8c62a82eb503e"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/run_meta.json",
+      "sha256": "6aa675c52cd9a4a194307b1b443be0012f9f25a6776048893605619fa78718fb",
+      "sha256_after": "6aa675c52cd9a4a194307b1b443be0012f9f25a6776048893605619fa78718fb"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_before/checkpoints/step_1000000.npz",
+      "sha256": "1761fca84c10b5fbc184c35c74ea8ebdca1e1a09b41e75faf2a3f53622482b68",
+      "sha256_after": "1761fca84c10b5fbc184c35c74ea8ebdca1e1a09b41e75faf2a3f53622482b68"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/metrics.jsonl",
+      "sha256": "cde3932720bfb0b362ef5500c689b4ec9c31112851df2b4666b300e468b19280",
+      "sha256_after": "cde3932720bfb0b362ef5500c689b4ec9c31112851df2b4666b300e468b19280"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/completed.json",
+      "sha256": "5aea611786b842fea08797a77128acc402967bc4064926a81c26f41ebeb395e1",
+      "sha256_after": "5aea611786b842fea08797a77128acc402967bc4064926a81c26f41ebeb395e1"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/eval_final50.json",
+      "sha256": "2d428f4e98d2bb7292b5ecbdf90c99424b53e3e20e1eee59857a15514b5a3209",
+      "sha256_after": "2d428f4e98d2bb7292b5ecbdf90c99424b53e3e20e1eee59857a15514b5a3209"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/run_meta.json",
+      "sha256": "766e180762fcfbff502227a5521d4421c11c42522d93577bd94a49f533106edc",
+      "sha256_after": "766e180762fcfbff502227a5521d4421c11c42522d93577bd94a49f533106edc"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed1_after/checkpoints/step_1000000.npz",
+      "sha256": "8df0936989666392cafe4e1417165b5edc3c5a0b5c26530707ab1bb6928d78dd",
+      "sha256_after": "8df0936989666392cafe4e1417165b5edc3c5a0b5c26530707ab1bb6928d78dd"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/metrics.jsonl",
+      "sha256": "61bda4cb7fd7b3bd2b030fa26fb96290722da83d352bad4cbf1e93d7fdcd6e7b",
+      "sha256_after": "61bda4cb7fd7b3bd2b030fa26fb96290722da83d352bad4cbf1e93d7fdcd6e7b"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/completed.json",
+      "sha256": "787974561ba5f6cd5127ec456cc06ff9b0086b179b8da5eafd4660c12ec2dbb8",
+      "sha256_after": "787974561ba5f6cd5127ec456cc06ff9b0086b179b8da5eafd4660c12ec2dbb8"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/eval_final50.json",
+      "sha256": "25eb6b1b32b5d337d30da09896ebf39fe0631bc08d19e5059639feefc5d7ced9",
+      "sha256_after": "25eb6b1b32b5d337d30da09896ebf39fe0631bc08d19e5059639feefc5d7ced9"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/run_meta.json",
+      "sha256": "021104509949359494cd977740e183c9722afb7ea26e4c0d0863f28c4aa6cd10",
+      "sha256_after": "021104509949359494cd977740e183c9722afb7ea26e4c0d0863f28c4aa6cd10"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_before/checkpoints/step_1000000.npz",
+      "sha256": "13b8f96c77876e63eecb3bbc2e63fe67c640e2cf09cf5268e788d15e836f82e7",
+      "sha256_after": "13b8f96c77876e63eecb3bbc2e63fe67c640e2cf09cf5268e788d15e836f82e7"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/metrics.jsonl",
+      "sha256": "dbf3e6ffe6710052ebc42ef27e72583a9584a1b6750a28c3f71984128b863153",
+      "sha256_after": "dbf3e6ffe6710052ebc42ef27e72583a9584a1b6750a28c3f71984128b863153"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/completed.json",
+      "sha256": "5aaed9b2eac28d81bb6f126e73dd7d1182f3b8b2654946aaf50a7ad422056128",
+      "sha256_after": "5aaed9b2eac28d81bb6f126e73dd7d1182f3b8b2654946aaf50a7ad422056128"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/eval_final50.json",
+      "sha256": "707eb975c37351e43e02d9a1e93463411f613a4af4ed8d443d273d061e4af02d",
+      "sha256_after": "707eb975c37351e43e02d9a1e93463411f613a4af4ed8d443d273d061e4af02d"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/run_meta.json",
+      "sha256": "7b19b7b06e74831374bc25b7a23a587c33ed999bafdc73e6c1620ed7aec91779",
+      "sha256_after": "7b19b7b06e74831374bc25b7a23a587c33ed999bafdc73e6c1620ed7aec91779"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed2_after/checkpoints/step_1000000.npz",
+      "sha256": "aa1aa29abf4cda15dd492564606a2b9f575f736a28c1b50332a45512fb751b7d",
+      "sha256_after": "aa1aa29abf4cda15dd492564606a2b9f575f736a28c1b50332a45512fb751b7d"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/metrics.jsonl",
+      "sha256": "fd9c780061678aa89c2e35d4ef0db5ba36d629de1b09938b53070f3139789466",
+      "sha256_after": "fd9c780061678aa89c2e35d4ef0db5ba36d629de1b09938b53070f3139789466"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/completed.json",
+      "sha256": "3c49faf9741e87db0ed18fd7977eb70c90fd89044fb011b81d5b147309bb6151",
+      "sha256_after": "3c49faf9741e87db0ed18fd7977eb70c90fd89044fb011b81d5b147309bb6151"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/eval_final50.json",
+      "sha256": "3c1fdea36e19957206ae13e22f294ddf7feb38fcdcafa3c445d3ed132be675dd",
+      "sha256_after": "3c1fdea36e19957206ae13e22f294ddf7feb38fcdcafa3c445d3ed132be675dd"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/run_meta.json",
+      "sha256": "300ef2e60bd44dcdeb178d9515a0712fa70d4f74f480d8e3dce9dd7e01946c7d",
+      "sha256_after": "300ef2e60bd44dcdeb178d9515a0712fa70d4f74f480d8e3dce9dd7e01946c7d"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_before/checkpoints/step_1000000.npz",
+      "sha256": "7bb0f72682259a42537b2a6867a11d8afb0edf8967e67d08f08cbe838cd250d2",
+      "sha256_after": "7bb0f72682259a42537b2a6867a11d8afb0edf8967e67d08f08cbe838cd250d2"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/metrics.jsonl",
+      "sha256": "bd4f2c0b0c8f569c552b4ea9f2ba9ec5617fad838222235ad6ff583ff42c984b",
+      "sha256_after": "bd4f2c0b0c8f569c552b4ea9f2ba9ec5617fad838222235ad6ff583ff42c984b"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/completed.json",
+      "sha256": "ed51510c052ed61dea84e1f567bd13510926951db9d6b6e27e199c4fc70254c3",
+      "sha256_after": "ed51510c052ed61dea84e1f567bd13510926951db9d6b6e27e199c4fc70254c3"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/eval_final50.json",
+      "sha256": "f5dfc1abbefcd14b6970ca61e3cdda1f5ef68c1a08c25d1390ae723a3e14b68a",
+      "sha256_after": "f5dfc1abbefcd14b6970ca61e3cdda1f5ef68c1a08c25d1390ae723a3e14b68a"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/run_meta.json",
+      "sha256": "11f279e45573cd934e4ae57478622ac70c5e5f73e79d0923e8607ba8eb8a3ed9",
+      "sha256_after": "11f279e45573cd934e4ae57478622ac70c5e5f73e79d0923e8607ba8eb8a3ed9"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/runs/seed3_after/checkpoints/step_1000000.npz",
+      "sha256": "1715d4db16e6cbe2330f50c2b9a2ecbb22d166e50e04c8ee6f43835b2f564672",
+      "sha256_after": "1715d4db16e6cbe2330f50c2b9a2ecbb22d166e50e04c8ee6f43835b2f564672"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/execution/parallel_scheduler.py",
+      "sha256": "714f4c1e81149b328348b5b4c8ff0da7348480981c205f6304188639e7542ed2",
+      "sha256_after": "714f4c1e81149b328348b5b4c8ff0da7348480981c205f6304188639e7542ed2"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/execution/parallel_transition.json",
+      "sha256": "defe1a589e0bd91e97fa83c026bdb39acefb3504bb4ba041f9d361d1a028f666",
+      "sha256_after": "defe1a589e0bd91e97fa83c026bdb39acefb3504bb4ba041f9d361d1a028f666"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/execution/parallel_events.jsonl",
+      "sha256": "1e0ae963719675939e86dfd0c6d8a09272acca82418b654d579b683372719fe6",
+      "sha256_after": "1e0ae963719675939e86dfd0c6d8a09272acca82418b654d579b683372719fe6"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/execution/parallel_completed.json",
+      "sha256": "43ed70ec30d78ee849250ecc3cfc381d56d08842cb9d79f46985474ee15e9006",
+      "sha256_after": "43ed70ec30d78ee849250ecc3cfc381d56d08842cb9d79f46985474ee15e9006"
+    }
+  ],
+  "output_directory": "results/td3_amo_l2_highest_1m_20260914/report",
+  "declared_results": [
+    "results/td3_amo_l2_highest_1m_20260914/report/SUMMARY.json",
+    "results/td3_amo_l2_highest_1m_20260914/report/REPORT.md",
+    "results/td3_amo_l2_highest_1m_20260914/report/TRAJECTORIES.png"
+  ],
+  "outputs": [
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/report/stdout.txt",
+      "sha256": "0b6394dce8b6e81f699e1b83d3dcf7942329ce6ab88a2f03dc08cd8b2848eae6",
+      "kind": "log"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/report/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/report/SUMMARY.json",
+      "sha256": "4d35c98077b1abb0f71f3637a6db404a17a983fbae84f6ae61d9879c68a201e0",
+      "kind": "result"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/report/REPORT.md",
+      "sha256": "4def6b191aaef91fb7de97096ed735d6c604f6844dc48d7023fb3f4bf3f56477",
+      "kind": "result"
+    },
+    {
+      "path": "results/td3_amo_l2_highest_1m_20260914/report/TRAJECTORIES.png",
+      "sha256": "51563003395415daf05ad2c26779e724396e7f23b57f05aa82b137cf01817833",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions.",
+    "The thread cap uses conventional environment variables; a child program may ignore them."
+  ]
+}
