@@ -36,7 +36,11 @@ def main():
     for br in BRANCHES:
         content=subprocess.check_output(['git','show',f'origin/{br}:catalog/catalog.json'],cwd=root,text=True)
         catalog=json.loads(content)
-        if catalog.get('layout_version')!=2:raise ValueError('Unmigrated branch '+br)
+        if catalog.get('layout_version')!=2:
+            print('WARN: skip unmigrated branch', br, flush=True)
+            continue
         catalogs[br]=catalog['runs']
+    if not catalogs:
+        raise SystemExit('No migrated machine catalogs found')
     (root/'README.md').write_text(make_readme(catalogs))
 if __name__=='__main__':main()
