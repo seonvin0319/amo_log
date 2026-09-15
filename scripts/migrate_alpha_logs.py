@@ -9,7 +9,7 @@ from alpha_logs import SCHEMA, digest, legacy_keys
 
 
 def audit(root):
-    runs = files = 0
+    runs = files = unparsed = 0
     for section in ('main', 'ablation'):
         for mp in (root/section/'td3_amo').rglob('run_meta.json'):
             m = json.loads(mp.read_text())
@@ -28,11 +28,12 @@ def audit(root):
                     else:
                         rows=[yaml.safe_load(src) if path.suffix in ('.yaml','.yml') else json.load(src)]
                     for row in rows:
+                        if isinstance(row,dict) and 'legacy_unparsed_record' in row: unparsed += 1
                         if list(legacy_keys(row)):
                             raise ValueError('Unconverted T field: '+str(path))
                 files += 1
             runs += 1
-    print(json.dumps({'schema':SCHEMA,'verified_td3_runs':runs,'verified_files':files}),flush=True)
+    print(json.dumps({'schema':SCHEMA,'verified_td3_runs':runs,'verified_files':files,'preserved_unparsed_rows':unparsed}),flush=True)
 
 
 def main():
