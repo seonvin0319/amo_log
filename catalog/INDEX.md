@@ -259,3 +259,4 @@
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=1/1 | 0.002 | 0 | jax | — | [wm_s0_ae1_ab1_Tlr0p002__20b1fbb2](../main/td3_amo/walker2d-medium-v2/2e-3/seed_0/wm_s0_ae1_ab1_Tlr0p002__20b1fbb2/) |
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=1/1 | 0.002 | 1 | jax | — | [wm_s1_ae1_ab1_Tlr0p002__ddafd258](../main/td3_amo/walker2d-medium-v2/2e-3/seed_1/wm_s1_ae1_ab1_Tlr0p002__ddafd258/) |
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=1/1 | 0.002 | 2 | jax | — | [wm_s2_ae1_ab1_Tlr0p002__1ee516cb](../main/td3_amo/walker2d-medium-v2/2e-3/seed_2/wm_s2_ae1_ab1_Tlr0p002__1ee516cb/) |
+| main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=1/1 | 0.002 | 3 | jax | — | [wm_s3_ae1_ab1_Tlr0p002__a716ccd1](../main/td3_amo/walker2d-medium-v2/2e-3/seed_3/wm_s3_ae1_ab1_Tlr0p002__a716ccd1/) |
