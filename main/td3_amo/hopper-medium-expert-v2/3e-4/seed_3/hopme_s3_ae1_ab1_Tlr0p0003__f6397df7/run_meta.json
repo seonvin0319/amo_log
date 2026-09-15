@@ -8,7 +8,7 @@
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_h-me_a1_alr3em4_s3",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T11:34:28+00:00",
+  "collected_at": "2026-09-15T11:46:32+00:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "td3_amo_jax",
@@ -21,7 +21,7 @@
   "legacy_name": "td3amo_jax_h-me_a1_alr3em4_s3",
   "meta_lr": 0.0003,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_h-me_a1_alr3em4_s3/checkpoints/step_220000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_h-me_a1_alr3em4_s3/checkpoints/step_540000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -39,7 +39,7 @@
         "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
       },
       "metrics.jsonl": {
-        "sha256": "74c409076c93369371fe5e526a0bf47f92245b79385eff6bd8694b76d1174865"
+        "sha256": "faf9d015452161371f23b8b8634917bb233e4fd059203521017587da26b5c940"
       },
       "source_run_meta.json": {
         "sha256": "2321beba0d72b22f8768368cd848270a637a41cb7f85f7156aca738b0d1865cd"
