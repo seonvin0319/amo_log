@@ -2,11 +2,12 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl"
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T14:50:04+09:00",
+  "collected_at": "2026-09-15T15:00:03+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "td3_amo_jax",
@@ -29,8 +30,11 @@
       "config.yaml": {
         "sha256": "2b42af36b2119121ba3c01f94488adf96d63665b47833adeba146fa1d3cb065c"
       },
+      "eval.jsonl": {
+        "sha256": "761aa07d26ba375ba01cfede87b31714b9e4974f12c81a897186988ea5fe8944"
+      },
       "metrics.jsonl": {
-        "sha256": "3e057bfae0a60d7cf5323f517b7d4371352e5719f2fe19f6bbe4c090a41d25cc"
+        "sha256": "f4a8541a6ac6fdc527e7eab22836b813f45a89c3d127dde206c0578a48daf8a5"
       }
     },
     "schema": "alpha_v1"
