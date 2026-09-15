@@ -1,0 +1,80 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "classification_reasons": [],
+  "collected_at": "2026-09-15T16:24:36+09:00",
+  "env": "halfcheetah-medium-expert-v2",
+  "env_short": "hme",
+  "family": "td3_amo_jax",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "hc-me_alr2e3_s1",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s1_jax_ae5_ab5_alr0p002__625325fa",
+  "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/2e-3/seed_1/hme_s1_jax_ae5_ab5_alr0p002__625325fa",
+  "run_id": "hme_s1_jax_ae5_ab5_alr0p002__625325fa",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "35fb95a17c2ad8141bf274e4182670ee620ceffc53e5414491438c232c1acbd3"
+      },
+      "eval.jsonl": {
+        "sha256": "515ae614f1a2d43d9313436b24102ce18073eadb543a36d2ba9330f25aa0efd6"
+      },
+      "metrics.jsonl": {
+        "sha256": "c483cdb24163ecce9b11acddc7cdde1e15ba21582bf38f66fffb6d97182c5b84"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "main",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_loco9_alpha5_alr_seeds03/jobs/hc-me_alr2e3_s1/run",
+  "variant": "jax_ae5_ab5_alr0p002"
+}
