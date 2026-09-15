@@ -185,6 +185,20 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         ),
     },
     {
+        # TD3+AMO torch antmaze alpha_E=alpha_B=2 (legacy T=1) fill (umaze seed2–3).
+        # family must stay on log_layout main allowlist (adaptive_multiscale).
+        "algo": "td3_amo",
+        "root": Path(
+            "/home/choi/AMO_store/td3_amo_antmaze_te1_tlr_main_fill_adaptive_critic/runs"
+        ),
+        "host": "choi",
+        "code_repo": "AMO_EXP",
+        "family_force": "adaptive_multiscale",
+        "code_commit_fallback": Path(
+            "/home/choi/AMO_store/td3_amo_antmaze_te1_tlr_main_fill_adaptive_critic/launch_manifest.json"
+        ),
+    },
+    {
         # TD3+AMO JAX antmaze alpha_E=alpha_B=5 (legacy T=2.5) × alpha_lr grid.
         "algo": "td3_amo",
         "root": Path("/home/choi/AMO_store/td3_amo_jax_antmaze_tinit25_tlr/runs"),
@@ -820,9 +834,17 @@ def resolve_code_commit(
             payload = json.loads(fallback_manifest.read_text())
         except (OSError, json.JSONDecodeError, TypeError):
             payload = {}
-        git = payload.get("git") if isinstance(payload, dict) else None
-        if isinstance(git, dict) and git.get("commit"):
-            return str(git["commit"])
+        if not isinstance(payload, dict):
+            return None
+        git = payload.get("git")
+        if isinstance(git, dict):
+            if git.get("code_commit"):
+                return str(git["code_commit"])
+            if git.get("commit"):
+                return str(git["commit"])
+        # Launcher manifests may store the commit at the top level.
+        if payload.get("code_commit"):
+            return str(payload["code_commit"])
     return None
 
 
