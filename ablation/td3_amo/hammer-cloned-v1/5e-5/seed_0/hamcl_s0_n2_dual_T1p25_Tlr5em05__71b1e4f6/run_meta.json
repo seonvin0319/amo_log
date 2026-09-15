@@ -29,12 +29,31 @@
   "original_rel_path": "runs/apart/dual_proximal/hamcl_s0_n2_dual_T1p25_Tlr5em05__71b1e4f6",
   "rel_path": "ablation/td3_amo/hammer-cloned-v1/5e-5/seed_0/hamcl_s0_n2_dual_T1p25_Tlr5em05__71b1e4f6",
   "run_id": "hamcl_s0_n2_dual_T1p25_Tlr5em05__71b1e4f6",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "8d749a5943c51ffcc7008b99a62f155ddc025f754e7c20bc50a7e989aab5cbc5",
+        "sha256": "bf22d16be714cb81fcadd98affe4ef1b68d8cb0a7a9aced36f9b3072b34174c5"
+      },
+      "eval.jsonl": {
+        "sha256": "73dad0afbcce3cae946dd123d0abafb730afb1c925f45e3570ccad89e8ed1b44"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "4a401aed1c70ccd86698953eed1957d2f507e88e0e36391129739a3d35e709fd",
+        "sha256": "21712e921d0c08b631e04ec1a2821b1d72b2cdf9cd4915bfd2beabe35c2f3c43"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 5e-05,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 5e-05,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/ext_csh/APART/results/dual_n24_tlr/runs/hammer_dual_N2_T1.25_Tlr5e-5_s0-hammer-cloned-v1-71b1e4f6",

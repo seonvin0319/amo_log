@@ -26,13 +26,32 @@
   "original_rel_path": "runs/amo/adaptive_multiscale/hcm_s0_te1p25_tb1p25__d3c1abd6",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-v2/2e-4/seed_0/hcm_s0_te1p25_tb1p25__d3c1abd6",
   "run_id": "hcm_s0_te1p25_tb1p25__d3c1abd6",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "90bc116f0eec0065193bcf0c298999cd5f443f179444ebc49744c5df2f4c0aa3",
+        "sha256": "ff39c0f88cd61e49161b5071e98acecc84b776484ff3c79ddafed09cbb48c5dd"
+      },
+      "eval.jsonl": {
+        "sha256": "af32e8d49817dbe5890703e5c6c4e53a8b58e1076649e064947d0c9ae75093c8"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "35807e9ebc4bcd3d064c67d1c56c1032c3eaa8a5df3c6d139035425bd6849545",
+        "sha256": "a07d7ce554cb428655287c8dc594e9e55e414f58e35d99b829f3f608fd3ba4c7"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
     "adaptive_multiscale": true,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/ext_csh/APART/results/adaptive_multiscale_locomotion9_seed0/runs/adaptive_multiscale_hc-m_s0-halfcheetah-medium-v2-d3c1abd6",
@@ -54,7 +73,7 @@
     "policy_noise": 0.2,
     "profile_runtime": false,
     "project": "APART-adaptive-multiscale",
-    "project_T_B_to_T_E": true,
+    "project_alpha_B_to_alpha_E": true,
     "proximal_n_steps": 1,
     "resume_tag": "adaptive_multiscale_hc-m_s0",
     "save_freq": 5000,

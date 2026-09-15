@@ -29,12 +29,31 @@
   "original_rel_path": "runs/apart/dual_proximal/doorcl_s0_n2_dual_T1p25__830ee53a",
   "rel_path": "ablation/td3_amo/door-cloned-v1/2e-4/seed_0/doorcl_s0_n2_dual_T1p25__830ee53a",
   "run_id": "doorcl_s0_n2_dual_T1p25__830ee53a",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "65a003168832b97119b750db105e236a108171ccb177b60ae40ee047c029e382",
+        "sha256": "b03a5cfa0f68bcc64ffdd8bb3b07f36796f60a02d38d8975b997a690ecac782f"
+      },
+      "eval.jsonl": {
+        "sha256": "1c1be89d7ebb328aef161e3946347170f3646e5786d2c994bd04e814b2002f90"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "08dfadf21f325873cc9ac7b47258c493202a205badb2d7b85cdc5f525ed9bfb5",
+        "sha256": "43b7be760b1ce9f188abab2971fa33d3764eeaa0f74fbad3b510c0a87c9e4f73"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/ext_csh/APART/results/dual_n24_adroit/runs/door_dual_N2_T1.25_Tlr2e-4_s0-door-cloned-v1-830ee53a",

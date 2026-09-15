@@ -25,14 +25,33 @@
   "original_rel_path": "runs/amo/adaptive_multiscale/ammd_s0_te5_tb5_Tlr0p002__033103ac",
   "rel_path": "ablation/td3_amo/antmaze-medium-diverse-v2/2e-3/seed_0/ammd_s0_te5_tb5_Tlr0p002__033103ac",
   "run_id": "ammd_s0_te5_tb5_Tlr0p002__033103ac",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "53d04c2bca7be477a326c928e06b055baff4338c9953831025c76fc6ffc49b9f",
+        "sha256": "2b3aba55fea525342865ae48c738e960e85e70ea578f806d4baa0cce5bef23db"
+      },
+      "eval.jsonl": {
+        "sha256": "a6a5ca87b588efb8d077d6b428e10758cb8388529939718c8ea252571c44ebe1"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "471af5c63e60cf4e01c61478b26364bff3903f40935e12c56b555c0bfdba6795",
+        "sha256": "97ae4f4b35702dc9957993d0385d5402c6e8f15253483d82d6768b66afc23fa1"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": 5.0,
-    "T_E": 5.0,
-    "T_freq": 10,
-    "T_lr": 0.002,
     "adaptive_multiscale": true,
+    "alpha_B": 10.0,
+    "alpha_E": 10.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.002,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

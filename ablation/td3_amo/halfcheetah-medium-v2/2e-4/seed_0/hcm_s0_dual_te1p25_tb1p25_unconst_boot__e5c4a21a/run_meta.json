@@ -26,18 +26,37 @@
   "original_rel_path": "runs/amo/adaptive_multiscale/hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-v2/2e-4/seed_0/hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a",
   "run_id": "hcm_s0_dual_te1p25_tb1p25_unconst_boot__e5c4a21a",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "a14fb28741c79d03ec65c2669aad772960b8caf17546fd6ad467192486924d68",
+        "sha256": "f8120fd26d44f1496039eb71f504aa762db0e68fe2067acda1bb1c3611a861b2"
+      },
+      "eval.jsonl": {
+        "sha256": "079cc8296bae70704a993a2e8ee5a7bb5f749b52f25d063d7a91311271edaf8b"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "0d4932c993e3a35e37287b4e3a591afba87d4b6d4006eae9f5aae93ddddc2b6f",
+        "sha256": "87505942eefc9ef8c3043c5d7862420d53f5bf687b642a1c852ebd0f20530d4f"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
     "adaptive_bootstrap_scale": true,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "bootstrap_stability_budget": 0.05,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/ext_csh/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_hc-m_s0-halfcheetah-medium-v2-e5c4a21a",
-    "constrain_T_B_le_T_E": false,
+    "constrain_alpha_B_le_alpha_E": false,
     "device": "cuda",
     "discount": 0.99,
     "dual_proximal": true,

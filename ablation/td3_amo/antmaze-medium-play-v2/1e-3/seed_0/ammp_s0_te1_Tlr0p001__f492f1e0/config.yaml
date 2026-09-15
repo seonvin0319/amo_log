@@ -1,8 +1,8 @@
-T_B: null
-T_B_from_T_E_divisor: 2.0
-T_E: 1.0
-T_freq: 10
-T_lr: 0.001
+alpha_B: null
+alpha_B_from_alpha_E_divisor: 2.0
+alpha_E: 2.0
+alpha_freq: 10
+alpha_lr: 0.001
 adaptive_multiscale: true
 batch_size: 256
 bootstrap_outer_loss_version: tq_detached_rms_target_v1

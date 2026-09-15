@@ -23,14 +23,33 @@
   "original_rel_path": "runs/amo/adaptive_multiscale/hopmr_s0_te1_tb1_Tlr0p002__7d09b0fb",
   "rel_path": "main/td3_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_te1_tb1_Tlr0p002__7d09b0fb",
   "run_id": "hopmr_s0_te1_tb1_Tlr0p002__7d09b0fb",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "6654bdb1c47852a42ebf6d72b575d8b204ee34dd2bc1d0a6f419de221f564e78",
+        "sha256": "edb495dfb11bcd1606268bc3a5ad3112f36393530933c52cd0a045213ce75fa9"
+      },
+      "eval.jsonl": {
+        "sha256": "ca2c2966f6cbca5ae5919eb3a059ce0ba248d50a6f209539a72d488275151b81"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "6d54cc25b0e6d8e9396f5bf9c2e260e43045ebfb5a7e69087b12ba084bdb88db",
+        "sha256": "8692687169e43703c08a0f00cb97bf403e4a1ec092bcfc934ebf5850d913cf83"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "main",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_freq": 10,
-    "T_lr": 0.002,
     "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.002,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

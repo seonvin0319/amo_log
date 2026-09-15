@@ -28,12 +28,31 @@
   "original_rel_path": "runs/apart/chain/pencl_s0_n1_T1p25_Tlr0p0001__c3351ae9",
   "rel_path": "ablation/td3_amo/pen-cloned-v1/1e-4/seed_0/pencl_s0_n1_T1p25_Tlr0p0001__c3351ae9",
   "run_id": "pencl_s0_n1_T1p25_Tlr0p0001__c3351ae9",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "2bf7146928333d0c600e2cec4006d2a9e654f2453ba21fc1919a479beeaf71de",
+        "sha256": "46df9a6076d1c419f6949af406f569b1a6924d8870d3213012132d211e25c3ff"
+      },
+      "eval.jsonl": {
+        "sha256": "879ec47f9e77ea49c545e56012cf66a60cd1f472c08d0d8c397a789645323974"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a045a9b5babb29317d063e6f5ff747f386d84a79533ab0bf4139a11a23f1030d",
+        "sha256": "cde6785e8a51c1c7af5a9b1b6c3cc27c832ba4fae6f3ec66dd7b5e3b1bee7e15"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0001,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0001,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/ext_csh/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T1.25_Tlr1e-4_g0.995_s0-pen-cloned-v1-c3351ae9",

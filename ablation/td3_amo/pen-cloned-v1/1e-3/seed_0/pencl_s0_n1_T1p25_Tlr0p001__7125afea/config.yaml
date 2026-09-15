@@ -1,6 +1,6 @@
-T: 1.25
-T_freq: 10
-T_lr: 0.001
+alpha: 2.5
+alpha_freq: 10
+alpha_lr: 0.001
 batch_size: 256
 buffer_size: 10000000
 checkpoints_path: /home/ext_csh/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T1.25_Tlr1e-3_g0.99_s0-pen-cloned-v1-7125afea

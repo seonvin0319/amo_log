@@ -29,12 +29,31 @@
   "original_rel_path": "runs/apart/dual_proximal/pencl_s0_n4_dual_T1p25__48a9448d",
   "rel_path": "ablation/td3_amo/pen-cloned-v1/2e-4/seed_0/pencl_s0_n4_dual_T1p25__48a9448d",
   "run_id": "pencl_s0_n4_dual_T1p25__48a9448d",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "511d52623457cc094332a7d4c0b19fde5300193e628159367783c24f66de9626",
+        "sha256": "b346335d85e2bbd199f8092b2349397d2a9927fbb61dda220059c7a3833054f2"
+      },
+      "eval.jsonl": {
+        "sha256": "04eca7c99d09fde5cbd44a2650c2fd862b42c533d1f1c0d7933ccf5f95c14950"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "83321e795896facabfc99d4807dccf1221343dcd73923f21f88884e05b522c2e",
+        "sha256": "95aafff1ae92495d7c07c1337dfe57e8ede058578a40cda5f2a23ea7118a8736"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/ext_csh/APART/results/dual_n24_adroit/runs/pen_dual_N4_T1.25_Tlr2e-4_s0-pen-cloned-v1-48a9448d",

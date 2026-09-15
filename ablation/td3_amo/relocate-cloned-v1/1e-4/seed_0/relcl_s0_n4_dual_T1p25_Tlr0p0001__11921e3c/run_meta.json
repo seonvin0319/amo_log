@@ -29,12 +29,31 @@
   "original_rel_path": "runs/apart/dual_proximal/relcl_s0_n4_dual_T1p25_Tlr0p0001__11921e3c",
   "rel_path": "ablation/td3_amo/relocate-cloned-v1/1e-4/seed_0/relcl_s0_n4_dual_T1p25_Tlr0p0001__11921e3c",
   "run_id": "relcl_s0_n4_dual_T1p25_Tlr0p0001__11921e3c",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "1553bb22aa6c98f1575e54dbc3da7eec6661bdd4d5c66db2191efd544df72806",
+        "sha256": "572240701ac3b1987e76aba4585ecd460fc8cbbd5dd1701e1bdf8ac8e2ad6c49"
+      },
+      "eval.jsonl": {
+        "sha256": "43268f26a71f5907f5004dec65ff3d687339bad61a68d5d269dc45baec362cd7"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "99deee4924cf0405241e363cc83eaa133d5e195b0c52959420c1e3be2d28cfa1",
+        "sha256": "45305380eebf238829e39d2b74074488323e9f5bba6ea9d3c358a98917bbf783"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0001,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0001,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/ext_csh/APART/results/dual_n24_tlr/runs/relocate_dual_N4_T1.25_Tlr1e-4_s0-relocate-cloned-v1-11921e3c",

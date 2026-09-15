@@ -26,6 +26,23 @@
   "original_rel_path": "runs/apart/pi_only_xfit_target/hopm_s0_pi_only_xfit__f63febbd",
   "rel_path": "ablation/td3_amo/hopper-medium-v2/unspecified/seed_0/hopm_s0_pi_only_xfit__f63febbd",
   "run_id": "hopm_s0_pi_only_xfit__f63febbd",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "e274367b88c2a5505dea61437bc1439ef2a5aafb791f9079a9da63829d6bd883"
+      },
+      "eval.jsonl": {
+        "sha256": "28bafc14ac0c8f7e1e2a8fa2f65a1bfa0f7523262f4237e8d7d8dd7de83e0dba"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "b1f0365e6b5caa01ad260c92720270fdc83a1148b671f11959a53453297ce9be",
+        "sha256": "c2bd476a0cd4b3c1da220ca463a2992d9d8af314833c8291c6125f4ac3475afd"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
