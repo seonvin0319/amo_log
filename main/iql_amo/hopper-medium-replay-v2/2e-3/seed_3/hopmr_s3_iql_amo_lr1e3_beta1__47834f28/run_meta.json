@@ -11,7 +11,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s3/run/checkpoints/step_1000000.npz",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T13:38:24+09:00",
+  "collected_at": "2026-09-15T13:48:33+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "lr1e3_beta_sweep",
