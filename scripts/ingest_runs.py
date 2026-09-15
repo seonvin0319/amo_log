@@ -599,13 +599,21 @@ def build_variant(
             tokens.append("boot")
 
     if family == "td3_amo_jax":
-        # Prefer legacy T_* (may be aliased from alpha_* = 2T).
-        te = cfg.get("T_E", cfg.get("T"))
-        tb = cfg.get("T_B", te)
-        if te is not None:
-            tokens.append(f"te{fmt_num(float(te))}")
-        if tb is not None:
-            tokens.append(f"tb{fmt_num(float(tb))}")
+        # Prefer alpha_* when present (AMO-main rename); else legacy T_*.
+        if cfg.get("alpha_E") is not None or cfg.get("alpha_B") is not None:
+            ae = cfg.get("alpha_E")
+            ab = cfg.get("alpha_B", ae)
+            if ae is not None:
+                tokens.append(f"ae{fmt_num(float(ae))}")
+            if ab is not None:
+                tokens.append(f"ab{fmt_num(float(ab))}")
+        else:
+            te = cfg.get("T_E", cfg.get("T"))
+            tb = cfg.get("T_B", te)
+            if te is not None:
+                tokens.append(f"te{fmt_num(float(te))}")
+            if tb is not None:
+                tokens.append(f"tb{fmt_num(float(tb))}")
 
     if family in ("dual_proximal", "chain", "misc"):
         t_init = cfg.get("T")
@@ -635,12 +643,9 @@ def build_variant(
 
 
 def alias_alpha_to_legacy_t(cfg: Dict[str, Any]) -> Dict[str, Any]:
-    """AMO-main rename alpha := 2T. Fill T_* for log_layout without rewriting config.yaml."""
+    """Keep alpha_* as source of truth; only fill T_lr when missing (shared layout reads alpha_*)."""
     out = dict(cfg)
-    if out.get("alpha_E") is not None and out.get("T_E") is None:
-        out["T_E"] = float(out["alpha_E"]) / 2.0
-    if out.get("alpha_B") is not None and out.get("T_B") is None:
-        out["T_B"] = float(out["alpha_B"]) / 2.0
+    # Do not invent T_E=alpha/2 — that mislabels run_ids as te0.5 for alpha_E=1.
     if out.get("alpha_lr") is not None and out.get("T_lr") is None:
         out["T_lr"] = out["alpha_lr"]
     return out
