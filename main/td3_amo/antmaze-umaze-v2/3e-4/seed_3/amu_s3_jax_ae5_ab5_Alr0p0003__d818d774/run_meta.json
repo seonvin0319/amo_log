@@ -1,0 +1,80 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "classification_reasons": [],
+  "collected_at": "2026-09-15T13:04:01+09:00",
+  "env": "antmaze-umaze-v2",
+  "env_short": "amu",
+  "family": "td3_amo_jax",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "td3amo_jax_te25_tb25_tlr3e-4_amu_s3",
+  "meta_lr": 0.0003,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_jax/amu_s3_jax_ae5_ab5_Alr0p0003__d818d774",
+  "rel_path": "main/td3_amo/antmaze-umaze-v2/3e-4/seed_3/amu_s3_jax_ae5_ab5_Alr0p0003__d818d774",
+  "run_id": "amu_s3_jax_ae5_ab5_Alr0p0003__d818d774",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "2b42af36b2119121ba3c01f94488adf96d63665b47833adeba146fa1d3cb065c"
+      },
+      "eval.jsonl": {
+        "sha256": "42e948c170d27688fa6a5d1aa256e3360affb30566ba69ef51c50ef30d88a76c"
+      },
+      "metrics.jsonl": {
+        "sha256": "281a308e175b8b460ae292494b264f01739e153317c369d82782df14a677353c"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "main",
+  "seed": 3,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-umaze-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/AMO_store/td3_amo_jax_antmaze_tinit25_tlr/runs/td3amo_jax_te25_tb25_tlr3e-4_amu_s3",
+  "variant": "jax_ae5_ab5_Alr0p0003"
+}

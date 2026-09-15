@@ -1,5 +1,8 @@
 {
   "algo": "apart",
+  "aliases": [
+    "hopme_s0_mpi_n4_alr1e4_Alr0p0001__93ad3672"
+  ],
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
@@ -12,7 +15,7 @@
     "multi_step",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T13:00:02+09:00",
+  "collected_at": "2026-09-15T13:04:00+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "pi_only_xfit_mpi_nstep",

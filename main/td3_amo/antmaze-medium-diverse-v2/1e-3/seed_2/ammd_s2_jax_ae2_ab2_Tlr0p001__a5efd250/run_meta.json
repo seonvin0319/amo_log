@@ -1,0 +1,83 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "classification_reasons": [],
+  "collected_at": "2026-09-15T13:04:00+09:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "family": "td3_amo_jax",
+  "git": {
+    "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "td3amo_jax_te1_tb1_tlr1e-3_ammd_s2",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_jax/ammd_s2_jax_ae2_ab2_Tlr0p001__a5efd250",
+  "rel_path": "main/td3_amo/antmaze-medium-diverse-v2/1e-3/seed_2/ammd_s2_jax_ae2_ab2_Tlr0p001__a5efd250",
+  "run_id": "ammd_s2_jax_ae2_ab2_Tlr0p001__a5efd250",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "7180ff8388dbb20644a5ef1e2fd99740042f49786cf31bab28a64f4021cc1659",
+        "sha256": "4be1586518ea92dbb8c88148847a81e3fe1afb7458692bf9d51578a54e8f5e3f"
+      },
+      "eval.jsonl": {
+        "sha256": "ca4812b307bd25b9c94bf42483cf7e7e37bfebcfdbb8e459ffcb29c04d39f15d"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "dc217b0df4e994a1baa04ffe4f80b6b35ff194e289f34ce36345f7525fd1a7d2",
+        "sha256": "8ff639cb382494d363fad1601914eabaa3d51144a22ccc99123855891a0105a5"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "main",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-medium-diverse-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/AMO_store/td3_amo_jax_antmaze_te1_tlr_fill/runs/td3amo_jax_te1_tb1_tlr1e-3_ammd_s2",
+  "variant": "jax_ae2_ab2_Tlr0p001"
+}
