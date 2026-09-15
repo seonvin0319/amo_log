@@ -3,12 +3,13 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_h-m_a1_alr1em3_s1",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T10:58:14+00:00",
+  "collected_at": "2026-09-15T11:10:18+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_jax",
@@ -37,6 +38,9 @@
     "files": {
       "config.yaml": {
         "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+      },
+      "eval.jsonl": {
+        "sha256": "cf97e465acbc2deaf9ca8db52952648259bbeec65d327210d2dd8401c38b0cf5"
       },
       "metrics.jsonl": {
         "sha256": "7c66b175bcff52e8e89d7b09c9386322eb8a5879bcb4abb98b1498c37c8c148e"
