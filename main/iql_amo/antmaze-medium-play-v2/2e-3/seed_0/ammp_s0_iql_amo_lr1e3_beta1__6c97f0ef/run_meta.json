@@ -11,7 +11,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s0/run/checkpoint.npz",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T13:58:43+09:00",
+  "collected_at": "2026-09-15T14:08:52+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "lr1e3_beta_sweep",
