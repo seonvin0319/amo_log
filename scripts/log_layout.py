@@ -87,14 +87,19 @@ def identity(m, c):
     if sm: seed = int(sm[1])
     return slug(env or 'unknown'), seed
 
-def classify(m, c):
+def method_name(m):
     algo, fam = m.get('algo',''), m.get('family','')
-    reasons=[]
     if algo == 'iql_amo' or algo=='iql' and fam not in ('benchmark','vanilla'): method='iql_amo'
     elif algo in ('amo','apart','td3_amo'): method='td3_amo'
     elif algo=='td3bc': method='td3bc+rc'
     elif algo in METHODS: method=algo
     else: raise ValueError('Unmapped method: '+repr((algo,fam)))
+    return method
+
+def classify(m, c):
+    algo, fam = m.get('algo',''), m.get('family','')
+    reasons=[]
+    method=method_name(m)
     lr = c.get('T_lr') if method=='td3_amo' else c.get('rho_lr', c.get('beta_lr')) if method=='iql_amo' else None
     if method=='td3_amo' and ('alpha_E' in c or 'alpha_init' in c or
                              m.get('scale_conversion',{}).get('meta_lr_source')=='T_lr'):
@@ -130,6 +135,43 @@ def classify(m, c):
 def fingerprint(m):
     return {'source_path':m.get('source_path'), 'code_commit':m.get('git',{}).get('code_commit'), 'run_id':m.get('run_id')}
 
+NETWORK_LR_EXCLUSIONS = 'catalog/removed_invalid_network_lr.json'
+
+def invalid_network_lrs(m, c):
+    """Check explicit active-network rates, never meta rates or unused config knobs."""
+    method=method_name(m)
+    keys=['actor_lr','critic_lr','qf_lr']
+    if method in ('iql','iql_amo','wpc','a2pr'):keys += ['value_lr','vf_lr']
+    if method=='td3_amo':keys.append('behavior_lr')
+    bad={}
+    # Check both sources: neither an edited metadata field nor a config override
+    # may hide a recorded nonstandard rate. Missing rates mean implicit defaults.
+    for source, settings in (('settings',m.get('settings',{})),('config',c)):
+        for key in keys:
+            value=settings.get(key)
+            if value is not None and number(value)!=0.0003:
+                bad.setdefault(key,{'expected':0.0003})[source]=value
+    return bad
+
+def excluded_network_lr(m, entries):
+    f=fingerprint(m)
+    return any(e.get('code_commit')==f['code_commit'] and
+               (e.get('source_path')==f['source_path'] if e.get('source_path') and f['source_path']
+                else bool(f['run_id']) and e.get('run_id')==f['run_id']) for e in entries)
+
+def network_lr_exclusion(m, c, rel_path):
+    env,seed=identity(m,c)
+    return dict(**fingerprint(m),method=method_name(m),env=env,seed=seed,
+                rel_path=rel_path,reason='invalid_network_lr',invalid_network_lrs=invalid_network_lrs(m,c))
+
+def write_network_lr_exclusions(root, entries):
+    path=Path(root)/NETWORK_LR_EXCLUSIONS
+    path.parent.mkdir(parents=True,exist_ok=True)
+    data={'schema_version':1,'runs':sorted(entries,key=lambda e:(e.get('source_path') or '',e.get('code_commit') or '',e.get('run_id') or ''))}
+    encoded=json.dumps(data,indent=2,sort_keys=True)+'\n'
+    if not path.exists() or path.read_text()!=encoded:
+        temp=path.with_suffix('.tmp');temp.write_text(encoded);temp.replace(path)
+
 def excluded(m, c, entries):
     if backend(m,c)!='jax':return False
     f=fingerprint(m)
@@ -147,6 +189,8 @@ def normalize(root=None):
     root=Path(root or Path(__file__).resolve().parents[1]);legacy=root/'runs'
     ef=root/'catalog/removed_legacy_jax.json'
     entries=json.loads(ef.read_text()).get('runs',[]) if ef.exists() else []
+    nf=root/NETWORK_LR_EXCLUSIONS
+    network_exclusions=json.loads(nf.read_text()).get('runs',[]) if nf.exists() else []
     # Reclassify stored runs as well as newly ingested runs after a rule change.
     # Legacy snapshots are applied last, retaining the existing ingestion order.
     paths=[mp for section in ('main','ablation','runs')
@@ -158,6 +202,15 @@ def normalize(root=None):
         if excluded(m,c,entries):
             if src.is_relative_to(legacy):shutil.rmtree(src);continue
             raise ValueError('Removed historical JAX present at '+str(src))
+        bad=invalid_network_lrs(m,c)
+        known=excluded_network_lr(m,network_exclusions)
+        if bad or known:
+            if not known:
+                network_exclusions.append(network_lr_exclusion(m,c,src.relative_to(root).as_posix()))
+                write_network_lr_exclusions(root,network_exclusions)
+            print('Removed invalid network-lr run:',src.relative_to(root),sorted(bad) or 'previously excluded')
+            shutil.rmtree(src)
+            continue
         m=normalize_run(src,m)
         c=load_config(src/'config.yaml',m)
         layout=classify(m,c);dest=root/layout['rel_path']
