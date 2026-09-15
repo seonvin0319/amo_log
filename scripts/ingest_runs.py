@@ -872,23 +872,35 @@ def read_final_eval_50_row(src: Path) -> Optional[Dict[str, Any]]:
 
 
 def resolve_code_commit(src: Path) -> Optional[str]:
-    """Use only the commit recorded at training time; never invent from current HEAD."""
+    """Use only the commit recorded at training time; never invent from current HEAD.
+
+    launch_manifest fallback is JAX-only: historical torch logs keep null so
+    re-ingest does not collide with already-normalized main/ablation entries.
+    """
     meta_path = src / "run_meta.json"
+    meta: Optional[Dict[str, Any]] = None
     if meta_path.exists():
         try:
-            meta = json.loads(meta_path.read_text())
+            loaded = json.loads(meta_path.read_text())
+            if isinstance(loaded, dict):
+                meta = loaded
         except Exception:
             meta = None
-        if isinstance(meta, dict):
-            git = meta.get("git") if isinstance(meta.get("git"), dict) else {}
-            for key in ("code_commit", "commit", "git_commit"):
-                val = git.get(key)
-                if val:
-                    return str(val)
-            for key in ("code_commit", "git_commit"):
-                val = meta.get(key)
-                if val:
-                    return str(val)
+    if isinstance(meta, dict):
+        git = meta.get("git") if isinstance(meta.get("git"), dict) else {}
+        for key in ("code_commit", "commit", "git_commit"):
+            val = git.get(key)
+            if val:
+                return str(val)
+        for key in ("code_commit", "git_commit"):
+            val = meta.get(key)
+            if val:
+                return str(val)
+    is_jax = "jax" in str(src).lower()
+    if isinstance(meta, dict) and str(meta.get("backend", "")).lower() == "jax":
+        is_jax = True
+    if not is_jax:
+        return None
     # Launcher matrix manifests keep git even when train.py rewrites run_meta.
     for parent in (src, *src.parents):
         manifest = parent / "launch_manifest.json"
