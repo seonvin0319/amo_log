@@ -9,7 +9,7 @@
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_h-mr_a1_alr2em3_s2",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T14:35:00+00:00",
+  "collected_at": "2026-09-15T14:47:25+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_jax",
