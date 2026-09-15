@@ -1,0 +1,45 @@
+name: Normalize alpha log units
+on:
+  push:
+    branches: [choi, ext_csh, ext_csv, offrl, shchoi, svcho]
+    paths:
+      - scripts/alpha_logs.py
+      - scripts/migrate_alpha_logs.py
+      - .github/workflows/migrate-alpha-logs.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: alpha-units-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  normalize:
+    if: github.ref_name != 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 1
+      - name: Check common rules and unit conversion
+        env:
+          LOG_BRANCH: ${{ github.ref_name }}
+        run: |
+          git fetch --filter=blob:none --depth=1 origin main:refs/remotes/origin/main
+          python3 -m pip install -r requirements-log-tools.txt
+          python3 scripts/test_log_layout.py
+          python3 scripts/test_alpha_logs.py
+          python3 scripts/validate_logs.py --branch "$LOG_BRANCH" --common-ref origin/main
+      - name: Normalize existing main and ablation logs
+        run: python3 scripts/migrate_alpha_logs.py
+      - name: Validate and commit converted logs
+        env:
+          LOG_BRANCH: ${{ github.ref_name }}
+        run: |
+          git add -A -- main ablation catalog
+          python3 scripts/validate_logs.py --index --branch "$LOG_BRANCH" --common-ref origin/main
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'logs: normalize legacy T scales to alpha = 2T'
+            git push origin "HEAD:refs/heads/$LOG_BRANCH"
+          fi
