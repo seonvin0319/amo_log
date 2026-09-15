@@ -64,7 +64,7 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
         "root": Path(
-            "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0"
+            "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0"
         ),
         "host": "ext_csv",
         "code_repo": "AMO-behavior-l1-joint-v2",
