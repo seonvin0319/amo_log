@@ -18,6 +18,7 @@ jobs:
           python3 -m pip install -r requirements-log-tools.txt
           python3 scripts/test_log_layout.py
           python3 scripts/test_alpha_logs.py
+          python3 scripts/test_network_lr.py
       - name: Validate committed snapshot
         env:
           LOG_BRANCH: ${{ github.head_ref || github.ref_name }}

@@ -11,7 +11,8 @@
 - Meta lr가 없는 baseline은 해당 경로 단계를 생략합니다.
 - 방법: `td3_amo`, `iql_amo`, `td3bc+rc`, `iql`, `a2pr`, `wpc`, `aspc`.
 - Adroit(door/hammer/pen/relocate)는 baseline을 포함한 모든 방법에서 ablation입니다.
-- AMO 본 실험 초기값: TD3 alpha_E=alpha_B=1/2/5, IQL beta=1/2/5. Meta lr는 `1e-3`, `2e-3`, `3e-4`입니다. 그 외 초기값·학습률·구조/loss 변형은 ablation입니다. Baseline 고유 beta는 이 초기값 제한 대상이 아닙니다.
+- AMO 본 실험 초기값: TD3 alpha_E=alpha_B=1/2/5, IQL beta=1/2/5. Meta lr는 `1e-3`, `2e-3`, `3e-4`입니다. 그 외 초기값·meta 학습률·구조/loss 변형은 ablation입니다. Baseline 고유 beta는 이 초기값 제한 대상이 아닙니다.
+- actor/critic/value 등 기본 네트워크 lr를 바꾼 오실행은 삭제하며 재수집을 차단합니다. 고정 기준과 적용 필드는 공통 로그 규칙을 따릅니다.
 - 기존 JAX 실행은 2026-09-14 정리에서 제거했습니다. Git 이력은 유지합니다. 이후 수정된 JAX 실행을 일괄 차단하지 않습니다.
 - run_id를 보존해 같은 seed의 별도 실행을 덮어쓰지 않습니다.
 - 설정·평가 방식은 각 실행의 `config.yaml`, `run_meta.json`을 확인합니다. 표는 위치 인덱스이며 점수를 선택/평균하지 않습니다.
@@ -20,12 +21,12 @@
 
 | 브랜치 | main 실행 | ablation 실행 | 목록 |
 |---|---:|---:|---|
-| [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 190 | 98 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
+| [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 196 | 98 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
 | [ext_csh](https://github.com/seonvin0319/amo_log/tree/ext_csh) | 65 | 315 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csh/catalog/INDEX.md) |
-| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 93 | 99 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
+| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 99 | 99 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
 | [offrl](https://github.com/seonvin0319/amo_log/tree/offrl) | 10 | 0 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/offrl/catalog/INDEX.md) |
-| [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 246 | 210 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
-| [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 177 | 381 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
+| [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 250 | 210 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
+| [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 106 | 366 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
 
 ## main 실험 위치
 
@@ -84,100 +85,72 @@
 | iql | walker2d-medium-expert-v2 | — | actor_lr=0.0003 | [choi: seed 0](https://github.com/seonvin0319/amo_log/tree/choi/main/iql/walker2d-medium-expert-v2); [offrl: seed 0](https://github.com/seonvin0319/amo_log/tree/offrl/main/iql/walker2d-medium-expert-v2) |
 | iql | walker2d-medium-replay-v2 | — | actor_lr=0.0003 | [choi: seed 0](https://github.com/seonvin0319/amo_log/tree/choi/main/iql/walker2d-medium-replay-v2); [offrl: seed 0](https://github.com/seonvin0319/amo_log/tree/offrl/main/iql/walker2d-medium-replay-v2) |
 | iql | walker2d-medium-v2 | — | actor_lr=0.0003 | [choi: seed 0](https://github.com/seonvin0319/amo_log/tree/choi/main/iql/walker2d-medium-v2); [offrl: seed 0](https://github.com/seonvin0319/amo_log/tree/offrl/main/iql/walker2d-medium-v2) |
-| iql_amo | antmaze-large-diverse-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-large-diverse-v2/2e-3) |
 | iql_amo | antmaze-large-diverse-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-large-diverse-v2/2e-3) |
-| iql_amo | antmaze-large-diverse-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-large-diverse-v2/2e-3) |
-| iql_amo | antmaze-large-play-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-large-play-v2/2e-3) |
 | iql_amo | antmaze-large-play-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-large-play-v2/2e-3) |
-| iql_amo | antmaze-large-play-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-large-play-v2/2e-3) |
-| iql_amo | antmaze-medium-diverse-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-medium-diverse-v2/2e-3) |
 | iql_amo | antmaze-medium-diverse-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-medium-diverse-v2/2e-3) |
-| iql_amo | antmaze-medium-diverse-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-medium-diverse-v2/2e-3) |
 | iql_amo | antmaze-medium-play-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-medium-play-v2/3e-4) |
-| iql_amo | antmaze-medium-play-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-medium-play-v2/2e-3) |
 | iql_amo | antmaze-medium-play-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-medium-play-v2/2e-3) |
-| iql_amo | antmaze-medium-play-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-medium-play-v2/2e-3) |
 | iql_amo | antmaze-umaze-diverse-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-umaze-diverse-v2/3e-4) |
-| iql_amo | antmaze-umaze-diverse-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-umaze-diverse-v2/2e-3) |
 | iql_amo | antmaze-umaze-diverse-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-umaze-diverse-v2/2e-3) |
-| iql_amo | antmaze-umaze-diverse-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-umaze-diverse-v2/2e-3) |
 | iql_amo | antmaze-umaze-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-umaze-v2/3e-4) |
-| iql_amo | antmaze-umaze-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-umaze-v2/2e-3) |
 | iql_amo | antmaze-umaze-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/antmaze-umaze-v2/2e-3) |
-| iql_amo | antmaze-umaze-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/antmaze-umaze-v2/2e-3) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-expert-v2/3e-4) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-expert-v2/3e-4) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-expert-v2/1e-3) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.001 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 1](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-expert-v2/1e-3) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-expert-v2/2e-3) |
-| iql_amo | halfcheetah-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/halfcheetah-medium-expert-v2/2e-3) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-expert-v2/2e-3) |
-| iql_amo | halfcheetah-medium-expert-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/halfcheetah-medium-expert-v2/2e-3) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.002 | beta0=5.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-expert-v2/2e-3) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-replay-v2/3e-4) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-replay-v2/3e-4) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-replay-v2/1e-3) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-replay-v2/2e-3) |
-| iql_amo | halfcheetah-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/halfcheetah-medium-replay-v2/2e-3) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-replay-v2/2e-3) |
-| iql_amo | halfcheetah-medium-replay-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/halfcheetah-medium-replay-v2/2e-3) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.002 | beta0=5.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-replay-v2/2e-3) |
 | iql_amo | halfcheetah-medium-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-v2/3e-4) |
 | iql_amo | halfcheetah-medium-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-v2/3e-4) |
 | iql_amo | halfcheetah-medium-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-v2/1e-3) |
 | iql_amo | halfcheetah-medium-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/halfcheetah-medium-v2/2e-3) |
-| iql_amo | halfcheetah-medium-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/halfcheetah-medium-v2/2e-3) |
 | iql_amo | halfcheetah-medium-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-v2/2e-3) |
-| iql_amo | halfcheetah-medium-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/halfcheetah-medium-v2/2e-3) |
 | iql_amo | halfcheetah-medium-v2 | 0.002 | beta0=5.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/halfcheetah-medium-v2/2e-3) |
 | iql_amo | hopper-medium-expert-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-expert-v2/3e-4) |
 | iql_amo | hopper-medium-expert-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-expert-v2/3e-4) |
 | iql_amo | hopper-medium-expert-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-expert-v2/1e-3) |
 | iql_amo | hopper-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-expert-v2/2e-3) |
-| iql_amo | hopper-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/hopper-medium-expert-v2/2e-3) |
 | iql_amo | hopper-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-expert-v2/2e-3) |
-| iql_amo | hopper-medium-expert-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/hopper-medium-expert-v2/2e-3) |
 | iql_amo | hopper-medium-expert-v2 | 0.002 | beta0=5.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-expert-v2/2e-3) |
 | iql_amo | hopper-medium-replay-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-replay-v2/3e-4) |
 | iql_amo | hopper-medium-replay-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-replay-v2/3e-4) |
-| iql_amo | hopper-medium-replay-v2 | 0.0003 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-replay-v2/3e-4) |
+| iql_amo | hopper-medium-replay-v2 | 0.0003 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-replay-v2/3e-4) |
 | iql_amo | hopper-medium-replay-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-replay-v2/1e-3) |
+| iql_amo | hopper-medium-replay-v2 | 0.001 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-replay-v2/1e-3) |
 | iql_amo | hopper-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-replay-v2/2e-3) |
-| iql_amo | hopper-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/hopper-medium-replay-v2/2e-3) |
 | iql_amo | hopper-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-replay-v2/2e-3) |
-| iql_amo | hopper-medium-replay-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/hopper-medium-replay-v2/2e-3) |
 | iql_amo | hopper-medium-replay-v2 | 0.002 | beta0=5.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-replay-v2/2e-3) |
 | iql_amo | hopper-medium-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-v2/3e-4) |
 | iql_amo | hopper-medium-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-v2/3e-4) |
-| iql_amo | hopper-medium-v2 | 0.0003 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-v2/3e-4) |
+| iql_amo | hopper-medium-v2 | 0.0003 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-v2/3e-4) |
 | iql_amo | hopper-medium-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-v2/1e-3) |
+| iql_amo | hopper-medium-v2 | 0.001 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-v2/1e-3) |
 | iql_amo | hopper-medium-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/hopper-medium-v2/2e-3) |
-| iql_amo | hopper-medium-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/hopper-medium-v2/2e-3) |
 | iql_amo | hopper-medium-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-v2/2e-3) |
-| iql_amo | hopper-medium-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/hopper-medium-v2/2e-3) |
 | iql_amo | hopper-medium-v2 | 0.002 | beta0=5.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/hopper-medium-v2/2e-3) |
 | iql_amo | walker2d-medium-expert-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-expert-v2/3e-4) |
 | iql_amo | walker2d-medium-expert-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/walker2d-medium-expert-v2/3e-4) |
 | iql_amo | walker2d-medium-expert-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-expert-v2/1e-3) |
 | iql_amo | walker2d-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-expert-v2/2e-3) |
-| iql_amo | walker2d-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/walker2d-medium-expert-v2/2e-3) |
 | iql_amo | walker2d-medium-expert-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/walker2d-medium-expert-v2/2e-3) |
-| iql_amo | walker2d-medium-expert-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/walker2d-medium-expert-v2/2e-3) |
 | iql_amo | walker2d-medium-replay-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-replay-v2/3e-4) |
 | iql_amo | walker2d-medium-replay-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/walker2d-medium-replay-v2/3e-4) |
 | iql_amo | walker2d-medium-replay-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-replay-v2/1e-3) |
 | iql_amo | walker2d-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-replay-v2/2e-3) |
-| iql_amo | walker2d-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/walker2d-medium-replay-v2/2e-3) |
 | iql_amo | walker2d-medium-replay-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/walker2d-medium-replay-v2/2e-3) |
-| iql_amo | walker2d-medium-replay-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/walker2d-medium-replay-v2/2e-3) |
 | iql_amo | walker2d-medium-v2 | 0.0003 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-v2/3e-4) |
 | iql_amo | walker2d-medium-v2 | 0.0003 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/walker2d-medium-v2/3e-4) |
 | iql_amo | walker2d-medium-v2 | 0.001 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-v2/1e-3) |
 | iql_amo | walker2d-medium-v2 | 0.001 | beta0=5.0; actor_lr=0.0003 | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-v2/1e-3) |
 | iql_amo | walker2d-medium-v2 | 0.002 | beta0=1.0; actor_lr=0.0003 | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/iql_amo/walker2d-medium-v2/2e-3) |
-| iql_amo | walker2d-medium-v2 | 0.002 | beta0=1.0; actor_lr=0.001 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/walker2d-medium-v2/2e-3) |
 | iql_amo | walker2d-medium-v2 | 0.002 | beta0=1.0; actor_lr=3e-4 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/iql_amo/walker2d-medium-v2/2e-3) |
-| iql_amo | walker2d-medium-v2 | 0.002 | beta0=5.0; actor_lr=0.001 | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/main/iql_amo/walker2d-medium-v2/2e-3) |
 | td3_amo | antmaze-large-diverse-v2 | 0.0003 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-large-diverse-v2/3e-4); [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/main/td3_amo/antmaze-large-diverse-v2/3e-4) |
 | td3_amo | antmaze-large-diverse-v2 | 0.001 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-large-diverse-v2/1e-3); [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/antmaze-large-diverse-v2/1e-3) |
 | td3_amo | antmaze-large-diverse-v2 | 0.002 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-large-diverse-v2/2e-3); [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/td3_amo/antmaze-large-diverse-v2/2e-3); [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/antmaze-large-diverse-v2/2e-3); [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/main/td3_amo/antmaze-large-diverse-v2/2e-3) |
@@ -193,8 +166,9 @@
 | td3_amo | antmaze-umaze-diverse-v2 | 0.0003 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-diverse-v2/3e-4); [shchoi: seed 0,1](https://github.com/seonvin0319/amo_log/tree/shchoi/main/td3_amo/antmaze-umaze-diverse-v2/3e-4) |
 | td3_amo | antmaze-umaze-diverse-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003 | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-diverse-v2/3e-4) |
 | td3_amo | antmaze-umaze-diverse-v2 | 0.001 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-diverse-v2/1e-3); [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/antmaze-umaze-diverse-v2/1e-3); [shchoi: seed 0,1](https://github.com/seonvin0319/amo_log/tree/shchoi/main/td3_amo/antmaze-umaze-diverse-v2/1e-3) |
-| td3_amo | antmaze-umaze-diverse-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003 | [choi: seed 0,1](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-diverse-v2/1e-3) |
+| td3_amo | antmaze-umaze-diverse-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003 | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-diverse-v2/1e-3) |
 | td3_amo | antmaze-umaze-diverse-v2 | 0.002 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-diverse-v2/2e-3); [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/td3_amo/antmaze-umaze-diverse-v2/2e-3); [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/antmaze-umaze-diverse-v2/2e-3); [shchoi: seed 0,1](https://github.com/seonvin0319/amo_log/tree/shchoi/main/td3_amo/antmaze-umaze-diverse-v2/2e-3) |
+| td3_amo | antmaze-umaze-diverse-v2 | 0.002 | alpha_E/alpha_B=5/5; actor_lr=0.0003 | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-diverse-v2/2e-3) |
 | td3_amo | antmaze-umaze-v2 | 0.0003 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-v2/3e-4); [shchoi: seed 0,1](https://github.com/seonvin0319/amo_log/tree/shchoi/main/td3_amo/antmaze-umaze-v2/3e-4) |
 | td3_amo | antmaze-umaze-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003 | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-v2/3e-4) |
 | td3_amo | antmaze-umaze-v2 | 0.001 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [choi: seed 2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/td3_amo/antmaze-umaze-v2/1e-3); [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/antmaze-umaze-v2/1e-3); [shchoi: seed 0,1](https://github.com/seonvin0319/amo_log/tree/shchoi/main/td3_amo/antmaze-umaze-v2/1e-3) |
@@ -207,8 +181,10 @@
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=1/1; actor_lr=0.0003 | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
-| td3_amo | halfcheetah-medium-replay-v2 | 0.001 | alpha_E/alpha_B=1/1; actor_lr=0.0003 | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-replay-v2/1e-3) |
+| td3_amo | halfcheetah-medium-replay-v2 | 0.001 | alpha_E/alpha_B=1/1; actor_lr=0.0003 | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-replay-v2/1e-3) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.001 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/td3_amo/halfcheetah-medium-replay-v2/1e-3); [ext_csv: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-replay-v2/1e-3) |
+| td3_amo | halfcheetah-medium-replay-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/main/td3_amo/halfcheetah-medium-replay-v2/1e-3) |
+| td3_amo | halfcheetah-medium-replay-v2 | 0.002 | alpha_E/alpha_B=1/1; actor_lr=0.0003 | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-replay-v2/2e-3) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.002 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/main/td3_amo/halfcheetah-medium-replay-v2/2e-3); [ext_csv: seed 1](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-replay-v2/2e-3) |
 | td3_amo | halfcheetah-medium-v2 | 0.0003 | alpha_E/alpha_B=1/1; actor_lr=0.0003 | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-v2/3e-4) |
 | td3_amo | halfcheetah-medium-v2 | 0.0003 | alpha_E/alpha_B=2/2; actor_lr=0.0003 | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/td3_amo/halfcheetah-medium-v2/3e-4) |
@@ -294,20 +270,11 @@
 | aspc | walker2d-medium-expert-v2 | — | actor_lr=0.0003; benchmark; l3_variant | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/aspc/walker2d-medium-expert-v2) |
 | aspc | walker2d-medium-replay-v2 | — | actor_lr=0.0003; benchmark; l3_variant | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/aspc/walker2d-medium-replay-v2) |
 | aspc | walker2d-medium-v2 | — | actor_lr=0.0003; benchmark; l3_variant | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/aspc/walker2d-medium-v2) |
-| iql_amo | antmaze-large-diverse-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/antmaze-large-diverse-v2/2e-3) |
-| iql_amo | antmaze-large-play-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/antmaze-large-play-v2/2e-3) |
-| iql_amo | antmaze-medium-diverse-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/antmaze-medium-diverse-v2/2e-3) |
-| iql_amo | antmaze-medium-play-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/antmaze-medium-play-v2/2e-3) |
-| iql_amo | antmaze-umaze-diverse-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/antmaze-umaze-diverse-v2/2e-3) |
-| iql_amo | antmaze-umaze-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/antmaze-umaze-v2/2e-3) |
 | iql_amo | halfcheetah-medium-expert-v2 | 0.0001 | beta0=3.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/halfcheetah-medium-expert-v2/1e-4) |
-| iql_amo | halfcheetah-medium-expert-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/halfcheetah-medium-expert-v2/2e-3) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.0001 | beta0=3.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/halfcheetah-medium-replay-v2/1e-4) |
 | iql_amo | halfcheetah-medium-replay-v2 | 0.0003 | beta0=3.0; actor_lr=0.0003; iql_adaptive_beta; initial_beta_outside_main,method_variant:iql_adaptive_beta | [shchoi: seed 1,2](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/iql_amo/halfcheetah-medium-replay-v2/3e-4) |
-| iql_amo | halfcheetah-medium-replay-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/halfcheetah-medium-replay-v2/2e-3) |
 | iql_amo | halfcheetah-medium-v2 | 0.0001 | beta0=3.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/halfcheetah-medium-v2/1e-4) |
 | iql_amo | halfcheetah-medium-v2 | 0.0003 | beta0=3.0; actor_lr=0.0003; iql_adaptive_beta; initial_beta_outside_main,method_variant:iql_adaptive_beta | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/iql_amo/halfcheetah-medium-v2/3e-4) |
-| iql_amo | halfcheetah-medium-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/halfcheetah-medium-v2/2e-3) |
 | iql_amo | halfcheetah-medium-v2 | 0.002 | beta0=3.0; actor_lr=0.0003; iql_adaptive_beta; initial_beta_outside_main,method_variant:iql_adaptive_beta | [shchoi: seed 1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/iql_amo/halfcheetah-medium-v2/2e-3) |
 | iql_amo | hammer-cloned-v1 | 0.001 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/hammer-cloned-v1/1e-3) |
 | iql_amo | hammer-cloned-v1 | 0.002 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/hammer-cloned-v1/2e-3) |
@@ -315,11 +282,8 @@
 | iql_amo | hammer-expert-v1 | 0.001 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/hammer-expert-v1/1e-3) |
 | iql_amo | hammer-expert-v1 | 0.002 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/hammer-expert-v1/2e-3) |
 | iql_amo | hopper-medium-expert-v2 | 0.0001 | beta0=6.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/hopper-medium-expert-v2/1e-4) |
-| iql_amo | hopper-medium-expert-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/hopper-medium-expert-v2/2e-3) |
 | iql_amo | hopper-medium-replay-v2 | 0.0001 | beta0=3.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/hopper-medium-replay-v2/1e-4) |
-| iql_amo | hopper-medium-replay-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/hopper-medium-replay-v2/2e-3) |
 | iql_amo | hopper-medium-v2 | 0.0001 | beta0=3.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/hopper-medium-v2/1e-4) |
-| iql_amo | hopper-medium-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/hopper-medium-v2/2e-3) |
 | iql_amo | pen-cloned-v1 | 0.0003 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/pen-cloned-v1/3e-4) |
 | iql_amo | pen-cloned-v1 | 0.001 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/pen-cloned-v1/1e-3) |
 | iql_amo | pen-cloned-v1 | 0.002 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/pen-cloned-v1/2e-3) |
@@ -340,10 +304,7 @@
 | iql_amo | relocate-human-v1 | 0.001 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/relocate-human-v1/1e-3) |
 | iql_amo | relocate-human-v1 | 0.002 | beta0=1.0; actor_lr=0.0003; adroit_l2highest_rho; method_variant:adroit_l2highest_rho,adroit | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/relocate-human-v1/2e-3) |
 | iql_amo | walker2d-medium-expert-v2 | 0.0001 | beta0=3.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/walker2d-medium-expert-v2/1e-4) |
-| iql_amo | walker2d-medium-expert-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/walker2d-medium-expert-v2/2e-3) |
-| iql_amo | walker2d-medium-replay-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/walker2d-medium-replay-v2/2e-3) |
 | iql_amo | walker2d-medium-v2 | 0.0001 | beta0=3.0; actor_lr=3e-4; adaptive_beta; initial_beta_outside_main,method_variant:adaptive_beta,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/iql_amo/walker2d-medium-v2/1e-4) |
-| iql_amo | walker2d-medium-v2 | 0.002 | beta0=10.0; actor_lr=0.001; lr1e3_beta_sweep; initial_beta_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/iql_amo/walker2d-medium-v2/2e-3) |
 | td3_amo | antmaze-large-diverse-v2 | 0.0003 | alpha_E/alpha_B=10/10; actor_lr=0.0003; adaptive_multiscale; initial_scale_outside_main | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/td3_amo/antmaze-large-diverse-v2/3e-4) |
 | td3_amo | antmaze-large-diverse-v2 | 0.0003 | alpha_E/alpha_B=20/20; actor_lr=0.0003; adaptive_multiscale; initial_scale_outside_main | [shchoi: seed 0](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/td3_amo/antmaze-large-diverse-v2/3e-4) |
 | td3_amo | antmaze-large-diverse-v2 | 0.0005 | alpha_E/alpha_B=2/2; actor_lr=0.0003; adaptive_multiscale; meta_lr_outside_main | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-diverse-v2/5e-4) |
