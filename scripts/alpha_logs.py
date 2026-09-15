@@ -14,18 +14,18 @@ from pathlib import Path
 
 SCHEMA = 'alpha_v1'
 TOKEN = re.compile(r'(?<![A-Za-z0-9])T(?![A-Za-z0-9])')
-SCALE = re.compile(r'^T(?:_[EB])?(?:_(?:init|initial|initialization|min|max|raw|effective|eff|used|next|current|before|after|old|new|value|schedule_start|schedule_end|schedule_value))?$')
+SCALE = re.compile(r'^T(?:_[EB])?(?:_(?:init|initial|initialization|min|max|raw|effective|eff|used|next|current|before|after|old|new|value|pre_projection|post_projection|schedule_start|schedule_end|schedule_value))?$')
 UNCHANGED = {
     'T_lr', 'T_freq', 'T_schedule', 'T_schedule_steps',
     'T_B_from_T_E_divisor', 'T_B_over_T_E',
     'constrain_T_B_le_T_E', 'project_T_B_to_T_E',
-    'T_B_projection_active', 'T_B_projection_count', 'T_projected',
+    'T_B_projection_active', 'T_B_projection_count', 'T_B_projection_rate', 'T_projected',
     'delta_log_T_B', 'delta_log_T_E', 'grad_T_B_L1_L2_same_sign',
     'L_T_E', 'L_T_B', 'inner_loss_T', 'inner_loss_T_B',
     'q_abs_mean_T', 'q_abs_mean_T_B', 'critic_T_loss',
 }
 # These fields identify the historical source; their text is never rewritten.
-PROVENANCE = {'git', 'scale_conversion', 'legacy_settings', 'source_path',
+PROVENANCE = {'git', 'scale_conversion', 'legacy_settings', 'legacy_unparsed_record', 'source_path',
               'run_id', 'legacy_name', 'original_rel_path', 'rel_path',
               'alias_of', 'aliases', 'variant', 'family'}
 
@@ -89,7 +89,7 @@ def digest(path):
     return h.hexdigest()
 
 
-def rewrite(path):
+def rewrite(path, unparsed=None):
     """Stream JSONL and replace each file atomically, preserving untouched lines."""
     import yaml
     changed = False
@@ -105,6 +105,18 @@ def rewrite(path):
                             continue
                         try:
                             original = json.loads(line)
+                        except json.JSONDecodeError as exc:
+                            # Incomplete source rows are evidence, not observations.
+                            # Preserve every byte of text; do not invent missing values.
+                            original = {'legacy_unparsed_record': {
+                                'source_line': lineno, 'raw_line': line,
+                                'error': str(exc), 'source_scale_unit': 'unconverted'}}
+                            changed = True
+                            if unparsed is not None: unparsed.append(lineno)
+                            print(f'PRESERVED unparsed JSONL {path}:{lineno}',flush=True)
+                            dst.write(json.dumps(original,ensure_ascii=False)+'\n')
+                            continue
+                        try:
                             updated = convert(original)
                         except (ValueError, TypeError) as exc:
                             raise ValueError(f'{path}:{lineno}: {exc}') from exc
@@ -146,8 +158,11 @@ def normalize_run(directory, meta):
         old = files.get(path.name, {})
         if old.get('sha256') == before:
             continue
-        changed = rewrite(path)
+        unparsed = []
+        changed = rewrite(path, unparsed)
         item = {'sha256': digest(path) if changed else before}
+        if unparsed: item['unparsed_source_lines'] = unparsed
+        elif 'unparsed_source_lines' in old: item['unparsed_source_lines'] = old['unparsed_source_lines']
         if changed:
             item['legacy_sha256'] = before
         elif 'legacy_sha256' in old:

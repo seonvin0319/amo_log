@@ -36,6 +36,7 @@ class AlphaLogsTests(unittest.TestCase):
 
     def test_conflicts_and_native_alpha(self):
         self.assertEqual(convert({'T_used':4,'T_projected':False}),{'alpha_used':8,'alpha_projected':False})
+        self.assertEqual(convert({'apart/T_B_pre_projection':1.25}),{'apart/alpha_B_pre_projection':2.5})
         self.assertEqual(convert({'T_E':1,'alpha_E':2}),{'alpha_E':2})
         for old in ({'T_E':1,'alpha_E':5},{'alpha_E':5,'T_E':1}):
             with self.assertRaises(ValueError):convert(old)
@@ -81,10 +82,17 @@ class AlphaLogsTests(unittest.TestCase):
                 self.assertEqual(normalize_run(root,m),m)
                 self.assertEqual(p.read_text(),raw)
             p.write_text('{"T_E":1}\n{"T_E":')
-            before=p.read_bytes()
+            rewrite(p)
+            records=list(map(json.loads,p.read_text().splitlines()))
+            self.assertEqual(records[0],{'alpha_E':2})
+            self.assertEqual(records[1]['legacy_unparsed_record']['raw_line'],'{"T_E":')
+            self.assertEqual(records[1]['legacy_unparsed_record']['source_line'],2)
+            self.assertFalse(rewrite(p))
+            self.assertEqual(list(root.glob('.alpha-*')),[])
+            # Semantic conflicts still stop and leave the original file intact.
+            p.write_text('{"T_E":1,"alpha_E":5}\n');before=p.read_bytes()
             with self.assertRaises(ValueError):rewrite(p)
             self.assertEqual(p.read_bytes(),before)
-            self.assertEqual(list(root.glob('.alpha-*')),[])
 
 
 if __name__=='__main__':unittest.main()
