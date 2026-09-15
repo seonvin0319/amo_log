@@ -2,9 +2,10 @@
 """Validate a Git snapshot; raw evaluation files are never downloaded/read."""
 import argparse,json,subprocess,os
 from pathlib import Path
+from log_layout import MAIN_LRS, MAIN_TS, MAIN_BETAS, initial_ts, is_adroit, number, classify
 METHODS={'td3_amo','iql_amo','td3bc+rc','iql','a2pr','wpc','aspc'}
 BRANCHES={'main','choi','ext_csh','ext_csv','offrl','shchoi','svcho'}
-SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','.github/workflows/validate-logs.yml')
+SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','.github/workflows/validate-logs.yml')
 def git(root,*args,input=None):
  return subprocess.check_output(['git',*args],cwd=root,input=input)
 def entries(root,ref):
@@ -59,6 +60,12 @@ def validate(paths,contents,branch):
   if m['backend'] not in ('torch','jax'):fail('Missing explicit backend: '+p)
   if not isinstance(m['seed'],int) or m['seed']<0:fail('Invalid seed: '+p)
   if m['env']=='unknown' or not m['env'].endswith(('-v0','-v1','-v2')):fail('Invalid environment: '+p)
+  if m['section']=='main' and is_adroit(m['env']):fail('Adroit must be ablation: '+p)
+  try:
+   expected_layout=classify(m,m['settings'])
+   for key in ('section','method','env','seed','backend','meta_lr','classification_reasons','rel_path'):
+    if m.get(key)!=expected_layout[key]:fail('Classification mismatch '+key+': '+p)
+  except (ValueError,TypeError,KeyError):fail('Cannot classify metadata: '+p)
   parts=[m['section'],m['method'],m['env']]
   if m['method'] in ('td3_amo','iql_amo'):
    lr=m['meta_lr']
@@ -69,12 +76,12 @@ def validate(paths,contents,branch):
     except (ValueError,TypeError):fail('Invalid lr: '+p);continue
    parts.append(label)
    if m['section']=='main':
-    if lr not in (.001,.002,.0003):fail('Main meta lr: '+p)
+    if lr not in MAIN_LRS:fail('Main meta lr: '+p)
     c=m['settings']
     if m['method']=='td3_amo':
-     te=c.get('T_E',c.get('T_init'));tb=c.get('T_B');tb=te if tb is None else tb
-     if te!=1 or tb!=1:fail('Main requires initial TE=TB=1: '+p)
-    elif c.get('beta_initial')!=1:fail('Main requires initial beta=1: '+p)
+     te,tb=initial_ts(c)
+     if te not in MAIN_TS or tb!=te:fail('Main requires initial TE=TB in (0.5,1,2.5), alpha=2T: '+p)
+    elif number(c.get('beta_initial')) not in MAIN_BETAS:fail('Main requires initial beta in (1,2,5): '+p)
     if m.get('classification_reasons'):fail('Ablation reasons in main: '+p)
   elif m['meta_lr'] is not None:fail('Baseline must not have meta lr: '+p)
   parts+=['seed_'+str(m['seed']),m['run_id']]
