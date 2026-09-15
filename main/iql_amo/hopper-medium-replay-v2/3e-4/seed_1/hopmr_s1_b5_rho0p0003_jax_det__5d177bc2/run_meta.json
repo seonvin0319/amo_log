@@ -2,12 +2,14 @@
   "algo": "iql_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO/results/iql_amo_jax_b5_loco9/runs/iql_amo_jax_h-mr_s1_rlr3e-4_b5",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T20:08:07+09:00",
+  "collected_at": "2026-09-15T23:55:50+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "amo_bpi",
@@ -42,6 +44,13 @@
     "eval_freq": 20000,
     "eval_seed": null,
     "expectile": 0.7,
+    "final_eval_50": {
+      "d4rl_normalized_score": 100.5655140223284,
+      "device": "cpu",
+      "eval_return": 3252.705062751592,
+      "evaluated_at": "2026-09-15T12:10:32.457101+00:00",
+      "n_episodes": 50
+    },
     "final_eval_repeats": 5,
     "gaussian": false,
     "hidden_dim": 256,
