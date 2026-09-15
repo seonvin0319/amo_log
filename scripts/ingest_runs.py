@@ -136,7 +136,7 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "root": Path("/home/svcho/amo/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs"),
         "host": "svcho",
         "code_repo": "AMO",
-        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
         "family_force": "adroit_T1_Tlr1e3",
         "layout": "cell_jobs",
         "require_eval": True,
@@ -146,7 +146,7 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "root": Path("/home/svcho/amo/results/td3_amo_adroit_T5_Tlr1e3_seeds03/jobs"),
         "host": "svcho",
         "code_repo": "AMO",
-        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
         "family_force": "adroit_T5_Tlr1e3",
         "layout": "cell_jobs",
         "require_eval": True,
@@ -156,7 +156,7 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "root": Path("/home/svcho/amo/results/td3_amo_adroit_T10_Tlr1e3_seeds03/jobs"),
         "host": "svcho",
         "code_repo": "AMO",
-        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
         "family_force": "adroit_T10_Tlr1e3",
         "layout": "cell_jobs",
         "require_eval": True,
@@ -867,7 +867,7 @@ def ingest_one(
     if source_index is None:
         source_index = load_source_index(algo, family)
     existing_id = source_index.get(source_path)
-    if existing_id and existing_id != run_id:
+    if existing_id:
         canon = RUNS / algo / family / existing_id
         if not canon.exists():
             for section in ("main", "ablation"):
@@ -875,17 +875,18 @@ def ingest_one(
                     cm = json.loads(candidate.read_text())
                     if cm.get("source_path") == source_path and not cm.get("is_alias"):
                         canon = candidate.parent
+                        break
         note = (
             f"Same source_path reused; keep canonical `{existing_id}`, "
             f"map stale variant id `{run_id}` as alias (do not double-count seeds)."
         )
         if dry_run:
-            print(f"DRY ALIAS {src} -> {existing_id} (skip {run_id})")
+            print(f"DRY REFRESH {src} -> {existing_id}" + ("" if existing_id == run_id else f" (stale {run_id})"))
             return {
                 "algo": algo,
                 "family": family,
                 "run_id": existing_id,
-                "is_alias": True,
+                "is_alias": existing_id != run_id,
                 "alias_of": existing_id,
                 "stale_run_id": run_id,
                 "source_path": source_path,
@@ -898,9 +899,12 @@ def ingest_one(
             for name in KEEP_FILES:
                 if (src / name).exists():
                     shutil.copy2(src / name, canon / name)
-            for extra in ("launch_cmd.txt", "notes.md", "eval_final50_v1.DONE.json"):
+            for extra in ("launch_cmd.txt", "notes.md", "eval_final50_v1.DONE.json", "eval_final50_v1.jsonl", "FINAL50_SINGLEPASS_V1_DONE.json"):
                 if (src / extra).exists():
                     shutil.copy2(src / extra, canon / extra)
+            final_json = src / "posthoc_eval_cpu" / "final.json"
+            if final_json.exists():
+                shutil.copy2(final_json, canon / "final_eval_50.json")
             meta_path_c = canon / "run_meta.json"
             if meta_path_c.exists():
                 try:
@@ -911,20 +915,24 @@ def ingest_one(
                     timespec="seconds"
                 )
                 cmeta["source_path"] = source_path
-                aliases = list(cmeta.get("aliases") or [])
-                if run_id not in aliases:
-                    aliases.append(run_id)
-                cmeta["aliases"] = aliases
+                if existing_id != run_id:
+                    aliases = list(cmeta.get("aliases") or [])
+                    if run_id not in aliases:
+                        aliases.append(run_id)
+                    cmeta["aliases"] = aliases
                 meta_path_c.write_text(json.dumps(cmeta, indent=2, sort_keys=True) + "\n")
-        write_alias(
-            RUNS / algo / family / f"alias__{run_id}",
-            existing_id,
-            str(canon.relative_to(ROOT)),
-            run_id,
-            source_path,
-            note,
-        )
-        print(f"ALIAS {src.name} -> {existing_id} (stale {run_id})")
+        if existing_id != run_id:
+            write_alias(
+                RUNS / algo / family / f"alias__{run_id}",
+                existing_id,
+                str(canon.relative_to(ROOT)) if canon.exists() else existing_id,
+                run_id,
+                source_path,
+                note,
+            )
+            print(f"ALIAS {legacy_name} -> {existing_id} (stale {run_id})")
+        else:
+            print(f"REFRESH {legacy_name} -> {existing_id}")
         return json.loads((canon / "run_meta.json").read_text()) if (canon / "run_meta.json").exists() else None
 
     # Materialize eval.jsonl for ASPC TD3+BC (stdout-only logging).
