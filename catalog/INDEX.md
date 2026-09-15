@@ -243,6 +243,7 @@
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 2 | jax | — | [wmr_s2_ae1_ab1_Tlr0p0003__6e818111](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_2/wmr_s2_ae1_ab1_Tlr0p0003__6e818111/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 3 | jax | — | [wmr_s3_ae1_ab1_Tlr0p0003__1ca7fd0c](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_3/wmr_s3_ae1_ab1_Tlr0p0003__1ca7fd0c/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | — | [wmr_s0_ae1_ab1_Tlr0p001__345364ac](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_0/wmr_s0_ae1_ab1_Tlr0p001__345364ac/) |
+| main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | — | [wmr_s1_ae1_ab1_Tlr0p001__eba71e5b](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_1/wmr_s1_ae1_ab1_Tlr0p001__eba71e5b/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 1 | torch | 1000000 | [wmr_s1_te1_tb1_Tlr0p001__f0372dc0](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_1/wmr_s1_te1_tb1_Tlr0p001__f0372dc0/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | torch | 1000000 | [wmr_s2_te1_tb1_Tlr0p001__0700d3fe](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_2/wmr_s2_te1_tb1_Tlr0p001__0700d3fe/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 3 | torch | 1000000 | [wmr_s3_te1_tb1_Tlr0p001__35b7e2b7](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_3/wmr_s3_te1_tb1_Tlr0p001__35b7e2b7/) |
