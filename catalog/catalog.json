@@ -1904,7 +1904,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "lr1e3_beta_sweep",
@@ -1980,7 +1980,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "lr1e3_beta_sweep",
@@ -2056,7 +2056,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "lr1e3_beta_sweep",
@@ -2132,7 +2132,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "lr1e3_beta_sweep",
@@ -2208,7 +2208,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "lr1e3_beta_sweep",
@@ -2284,7 +2284,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "lr1e3_beta_sweep",
@@ -2360,7 +2360,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "lr1e3_beta_sweep",
@@ -2436,7 +2436,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "lr1e3_beta_sweep",
@@ -2512,7 +2512,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "lr1e3_beta_sweep",
@@ -2587,7 +2587,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_l2highest_rho",
@@ -2661,7 +2661,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_l2highest_rho",
@@ -2735,7 +2735,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_l2highest_rho",
@@ -2809,7 +2809,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_l2highest_rho",
@@ -2883,7 +2883,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_l2highest_rho",
@@ -2957,7 +2957,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_l2highest_rho",
@@ -3031,7 +3031,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3105,7 +3105,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3179,7 +3179,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3253,7 +3253,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3327,7 +3327,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3401,7 +3401,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3475,7 +3475,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3549,7 +3549,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3623,7 +3623,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3697,7 +3697,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3771,7 +3771,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3845,7 +3845,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_l2highest_rho",
@@ -3920,7 +3920,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "lr1e3_beta_sweep",
@@ -3996,7 +3996,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "lr1e3_beta_sweep",
@@ -4072,7 +4072,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "lr1e3_beta_sweep",
@@ -4147,7 +4147,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4221,7 +4221,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4295,7 +4295,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4369,7 +4369,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4443,7 +4443,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4517,7 +4517,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4591,7 +4591,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4665,7 +4665,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4739,7 +4739,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4813,7 +4813,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4887,7 +4887,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -4961,7 +4961,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_l2highest_rho",
@@ -5035,7 +5035,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5109,7 +5109,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5183,7 +5183,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5257,7 +5257,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5331,7 +5331,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5405,7 +5405,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5479,7 +5479,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5553,7 +5553,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5627,7 +5627,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5701,7 +5701,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5775,7 +5775,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5849,7 +5849,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_l2highest_rho",
@@ -5923,7 +5923,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -5997,7 +5997,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6071,7 +6071,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6145,7 +6145,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6219,7 +6219,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6293,7 +6293,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6367,7 +6367,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6441,7 +6441,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6515,7 +6515,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6589,7 +6589,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6663,7 +6663,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6737,7 +6737,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_l2highest_rho",
@@ -6811,7 +6811,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -6885,7 +6885,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -6959,7 +6959,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7033,7 +7033,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7107,7 +7107,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7181,7 +7181,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7255,7 +7255,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7329,7 +7329,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7403,7 +7403,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7477,7 +7477,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7551,7 +7551,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7625,7 +7625,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_l2highest_rho",
@@ -7699,7 +7699,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -7773,7 +7773,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -7847,7 +7847,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -7921,7 +7921,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -7995,7 +7995,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8069,7 +8069,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8143,7 +8143,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8217,7 +8217,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8291,7 +8291,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8365,7 +8365,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8439,7 +8439,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8513,7 +8513,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_l2highest_rho",
@@ -8587,7 +8587,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -8661,7 +8661,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -8735,7 +8735,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -8809,7 +8809,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -8883,7 +8883,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -8957,7 +8957,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -9031,7 +9031,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -9105,7 +9105,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -9179,7 +9179,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -9253,7 +9253,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -9327,7 +9327,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -9401,7 +9401,7 @@
         "method_variant:adroit_l2highest_rho",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_l2highest_rho",
@@ -9476,7 +9476,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "lr1e3_beta_sweep",
@@ -9552,7 +9552,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "lr1e3_beta_sweep",
@@ -9628,7 +9628,7 @@
       "classification_reasons": [
         "initial_beta_outside_main"
       ],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "lr1e3_beta_sweep",
@@ -10725,7 +10725,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T1_Tlr1e3",
@@ -10820,7 +10820,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T5_Tlr1e3",
@@ -10912,7 +10912,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T1_Tlr1e3",
@@ -11007,7 +11007,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T5_Tlr1e3",
@@ -11099,7 +11099,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T1_Tlr1e3",
@@ -11194,7 +11194,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T5_Tlr1e3",
@@ -11286,7 +11286,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T1_Tlr1e3",
@@ -11381,7 +11381,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-cloned-v1",
       "env_short": "doorc",
       "family": "adroit_T5_Tlr1e3",
@@ -11473,7 +11473,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T1_Tlr1e3",
@@ -11568,7 +11568,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T5_Tlr1e3",
@@ -11660,7 +11660,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T1_Tlr1e3",
@@ -11755,7 +11755,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T5_Tlr1e3",
@@ -11847,7 +11847,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T1_Tlr1e3",
@@ -11942,7 +11942,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T5_Tlr1e3",
@@ -12034,7 +12034,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T1_Tlr1e3",
@@ -12129,7 +12129,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-expert-v1",
       "env_short": "doore",
       "family": "adroit_T5_Tlr1e3",
@@ -12221,7 +12221,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T1_Tlr1e3",
@@ -12316,7 +12316,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T5_Tlr1e3",
@@ -12408,7 +12408,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T1_Tlr1e3",
@@ -12503,7 +12503,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T5_Tlr1e3",
@@ -12595,7 +12595,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T1_Tlr1e3",
@@ -12690,7 +12690,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T5_Tlr1e3",
@@ -12782,7 +12782,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T1_Tlr1e3",
@@ -12877,7 +12877,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "door-human-v1",
       "env_short": "doorh",
       "family": "adroit_T5_Tlr1e3",
@@ -17162,7 +17162,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T1_Tlr1e3",
@@ -17257,7 +17257,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T5_Tlr1e3",
@@ -17349,7 +17349,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T1_Tlr1e3",
@@ -17444,7 +17444,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T5_Tlr1e3",
@@ -17536,7 +17536,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T1_Tlr1e3",
@@ -17631,7 +17631,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T5_Tlr1e3",
@@ -17723,7 +17723,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T1_Tlr1e3",
@@ -17818,7 +17818,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-cloned-v1",
       "env_short": "hamc",
       "family": "adroit_T5_Tlr1e3",
@@ -17910,7 +17910,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T1_Tlr1e3",
@@ -18005,7 +18005,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T5_Tlr1e3",
@@ -18097,7 +18097,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T1_Tlr1e3",
@@ -18192,7 +18192,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T5_Tlr1e3",
@@ -18284,7 +18284,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T1_Tlr1e3",
@@ -18379,7 +18379,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T5_Tlr1e3",
@@ -18471,7 +18471,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T1_Tlr1e3",
@@ -18566,7 +18566,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-expert-v1",
       "env_short": "hame",
       "family": "adroit_T5_Tlr1e3",
@@ -18658,7 +18658,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T1_Tlr1e3",
@@ -18753,7 +18753,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T5_Tlr1e3",
@@ -18845,7 +18845,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T1_Tlr1e3",
@@ -18940,7 +18940,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T5_Tlr1e3",
@@ -19032,7 +19032,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T1_Tlr1e3",
@@ -19127,7 +19127,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T5_Tlr1e3",
@@ -19219,7 +19219,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T1_Tlr1e3",
@@ -19314,7 +19314,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hammer-human-v1",
       "env_short": "hamh",
       "family": "adroit_T5_Tlr1e3",
@@ -24793,7 +24793,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T1_Tlr1e3",
@@ -24888,7 +24888,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T5_Tlr1e3",
@@ -24980,7 +24980,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T1_Tlr1e3",
@@ -25075,7 +25075,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T5_Tlr1e3",
@@ -25167,7 +25167,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T1_Tlr1e3",
@@ -25262,7 +25262,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T5_Tlr1e3",
@@ -25354,7 +25354,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T1_Tlr1e3",
@@ -25449,7 +25449,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-cloned-v1",
       "env_short": "penc",
       "family": "adroit_T5_Tlr1e3",
@@ -25541,7 +25541,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T1_Tlr1e3",
@@ -25636,7 +25636,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T5_Tlr1e3",
@@ -25728,7 +25728,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T1_Tlr1e3",
@@ -25823,7 +25823,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T5_Tlr1e3",
@@ -25915,7 +25915,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T1_Tlr1e3",
@@ -26010,7 +26010,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T5_Tlr1e3",
@@ -26102,7 +26102,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T1_Tlr1e3",
@@ -26197,7 +26197,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "pen-expert-v1",
       "env_short": "pene",
       "family": "adroit_T5_Tlr1e3",
@@ -26289,7 +26289,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T1_Tlr1e3",
@@ -26384,7 +26384,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T5_Tlr1e3",
@@ -26476,7 +26476,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T1_Tlr1e3",
@@ -26571,7 +26571,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T5_Tlr1e3",
@@ -26663,7 +26663,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T1_Tlr1e3",
@@ -26758,7 +26758,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T5_Tlr1e3",
@@ -26850,7 +26850,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T1_Tlr1e3",
@@ -26945,7 +26945,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "pen-human-v1",
       "env_short": "penh",
       "family": "adroit_T5_Tlr1e3",
@@ -27037,7 +27037,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T1_Tlr1e3",
@@ -27132,7 +27132,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T5_Tlr1e3",
@@ -27224,7 +27224,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T1_Tlr1e3",
@@ -27319,7 +27319,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T5_Tlr1e3",
@@ -27411,7 +27411,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T1_Tlr1e3",
@@ -27506,7 +27506,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T5_Tlr1e3",
@@ -27598,7 +27598,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T1_Tlr1e3",
@@ -27693,7 +27693,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-cloned-v1",
       "env_short": "relc",
       "family": "adroit_T5_Tlr1e3",
@@ -27785,7 +27785,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T1_Tlr1e3",
@@ -27880,7 +27880,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T5_Tlr1e3",
@@ -27972,7 +27972,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T1_Tlr1e3",
@@ -28067,7 +28067,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T5_Tlr1e3",
@@ -28159,7 +28159,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T1_Tlr1e3",
@@ -28254,7 +28254,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T5_Tlr1e3",
@@ -28346,7 +28346,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T1_Tlr1e3",
@@ -28441,7 +28441,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "adroit_T5_Tlr1e3",
@@ -28533,7 +28533,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T1_Tlr1e3",
@@ -28628,7 +28628,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T5_Tlr1e3",
@@ -28720,7 +28720,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T1_Tlr1e3",
@@ -28815,7 +28815,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T5_Tlr1e3",
@@ -28907,7 +28907,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T1_Tlr1e3",
@@ -29002,7 +29002,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T5_Tlr1e3",
@@ -29094,7 +29094,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T1_Tlr1e3",
@@ -29189,7 +29189,7 @@
         "initial_scale_outside_main",
         "adroit"
       ],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "relocate-human-v1",
       "env_short": "relh",
       "family": "adroit_T5_Tlr1e3",
@@ -38440,7 +38440,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "lr1e3_beta_sweep",
@@ -38515,7 +38515,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amld_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "lr1e3_beta_sweep",
@@ -38591,7 +38591,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "lr1e3_beta_sweep",
@@ -38667,7 +38667,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "lr1e3_beta_sweep",
@@ -38743,7 +38743,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "lr1e3_beta_sweep",
@@ -38819,7 +38819,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "lr1e3_beta_sweep",
@@ -38894,7 +38894,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amlp_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "lr1e3_beta_sweep",
@@ -38970,7 +38970,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "lr1e3_beta_sweep",
@@ -39046,7 +39046,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "lr1e3_beta_sweep",
@@ -39122,7 +39122,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "lr1e3_beta_sweep",
@@ -39198,7 +39198,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "lr1e3_beta_sweep",
@@ -39273,7 +39273,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_ammd_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "lr1e3_beta_sweep",
@@ -39349,7 +39349,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "lr1e3_beta_sweep",
@@ -39425,7 +39425,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "lr1e3_beta_sweep",
@@ -39501,7 +39501,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "lr1e3_beta_sweep",
@@ -39577,7 +39577,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "lr1e3_beta_sweep",
@@ -39652,7 +39652,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_ammp_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "lr1e3_beta_sweep",
@@ -39728,7 +39728,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "lr1e3_beta_sweep",
@@ -39804,7 +39804,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "lr1e3_beta_sweep",
@@ -39880,7 +39880,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "lr1e3_beta_sweep",
@@ -39956,7 +39956,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "lr1e3_beta_sweep",
@@ -40031,7 +40031,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amud_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "lr1e3_beta_sweep",
@@ -40107,7 +40107,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "lr1e3_beta_sweep",
@@ -40183,7 +40183,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "lr1e3_beta_sweep",
@@ -40259,7 +40259,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "lr1e3_beta_sweep",
@@ -40335,7 +40335,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "lr1e3_beta_sweep",
@@ -40410,7 +40410,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amu_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "lr1e3_beta_sweep",
@@ -40486,7 +40486,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "lr1e3_beta_sweep",
@@ -40562,7 +40562,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "lr1e3_beta_sweep",
@@ -40638,7 +40638,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "lr1e3_beta_sweep",
@@ -40714,7 +40714,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "lr1e3_beta_sweep",
@@ -40789,7 +40789,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-me_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "lr1e3_beta_sweep",
@@ -40865,7 +40865,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "lr1e3_beta_sweep",
@@ -40941,7 +40941,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "lr1e3_beta_sweep",
@@ -41017,7 +41017,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "lr1e3_beta_sweep",
@@ -41093,7 +41093,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "lr1e3_beta_sweep",
@@ -41167,7 +41167,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-mr_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "lr1e3_beta_sweep",
@@ -41243,7 +41243,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "lr1e3_beta_sweep",
@@ -41319,7 +41319,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "lr1e3_beta_sweep",
@@ -41395,7 +41395,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "lr1e3_beta_sweep",
@@ -41471,7 +41471,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "lr1e3_beta_sweep",
@@ -41545,7 +41545,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-m_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "lr1e3_beta_sweep",
@@ -41622,7 +41622,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "lr1e3_beta_sweep",
@@ -41698,7 +41698,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "lr1e3_beta_sweep",
@@ -41774,7 +41774,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "lr1e3_beta_sweep",
@@ -41850,7 +41850,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "lr1e3_beta_sweep",
@@ -41925,7 +41925,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-me_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "lr1e3_beta_sweep",
@@ -42001,7 +42001,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "lr1e3_beta_sweep",
@@ -42077,7 +42077,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "lr1e3_beta_sweep",
@@ -42153,7 +42153,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "lr1e3_beta_sweep",
@@ -42229,7 +42229,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "lr1e3_beta_sweep",
@@ -42304,7 +42304,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-mr_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "lr1e3_beta_sweep",
@@ -42380,7 +42380,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "lr1e3_beta_sweep",
@@ -42456,7 +42456,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "lr1e3_beta_sweep",
@@ -42532,7 +42532,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "lr1e3_beta_sweep",
@@ -42608,7 +42608,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "lr1e3_beta_sweep",
@@ -42683,7 +42683,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-m_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "lr1e3_beta_sweep",
@@ -42759,7 +42759,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "lr1e3_beta_sweep",
@@ -42835,7 +42835,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "lr1e3_beta_sweep",
@@ -42911,7 +42911,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "lr1e3_beta_sweep",
@@ -42987,7 +42987,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "lr1e3_beta_sweep",
@@ -43062,7 +43062,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-me_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "lr1e3_beta_sweep",
@@ -43138,7 +43138,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "lr1e3_beta_sweep",
@@ -43214,7 +43214,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "lr1e3_beta_sweep",
@@ -43290,7 +43290,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "lr1e3_beta_sweep",
@@ -43366,7 +43366,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "lr1e3_beta_sweep",
@@ -43441,7 +43441,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-mr_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "lr1e3_beta_sweep",
@@ -43517,7 +43517,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "lr1e3_beta_sweep",
@@ -43593,7 +43593,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "lr1e3_beta_sweep",
@@ -43669,7 +43669,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "lr1e3_beta_sweep",
@@ -43745,7 +43745,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s0/run/checkpoint.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "lr1e3_beta_sweep",
@@ -43820,7 +43820,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-m_s0/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:16+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "lr1e3_beta_sweep",
@@ -43896,7 +43896,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s1/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "lr1e3_beta_sweep",
@@ -43972,7 +43972,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s2/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "lr1e3_beta_sweep",
@@ -44048,7 +44048,7 @@
       "backend": "jax",
       "checkpoint_hint": "/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s3/run/checkpoints/step_1000000.npz",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:25+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "lr1e3_beta_sweep",
@@ -44120,7 +44120,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -44146,6 +44146,9 @@
           },
           "eval.jsonl": {
             "sha256": "435780afd3063f4761170c992b92d85cfb2923a31047910e340c69ba36a3a600"
+          },
+          "final_eval_50.json": {
+            "sha256": "ea6acc551a80e077ba397d869856c3aabde84178ca2cf26b43a78b9e9b9ed5b4"
           },
           "metrics.jsonl": {
             "sha256": "a2e840346dd8777d550c6673a2aa9b68ccb4e405178b36b46f82c19c9d804747"
@@ -44201,7 +44204,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -44227,6 +44230,9 @@
           },
           "eval.jsonl": {
             "sha256": "b41d2905b28feddd0a99f334ae2e48d4eb386bef6b27a3a7e87a33fd4620caaa"
+          },
+          "final_eval_50.json": {
+            "sha256": "165476b212d4c3c05dd7d10c07abfb4f8222bbb42f234442c3b26e38c544373b"
           },
           "metrics.jsonl": {
             "sha256": "a48483b0665b9d56253a94ba7f9ed937cc62031c2b850209be208aeeb2487520"
@@ -44282,7 +44288,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44366,7 +44372,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44450,7 +44456,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44534,7 +44540,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44618,7 +44624,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44702,7 +44708,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44786,7 +44792,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44870,7 +44876,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -44954,7 +44960,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -45038,7 +45044,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -45122,7 +45128,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -45206,7 +45212,7 @@
       ],
       "backend": "jax",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:17+09:00",
+      "collected_at": "2026-09-15T13:38:26+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -45295,7 +45301,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-halfcheetah-medium-expert-v2-ecaaa984/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "benchmark",
@@ -45358,7 +45364,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s2-halfcheetah-medium-replay-v2-22563a25/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "benchmark",
@@ -45419,7 +45425,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-halfcheetah-medium-v2-03241fa8/checkpoint_59999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "benchmark",
@@ -45481,7 +45487,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-halfcheetah-medium-v2-a07156cf/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "benchmark",
@@ -45543,7 +45549,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s2-hopper-medium-expert-v2-b320a43d/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "benchmark",
@@ -45606,7 +45612,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-hopper-medium-replay-v2-0103e1d9/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "benchmark",
@@ -45670,7 +45676,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s2-hopper-medium-v2-3ffea192/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "benchmark",
@@ -45732,7 +45738,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-walker2d-medium-expert-v2-4dc3b69e/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "benchmark",
@@ -45795,7 +45801,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s2-walker2d-medium-replay-v2-907f6a5a/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "benchmark",
@@ -45858,7 +45864,7 @@
       "backend": "torch",
       "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-walker2d-medium-v2-0c275fb5/checkpoint_999999.pt",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T13:28:15+09:00",
+      "collected_at": "2026-09-15T13:38:24+09:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "benchmark",
