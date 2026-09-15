@@ -352,6 +352,7 @@
 | main | iql_amo | halfcheetah-medium-v2 | beta=2.0 | 0.0003 | 3 | jax | 1000000 | [hcm_s3_b2_rho0p0003_jax__c40861c9](../main/iql_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_b2_rho0p0003_jax__c40861c9/) |
 | main | iql_amo | halfcheetah-medium-v2 | beta=5.0 | 0.0003 | 3 | jax | 1000000 | [hcm_s3_b5_rho0p0003_jax__7d9ecd48](../main/iql_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_b5_rho0p0003_jax__7d9ecd48/) |
 | main | iql_amo | halfcheetah-medium-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [hcm_s0_b1_rho0p001_jax__fd30bc75](../main/iql_amo/halfcheetah-medium-v2/1e-3/seed_0/hcm_s0_b1_rho0p001_jax__fd30bc75/) |
+| main | iql_amo | halfcheetah-medium-v2 | beta=2.0 | 0.001 | 0 | jax | — | [hcm_s0_b2_rho0p001_jax__55cd7d85](../main/iql_amo/halfcheetah-medium-v2/1e-3/seed_0/hcm_s0_b2_rho0p001_jax__55cd7d85/) |
 | main | iql_amo | halfcheetah-medium-v2 | beta=5.0 | 0.001 | 0 | jax | 1000000 | [hcm_s0_b5_rho0p001_jax__0a10c57b](../main/iql_amo/halfcheetah-medium-v2/1e-3/seed_0/hcm_s0_b5_rho0p001_jax__0a10c57b/) |
 | main | iql_amo | halfcheetah-medium-v2 | beta=1.0 | 0.001 | 1 | jax | 1000000 | [hcm_s1_b1_rho0p001_jax__bce901a7](../main/iql_amo/halfcheetah-medium-v2/1e-3/seed_1/hcm_s1_b1_rho0p001_jax__bce901a7/) |
 | main | iql_amo | halfcheetah-medium-v2 | beta=5.0 | 0.001 | 1 | jax | 1000000 | [hcm_s1_b5_rho0p001_jax__953713fd](../main/iql_amo/halfcheetah-medium-v2/1e-3/seed_1/hcm_s1_b5_rho0p001_jax__953713fd/) |
@@ -377,6 +378,7 @@
 | main | iql_amo | hopper-medium-expert-v2 | beta=2.0 | 0.0003 | 3 | jax | 1000000 | [hopme_s3_b2_rho0p0003_jax__5dc97dfa](../main/iql_amo/hopper-medium-expert-v2/3e-4/seed_3/hopme_s3_b2_rho0p0003_jax__5dc97dfa/) |
 | main | iql_amo | hopper-medium-expert-v2 | beta=5.0 | 0.0003 | 3 | jax | 1000000 | [hopme_s3_b5_rho0p0003_jax__3a36cbc4](../main/iql_amo/hopper-medium-expert-v2/3e-4/seed_3/hopme_s3_b5_rho0p0003_jax__3a36cbc4/) |
 | main | iql_amo | hopper-medium-expert-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [hopme_s0_b1_rho0p001_jax__ba9f6aa9](../main/iql_amo/hopper-medium-expert-v2/1e-3/seed_0/hopme_s0_b1_rho0p001_jax__ba9f6aa9/) |
+| main | iql_amo | hopper-medium-expert-v2 | beta=2.0 | 0.001 | 0 | jax | — | [hopme_s0_b2_rho0p001_jax__0d365057](../main/iql_amo/hopper-medium-expert-v2/1e-3/seed_0/hopme_s0_b2_rho0p001_jax__0d365057/) |
 | main | iql_amo | hopper-medium-expert-v2 | beta=5.0 | 0.001 | 0 | jax | 1000000 | [hopme_s0_b5_rho0p001_jax__b755b395](../main/iql_amo/hopper-medium-expert-v2/1e-3/seed_0/hopme_s0_b5_rho0p001_jax__b755b395/) |
 | main | iql_amo | hopper-medium-expert-v2 | beta=1.0 | 0.001 | 1 | jax | 1000000 | [hopme_s1_b1_rho0p001_jax__7ee0a96e](../main/iql_amo/hopper-medium-expert-v2/1e-3/seed_1/hopme_s1_b1_rho0p001_jax__7ee0a96e/) |
 | main | iql_amo | hopper-medium-expert-v2 | beta=5.0 | 0.001 | 1 | jax | 1000000 | [hopme_s1_b5_rho0p001_jax__f60e67a3](../main/iql_amo/hopper-medium-expert-v2/1e-3/seed_1/hopme_s1_b5_rho0p001_jax__f60e67a3/) |
