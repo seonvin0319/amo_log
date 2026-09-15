@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Validate a Git snapshot; raw evaluation files are never downloaded/read."""
 import argparse,json,subprocess,os
+import yaml
 from pathlib import Path
 from log_layout import MAIN_LRS, MAIN_ALPHAS, MAIN_BETAS, initial_alphas, is_adroit, number, classify
 from alpha_logs import SCHEMA, legacy_keys
+from log_layout import config, invalid_network_lrs, excluded_network_lr, NETWORK_LR_EXCLUSIONS
 METHODS={'td3_amo','iql_amo','td3bc+rc','iql','a2pr','wpc','aspc'}
 BRANCHES={'main','choi','ext_csh','ext_csv','offrl','shchoi','svcho'}
-SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','scripts/alpha_logs.py','scripts/test_alpha_logs.py','scripts/migrate_alpha_logs.py','.github/workflows/validate-logs.yml','.github/workflows/migrate-alpha-logs.yml')
+SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','scripts/alpha_logs.py','scripts/test_alpha_logs.py','scripts/test_network_lr.py','scripts/migrate_alpha_logs.py','.github/workflows/validate-logs.yml','.github/workflows/migrate-alpha-logs.yml')
 def git(root,*args,input=None):
  return subprocess.check_output(['git',*args],cwd=root,input=input)
 def entries(root,ref):
@@ -49,6 +51,7 @@ def validate(paths,contents,branch):
  if branch not in BRANCHES:fail('Unknown machine branch: '+branch)
  exclusion_path='catalog/removed_legacy_jax.json'
  excluded=json.loads(contents.get(exclusion_path,b'{"runs":[]}')).get('runs',[])
+ network_exclusions=json.loads(contents.get(NETWORK_LR_EXCLUSIONS,b'{"runs":[]}')).get('runs',[])
  for p in paths:
   if not p.endswith('/run_meta.json'):continue
   try:m=json.loads(contents[p])
@@ -90,6 +93,13 @@ def validate(paths,contents,branch):
   parts+=['seed_'+str(m['seed']),m['run_id']]
   if '/'.join(parts)!=parent or m['rel_path']!=parent:fail('Path/metadata mismatch: '+p)
   if parent+'/config.yaml' not in paths:fail('Missing original config: '+p)
+  try:
+   original=yaml.safe_load(contents[parent+'/config.yaml']) or {}
+   if not isinstance(original,dict):raise ValueError('Config must be a mapping')
+   bad=invalid_network_lrs(m,config(m,original))
+   if bad:fail('Invalid network lr '+','.join(sorted(bad))+': '+p)
+  except (ValueError,TypeError,KeyError,yaml.YAMLError):fail('Cannot check original config network lr: '+p)
+  if excluded_network_lr(m,network_exclusions):fail('Removed network-lr run reintroduced: '+p)
   if m['backend']=='jax':
    if any(e.get('source_path')==m['source_path'] and e.get('code_commit')==m['git'].get('code_commit') for e in excluded):fail('Removed historical JAX reintroduced: '+p)
    if not m['git'].get('code_commit'):fail('New JAX requires code commit: '+p)
@@ -111,7 +121,7 @@ def validate(paths,contents,branch):
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--root',default='.');parser.add_argument('--ref',default='HEAD');parser.add_argument('--index',action='store_true');parser.add_argument('--branch');parser.add_argument('--common-ref');a=parser.parse_args()
  root=Path(a.root);ref=':' if a.index else a.ref;paths=entries(root,ref)
- wanted={p:o for p,o in paths.items() if p.endswith('/run_meta.json') or p in ('catalog/catalog.json','catalog/removed_legacy_jax.json')}
+ wanted={p:o for p,o in paths.items() if p.endswith(('/run_meta.json','/config.yaml')) or p in ('catalog/catalog.json','catalog/removed_legacy_jax.json',NETWORK_LR_EXCLUSIONS)}
  data=blobs(root,wanted.values());contents={p:data[o] for p,o in wanted.items()}
  branch=a.branch or git(root,'branch','--show-current').decode().strip();errors=validate(paths,contents,branch)
  if a.common_ref:
