@@ -10,7 +10,7 @@
     "method_variant:rebrac_amo",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:29:42+09:00",
+  "collected_at": "2026-09-15T11:39:55+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "rebrac_amo",
@@ -25,15 +25,34 @@
   "original_rel_path": "runs/amo/rebrac_amo/wmr_s0_rebrac__1cd0e08d",
   "rel_path": "ablation/td3_amo/walker2d-medium-replay-v2/2e-4/seed_0/wmr_s0_rebrac__1cd0e08d",
   "run_id": "wmr_s0_rebrac__1cd0e08d",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "4b2ab04b2ecfbb797a94e005e3c962c496b79f4289047558239eebf94e59a25a",
+        "sha256": "71844fbeabfc722dc6ac0f3f98dbe5ee25293f619519550d4c4815e9581226f1"
+      },
+      "eval.jsonl": {
+        "sha256": "4289ea4a4ef788f70cb411fdfb10397bf44e1575dc89e8583638b4e13363e3da"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a42332b26f976ef9372acf0d5244d18cc6979b5c1b87944a78a5cdecc36a83d7",
+        "sha256": "70a488b3d40b34401fcc109698ec7858f90fe16f0db17a21c0f32745be4eafa3"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_freq": 10,
-    "T_lr": 0.0002,
     "actor_n_hiddens": 3,
     "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

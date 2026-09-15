@@ -23,14 +23,36 @@
   "original_rel_path": "runs/amo/adaptive_multiscale/amu_s0_TE1_Tlr0p0003__82b63148",
   "rel_path": "main/td3_amo/antmaze-umaze-v2/3e-4/seed_0/amu_s0_TE1_Tlr0p0003__82b63148",
   "run_id": "amu_s0_TE1_Tlr0p0003__82b63148",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "9904d263d14b183bdb5e4aa5e787014e26f48f36858d7a073a9f6d56619daec9",
+        "sha256": "dcdb5cace90b05c83724554f9060ade7b6820cf217d36d57c87eb1570ecd19c1"
+      },
+      "eval.jsonl": {
+        "sha256": "e88b5b9a56814ac6e01fd813f3e199b0eeec3fb93f2b6ed0bebc66d87167e37c"
+      },
+      "final_eval_50.jsonl": {
+        "sha256": "2ec92a89e2bba30a7788d394cf3af67441ac0e74476886dfa26ccae6b299abcf"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "fe2f6eceb61d331fd2519b85f32f084cd1ba0b910d574614c345704200ac67c2",
+        "sha256": "b773bf3422f3bd6517723fe4603cea692a6f84cf3e3814a54d2ed7a560a0f2fb"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "main",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_freq": 10,
-    "T_lr": 0.0003,
     "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0003,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

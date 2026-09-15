@@ -10,7 +10,7 @@
     "method_variant:rebrac_amo",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:29:42+09:00",
+  "collected_at": "2026-09-15T11:39:55+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "rebrac_amo",
@@ -25,15 +25,34 @@
   "original_rel_path": "runs/amo/rebrac_amo/hme_s0_rebrac__af7d1844",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-expert-v2/2e-4/seed_0/hme_s0_rebrac__af7d1844",
   "run_id": "hme_s0_rebrac__af7d1844",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "e5fc07c01e76ff6a6624146a0d9bc7b53173fc23d7ade722abbe1cc9e3c6cc2d",
+        "sha256": "df50ae0db30964bc9df885a342251c6ea6e43585718811115e17c818db8e43b8"
+      },
+      "eval.jsonl": {
+        "sha256": "0b856e41514dcafd128d5eb5b6fd0491946f95ede504b78f0b825fcf5c5b9765"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "835b20197cad407c7052254cc9b3428d1c3851e74671f894dab917d391b86d15",
+        "sha256": "c92c006942b04caee36ee8e1d19996b7f1ebfe271389d982933c40b2f58a6c93"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_freq": 10,
-    "T_lr": 0.0002,
     "actor_n_hiddens": 3,
     "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

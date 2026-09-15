@@ -10,7 +10,7 @@
     "method_variant:rebrac_amo",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:29:42+09:00",
+  "collected_at": "2026-09-15T11:39:55+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "rebrac_amo",
@@ -25,15 +25,34 @@
   "original_rel_path": "runs/amo/rebrac_amo/hopme_s0_rebrac__823fd6cd",
   "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/2e-4/seed_0/hopme_s0_rebrac__823fd6cd",
   "run_id": "hopme_s0_rebrac__823fd6cd",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "df3cfe06154f93fb841babe526cef4b39081080a7963d6382bedda5c2c79adf9",
+        "sha256": "6548584e4ca47ebce430d38c38c44bfe6559150159100ae140178f984c19a549"
+      },
+      "eval.jsonl": {
+        "sha256": "be40b59ea5fd5e18301e86f07538de8456b7500701c249dc7a38366358268553"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "318200f378c87c255bb2734afb152d20045cb335a4b9e2b326d885f1ccb2b545",
+        "sha256": "74f5ba9ca27989180d25ed60b33351f3a757007530284cd6bd7c9e38e60f2606"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_freq": 10,
-    "T_lr": 0.0002,
     "actor_n_hiddens": 3,
     "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

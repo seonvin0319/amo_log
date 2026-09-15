@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:29:41+09:00",
+  "collected_at": "2026-09-15T11:39:54+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "amo_td3bc",
@@ -26,14 +26,33 @@
   "original_rel_path": "runs/amo/amo_td3bc/hopmr_s0_qouter__56ea9aea",
   "rel_path": "ablation/td3_amo/hopper-medium-replay-v2/2e-4/seed_0/hopmr_s0_qouter__56ea9aea",
   "run_id": "hopmr_s0_qouter__56ea9aea",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "6065a91c6f0836e339184abbf9bc780837245734f1cca15ebde12474daf16133",
+        "sha256": "05ce3dcb0ffe403e6d67ece0bf01de0e7be730162093e705f873f2a9a8e8db94"
+      },
+      "eval.jsonl": {
+        "sha256": "b60642d3d96c702ab8f1ec9a6a60d3eebbab1573ec2e3ee552889dabc5350b62"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "0c882598be6f660109920394cf7f911725e195e6427e33a2a5e251a77a8ae0e5",
+        "sha256": "ba273ed50300b7c5858eaeb06009a4ca70dc2e0a67b2638d5545dc63eca56bc6"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": null,
-    "T_E": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
     "adaptive_multiscale": true,
+    "alpha_B": null,
+    "alpha_E": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

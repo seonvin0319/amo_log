@@ -26,6 +26,23 @@
   "original_rel_path": "runs/apart/pi_only_xfit_target/wm_s0_pi_only_xfit__247c4d61",
   "rel_path": "ablation/td3_amo/walker2d-medium-v2/unspecified/seed_0/wm_s0_pi_only_xfit__247c4d61",
   "run_id": "wm_s0_pi_only_xfit__247c4d61",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "473720d377fbb8c6fb05ab49ba17ef15fa44d4fa00936f05f0f344ccea6df76b"
+      },
+      "eval.jsonl": {
+        "sha256": "714828f1a2e313919bb069e556ff1eac3337a7d81860966771ca25c3698f2745"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "6214ccc83be4a4262aaed85520fa0d4a067f0081a79ecfd75d2da1ee76d7af3b",
+        "sha256": "4cea65cf083b7ecbf6bb36d9e128bcbf0d17ca8e699db118a40f507ed2e58ecc"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
