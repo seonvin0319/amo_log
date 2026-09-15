@@ -1,0 +1,91 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [],
+  "collected_at": "2026-09-15T13:46:28+09:00",
+  "env": "antmaze-umaze-v2",
+  "env_short": "amu",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": "eee3d486fac0c9f5ecbbea411424e6691b715265",
+    "code_repo": "AMO_EXP"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "td3amo_te1_tb1_tlr2e-3_amu_s3-antmaze-umaze-v2-9ddddb01",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/adaptive_multiscale/amu_s3_te1_tb1_Tlr0p002__9ddddb01",
+  "rel_path": "main/td3_amo/antmaze-umaze-v2/2e-3/seed_3/amu_s3_te1_tb1_Tlr0p002__9ddddb01",
+  "run_id": "amu_s3_te1_tb1_Tlr0p002__9ddddb01",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "c370e9fc6cbbfc9d4e6ea65593a8f3c728c00804cc4c10d57a5e0e359713242f",
+        "sha256": "d3826e61d69b3a05ad78c18e6ef04e8049262b7634074cf3a251f6bbb4282705"
+      },
+      "eval.jsonl": {
+        "sha256": "9687631b816bb569496b22f5e9c12b5f0af4b43661a228314701bb0e509a7f3f"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "1d995a2e8b2ab374bfeda9f0f339cfd2ddbb03db3661afc5d7f87f70ece91555",
+        "sha256": "f29418c52ff01014ff441e24b4d7c657f195a90c58857525e57e7406a469566c"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "main",
+  "seed": 3,
+  "settings": {
+    "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.002,
+    "batch_size": 256,
+    "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
+    "bootstrap_rms_diagnostic_freq": 0,
+    "buffer_size": 10000000,
+    "checkpoints_path": "/home/choi/AMO_store/td3_amo_antmaze_te1_tlr_main_fill_adaptive_critic/runs/td3amo_te1_tb1_tlr2e-3_amu_s3-antmaze-umaze-v2-9ddddb01",
+    "critic_hidden_dim": 256,
+    "critic_layernorm": true,
+    "critic_n_hiddens": 3,
+    "device": "cuda",
+    "discount": 0.99,
+    "env": "antmaze-umaze-v2",
+    "eval_freq": 1000000,
+    "expl_noise": 0.1,
+    "final_eval_repeats": 5,
+    "group": "td3amo-antmaze-te1-tlr-main-fill-adaptive-critic",
+    "load_model": "",
+    "max_timesteps": 1000000,
+    "metrics_log_freq": 200,
+    "n_episodes": 100,
+    "name": "td3amo_te1_tb1_tlr2e-3_amu_s3-antmaze-umaze-v2-9ddddb01",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "profile_runtime": false,
+    "project": "AMO-antmaze-te1-tlr",
+    "proximal_n_steps": 1,
+    "resume_tag": "td3amo_te1_tb1_tlr2e-3_amu_s3",
+    "save_freq": 20000,
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "smoothness_max": null,
+    "tau": 0.005
+  },
+  "source_host": "choi",
+  "source_path": "/home/choi/AMO_store/td3_amo_antmaze_te1_tlr_main_fill_adaptive_critic/runs/td3amo_te1_tb1_tlr2e-3_amu_s3-antmaze-umaze-v2-9ddddb01",
+  "variant": "te1_tb1_Tlr0p002"
+}
