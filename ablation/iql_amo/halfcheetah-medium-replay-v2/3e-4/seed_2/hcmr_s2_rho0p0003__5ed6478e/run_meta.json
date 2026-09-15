@@ -10,7 +10,7 @@
     "initial_beta_outside_main",
     "method_variant:iql_adaptive_beta"
   ],
-  "collected_at": "2026-09-15T13:36:15+09:00",
+  "collected_at": "2026-09-15T13:46:37+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "iql_adaptive_beta",
