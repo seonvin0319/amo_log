@@ -58,6 +58,8 @@ _LAMBDA0 = "30abcfcfbc62b892c6c0a7d0763c1c8323154d11"
 _LAMBDA0_GAPFILL = "eee3d486fac0c9f5ecbbea411424e6691b715265"
 _AMO = "c45671c47cfae89154331e9c9dab59b9cdbc9c40"
 _AMO_MAIN = "b9338d9815525482d2cf34d6fc6315ea4d2f93a6"
+# AMO-main after T→alpha rename (alpha := 2T).
+_AMO_MAIN_ALPHA = "1e34514ddf70bfc8a78757d9a78b82306627164c"
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
@@ -211,6 +213,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO-main",
         "code_commit": _AMO_MAIN,
         "family_force": "iql_amo_jax_adroit_beta1_rho",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-main",
+        "code_commit": _AMO_MAIN_ALPHA,
+        "family_force": "td3_amo_jax",
         "nested": False,
     },
 ]
@@ -585,6 +598,15 @@ def build_variant(
         if "bootstrap" in blob and "adaptive_bootstrap" in root_name:
             tokens.append("boot")
 
+    if family == "td3_amo_jax":
+        # Prefer legacy T_* (may be aliased from alpha_* = 2T).
+        te = cfg.get("T_E", cfg.get("T"))
+        tb = cfg.get("T_B", te)
+        if te is not None:
+            tokens.append(f"te{fmt_num(float(te))}")
+        if tb is not None:
+            tokens.append(f"tb{fmt_num(float(tb))}")
+
     if family in ("dual_proximal", "chain", "misc"):
         t_init = cfg.get("T")
         if t_init is not None and family != "adaptive_multiscale":
@@ -612,6 +634,18 @@ def build_variant(
     return "_".join(out)
 
 
+def alias_alpha_to_legacy_t(cfg: Dict[str, Any]) -> Dict[str, Any]:
+    """AMO-main rename alpha := 2T. Fill T_* for log_layout without rewriting config.yaml."""
+    out = dict(cfg)
+    if out.get("alpha_E") is not None and out.get("T_E") is None:
+        out["T_E"] = float(out["alpha_E"]) / 2.0
+    if out.get("alpha_B") is not None and out.get("T_B") is None:
+        out["T_B"] = float(out["alpha_B"]) / 2.0
+    if out.get("alpha_lr") is not None and out.get("T_lr") is None:
+        out["T_lr"] = out["alpha_lr"]
+    return out
+
+
 def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
     keys = [
         "env",
@@ -634,6 +668,9 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "T_B",
         "T_init",
         "T_lr",
+        "alpha_E",
+        "alpha_B",
+        "alpha_lr",
         "rho_lr",
         "T_freq",
         "meta_warmup_steps",
@@ -704,7 +741,8 @@ def ingest_one(
     if family == "adaptive_multiscale":
         algo = "amo"
     # Merge recovered env/seed into settings view without mutating source config.yaml.
-    cfg_view = dict(cfg)
+    # alpha_* → T_* aliases so shared log_layout (T_E=T_B=1 main) still classifies.
+    cfg_view = alias_alpha_to_legacy_t(cfg)
     cfg_view["env"] = env
     cfg_view["seed"] = seed
     if source_run_meta.get("algorithm") and "algorithm" not in cfg_view:
