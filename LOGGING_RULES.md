@@ -58,6 +58,7 @@
 - `T_lr → alpha_lr`, `T_freq → alpha_freq`는 이름만 바꾼다. 학습률, 주기, 비율, 스케줄 step, projection flag, loss, 평가 점수는 2배 하지 않는다. 예: `T_B_over_T_E → alpha_B_over_alpha_E`, `L_T_E → L_alpha_E`의 숫자는 그대로다.
 - 과거 `grad_T_*`/`T_grad`는 작성기마다 rho/T 미분 좌표가 다를 수 있어 원래 수치를 `legacy_T/<기존 키>`로 보존한다. 이를 alpha gradient로 취급하거나 임의로 2배/절반으로 바꾸지 않는다. rho·h·tau 등 별도 내부 좌표도 재계산하지 않는다.
 - 기존 alpha 필드는 다시 2배 하지 않는다. 동일 레코드의 T와 alpha가 공존하면 `alpha=2T` 일치 여부를 확인하고, 불일치는 업로드를 중단한다. IQL의 beta와 baseline의 고유 alpha/beta는 변환 대상이 아니다.
+- 저장 중 끊겨 JSON으로 읽을 수 없는 원본 행은 `legacy_unparsed_record`에 원문·행 번호·오류를 그대로 보존하고 파일별 `unparsed_source_lines`에 기록한다. 해당 행의 값은 추정하거나 변환하지 않으며 관측값 집계에서 제외한다. 변환 및 검증 출력에 보존한 행 수를 표시한다.
 - `run_meta.json`의 `scale_conversion.schema=alpha_v1`와 파일별 변환 전 `legacy_sha256`·변환 후 `sha256`을 남긴다. 파일별 해시로 이미 변환한 파일을 확인하므로, 원본 T 로그를 다시 수집하거나 T/alpha 레코드가 섞여 추가되어도 중복 변환하지 않는다.
 - run_id, 과거 경로·variant 문자열, 코드 commit은 원래 실행 식별 정보다. 이름 속 T 숫자는 고치지 않으며 초기값 집계는 정규화한 settings/config와 카탈로그의 alpha 표시를 사용한다.
 - 기존 로그 변환 및 전체 파일 검증: `python3 scripts/migrate_alpha_logs.py`. 검증만 수행: `python3 scripts/migrate_alpha_logs.py --check`.
