@@ -1,0 +1,2435 @@
+{
+  "runs": [
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/antmaze-large-diverse-v2/2e-3/seed_0/amld_s0_iql_amo_lr1e3_beta10__d195c773",
+      "run_id": "amld_s0_iql_amo_lr1e3_beta10__d195c773",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amld_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_iql_amo_lr1e3_beta10__2fa782c4",
+      "run_id": "amlp_s0_iql_amo_lr1e3_beta10__2fa782c4",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amlp_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_0/ammd_s0_iql_amo_lr1e3_beta10__c4575818",
+      "run_id": "ammd_s0_iql_amo_lr1e3_beta10__c4575818",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_ammd_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_iql_amo_lr1e3_beta10__60880ba5",
+      "run_id": "ammp_s0_iql_amo_lr1e3_beta10__60880ba5",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_ammp_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/antmaze-umaze-v2/2e-3/seed_0/amu_s0_iql_amo_lr1e3_beta10__718d60ff",
+      "run_id": "amu_s0_iql_amo_lr1e3_beta10__718d60ff",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amu_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/antmaze-umaze-diverse-v2/2e-3/seed_0/amud_s0_iql_amo_lr1e3_beta10__c4562187",
+      "run_id": "amud_s0_iql_amo_lr1e3_beta10__c4562187",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_amud_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/hopper-medium-v2/2e-3/seed_0/hopm_s0_iql_amo_lr1e3_beta10__e5f1932a",
+      "run_id": "hopm_s0_iql_amo_lr1e3_beta10__e5f1932a",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_h-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/hopper-medium-expert-v2/2e-3/seed_0/hopme_s0_iql_amo_lr1e3_beta10__7e751818",
+      "run_id": "hopme_s0_iql_amo_lr1e3_beta10__7e751818",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_h-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_iql_amo_lr1e3_beta10__feb61788",
+      "run_id": "hopmr_s0_iql_amo_lr1e3_beta10__feb61788",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_h-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/halfcheetah-medium-v2/2e-3/seed_0/hcm_s0_iql_amo_lr1e3_beta10__65100fa4",
+      "run_id": "hcm_s0_iql_amo_lr1e3_beta10__65100fa4",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_hc-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/halfcheetah-medium-expert-v2/2e-3/seed_0/hme_s0_iql_amo_lr1e3_beta10__4815b42e",
+      "run_id": "hme_s0_iql_amo_lr1e3_beta10__4815b42e",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_hc-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/halfcheetah-medium-replay-v2/2e-3/seed_0/hcmr_s0_iql_amo_lr1e3_beta10__bd75c904",
+      "run_id": "hcmr_s0_iql_amo_lr1e3_beta10__bd75c904",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_hc-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/walker2d-medium-v2/2e-3/seed_0/wm_s0_iql_amo_lr1e3_beta10__abcd3712",
+      "run_id": "wm_s0_iql_amo_lr1e3_beta10__abcd3712",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_w-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/walker2d-medium-expert-v2/2e-3/seed_0/wme_s0_iql_amo_lr1e3_beta10__01e216b3",
+      "run_id": "wme_s0_iql_amo_lr1e3_beta10__01e216b3",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_w-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_iql_amo_lr1e3_beta10__a5ba8fbe",
+      "run_id": "wmr_s0_iql_amo_lr1e3_beta10__a5ba8fbe",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b10_w-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-diverse-v2/2e-3/seed_0/amld_s0_iql_amo_lr1e3_beta1__0e3c8dc0",
+      "run_id": "amld_s0_iql_amo_lr1e3_beta1__0e3c8dc0",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-diverse-v2/2e-3/seed_1/amld_s1_iql_amo_lr1e3_beta1__12cf5048",
+      "run_id": "amld_s1_iql_amo_lr1e3_beta1__12cf5048",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-diverse-v2/2e-3/seed_2/amld_s2_iql_amo_lr1e3_beta1__9d8eb016",
+      "run_id": "amld_s2_iql_amo_lr1e3_beta1__9d8eb016",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-diverse-v2/2e-3/seed_3/amld_s3_iql_amo_lr1e3_beta1__a0280e62",
+      "run_id": "amld_s3_iql_amo_lr1e3_beta1__a0280e62",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amld_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_iql_amo_lr1e3_beta1__6e6abf7f",
+      "run_id": "amlp_s0_iql_amo_lr1e3_beta1__6e6abf7f",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-play-v2/2e-3/seed_1/amlp_s1_iql_amo_lr1e3_beta1__9711773a",
+      "run_id": "amlp_s1_iql_amo_lr1e3_beta1__9711773a",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-play-v2/2e-3/seed_2/amlp_s2_iql_amo_lr1e3_beta1__c5cfa3cd",
+      "run_id": "amlp_s2_iql_amo_lr1e3_beta1__c5cfa3cd",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-play-v2/2e-3/seed_3/amlp_s3_iql_amo_lr1e3_beta1__725f7a71",
+      "run_id": "amlp_s3_iql_amo_lr1e3_beta1__725f7a71",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amlp_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_0/ammd_s0_iql_amo_lr1e3_beta1__04a38061",
+      "run_id": "ammd_s0_iql_amo_lr1e3_beta1__04a38061",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_1/ammd_s1_iql_amo_lr1e3_beta1__0e5bc010",
+      "run_id": "ammd_s1_iql_amo_lr1e3_beta1__0e5bc010",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_2/ammd_s2_iql_amo_lr1e3_beta1__065bf7dd",
+      "run_id": "ammd_s2_iql_amo_lr1e3_beta1__065bf7dd",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_3/ammd_s3_iql_amo_lr1e3_beta1__639462fb",
+      "run_id": "ammd_s3_iql_amo_lr1e3_beta1__639462fb",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammd_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_iql_amo_lr1e3_beta1__6c97f0ef",
+      "run_id": "ammp_s0_iql_amo_lr1e3_beta1__6c97f0ef",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-play-v2/2e-3/seed_1/ammp_s1_iql_amo_lr1e3_beta1__3b03a745",
+      "run_id": "ammp_s1_iql_amo_lr1e3_beta1__3b03a745",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-play-v2/2e-3/seed_2/ammp_s2_iql_amo_lr1e3_beta1__bc7e8031",
+      "run_id": "ammp_s2_iql_amo_lr1e3_beta1__bc7e8031",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-play-v2/2e-3/seed_3/ammp_s3_iql_amo_lr1e3_beta1__e4c21ded",
+      "run_id": "ammp_s3_iql_amo_lr1e3_beta1__e4c21ded",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_ammp_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-v2/2e-3/seed_0/amu_s0_iql_amo_lr1e3_beta1__c9faf18f",
+      "run_id": "amu_s0_iql_amo_lr1e3_beta1__c9faf18f",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-v2/2e-3/seed_1/amu_s1_iql_amo_lr1e3_beta1__3dfcf826",
+      "run_id": "amu_s1_iql_amo_lr1e3_beta1__3dfcf826",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-v2/2e-3/seed_2/amu_s2_iql_amo_lr1e3_beta1__2e623563",
+      "run_id": "amu_s2_iql_amo_lr1e3_beta1__2e623563",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-v2/2e-3/seed_3/amu_s3_iql_amo_lr1e3_beta1__13210a08",
+      "run_id": "amu_s3_iql_amo_lr1e3_beta1__13210a08",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amu_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-diverse-v2/2e-3/seed_0/amud_s0_iql_amo_lr1e3_beta1__c1381238",
+      "run_id": "amud_s0_iql_amo_lr1e3_beta1__c1381238",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-diverse-v2/2e-3/seed_1/amud_s1_iql_amo_lr1e3_beta1__62f8a7fd",
+      "run_id": "amud_s1_iql_amo_lr1e3_beta1__62f8a7fd",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-diverse-v2/2e-3/seed_2/amud_s2_iql_amo_lr1e3_beta1__8d365569",
+      "run_id": "amud_s2_iql_amo_lr1e3_beta1__8d365569",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-diverse-v2/2e-3/seed_3/amud_s3_iql_amo_lr1e3_beta1__ca05bf4f",
+      "run_id": "amud_s3_iql_amo_lr1e3_beta1__ca05bf4f",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_amud_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-v2/2e-3/seed_0/hopm_s0_iql_amo_lr1e3_beta1__b3847eb1",
+      "run_id": "hopm_s0_iql_amo_lr1e3_beta1__b3847eb1",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-v2/2e-3/seed_1/hopm_s1_iql_amo_lr1e3_beta1__a3a9931f",
+      "run_id": "hopm_s1_iql_amo_lr1e3_beta1__a3a9931f",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-v2/2e-3/seed_2/hopm_s2_iql_amo_lr1e3_beta1__6590cf28",
+      "run_id": "hopm_s2_iql_amo_lr1e3_beta1__6590cf28",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-v2/2e-3/seed_3/hopm_s3_iql_amo_lr1e3_beta1__d6274a83",
+      "run_id": "hopm_s3_iql_amo_lr1e3_beta1__d6274a83",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-m_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-expert-v2/2e-3/seed_0/hopme_s0_iql_amo_lr1e3_beta1__6dd172de",
+      "run_id": "hopme_s0_iql_amo_lr1e3_beta1__6dd172de",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-expert-v2/2e-3/seed_1/hopme_s1_iql_amo_lr1e3_beta1__00eb307c",
+      "run_id": "hopme_s1_iql_amo_lr1e3_beta1__00eb307c",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-expert-v2/2e-3/seed_2/hopme_s2_iql_amo_lr1e3_beta1__1c568451",
+      "run_id": "hopme_s2_iql_amo_lr1e3_beta1__1c568451",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-expert-v2/2e-3/seed_3/hopme_s3_iql_amo_lr1e3_beta1__7db81125",
+      "run_id": "hopme_s3_iql_amo_lr1e3_beta1__7db81125",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-me_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_iql_amo_lr1e3_beta1__a006ae79",
+      "run_id": "hopmr_s0_iql_amo_lr1e3_beta1__a006ae79",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_iql_amo_lr1e3_beta1__390812a7",
+      "run_id": "hopmr_s1_iql_amo_lr1e3_beta1__390812a7",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_iql_amo_lr1e3_beta1__c901f86d",
+      "run_id": "hopmr_s2_iql_amo_lr1e3_beta1__c901f86d",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-replay-v2/2e-3/seed_3/hopmr_s3_iql_amo_lr1e3_beta1__47834f28",
+      "run_id": "hopmr_s3_iql_amo_lr1e3_beta1__47834f28",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_h-mr_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-v2/2e-3/seed_0/hcm_s0_iql_amo_lr1e3_beta1__5db8cb16",
+      "run_id": "hcm_s0_iql_amo_lr1e3_beta1__5db8cb16",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-v2/2e-3/seed_1/hcm_s1_iql_amo_lr1e3_beta1__c6a2efb9",
+      "run_id": "hcm_s1_iql_amo_lr1e3_beta1__c6a2efb9",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-v2/2e-3/seed_2/hcm_s2_iql_amo_lr1e3_beta1__8e9f9fe2",
+      "run_id": "hcm_s2_iql_amo_lr1e3_beta1__8e9f9fe2",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-v2/2e-3/seed_3/hcm_s3_iql_amo_lr1e3_beta1__53876255",
+      "run_id": "hcm_s3_iql_amo_lr1e3_beta1__53876255",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-m_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-expert-v2/2e-3/seed_0/hme_s0_iql_amo_lr1e3_beta1__bb28611c",
+      "run_id": "hme_s0_iql_amo_lr1e3_beta1__bb28611c",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-expert-v2/2e-3/seed_1/hme_s1_iql_amo_lr1e3_beta1__37c9b278",
+      "run_id": "hme_s1_iql_amo_lr1e3_beta1__37c9b278",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-expert-v2/2e-3/seed_2/hme_s2_iql_amo_lr1e3_beta1__62afc01f",
+      "run_id": "hme_s2_iql_amo_lr1e3_beta1__62afc01f",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-expert-v2/2e-3/seed_3/hme_s3_iql_amo_lr1e3_beta1__e501992d",
+      "run_id": "hme_s3_iql_amo_lr1e3_beta1__e501992d",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-me_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-replay-v2/2e-3/seed_0/hcmr_s0_iql_amo_lr1e3_beta1__8b57429e",
+      "run_id": "hcmr_s0_iql_amo_lr1e3_beta1__8b57429e",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-replay-v2/2e-3/seed_1/hcmr_s1_iql_amo_lr1e3_beta1__2386d674",
+      "run_id": "hcmr_s1_iql_amo_lr1e3_beta1__2386d674",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-replay-v2/2e-3/seed_2/hcmr_s2_iql_amo_lr1e3_beta1__7b04fde6",
+      "run_id": "hcmr_s2_iql_amo_lr1e3_beta1__7b04fde6",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-replay-v2/2e-3/seed_3/hcmr_s3_iql_amo_lr1e3_beta1__b688a4ae",
+      "run_id": "hcmr_s3_iql_amo_lr1e3_beta1__b688a4ae",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_hc-mr_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-v2/2e-3/seed_0/wm_s0_iql_amo_lr1e3_beta1__d829cd39",
+      "run_id": "wm_s0_iql_amo_lr1e3_beta1__d829cd39",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-v2/2e-3/seed_1/wm_s1_iql_amo_lr1e3_beta1__0003f998",
+      "run_id": "wm_s1_iql_amo_lr1e3_beta1__0003f998",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-v2/2e-3/seed_2/wm_s2_iql_amo_lr1e3_beta1__06f43034",
+      "run_id": "wm_s2_iql_amo_lr1e3_beta1__06f43034",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-v2/2e-3/seed_3/wm_s3_iql_amo_lr1e3_beta1__ab621a29",
+      "run_id": "wm_s3_iql_amo_lr1e3_beta1__ab621a29",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-m_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_0/wme_s0_iql_amo_lr1e3_beta1__2e0277b9",
+      "run_id": "wme_s0_iql_amo_lr1e3_beta1__2e0277b9",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_1/wme_s1_iql_amo_lr1e3_beta1__2b6e1e83",
+      "run_id": "wme_s1_iql_amo_lr1e3_beta1__2b6e1e83",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_2/wme_s2_iql_amo_lr1e3_beta1__f45d4834",
+      "run_id": "wme_s2_iql_amo_lr1e3_beta1__f45d4834",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_iql_amo_lr1e3_beta1__8eed97ce",
+      "run_id": "wme_s3_iql_amo_lr1e3_beta1__8eed97ce",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-me_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_iql_amo_lr1e3_beta1__2b53800a",
+      "run_id": "wmr_s0_iql_amo_lr1e3_beta1__2b53800a",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-replay-v2/2e-3/seed_1/wmr_s1_iql_amo_lr1e3_beta1__7afc32a6",
+      "run_id": "wmr_s1_iql_amo_lr1e3_beta1__7afc32a6",
+      "seed": 1,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s1/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-replay-v2/2e-3/seed_2/wmr_s2_iql_amo_lr1e3_beta1__1fb0f063",
+      "run_id": "wmr_s2_iql_amo_lr1e3_beta1__1fb0f063",
+      "seed": 2,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s2/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-replay-v2/2e-3/seed_3/wmr_s3_iql_amo_lr1e3_beta1__c5782493",
+      "run_id": "wmr_s3_iql_amo_lr1e3_beta1__c5782493",
+      "seed": 3,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b1_w-mr_s3/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-diverse-v2/2e-3/seed_0/amld_s0_iql_amo_lr1e3_beta5__4152a07d",
+      "run_id": "amld_s0_iql_amo_lr1e3_beta5__4152a07d",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amld_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-large-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_iql_amo_lr1e3_beta5__8f3852c1",
+      "run_id": "amlp_s0_iql_amo_lr1e3_beta5__8f3852c1",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amlp_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_0/ammd_s0_iql_amo_lr1e3_beta5__c779229b",
+      "run_id": "ammd_s0_iql_amo_lr1e3_beta5__c779229b",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_ammd_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-medium-play-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_iql_amo_lr1e3_beta5__245d4bda",
+      "run_id": "ammp_s0_iql_amo_lr1e3_beta5__245d4bda",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_ammp_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-v2/2e-3/seed_0/amu_s0_iql_amo_lr1e3_beta5__3b0c224d",
+      "run_id": "amu_s0_iql_amo_lr1e3_beta5__3b0c224d",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amu_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "antmaze-umaze-diverse-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/antmaze-umaze-diverse-v2/2e-3/seed_0/amud_s0_iql_amo_lr1e3_beta5__ee58a81e",
+      "run_id": "amud_s0_iql_amo_lr1e3_beta5__ee58a81e",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_amud_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-v2/2e-3/seed_0/hopm_s0_iql_amo_lr1e3_beta5__18975f46",
+      "run_id": "hopm_s0_iql_amo_lr1e3_beta5__18975f46",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-expert-v2/2e-3/seed_0/hopme_s0_iql_amo_lr1e3_beta5__1e8e4a39",
+      "run_id": "hopme_s0_iql_amo_lr1e3_beta5__1e8e4a39",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "hopper-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_iql_amo_lr1e3_beta5__c0489ace",
+      "run_id": "hopmr_s0_iql_amo_lr1e3_beta5__c0489ace",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_h-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-v2/2e-3/seed_0/hcm_s0_iql_amo_lr1e3_beta5__f324eaa1",
+      "run_id": "hcm_s0_iql_amo_lr1e3_beta5__f324eaa1",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-expert-v2/2e-3/seed_0/hme_s0_iql_amo_lr1e3_beta5__32e5d007",
+      "run_id": "hme_s0_iql_amo_lr1e3_beta5__32e5d007",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "halfcheetah-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/halfcheetah-medium-replay-v2/2e-3/seed_0/hcmr_s0_iql_amo_lr1e3_beta5__cd280b9a",
+      "run_id": "hcmr_s0_iql_amo_lr1e3_beta5__cd280b9a",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_hc-mr_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-v2/2e-3/seed_0/wm_s0_iql_amo_lr1e3_beta5__78c61b55",
+      "run_id": "wm_s0_iql_amo_lr1e3_beta5__78c61b55",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-m_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-expert-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_0/wme_s0_iql_amo_lr1e3_beta5__938b521a",
+      "run_id": "wme_s0_iql_amo_lr1e3_beta5__938b521a",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-me_s0/run"
+    },
+    {
+      "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+      "env": "walker2d-medium-replay-v2",
+      "invalid_network_lrs": {
+        "actor_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "critic_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        },
+        "value_lr": {
+          "config": 0.001,
+          "expected": 0.0003,
+          "settings": 0.001
+        }
+      },
+      "method": "iql_amo",
+      "reason": "invalid_network_lr",
+      "rel_path": "main/iql_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_iql_amo_lr1e3_beta5__562a56f8",
+      "run_id": "wmr_s0_iql_amo_lr1e3_beta5__562a56f8",
+      "seed": 0,
+      "source_path": "/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs/b5_w-mr_s0/run"
+    }
+  ],
+  "schema_version": 1
+}
