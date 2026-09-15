@@ -8,7 +8,6 @@ import hashlib
 import json
 import re
 import shutil
-import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -872,23 +871,25 @@ def read_final_eval_50_row(src: Path) -> Optional[Dict[str, Any]]:
         return None
 
 
-def resolve_code_commit(code_repo: str) -> Optional[str]:
-    roots = {
-        "AMO": Path("/home/shchoi/AMO"),
-        "AMO_EXP_iql-amo": Path("/home/shchoi/AMO_EXP_iql-amo"),
-        "amo": Path("/home/shchoi/amo"),
-        "AMO-jax-upstream": Path("/home/shchoi/AMO-jax-upstream"),
-        "ASPC": Path("/home/shchoi/ASPC"),
-    }
-    root = roots.get(code_repo)
-    if root is None or not (root / ".git").exists():
+def resolve_code_commit(src: Path) -> Optional[str]:
+    """Use only the commit recorded at training time; never invent from current HEAD."""
+    meta_path = src / "run_meta.json"
+    if not meta_path.exists():
         return None
     try:
-        return subprocess.check_output(
-            ["git", "rev-parse", "HEAD"], cwd=root, text=True
-        ).strip()
+        meta = json.loads(meta_path.read_text())
     except Exception:
         return None
+    git = meta.get("git") if isinstance(meta.get("git"), dict) else {}
+    for key in ("code_commit", "commit", "git_commit"):
+        val = git.get(key)
+        if val:
+            return str(val)
+    for key in ("code_commit", "git_commit"):
+        val = meta.get(key)
+        if val:
+            return str(val)
+    return None
 
 
 def ingest_one(
@@ -1034,7 +1035,7 @@ def ingest_one(
         "artifacts": artifacts,
         "git": {
             "code_repo": code_repo,
-            "code_commit": resolve_code_commit(code_repo),
+            "code_commit": resolve_code_commit(src),
         },
     }
     if last_step is not None:
@@ -1051,6 +1052,9 @@ def ingest_one(
         }
     if kind == "jax" or cfg.get("backend") == "jax":
         meta["checkpoint_hint"] = str(src.resolve())
+        meta["backend"] = "jax"
+    elif cfg.get("backend") in ("torch", "pytorch"):
+        meta["backend"] = "torch"
     if log_path is not None:
         meta["settings"]["score_source"] = str(log_path.resolve())
 
