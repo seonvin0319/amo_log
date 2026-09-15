@@ -8,7 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p0003_s0-hopper-medium-replay-v2-6a3b732e",
   "classification_reasons": [],
-  "collected_at": "2026-09-14T16:10:46+00:00",
+  "collected_at": "2026-09-15T04:01:40+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "adaptive_multiscale",
