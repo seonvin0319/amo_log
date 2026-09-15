@@ -1,0 +1,80 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "classification_reasons": [],
+  "collected_at": "2026-09-15T23:56:12+09:00",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
+  "family": "td3_amo_jax",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "w-mr_alr3e4_s0",
+  "meta_lr": 0.0003,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_jax/wmr_s0_jax_ae5_ab5_alr0p0003__8dd5e512",
+  "rel_path": "main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_0/wmr_s0_jax_ae5_ab5_alr0p0003__8dd5e512",
+  "run_id": "wmr_s0_jax_ae5_ab5_alr0p0003__8dd5e512",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "2b42af36b2119121ba3c01f94488adf96d63665b47833adeba146fa1d3cb065c"
+      },
+      "eval.jsonl": {
+        "sha256": "fe7aa44aff24cc4a5ac0d0c1e1f9792efbc0a09443d257496c82a28ce2c43772"
+      },
+      "metrics.jsonl": {
+        "sha256": "eebd9bd35d0a9d8f015c468e8d031c0c5bd0cd23cb8b754b322d24b7f8724746"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "main",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "walker2d-medium-replay-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_loco9_alpha5_alr_seeds03/jobs/w-mr_alr3e4_s0/run",
+  "variant": "jax_ae5_ab5_alr0p0003"
+}
