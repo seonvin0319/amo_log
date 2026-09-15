@@ -30,21 +30,39 @@
   "original_rel_path": "runs/amo/four_eval_fixed_n/hopm_s0_four_eval_N3_h-m__068e3791",
   "rel_path": "ablation/td3_amo/hopper-medium-v2/unspecified/seed_0/hopm_s0_four_eval_N3_h-m__068e3791",
   "run_id": "hopm_s0_four_eval_N3_h-m__068e3791",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "3a06fad190d726b154fc122276a0c8dfc6cc20f7b801f1244ebdcb0ea46009a9",
+        "sha256": "19d5c6ead23e5f0eaea8f1ee72a400470c7a6ebdd14c530deeea992a043eccee"
+      },
+      "eval.jsonl": {
+        "sha256": "fa4c5813677d28a9e0bffd9f34e9e9edc861932fa41590c5f2b7b4731b03797e"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "01da3c14d41804c97974c68ec55b82edfcdbdd165364497872560981dd1546a8",
+        "sha256": "322c82208501510e1408e92ebf45e023e18913546c55ee33d6b619e2b0425283"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
     "N_capacity": 20,
     "N_fixed": 3,
     "N_rule": "fixed",
-    "T_init": 4.0,
-    "T_max": 20.0,
-    "T_min": 0.05,
     "actor_adam_betas": null,
     "actor_hidden_dims": null,
     "actor_loss_form": "mpi_scaled_q_plus_mean_bc",
     "actor_lr": 0.0003,
     "adam_eps": "1e-08",
     "allow_tf32": false,
+    "alpha_init": 8.0,
+    "alpha_max": 40.0,
+    "alpha_min": 0.1,
     "amsgrad": false,
     "bank_resize_rule": "preserve_prefix_clone_old_endpoint_reset_new_moments",
     "batch_size": 256,

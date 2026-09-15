@@ -27,12 +27,31 @@
   "original_rel_path": "runs/apart/dual_proximal/we_s0_n4_dual__e6ae84a0",
   "rel_path": "ablation/td3_amo/walker2d-expert-v2/2e-4/seed_0/we_s0_n4_dual__e6ae84a0",
   "run_id": "we_s0_n4_dual__e6ae84a0",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "b56d13e464790a4fd5973fe2204f3e109223b16dbc22d816a3fba15a56eaf727",
+        "sha256": "5143663f4db863dc56b1dac49d4ffb239d170b058b39e097de1580efdcb4677e"
+      },
+      "eval.jsonl": {
+        "sha256": "3925181f952fe793416beb9cc12d3e0f07f986ffc22117ffb35fcc136df24a89"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "ca30f96b12dd0b878bac139c212318b130f821aa9a5522afa0d76dec1ec8609e",
+        "sha256": "9297803bf80dda45dbb16af078cd88dc5b985c6753c8739f840165f906124a89"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/choi/APART/results_apart/we_s0_apart_n4_dual-walker2d-expert-v2-e6ae84a0",

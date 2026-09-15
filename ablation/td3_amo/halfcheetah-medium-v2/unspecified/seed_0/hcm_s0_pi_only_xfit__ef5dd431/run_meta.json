@@ -26,6 +26,23 @@
   "original_rel_path": "runs/apart/pi_only_xfit_target/hcm_s0_pi_only_xfit__ef5dd431",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-v2/unspecified/seed_0/hcm_s0_pi_only_xfit__ef5dd431",
   "run_id": "hcm_s0_pi_only_xfit__ef5dd431",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "ddfd30986d07d4b50074405ff9f430a6202edbb731c4a2e53a6de5c385a6f6d1"
+      },
+      "eval.jsonl": {
+        "sha256": "6f2a668692a6e1e1001bf10daea6b6356d97fd451b3048a9770445f324b94a79"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "705237234567577a0375b74a357a750ee3215582fc9a7cc16619d446b504fa18",
+        "sha256": "d0800fb8a3a08df947c040e3cbea96a648c0026af91975a8619acd56b15f32ce"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {

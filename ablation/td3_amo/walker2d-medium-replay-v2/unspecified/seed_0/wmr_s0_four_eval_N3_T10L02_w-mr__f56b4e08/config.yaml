@@ -1,9 +1,9 @@
 N_capacity: 20
 N_fixed: 3
 N_rule: fixed
-T_init: 10.0
-T_max: 20.0
-T_min: 0.05
+alpha_init: 20.0
+alpha_max: 40.0
+alpha_min: 0.1
 actor_adam_betas: null
 actor_hidden_dims: null
 actor_loss_form: mpi_scaled_q_plus_mean_bc

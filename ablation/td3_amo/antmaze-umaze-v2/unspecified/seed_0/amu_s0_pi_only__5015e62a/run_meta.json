@@ -27,6 +27,23 @@
   "original_rel_path": "runs/amo/pi_only/amu_s0_pi_only__5015e62a",
   "rel_path": "ablation/td3_amo/antmaze-umaze-v2/unspecified/seed_0/amu_s0_pi_only__5015e62a",
   "run_id": "amu_s0_pi_only__5015e62a",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "a1f41c2f1c121418c37eb97f7feba4ed5d00d7f5e8e1d2613032d4453d1a9fc3"
+      },
+      "eval.jsonl": {
+        "sha256": "8ceb893def60e80596ebd4ebff94764c6377fb852db631a9c6cdcea8aff59cf2"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a08e2a76a20edfc952aac44f3e223dfa7ecd4d65af28a6cb79e14f5dec0496bf",
+        "sha256": "2f861f18a2b7e35f1eb374f369a0161406c736a29851a01048c115c77dcbc1a7"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {

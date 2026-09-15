@@ -27,6 +27,23 @@
   "original_rel_path": "runs/amo/pi_only/ammp_s0_pi_only_smoke__545a27cb",
   "rel_path": "ablation/td3_amo/antmaze-medium-play-v2/unspecified/seed_0/ammp_s0_pi_only_smoke__545a27cb",
   "run_id": "ammp_s0_pi_only_smoke__545a27cb",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "dfa17e223b33ad0a035dad25396061a1878de8921f606ae8e38824a4eddf89c1"
+      },
+      "eval.jsonl": {
+        "sha256": "ab979041c412dc345bb8ae0e964b11c6368a17da5f6ad03ede5b1d2a088bf5c9"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "f442d6f0d4d6eb74b5e97947a5dfbd918ec0cc78a8ebaa5ae7edf764b07c97cf",
+        "sha256": "a3b00ad89af11035db80b1679aa339fcbea36cad7ac7525000f930b261044f4b"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {

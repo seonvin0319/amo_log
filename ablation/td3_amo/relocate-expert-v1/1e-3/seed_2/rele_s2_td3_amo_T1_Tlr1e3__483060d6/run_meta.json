@@ -31,15 +31,40 @@
   "original_rel_path": "runs/td3_amo/adroit_T1_Tlr1e3/rele_s2_td3_amo_T1_Tlr1e3__483060d6",
   "rel_path": "ablation/td3_amo/relocate-expert-v1/1e-3/seed_2/rele_s2_td3_amo_T1_Tlr1e3__483060d6",
   "run_id": "rele_s2_td3_amo_T1_Tlr1e3__483060d6",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "7180ff8388dbb20644a5ef1e2fd99740042f49786cf31bab28a64f4021cc1659",
+        "sha256": "4be1586518ea92dbb8c88148847a81e3fe1afb7458692bf9d51578a54e8f5e3f"
+      },
+      "eval.jsonl": {
+        "sha256": "03767efa666c3c345636224e9845c2f9a995be38bb2c17cd171aa5cd1cd4be2d"
+      },
+      "final_eval_50.json": {
+        "sha256": "ba233dcb17798d976d3d9750b858c7fac528136f7f47908adf76bb67e51b93b0"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "f62bf2ebbed1a5c704a4058152b7545d5913a1a37c6de9928bba74c63b6b6fd1",
+        "sha256": "ac3af7ca65f3aa3ac6787e5036ad66e396692a7549e73220b4cf5032e85c8bfd"
+      },
+      "source_run_meta.json": {
+        "sha256": "34cb4000ffe5a7830988c684fe566e6768dcfae43a21653ce93860930340a7de"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 2,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_lr": 0.001,
     "actor_depth": 2,
     "actor_lr": 0.0003,
     "algorithm": "td3_amo",
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_lr": 0.001,
     "batch_size": 256,
     "critic_depth": 3,
     "critic_layernorm": true,

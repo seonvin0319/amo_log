@@ -31,15 +31,40 @@
   "original_rel_path": "runs/td3_amo/adroit_T1_Tlr1e3/penh_s2_td3_amo_T1_Tlr1e3__63b5a4ae",
   "rel_path": "ablation/td3_amo/pen-human-v1/1e-3/seed_2/penh_s2_td3_amo_T1_Tlr1e3__63b5a4ae",
   "run_id": "penh_s2_td3_amo_T1_Tlr1e3__63b5a4ae",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "7180ff8388dbb20644a5ef1e2fd99740042f49786cf31bab28a64f4021cc1659",
+        "sha256": "4be1586518ea92dbb8c88148847a81e3fe1afb7458692bf9d51578a54e8f5e3f"
+      },
+      "eval.jsonl": {
+        "sha256": "7a51b37742d92e62c524eab9e6ab2bdaa2bb8a40f0309b27cb030aa13b991fab"
+      },
+      "final_eval_50.json": {
+        "sha256": "1f40cbb29bf4585b2fb4e6c510d1793a9a224a04c4cdacd47ebe7dc00cfe0a7b"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "e0bc16fca094231458e1d458c87d09de75624d95a03813a8d1632af7accb39fe",
+        "sha256": "1d8ddda1a0649424cde2cc81ee368d48f20b16962aa182710d6cd98381f871e0"
+      },
+      "source_run_meta.json": {
+        "sha256": "9d1acb932c5249b5b18182d7e043563f17d56e5b5e375a581bcafb2dace62498"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 2,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_lr": 0.001,
     "actor_depth": 2,
     "actor_lr": 0.0003,
     "algorithm": "td3_amo",
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_lr": 0.001,
     "batch_size": 256,
     "critic_depth": 3,
     "critic_layernorm": true,

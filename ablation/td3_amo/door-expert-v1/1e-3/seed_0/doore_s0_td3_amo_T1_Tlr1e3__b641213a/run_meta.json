@@ -31,15 +31,40 @@
   "original_rel_path": "runs/td3_amo/adroit_T1_Tlr1e3/doore_s0_td3_amo_T1_Tlr1e3__b641213a",
   "rel_path": "ablation/td3_amo/door-expert-v1/1e-3/seed_0/doore_s0_td3_amo_T1_Tlr1e3__b641213a",
   "run_id": "doore_s0_td3_amo_T1_Tlr1e3__b641213a",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "7180ff8388dbb20644a5ef1e2fd99740042f49786cf31bab28a64f4021cc1659",
+        "sha256": "4be1586518ea92dbb8c88148847a81e3fe1afb7458692bf9d51578a54e8f5e3f"
+      },
+      "eval.jsonl": {
+        "sha256": "007719f68e8e5b045b8119cc941e296c1999f334ed674e5a1a516c8ec945d917"
+      },
+      "final_eval_50.json": {
+        "sha256": "6a6f0ea5ce8dce93bb557fad523ae9eeb7d9d5c94f54326d2ec289f765fc903f"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "aa30b055dba2a595c95a7de935e01825199a1f2ec8b6e97169ac14d8172b8953",
+        "sha256": "d130cedbda3f8f6c4f436681cc506f05db3f1ae3378201687d5dcf669a7ffc35"
+      },
+      "source_run_meta.json": {
+        "sha256": "3dc7eb32f2c367bb640536e2516de5f55f344f70a792c8fbe7c25f1578fa1974"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_lr": 0.001,
     "actor_depth": 2,
     "actor_lr": 0.0003,
     "algorithm": "td3_amo",
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_lr": 0.001,
     "batch_size": 256,
     "critic_depth": 3,
     "critic_layernorm": true,

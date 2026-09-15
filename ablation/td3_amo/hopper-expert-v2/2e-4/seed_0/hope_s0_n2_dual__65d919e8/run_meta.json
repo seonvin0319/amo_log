@@ -27,12 +27,31 @@
   "original_rel_path": "runs/apart/dual_proximal/hope_s0_n2_dual__65d919e8",
   "rel_path": "ablation/td3_amo/hopper-expert-v2/2e-4/seed_0/hope_s0_n2_dual__65d919e8",
   "run_id": "hope_s0_n2_dual__65d919e8",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "ff69f083fd79b767073c324a0500b13ae408c2a5117f6c6d49789a88f87b074a",
+        "sha256": "6c7351803ce267feb5cd2b63c10018913599ddcf303c94af11d35f6266930db7"
+      },
+      "eval.jsonl": {
+        "sha256": "1beb2e5ff81c26d96f46633b931a1acc29f30c5350241700f1a183b2b5cebd59"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a9e309792e09a57ef750b15769404180ce9c908ca1e6e05b66aeced41d119c90",
+        "sha256": "60f071a881ec9bdcf3d6647631f2d748727d1c6e9077da61495cc92ad88fe0c0"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/choi/APART/results_apart/hope_s0_apart_n2_dual-hopper-expert-v2-65d919e8",

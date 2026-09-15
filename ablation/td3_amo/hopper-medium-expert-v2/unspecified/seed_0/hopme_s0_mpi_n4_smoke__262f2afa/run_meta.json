@@ -27,6 +27,23 @@
   "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n4_smoke__262f2afa",
   "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/unspecified/seed_0/hopme_s0_mpi_n4_smoke__262f2afa",
   "run_id": "hopme_s0_mpi_n4_smoke__262f2afa",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "f7a28ac688c8e3e520a8ab875bf8b871bad65b8b190b714501bb249654205362"
+      },
+      "eval.jsonl": {
+        "sha256": "d0db777a9d8057d0eda46c18d53b2a2d3da9c5104d4f635b94a5a4e9aa18e93f"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "27cf09d6b30d36a4d32bffa9d73c82bd2699578832125e6774123986c15fbba2",
+        "sha256": "96eff11a2bc10a50f5c59b81e0df352e91802aafddda5cc9a0a07e5084a234d2"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {

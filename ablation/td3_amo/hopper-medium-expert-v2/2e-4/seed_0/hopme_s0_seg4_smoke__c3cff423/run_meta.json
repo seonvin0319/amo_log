@@ -26,14 +26,33 @@
   "original_rel_path": "runs/amo/segment_interval/hopme_s0_seg4_smoke__c3cff423",
   "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/2e-4/seed_0/hopme_s0_seg4_smoke__c3cff423",
   "run_id": "hopme_s0_seg4_smoke__c3cff423",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "23252331becf2c2e492fcfa7bb29b3f9d86aaf09e299f393ba8e9ffa2d92a6e8",
+        "sha256": "6076570a6f466bfc97af543e26058917c281a8f432c981e551f39616bcd532f0"
+      },
+      "eval.jsonl": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a75abc6c09dfb4a7931e2da192c82ea2265cfabd9f3b2491a23b5007ca2cacdf",
+        "sha256": "a7ded3882dc7df0bb9d121a575a7fbddb3ae73a635d1929ab498d263da25feaa"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": null,
-    "T_E": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
     "adaptive_multiscale": true,
+    "alpha_B": null,
+    "alpha_E": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

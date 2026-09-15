@@ -27,12 +27,31 @@
   "original_rel_path": "runs/apart/chain/hme_s0_n4__54ac6ef5",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-expert-v2/2e-4/seed_0/hme_s0_n4__54ac6ef5",
   "run_id": "hme_s0_n4__54ac6ef5",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "b834b97e3a46bdf09eca99d8426219cf3267b925a606a9f3d0d5e73ccbe1e4ee",
+        "sha256": "0543a8c517a75a0f6c79b4d69826bd4cbee1b61587c2182228624c7de5fa96f2"
+      },
+      "eval.jsonl": {
+        "sha256": "d4f6c83a16727307e3d6d5fc3dc7481e4df165248279863575636ad8a2b238b7"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "e1d42dc0b0df7b3b02ff0ddcbec4b0cef8cd522c767d8ad34826eb5691c952f3",
+        "sha256": "ff12f5e3864caa4ac495787357ab6ac48ac0932dd7449820cb4baf1f93b90979"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/choi/APART/results_apart/hme_s0_apart_n4-halfcheetah-medium-expert-v2-54ac6ef5",

@@ -29,18 +29,37 @@
   "original_rel_path": "runs/amo/t_path_schedule/wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1",
   "rel_path": "ablation/td3_amo/walker2d-medium-replay-v2/2e-4/seed_0/wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1",
   "run_id": "wmr_s0_Tpath_quadratic_1.0to10.0__ef8007d1",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "26b184d5777c362169f8693bfcf1f2707f34675fcf1979d5c82e95ef2a1cdd94",
+        "sha256": "739f68558729380af5c832a57ecff08243594df90d1973f53f347b749a32f889"
+      },
+      "eval.jsonl": {
+        "sha256": "e6192d725b948693f47d0e4d8b5ba7d21420baa1d9ebe4ac1d2a167f838f15a6"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a48d6aae9edbe028fc03d870d6bc4a1da8052fdc99a666878d7fc63f125b5ed1",
+        "sha256": "e5841743dde5fb8c5f570a7a0c14bc4b59f66a647bda58a6b0508f537bb327be"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_freq": 10,
-    "T_lr": 0.0002,
-    "T_schedule": "quadratic",
-    "T_schedule_end": 10.0,
-    "T_schedule_start": 1.0,
-    "T_schedule_steps": 1000000,
     "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
+    "alpha_schedule": "quadratic",
+    "alpha_schedule_end": 20.0,
+    "alpha_schedule_start": 2.0,
+    "alpha_schedule_steps": 1000000,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,
