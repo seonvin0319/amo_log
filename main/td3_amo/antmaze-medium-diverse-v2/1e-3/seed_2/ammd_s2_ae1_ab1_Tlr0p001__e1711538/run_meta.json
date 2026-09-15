@@ -9,7 +9,7 @@
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-medium-div_a1_alr1em3_s2",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T22:27:04+00:00",
+  "collected_at": "2026-09-15T22:39:22+00:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_jax",
