@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "adroit"
   ],
-  "collected_at": "2026-09-15T13:07:10+09:00",
+  "collected_at": "2026-09-15T13:07:58+09:00",
   "env": "hammer-expert-v1",
   "env_short": "hame",
   "family": "adroit_T5_Tlr1e3",
@@ -37,6 +37,9 @@
       },
       "eval.jsonl": {
         "sha256": "dd362db79fc6e3b0364133cfca6e81369155b5d229f98de11fba4be708fbd282"
+      },
+      "final_eval_50.json": {
+        "sha256": "47fe386a5bd6161c4346b102ac36787df5be3d7a562b667d2aa3b7903159d970"
       },
       "metrics.jsonl": {
         "legacy_sha256": "f7f5425c63063df7c50972ee9a94384d151e022401669795075325a6677e087d",

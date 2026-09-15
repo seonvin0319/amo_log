@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "adroit"
   ],
-  "collected_at": "2026-09-15T13:07:10+09:00",
+  "collected_at": "2026-09-15T13:07:58+09:00",
   "env": "pen-human-v1",
   "env_short": "penh",
   "family": "adroit_T5_Tlr1e3",
@@ -37,6 +37,9 @@
       },
       "eval.jsonl": {
         "sha256": "e254351c12e01014e666da27eb6aa56dd6be1ce9ad47dc0c533e0edb9bc0e6c3"
+      },
+      "final_eval_50.json": {
+        "sha256": "b514bbc6719f4d004615324249d6a22c62baf0ad4d0d34c763e25f5ff57eb693"
       },
       "metrics.jsonl": {
         "legacy_sha256": "75b14fe4dd6a6d50ee745787a07650227bf2d2da570d295460aa6eaebe4e9de4",

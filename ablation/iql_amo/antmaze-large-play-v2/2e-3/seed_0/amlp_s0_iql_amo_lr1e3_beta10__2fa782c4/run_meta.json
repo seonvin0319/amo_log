@@ -11,7 +11,7 @@
   "classification_reasons": [
     "initial_beta_outside_main"
   ],
-  "collected_at": "2026-09-15T13:07:10+09:00",
+  "collected_at": "2026-09-15T13:07:57+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "lr1e3_beta_sweep",

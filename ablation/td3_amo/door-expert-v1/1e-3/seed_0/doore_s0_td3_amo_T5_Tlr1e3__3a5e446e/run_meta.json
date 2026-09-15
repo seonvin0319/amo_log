@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "adroit"
   ],
-  "collected_at": "2026-09-15T13:07:10+09:00",
+  "collected_at": "2026-09-15T13:07:58+09:00",
   "env": "door-expert-v1",
   "env_short": "doore",
   "family": "adroit_T5_Tlr1e3",
@@ -37,6 +37,9 @@
       },
       "eval.jsonl": {
         "sha256": "1ce3360bbce6fe973736d4aaf127a74ec40981aa50a50fde378ebc1cc45053eb"
+      },
+      "final_eval_50.json": {
+        "sha256": "82fd6134a994299bb6f83da043c02221c6804810741544ef025c209e441d94d4"
       },
       "metrics.jsonl": {
         "legacy_sha256": "0d8699700dc211592fa4f51a56dc42311d21c4c354fe09303432245475250741",

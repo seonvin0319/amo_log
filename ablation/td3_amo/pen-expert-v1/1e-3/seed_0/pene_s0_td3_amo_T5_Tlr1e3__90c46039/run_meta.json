@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "adroit"
   ],
-  "collected_at": "2026-09-15T13:07:10+09:00",
+  "collected_at": "2026-09-15T13:07:58+09:00",
   "env": "pen-expert-v1",
   "env_short": "pene",
   "family": "adroit_T5_Tlr1e3",
@@ -37,6 +37,9 @@
       },
       "eval.jsonl": {
         "sha256": "e3ee39744bdfc3966540ae058737246f8a42c9d3d19aa17dfec15d1031431acd"
+      },
+      "final_eval_50.json": {
+        "sha256": "afb4b5666ffe8e5eae187eb414f80638e8e7238a441c92d360702f16a97c09e4"
       },
       "metrics.jsonl": {
         "legacy_sha256": "82fcc701855215999bf1586bfbdfe596e8a8d1437b08eca0c6031df061b7b55f",

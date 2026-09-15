@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "adroit"
   ],
-  "collected_at": "2026-09-15T13:07:10+09:00",
+  "collected_at": "2026-09-15T13:07:58+09:00",
   "env": "relocate-cloned-v1",
   "env_short": "relc",
   "family": "adroit_T5_Tlr1e3",
@@ -37,6 +37,9 @@
       },
       "eval.jsonl": {
         "sha256": "57255d6c456285ec3ac35b279a6997c31679cb8ea1ac2691c53111a92f1941c9"
+      },
+      "final_eval_50.json": {
+        "sha256": "36acb76af411c353dd13296a9aff28dcfa15ee0a6858472af3c56cf7bfe5a94d"
       },
       "metrics.jsonl": {
         "legacy_sha256": "bf51c6dacb82d744de16100f12b8bf626fb110d38a22b03af3e131279aee5037",
