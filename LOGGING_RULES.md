@@ -11,7 +11,7 @@
 - `<method>`: `td3_amo`, `iql_amo`, `td3bc+rc`, `iql`, `a2pr`, `wpc`, `aspc`만 사용한다.
 - 환경은 `walker2d-medium-replay-v2` 같은 전체 이름과 버전을 사용한다. 약어·unknown을 쓰지 않는다.
 - AMO meta lr 폴더는 `alpha_lr`(기존 `T_lr`와 같은 학습률) 또는 `rho_lr`(=beta_lr)를 뜻한다. actor/critic lr를 이 폴더로 대신하지 않는다.
-- AMO 본 실험의 lr 이름은 `1e-3`, `2e-3`, `3e-4`. 다른 lr 실험은 실제 lr 이름으로 ablation에 저장한다.
+- AMO 본 실험의 lr 이름은 `1e-3`, `2e-3`, `3e-4`. 다른 meta lr 실험은 실제 lr 이름으로 ablation에 저장한다.
 - baseline에는 meta_lr 폴더를 만들지 않는다. 예: `main/iql/hopper-medium-v2/seed_0/<run_id>/`.
 - 실제 로그가 있는 경로만 만든다. 폴더가 있다는 이유로 완료된 실행이라고 판단하지 않는다.
 
@@ -33,6 +33,15 @@
 - baseline의 고유 beta 설정은 AMO 초기 beta가 아니므로 이 초기값 제한을 적용하지 않는다.
 - 폴더 이름이나 높은 점수로 실험 설정을 추정하지 않는다. 설정 파일과 원본 metadata를 먼저 확인한다.
 - `adroit`, `initial_scale_outside_main`, `initial_scale_mismatch`, `initial_beta_outside_main` 등의 사유를 metadata에 기록한다. 초기값만 허용 범위에 들어와도 다른 ablation 사유가 남으면 승격하지 않는다.
+
+## 잘못 변경한 네트워크 학습률
+
+- 사용자 지시에 따라 기본 네트워크 lr를 바꾼 실행은 잘못 돌린 로그로 취급한다. main과 ablation 모두 실행 디렉터리 전체와 카탈로그 항목을 삭제하며 ablation으로 보관하지 않는다. 과거 원본은 Git 이력에 남는다.
+- 지원 방법의 `actor_lr`, `critic_lr`와 그 별칭 `qf_lr`는 **3e-4**여야 한다. IQL/IQL-AMO/wPC/A2PR의 `value_lr`·`vf_lr`, TD3-AMO의 별도 behavior 네트워크 `behavior_lr`도 **3e-4**를 적용한다.
+- 실제 config와 metadata settings에 명시된 값 모두 확인한다. 생략/null은 과거 implicit default로 두며 폴더 이름만으로 변경을 추정하지 않는다. `3e-4` 문자열과 `0.0003`은 같다.
+- `alpha_lr`(과거 `T_lr`), `rho_lr`/`beta_lr`, `scale_lr`, `lambda_lr` 등 meta lr 튜닝은 이 삭제 조건이 아니다. A2PR의 `vae_lr=1e-3` 및 IQL config에 남은 미사용 `cql_policy_lr` 같은 별도/미사용 항목에도 actor lr 기준을 적용하지 않는다.
+- `catalog/removed_invalid_network_lr.json`에는 삭제 사유, 위반 필드, run_id, source_path, code_commit과 기존 위치만 남긴다. 원본 점수나 로그는 복사하지 않는다. 같은 source_path+code_commit(경로 미기록 시 run_id+commit)의 재수집은 차단한다. 올바른 설정으로 다시 실행할 때는 새 실행 식별자를 사용한다.
+- 공통 정규화기는 신규 `runs/`와 기존 `main/`·`ablation/`에서 위반 실행을 제거한 뒤 카탈로그를 재생성한다. 검증기는 실제 config까지 읽어 위반 및 삭제 실행의 재유입을 거부한다.
 
 ## 기존 로그 재분류
 
