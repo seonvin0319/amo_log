@@ -1,0 +1,87 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:adroit_T5_Tlr1e3",
+    "initial_scale_outside_main",
+    "adroit"
+  ],
+  "collected_at": "2026-09-15T13:07:10+09:00",
+  "env": "door-human-v1",
+  "env_short": "doorh",
+  "family": "adroit_T5_Tlr1e3",
+  "git": {
+    "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "doorh_s2",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/adroit_T5_Tlr1e3/doorh_s2_td3_amo_T5_Tlr1e3__2f339b7f",
+  "rel_path": "ablation/td3_amo/door-human-v1/1e-3/seed_2/doorh_s2_td3_amo_T5_Tlr1e3__2f339b7f",
+  "run_id": "doorh_s2_td3_amo_T5_Tlr1e3__2f339b7f",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "80fe1842f34e6208dfffbb3f55cc8df082aaf9abc27b432f06f71022047bcfe6",
+        "sha256": "b19449c91df7557047660248650c304719aafc4631624575ebf2ae201a3b1d5f"
+      },
+      "eval.jsonl": {
+        "sha256": "8785cdd1c115cbfce44d2388cc971de01388b25aaca458a8251840bc4b2f1a75"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "236d36aa692596d40affeb15f17a234cd003682be61d26d9f70d4791f2d8f5de",
+        "sha256": "d80805b9d1fb2fd1b008e91723e072e176e2136e7bdcd312a814c59667050988"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 10.0,
+    "alpha_E": 10.0,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "door-human-v1",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_adroit_T5_Tlr1e3_seeds03/jobs/doorh_s2/run",
+  "variant": "td3_amo_T5_Tlr1e3"
+}

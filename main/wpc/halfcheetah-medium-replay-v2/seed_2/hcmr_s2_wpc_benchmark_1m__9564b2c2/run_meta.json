@@ -1,5 +1,8 @@
 {
   "algo": "wpc",
+  "aliases": [
+    "hcmr_s2_wpc__22563a25"
+  ],
   "artifacts": [
     "config.yaml",
     "eval.jsonl",
@@ -9,7 +12,7 @@
   "backend": "torch",
   "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s2-halfcheetah-medium-replay-v2-22563a25/checkpoint_999999.pt",
   "classification_reasons": [],
-  "collected_at": "2026-09-13T01:42:07+09:00",
+  "collected_at": "2026-09-15T13:07:10+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "benchmark",

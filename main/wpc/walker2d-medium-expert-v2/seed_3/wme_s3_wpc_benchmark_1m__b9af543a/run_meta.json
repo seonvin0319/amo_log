@@ -1,5 +1,8 @@
 {
   "algo": "wpc",
+  "aliases": [
+    "wme_s3_wpc__4dc3b69e"
+  ],
   "artifacts": [
     "config.yaml",
     "eval.jsonl",
@@ -8,7 +11,7 @@
   "backend": "torch",
   "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-walker2d-medium-expert-v2-4dc3b69e/checkpoint_999999.pt",
   "classification_reasons": [],
-  "collected_at": "2026-09-13T04:35:53+09:00",
+  "collected_at": "2026-09-15T13:07:10+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "benchmark",
