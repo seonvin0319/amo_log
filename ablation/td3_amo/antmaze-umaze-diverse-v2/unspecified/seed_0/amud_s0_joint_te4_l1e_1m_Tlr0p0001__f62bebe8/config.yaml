@@ -56,7 +56,7 @@ normalize_reward: false
 observation_std_eps: 0.001
 outer_batch_size: 256
 outer_seed_offset: 30000
-output_dir: /home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0
+output_dir: /home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0
 policy_noise_std: 0.0
 protocol_version: behavior_bc_l1_joint_v2
 q_scale_eps: 1.0e-06

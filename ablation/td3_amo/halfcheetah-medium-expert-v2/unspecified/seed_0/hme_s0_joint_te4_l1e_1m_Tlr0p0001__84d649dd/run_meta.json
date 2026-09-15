@@ -16,7 +16,7 @@
     "execution_loss",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T05:28:44+00:00",
+  "collected_at": "2026-09-15T06:52:36+00:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "behavior_bc_l1_joint",
@@ -45,7 +45,7 @@
     "files": {
       "config.yaml": {
         "legacy_sha256": "8c90bb737fdcd621fba016eb66618325408a0d5c01eff8777d8da598554d1975",
-        "sha256": "5b7e4728584731880180b8c8514cbd0ca56a35ddca21f7299d96f2eee13b0889"
+        "sha256": "dfdb1cbfd68c32ca95e10b45042e774888f0c35c39214bf24f7d559b63731c9f"
       },
       "eval.jsonl": {
         "sha256": "e0d2cc58cd3fcf38cac41cacec542611da9567b1ded82008332dc2f0bb44e2e0"
@@ -130,7 +130,7 @@
     "observation_std_eps": 0.001,
     "outer_batch_size": 256,
     "outer_seed_offset": 30000,
-    "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hc-me_s0",
+    "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hc-me_s0",
     "policy_noise_std": 0.0,
     "protocol_version": "behavior_bc_l1_joint_v2",
     "q_scale_eps": 1e-06,

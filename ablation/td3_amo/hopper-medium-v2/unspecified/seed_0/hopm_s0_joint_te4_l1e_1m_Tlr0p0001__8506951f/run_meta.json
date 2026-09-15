@@ -16,7 +16,7 @@
     "execution_loss",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T05:28:44+00:00",
+  "collected_at": "2026-09-15T06:52:36+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "behavior_bc_l1_joint",
@@ -45,7 +45,7 @@
     "files": {
       "config.yaml": {
         "legacy_sha256": "94de95beb005c68c9f1148464c2240e183339c2256390167db6b103d9c79388c",
-        "sha256": "cc875262cb56a6fb984720debf8e81648c33423519a6eae52105259496f11d6b"
+        "sha256": "3a4f67faba770b5fe1dd3d509d4120a6ec6eff290589550657b597db191f1399"
       },
       "eval.jsonl": {
         "sha256": "302fe10f998e4937c1c71e7c66d5cf3a277bdb8e54552e390ab3bab994fdfa5c"
@@ -130,7 +130,7 @@
     "observation_std_eps": 0.001,
     "outer_batch_size": 256,
     "outer_seed_offset": 30000,
-    "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
+    "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
     "policy_noise_std": 0.0,
     "protocol_version": "behavior_bc_l1_joint_v2",
     "q_scale_eps": 1e-06,

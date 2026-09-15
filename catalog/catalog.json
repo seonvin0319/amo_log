@@ -13,7 +13,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -94,7 +94,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -175,7 +175,7 @@
       "classification_reasons": [
         "adroit"
       ],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "relocate-expert-v1",
       "env_short": "rele",
       "family": "iql_amo_jax_adroit_beta1_rho",
@@ -256,7 +256,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -357,7 +357,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -457,7 +457,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -557,7 +557,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -656,7 +656,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -757,7 +757,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -857,7 +857,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -956,7 +956,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -1055,7 +1055,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1156,7 +1156,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1256,7 +1256,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1355,7 +1355,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -1460,7 +1460,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "behavior_bc_l1_joint",
@@ -1490,7 +1490,7 @@
         "files": {
           "config.yaml": {
             "legacy_sha256": "8f17ceb8a62d6d82cf845dc6a7c37cbc8a22389c5364e564d9fc3e5ebfdfdeb1",
-            "sha256": "27dee29217732ee130ec22c39bd6a3064d7e3531e7b3f96a842a307da92ed99b"
+            "sha256": "6062f6d1c0260677915e423560277880c61d9a2d37115628920f05723fc193db"
           },
           "eval.jsonl": {
             "sha256": "e3e90dca17ee1228ad0ce85a1fbd94eb3bfb8e2e32360bd4f47e95dd67f0c419"
@@ -1575,7 +1575,7 @@
         "observation_std_eps": 0.001,
         "outer_batch_size": 256,
         "outer_seed_offset": 30000,
-        "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_med-play_s0",
+        "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_med-play_s0",
         "policy_noise_std": 0.0,
         "protocol_version": "behavior_bc_l1_joint_v2",
         "q_scale_eps": 1e-06,
@@ -1610,7 +1610,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1711,7 +1711,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1811,7 +1811,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -1910,7 +1910,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -2015,7 +2015,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "behavior_bc_l1_joint",
@@ -2045,7 +2045,7 @@
         "files": {
           "config.yaml": {
             "legacy_sha256": "1039874c94864dc5c3fe41e7ec14edb02bc5e87017798dbc5e184d81cf73421d",
-            "sha256": "a7959f56b8767e6dcb2b1557d62d4e1189abb07f68ec351916caa0c769afcac8"
+            "sha256": "eae4b82845acb3edbcf166936df631a41435292ff31f160639b8a2c3bd51f38b"
           },
           "eval.jsonl": {
             "sha256": "413d66020a3ea3171826184335f28869912434f0b1db559051fa2270ef09ae3b"
@@ -2130,7 +2130,7 @@
         "observation_std_eps": 0.001,
         "outer_batch_size": 256,
         "outer_seed_offset": 30000,
-        "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0",
+        "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0",
         "policy_noise_std": 0.0,
         "protocol_version": "behavior_bc_l1_joint_v2",
         "q_scale_eps": 1e-06,
@@ -2165,7 +2165,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2266,7 +2266,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2366,7 +2366,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2465,7 +2465,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -2564,7 +2564,7 @@
       "classification_reasons": [
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2665,7 +2665,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2765,7 +2765,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2864,7 +2864,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -2969,7 +2969,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "behavior_bc_l1_joint",
@@ -2999,7 +2999,7 @@
         "files": {
           "config.yaml": {
             "legacy_sha256": "8c90bb737fdcd621fba016eb66618325408a0d5c01eff8777d8da598554d1975",
-            "sha256": "5b7e4728584731880180b8c8514cbd0ca56a35ddca21f7299d96f2eee13b0889"
+            "sha256": "dfdb1cbfd68c32ca95e10b45042e774888f0c35c39214bf24f7d559b63731c9f"
           },
           "eval.jsonl": {
             "sha256": "e0d2cc58cd3fcf38cac41cacec542611da9567b1ded82008332dc2f0bb44e2e0"
@@ -3084,7 +3084,7 @@
         "observation_std_eps": 0.001,
         "outer_batch_size": 256,
         "outer_seed_offset": 30000,
-        "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hc-me_s0",
+        "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hc-me_s0",
         "policy_noise_std": 0.0,
         "protocol_version": "behavior_bc_l1_joint_v2",
         "q_scale_eps": 1e-06,
@@ -3119,7 +3119,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -3221,7 +3221,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -3323,7 +3323,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -3426,7 +3426,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -3525,7 +3525,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -3627,7 +3627,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3729,7 +3729,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3831,7 +3831,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -3933,7 +3933,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4035,7 +4035,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4137,7 +4137,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4240,7 +4240,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4339,7 +4339,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -4447,7 +4447,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "behavior_bc_l1_joint",
@@ -4477,7 +4477,7 @@
         "files": {
           "config.yaml": {
             "legacy_sha256": "f1f2c71fe7d5f8baaf59fff5eaef6a4f0c48b83b3c1d01110d29cb62202f53c1",
-            "sha256": "e6b16edae335e9bae63669bea551b2e2ab31741a48d05c9fdc398d7e2b994eed"
+            "sha256": "3ef32814c7b97acec8d0e966fa2bd38552f3d658572bac3b8d40c7c0503cf303"
           },
           "eval.jsonl": {
             "sha256": "7f5c1105ac228b4d48ff07c3cb82b11f27dad05ec7fa933339f44225ab82584c"
@@ -4562,7 +4562,7 @@
         "observation_std_eps": 0.001,
         "outer_batch_size": 256,
         "outer_seed_offset": 30000,
-        "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hc-m_s0",
+        "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hc-m_s0",
         "policy_noise_std": 0.0,
         "protocol_version": "behavior_bc_l1_joint_v2",
         "q_scale_eps": 1e-06,
@@ -4597,7 +4597,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4699,7 +4699,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4801,7 +4801,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -4903,7 +4903,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5006,7 +5006,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5108,7 +5108,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5211,7 +5211,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5313,7 +5313,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5416,7 +5416,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5519,7 +5519,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5618,7 +5618,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -5726,7 +5726,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "behavior_bc_l1_joint",
@@ -5756,7 +5756,7 @@
         "files": {
           "config.yaml": {
             "legacy_sha256": "ac32df4cd7aed47d14943d5d4186f7c79f11ba4ae1f0745712a98e65b55873ca",
-            "sha256": "8eb53a9bfe9cb56fac3acb6bf814b6f3ba63aee51f617437c2bcc9e4888f8a8a"
+            "sha256": "9e234c5435f3299699ecb81ddae3deb48b16a91f30a3c4663b4eca03fe055481"
           },
           "eval.jsonl": {
             "sha256": "b563b790f3ed9f996c8fa0c4d486b0b49cb64f1f32dfcee9f947eae56808dd09"
@@ -5841,7 +5841,7 @@
         "observation_std_eps": 0.001,
         "outer_batch_size": 256,
         "outer_seed_offset": 30000,
-        "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
+        "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
         "policy_noise_std": 0.0,
         "protocol_version": "behavior_bc_l1_joint_v2",
         "q_scale_eps": 1e-06,
@@ -5876,7 +5876,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -5978,7 +5978,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6080,7 +6080,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6183,7 +6183,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6282,7 +6282,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -6384,7 +6384,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -6486,7 +6486,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -6588,7 +6588,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -6691,7 +6691,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -6794,7 +6794,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -6897,7 +6897,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7000,7 +7000,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7099,7 +7099,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -7207,7 +7207,7 @@
         "execution_loss",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "behavior_bc_l1_joint",
@@ -7237,7 +7237,7 @@
         "files": {
           "config.yaml": {
             "legacy_sha256": "94de95beb005c68c9f1148464c2240e183339c2256390167db6b103d9c79388c",
-            "sha256": "cc875262cb56a6fb984720debf8e81648c33423519a6eae52105259496f11d6b"
+            "sha256": "3a4f67faba770b5fe1dd3d509d4120a6ec6eff290589550657b597db191f1399"
           },
           "eval.jsonl": {
             "sha256": "302fe10f998e4937c1c71e7c66d5cf3a277bdb8e54552e390ab3bab994fdfa5c"
@@ -7322,7 +7322,7 @@
         "observation_std_eps": 0.001,
         "outer_batch_size": 256,
         "outer_seed_offset": 30000,
-        "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
+        "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-m_s0",
         "policy_noise_std": 0.0,
         "protocol_version": "behavior_bc_l1_joint_v2",
         "q_scale_eps": 1e-06,
@@ -7357,7 +7357,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -7459,7 +7459,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -7561,7 +7561,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -7664,7 +7664,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -7767,7 +7767,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -7870,7 +7870,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -7973,7 +7973,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -8072,7 +8072,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -8174,7 +8174,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8276,7 +8276,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8378,7 +8378,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8481,7 +8481,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8584,7 +8584,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8687,7 +8687,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8790,7 +8790,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8889,7 +8889,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -8991,7 +8991,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9093,7 +9093,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9195,7 +9195,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9298,7 +9298,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9401,7 +9401,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9504,7 +9504,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9607,7 +9607,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9706,7 +9706,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -9808,7 +9808,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -9910,7 +9910,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -10012,7 +10012,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -10115,7 +10115,7 @@
         "initial_scale_outside_main",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -10214,7 +10214,7 @@
       "classification_reasons": [
         "initial_scale_outside_main"
       ],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -10314,7 +10314,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-div_Te1_Tb1_1em3_s0-antmaze-large-diverse-v2-d3ec830d",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -10412,7 +10412,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_large-div_Te1_Tb1_BCq_1em3_s0-antmaze-large-diverse-v2-f1b9ca2e",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -10511,7 +10511,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_large-div_Te1_Tb1_1em3_s1-antmaze-large-diverse-v2-363a73f8",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -10611,7 +10611,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-div_Te1_Tb1_s0-antmaze-large-diverse-v2-e7595ffa",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "adaptive_multiscale",
@@ -10708,7 +10708,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_large-play_Te1_Tb1_BCq_1em3_s0-antmaze-large-play-v2-41af8157",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -10807,7 +10807,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_large-play_Te1_Tb1_1em3_s0-antmaze-large-play-v2-da0b4ffa",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -10905,7 +10905,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_large-play_Te1_Tb1_1em3_s1-antmaze-large-play-v2-6e0e2162",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -11005,7 +11005,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_large-play_Te1_Tb1_s0-antmaze-large-play-v2-03774c0e",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "adaptive_multiscale",
@@ -11102,7 +11102,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_med-div_Te1_Tb1_BCq_1em3_s0-antmaze-medium-diverse-v2-a96c2874",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -11201,7 +11201,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-div_Te1_Tb1_1em3_s0-antmaze-medium-diverse-v2-c136d997",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -11299,7 +11299,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_med-div_Te1_Tb1_1em3_s1-antmaze-medium-diverse-v2-d32e0ec2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -11399,7 +11399,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-div_Te1_Tb1_s0-antmaze-medium-diverse-v2-918083c0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "adaptive_multiscale",
@@ -11496,7 +11496,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_med-play_Te1_Tb1_1em3_s0-antmaze-medium-play-v2-3655f7a4",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -11594,7 +11594,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_med-play_Te1_Tb1_BCq_1em3_s0-antmaze-medium-play-v2-79cedde3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -11693,7 +11693,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_med-play_Te1_Tb1_1em3_s1-antmaze-medium-play-v2-c198b33f",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -11793,7 +11793,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_med-play_Te1_Tb1_s0-antmaze-medium-play-v2-4780db25",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "adaptive_multiscale",
@@ -11890,7 +11890,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_umaze-div_Te1_Tb1_BCq_1em3_s0-antmaze-umaze-diverse-v2-90f71451",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -11989,7 +11989,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze-div_Te1_Tb1_1em3_s0-antmaze-umaze-diverse-v2-9a179fb0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -12087,7 +12087,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_umaze-div_Te1_Tb1_1em3_s1-antmaze-umaze-diverse-v2-009e3452",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -12187,7 +12187,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze-div_Te1_Tb1_s0-antmaze-umaze-diverse-v2-c6a40782",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "adaptive_multiscale",
@@ -12284,7 +12284,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tb_bc_qimprove_1em3_seed0/runs/amo_ams_umaze_Te1_Tb1_BCq_1em3_s0-antmaze-umaze-v2-435aa2a2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -12383,7 +12383,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_seed0/runs/amo_ams_umaze_Te1_Tb1_1em3_s0-antmaze-umaze-v2-7f3e7a0e",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -12481,7 +12481,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_tlr_te1tb1_1em3_seeds123/runs/amo_ams_umaze_Te1_Tb1_1em3_s1-antmaze-umaze-v2-8dca75a3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -12581,7 +12581,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_antmaze6_scale_sweep_seed0/runs/amo_ams_umaze_Te1_Tb1_s0-antmaze-umaze-v2-9c6fdf8b",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:36+00:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "adaptive_multiscale",
@@ -12669,6 +12669,101 @@
       "variant": "te1_tb1_Tlr0p002"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s0",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "a97f4c4b",
+      "last_eval_step": 1000000,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr3em4_s0",
+      "meta_lr": 0.0003,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s0/checkpoints/step_1000000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s0_ae1_ab1_Tlr0p0003__a97f4c4b",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/3e-4/seed_0/hme_s0_ae1_ab1_Tlr0p0003__a97f4c4b",
+      "run_id": "hme_s0_ae1_ab1_Tlr0p0003__a97f4c4b",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "3930dbe2255a0663fd02d643c4acd7d00165d69fc14a4fd93badf672f1a20eb2"
+          },
+          "metrics.jsonl": {
+            "sha256": "f88cbc63c508e270e09d7cc8d0c895e67fde134edaaf56637dd11c058caaf7c1"
+          },
+          "source_run_meta.json": {
+            "sha256": "5a3e655beb3a5e09e959a4c17e77596e5e4bc6a36947381a747c0a82c98c4379"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 0,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s0",
+      "variant": "ae1_ab1_Tlr0p0003"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -12678,7 +12773,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-expert-v2-e19be219",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -12769,6 +12864,101 @@
       "variant": "te1_tb1_Tlr0p0003"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s1",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "6e99b246",
+      "last_eval_step": 1000000,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr3em4_s1",
+      "meta_lr": 0.0003,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s1/checkpoints/step_1000000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s1_ae1_ab1_Tlr0p0003__6e99b246",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/3e-4/seed_1/hme_s1_ae1_ab1_Tlr0p0003__6e99b246",
+      "run_id": "hme_s1_ae1_ab1_Tlr0p0003__6e99b246",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "f95316a30d8ea84d2845fa17c616fd37673b2136149a4a956641d215c662bd8b"
+          },
+          "metrics.jsonl": {
+            "sha256": "b7632763cb0c8d482db586f9c0a9168bd8483ae80ea6c8f60788577c1f2650af"
+          },
+          "source_run_meta.json": {
+            "sha256": "c30f51c284033f45ab62b368e978dc8128affc1386e13ed0e6e76cc174370293"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 1,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 1,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s1",
+      "variant": "ae1_ab1_Tlr0p0003"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -12778,7 +12968,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s1-halfcheetah-medium-expert-v2-ba58d9c4",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -12870,6 +13060,101 @@
       "variant": "te1_tb1_Tlr0p0003"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s2",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "fa1395cc",
+      "last_eval_step": 1000000,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr3em4_s2",
+      "meta_lr": 0.0003,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s2/checkpoints/step_1000000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s2_ae1_ab1_Tlr0p0003__fa1395cc",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/3e-4/seed_2/hme_s2_ae1_ab1_Tlr0p0003__fa1395cc",
+      "run_id": "hme_s2_ae1_ab1_Tlr0p0003__fa1395cc",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "870ae1e300c5629d4130f206996c1fe2ce04c7337ad65160da7ce04eb46f7e3c"
+          },
+          "metrics.jsonl": {
+            "sha256": "2709234869f0798dc66fe10074de367ba39ecdea9a48d6cfdc6092eec8ce5b0f"
+          },
+          "source_run_meta.json": {
+            "sha256": "8870af8a707139173a87035753befed10de52374729e0075f02196679301e6fe"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 2,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s2",
+      "variant": "ae1_ab1_Tlr0p0003"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -12879,7 +13164,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s2-halfcheetah-medium-expert-v2-e95efb67",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -12971,6 +13256,101 @@
       "variant": "te1_tb1_Tlr0p0003"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s3",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "3fe54c0d",
+      "last_eval_step": 1000000,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr3em4_s3",
+      "meta_lr": 0.0003,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s3/checkpoints/step_1000000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s3_ae1_ab1_Tlr0p0003__3fe54c0d",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/3e-4/seed_3/hme_s3_ae1_ab1_Tlr0p0003__3fe54c0d",
+      "run_id": "hme_s3_ae1_ab1_Tlr0p0003__3fe54c0d",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "44e297a2335377935269722e759323d2a44164d4910d4ce8c31685f0ac1f0098"
+          },
+          "metrics.jsonl": {
+            "sha256": "e3d88924a14745e6a330a108e261430ea15867da59d7a3201fc3077e9d46eb55"
+          },
+          "source_run_meta.json": {
+            "sha256": "ecb9c1ee349fae58716779fd17bd2079877e36200c89209d85e6ca26af16f395"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 3,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.0003,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 3,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr3em4_s3",
+      "variant": "ae1_ab1_Tlr0p0003"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -12980,7 +13360,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p0003_s3-halfcheetah-medium-expert-v2-bc9427d0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -13072,6 +13452,196 @@
       "variant": "te1_tb1_Tlr0p0003"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s0",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "cfc29775",
+      "last_eval_step": 1000000,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr1em3_s0",
+      "meta_lr": 0.001,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s0/checkpoints/step_1000000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s0_ae1_ab1_Tlr0p001__cfc29775",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_0/hme_s0_ae1_ab1_Tlr0p001__cfc29775",
+      "run_id": "hme_s0_ae1_ab1_Tlr0p001__cfc29775",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "eval.jsonl": {
+            "sha256": "aa7264222e28a787d2159ebae66b7721b577b8bf007315117861cfa2171cd089"
+          },
+          "metrics.jsonl": {
+            "sha256": "2d86fb9ce3c7e1292d404f64d5f73dad55c0d0e6b9690b9b60a00d8f276bff6b"
+          },
+          "source_run_meta.json": {
+            "sha256": "5a3e655beb3a5e09e959a4c17e77596e5e4bc6a36947381a747c0a82c98c4379"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 0,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.001,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s0",
+      "variant": "ae1_ab1_Tlr0p001"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s1",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "c10607dd",
+      "last_eval_step": 1000000,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr1em3_s1",
+      "meta_lr": 0.001,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s1/checkpoints/step_1000000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s1_ae1_ab1_Tlr0p001__c10607dd",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_1/hme_s1_ae1_ab1_Tlr0p001__c10607dd",
+      "run_id": "hme_s1_ae1_ab1_Tlr0p001__c10607dd",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "eval.jsonl": {
+            "sha256": "5e3f7fdf8c900d8c53f9e6d455c6595897530f3b5edb37e29d9771a3a881cce2"
+          },
+          "metrics.jsonl": {
+            "sha256": "3f94e1e56d72c9e9c7f118355f7fb68ff1ac3bb779aee652da296de0f3891552"
+          },
+          "source_run_meta.json": {
+            "sha256": "c30f51c284033f45ab62b368e978dc8128affc1386e13ed0e6e76cc174370293"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 1,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.001,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 1,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s1",
+      "variant": "ae1_ab1_Tlr0p001"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -13081,7 +13651,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s1-halfcheetah-medium-expert-v2-a7a01a9b",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -13169,6 +13739,97 @@
       "variant": "te1_tb1_Tlr0p001"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s2",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "f5135520",
+      "last_eval_step": null,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr1em3_s2",
+      "meta_lr": 0.001,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s2/checkpoints/step_940000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s2_ae1_ab1_Tlr0p001__f5135520",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_2/hme_s2_ae1_ab1_Tlr0p001__f5135520",
+      "run_id": "hme_s2_ae1_ab1_Tlr0p001__f5135520",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "metrics.jsonl": {
+            "sha256": "f2d90b5b4eca33742e61c9968d86fd819881710941e1f8f62604f0b0d9a3fac7"
+          },
+          "source_run_meta.json": {
+            "sha256": "8870af8a707139173a87035753befed10de52374729e0075f02196679301e6fe"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 2,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.001,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s2",
+      "variant": "ae1_ab1_Tlr0p001"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -13178,7 +13839,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s2-halfcheetah-medium-expert-v2-acae0113",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -13266,6 +13927,97 @@
       "variant": "te1_tb1_Tlr0p001"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s3",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "e2c8fcb7",
+      "last_eval_step": null,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr1em3_s3",
+      "meta_lr": 0.001,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s3/checkpoints/step_940000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s3_ae1_ab1_Tlr0p001__e2c8fcb7",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_3/hme_s3_ae1_ab1_Tlr0p001__e2c8fcb7",
+      "run_id": "hme_s3_ae1_ab1_Tlr0p001__e2c8fcb7",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "metrics.jsonl": {
+            "sha256": "b5753ee72a6c3c385d79c5cb6230d5047853c10215f48f4f30c3bdc108b3c12b"
+          },
+          "source_run_meta.json": {
+            "sha256": "ecb9c1ee349fae58716779fd17bd2079877e36200c89209d85e6ca26af16f395"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 3,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.001,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 3,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr1em3_s3",
+      "variant": "ae1_ab1_Tlr0p001"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -13275,7 +14027,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-me_Te1_Tb1_1em3_s3-halfcheetah-medium-expert-v2-749e57ed",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -13363,6 +14115,97 @@
       "variant": "te1_tb1_Tlr0p001"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s0",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "b895113c",
+      "last_eval_step": null,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr2em3_s0",
+      "meta_lr": 0.002,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s0/checkpoints/step_900000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s0_ae1_ab1_Tlr0p002__b895113c",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/2e-3/seed_0/hme_s0_ae1_ab1_Tlr0p002__b895113c",
+      "run_id": "hme_s0_ae1_ab1_Tlr0p002__b895113c",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "metrics.jsonl": {
+            "sha256": "d485a1d7ef5e59950c32abf5a5520e3ae351788601695106a1249e07eaab1ef1"
+          },
+          "source_run_meta.json": {
+            "sha256": "5a3e655beb3a5e09e959a4c17e77596e5e4bc6a36947381a747c0a82c98c4379"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 0,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.002,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 0,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s0",
+      "variant": "ae1_ab1_Tlr0p002"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -13372,7 +14215,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p002_s0-halfcheetah-medium-expert-v2-e7305f91",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -13464,6 +14307,97 @@
       "variant": "te1_tb1_Tlr0p002"
     },
     {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s1",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "a2023dc3",
+      "last_eval_step": null,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr2em3_s1",
+      "meta_lr": 0.002,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s1/checkpoints/step_880000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s1_ae1_ab1_Tlr0p002__a2023dc3",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/2e-3/seed_1/hme_s1_ae1_ab1_Tlr0p002__a2023dc3",
+      "run_id": "hme_s1_ae1_ab1_Tlr0p002__a2023dc3",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "metrics.jsonl": {
+            "sha256": "47f76c3b8a9078b844bf58c3d2c2ff5e5b2e4ccc1f0d2482e68f133873d4e03d"
+          },
+          "source_run_meta.json": {
+            "sha256": "c30f51c284033f45ab62b368e978dc8128affc1386e13ed0e6e76cc174370293"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 1,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.002,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 1,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s1",
+      "variant": "ae1_ab1_Tlr0p002"
+    },
+    {
       "algo": "amo",
       "artifacts": [
         "config.yaml",
@@ -13473,7 +14407,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-me_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-expert-v2-3ba6d257",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-expert-v2",
       "env_short": "hme",
       "family": "adaptive_multiscale",
@@ -13572,9 +14506,192 @@
         "source_run_meta.json"
       ],
       "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s2",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "07a93247",
+      "last_eval_step": null,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr2em3_s2",
+      "meta_lr": 0.002,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s2/checkpoints/step_780000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s2_ae1_ab1_Tlr0p002__07a93247",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/2e-3/seed_2/hme_s2_ae1_ab1_Tlr0p002__07a93247",
+      "run_id": "hme_s2_ae1_ab1_Tlr0p002__07a93247",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "metrics.jsonl": {
+            "sha256": "74f1e0042e45f58bc52e4d951b617c512d14e765d360402041020532b8f17e72"
+          },
+          "source_run_meta.json": {
+            "sha256": "8870af8a707139173a87035753befed10de52374729e0075f02196679301e6fe"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 2,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.002,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s2",
+      "variant": "ae1_ab1_Tlr0p002"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s3",
+      "classification_reasons": [],
+      "collected_at": "2026-09-15T06:52:38+00:00",
+      "env": "halfcheetah-medium-expert-v2",
+      "env_short": "hme",
+      "family": "td3_amo_jax",
+      "git": {
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "code_repo": "AMO-main"
+      },
+      "identity_uuid8": "9034cb1b",
+      "last_eval_step": null,
+      "layout_version": 2,
+      "legacy_name": "td3amo_jax_hc-me_a1_alr2em3_s3",
+      "meta_lr": 0.002,
+      "metadata_provenance": {
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s3/checkpoints/step_840000.npz",
+        "env_source": "source_run_meta.json",
+        "inferred": false,
+        "seed_source": "source_run_meta.json",
+        "verified_against_checkpoint": true
+      },
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_jax/hme_s3_ae1_ab1_Tlr0p002__9034cb1b",
+      "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/2e-3/seed_3/hme_s3_ae1_ab1_Tlr0p002__9034cb1b",
+      "run_id": "hme_s3_ae1_ab1_Tlr0p002__9034cb1b",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "metrics.jsonl": {
+            "sha256": "db125a9f475ff5392f64dbaf4e9987008cbeee3cceec7399c85f97872fedbc4e"
+          },
+          "source_run_meta.json": {
+            "sha256": "ecb9c1ee349fae58716779fd17bd2079877e36200c89209d85e6ca26af16f395"
+          }
+        },
+        "meta_lr_source": "T_lr",
+        "schema": "alpha_v1"
+      },
+      "section": "main",
+      "seed": 3,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 1,
+        "alpha_lr": 0.002,
+        "backend": "jax",
+        "batch_size": 256,
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "discount": 0.99,
+        "env": "halfcheetah-medium-expert-v2",
+        "eval_episodes": 10,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "final_eval_repeats": 5,
+        "hidden_dim": 256,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 3,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_config": "config.yaml",
+      "source_host": "ext_csv",
+      "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s3",
+      "variant": "ae1_ab1_Tlr0p002"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl",
+        "eval.jsonl",
+        "source_run_meta.json"
+      ],
+      "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr3em4_s0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -13583,7 +14700,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "fbacbd6a",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr3em4_s0",
       "meta_lr": 0.0003,
@@ -13604,6 +14721,9 @@
         "files": {
           "config.yaml": {
             "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "1a3ad217192ccb9c0d3361435250b420447bbfcc5cb79ede8c9d001f6d3940f5"
           },
           "metrics.jsonl": {
             "sha256": "f317d8064d9429d7b8682d53404804e15eced3fda708e0c1226c8dc5d614b796"
@@ -13665,7 +14785,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-mr_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-replay-v2-7647448a",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -13760,12 +14880,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr3em4_s1",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -13774,7 +14895,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "63e44393",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr3em4_s1",
       "meta_lr": 0.0003,
@@ -13795,6 +14916,9 @@
         "files": {
           "config.yaml": {
             "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "925dbd192c955c3a1c90cb96f066129e4a5bea6b75b9919223edbbc10b52dacc"
           },
           "metrics.jsonl": {
             "sha256": "9c1a958b8b79ba7d3f48a141f450d3d447327266b19f88f6b57ec87e602cff5f"
@@ -13851,12 +14975,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr3em4_s2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -13865,7 +14990,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "fdc0316d",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr3em4_s2",
       "meta_lr": 0.0003,
@@ -13886,6 +15011,9 @@
         "files": {
           "config.yaml": {
             "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "e0cc37a35749afd97171f4342670c015961f7eaa42c219afd708cd79121df3db"
           },
           "metrics.jsonl": {
             "sha256": "3853f6ebea0c15434b6170b23eb9ee5dce081581bcf7fa08c2b4fbff627ee6c9"
@@ -13942,12 +15070,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr3em4_s3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -13956,7 +15085,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "0be32a38",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr3em4_s3",
       "meta_lr": 0.0003,
@@ -13977,6 +15106,9 @@
         "files": {
           "config.yaml": {
             "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+          },
+          "eval.jsonl": {
+            "sha256": "0dad25664ed332e62baedfff5817019099de0cad3a1414146bbaba50583e4349"
           },
           "metrics.jsonl": {
             "sha256": "b27bedff0f90ba9678e7ff6e593dd1fc12631377ca7795a88f8bd220e4773e79"
@@ -14033,12 +15165,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -14047,7 +15180,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "4417417e",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr1em3_s0",
       "meta_lr": 0.001,
@@ -14068,6 +15201,9 @@
         "files": {
           "config.yaml": {
             "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "eval.jsonl": {
+            "sha256": "5c9f2490ce7a093e5c65d415e77349b45699ae5db36c2b3f2b10f367a76e2126"
           },
           "metrics.jsonl": {
             "sha256": "354ac2c3a3811da8099e024517319c20dd115f99450a04011a86082b9249c044"
@@ -14124,12 +15260,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s1",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -14138,7 +15275,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "3ab9b5bf",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr1em3_s1",
       "meta_lr": 0.001,
@@ -14159,6 +15296,9 @@
         "files": {
           "config.yaml": {
             "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "eval.jsonl": {
+            "sha256": "996df1f77c3e27f1061546bdc8bd55cc1ef257b6980ba51049afb3e752cf2743"
           },
           "metrics.jsonl": {
             "sha256": "5e70106d829a959f718758a66de1b24f5e706c58888f38b1ae155ba2b0faf3d6"
@@ -14220,7 +15360,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s1-halfcheetah-medium-replay-v2-2479d7b2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -14312,12 +15452,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -14326,12 +15467,12 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "82e23d24",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr1em3_s2",
       "meta_lr": 0.001,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s2/checkpoints/step_840000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s2/checkpoints/step_1000000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -14348,8 +15489,11 @@
           "config.yaml": {
             "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
           },
+          "eval.jsonl": {
+            "sha256": "bd6e634fd226ea0162b5f0ad1ce3b4b3d7203fb787c6f5dd75cd2c242161ec51"
+          },
           "metrics.jsonl": {
-            "sha256": "2b19983919dded55cd1b4c12bb03a044d2eb66ad95314b2efcf49a2a4fbdf847"
+            "sha256": "5c126bc18ceffcf0fe598dc5c0463b92295ae19fe02db8c39833b86c8537ce0f"
           },
           "source_run_meta.json": {
             "sha256": "f7015707fee0dddd3280b03252ea5caf872368fef57391612505c7e52c07b395"
@@ -14408,7 +15552,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s2-halfcheetah-medium-replay-v2-d317dbc3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -14500,12 +15644,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -14514,12 +15659,12 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "6c1b5714",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr1em3_s3",
       "meta_lr": 0.001,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s3/checkpoints/step_760000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr1em3_s3/checkpoints/step_1000000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -14536,8 +15681,11 @@
           "config.yaml": {
             "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
           },
+          "eval.jsonl": {
+            "sha256": "79607ac11f06b69613cde72b0156174dfefedf08eacdc95ed4567c90d7749b10"
+          },
           "metrics.jsonl": {
-            "sha256": "ee15a4bb067980378ecb1a56e21e8c59875af7e4fab690f482c79870f9465dab"
+            "sha256": "cfe9045daf45bdb0ebacc8e865438c5aadc325b9288f12d7ea4323ab394fc8ca"
           },
           "source_run_meta.json": {
             "sha256": "28cd76487793d24f77c5c2caab7e404d611df62fa5b380a366c2376822606dfb"
@@ -14596,7 +15744,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-mr_Te1_Tb1_1em3_s3-halfcheetah-medium-replay-v2-3f9ec528",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -14688,12 +15836,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -14702,12 +15851,12 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "9c649aa1",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr2em3_s0",
       "meta_lr": 0.002,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s0/checkpoints/step_740000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s0/checkpoints/step_1000000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -14724,8 +15873,11 @@
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
           },
+          "eval.jsonl": {
+            "sha256": "5c496dffd986bbb1bc7c0ef6a4c3f99deaf064eab2080054bbd2eb044f3a8bc1"
+          },
           "metrics.jsonl": {
-            "sha256": "11100569f35f103ce3b28244e2621a143e5ced5541dea7ace4f90e1f470c0d94"
+            "sha256": "e0b6054fdb37d2554bd64432e5964ef05bd2073f4024de5b59246488cb340cb1"
           },
           "source_run_meta.json": {
             "sha256": "02d732722f1fdb27a05a1fa789146cd6d4bd6fc9cadd3847c595e9db6512c921"
@@ -14779,12 +15931,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s1",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -14793,12 +15946,12 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "ba51d3e3",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr2em3_s1",
       "meta_lr": 0.002,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s1/checkpoints/step_700000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s1/checkpoints/step_1000000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -14815,8 +15968,11 @@
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
           },
+          "eval.jsonl": {
+            "sha256": "a3ed0f25763e26fe0667c00e168339bab335bf83e70a34cc3405deae4206e24f"
+          },
           "metrics.jsonl": {
-            "sha256": "ae07528f332264ee1e101ea3f74794f2f24954f2c095f15b0c0d33357293e832"
+            "sha256": "a8b69a7da122c365459ab516b72fcabaf8dde3043e6b2055d10ed9c7c086a1bb"
           },
           "source_run_meta.json": {
             "sha256": "3697295c0f579a589590a0378dc951af7f897430d7e4adb739c226c09675918c"
@@ -14875,7 +16031,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-mr_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-replay-v2-4db153d5",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "adaptive_multiscale",
@@ -14971,12 +16127,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -14985,12 +16142,12 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "03ae7ed4",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr2em3_s2",
       "meta_lr": 0.002,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s2/checkpoints/step_700000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s2/checkpoints/step_1000000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -15007,8 +16164,11 @@
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
           },
+          "eval.jsonl": {
+            "sha256": "897026ea89c92db05a88b3827d97a8a89ccd1e41835c79faba1a6ef381265536"
+          },
           "metrics.jsonl": {
-            "sha256": "c7a50739a9e52ec03a256e3502c42becacc1c0504a3468b135a517f4a65d6220"
+            "sha256": "f7a0dd98abe4fc93446d7350c20e2155d35ae07d5505c8e87f7d80f184c29984"
           },
           "source_run_meta.json": {
             "sha256": "f7015707fee0dddd3280b03252ea5caf872368fef57391612505c7e52c07b395"
@@ -15062,12 +16222,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-replay-v2",
       "env_short": "hcmr",
       "family": "td3_amo_jax",
@@ -15076,12 +16237,12 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "7d3ebc99",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-mr_a1_alr2em3_s3",
       "meta_lr": 0.002,
       "metadata_provenance": {
-        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s3/checkpoints/step_680000.npz",
+        "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-mr_a1_alr2em3_s3/checkpoints/step_1000000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -15098,8 +16259,11 @@
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
           },
+          "eval.jsonl": {
+            "sha256": "85bfecad1c38c48df027b871ef4022c27cbec59c88922b2c57f21424ac6c3f50"
+          },
           "metrics.jsonl": {
-            "sha256": "cc1d12bd54bf15d4eb05fd46cc12853e83ecb5dc6a8a943dfedbe887d386c61b"
+            "sha256": "fd7a9c79a27a035280cbd0515a3d9cb92570a73956939188ae0c724e173628e2"
           },
           "source_run_meta.json": {
             "sha256": "28cd76487793d24f77c5c2caab7e404d611df62fa5b380a366c2376822606dfb"
@@ -15159,7 +16323,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr3em4_s0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -15253,7 +16417,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-v2-7c2d557e",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -15354,7 +16518,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr3em4_s1",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -15449,7 +16613,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr3em4_s2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -15544,7 +16708,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr3em4_s3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -15639,7 +16803,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr1em3_s0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -15734,7 +16898,7 @@
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr1em3_s1",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -15828,7 +16992,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s1-halfcheetah-medium-v2-9cb24bd9",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -15920,12 +17084,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr1em3_s2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -15934,7 +17099,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "fc0132c9",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-m_a1_alr1em3_s2",
       "meta_lr": 0.001,
@@ -15955,6 +17120,9 @@
         "files": {
           "config.yaml": {
             "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "eval.jsonl": {
+            "sha256": "ae32846de5a986e5715c88874c325140123f7486668b95433ad162957d2359c0"
           },
           "metrics.jsonl": {
             "sha256": "002b0feb33ae299902f0dda626d2c9c1cda5b9d4d05c56ab3d25732d1e854f76"
@@ -16016,7 +17184,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s2-halfcheetah-medium-v2-7bc0dfef",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -16108,12 +17276,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr1em3_s3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -16122,7 +17291,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "f116e699",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-m_a1_alr1em3_s3",
       "meta_lr": 0.001,
@@ -16143,6 +17312,9 @@
         "files": {
           "config.yaml": {
             "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+          },
+          "eval.jsonl": {
+            "sha256": "3fb4d448b8e5fb7e4c9a88c29b0e89ab302409f1bc380c2a3ecf1d2ecf201421"
           },
           "metrics.jsonl": {
             "sha256": "c2d57ee177804a9ba8531219c11a8d3ea396095ecdc1d7f754b864bbbe498507"
@@ -16204,7 +17376,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_hc-m_Te1_Tb1_1em3_s3-halfcheetah-medium-v2-7693ae87",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -16296,12 +17468,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr2em3_s0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -16310,7 +17483,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "59a79297",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-m_a1_alr2em3_s0",
       "meta_lr": 0.002,
@@ -16331,6 +17504,9 @@
         "files": {
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "eval.jsonl": {
+            "sha256": "44eadcfacfe6725efefd374fe5a527282b807dbb6d291c7fe2ef922ce61ca54c"
           },
           "metrics.jsonl": {
             "sha256": "d025fcc3fea6c24850581179749afee9d7aae0ed5de576f5a788090539df16e8"
@@ -16387,12 +17563,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr2em3_s1",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -16401,7 +17578,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "005cf501",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-m_a1_alr2em3_s1",
       "meta_lr": 0.002,
@@ -16422,6 +17599,9 @@
         "files": {
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "eval.jsonl": {
+            "sha256": "a5bae374fa6021679d6c1036d097a4bdc8e22bd64d1b7cb602de1403d2ba38e8"
           },
           "metrics.jsonl": {
             "sha256": "0f8b407a2302266d5127d52ecc46ed39f8a180cfeaaa087fedeeea5d681ec9c8"
@@ -16483,7 +17663,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_hc-m_Te1_Tb1_Tlr0p002_s1-halfcheetah-medium-v2-4ddad439",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "adaptive_multiscale",
@@ -16579,12 +17759,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr2em3_s2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -16593,7 +17774,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "3cfd8b5b",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-m_a1_alr2em3_s2",
       "meta_lr": 0.002,
@@ -16614,6 +17795,9 @@
         "files": {
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "eval.jsonl": {
+            "sha256": "52d1764c9d5f4de74feaa8963258d993b324efd7b8592b3328b01579dc70912c"
           },
           "metrics.jsonl": {
             "sha256": "49c1c39c8a73bb1efe057fea3b917b10f0b5a32f8d58d02ec12c61f4c1fde5d2"
@@ -16670,12 +17854,13 @@
       "artifacts": [
         "config.yaml",
         "metrics.jsonl",
+        "eval.jsonl",
         "source_run_meta.json"
       ],
       "backend": "jax",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-m_a1_alr2em3_s3",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:46+00:00",
+      "collected_at": "2026-09-15T06:52:38+00:00",
       "env": "halfcheetah-medium-v2",
       "env_short": "hcm",
       "family": "td3_amo_jax",
@@ -16684,7 +17869,7 @@
         "code_repo": "AMO-main"
       },
       "identity_uuid8": "9478b98e",
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "td3amo_jax_hc-m_a1_alr2em3_s3",
       "meta_lr": 0.002,
@@ -16705,6 +17890,9 @@
         "files": {
           "config.yaml": {
             "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+          },
+          "eval.jsonl": {
+            "sha256": "764e8ca77b4a1eb87bc2ff4faa501a825245f34b69fbb98cb17639a648069a65"
           },
           "metrics.jsonl": {
             "sha256": "63f654d7d7c0aa2280bf6d08e5be72200837fb495504bdbc3089cde50f1c8073"
@@ -16766,7 +17954,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s0-hopper-medium-expert-v2-4079d96d",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -16866,7 +18054,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s1-hopper-medium-expert-v2-f5736030",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -16967,7 +18155,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s2-hopper-medium-expert-v2-5afd4fd1",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -17068,7 +18256,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_Tlr0p0003_s3-hopper-medium-expert-v2-b568fe0e",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -17169,7 +18357,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s1-hopper-medium-expert-v2-0b611349",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -17269,7 +18457,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s2-hopper-medium-expert-v2-21ee11d6",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -17369,7 +18557,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-me_Te1_Tb1_1em3_s3-hopper-medium-expert-v2-ed518fc0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-expert-v2",
       "env_short": "hopme",
       "family": "adaptive_multiscale",
@@ -17469,7 +18657,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p0003_s0-hopper-medium-replay-v2-6a3b732e",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -17569,7 +18757,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s1-hopper-medium-replay-v2-f080c915",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -17666,7 +18854,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s2-hopper-medium-replay-v2-b42f2154",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -17763,7 +18951,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-mr_Te1_Tb1_1em3_s3-hopper-medium-replay-v2-d6f53a73",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -17863,7 +19051,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "adaptive_multiscale",
@@ -17964,7 +19152,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_h-m_Te1_Tb1_Tlr0p0003_s0-hopper-medium-v2-5b41f8ad",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -18064,7 +19252,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s1-hopper-medium-v2-85749f1c",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -18161,7 +19349,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s2-hopper-medium-v2-3647d003",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -18258,7 +19446,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_h-m_Te1_Tb1_1em3_s3-hopper-medium-v2-a821f10d",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -18355,7 +19543,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-m_Te1_Tb1_Tlr0p002_s1-hopper-medium-v2-c8cd479a",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "adaptive_multiscale",
@@ -18456,7 +19644,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-me_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-expert-v2-e1c0c7c2",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -18556,7 +19744,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s1-walker2d-medium-expert-v2-e0307c97",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -18656,7 +19844,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s2-walker2d-medium-expert-v2-47a0d898",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -18756,7 +19944,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-me_Te1_Tb1_1em3_s3-walker2d-medium-expert-v2-4c07cc8c",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-expert-v2",
       "env_short": "wme",
       "family": "adaptive_multiscale",
@@ -18856,7 +20044,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-mr_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-replay-v2-1070611e",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -18956,7 +20144,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s1-walker2d-medium-replay-v2-f0372dc0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -19056,7 +20244,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s2-walker2d-medium-replay-v2-0700d3fe",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -19156,7 +20344,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-mr_Te1_Tb1_1em3_s3-walker2d-medium-replay-v2-35b7e2b7",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "adaptive_multiscale",
@@ -19256,7 +20444,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s0-walker2d-medium-v2-06068a10",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -19356,7 +20544,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s1-walker2d-medium-v2-4c3d21b0",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -19457,7 +20645,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s2-walker2d-medium-v2-fc36e71c",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -19558,7 +20746,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_Tlr0p0003_s3-walker2d-medium-v2-6451a151",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:45+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -19659,7 +20847,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s1-walker2d-medium-v2-37cd42ba",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -19759,7 +20947,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s2-walker2d-medium-v2-2a2bf0ad",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
@@ -19859,7 +21047,7 @@
       "backend": "torch",
       "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb1_seeds1to3/runs/amo_ams_w-m_Te1_Tb1_1em3_s3-walker2d-medium-v2-61585211",
       "classification_reasons": [],
-      "collected_at": "2026-09-15T05:28:44+00:00",
+      "collected_at": "2026-09-15T06:52:37+00:00",
       "env": "walker2d-medium-v2",
       "env_short": "wm",
       "family": "adaptive_multiscale",
