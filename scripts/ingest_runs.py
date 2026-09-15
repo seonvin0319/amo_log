@@ -874,21 +874,37 @@ def read_final_eval_50_row(src: Path) -> Optional[Dict[str, Any]]:
 def resolve_code_commit(src: Path) -> Optional[str]:
     """Use only the commit recorded at training time; never invent from current HEAD."""
     meta_path = src / "run_meta.json"
-    if not meta_path.exists():
-        return None
-    try:
-        meta = json.loads(meta_path.read_text())
-    except Exception:
-        return None
-    git = meta.get("git") if isinstance(meta.get("git"), dict) else {}
-    for key in ("code_commit", "commit", "git_commit"):
-        val = git.get(key)
-        if val:
-            return str(val)
-    for key in ("code_commit", "git_commit"):
-        val = meta.get(key)
-        if val:
-            return str(val)
+    if meta_path.exists():
+        try:
+            meta = json.loads(meta_path.read_text())
+        except Exception:
+            meta = None
+        if isinstance(meta, dict):
+            git = meta.get("git") if isinstance(meta.get("git"), dict) else {}
+            for key in ("code_commit", "commit", "git_commit"):
+                val = git.get(key)
+                if val:
+                    return str(val)
+            for key in ("code_commit", "git_commit"):
+                val = meta.get(key)
+                if val:
+                    return str(val)
+    # Launcher matrix manifests keep git even when train.py rewrites run_meta.
+    for parent in (src, *src.parents):
+        manifest = parent / "launch_manifest.json"
+        if manifest.exists():
+            try:
+                data = json.loads(manifest.read_text())
+            except Exception:
+                data = None
+            if isinstance(data, dict):
+                git = data.get("git") if isinstance(data.get("git"), dict) else {}
+                if git.get("commit"):
+                    return str(git["commit"])
+                if git.get("code_commit"):
+                    return str(git["code_commit"])
+        if parent.name in ("results", "home") or str(parent) == "/":
+            break
     return None
 
 
