@@ -17,11 +17,29 @@
 
 ## 본 실험과 ablation
 
-- AMO 본 실험: **초기값** T_E=T_B=1 또는 beta_initial=1. 학습 중 T/beta가 1이어야 한다는 뜻이 아니다.
-- 5, 10뿐 아니라 다른 초기값(예: beta_initial=3)도 ablation이다.
+- **Adroit는 모든 방법에서 ablation**이다. `door-*`, `hammer-*`, `pen-*`, `relocate-*`의 human/cloned/expert 등 모든 데이터셋에 적용하며, baseline도 예외가 아니다.
+- AMO 본 실험의 **초기값**은 아래 표를 따른다. 학습 중 T/alpha/beta가 이 값으로 고정되어야 한다는 뜻이 아니다.
+
+  | 방법 | main 허용 초기값 | 실제 설정 기준 |
+  |---|---|---|
+  | TD3-AMO | alpha = 1, 2, 5 | alpha=2T이므로 T_E=T_B = 0.5, 1, 2.5 |
+  | IQL-AMO | beta = 1, 2, 5 | beta_initial = 1, 2, 5 |
+
+- TD3의 T_E와 T_B는 같은 허용값으로 시작해야 한다. T_E/T_B가 다른 실험은 ablation이다. T_B 생략 시 T_E를 따르는 기존 기본값을 적용한다.
+- TD3의 **T=5는 alpha=10**이므로 main에 포함하지 않는다. T=1.25, 5, 10 및 IQL beta=3, 10 등 허용 목록 밖의 초기값은 ablation이다.
+- TD3는 config의 T_E/T_B(또는 기존 T_init), IQL은 beta_initial을 읽는다. 폴더명에 있는 alpha나 baseline 고유 alpha를 AMO의 T로 추정하지 않는다.
+- 허용 초기값과 함께 meta lr `1e-3`, `2e-3`, `3e-4` 및 기존 구조/loss 기준도 만족해야 main이다. actor/critic lr는 이 meta lr와 별개다.
 - 기존 loss·critic 구조·N·T 비율/스케줄 등 변형 실험은 ablation으로 보존한다. 현재 분류 기준은 `scripts/log_layout.py`와 `classification_reasons`를 따른다.
 - baseline의 고유 beta 설정은 AMO 초기 beta가 아니므로 이 초기값 제한을 적용하지 않는다.
 - 폴더 이름이나 높은 점수로 실험 설정을 추정하지 않는다. 설정 파일과 원본 metadata를 먼저 확인한다.
+- `adroit`, `initial_scale_outside_main`, `initial_scale_mismatch`, `initial_beta_outside_main` 등의 사유를 metadata에 기록한다. 초기값만 허용 범위에 들어와도 다른 ablation 사유가 남으면 승격하지 않는다.
+
+## 기존 로그 재분류
+
+- `python3 scripts/build_catalog.py`는 `runs/`의 신규 로그와 기존 `main/`·`ablation/` 로그를 현재 규칙으로 재분류한다.
+- 실제 실행 디렉터리와 `run_meta.json`의 section/rel_path/classification_reasons를 함께 갱신하고, 카탈로그도 같은 위치를 가리키게 한다.
+- config, 평가·학습 로그, run_id와 원본 provenance는 보존한다. 초기값별 실행은 기존 run_id로 구별하므로 서로 덮어쓰지 않는다.
+- 이 변경으로 Adroit는 ablation으로 이동한다. 초기값 사유만 있던 IQL beta=5 등은 나머지 main 조건을 만족할 때 main으로 이동한다.
 
 ## 실행 식별과 원본 보존
 

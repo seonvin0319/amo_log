@@ -8,10 +8,32 @@ from pathlib import Path
 
 METHODS = ('td3_amo', 'iql_amo', 'td3bc+rc', 'iql', 'a2pr', 'wpc', 'aspc')
 MAIN_LRS = (0.001, 0.002, 0.0003)
+MAIN_ALPHAS = (1.0, 2.0, 5.0)
+MAIN_TS = tuple(alpha / 2 for alpha in MAIN_ALPHAS)
+MAIN_BETAS = (1.0, 2.0, 5.0)
+ADROIT_TASKS = ('door', 'hammer', 'pen', 'relocate')
 
 def number(x):
     try: return float(x)
     except (ValueError, TypeError): return None
+
+def initial_ts(c):
+    te = number(c.get('T_E', c.get('T_init')))
+    tb = number(c.get('T_B'))
+    return te, te if tb is None else tb
+
+def is_adroit(env):
+    return str(env).split('-', 1)[0] in ADROIT_TASKS
+
+def initial_label(m):
+    c = m.get('settings', {})
+    if m['method'] == 'td3_amo':
+        te, tb = initial_ts(c)
+        label = lambda x: '?' if x is None else format(x, 'g')
+        return 'T_E/T_B=' + label(te) + '/' + label(tb)
+    if m['method'] == 'iql_amo':
+        return 'beta=' + str(c.get('beta_initial', '?'))
+    return '—'
 
 def slug(x):
     return re.sub(r'[^A-Za-z0-9_.+\-]', '_', str(x))
@@ -68,9 +90,9 @@ def classify(m, c):
     if method=='td3_amo':
         if algo=='apart' or fam not in ('adaptive_multiscale','td3_amo_jax','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
             reasons.append('method_variant:'+fam)
-        te=number(c.get('T_E',c.get('T_init')));tb=number(c.get('T_B'))
-        if tb is None: tb=te  # reference implementation defaults T_B to T_E
-        if te!=1 or tb!=1: reasons.append('initial_scale_not_1')
+        te,tb=initial_ts(c)
+        if te not in MAIN_TS or tb not in MAIN_TS: reasons.append('initial_scale_outside_main')
+        if te != tb: reasons.append('initial_scale_mismatch')
         if c.get('T_B_from_T_E_divisor') not in (None,1,1.0):reasons.append('scale_ratio')
         if c.get('T_schedule') not in (None,'','none','learned'):reasons.append('scale_schedule')
         if c.get('proximal_n_steps',1)!=1:reasons.append('multi_step')
@@ -79,12 +101,13 @@ def classify(m, c):
         if c.get('execution_l1',False) or c.get('execution_outer_loss_version') in ('l1','l1e') or 'l1e' in m.get('variant',''):reasons.append('execution_loss')
         if c.get('bootstrap_outer_loss_version') not in (None,'tq_detached_rms_target_v1'):reasons.append('bootstrap_loss')
     elif method=='iql_amo':
-        if number(c.get('beta_initial'))!=1:reasons.append('initial_beta_not_1')
+        if number(c.get('beta_initial')) not in MAIN_BETAS:reasons.append('initial_beta_outside_main')
         if fam not in ('amo_bpi','iql_amo_jax_adroit_beta1_rho','lr1e3_beta_sweep'):reasons.append('method_variant:'+fam)
     elif method=='aspc' and c.get('l3_mode','aspc')!='aspc': reasons.append('l3_variant')
     elif method=='wpc' and number(c.get('policy_noise',.2))!=.2:reasons.append('policy_noise')
     if method in ('td3_amo','iql_amo') and number(lr) not in MAIN_LRS:reasons.append('meta_lr_outside_main')
     env, seed=identity(m,c)
+    if is_adroit(env):reasons.append('adroit')
     if env=='unknown' or seed is None:reasons.append('identity_unresolved')
     section='ablation' if reasons else 'main'
     parts=[section,method,env]
@@ -112,32 +135,42 @@ def normalize(root=None):
     root=Path(root or Path(__file__).resolve().parents[1]);legacy=root/'runs'
     ef=root/'catalog/removed_legacy_jax.json'
     entries=json.loads(ef.read_text()).get('runs',[]) if ef.exists() else []
-    paths=sorted(legacy.rglob('run_meta.json')) if legacy.exists() else []
+    # Reclassify stored runs as well as newly ingested runs after a rule change.
+    # Legacy snapshots are applied last, retaining the existing ingestion order.
+    paths=[mp for section in ('main','ablation','runs')
+           for mp in sorted((root/section).rglob('run_meta.json'))]
     for mp in paths:
         m=json.loads(mp.read_text());src=mp.parent
         if m.get('is_alias') and not m.get('algo'):continue
         c=load_config(src/'config.yaml',m)
-        if excluded(m,c,entries):shutil.rmtree(src);continue
+        if excluded(m,c,entries):
+            if src.is_relative_to(legacy):shutil.rmtree(src);continue
+            raise ValueError('Removed historical JAX present at '+str(src))
         layout=classify(m,c);dest=root/layout['rel_path']
         m.update(layout);m.setdefault('original_rel_path',src.relative_to(root).as_posix());m['layout_version']=2; m['settings']=c
-        if dest.exists():
+        if dest != src and dest.exists():
             old=json.loads((dest/'run_meta.json').read_text())
             if (old.get('source_path'), old.get('backend'), old.get('git',{}).get('code_commit')) != (m.get('source_path'), m.get('backend'), m.get('git',{}).get('code_commit')):
                 raise ValueError('Run-id collision at '+str(dest))
-        dest.mkdir(parents=True,exist_ok=True)
-        for f in src.iterdir():
-            if f.name=='run_meta.json':continue
-            if not f.is_file():raise ValueError('Unexpected nested artifact: '+str(f))
-            shutil.copy2(f,dest/f.name)
-        (dest/'run_meta.json').write_text(json.dumps(m,indent=2,sort_keys=True)+'\n')
-        shutil.rmtree(src)
+        if dest != src:
+            dest.mkdir(parents=True,exist_ok=True)
+            for f in src.iterdir():
+                if f.name=='run_meta.json':continue
+                if not f.is_file():raise ValueError('Unexpected nested artifact: '+str(f))
+                shutil.copy2(f,dest/f.name)
+        encoded=json.dumps(m,indent=2,sort_keys=True)+'\n'
+        target=dest/'run_meta.json'
+        if not target.exists() or target.read_text()!=encoded:target.write_text(encoded)
+        if dest != src:shutil.rmtree(src)
     # Alias stubs carry no observations; canonical metadata retains alias names.
     for mp in sorted(legacy.rglob('run_meta.json')) if legacy.exists() else []:
         if json.loads(mp.read_text()).get('is_alias') and not json.loads(mp.read_text()).get('algo'):shutil.rmtree(mp.parent)
-    if legacy.exists():
-        for p in sorted(legacy.rglob('*'),key=lambda p:len(p.parts),reverse=True):
-            if p.is_dir() and not any(p.iterdir()):p.rmdir()
-        if not any(legacy.iterdir()):legacy.rmdir()
+    for section in ('main','ablation','runs'):
+        base=root/section
+        if base.exists():
+            for p in sorted(base.rglob('*'),key=lambda p:len(p.parts),reverse=True):
+                if p.is_dir() and not any(p.iterdir()):p.rmdir()
+            if not any(base.iterdir()):base.rmdir()
     return sum(1 for section in ('main','ablation') for _ in (root/section).rglob('run_meta.json'))
 
 if __name__=='__main__':

@@ -6,7 +6,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [
-    "initial_beta_not_1",
+    "initial_beta_outside_main",
     "method_variant:iql_adaptive_beta"
   ],
   "collected_at": "2026-09-15T10:38:29+09:00",
