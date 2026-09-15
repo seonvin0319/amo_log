@@ -2,44 +2,37 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl",
-    "eval.jsonl"
+    "metrics.jsonl"
   ],
   "backend": "jax",
   "classification_reasons": [],
   "collected_at": "2026-09-15T16:10:03+09:00",
-  "env": "antmaze-large-diverse-v2",
-  "env_short": "amld",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
   "family": "td3_amo_jax",
   "git": {
-    "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
     "code_repo": "AMO"
   },
   "is_alias": false,
   "layout_version": 2,
-  "legacy_name": "td3amo_jax_te1_tb1_tlr3e-4_amld_s2",
+  "legacy_name": "td3amo_jax_te25_tb25_tlr3e-4_ammd_s2",
   "meta_lr": 0.0003,
   "method": "td3_amo",
-  "original_rel_path": "runs/td3_amo/td3_amo_jax/amld_s2_jax_ae2_ab2_Tlr0p0003__18da8ead",
-  "rel_path": "main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_2/amld_s2_jax_ae2_ab2_Tlr0p0003__18da8ead",
-  "run_id": "amld_s2_jax_ae2_ab2_Tlr0p0003__18da8ead",
+  "original_rel_path": "runs/td3_amo/td3_amo_jax/ammd_s2_jax_ae5_ab5_Alr0p0003__318563b2",
+  "rel_path": "main/td3_amo/antmaze-medium-diverse-v2/3e-4/seed_2/ammd_s2_jax_ae5_ab5_Alr0p0003__318563b2",
+  "run_id": "ammd_s2_jax_ae5_ab5_Alr0p0003__318563b2",
   "scale_conversion": {
     "diagnostics": "legacy_T/ fields retain their original values and coordinates",
     "equation": "alpha = 2 * T",
     "files": {
       "config.yaml": {
-        "legacy_sha256": "e3644642c2261e5b554f6b1340482bfe6bbb39cc6b4b263cdbc6a03fa39de394",
-        "sha256": "6a905ebfea046a7698346bf2e5cec9a4a9856bfb06284b1cf8be84048742912f"
-      },
-      "eval.jsonl": {
-        "sha256": "74c5d33311d0451ca2a250f31b15ea7c439b36bbae5495ee5f10c34ccd962378"
+        "sha256": "2b42af36b2119121ba3c01f94488adf96d63665b47833adeba146fa1d3cb065c"
       },
       "metrics.jsonl": {
-        "legacy_sha256": "c9ee0c7434b3d7678cf89104b60a804679e16a20fbbaf33b453f2da83bc2f978",
-        "sha256": "6a8ca7e47541ad8a55e95b41855f90f5b380ce53aa0d88e0c070b404a781ea37"
+        "sha256": "c30017ec2eeaac0b0b551f2db46e312e725a0cddc8be1d4c70f21bf364776ecd"
       }
     },
-    "meta_lr_source": "T_lr",
     "schema": "alpha_v1"
   },
   "section": "main",
@@ -48,8 +41,8 @@
     "actor_depth": 2,
     "actor_lr": 0.0003,
     "algorithm": "td3_amo",
-    "alpha_B": 2.0,
-    "alpha_E": 2.0,
+    "alpha_B": 5,
+    "alpha_E": 5,
     "alpha_lr": 0.0003,
     "backend": "jax",
     "batch_size": 256,
@@ -58,7 +51,7 @@
     "critic_lr": 0.0003,
     "critic_special_init": true,
     "discount": 0.99,
-    "env": "antmaze-large-diverse-v2",
+    "env": "antmaze-medium-diverse-v2",
     "eval_episodes": 10,
     "eval_first_step": 20000,
     "eval_freq": 20000,
@@ -78,6 +71,6 @@
     "tau": 0.005
   },
   "source_host": "choi",
-  "source_path": "/home/choi/AMO_store/td3_amo_jax_antmaze_te1_tlr_fill/runs/td3amo_jax_te1_tb1_tlr3e-4_amld_s2",
-  "variant": "jax_ae2_ab2_Tlr0p0003"
+  "source_path": "/home/choi/AMO_store/td3_amo_jax_antmaze_tinit25_tlr/runs/td3amo_jax_te25_tb25_tlr3e-4_ammd_s2",
+  "variant": "jax_ae5_ab5_Alr0p0003"
 }
