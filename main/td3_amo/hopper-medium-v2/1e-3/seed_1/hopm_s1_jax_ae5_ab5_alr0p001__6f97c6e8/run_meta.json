@@ -7,7 +7,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T17:09:53+09:00",
+  "collected_at": "2026-09-15T17:20:03+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_jax",
@@ -32,6 +32,9 @@
       },
       "eval.jsonl": {
         "sha256": "d3a31fc4574aedf76e67b64dfaee13deb2f18527f1e2f82fda776d8cb564cef8"
+      },
+      "final_eval_50.json": {
+        "sha256": "0490c317e8880b726e4ab19ce1d605a351fe36d278f4f38f16c20b21111443a7"
       },
       "metrics.jsonl": {
         "sha256": "286ca8a0f7baf5ca1096d3b7baad99d1787b58592576a566d26b726d8d8a3f93"
