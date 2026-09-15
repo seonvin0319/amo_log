@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "row": {
+    "step": 1000000,
+    "tag": "posthoc_cpu_final",
+    "device": "cpu",
+    "backend": "jax",
+    "algorithm": "td3_amo",
+    "checkpoint": "/home/svcho/amo/results/td3_amo_loco9_alpha5_alr_seeds03/jobs/w-me_alr3e4_s0/run/checkpoints/step_1000000.npz",
+    "evaluated_at": "2026-09-15T15:16:25.464475+00:00",
+    "return_mean": 5045.718890252593,
+    "normalized_score": 109.87696332502917,
+    "episodes": 50,
+    "episodes_per_repeat": 10,
+    "repeats": 5,
+    "repeat_returns": [
+      5045.641244472665,
+      5046.062331795582,
+      5044.810131354351,
+      5046.32203883461,
+      5045.7587048057585
+    ],
+    "eval_seed": 0,
+    "seed_stride": 1
+  }
+}
