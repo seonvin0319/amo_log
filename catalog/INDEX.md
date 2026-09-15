@@ -443,6 +443,7 @@
 | main | iql_amo | hopper-medium-v2 | beta=1.0 | 0.002 | 3 | jax | 1000000 | [hopm_s3_b1_rho0p002_jax_det__a2d4d3d1](../main/iql_amo/hopper-medium-v2/2e-3/seed_3/hopm_s3_b1_rho0p002_jax_det__a2d4d3d1/) |
 | main | iql_amo | hopper-medium-v2 | beta=2.0 | 0.002 | 3 | jax | 1000000 | [hopm_s3_b2_rho0p002_jax_det__e1fbd64d](../main/iql_amo/hopper-medium-v2/2e-3/seed_3/hopm_s3_b2_rho0p002_jax_det__e1fbd64d/) |
 | main | iql_amo | hopper-medium-v2 | beta=5.0 | 0.002 | 3 | jax | 1000000 | [hopm_s3_b5_rho0p002_jax_det__a6cdf0a1](../main/iql_amo/hopper-medium-v2/2e-3/seed_3/hopm_s3_b5_rho0p002_jax_det__a6cdf0a1/) |
+| main | iql_amo | walker2d-medium-expert-v2 | beta=2.0 | 0.0003 | 0 | jax | — | [wme_s0_b2_rho0p0003_jax__f699d040](../main/iql_amo/walker2d-medium-expert-v2/3e-4/seed_0/wme_s0_b2_rho0p0003_jax__f699d040/) |
 | main | iql_amo | walker2d-medium-expert-v2 | beta=5.0 | 0.0003 | 0 | jax | 1000000 | [wme_s0_b5_rho0p0003_jax__c10f5d53](../main/iql_amo/walker2d-medium-expert-v2/3e-4/seed_0/wme_s0_b5_rho0p0003_jax__c10f5d53/) |
 | main | iql_amo | walker2d-medium-expert-v2 | beta=1.0 | 0.0003 | 1 | jax | 1000000 | [wme_s1_b1_rho0p0003_jax__0d52748d](../main/iql_amo/walker2d-medium-expert-v2/3e-4/seed_1/wme_s1_b1_rho0p0003_jax__0d52748d/) |
 | main | iql_amo | walker2d-medium-expert-v2 | beta=5.0 | 0.0003 | 1 | jax | 1000000 | [wme_s1_b5_rho0p0003_jax__1c3409b2](../main/iql_amo/walker2d-medium-expert-v2/3e-4/seed_1/wme_s1_b5_rho0p0003_jax__1c3409b2/) |
@@ -465,6 +466,7 @@
 | main | iql_amo | walker2d-medium-expert-v2 | beta=5.0 | 0.002 | 2 | jax | 1000000 | [wme_s2_b5_rho0p002_jax__b656816e](../main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_2/wme_s2_b5_rho0p002_jax__b656816e/) |
 | main | iql_amo | walker2d-medium-expert-v2 | beta=1.0 | 0.002 | 3 | jax | 1000000 | [wme_s3_b1_rho0p002_jax__dfd1075f](../main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_b1_rho0p002_jax__dfd1075f/) |
 | main | iql_amo | walker2d-medium-expert-v2 | beta=5.0 | 0.002 | 3 | jax | 1000000 | [wme_s3_b5_rho0p002_jax__ea573856](../main/iql_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_b5_rho0p002_jax__ea573856/) |
+| main | iql_amo | walker2d-medium-replay-v2 | beta=2.0 | 0.0003 | 0 | jax | — | [wmr_s0_b2_rho0p0003_jax__3985bc8f](../main/iql_amo/walker2d-medium-replay-v2/3e-4/seed_0/wmr_s0_b2_rho0p0003_jax__3985bc8f/) |
 | main | iql_amo | walker2d-medium-replay-v2 | beta=5.0 | 0.0003 | 0 | jax | 1000000 | [wmr_s0_b5_rho0p0003_jax__be984885](../main/iql_amo/walker2d-medium-replay-v2/3e-4/seed_0/wmr_s0_b5_rho0p0003_jax__be984885/) |
 | main | iql_amo | walker2d-medium-replay-v2 | beta=5.0 | 0.0003 | 1 | jax | 1000000 | [wmr_s1_b5_rho0p0003_jax__42a4e36e](../main/iql_amo/walker2d-medium-replay-v2/3e-4/seed_1/wmr_s1_b5_rho0p0003_jax__42a4e36e/) |
 | main | iql_amo | walker2d-medium-replay-v2 | beta=1.0 | 0.0003 | 2 | jax | 1000000 | [wmr_s2_b1_rho0p0003_jax__9bd2a1f4](../main/iql_amo/walker2d-medium-replay-v2/3e-4/seed_2/wmr_s2_b1_rho0p0003_jax__9bd2a1f4/) |
