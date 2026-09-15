@@ -12,7 +12,7 @@
     "multi_step",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:30:03+09:00",
+  "collected_at": "2026-09-15T11:40:03+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "pi_only_xfit_mpi_nstep",
@@ -28,6 +28,23 @@
   "original_rel_path": "runs/apart/pi_only_xfit_mpi_nstep/hopme_s0_mpi_n2__1d8d8651",
   "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/unspecified/seed_0/hopme_s0_mpi_n2__1d8d8651",
   "run_id": "hopme_s0_mpi_n2__1d8d8651",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "93e8517eae2b13a58809a715535aed1887a4f915a884c152db6276ab1acc298f"
+      },
+      "eval.jsonl": {
+        "sha256": "d057023964f1ad06ef0b670aef378bc690d0d676a664078708c457e4bc8f0b2f"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "c9d08f06eb894d4f2117fc1423f3fc429758ca68afbab5c9fb7979b1bc9e3cce",
+        "sha256": "2ef201feccd986e0b9d0eb2697ee8e1e61dbd9050fa181f90a1cfa2a9a7b7431"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {

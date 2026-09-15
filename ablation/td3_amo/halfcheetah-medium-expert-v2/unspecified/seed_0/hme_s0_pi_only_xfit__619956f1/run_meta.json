@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:30:02+09:00",
+  "collected_at": "2026-09-15T11:40:03+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "pi_only_xfit_target",
@@ -27,6 +27,23 @@
   "original_rel_path": "runs/apart/pi_only_xfit_target/hme_s0_pi_only_xfit__619956f1",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-expert-v2/unspecified/seed_0/hme_s0_pi_only_xfit__619956f1",
   "run_id": "hme_s0_pi_only_xfit__619956f1",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "afef00081aad8d91e7c4b6949e9b85820f734b0064d77a6fb81c27fb7999b8ad"
+      },
+      "eval.jsonl": {
+        "sha256": "fe5800eb73c21b3d9a7db79bd173f0e9721472e8a7c27fde4066e1ac5ebe657d"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a1e4abb93ebdd368591de5231d8ff39a52fd107a81fa6f8d90f65174c50922dd",
+        "sha256": "122e965bd4707013ec79d1beb2ef976bb746372cea95a0a8b7ea39a4471a6996"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {

@@ -12,7 +12,7 @@
     "multi_step",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:30:02+09:00",
+  "collected_at": "2026-09-15T11:40:03+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "dual_proximal",
@@ -28,12 +28,31 @@
   "original_rel_path": "runs/apart/dual_proximal/hcmr_s0_n2_dual__d3bc3b64",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-replay-v2/2e-4/seed_0/hcmr_s0_n2_dual__d3bc3b64",
   "run_id": "hcmr_s0_n2_dual__d3bc3b64",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "16d861cfdd44f0f074ea523b8859a9f1999abd49d004532c97e3f84eb2debbd2",
+        "sha256": "c497bbede829b924bb93724e5fff28a131910ff875f1538df56f1c7e6fdfd2c7"
+      },
+      "eval.jsonl": {
+        "sha256": "f468c91050970358318d98e7af17f168071e704d07c73e994dcd24158e8733ef"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "f4b236d948c27edecb1c1fd4ea330deac6de267ef2b3da6c6e67991a1e74fa34",
+        "sha256": "36593ea89e267d62ce53acf81cdfcebc2ecc4ba537335d26fa7a6eeb1c141543"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/choi/APART/results_apart/hcr_s0_apart_n2_dual-halfcheetah-medium-replay-v2-d3bc3b64",

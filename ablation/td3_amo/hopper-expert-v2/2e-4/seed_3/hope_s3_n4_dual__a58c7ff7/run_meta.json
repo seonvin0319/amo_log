@@ -12,7 +12,7 @@
     "multi_step",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:30:02+09:00",
+  "collected_at": "2026-09-15T11:40:03+09:00",
   "env": "hopper-expert-v2",
   "env_short": "hope",
   "family": "dual_proximal",
@@ -28,12 +28,31 @@
   "original_rel_path": "runs/apart/dual_proximal/hope_s3_n4_dual__a58c7ff7",
   "rel_path": "ablation/td3_amo/hopper-expert-v2/2e-4/seed_3/hope_s3_n4_dual__a58c7ff7",
   "run_id": "hope_s3_n4_dual__a58c7ff7",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "0dc8aee2d86908537047149a4beb6f271c44fea7754067846aa434fef46461ed",
+        "sha256": "33d43703d1798db938959337fb3b9a2f28e45a90ca773a13a12a55034ef76744"
+      },
+      "eval.jsonl": {
+        "sha256": "b234301941473b13a9e8837184516abc4ed2636825bfd8cb08df6b0284f13746"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "cfb21b956d59fb5f0d5deca4c0d5dfc0de262c5bfbb538c5ed4cf5c160ea1bc9",
+        "sha256": "75616a8ac6c7dcdadcb827853a38345048ca7c297f446bda222a82e3ae2d42e3"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 3,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/choi/APART/results_apart/hope_s3_apart_n4_dual-hopper-expert-v2-a58c7ff7",

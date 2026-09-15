@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:30:03+09:00",
+  "collected_at": "2026-09-15T11:40:03+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "pi_only_xfit_target",
@@ -27,6 +27,23 @@
   "original_rel_path": "runs/apart/pi_only_xfit_target/wmr_s0_pi_only_xfit__600eab13",
   "rel_path": "ablation/td3_amo/walker2d-medium-replay-v2/unspecified/seed_0/wmr_s0_pi_only_xfit__600eab13",
   "run_id": "wmr_s0_pi_only_xfit__600eab13",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "f4327f917313216556d4888ccae27bec18875b81ba996d8151c294a08cc16519"
+      },
+      "eval.jsonl": {
+        "sha256": "2746fce0eb31c6c9c21ea048d28f354ab24339428ff6a34a7aabd0a2c524b0c4"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "c5bd93c36fb2917beefce87f3117fdf333972c309715c6dac20c38910e3bc968",
+        "sha256": "11bbca09b08581ad36409ae2b5b003fb5e54e1efbd406aba0b6220db122b8876"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {

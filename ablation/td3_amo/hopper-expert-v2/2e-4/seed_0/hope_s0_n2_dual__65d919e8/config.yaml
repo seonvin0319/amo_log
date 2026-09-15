@@ -1,6 +1,6 @@
-T: 1.25
-T_freq: 10
-T_lr: 0.0002
+alpha: 2.5
+alpha_freq: 10
+alpha_lr: 0.0002
 batch_size: 256
 buffer_size: 10000000
 checkpoints_path: /home/choi/APART/results_apart/hope_s0_apart_n2_dual-hopper-expert-v2-65d919e8

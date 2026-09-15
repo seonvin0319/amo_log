@@ -12,7 +12,7 @@
     "multi_step",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:30:02+09:00",
+  "collected_at": "2026-09-15T11:40:03+09:00",
   "env": "walker2d-expert-v2",
   "env_short": "we",
   "family": "dual_proximal",
@@ -28,12 +28,31 @@
   "original_rel_path": "runs/apart/dual_proximal/we_s3_n2_dual__4e59410c",
   "rel_path": "ablation/td3_amo/walker2d-expert-v2/2e-4/seed_3/we_s3_n2_dual__4e59410c",
   "run_id": "we_s3_n2_dual__4e59410c",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "ac7efff24ae37c2bef226a358bcaea96b1cb5dbf2ac0e0a784aa9948accf513c",
+        "sha256": "92f59e8e3d2f7a0a2215678574776b1acea43c9bc86a75c877b05cf322b3d07d"
+      },
+      "eval.jsonl": {
+        "sha256": "2eb43937b74d262fbc8f152d35c862a60c632210ffbdf474934753d786385fae"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "fba28505ea898c76970f71805bc2d4829164b695c43ad11d0357747ec39f8b75",
+        "sha256": "8b0bfa97523b8600a6f105dd3c3958794ff8edddb463b70d10dde0e015d58d92"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 3,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/choi/APART/results_apart/we_s3_apart_n2_dual-walker2d-expert-v2-4e59410c",

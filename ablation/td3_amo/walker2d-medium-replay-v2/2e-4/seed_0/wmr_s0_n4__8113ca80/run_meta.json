@@ -12,7 +12,7 @@
     "multi_step",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T11:30:02+09:00",
+  "collected_at": "2026-09-15T11:40:03+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "chain",
@@ -28,12 +28,31 @@
   "original_rel_path": "runs/apart/chain/wmr_s0_n4__8113ca80",
   "rel_path": "ablation/td3_amo/walker2d-medium-replay-v2/2e-4/seed_0/wmr_s0_n4__8113ca80",
   "run_id": "wmr_s0_n4__8113ca80",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "083e4ff8c895d7e3f4aaed83691b5eb9efe076eeb51ebc30c718c29d415d55c6",
+        "sha256": "aa9140331be2c094f557a5987e5dbe266583efa77292121f727509324c848bb6"
+      },
+      "eval.jsonl": {
+        "sha256": "c0876cada8e0e3673b6e2eaff63ea789af4cc44131ee0c71f3a0dc7772ffb36c"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "05c5d6a6e81fda95e69a5dc45c457d55a7cdd75e04d068abb773ac97ab6b855b",
+        "sha256": "15b6b252d13ed0c2ce5aa78d991cb244f1510b57a96b868549114086c635af21"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T": 1.25,
-    "T_freq": 10,
-    "T_lr": 0.0002,
+    "alpha": 2.5,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0002,
     "batch_size": 256,
     "buffer_size": 10000000,
     "checkpoints_path": "/home/choi/APART/results_apart/wmr_s0_apart_n4-walker2d-medium-replay-v2-8113ca80",
