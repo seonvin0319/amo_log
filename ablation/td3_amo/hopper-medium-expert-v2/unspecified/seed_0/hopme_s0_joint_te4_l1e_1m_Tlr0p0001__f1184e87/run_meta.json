@@ -8,7 +8,7 @@
     "run_manifest.json"
   ],
   "backend": "torch",
-  "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
+  "checkpoint_hint": "/home/ext_csv/AMO_results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
   "classification_reasons": [
     "method_variant:behavior_bc_l1_joint",
     "initial_scale_outside_main",
@@ -130,7 +130,7 @@
     "observation_std_eps": 0.001,
     "outer_batch_size": 256,
     "outer_seed_offset": 30000,
-    "output_dir": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
+    "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
     "policy_noise_std": 0.0,
     "protocol_version": "behavior_bc_l1_joint_v2",
     "q_scale_eps": 1e-06,
@@ -150,6 +150,6 @@
   },
   "source_config": "effective_config.yaml",
   "source_host": "ext_csv",
-  "source_path": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
+  "source_path": "/home/ext_csv/AMO_results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
   "variant": "joint_te4_l1e_1m_Tlr0p0001"
 }
