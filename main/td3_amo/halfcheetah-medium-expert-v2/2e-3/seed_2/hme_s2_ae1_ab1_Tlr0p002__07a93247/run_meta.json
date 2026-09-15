@@ -3,12 +3,13 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_hc-me_a1_alr2em3_s2",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T11:10:19+00:00",
+  "collected_at": "2026-09-15T11:22:22+00:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "td3_amo_jax",
@@ -37,6 +38,9 @@
     "files": {
       "config.yaml": {
         "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+      },
+      "eval.jsonl": {
+        "sha256": "6f30d79d5f1bb86f22922aa3da131d6ddb34d8b80024055f4eae728b8b17f1f1"
       },
       "metrics.jsonl": {
         "sha256": "9ad5f37267e555b16bc3220571c3a31512b87045a8bfda24fb0d91cb81f2869c"
