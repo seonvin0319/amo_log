@@ -3,12 +3,13 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_w-mr_a1_alr1em3_s1",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T16:38:27+00:00",
+  "collected_at": "2026-09-15T16:50:47+00:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_jax",
@@ -37,6 +38,9 @@
     "files": {
       "config.yaml": {
         "sha256": "96d397d9d83dea76cdbbdce80966d38362674a38c856d6ce1f8044549d894d52"
+      },
+      "eval.jsonl": {
+        "sha256": "cdf563a97380817cc5ce5d9c5e5b65934a4972001f1fae03870d7fa0c283cb52"
       },
       "metrics.jsonl": {
         "sha256": "9eec051de0373a4aad59c9fad3c6b3608e3a0f1f84a8d8bccdc4bcd157eab431"
