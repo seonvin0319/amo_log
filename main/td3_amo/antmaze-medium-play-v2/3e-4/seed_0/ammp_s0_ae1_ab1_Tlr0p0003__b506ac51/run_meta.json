@@ -1,0 +1,90 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-medium-play_a1_alr3em4_s0",
+  "classification_reasons": [],
+  "collected_at": "2026-09-15T19:46:23+00:00",
+  "env": "antmaze-medium-play-v2",
+  "env_short": "ammp",
+  "family": "td3_amo_jax",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO-main"
+  },
+  "identity_uuid8": "b506ac51",
+  "layout_version": 2,
+  "legacy_name": "td3amo_jax_am-medium-play_a1_alr3em4_s0",
+  "meta_lr": 0.0003,
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-medium-play_a1_alr3em4_s0/checkpoints/step_160000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_jax/ammp_s0_ae1_ab1_Tlr0p0003__b506ac51",
+  "rel_path": "main/td3_amo/antmaze-medium-play-v2/3e-4/seed_0/ammp_s0_ae1_ab1_Tlr0p0003__b506ac51",
+  "run_id": "ammp_s0_ae1_ab1_Tlr0p0003__b506ac51",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
+      },
+      "metrics.jsonl": {
+        "sha256": "1e2b66cbb2c78ff721e110ca53ada32813f8906408b133e926f9aee5d70a1324"
+      },
+      "source_run_meta.json": {
+        "sha256": "90223ed918132f4b1d12b07a4e4f499e1351c58b972b464279790e1926b7c282"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "main",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 1,
+    "alpha_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-medium-play-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-medium-play_a1_alr3em4_s0",
+  "variant": "ae1_ab1_Tlr0p0003"
+}
