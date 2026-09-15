@@ -8,7 +8,7 @@
     "run_manifest.json"
   ],
   "backend": "torch",
-  "checkpoint_hint": "/home/ext_csv/AMO_results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
+  "checkpoint_hint": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
   "classification_reasons": [
     "method_variant:behavior_bc_l1_joint",
     "initial_scale_outside_main",
@@ -45,7 +45,7 @@
     "files": {
       "config.yaml": {
         "legacy_sha256": "ac32df4cd7aed47d14943d5d4186f7c79f11ba4ae1f0745712a98e65b55873ca",
-        "sha256": "9e234c5435f3299699ecb81ddae3deb48b16a91f30a3c4663b4eca03fe055481"
+        "sha256": "8eb53a9bfe9cb56fac3acb6bf814b6f3ba63aee51f617437c2bcc9e4888f8a8a"
       },
       "eval.jsonl": {
         "sha256": "b563b790f3ed9f996c8fa0c4d486b0b49cb64f1f32dfcee9f947eae56808dd09"
@@ -130,7 +130,7 @@
     "observation_std_eps": 0.001,
     "outer_batch_size": 256,
     "outer_seed_offset": 30000,
-    "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
+    "output_dir": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
     "policy_noise_std": 0.0,
     "protocol_version": "behavior_bc_l1_joint_v2",
     "q_scale_eps": 1e-06,
@@ -150,6 +150,6 @@
   },
   "source_config": "effective_config.yaml",
   "source_host": "ext_csv",
-  "source_path": "/home/ext_csv/AMO_results/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
+  "source_path": "/home/ext_csv/AMO_results/behavior_l1_joint/behavior_l1_joint_suite6_s0/behavior_l1_hop-me_s0",
   "variant": "joint_te4_l1e_1m_Tlr0p0001"
 }
