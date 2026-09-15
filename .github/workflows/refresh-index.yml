@@ -1,6 +1,17 @@
 name: Refresh experiment index
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: [Validate log conventions]
+    types: [completed]
+    branches: [choi, ext_csh, ext_csv, offrl, shchoi, svcho]
+  push:
+    branches: [main]
+    paths:
+      - scripts/refresh_index.py
+      - scripts/readme_results.py
+      - scripts/test_readme_results.py
+      - .github/workflows/refresh-index.yml
   schedule:
     - cron: '*/30 * * * *'
 permissions:
@@ -10,19 +21,29 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 1
-      - name: Fetch machine catalogs
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            reports
+      - name: Install log tools
+        run: python3 -m pip install -r requirements-log-tools.txt
+      - name: Test result aggregation
+        run: python3 -m unittest discover -s scripts -p test_readme_results.py
+      - name: Fetch machine snapshots
         run: git fetch --filter=blob:none --depth=1 origin '+refs/heads/*:refs/remotes/origin/*'
       - name: Generate index
         run: python scripts/refresh_index.py
       - name: Commit index
         run: |
-          git add README.md
+          git add README.md reports/amo_runs.csv
+          python3 scripts/validate_logs.py --index --branch main --common-ref origin/main
           if git diff --cached --quiet; then exit 0; fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'docs: refresh experiment index'
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'docs: refresh AMO results and experiment index'
           git push origin HEAD:main
