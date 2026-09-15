@@ -172,6 +172,29 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO",
         "family_force": "adroit",
     },
+    {
+        # TD3+AMO JAX antmaze alpha_E=alpha_B=2 (legacy T=1) × alpha_lr grid.
+        # family must stay on log_layout main allowlist (td3_amo_jax).
+        "algo": "td3_amo",
+        "root": Path("/home/choi/AMO_store/td3_amo_jax_antmaze_te1_tlr_fill/runs"),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "td3_amo_jax",
+        "code_commit_fallback": Path(
+            "/home/choi/AMO_store/td3_amo_jax_antmaze_te1_tlr_fill/launch_manifest.json"
+        ),
+    },
+    {
+        # TD3+AMO JAX antmaze alpha_E=alpha_B=5 (legacy T=2.5) × alpha_lr grid.
+        "algo": "td3_amo",
+        "root": Path("/home/choi/AMO_store/td3_amo_jax_antmaze_tinit25_tlr/runs"),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "td3_amo_jax",
+        "code_commit_fallback": Path(
+            "/home/choi/AMO_store/td3_amo_jax_antmaze_tinit25_tlr/launch_manifest.json"
+        ),
+    },
 ]
 
 
@@ -306,18 +329,28 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         else:
             # Legacy MPI Actor0 extractions.
             tokens.append("pi_base")
-    if family == "adroit" and algo == "td3_amo":
+    if family in ("adroit", "td3_amo_jax", "antmaze_alpha2", "antmaze_alpha5") and algo == "td3_amo":
         backend = str(cfg.get("backend") or "jax").lower()
         tokens.append(backend if backend in ("jax", "torch") else "jax")
-        te = cfg.get("T_E")
-        tb = cfg.get("T_B")
-        if te is not None:
-            te_f = float(te)
-            tokens.append(f"te{int(te_f) if te_f.is_integer() else te_f}")
-        if tb is not None:
-            tb_f = float(tb)
-            tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
-        # T_lr tag comes from the shared T_lr suffix below.
+        ae = cfg.get("alpha_E", cfg.get("T_E"))
+        ab = cfg.get("alpha_B", cfg.get("T_B"))
+        # Prefer alpha_* tags; legacy T_* still accepted for older configs.
+        # For legacy T values, emit ae/ab = 2T so variants match alpha units.
+        if cfg.get("alpha_E") is not None or cfg.get("alpha_B") is not None:
+            if ae is not None:
+                ae_f = float(ae)
+                tokens.append(f"ae{int(ae_f) if ae_f.is_integer() else ae_f}")
+            if ab is not None:
+                ab_f = float(ab)
+                tokens.append(f"ab{int(ab_f) if ab_f.is_integer() else ab_f}")
+        else:
+            if ae is not None:
+                ae_f = 2.0 * float(ae)
+                tokens.append(f"ae{int(ae_f) if ae_f.is_integer() else ae_f}")
+            if ab is not None:
+                ab_f = 2.0 * float(ab)
+                tokens.append(f"ab{int(ab_f) if ab_f.is_integer() else ab_f}")
+        # alpha_lr / T_lr tag comes from the shared suffix below.
     if family == "benchmark" and algo == "iql":
         tokens.append("pi_base")
     if algo in ("wpc", "aspc") or (family == "benchmark" and algo in ("wpc", "aspc")):
@@ -334,10 +367,11 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
         horizon = cfg.get("max_timesteps", cfg.get("max_steps", None))
         if horizon is not None and int(horizon) <= 20_000:
             tokens.append("smoke")
-    t_lr = cfg.get("T_lr")
-    if t_lr is not None and float(t_lr) not in (2e-4, 0.0002):
-        # compact scientific-ish
-        tokens.append("Tlr" + f"{float(t_lr):g}".replace(".", "p").replace("-", "m"))
+    a_lr = cfg.get("alpha_lr", cfg.get("T_lr"))
+    if a_lr is not None and float(a_lr) not in (2e-4, 0.0002):
+        # compact scientific-ish; keep Alr for native alpha_lr, Tlr for legacy-only.
+        tag = "Alr" if cfg.get("alpha_lr") is not None else "Tlr"
+        tokens.append(tag + f"{float(a_lr):g}".replace(".", "p").replace("-", "m"))
     if family.startswith("pi_only") and not tokens:
         tokens.append("pi_only_xfit")
     if not tokens:
@@ -371,6 +405,9 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "T_B",
         "T_lr",
         "T_freq",
+        "alpha_E",
+        "alpha_B",
+        "alpha_lr",
         "proximal_n_steps",
         "dual_proximal",
         "adaptive_multiscale",
@@ -381,6 +418,7 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "actor_lr",
         "alpha",
         "beta",
+        "beta_initial",
         "iql_tau",
         "expectile",
         "iql_deterministic",
@@ -753,6 +791,41 @@ def write_alias(
     )
 
 
+def resolve_code_commit(
+    src: Path,
+    run_meta: Dict[str, Any],
+    fallback_manifest: Optional[Path] = None,
+) -> Optional[str]:
+    """Prefer an explicit recorded commit; never invent from current repo HEAD."""
+    git_meta = run_meta.get("git") if isinstance(run_meta, dict) else None
+    if isinstance(git_meta, dict) and git_meta.get("code_commit"):
+        return str(git_meta.get("code_commit"))
+    if isinstance(git_meta, dict) and git_meta.get("commit"):
+        return str(git_meta.get("commit"))
+    # Launcher job markers written by amo/scripts/launch_td3_amo_jax_*.py
+    jobs_root = src.parent.parent / "jobs" / src.name
+    for name in ("RUNNING.json", "COMPLETED.json"):
+        marker = jobs_root / name
+        if not marker.exists():
+            continue
+        try:
+            payload = json.loads(marker.read_text())
+        except (OSError, json.JSONDecodeError, TypeError):
+            continue
+        git = payload.get("git") if isinstance(payload, dict) else None
+        if isinstance(git, dict) and git.get("commit"):
+            return str(git["commit"])
+    if fallback_manifest is not None and fallback_manifest.exists():
+        try:
+            payload = json.loads(fallback_manifest.read_text())
+        except (OSError, json.JSONDecodeError, TypeError):
+            payload = {}
+        git = payload.get("git") if isinstance(payload, dict) else None
+        if isinstance(git, dict) and git.get("commit"):
+            return str(git["commit"])
+    return None
+
+
 def ingest_one(
     src: Path,
     algo: str,
@@ -762,6 +835,7 @@ def ingest_one(
     dry_run: bool,
     log_dir: Optional[Path] = None,
     source_index: Optional[Dict[str, str]] = None,
+    code_commit_fallback: Optional[Path] = None,
 ) -> Optional[Dict[str, Any]]:
     cfg_path = src / "config.yaml"
     if not cfg_path.exists():
@@ -878,10 +952,19 @@ def ingest_one(
         backend = "jax" if "/amo_jax/" in source_path.replace("\\", "/") else "torch"
     # Do not invent code_commit from repo HEAD; that would reintroduce removed JAX
     # fingerprints under a new commit. Only keep an explicit source-recorded value.
-    code_commit = None
-    git_meta = run_meta.get("git") if isinstance(run_meta, dict) else None
-    if isinstance(git_meta, dict) and git_meta.get("code_commit"):
-        code_commit = str(git_meta.get("code_commit"))
+    code_commit = resolve_code_commit(src, run_meta, code_commit_fallback)
+    if code_commit and isinstance(run_meta, dict):
+        # Persist onto the source run_meta so later collects stay explicit.
+        git_block = dict(run_meta.get("git") or {})
+        if not git_block.get("code_commit"):
+            git_block["code_commit"] = code_commit
+            git_block.setdefault("code_repo", code_repo)
+            run_meta["git"] = git_block
+            if not dry_run:
+                try:
+                    meta_path.write_text(json.dumps(run_meta, indent=2) + "\n")
+                except OSError:
+                    pass
     if backend == "jax" and is_removed_jax(source_path, code_commit, run_id):
         print(f"SKIP removed legacy JAX {src}")
         return None
@@ -970,6 +1053,7 @@ def main() -> int:
             for fam_dir in algo_root.iterdir():
                 if fam_dir.is_dir():
                     source_index.update(load_source_index(src_spec["algo"], fam_dir.name))
+        fallback = src_spec.get("code_commit_fallback")
         for run_dir in discover_run_dirs(root, bool(src_spec.get("nested"))):
             meta = ingest_one(
                 run_dir,
@@ -980,6 +1064,7 @@ def main() -> int:
                 dry_run=args.dry_run,
                 log_dir=src_spec.get("log_dir"),
                 source_index=source_index,
+                code_commit_fallback=fallback if isinstance(fallback, Path) else None,
             )
             if meta:
                 collected.append(meta)
