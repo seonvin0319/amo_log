@@ -16,7 +16,7 @@
     "execution_loss",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-15T10:46:10+00:00",
+  "collected_at": "2026-09-15T10:58:12+00:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "behavior_bc_l1_joint",
