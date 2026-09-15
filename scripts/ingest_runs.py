@@ -8,6 +8,7 @@ import hashlib
 import json
 import re
 import shutil
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -194,6 +195,22 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "host": "shchoi",
         "code_repo": "AMO_EXP_iql-amo",
         "family_force": "iql_adaptive_beta",
+    },
+    # IQL+AMO BPI main · JAX · beta_initial=1 · loco9 (AMO release)
+    {
+        "algo": "iql_amo",
+        "root": Path("/home/shchoi/AMO/results/iql_amo_jax_main_loco9/runs"),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "amo_bpi",
+    },
+    # IQL+AMO BPI ablation · JAX · beta_initial=5 · loco9
+    {
+        "algo": "iql_amo",
+        "root": Path("/home/shchoi/AMO/results/iql_amo_jax_b5_loco9/runs"),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "amo_bpi",
     },
     # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
     {
@@ -512,6 +529,23 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
             )
         else:
             tokens.append("adaptive_beta")
+    if family == "amo_bpi":
+        beta = cfg.get("beta_initial")
+        if beta is not None:
+            tokens.append(
+                "b"
+                + f"{float(beta):g}".replace(".", "p").replace("-", "m").replace("+", "")
+            )
+        rho = cfg.get("rho_lr")
+        if rho is not None:
+            tokens.append(
+                "rho"
+                + f"{float(rho):g}".replace(".", "p").replace("-", "m").replace("+", "")
+            )
+        if cfg.get("backend") == "jax":
+            tokens.append("jax")
+        if cfg.get("gaussian") is False:
+            tokens.append("det")
     if family == "adaptive_multiscale":
         te = cfg.get("T_E")
         if te is not None:
@@ -591,6 +625,8 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "rho_lr",
         "beta",
         "beta_initial",
+        "gaussian",
+        "expectile",
         "adaptive_enabled",
         "T_freq",
         "proximal_n_steps",
@@ -836,6 +872,25 @@ def read_final_eval_50_row(src: Path) -> Optional[Dict[str, Any]]:
         return None
 
 
+def resolve_code_commit(code_repo: str) -> Optional[str]:
+    roots = {
+        "AMO": Path("/home/shchoi/AMO"),
+        "AMO_EXP_iql-amo": Path("/home/shchoi/AMO_EXP_iql-amo"),
+        "amo": Path("/home/shchoi/amo"),
+        "AMO-jax-upstream": Path("/home/shchoi/AMO-jax-upstream"),
+        "ASPC": Path("/home/shchoi/ASPC"),
+    }
+    root = roots.get(code_repo)
+    if root is None or not (root / ".git").exists():
+        return None
+    try:
+        return subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=root, text=True
+        ).strip()
+    except Exception:
+        return None
+
+
 def ingest_one(
     src: Path,
     algo: str,
@@ -977,7 +1032,10 @@ def ingest_one(
         "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
         "settings": settings_summary(algo, cfg),
         "artifacts": artifacts,
-        "git": {"code_repo": code_repo, "code_commit": None},
+        "git": {
+            "code_repo": code_repo,
+            "code_commit": resolve_code_commit(code_repo),
+        },
     }
     if last_step is not None:
         meta["settings"]["last_metrics_step"] = last_step
