@@ -193,6 +193,7 @@
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 2 | jax | — | [hopmr_s2_ae1_ab1_Tlr0p0003__6102c47c](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_ae1_ab1_Tlr0p0003__6102c47c/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 3 | jax | — | [hopmr_s3_ae1_ab1_Tlr0p0003__e1e448b5](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_ae1_ab1_Tlr0p0003__e1e448b5/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | — | [hopmr_s0_ae1_ab1_Tlr0p001__13b8b0bc](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_0/hopmr_s0_ae1_ab1_Tlr0p001__13b8b0bc/) |
+| main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | — | [hopmr_s1_ae1_ab1_Tlr0p001__7cc6793b](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_1/hopmr_s1_ae1_ab1_Tlr0p001__7cc6793b/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 1 | torch | 1000000 | [hopmr_s1_te1_tb1_Tlr0p001__f080c915](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_1/hopmr_s1_te1_tb1_Tlr0p001__f080c915/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | torch | 1000000 | [hopmr_s2_te1_tb1_Tlr0p001__b42f2154](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_2/hopmr_s2_te1_tb1_Tlr0p001__b42f2154/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 3 | torch | 1000000 | [hopmr_s3_te1_tb1_Tlr0p001__d6f53a73](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_3/hopmr_s3_te1_tb1_Tlr0p001__d6f53a73/) |
