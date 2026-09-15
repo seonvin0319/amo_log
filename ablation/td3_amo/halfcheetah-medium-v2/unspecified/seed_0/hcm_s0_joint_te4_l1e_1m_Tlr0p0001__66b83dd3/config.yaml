@@ -1,6 +1,6 @@
-T_init: 4.0
-T_max: 20.0
-T_min: 0.05
+alpha_init: 8.0
+alpha_max: 40.0
+alpha_min: 0.1
 actor_adam_betas:
 - 0.9
 - 0.999

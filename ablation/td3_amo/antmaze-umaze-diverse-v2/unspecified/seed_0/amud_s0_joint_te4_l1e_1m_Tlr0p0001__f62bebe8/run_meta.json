@@ -39,12 +39,33 @@
   "original_rel_path": "runs/amo/behavior_bc_l1_joint/amud_s0_joint_te4_l1e_1m_Tlr0p0001__f62bebe8",
   "rel_path": "ablation/td3_amo/antmaze-umaze-diverse-v2/unspecified/seed_0/amud_s0_joint_te4_l1e_1m_Tlr0p0001__f62bebe8",
   "run_id": "amud_s0_joint_te4_l1e_1m_Tlr0p0001__f62bebe8",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "1039874c94864dc5c3fe41e7ec14edb02bc5e87017798dbc5e184d81cf73421d",
+        "sha256": "eae4b82845acb3edbcf166936df631a41435292ff31f160639b8a2c3bd51f38b"
+      },
+      "eval.jsonl": {
+        "sha256": "413d66020a3ea3171826184335f28869912434f0b1db559051fa2270ef09ae3b"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "4dc85a7d8bbffb3ba0970dadc133b31ca68f1e3e0a97052f35e2d1838bf6983e",
+        "sha256": "d21aed635351ce9aeb3ad3eaaaa8f6ebf93f0f34d2ceaad52cb99c40dc4349ac"
+      },
+      "run_manifest.json": {
+        "sha256": "4db3cfce9ce0290a1078c5c73460d152239d5e28dadd008e7dd387b8e4b66af2"
+      },
+      "train_done.json": {
+        "sha256": "5e09571e5d28c3173f06e77c87bd64206e30622661b1759107ed4a93da61bbc3"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_init": 4.0,
-    "T_max": 20.0,
-    "T_min": 0.05,
     "actor_adam_betas": [
       0.9,
       0.999
@@ -58,6 +79,9 @@
     "adam_eps": 1e-08,
     "algorithm_id": "behavior_bc_l1_joint_v2",
     "allow_tf32": false,
+    "alpha_init": 8.0,
+    "alpha_max": 40.0,
+    "alpha_min": 0.1,
     "amsgrad": false,
     "batch_size": 256,
     "bc_eval_every": 50000,

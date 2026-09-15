@@ -31,14 +31,33 @@
   "original_rel_path": "runs/amo/adaptive_multiscale/hme_s2_te1_tb1_Tlr0p0003__e95efb67",
   "rel_path": "main/td3_amo/halfcheetah-medium-expert-v2/3e-4/seed_2/hme_s2_te1_tb1_Tlr0p0003__e95efb67",
   "run_id": "hme_s2_te1_tb1_Tlr0p0003__e95efb67",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "748542861803e262d38a554a343a23b743dbd063f1f1a5bc721cc37578a7aca7",
+        "sha256": "0d3359369843295b7e6e6857deaa79bec5349d0c4d5a3af80dbccc54d4a52594"
+      },
+      "eval.jsonl": {
+        "sha256": "bf46f1c8954a35cc830408ca9a52f7ed862130b751d2470df87eae9e8dc9e4ba"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "d3657c5dff242c687c5d58e105d458671c409ed488e71265cfe249b33f23dd23",
+        "sha256": "215fde3908a97dbc8a75be1ff0248ee7e2f6838f68e1a73958f9bb292965d0c5"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
   "section": "main",
   "seed": 2,
   "settings": {
-    "T_B": 1.0,
-    "T_E": 1.0,
-    "T_freq": 10,
-    "T_lr": 0.0003,
     "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0003,
     "batch_size": 256,
     "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
     "bootstrap_rms_diagnostic_freq": 0,

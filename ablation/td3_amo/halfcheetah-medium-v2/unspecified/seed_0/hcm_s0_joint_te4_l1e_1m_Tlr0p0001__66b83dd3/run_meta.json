@@ -39,12 +39,33 @@
   "original_rel_path": "runs/amo/behavior_bc_l1_joint/hcm_s0_joint_te4_l1e_1m_Tlr0p0001__66b83dd3",
   "rel_path": "ablation/td3_amo/halfcheetah-medium-v2/unspecified/seed_0/hcm_s0_joint_te4_l1e_1m_Tlr0p0001__66b83dd3",
   "run_id": "hcm_s0_joint_te4_l1e_1m_Tlr0p0001__66b83dd3",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "f1f2c71fe7d5f8baaf59fff5eaef6a4f0c48b83b3c1d01110d29cb62202f53c1",
+        "sha256": "3ef32814c7b97acec8d0e966fa2bd38552f3d658572bac3b8d40c7c0503cf303"
+      },
+      "eval.jsonl": {
+        "sha256": "7f5c1105ac228b4d48ff07c3cb82b11f27dad05ec7fa933339f44225ab82584c"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "4679ade7ada473d5989d91c868960d97311632d464851fcb15c12efa30f41b07",
+        "sha256": "731a796a74b9c785f66f00ba8610be86048eccde0682829ce47e33e4392d8c2f"
+      },
+      "run_manifest.json": {
+        "sha256": "203de829ef755e4975bb9c5a31eace89e1cbe46add99d924800e2ac8f49f9d8a"
+      },
+      "train_done.json": {
+        "sha256": "5e09571e5d28c3173f06e77c87bd64206e30622661b1759107ed4a93da61bbc3"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_init": 4.0,
-    "T_max": 20.0,
-    "T_min": 0.05,
     "actor_adam_betas": [
       0.9,
       0.999
@@ -58,6 +79,9 @@
     "adam_eps": 1e-08,
     "algorithm_id": "behavior_bc_l1_joint_v2",
     "allow_tf32": false,
+    "alpha_init": 8.0,
+    "alpha_max": 40.0,
+    "alpha_min": 0.1,
     "amsgrad": false,
     "batch_size": 256,
     "bc_eval_every": 50000,

@@ -39,12 +39,33 @@
   "original_rel_path": "runs/amo/behavior_bc_l1_joint/hopm_s0_joint_te4_l1e_1m_Tlr0p0001__8506951f",
   "rel_path": "ablation/td3_amo/hopper-medium-v2/unspecified/seed_0/hopm_s0_joint_te4_l1e_1m_Tlr0p0001__8506951f",
   "run_id": "hopm_s0_joint_te4_l1e_1m_Tlr0p0001__8506951f",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "94de95beb005c68c9f1148464c2240e183339c2256390167db6b103d9c79388c",
+        "sha256": "3a4f67faba770b5fe1dd3d509d4120a6ec6eff290589550657b597db191f1399"
+      },
+      "eval.jsonl": {
+        "sha256": "302fe10f998e4937c1c71e7c66d5cf3a277bdb8e54552e390ab3bab994fdfa5c"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "a7e1dd04df7ce641f99dc4a64e11a59d57b1167044d93929622bc78fa909e621",
+        "sha256": "a44a7ee68c2bc7960a9bba161867a8646c51adb3a2c54086e48b55d3ce1da554"
+      },
+      "run_manifest.json": {
+        "sha256": "f1fe74e58bd72dd2144ca8136e380c6aadca2bcdd354e76f347a27ff2fafe88e"
+      },
+      "train_done.json": {
+        "sha256": "5e09571e5d28c3173f06e77c87bd64206e30622661b1759107ed4a93da61bbc3"
+      }
+    },
+    "schema": "alpha_v1"
+  },
   "section": "ablation",
   "seed": 0,
   "settings": {
-    "T_init": 4.0,
-    "T_max": 20.0,
-    "T_min": 0.05,
     "actor_adam_betas": [
       0.9,
       0.999
@@ -58,6 +79,9 @@
     "adam_eps": 1e-08,
     "algorithm_id": "behavior_bc_l1_joint_v2",
     "allow_tf32": false,
+    "alpha_init": 8.0,
+    "alpha_max": 40.0,
+    "alpha_min": 0.1,
     "amsgrad": false,
     "batch_size": 256,
     "bc_eval_every": 50000,
