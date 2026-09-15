@@ -16,7 +16,28 @@ from typing import Any, Dict, List, Optional, Tuple
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
 
-KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl")
+KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "eval_final50_v1.jsonl")
+
+
+def load_removed_jax_entries() -> List[Dict[str, Any]]:
+    path = ROOT / "catalog" / "removed_legacy_jax.json"
+    if not path.exists():
+        return []
+    try:
+        return list(json.loads(path.read_text()).get("runs") or [])
+    except (OSError, json.JSONDecodeError, TypeError, AttributeError):
+        return []
+
+
+def is_removed_jax(source_path: str, code_commit: Optional[str], run_id: Optional[str] = None) -> bool:
+    for entry in load_removed_jax_entries():
+        if entry.get("source_path") != source_path:
+            continue
+        if entry.get("code_commit") != code_commit:
+            continue
+        if source_path or entry.get("run_id") == run_id:
+            return True
+    return False
 
 ENV_SHORT = {
     "halfcheetah-medium-v2": "hcm",
@@ -38,6 +59,18 @@ ENV_SHORT = {
     "antmaze-medium-diverse-v2": "ammd",
     "antmaze-large-play-v2": "amlp",
     "antmaze-large-diverse-v2": "amld",
+    "door-human-v1": "doorh",
+    "door-cloned-v1": "doorc",
+    "door-expert-v1": "doore",
+    "hammer-human-v1": "hamh",
+    "hammer-cloned-v1": "hamc",
+    "hammer-expert-v1": "hame",
+    "pen-human-v1": "penh",
+    "pen-cloned-v1": "penc",
+    "pen-expert-v1": "pene",
+    "relocate-human-v1": "relh",
+    "relocate-cloned-v1": "relc",
+    "relocate-expert-v1": "rele",
 }
 
 # legacy short codes that appeared in older APART directory names
@@ -52,32 +85,91 @@ LEGACY_ENV_PREFIX = {
 
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
-        "algo": "apart",
-        "root": Path("/home/choi/APART/results_apart"),
-        "host": "choi",
-        "code_repo": "APART",
+        "algo": "a2pr",
+        "root": Path("/home/svcho/A2PR/results_aspc_table1"),
+        "host": "svcho",
+        "code_repo": "A2PR",
+        "code_commit": "f92a2a4e638c0a72718fbc8c67e7a66030db5f9c",
+        "family_force": "aspc_table1",
+        "kind": "a2pr_npy",
     },
     {
-        "algo": "apart",
-        "root": Path("/home/choi/APART/results_pi_only_xfit_target"),
-        "host": "choi",
-        "code_repo": "APART",
-        "family_force": "pi_only_xfit_target",
+        "algo": "a2pr",
+        "root": Path("/home/svcho/A2PR/results_aspc_table1_final50"),
+        "host": "svcho",
+        "code_repo": "A2PR",
+        "code_commit": "f92a2a4e638c0a72718fbc8c67e7a66030db5f9c",
+        "family_force": "aspc_table1_final50",
+        "kind": "a2pr_final50",
     },
     {
-        "algo": "apart",
-        "root": Path("/home/choi/APART/results_pi_only_xfit_target_mpi_nstep"),
-        "host": "choi",
-        "code_repo": "APART",
-        "family_force": "pi_only_xfit_mpi_nstep",
+        "algo": "wpc",
+        "root": Path("/home/svcho/ASPC/results_wpc"),
+        "host": "svcho",
+        "code_repo": "ASPC",
+        "code_commit": "3119fbefd99ed73134ba26a4db7caf3315cc2250",
+        "family_force": "benchmark",
+        "log_dir": Path("/home/svcho/ASPC/results_wpc/_logs"),
     },
     {
-        "algo": "amo",
-        "root": Path("/home/choi/amo/results/segment_interval"),
-        "host": "choi",
-        "code_repo": "amo",
-        "family_force": "segment_interval",
-        "nested": True,
+        "algo": "iql_amo",
+        "root": Path("/home/svcho/amo/results/iql_amo_lr1e3_beta_sweep_seed0/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "123f23478a0904e5102c037d6f7e176fcda1f147",
+        "family_force": "lr1e3_beta_sweep",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path("/home/svcho/amo/results/iql_amo_adroit_l2highest_rho_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "adroit_l2highest_rho",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_adroit_T1_Tlr1e3_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "adroit_T1_Tlr1e3",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_adroit_T5_Tlr1e3_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "adroit_T5_Tlr1e3",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_adroit_T10_Tlr1e3_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "adroit_T10_Tlr1e3",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_loco9_alpha5_alr_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "td3_amo_jax",
+        "layout": "cell_jobs",
+        "require_eval": True,
     },
 ]
 
@@ -142,6 +234,17 @@ def extract_uuid8(dirname: str) -> str:
 def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str:
     if force:
         return force
+    if algo == "iql_amo":
+        return "lr1e3_beta_sweep"
+    if algo == "td3_amo":
+        return "td3_amo_jax"
+    if algo == "td3bc":
+        name = str(cfg.get("name", "")).lower()
+        if "aspc" in name or "td3bc_aspc" in name:
+            return "aspc_rc"
+        return "misc"
+    if algo in ("aspc", "wpc"):
+        return force or "benchmark"
     if algo == "amo":
         method = str(cfg.get("pi_bound_method", "secant"))
         if method == "segment_interval":
@@ -180,13 +283,107 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
     if family == "segment_interval":
         segs = int(cfg.get("pi_bound_segments", 4) or 4)
         tokens.append(f"seg{segs}")
-    if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) < 100_000:
-        if "smoke" in dirname or int(cfg.get("max_timesteps", 0) or 0) <= 20_000:
+    if family in ("adaptive_multiscale", "antmaze_t_init_tune") or cfg.get(
+        "adaptive_multiscale"
+    ):
+        te = cfg.get("T_E")
+        tb = cfg.get("T_B")
+        if te is not None:
+            te_f = float(te)
+            tokens.append(f"te{int(te_f) if te_f.is_integer() else te_f}")
+        if tb is not None:
+            tb_f = float(tb)
+            tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
+    if family == "aspc_rc" or family == "td3bc_table6" or algo in ("td3bc", "aspc"):
+        # ASPC-style robust critic TD3+BC (Table 6).
+        tokens.append("aspc_rc")
+        alpha = cfg.get("alpha")
+        if alpha is not None:
+            a = float(alpha)
+            tokens.append(f"a{int(a) if a.is_integer() else str(a).replace('.', 'p')}")
+    if family == "vanilla" and algo == "iql":
+        # Prefer explicit backend tag for AMO release JAX/Torch runs.
+        backend = str(cfg.get("backend") or "").lower()
+        if backend in ("jax", "torch"):
+            tokens.append(backend)
+        else:
+            # Legacy MPI Actor0 extractions.
+            tokens.append("pi_base")
+    if family.startswith("adroit") and algo == "td3_amo":
+        backend = str(cfg.get("backend") or "jax").lower()
+        tokens.append(backend if backend in ("jax", "torch") else "jax")
+        ae = cfg.get("alpha_E", cfg.get("T_E"))
+        ab = cfg.get("alpha_B", cfg.get("T_B"))
+        # Prefer alpha labels when present; legacy T kept for older Adroit T=1/5/10 trees.
+        if cfg.get("alpha_E") is not None or cfg.get("alpha_B") is not None:
+            if ae is not None:
+                ae_f = float(ae)
+                tokens.append(f"ae{int(ae_f) if ae_f.is_integer() else ae_f}")
+            if ab is not None:
+                ab_f = float(ab)
+                tokens.append(f"ab{int(ab_f) if ab_f.is_integer() else ab_f}")
+        else:
+            if ae is not None:
+                te_f = float(ae)
+                tokens.append(f"te{int(te_f) if te_f.is_integer() else te_f}")
+            if ab is not None:
+                tb_f = float(ab)
+                tokens.append(f"tb{int(tb_f) if tb_f.is_integer() else tb_f}")
+    if family == "td3_amo_jax" and algo == "td3_amo":
+        backend = str(cfg.get("backend") or "jax").lower()
+        tokens.append(backend if backend in ("jax", "torch") else "jax")
+        ae = cfg.get("alpha_E")
+        ab = cfg.get("alpha_B")
+        if ae is not None:
+            ae_f = float(ae)
+            tokens.append(f"ae{int(ae_f) if ae_f.is_integer() else ae_f}")
+        if ab is not None:
+            ab_f = float(ab)
+            tokens.append(f"ab{int(ab_f) if ab_f.is_integer() else ab_f}")
+    if algo == "iql_amo":
+        beta = cfg.get("beta_initial")
+        if family == "lr1e3_beta_sweep" and beta is not None:
+            try:
+                bf = float(beta)
+                beta_tag = str(int(bf) if bf.is_integer() else bf)
+            except (TypeError, ValueError):
+                beta_tag = str(beta).replace(".", "p")
+            return f"iql_amo_lr1e3_beta{beta_tag}"
+        if beta is not None:
+            try:
+                bf = float(beta)
+                tokens.append(f"beta{int(bf) if bf.is_integer() else bf}")
+            except (TypeError, ValueError):
+                tokens.append(f"beta{beta}")
+    if family == "adroit_T1_Tlr1e3" and algo == "td3_amo":
+        return "td3_amo_T1_Tlr1e3"
+    if family == "adroit_T5_Tlr1e3" and algo == "td3_amo":
+        return "td3_amo_T5_Tlr1e3"
+    if family == "adroit_T10_Tlr1e3" and algo == "td3_amo":
+        return "td3_amo_T10_Tlr1e3"
+    if family == "benchmark" and algo == "iql":
+        tokens.append("pi_base")
+    if algo in ("wpc", "aspc") or (family == "benchmark" and algo in ("wpc", "aspc")):
+        if algo == "wpc" or "wpc" in dirname:
+            tokens.append("wpc")
+        elif algo == "aspc" or "_aspc" in dirname or dirname.endswith("aspc"):
+            tokens.append("aspc")
+            mode = str(cfg.get("l3_mode", "aspc"))
+            if mode and mode != "aspc":
+                tokens.append(mode)
+    if "smoke" in dirname:
+        tokens.append("smoke")
+    else:
+        horizon = cfg.get("max_timesteps", cfg.get("max_steps", None))
+        if horizon is not None and int(horizon) <= 20_000:
             tokens.append("smoke")
-    t_lr = cfg.get("T_lr")
-    if t_lr is not None and float(t_lr) not in (2e-4, 0.0002):
-        # compact scientific-ish
-        tokens.append("Tlr" + f"{float(t_lr):g}".replace(".", "p").replace("-", "m"))
+    a_lr = cfg.get("alpha_lr", cfg.get("T_lr"))
+    if a_lr is not None and float(a_lr) not in (2e-4, 0.0002):
+        tag = "alr" if cfg.get("alpha_lr") is not None else "Tlr"
+        tokens.append(tag + f"{float(a_lr):g}".replace(".", "p").replace("-", "m"))
+    r_lr = cfg.get("rho_lr")
+    if algo == "iql_amo" and r_lr is not None and float(r_lr) not in (2e-3, 0.002):
+        tokens.append("rlr" + f"{float(r_lr):g}".replace(".", "p").replace("-", "m"))
     if family.startswith("pi_only") and not tokens:
         tokens.append("pi_only_xfit")
     if not tokens:
@@ -219,6 +416,15 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "T_E",
         "T_B",
         "T_lr",
+        "alpha_E",
+        "alpha_B",
+        "alpha_lr",
+        "beta_initial",
+        "rho_lr",
+        "expectile",
+        "algorithm",
+        "backend",
+        "max_steps",
         "T_freq",
         "proximal_n_steps",
         "dual_proximal",
@@ -229,6 +435,24 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "smoothness_max",
         "actor_lr",
         "alpha",
+        "beta",
+        "iql_tau",
+        "expectile",
+        "iql_deterministic",
+        "vf_lr",
+        "qf_lr",
+        "value_lr",
+        "critic_lr",
+        "max_steps",
+        "reward_transform",
+        "backend",
+        "n_episodes",
+        "alpha_freq",
+        "ema_alpha",
+        "loss_function",
+        "l3_mode",
+        "metrics_log_freq",
+        "save_freq",
     ]
     out = {}
     for k in keys:
@@ -237,13 +461,353 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
     return out
 
 
-def discover_run_dirs(root: Path, nested: bool) -> List[Path]:
+def discover_run_dirs(root: Path, nested: bool = False, layout: str = "flat") -> List[Path]:
     if not root.exists():
         return []
+    if layout == "cell_jobs":
+        # jobs/<tag>/run/config.yaml
+        return sorted({p.parent for p in root.glob("*/run/config.yaml")})
     if nested:
-        # parent/*/run_dir/config.yaml
         return sorted({p.parent for p in root.glob("*/*/config.yaml")})
     return sorted({p.parent for p in root.glob("*/config.yaml")})
+
+
+def aspc_log_path(src: Path, log_dir: Optional[Path]) -> Optional[Path]:
+    if log_dir is None or not log_dir.exists():
+        return None
+    m = re.match(r"(td3bc_aspc_[a-z0-9]+_s\d+)-", src.name)
+    if not m:
+        # wpc / aspc cohort: {short}_s{seed}_{wpc|aspc}-{env}-{uuid}
+        m = re.match(r"((?:[a-z0-9]+)_s\d+_(?:wpc|aspc))-", src.name)
+    if not m:
+        # fall back to config name prefix before first '-' env chunk
+        cfg = src / "config.yaml"
+        if cfg.exists():
+            name = str(load_yaml_lite(cfg).get("name") or "")
+            # name may already include env-uuid suffix
+            m2 = re.match(r"(td3bc_aspc_[a-z0-9]+_s\d+)", name)
+            if not m2:
+                m2 = re.match(r"((?:[a-z0-9]+)_s\d+_(?:wpc|aspc))", name)
+            if m2:
+                candidate = log_dir / f"{m2.group(1)}.log"
+                return candidate if candidate.exists() else None
+        return None
+    candidate = log_dir / f"{m.group(1)}.log"
+    return candidate if candidate.exists() else None
+
+
+def synthesize_eval_jsonl_from_aspc_log(
+    log_path: Path, eval_freq: int = 5000
+) -> List[Dict[str, Any]]:
+    """Parse CORL/ASPC stdout logs into eval records.
+
+    Training prints `Time steps: N` then the Evaluation block. Fallback: assume
+    evals at eval_freq, 2*eval_freq, ...
+    """
+    text = log_path.read_text(errors="ignore")
+    rows: List[Dict[str, Any]] = []
+    step: Optional[int] = None
+    for line in text.splitlines():
+        tm = re.search(r"Time steps:\s*(\d+)", line)
+        if tm:
+            step = int(tm.group(1))
+            continue
+        em = re.search(
+            r"Evaluation over\s+(\d+)\s+episodes:\s*([-\d.]+)\s*,\s*D4RL score:\s*([-\d.]+)",
+            line,
+        )
+        if not em:
+            continue
+        if step is None:
+            step = (len(rows) + 1) * int(eval_freq)
+        rows.append(
+            {
+                "step": step,
+                "n_episodes": int(em.group(1)),
+                "return_mean": float(em.group(2)),
+                "d4rl_normalized_score": float(em.group(3)),
+            }
+        )
+        step = None
+    return rows
+
+
+MPI_IQL_DROP_KEYS = {
+    "num_actors",
+    "w2_weights",
+    "use_fb",
+    "fb_tau",
+    "sinkhorn_K",
+    "sinkhorn_blur",
+    "sinkhorn_backend",
+    "algorithm",  # kept implicitly via algo=iql
+}
+
+
+def discover_mpi_iql_actor0_logs(root: Path) -> List[Path]:
+    """Return completed MPI-IQL stdout logs under results/iql/.../logs/*.log."""
+    if not root.exists():
+        return []
+    out: List[Path] = []
+    for log in sorted(root.glob("*/*/seed_*/logs/*.log")):
+        text = log.read_text(errors="ignore")
+        if "Training completed" not in text:
+            continue
+        if "Actor 0 - Raw:" not in text:
+            continue
+        out.append(log)
+    return out
+
+
+def mpi_iql_config_path(log_path: Path, config_root: Path) -> Optional[Path]:
+    # .../results/iql/{domain}/{dataset}/seed_N/logs/run_....log
+    parts = log_path.parts
+    try:
+        i = parts.index("iql")
+        domain, dataset = parts[i + 1], parts[i + 2]
+    except (ValueError, IndexError):
+        return None
+    for name in (f"{dataset}_iql_fb.yaml", f"{dataset}_iql.yaml"):
+        cand = config_root / domain / name
+        if cand.exists():
+            return cand
+    return None
+
+
+def synthesize_eval_jsonl_from_mpi_iql_actor0(
+    log_path: Path, eval_freq: int = 5000
+) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Parse MPI multi-actor IQL logs; keep Actor 0 (pi_base) only."""
+    text = log_path.read_text(errors="ignore")
+    rows: List[Dict[str, Any]] = []
+    step: Optional[int] = None
+    header: Dict[str, Any] = {}
+    m = re.search(r"Env:\s*([^\s,]+)", text)
+    if m:
+        header["env"] = m.group(1)
+    m = re.search(r"seed:\s*(\d+)", text)
+    if m:
+        header["seed"] = int(m.group(1))
+    m = re.search(r"num_actors:\s*(\d+)", text)
+    if m:
+        header["num_actors"] = int(m.group(1))
+    m = re.search(r"w2_weights:\s*(\[[^\]]+\])", text)
+    if m:
+        header["w2_weights"] = m.group(1)
+    m = re.search(r"use_fb:\s*(True|False)", text)
+    if m:
+        header["use_fb"] = m.group(1) == "True"
+    for line in text.splitlines():
+        tm = re.search(r"Time steps:\s*(\d+)", line)
+        if tm:
+            step = int(tm.group(1))
+            continue
+        am = re.search(
+            r"Actor 0 - Raw:\s*([-\d.]+),\s*D4RL score:\s*([-\d.]+)",
+            line,
+        )
+        if not am:
+            continue
+        if step is None:
+            step = (len(rows) + 1) * int(eval_freq)
+        rows.append(
+            {
+                "step": step,
+                "return_mean": float(am.group(1)),
+                "d4rl_normalized_score": float(am.group(2)),
+                "actor": 0,
+            }
+        )
+        step = None
+    fm = re.search(
+        r"Actor 0 final - det_mean:\s*([-\d.]+),\s*stoch_mean:\s*([-\d.]+)",
+        text,
+    )
+    if fm:
+        header["final_det_mean"] = float(fm.group(1))
+        header["final_stoch_mean"] = float(fm.group(2))
+    return rows, header
+
+
+def write_vanilla_iql_config_from_mpi(cfg: Dict[str, Any]) -> str:
+    """Emit a flat YAML for Actor0 / vanilla IQL (MPI multi-actor fields dropped)."""
+    keep_order = [
+        "env",
+        "seed",
+        "eval_freq",
+        "n_episodes",
+        "max_timesteps",
+        "iql_tau",
+        "beta",
+        "vf_lr",
+        "qf_lr",
+        "actor_lr",
+        "iql_deterministic",
+        "actor_dropout",
+        "batch_size",
+        "discount",
+        "tau",
+        "buffer_size",
+        "normalize",
+        "normalize_reward",
+        "final_eval_runs",
+        "final_eval_episodes",
+        "project",
+        "group",
+        "name",
+    ]
+    lines = [
+        "# Vanilla IQL (pi_base / Actor0 extracted from MPI-IQL).",
+        "# Multi-actor W2/FB fields were dropped; Actor0 update matches standalone IQL.",
+        "algo: iql",
+        "family: vanilla",
+        "extracted_from: mpi_iql_actor0",
+    ]
+    seen = set()
+    for key in keep_order:
+        if key not in cfg or cfg[key] is None:
+            continue
+        seen.add(key)
+        val = cfg[key]
+        if isinstance(val, bool):
+            raw = "true" if val else "false"
+        else:
+            raw = str(val)
+        lines.append(f"{key}: {raw}")
+    for key, val in cfg.items():
+        if key in seen or key in MPI_IQL_DROP_KEYS or val is None:
+            continue
+        if isinstance(val, (list, dict)):
+            continue
+        if isinstance(val, bool):
+            raw = "true" if val else "false"
+        else:
+            raw = str(val)
+        lines.append(f"{key}: {raw}")
+    return "\n".join(lines) + "\n"
+
+
+def ingest_mpi_iql_actor0(
+    log_path: Path,
+    *,
+    host: str,
+    code_repo: str,
+    config_root: Path,
+    dry_run: bool,
+) -> Optional[Dict[str, Any]]:
+    cfg_path = mpi_iql_config_path(log_path, config_root)
+    if cfg_path is None:
+        print(f"SKIP no config for {log_path}")
+        return None
+    cfg = load_yaml_lite(cfg_path)
+    eval_rows, header = synthesize_eval_jsonl_from_mpi_iql_actor0(
+        log_path, int(cfg.get("eval_freq", 5000) or 5000)
+    )
+    if not eval_rows:
+        print(f"SKIP no Actor0 evals in {log_path}")
+        return None
+
+    env = str(header.get("env") or cfg.get("env") or "unknown")
+    seed = int(header.get("seed", cfg.get("seed", 0)) or 0)
+    cfg["env"] = env
+    cfg["seed"] = seed
+    family = "vanilla"
+    algo = "iql"
+    dirname = log_path.parent.parent.name + "_" + log_path.stem
+    variant = build_variant(algo, family, cfg, dirname)
+    uuid8 = hashlib.sha1(str(log_path.resolve()).encode()).hexdigest()[:8]
+    short = env_short(env)
+    run_id = f"{short}_s{seed}_{variant}__{uuid8}"
+    dest = RUNS / algo / family / run_id
+
+    artifacts = ["config.yaml", "eval.jsonl"]
+    meta = {
+        "algo": algo,
+        "family": family,
+        "run_id": run_id,
+        "env": env,
+        "env_short": short,
+        "seed": seed,
+        "variant": variant,
+        "legacy_name": log_path.name,
+        "source_path": str(log_path.parent.parent.resolve()),  # seed_N dir
+        "source_host": host,
+        "source_log": str(log_path.resolve()),
+        "source_config": str(cfg_path.resolve()),
+        "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+        "settings": settings_summary(algo, cfg),
+        "artifacts": artifacts,
+        "git": {"code_repo": code_repo, "code_commit": None},
+        "eval_source": "synthesized_from_mpi_actor0_log",
+        "notes": (
+            "Actor0/pi_base scores from MPI-IQL (num_actors>1). "
+            "Actor0 has no W2/FB term and matches vanilla IQL under the same IQL hparams."
+        ),
+        "mpi_source": {
+            "num_actors": header.get("num_actors"),
+            "w2_weights": header.get("w2_weights"),
+            "use_fb": header.get("use_fb"),
+            "final_det_mean": header.get("final_det_mean"),
+            "final_stoch_mean": header.get("final_stoch_mean"),
+        },
+    }
+
+    if dry_run:
+        print(f"DRY {log_path} -> {dest.relative_to(ROOT)} eval_rows={len(eval_rows)}")
+        return meta
+
+    dest.mkdir(parents=True, exist_ok=True)
+    (dest / "config.yaml").write_text(write_vanilla_iql_config_from_mpi(cfg))
+    (dest / "eval.jsonl").write_text(
+        "".join(json.dumps(row) + "\n" for row in eval_rows)
+    )
+    (dest / "run_meta.json").write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n")
+    print(f"OK  {dest.relative_to(ROOT)}")
+    return meta
+
+
+def load_source_index(algo: str, family: str) -> Dict[str, str]:
+    """Map absolute source_path -> canonical run_id under runs/<algo>/<family>/."""
+    index: Dict[str, str] = {}
+    root = RUNS / algo / family
+    candidates = list(root.glob("*/run_meta.json"))
+    candidates += [p for section in ("main", "ablation") for p in (ROOT / section).rglob("run_meta.json")]
+    for meta_path in candidates:
+        try:
+            meta = json.loads(meta_path.read_text())
+        except (OSError, json.JSONDecodeError, TypeError):
+            continue
+        if meta.get("is_alias") or meta.get("algo") != algo or meta.get("family") != family:
+            continue
+        src = meta.get("source_path")
+        run_id = meta.get("run_id") or meta_path.parent.name
+        if src and run_id:
+            index[str(Path(src).resolve())] = run_id
+    return index
+
+
+def write_alias(
+    alias_dir: Path,
+    canonical_run_id: str,
+    canonical_rel: str,
+    stale_run_id: str,
+    source_path: str,
+    note: str,
+) -> None:
+    alias_dir.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "is_alias": True,
+        "alias_of": canonical_run_id,
+        "canonical_rel_path": canonical_rel,
+        "stale_run_id": stale_run_id,
+        "source_path": source_path,
+        "note": note,
+        "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+    }
+    (alias_dir / "run_meta.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+    (alias_dir / "ALIAS.md").write_text(
+        f"Alias of `{canonical_run_id}` ({canonical_rel}).\n\n{note}\n"
+    )
 
 
 def ingest_one(
@@ -253,21 +817,147 @@ def ingest_one(
     code_repo: str,
     family_force: Optional[str],
     dry_run: bool,
+    log_dir: Optional[Path] = None,
+    source_index: Optional[Dict[str, str]] = None,
+    code_commit: Optional[str] = None,
+    require_eval: bool = False,
 ) -> Optional[Dict[str, Any]]:
     cfg_path = src / "config.yaml"
     if not cfg_path.exists():
         return None
+    if require_eval and not (src / "eval.jsonl").exists():
+        return None
     cfg = load_yaml_lite(cfg_path)
+    # AMO release train.py stores env/seed/backend in run_meta.json, not config.yaml.
+    meta_path = src / "run_meta.json"
+    run_meta: Dict[str, Any] = {}
+    if meta_path.exists():
+        try:
+            run_meta = json.loads(meta_path.read_text())
+        except (OSError, json.JSONDecodeError, TypeError):
+            run_meta = {}
+        for key in ("env", "seed", "algorithm", "backend", "device"):
+            if key in run_meta and run_meta[key] is not None and key not in cfg:
+                cfg[key] = run_meta[key]
+            elif key in run_meta and run_meta[key] is not None and cfg.get(key) in (None, ""):
+                cfg[key] = run_meta[key]
+    if "max_timesteps" not in cfg and "max_steps" in cfg:
+        cfg["max_timesteps"] = cfg["max_steps"]
+    if "iql_tau" not in cfg and "expectile" in cfg:
+        cfg["iql_tau"] = cfg["expectile"]
     env = str(cfg.get("env") or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
     family = classify_family(algo, cfg, family_force)
-    variant = build_variant(algo, family, cfg, src.name)
-    uuid8 = extract_uuid8(src.name)
+    legacy_name = src.parent.name if src.name == "run" else src.name
+    variant = build_variant(algo, family, cfg, legacy_name)
+    # seed_N / flat / cell-tag names without trailing uuid: hash full source path
+    uuid8 = extract_uuid8(legacy_name)
+    if (
+        re.fullmatch(r"seed_\d+", legacy_name)
+        or legacy_name == "run"
+        or uuid8 == hashlib.sha1(legacy_name.encode()).hexdigest()[:8]
+    ):
+        uuid8 = hashlib.sha1(str(src.resolve()).encode()).hexdigest()[:8]
     short = env_short(env)
     run_id = f"{short}_s{seed}_{variant}__{uuid8}"
     dest = RUNS / algo / family / run_id
+    source_path = str(src.resolve())
+
+    # Deduplicate by absolute source_path: one canonical export per original run.
+    if source_index is None:
+        source_index = load_source_index(algo, family)
+    existing_id = source_index.get(source_path)
+    if existing_id and existing_id != run_id:
+        canon = RUNS / algo / family / existing_id
+        if not canon.exists():
+            for section in ("main", "ablation"):
+                for candidate in (ROOT / section).rglob(existing_id + "/run_meta.json"):
+                    cm = json.loads(candidate.read_text())
+                    if cm.get("source_path") == source_path and not cm.get("is_alias"):
+                        canon = candidate.parent
+        note = (
+            f"Same source_path reused; keep canonical `{existing_id}`, "
+            f"map stale variant id `{run_id}` as alias (do not double-count seeds)."
+        )
+        if dry_run:
+            print(f"DRY ALIAS {src} -> {existing_id} (skip {run_id})")
+            return {
+                "algo": algo,
+                "family": family,
+                "run_id": existing_id,
+                "is_alias": True,
+                "alias_of": existing_id,
+                "stale_run_id": run_id,
+                "source_path": source_path,
+                "env": env,
+                "seed": seed,
+                "variant": variant,
+            }
+        # Refresh canonical artifacts from latest local source (not by score).
+        if canon.exists():
+            for name in KEEP_FILES:
+                if (src / name).exists():
+                    shutil.copy2(src / name, canon / name)
+            for extra in ("launch_cmd.txt", "notes.md", "eval_final50_v1.DONE.json"):
+                if (src / extra).exists():
+                    shutil.copy2(src / extra, canon / extra)
+            meta_path_c = canon / "run_meta.json"
+            if meta_path_c.exists():
+                try:
+                    cmeta = json.loads(meta_path_c.read_text())
+                except (OSError, json.JSONDecodeError, TypeError):
+                    cmeta = {}
+                cmeta["collected_at"] = datetime.now(timezone.utc).astimezone().isoformat(
+                    timespec="seconds"
+                )
+                cmeta["source_path"] = source_path
+                aliases = list(cmeta.get("aliases") or [])
+                if run_id not in aliases:
+                    aliases.append(run_id)
+                cmeta["aliases"] = aliases
+                meta_path_c.write_text(json.dumps(cmeta, indent=2, sort_keys=True) + "\n")
+        write_alias(
+            RUNS / algo / family / f"alias__{run_id}",
+            existing_id,
+            str(canon.relative_to(ROOT)),
+            run_id,
+            source_path,
+            note,
+        )
+        print(f"ALIAS {src.name} -> {existing_id} (stale {run_id})")
+        return json.loads((canon / "run_meta.json").read_text()) if (canon / "run_meta.json").exists() else None
+
+    # Materialize eval.jsonl for ASPC TD3+BC (stdout-only logging).
+    synthesized_eval: Optional[List[Dict[str, Any]]] = None
+    log_path = aspc_log_path(src, log_dir)
+    if not (src / "eval.jsonl").exists() and log_path is not None:
+        synthesized_eval = synthesize_eval_jsonl_from_aspc_log(
+            log_path, int(cfg.get("eval_freq", 5000) or 5000)
+        )
 
     artifacts = [f for f in KEEP_FILES if (src / f).exists()]
+    if synthesized_eval and "eval.jsonl" not in artifacts:
+        artifacts.append("eval.jsonl")
+    backend = str(cfg.get("backend") or "").lower()
+    if not backend:
+        # Heuristic: amo release JAX trees live under /amo/ or /amo_jax/.
+        sp = source_path.replace("\\", "/")
+        backend = (
+            "jax"
+            if ("/amo_jax/" in sp or "/amo/results/" in sp or algo in ("td3_amo", "iql_amo"))
+            else "torch"
+        )
+    # Prefer host-configured commit, then any commit recorded on the source run.
+    git_meta = run_meta.get("git") if isinstance(run_meta, dict) else None
+    if not code_commit and isinstance(git_meta, dict) and git_meta.get("code_commit"):
+        code_commit = str(git_meta.get("code_commit"))
+    if backend == "jax" and is_removed_jax(source_path, code_commit, run_id):
+        print(f"SKIP removed legacy JAX {src}")
+        return None
+    if backend == "jax" and not code_commit:
+        # New JAX is allowed only with an explicit code commit (LOGGING_RULES).
+        print(f"SKIP jax without code_commit {src}")
+        return None
     meta = {
         "algo": algo,
         "family": family,
@@ -276,28 +966,44 @@ def ingest_one(
         "env_short": short,
         "seed": seed,
         "variant": variant,
-        "legacy_name": src.name,
-        "source_path": str(src.resolve()),
+        "legacy_name": legacy_name,
+        "source_path": source_path,
         "source_host": host,
+        "backend": backend,
         "collected_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
         "settings": settings_summary(algo, cfg),
         "artifacts": artifacts,
-        "git": {"code_repo": code_repo, "code_commit": None},
+        "git": {"code_repo": code_repo, "code_commit": code_commit},
+        "is_alias": False,
     }
+    if log_path is not None:
+        meta["source_log"] = str(log_path.resolve())
+    if synthesized_eval is not None:
+        meta["eval_source"] = "synthesized_from_stdout_log"
 
     if dry_run:
-        print(f"DRY {src} -> {dest.relative_to(ROOT)}")
+        print(
+            f"DRY {src} -> {dest.relative_to(ROOT)}"
+            + (f" eval_rows={len(synthesized_eval)}" if synthesized_eval else "")
+        )
+        source_index[source_path] = run_id
         return meta
 
     dest.mkdir(parents=True, exist_ok=True)
     for name in artifacts:
-        shutil.copy2(src / name, dest / name)
-    # optional tiny extras
-    for extra in ("launch_cmd.txt", "notes.md"):
+        if name == "eval.jsonl" and synthesized_eval is not None and not (src / name).exists():
+            (dest / name).write_text(
+                "".join(json.dumps(row) + "\n" for row in synthesized_eval)
+            )
+        else:
+            shutil.copy2(src / name, dest / name)
+    for extra in ("launch_cmd.txt", "notes.md", "eval_final50_v1.DONE.json"):
         if (src / extra).exists():
             shutil.copy2(src / extra, dest / extra)
-            meta["artifacts"].append(extra)
+            if extra not in meta["artifacts"]:
+                meta["artifacts"].append(extra)
     (dest / "run_meta.json").write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n")
+    source_index[source_path] = run_id
     print(f"OK  {dest.relative_to(ROOT)}")
     return meta
 
@@ -311,14 +1017,48 @@ def main() -> int:
     collected: List[Dict[str, Any]] = []
     for src_spec in DEFAULT_SOURCES:
         root: Path = src_spec["root"]
-        for run_dir in discover_run_dirs(root, bool(src_spec.get("nested"))):
+        if src_spec.get("kind") in ("a2pr_npy", "a2pr_final50"):
+            # Already cataloged via prior collector; skip until dedicated a2pr helpers land.
+            print(f"SKIP kind={src_spec.get('kind')} root={root} (use existing catalog entries)")
+            continue
+        if src_spec.get("kind") == "mpi_iql_actor0":
+            config_root: Path = src_spec["config_root"]
+            for log_path in discover_mpi_iql_actor0_logs(root):
+                meta = ingest_mpi_iql_actor0(
+                    log_path,
+                    host=src_spec["host"],
+                    code_repo=src_spec["code_repo"],
+                    config_root=config_root,
+                    dry_run=args.dry_run,
+                )
+                if meta:
+                    collected.append(meta)
+            continue
+        family_force = src_spec.get("family_force")
+        # Per (algo, family) source_path index so re-exports do not double-count.
+        source_index = load_source_index(src_spec["algo"], family_force or "misc")
+        # Also seed index from any existing family dirs for this algo.
+        algo_root = RUNS / src_spec["algo"]
+        if algo_root.exists():
+            for fam_dir in algo_root.iterdir():
+                if fam_dir.is_dir():
+                    source_index.update(load_source_index(src_spec["algo"], fam_dir.name))
+        for run_dir in discover_run_dirs(
+            root,
+            bool(src_spec.get("nested")),
+            layout=str(src_spec.get("layout") or "flat"),
+        ):
             meta = ingest_one(
                 run_dir,
                 algo=src_spec["algo"],
                 host=src_spec["host"],
                 code_repo=src_spec["code_repo"],
-                family_force=src_spec.get("family_force"),
+                family_force=family_force,
                 dry_run=args.dry_run,
+                log_dir=src_spec.get("log_dir"),
+                source_index=source_index,
+                code_commit=src_spec.get("code_commit"),
+                require_eval=bool(src_spec.get("require_eval")),
             )
             if meta:
                 collected.append(meta)
