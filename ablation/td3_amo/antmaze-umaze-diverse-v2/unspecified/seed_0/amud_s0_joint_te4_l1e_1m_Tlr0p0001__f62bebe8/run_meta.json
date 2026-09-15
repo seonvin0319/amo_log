@@ -11,7 +11,7 @@
   "checkpoint_hint": "/home/ext_csv/AMO-behavior-l1-joint-v2/results/behavior_l1_joint_suite6_s0/behavior_l1_umaze-div_s0",
   "classification_reasons": [
     "method_variant:behavior_bc_l1_joint",
-    "initial_scale_not_1",
+    "initial_scale_outside_main",
     "critic_architecture",
     "execution_loss",
     "meta_lr_outside_main"

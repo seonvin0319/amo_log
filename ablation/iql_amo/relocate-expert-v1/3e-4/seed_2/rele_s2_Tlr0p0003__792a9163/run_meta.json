@@ -7,7 +7,9 @@
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s2",
-  "classification_reasons": [],
+  "classification_reasons": [
+    "adroit"
+  ],
   "collected_at": "2026-09-14T16:10:48+00:00",
   "env": "relocate-expert-v1",
   "env_short": "rele",
@@ -29,9 +31,9 @@
   },
   "method": "iql_amo",
   "original_rel_path": "runs/iql_amo/iql_amo_jax_adroit_beta1_rho/rele_s2_Tlr0p0003__792a9163",
-  "rel_path": "main/iql_amo/relocate-expert-v1/3e-4/seed_2/rele_s2_Tlr0p0003__792a9163",
+  "rel_path": "ablation/iql_amo/relocate-expert-v1/3e-4/seed_2/rele_s2_Tlr0p0003__792a9163",
   "run_id": "rele_s2_Tlr0p0003__792a9163",
-  "section": "main",
+  "section": "ablation",
   "seed": 2,
   "settings": {
     "actor_depth": 2,

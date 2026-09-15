@@ -6,8 +6,10 @@
     "source_run_meta.json"
   ],
   "backend": "jax",
-  "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s1",
-  "classification_reasons": [],
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s3",
+  "classification_reasons": [
+    "adroit"
+  ],
   "collected_at": "2026-09-14T16:10:48+00:00",
   "env": "relocate-expert-v1",
   "env_short": "rele",
@@ -16,23 +18,23 @@
     "code_commit": "b9338d9815525482d2cf34d6fc6315ea4d2f93a6",
     "code_repo": "AMO-main"
   },
-  "identity_uuid8": "4af30ef5",
+  "identity_uuid8": "debcfcc0",
   "layout_version": 2,
-  "legacy_name": "iqlamo_jax_relocate-exp_beta1_rho3em4_s1",
+  "legacy_name": "iqlamo_jax_relocate-exp_beta1_rho3em4_s3",
   "meta_lr": 0.0003,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s1/checkpoints/step_1000000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s3/checkpoints/step_680000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
     "verified_against_checkpoint": true
   },
   "method": "iql_amo",
-  "original_rel_path": "runs/iql_amo/iql_amo_jax_adroit_beta1_rho/rele_s1_Tlr0p0003__4af30ef5",
-  "rel_path": "main/iql_amo/relocate-expert-v1/3e-4/seed_1/rele_s1_Tlr0p0003__4af30ef5",
-  "run_id": "rele_s1_Tlr0p0003__4af30ef5",
-  "section": "main",
-  "seed": 1,
+  "original_rel_path": "runs/iql_amo/iql_amo_jax_adroit_beta1_rho/rele_s3_Tlr0p0003__debcfcc0",
+  "rel_path": "ablation/iql_amo/relocate-expert-v1/3e-4/seed_3/rele_s3_Tlr0p0003__debcfcc0",
+  "run_id": "rele_s3_Tlr0p0003__debcfcc0",
+  "section": "ablation",
+  "seed": 3,
   "settings": {
     "actor_depth": 2,
     "actor_lr": 0.0003,
@@ -64,7 +66,7 @@
     "policy_freq": 1,
     "reward_transform": "none",
     "rho_lr": 0.0003,
-    "seed": 1,
+    "seed": 3,
     "smoothness_eps": 1e-06,
     "tau": 0.005,
     "value_depth": 2,
@@ -73,6 +75,6 @@
   },
   "source_config": "config.yaml",
   "source_host": "ext_csv",
-  "source_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s1",
+  "source_path": "/raid/ext_csv/AMO_store/iql_amo_jax_adroit_beta1_rho_seeds0to3/runs/iqlamo_jax_relocate-exp_beta1_rho3em4_s3",
   "variant": "Tlr0p0003"
 }

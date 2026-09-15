@@ -8,7 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_tlr3e4_band95_seeds1to3/runs/amo_ams_hc-m_Te10_Tb10_Tlr0p0003_s1-halfcheetah-medium-v2-ccbdc78f",
   "classification_reasons": [
-    "initial_scale_not_1"
+    "initial_scale_outside_main"
   ],
   "collected_at": "2026-09-14T16:10:47+00:00",
   "env": "halfcheetah-medium-v2",

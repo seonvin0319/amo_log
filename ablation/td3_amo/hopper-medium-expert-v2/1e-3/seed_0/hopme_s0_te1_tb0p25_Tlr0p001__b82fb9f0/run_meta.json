@@ -8,7 +8,8 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_h-me_Te1_Tb025_1em3_s0-hopper-medium-expert-v2-b82fb9f0",
   "classification_reasons": [
-    "initial_scale_not_1"
+    "initial_scale_outside_main",
+    "initial_scale_mismatch"
   ],
   "collected_at": "2026-09-14T16:10:46+00:00",
   "env": "hopper-medium-expert-v2",
