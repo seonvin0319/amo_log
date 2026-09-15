@@ -8,6 +8,7 @@ from pathlib import Path
 import build_catalog
 from log_layout import classify, normalize
 from validate_logs import SHARED, validate
+from alpha_logs import convert
 
 
 def run(algo='amo', env='hopper-medium-v2', **settings):
@@ -111,7 +112,11 @@ class MigrationTests(unittest.TestCase):
             for layout, originals, source in expected:
                 dst = root/layout['rel_path']
                 for name, content in originals.items():
-                    self.assertEqual((dst/name).read_bytes(), content)
+                    if name=='config.yaml' and layout['method']=='td3_amo':
+                        import yaml
+                        self.assertEqual(yaml.safe_load((dst/name).read_text()), convert(json.loads(content),config=True))
+                    else:
+                        self.assertEqual((dst/name).read_bytes(), content)
                 m = json.loads((dst/'run_meta.json').read_text())
                 for key, value in layout.items():
                     self.assertEqual(m[key], value)

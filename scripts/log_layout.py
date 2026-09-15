@@ -5,6 +5,7 @@ import json
 import re
 import shutil
 from pathlib import Path
+from alpha_logs import normalize_run
 
 METHODS = ('td3_amo', 'iql_amo', 'td3bc+rc', 'iql', 'a2pr', 'wpc', 'aspc')
 MAIN_LRS = (0.001, 0.002, 0.0003)
@@ -22,15 +23,23 @@ def initial_ts(c):
     tb = number(c.get('T_B'))
     return te, te if tb is None else tb
 
+def initial_alphas(c):
+    te, tb = initial_ts(c)
+    ae = number(c.get('alpha_E', c.get('alpha_init')))
+    if ae is None and te is not None: ae = 2 * te
+    ab = number(c.get('alpha_B'))
+    if ab is None: ab = 2 * tb if tb is not None else ae
+    return ae, ab
+
 def is_adroit(env):
     return str(env).split('-', 1)[0] in ADROIT_TASKS
 
 def initial_label(m):
     c = m.get('settings', {})
     if m['method'] == 'td3_amo':
-        te, tb = initial_ts(c)
+        te, tb = initial_alphas(c)
         label = lambda x: '?' if x is None else format(x, 'g')
-        return 'T_E/T_B=' + label(te) + '/' + label(tb)
+        return 'alpha_E/alpha_B=' + label(te) + '/' + label(tb)
     if m['method'] == 'iql_amo':
         return 'beta=' + str(c.get('beta_initial', '?'))
     return '—'
@@ -87,14 +96,17 @@ def classify(m, c):
     elif algo in METHODS: method=algo
     else: raise ValueError('Unmapped method: '+repr((algo,fam)))
     lr = c.get('T_lr') if method=='td3_amo' else c.get('rho_lr', c.get('beta_lr')) if method=='iql_amo' else None
+    if method=='td3_amo' and ('alpha_E' in c or 'alpha_init' in c or
+                             m.get('scale_conversion',{}).get('meta_lr_source')=='T_lr'):
+        lr = c.get('alpha_lr', lr)
     if method=='td3_amo':
         if algo=='apart' or fam not in ('adaptive_multiscale','td3_amo_jax','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
             reasons.append('method_variant:'+fam)
-        te,tb=initial_ts(c)
-        if te not in MAIN_TS or tb not in MAIN_TS: reasons.append('initial_scale_outside_main')
+        te,tb=initial_alphas(c)
+        if te not in MAIN_ALPHAS or tb not in MAIN_ALPHAS: reasons.append('initial_scale_outside_main')
         if te != tb: reasons.append('initial_scale_mismatch')
-        if c.get('T_B_from_T_E_divisor') not in (None,1,1.0):reasons.append('scale_ratio')
-        if c.get('T_schedule') not in (None,'','none','learned'):reasons.append('scale_schedule')
+        if c.get('alpha_B_from_alpha_E_divisor',c.get('T_B_from_T_E_divisor')) not in (None,1,1.0):reasons.append('scale_ratio')
+        if c.get('alpha_schedule',c.get('T_schedule')) not in (None,'','none','learned'):reasons.append('scale_schedule')
         if c.get('proximal_n_steps',1)!=1:reasons.append('multi_step')
         if c.get('critic_layernorm',True) is False or c.get('critic_n_hiddens',c.get('critic_depth',3))!=3:reasons.append('critic_architecture')
         if c.get('normalize_q',True) is False:reasons.append('q_normalization')
@@ -146,6 +158,8 @@ def normalize(root=None):
         if excluded(m,c,entries):
             if src.is_relative_to(legacy):shutil.rmtree(src);continue
             raise ValueError('Removed historical JAX present at '+str(src))
+        m=normalize_run(src,m)
+        c=load_config(src/'config.yaml',m)
         layout=classify(m,c);dest=root/layout['rel_path']
         m.update(layout);m.setdefault('original_rel_path',src.relative_to(root).as_posix());m['layout_version']=2; m['settings']=c
         if dest != src and dest.exists():
