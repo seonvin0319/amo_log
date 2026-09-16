@@ -2,12 +2,14 @@
   "algo": "iql_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO/results/iql_amo_jax_b2_loco_antmaze/runs/iql_amo_jax_w-m_s2_rlr1e-3_b2",
   "classification_reasons": [],
-  "collected_at": "2026-09-16T09:37:38+09:00",
+  "collected_at": "2026-09-16T09:48:04+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "amo_bpi",
@@ -42,6 +44,13 @@
     "eval_freq": 20000,
     "eval_seed": null,
     "expectile": 0.7,
+    "final_eval_50": {
+      "d4rl_normalized_score": 79.61977488635176,
+      "device": "cpu",
+      "eval_return": 3656.710917603452,
+      "evaluated_at": "2026-09-16T00:37:59.975881+00:00",
+      "n_episodes": 50
+    },
     "final_eval_repeats": 5,
     "gaussian": true,
     "hidden_dim": 256,
