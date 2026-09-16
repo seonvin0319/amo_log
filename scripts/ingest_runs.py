@@ -163,6 +163,36 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "layout": "cell_jobs",
         "require_eval": True,
     },
+    {
+        "algo": "iql_amo",
+        "root": Path("/home/svcho/amo/results/iql_amo_antmaze3_beta5_rho_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "antmaze3_beta5_rho",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path("/home/svcho/amo/results/iql_amo_antmaze3_beta5_diverse_rho_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "antmaze3_beta5_diverse_rho",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_loco9_alpha2_alr_no2e3_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "td3_amo_jax",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
 ]
 
 
