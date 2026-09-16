@@ -10,7 +10,7 @@
   "classification_reasons": [
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-16T03:17:03+00:00",
+  "collected_at": "2026-09-16T03:29:28+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "adaptive_multiscale",
