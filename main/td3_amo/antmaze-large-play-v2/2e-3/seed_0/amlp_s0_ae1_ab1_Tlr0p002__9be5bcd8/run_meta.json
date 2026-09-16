@@ -3,12 +3,13 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-large-play_a1_alr2em3_s0",
   "classification_reasons": [],
-  "collected_at": "2026-09-15T23:43:22+00:00",
+  "collected_at": "2026-09-16T02:26:49+00:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "td3_amo_jax",
@@ -37,6 +38,9 @@
     "files": {
       "config.yaml": {
         "sha256": "bc692a7fd442c6f0fa1349cfdc81f9cdeb97ce0a85018401ff74dfed61eb469e"
+      },
+      "eval.jsonl": {
+        "sha256": "85c0bb70103416648fa2da282e5981ca75210f3e13421e699cfb172c8219ed41"
       },
       "metrics.jsonl": {
         "sha256": "1d5d1f1471d70190c0b447302f2a570b6183351d404e0c17a3e9107e2bc35688"
