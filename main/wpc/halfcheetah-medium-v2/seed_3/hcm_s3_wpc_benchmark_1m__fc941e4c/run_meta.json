@@ -12,7 +12,7 @@
   "backend": "torch",
   "checkpoint_hint": "/home/svcho/ASPC/results_wpc/wpc_s3-halfcheetah-medium-v2-a07156cf/checkpoint_999999.pt",
   "classification_reasons": [],
-  "collected_at": "2026-09-16T22:55:27+09:00",
+  "collected_at": "2026-09-16T23:05:38+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "benchmark",
