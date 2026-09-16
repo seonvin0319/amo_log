@@ -3,12 +3,13 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-large-div_a1_alr3em4_s0",
   "classification_reasons": [],
-  "collected_at": "2026-09-16T02:52:02+00:00",
+  "collected_at": "2026-09-16T03:04:37+00:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_jax",
@@ -21,7 +22,7 @@
   "legacy_name": "td3amo_jax_am-large-div_a1_alr3em4_s0",
   "meta_lr": 0.0003,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-large-div_a1_alr3em4_s0/checkpoints/step_980000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco_antmaze_alpha1_alr_seeds0to3/runs/td3amo_jax_am-large-div_a1_alr3em4_s0/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -38,8 +39,11 @@
       "config.yaml": {
         "sha256": "919c8bd9659221145984695aa41346f5e5eb4f3230228654d8e5516cf3150334"
       },
+      "eval.jsonl": {
+        "sha256": "98b738e02d48fe202674eaf7c736f320eddc4dde28792f9247ba2ea89e082b96"
+      },
       "metrics.jsonl": {
-        "sha256": "7942e8c30ba80c9c77a930f83359930105a11a088fdf0db64f36fd3509f7d002"
+        "sha256": "e9268967a4858c01fd650589f52ade2f862a569b097316f19ef5d18ea1f7612a"
       },
       "source_run_meta.json": {
         "sha256": "fc1423be8afb12d335da62954664e45f6844a358c67e7fcae6ddab88d43c319e"
