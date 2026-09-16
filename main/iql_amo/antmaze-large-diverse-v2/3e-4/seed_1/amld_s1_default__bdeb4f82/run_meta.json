@@ -2,11 +2,12 @@
   "algo": "iql_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl"
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-17T00:20:05+09:00",
+  "collected_at": "2026-09-17T00:30:05+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "amo_bpi",
