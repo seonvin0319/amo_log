@@ -209,6 +209,41 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
             "/home/choi/AMO_store/td3_amo_jax_antmaze_tinit25_tlr/launch_manifest.json"
         ),
     },
+    {
+        # IQL-AMO JAX antmaze beta_initial=1 × rho_lr grid (main fill).
+        "algo": "iql_amo",
+        "root": Path("/home/choi/AMO_store/iql_amo_jax_antmaze_beta1_rlr/runs"),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "amo_bpi",
+        "code_commit_fallback": Path(
+            "/home/choi/AMO_store/iql_amo_jax_antmaze_beta1_rlr/launch_manifest.json"
+        ),
+    },
+    {
+        # IQL-AMO JAX loco beta_initial=1, rho_lr=3e-4, seed1 gap fill.
+        "algo": "iql_amo",
+        "root": Path(
+            "/home/choi/AMO_store/iql_amo_jax_loco_beta1_rlr3e-4_seed1/runs"
+        ),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "amo_bpi",
+        "code_commit_fallback": Path(
+            "/home/choi/AMO_store/iql_amo_jax_loco_beta1_rlr3e-4_seed1/launch_manifest.json"
+        ),
+    },
+    {
+        # IQL-AMO JAX antmaze beta_initial=5 × rho_lr∈{3e-4,1e-3} × seed0-3.
+        "algo": "iql_amo",
+        "root": Path("/home/choi/AMO_store/iql_amo_jax_antmaze_beta5_rlr/runs"),
+        "host": "choi",
+        "code_repo": "AMO",
+        "family_force": "amo_bpi",
+        "code_commit_fallback": Path(
+            "/home/choi/AMO_store/iql_amo_jax_antmaze_beta5_rlr/launch_manifest.json"
+        ),
+    },
 ]
 
 
