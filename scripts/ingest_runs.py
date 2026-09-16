@@ -193,6 +193,18 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "layout": "cell_jobs",
         "require_eval": True,
     },
+    {
+        # Design ablations ① L1-only bootstrap / ② direct-Q execution score.
+        # Non-allowlisted family → ablation section (method_variant).
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_ablation_bootl1_directq_a5_alr2e3_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "td3_amo_design_ablation",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
 ]
 
 
