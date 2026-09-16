@@ -1,0 +1,1 @@
+{"step": 1000000, "d4rl_normalized_score": 91.67813903361558, "eval_return": 11101.826068803519, "n_episodes": 50, "episodes_per_repeat": 10, "repeats": 5, "device": "cpu", "evaluated_at": "2026-09-16T03:48:42.250616+00:00", "tag": "posthoc_cpu_final", "protocol": "posthoc_cpu_final_5x10", "backend": "jax"}
