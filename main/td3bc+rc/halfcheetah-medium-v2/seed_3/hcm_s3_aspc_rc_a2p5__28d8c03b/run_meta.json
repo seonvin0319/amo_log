@@ -6,7 +6,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-16T22:30:04+09:00",
+  "collected_at": "2026-09-16T22:40:03+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "eval_source": "synthesized_from_stdout_log",
