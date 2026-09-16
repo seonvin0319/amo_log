@@ -151,11 +151,12 @@
 | main | iql | walker2d-medium-v2 | — | — | 0 | torch | 1000000 | [wm_s0_default__7a2b5104](../main/iql/walker2d-medium-v2/seed_0/wm_s0_default__7a2b5104/) |
 | main | iql | walker2d-medium-v2 | — | — | 0 | torch | 1000000 | [wm_s0_pi_base__245350fc](../main/iql/walker2d-medium-v2/seed_0/wm_s0_pi_base__245350fc/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=1.0 | 0.0003 | 0 | jax | 1000000 | [amld_s0_default__e2866a7f](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_default__e2866a7f/) |
-| main | iql_amo | antmaze-large-diverse-v2 | beta=5.0 | 0.0003 | 0 | jax | — | [amld_s0_default__efbd9b54](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_default__efbd9b54/) |
+| main | iql_amo | antmaze-large-diverse-v2 | beta=5.0 | 0.0003 | 0 | jax | 1000000 | [amld_s0_default__efbd9b54](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_default__efbd9b54/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=1.0 | 0.0003 | 1 | jax | 1000000 | [amld_s1_default__1ab7ef37](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_1/amld_s1_default__1ab7ef37/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=5.0 | 0.0003 | 1 | jax | — | [amld_s1_default__bdeb4f82](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_1/amld_s1_default__bdeb4f82/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=1.0 | 0.0003 | 2 | jax | 1000000 | [amld_s2_default__5cb3c3b8](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_2/amld_s2_default__5cb3c3b8/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=5.0 | 0.0003 | 2 | jax | — | [amld_s2_default__889e540b](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_2/amld_s2_default__889e540b/) |
+| main | iql_amo | antmaze-large-diverse-v2 | beta=5.0 | 0.0003 | 3 | jax | — | [amld_s3_default__339b638d](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_3/amld_s3_default__339b638d/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=1.0 | 0.0003 | 3 | jax | 1000000 | [amld_s3_default__37dfe26b](../main/iql_amo/antmaze-large-diverse-v2/3e-4/seed_3/amld_s3_default__37dfe26b/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [amld_s0_default__4ba01be8](../main/iql_amo/antmaze-large-diverse-v2/1e-3/seed_0/amld_s0_default__4ba01be8/) |
 | main | iql_amo | antmaze-large-diverse-v2 | beta=1.0 | 0.001 | 1 | jax | 1000000 | [amld_s1_default__47f94045](../main/iql_amo/antmaze-large-diverse-v2/1e-3/seed_1/amld_s1_default__47f94045/) |
