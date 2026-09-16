@@ -10,7 +10,7 @@
   "classification_reasons": [
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-16T03:04:37+00:00",
+  "collected_at": "2026-09-16T03:17:03+00:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "adaptive_multiscale",
