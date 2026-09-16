@@ -7,7 +7,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-17T02:50:04+09:00",
+  "collected_at": "2026-09-17T03:00:04+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "adaptive_multiscale",
