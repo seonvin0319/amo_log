@@ -9,7 +9,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO/results/iql_amo_jax_b5_loco9/runs/iql_amo_jax_hc-mr_s3_rlr2e-3_b5",
   "classification_reasons": [],
-  "collected_at": "2026-09-16T12:13:13+09:00",
+  "collected_at": "2026-09-16T12:23:35+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "amo_bpi",
