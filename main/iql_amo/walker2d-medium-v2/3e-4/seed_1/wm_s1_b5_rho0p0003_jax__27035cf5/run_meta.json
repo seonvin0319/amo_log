@@ -9,7 +9,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO/results/iql_amo_jax_b5_loco9/runs/iql_amo_jax_w-m_s1_rlr3e-4_b5",
   "classification_reasons": [],
-  "collected_at": "2026-09-17T05:41:23+09:00",
+  "collected_at": "2026-09-17T05:51:46+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "amo_bpi",
