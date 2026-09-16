@@ -3,12 +3,13 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_alpha2_alr1em3_seeds0to3/runs/td3amo_jax_h-m_a2_alr2em3_s2",
   "classification_reasons": [],
-  "collected_at": "2026-09-16T06:44:55+00:00",
+  "collected_at": "2026-09-16T06:57:27+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_jax",
@@ -21,7 +22,7 @@
   "legacy_name": "td3amo_jax_h-m_a2_alr2em3_s2",
   "meta_lr": 0.002,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_alpha2_alr1em3_seeds0to3/runs/td3amo_jax_h-m_a2_alr2em3_s2/checkpoints/step_720000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_jax_loco9_alpha2_alr1em3_seeds0to3/runs/td3amo_jax_h-m_a2_alr2em3_s2/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -38,8 +39,11 @@
       "config.yaml": {
         "sha256": "b6761cfb9a1128252a9136ce1b2beb9e8547754c2074203c2e8f7caf357e22ee"
       },
+      "eval.jsonl": {
+        "sha256": "fc143b44573ebc9b69c737cd94a89f836618fc175d21e3c4de8027142ce3bc9e"
+      },
       "metrics.jsonl": {
-        "sha256": "5d49904ecf8132104c32399d3c4ae6cd052a7228e3c24f48efa2eb5a90fa0ba3"
+        "sha256": "229798d289264c5600b7afedafaed8e3d2c189a36f166463040be1083c40ad71"
       },
       "source_run_meta.json": {
         "sha256": "830dce6e07d74b54f97ee1eb3e6a512e285f256316c5c51ac64a4040f7024751"
