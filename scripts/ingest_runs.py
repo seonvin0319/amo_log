@@ -115,6 +115,14 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO",
         "family_force": "amo_bpi",
     },
+    # IQL+AMO BPI · JAX · beta_initial=1 · antmaze6 · seeds 2–3
+    {
+        "algo": "iql_amo",
+        "root": Path("/home/shchoi/AMO/results/iql_amo_jax_b1_antmaze_s23/runs"),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "amo_bpi",
+    },
     # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
     {
         "algo": "aspc",
