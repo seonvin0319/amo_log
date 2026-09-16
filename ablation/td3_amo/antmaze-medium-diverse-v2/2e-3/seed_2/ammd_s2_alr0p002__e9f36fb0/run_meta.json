@@ -1,0 +1,84 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_design_ablation"
+  ],
+  "collected_at": "2026-09-17T08:39:50+09:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "family": "td3_amo_design_ablation",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "ammd_bootl1_s2",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_design_ablation/ammd_s2_alr0p002__e9f36fb0",
+  "rel_path": "ablation/td3_amo/antmaze-medium-diverse-v2/2e-3/seed_2/ammd_s2_alr0p002__e9f36fb0",
+  "run_id": "ammd_s2_alr0p002__e9f36fb0",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "1bb4df75cf5cce27f1cdc5a28418a72e4ad88bd445da8184ce00a143287bad2b"
+      },
+      "eval.jsonl": {
+        "sha256": "4b8cfdc16a20961a6191bd1d082aa768e74c37854cf095758adb313c0d6f3595"
+      },
+      "metrics.jsonl": {
+        "sha256": "ea43544250b07edd6947b7485c03b2d039bdf3ae8858dfaaac8ddd2686e8fbf0"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l1",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-medium-diverse-v2",
+    "eval_episodes": 100,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "antmaze_shift",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_ablation_bootl1_directq_a5_alr2e3_seeds03/jobs/ammd_bootl1_s2/run",
+  "variant": "alr0p002"
+}

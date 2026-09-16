@@ -1,0 +1,84 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_design_ablation"
+  ],
+  "collected_at": "2026-09-17T08:39:50+09:00",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
+  "family": "td3_amo_design_ablation",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "w-mr_directq_s0",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_design_ablation/wmr_s0_alr0p002__3e6ee27e",
+  "rel_path": "ablation/td3_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_alr0p002__3e6ee27e",
+  "run_id": "wmr_s0_alr0p002__3e6ee27e",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "8d89e36e3fbeb10d97b77d8a01d2a90bc20d9c343ba1aba3bed12c2ea19ace13"
+      },
+      "eval.jsonl": {
+        "sha256": "b04cc98602cc82c10d9b9ce92bf478eb1a2cfd4a621724bfb99d02b21e145ed5"
+      },
+      "metrics.jsonl": {
+        "sha256": "3033eebecf986f38866acbfa9a8bcc16e4943413c874f6cf488526f8bef90f3a"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l1_l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "walker2d-medium-replay-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_score": "direct_q",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_ablation_bootl1_directq_a5_alr2e3_seeds03/jobs/w-mr_directq_s0/run",
+  "variant": "alr0p002"
+}
