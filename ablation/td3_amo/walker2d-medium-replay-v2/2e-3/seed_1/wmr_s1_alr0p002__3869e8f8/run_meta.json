@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_design_ablation"
   ],
-  "collected_at": "2026-09-17T08:39:50+09:00",
+  "collected_at": "2026-09-17T08:46:46+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_design_ablation",
@@ -34,6 +34,9 @@
       },
       "eval.jsonl": {
         "sha256": "1021c748e50e548081a77256a12237435ef0bd2773069a0d273391295e538a6c"
+      },
+      "final_eval_50.json": {
+        "sha256": "c75a24ea80d572bd99e5d74c72e81fb3afdba2cab8ac928c05efc05c1e5fb7ea"
       },
       "metrics.jsonl": {
         "sha256": "be9009f935a335c8f7cbd282fa2360b0115c1a489cbfee1bd8d880ad489ab279"

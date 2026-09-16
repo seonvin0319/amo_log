@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_design_ablation"
   ],
-  "collected_at": "2026-09-17T08:39:50+09:00",
+  "collected_at": "2026-09-17T08:46:46+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_design_ablation",
@@ -34,6 +34,9 @@
       },
       "eval.jsonl": {
         "sha256": "800215a1db94bc5203b891473c68491b734a69f8db070deb64b754901d14f06e"
+      },
+      "final_eval_50.json": {
+        "sha256": "ab4a79655292061b25f98106b7350bc8cf7851ea0c53372dc810094500897847"
       },
       "metrics.jsonl": {
         "sha256": "2168dfba07dfb21e55181a08e92b2ff210358e29e9d6e3bced11ec92d4b2d255"

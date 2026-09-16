@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_design_ablation"
   ],
-  "collected_at": "2026-09-17T08:39:50+09:00",
+  "collected_at": "2026-09-17T08:46:46+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_design_ablation",
@@ -34,6 +34,9 @@
       },
       "eval.jsonl": {
         "sha256": "754fa4871e597cbed90684491d05effb9198d11d814b396291291b5b8855e510"
+      },
+      "final_eval_50.json": {
+        "sha256": "f9c8d7d976a0e978955639b2adb35dfdbe6e4616c8a9605d268ef6fc23b82b8c"
       },
       "metrics.jsonl": {
         "sha256": "b24cf7a2ccb569100bb7cae486bdcb721052fc6191698ec4c7f64598df145b27"
