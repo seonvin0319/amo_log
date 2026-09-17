@@ -60,6 +60,7 @@ _AMO = "c45671c47cfae89154331e9c9dab59b9cdbc9c40"
 _AMO_MAIN = "b9338d9815525482d2cf34d6fc6315ea4d2f93a6"
 # AMO-main after T→alpha rename (alpha := 2T).
 _AMO_MAIN_ALPHA = "1e34514ddf70bfc8a78757d9a78b82306627164c"
+_AMO_FQL = "3f4401279175f33858c4fbf5993bd1fc2f3dfc84"
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
@@ -235,6 +236,72 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO-main",
         "code_commit": _AMO_MAIN_ALPHA,
         "family_force": "td3_amo_jax",
+        "nested": False,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_amo_jax_antmaze_beta5_rho2em3_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-main",
+        "code_commit": _AMO_MAIN,
+        "family_force": "iql_amo_jax_antmaze_beta5_rho",
+        "nested": False,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_amo_jax_antmaze_beta5_rho_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-main",
+        "code_commit": _AMO_MAIN,
+        "family_force": "iql_amo_jax_antmaze_beta5_rho",
+        "nested": False,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_amo_jax_loco_beta1_rho2em3_wm_wmr_s3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-main",
+        "code_commit": _AMO_MAIN,
+        "family_force": "iql_amo_jax_loco_beta1_rho",
+        "nested": False,
+    },
+    {
+        "algo": "fql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/fql_amo_jax_loco9_tinit5_alr3e-4_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-fql",
+        "code_commit": _AMO_FQL,
+        "family_force": "fql_amo_jax",
+        "nested": False,
+    },
+    {
+        "algo": "fql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/fql_amo_jax_loco9_tinit5_alr1e-3_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-fql",
+        "code_commit": _AMO_FQL,
+        "family_force": "fql_amo_jax",
+        "nested": False,
+    },
+    {
+        "algo": "fql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/fql_amo_jax_loco9_tinit5_alr2e-3_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-fql",
+        "code_commit": _AMO_FQL,
+        "family_force": "fql_amo_jax",
         "nested": False,
     },
 ]
@@ -609,7 +676,7 @@ def build_variant(
         if "bootstrap" in blob and "adaptive_bootstrap" in root_name:
             tokens.append("boot")
 
-    if family == "td3_amo_jax":
+    if family in ("td3_amo_jax", "fql_amo_jax"):
         # Prefer alpha_* when present (AMO-main rename); else legacy T_*.
         if cfg.get("alpha_E") is not None or cfg.get("alpha_B") is not None:
             ae = cfg.get("alpha_E")
@@ -625,6 +692,10 @@ def build_variant(
                 tokens.append(f"te{fmt_num(float(te))}")
             if tb is not None:
                 tokens.append(f"tb{fmt_num(float(tb))}")
+    if family == "fql_amo_jax":
+        alr = cfg.get("alpha_lr", cfg.get("T_lr"))
+        if alr is not None:
+            tokens.append("alr" + fmt_num(float(alr)))
 
     if family in ("dual_proximal", "chain", "misc"):
         t_init = cfg.get("T")
@@ -636,7 +707,7 @@ def build_variant(
         tokens.append("smoke")
 
     t_lr = cfg.get("T_lr", cfg.get("rho_lr"))
-    if t_lr is not None and float(t_lr) not in (2e-4, 0.0002):
+    if family != "fql_amo_jax" and t_lr is not None and float(t_lr) not in (2e-4, 0.0002):
         tokens.append("Tlr" + fmt_num(float(t_lr)))
 
     if family.startswith("pi_only") and not tokens:
