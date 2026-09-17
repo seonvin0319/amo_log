@@ -10,7 +10,7 @@
   "classification_reasons": [
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-17T00:01:46+00:00",
+  "collected_at": "2026-09-17T00:13:49+00:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "fql_amo_jax",
@@ -23,7 +23,7 @@
   "legacy_name": "fqlamo_jax_t5_alr3e-4_hc-mr_s2",
   "meta_lr": 0.0003,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/fql_amo_jax_loco9_tinit5_alr3e-4_seeds0to3/runs/fqlamo_jax_t5_alr3e-4_hc-mr_s2/checkpoints/step_120000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/fql_amo_jax_loco9_tinit5_alr3e-4_seeds0to3/runs/fqlamo_jax_t5_alr3e-4_hc-mr_s2/checkpoints/step_260000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
