@@ -1,0 +1,10 @@
+{
+  "algorithm": "iql_amo",
+  "backend": "jax",
+  "dataset_sha256": "746b41b1f9fc562af77a2b6c40d38eb375685e93a0ab95e462fe0be9dab99d9d",
+  "device": "cuda:0",
+  "env": "antmaze-umaze-v2",
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 1
+}

@@ -1,0 +1,10 @@
+{
+  "algorithm": "fql_amo",
+  "backend": "jax",
+  "dataset_sha256": "6f95dd06a843d576eb7d7c6267afbeeec318bbcc2a531a941bb6916e9d086dcb",
+  "device": "cuda:0",
+  "env": "halfcheetah-medium-replay-v2",
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 0
+}
