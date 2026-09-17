@@ -2,8 +2,14 @@
 
 | 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |
 |---|---|---|---|---|---:|---|---:|---|
+| ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.0003 | 0 | jax | — | [hme_s0_ae10_ab10_alr0p0003__96435b3f](../ablation/fql_amo/halfcheetah-medium-expert-v2/3e-4/seed_0/hme_s0_ae10_ab10_alr0p0003__96435b3f/) |
+| ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.0003 | 1 | jax | — | [hme_s1_ae10_ab10_alr0p0003__9195658a](../ablation/fql_amo/halfcheetah-medium-expert-v2/3e-4/seed_1/hme_s1_ae10_ab10_alr0p0003__9195658a/) |
 | ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.001 | 0 | jax | — | [hme_s0_ae10_ab10_alr0p001__3d572ab6](../ablation/fql_amo/halfcheetah-medium-expert-v2/1e-3/seed_0/hme_s0_ae10_ab10_alr0p001__3d572ab6/) |
+| ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.001 | 1 | jax | — | [hme_s1_ae10_ab10_alr0p001__90cc4098](../ablation/fql_amo/halfcheetah-medium-expert-v2/1e-3/seed_1/hme_s1_ae10_ab10_alr0p001__90cc4098/) |
+| ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.001 | 2 | jax | — | [hme_s2_ae10_ab10_alr0p001__98d99c33](../ablation/fql_amo/halfcheetah-medium-expert-v2/1e-3/seed_2/hme_s2_ae10_ab10_alr0p001__98d99c33/) |
 | ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.002 | 0 | jax | — | [hme_s0_ae10_ab10_alr0p002__d7d4de26](../ablation/fql_amo/halfcheetah-medium-expert-v2/2e-3/seed_0/hme_s0_ae10_ab10_alr0p002__d7d4de26/) |
+| ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.002 | 1 | jax | — | [hme_s1_ae10_ab10_alr0p002__98734d9e](../ablation/fql_amo/halfcheetah-medium-expert-v2/2e-3/seed_1/hme_s1_ae10_ab10_alr0p002__98734d9e/) |
+| ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.002 | 2 | jax | — | [hme_s2_ae10_ab10_alr0p002__8342443f](../ablation/fql_amo/halfcheetah-medium-expert-v2/2e-3/seed_2/hme_s2_ae10_ab10_alr0p002__8342443f/) |
 | ablation | fql_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=10/10 | 0.0003 | 0 | jax | — | [hcmr_s0_ae10_ab10_alr0p0003__9aa4cf6f](../ablation/fql_amo/halfcheetah-medium-replay-v2/3e-4/seed_0/hcmr_s0_ae10_ab10_alr0p0003__9aa4cf6f/) |
 | ablation | fql_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=10/10 | 0.0003 | 1 | jax | — | [hcmr_s1_ae10_ab10_alr0p0003__10aae752](../ablation/fql_amo/halfcheetah-medium-replay-v2/3e-4/seed_1/hcmr_s1_ae10_ab10_alr0p0003__10aae752/) |
 | ablation | fql_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=10/10 | 0.0003 | 2 | jax | — | [hcmr_s2_ae10_ab10_alr0p0003__e64f58e1](../ablation/fql_amo/halfcheetah-medium-replay-v2/3e-4/seed_2/hcmr_s2_ae10_ab10_alr0p0003__e64f58e1/) |
