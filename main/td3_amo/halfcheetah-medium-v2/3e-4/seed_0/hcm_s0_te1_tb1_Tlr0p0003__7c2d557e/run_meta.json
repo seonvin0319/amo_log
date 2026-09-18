@@ -8,7 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te_tb_tlr_grid_seed0/runs/amo_ams_hc-m_Te1_Tb1_Tlr0p0003_s0-halfcheetah-medium-v2-7c2d557e",
   "classification_reasons": [],
-  "collected_at": "2026-09-19T00:30:29+09:00",
+  "collected_at": "2026-09-18T15:37:00+00:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "adaptive_multiscale",
@@ -44,10 +44,7 @@
       },
       "metrics.jsonl": {
         "legacy_sha256": "2cbe0883c2b459e6f500ac9411d0d3e6ff503fcd1e5a00b48bea1a71ea43e4fc",
-        "sha256": "46a3c88a686ddb10f3931d339f205f45c400045a4f31962944fed756703b76a0",
-        "unparsed_source_lines": [
-          3144
-        ]
+        "sha256": "2a6e2ae9f3dbd2358e539bc05a73620d1d7314756f5ff240bdfceac8120fec70"
       }
     },
     "meta_lr_source": "T_lr",
