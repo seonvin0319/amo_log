@@ -16,7 +16,7 @@
     "execution_loss",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-18T17:20:52+00:00",
+  "collected_at": "2026-09-18T17:29:14+00:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "behavior_bc_l1_joint",
