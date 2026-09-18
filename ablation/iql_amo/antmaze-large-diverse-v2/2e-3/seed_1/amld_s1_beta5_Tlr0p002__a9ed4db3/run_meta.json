@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -10,7 +11,7 @@
   "classification_reasons": [
     "method_variant:iql_amo_qweight_jax"
   ],
-  "collected_at": "2026-09-18T14:34:47+00:00",
+  "collected_at": "2026-09-18T14:43:24+00:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "iql_amo_qweight_jax",
@@ -23,7 +24,7 @@
   "legacy_name": "iqlamo_qw_jax_am-l-div_b5_rho2em3_s1",
   "meta_lr": 0.002,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_qweight_jax_beta125_rho_loco_antmaze_seeds0to3/runs/iqlamo_qw_jax_am-l-div_b5_rho2em3_s1/checkpoints/step_820000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_qweight_jax_beta125_rho_loco_antmaze_seeds0to3/runs/iqlamo_qw_jax_am-l-div_b5_rho2em3_s1/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
