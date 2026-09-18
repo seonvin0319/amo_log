@@ -8,7 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-m_Te1_Tb1_Tlr0p002_s1-hopper-medium-v2-c8cd479a",
   "classification_reasons": [],
-  "collected_at": "2026-09-19T02:15:48+09:00",
+  "collected_at": "2026-09-18T17:20:54+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "adaptive_multiscale",
