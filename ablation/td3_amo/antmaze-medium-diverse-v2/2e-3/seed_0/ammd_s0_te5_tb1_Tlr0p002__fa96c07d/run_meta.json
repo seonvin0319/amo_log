@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-18T18:01:05+00:00",
+  "collected_at": "2026-09-19T03:09:11+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "adaptive_multiscale",
@@ -47,7 +47,10 @@
       },
       "metrics.jsonl": {
         "legacy_sha256": "7d0110ae5249badff07a19374c885520677f0d173549269a1adfb2ad54c5c304",
-        "sha256": "a80e281117bf5094106225111fd04de4d53d90a7ab55c3bbe1aee8eaf1b061e0"
+        "sha256": "dec5d7297e36db5ac9931f78d4a4d464573a46f8c841c5f1261431905b769c1b",
+        "unparsed_source_lines": [
+          1774
+        ]
       }
     },
     "meta_lr_source": "T_lr",
