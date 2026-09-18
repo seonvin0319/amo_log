@@ -1,0 +1,93 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_bootrms_maincand"
+  ],
+  "collected_at": "2026-09-19T08:06:44+09:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "td3_amo_bootrms_maincand",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "a2_w-m_r1e3_s0",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_bootrms_maincand/wm_s0_alr0p001__f8712cee",
+  "rel_path": "ablation/td3_amo/walker2d-medium-v2/1e-3/seed_0/wm_s0_alr0p001__f8712cee",
+  "run_id": "wm_s0_alr0p001__f8712cee",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "570a3d5f6ec84b497b8b71c434e6c2e912afdf796701f6defb4943f8b4c473d3"
+      },
+      "eval.jsonl": {
+        "sha256": "1898087fadef579f18a65f7e4cedc6fb0587870ed4ffca1c65c89587073c43f6"
+      },
+      "final_eval_50.json": {
+        "sha256": "621162b4e4b1b51fbd9ce378a38a22cd4aeea7cbaa81dd23796af472820bdef1"
+      },
+      "metrics.jsonl": {
+        "sha256": "020c1acd41385fe2847579130334e2bc4493b2ae3c74f39113ca27913cdf08fb"
+      },
+      "source_run_meta.json": {
+        "sha256": "2762df763ab8075df09cca0fce2124ae1d827adf427c758c2e2c0dd21bba1ba8"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 2,
+    "alpha_E": 2,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a2_w-m_r1e3_s0/run",
+  "variant": "alr0p001"
+}

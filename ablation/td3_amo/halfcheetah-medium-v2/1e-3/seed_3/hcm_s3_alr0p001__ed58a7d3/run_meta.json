@@ -1,0 +1,93 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_bootrms_maincand"
+  ],
+  "collected_at": "2026-09-19T08:06:45+09:00",
+  "env": "halfcheetah-medium-v2",
+  "env_short": "hcm",
+  "family": "td3_amo_bootrms_maincand",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "a5_hc-m_r1e3_s3",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_bootrms_maincand/hcm_s3_alr0p001__ed58a7d3",
+  "rel_path": "ablation/td3_amo/halfcheetah-medium-v2/1e-3/seed_3/hcm_s3_alr0p001__ed58a7d3",
+  "run_id": "hcm_s3_alr0p001__ed58a7d3",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "7ec12edfb68ad715bfbba5414c756ae1f675dcd7327d92ec948571c0ba5dea7e"
+      },
+      "eval.jsonl": {
+        "sha256": "dbf75523fee58097aa24326b0f9c4a99115fcf8772e09bb8f31cacd62fc5d86a"
+      },
+      "final_eval_50.json": {
+        "sha256": "d0ed23a37f2f762985b049ce3739b0e93d2d7fb917805beaa3ee8c9516a9a1c5"
+      },
+      "metrics.jsonl": {
+        "sha256": "57d6a595f59d000fb4db4f8a152f5ae02cebc13c73c6173cb4690211a3a65062"
+      },
+      "source_run_meta.json": {
+        "sha256": "d22a131c6d0fd2edfe7fc969a30d94356c9b7f3ba10487deac7c67257240c41d"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 3,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_hc-m_r1e3_s3/run",
+  "variant": "alr0p001"
+}
