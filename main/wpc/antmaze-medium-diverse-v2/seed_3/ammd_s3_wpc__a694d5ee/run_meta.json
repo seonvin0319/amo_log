@@ -6,7 +6,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-18T22:17:56+09:00",
+  "collected_at": "2026-09-18T22:22:41+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "benchmark",
