@@ -159,8 +159,10 @@
 | ablation | iql_amo | halfcheetah-medium-replay-v2 | beta=3.0 | 0.0003 | 1 | torch | 105000 | [hcmr_s1_rho0p0003__33be0c16](../ablation/iql_amo/halfcheetah-medium-replay-v2/3e-4/seed_1/hcmr_s1_rho0p0003__33be0c16/) |
 | ablation | iql_amo | halfcheetah-medium-replay-v2 | beta=3.0 | 0.0003 | 2 | torch | 105000 | [hcmr_s2_rho0p0003__5ed6478e](../ablation/iql_amo/halfcheetah-medium-replay-v2/3e-4/seed_2/hcmr_s2_rho0p0003__5ed6478e/) |
 | ablation | iql_amo | halfcheetah-medium-v2 | beta=3.0 | 0.0003 | 1 | torch | 1000000 | [hcm_s1_rho0p0003__40cef3cd](../ablation/iql_amo/halfcheetah-medium-v2/3e-4/seed_1/hcm_s1_rho0p0003__40cef3cd/) |
+| ablation | iql_amo | halfcheetah-medium-v2 | beta=5.0 | 0.0003 | 2 | jax | — | [hcm_s2_qw_b5_rho0p0003_jax_adaptB__89de2d5a](../ablation/iql_amo/halfcheetah-medium-v2/3e-4/seed_2/hcm_s2_qw_b5_rho0p0003_jax_adaptB__89de2d5a/) |
 | ablation | iql_amo | halfcheetah-medium-v2 | beta=3.0 | 0.0003 | 2 | torch | 1000000 | [hcm_s2_rho0p0003__0f57a5d9](../ablation/iql_amo/halfcheetah-medium-v2/3e-4/seed_2/hcm_s2_rho0p0003__0f57a5d9/) |
 | ablation | iql_amo | halfcheetah-medium-v2 | beta=3.0 | 0.0003 | 3 | torch | 75000 | [hcm_s3_rho0p0003__e250cdfa](../ablation/iql_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_rho0p0003__e250cdfa/) |
+| ablation | iql_amo | halfcheetah-medium-v2 | beta=5.0 | 0.001 | 2 | jax | — | [hcm_s2_qw_b5_rho0p001_jax_adaptB__64a46049](../ablation/iql_amo/halfcheetah-medium-v2/1e-3/seed_2/hcm_s2_qw_b5_rho0p001_jax_adaptB__64a46049/) |
 | ablation | iql_amo | halfcheetah-medium-v2 | beta=3.0 | 0.002 | 1 | torch | 75000 | [hcm_s1_rho0p002__9d842989](../ablation/iql_amo/halfcheetah-medium-v2/2e-3/seed_1/hcm_s1_rho0p002__9d842989/) |
 | ablation | iql_amo | halfcheetah-medium-v2 | beta=3.0 | 0.002 | 2 | torch | — | [hcm_s2_rho0p002__54990440](../ablation/iql_amo/halfcheetah-medium-v2/2e-3/seed_2/hcm_s2_rho0p002__54990440/) |
 | ablation | iql_amo | halfcheetah-medium-v2 | beta=3.0 | 0.002 | 3 | torch | — | [hcm_s3_rho0p002__e9ec8264](../ablation/iql_amo/halfcheetah-medium-v2/2e-3/seed_3/hcm_s3_rho0p002__e9ec8264/) |
