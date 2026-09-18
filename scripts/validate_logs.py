@@ -6,7 +6,7 @@ from pathlib import Path
 from log_layout import MAIN_LRS, MAIN_ALPHAS, MAIN_BETAS, initial_alphas, is_adroit, number, classify
 from alpha_logs import SCHEMA, legacy_keys
 from log_layout import config, invalid_network_lrs, excluded_network_lr, NETWORK_LR_EXCLUSIONS
-METHODS={'td3_amo','iql_amo','td3bc+rc','iql','a2pr','wpc','aspc'}
+METHODS={'td3_amo','iql_amo','fql_amo','td3bc+rc','iql','a2pr','wpc','aspc'}
 BRANCHES={'main','choi','ext_csh','ext_csv','offrl','shchoi','svcho'}
 SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','scripts/alpha_logs.py','scripts/test_alpha_logs.py','scripts/test_network_lr.py','scripts/migrate_alpha_logs.py','.github/workflows/validate-logs.yml','.github/workflows/migrate-alpha-logs.yml')
 def git(root,*args,input=None):
@@ -73,7 +73,7 @@ def validate(paths,contents,branch):
     if m.get(key)!=expected_layout[key]:fail('Classification mismatch '+key+': '+p)
   except (ValueError,TypeError,KeyError):fail('Cannot classify metadata: '+p)
   parts=[m['section'],m['method'],m['env']]
-  if m['method'] in ('td3_amo','iql_amo'):
+  if m['method'] in ('td3_amo','iql_amo','fql_amo'):
    lr=m['meta_lr']
    if lr is None:label='unspecified'
    else:
@@ -84,7 +84,7 @@ def validate(paths,contents,branch):
    if m['section']=='main':
     if lr not in MAIN_LRS:fail('Main meta lr: '+p)
     c=m['settings']
-    if m['method']=='td3_amo':
+    if m['method'] in ('td3_amo','fql_amo'):
      te,tb=initial_alphas(c)
      if te not in MAIN_ALPHAS or tb!=te:fail('Main requires initial alpha_E=alpha_B in (1,2,5): '+p)
     elif number(c.get('beta_initial')) not in MAIN_BETAS:fail('Main requires initial beta in (1,2,5): '+p)

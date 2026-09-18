@@ -12,7 +12,7 @@ from alpha_logs import convert
 
 
 def run(algo='amo', env='hopper-medium-v2', **settings):
-    family = 'adaptive_multiscale' if algo == 'amo' else 'amo_bpi' if algo == 'iql_amo' else 'benchmark'
+    family = 'adaptive_multiscale' if algo == 'amo' else 'amo_bpi' if algo == 'iql_amo' else 'fql_amo_jax' if algo == 'fql_amo' else 'benchmark'
     cfg = dict(env=env, seed=0)
     if algo == 'amo':
         cfg.update(T_E=1, T_B=1, T_lr=0.001)
@@ -53,13 +53,29 @@ class ClassificationTests(unittest.TestCase):
         c['T_init'] = .5
         self.assertEqual(classify(m, c)['section'], 'main')
 
+    def test_fql_initializations(self):
+        for alpha in (1, 2, 5):
+            for lr in (.001, .002, .0003):
+                m, c = run('fql_amo', alpha_E=alpha, alpha_B=alpha, alpha_lr=lr)
+                m['family'] = 'fql_amo_jax'
+                self.assertEqual(classify(m, c)['section'], 'main')
+        m, c = run('fql_amo', alpha_E=10, alpha_B=10, alpha_lr=0.001)
+        m['family'] = 'fql_amo_jax'
+        self.assertIn('initial_scale_outside_main', classify(m, c)['classification_reasons'])
+        m, c = run('fql_amo', alpha_E=5, alpha_B=5, alpha_lr=0.001)
+        m['family'] = 'other_fql'
+        self.assertIn('method_variant:other_fql', classify(m, c)['classification_reasons'])
+
     def test_adroit_all_methods_and_datasets(self):
-        for algo in ('amo', 'iql_amo', 'td3bc', 'iql', 'a2pr', 'wpc', 'aspc'):
+        for algo in ('amo', 'iql_amo', 'fql_amo', 'td3bc', 'iql', 'a2pr', 'wpc', 'aspc'):
             for task in ('door', 'hammer', 'pen', 'relocate'):
                 for dataset in ('human', 'cloned', 'expert'):
                     m, c = run(algo, task+'-'+dataset+'-v1')
                     if algo == 'iql':
                         m['family'] = 'vanilla'
+                    if algo == 'fql_amo':
+                        m['family'] = 'fql_amo_jax'
+                        c.update(alpha_E=5, alpha_B=5, alpha_lr=0.001)
                     result = classify(m, c)
                     self.assertEqual(result['section'], 'ablation')
                     self.assertIn('adroit', result['classification_reasons'])

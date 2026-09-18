@@ -8,7 +8,7 @@
 - 머신 브랜치: `choi`, `ext_csh`, `ext_csv`, `offrl`, `shchoi`, `svcho`. 각 서버는 자기 브랜치에만 push한다.
 - 본 실험 디렉터리: `main/<method>/<env>/<meta_lr>/seed_<seed>/<run_id>/`.
 - Ablation 디렉터리: `ablation/<method>/<env>/<meta_lr>/seed_<seed>/<run_id>/`.
-- `<method>`: `td3_amo`, `iql_amo`, `td3bc+rc`, `iql`, `a2pr`, `wpc`, `aspc`만 사용한다.
+- `<method>`: `td3_amo`, `iql_amo`, `fql_amo`, `td3bc+rc`, `iql`, `a2pr`, `wpc`, `aspc`만 사용한다.
 - 환경은 `walker2d-medium-replay-v2` 같은 전체 이름과 버전을 사용한다. 약어·unknown을 쓰지 않는다.
 - AMO meta lr 폴더는 `alpha_lr`(기존 `T_lr`와 같은 학습률) 또는 `rho_lr`(=beta_lr)를 뜻한다. actor/critic lr를 이 폴더로 대신하지 않는다.
 - AMO 본 실험의 lr 이름은 `1e-3`, `2e-3`, `3e-4`. 다른 meta lr 실험은 실제 lr 이름으로 ablation에 저장한다.
@@ -24,10 +24,11 @@
   |---|---|---|
   | TD3-AMO | alpha = 1, 2, 5 | alpha_E=alpha_B = 1, 2, 5 |
   | IQL-AMO | beta = 1, 2, 5 | beta_initial = 1, 2, 5 |
+  | FQL-AMO | alpha = 1, 2, 5 | alpha_E=alpha_B = 1, 2, 5 |
 
-- TD3의 alpha_E와 alpha_B는 같은 허용값으로 시작해야 한다. 서로 다른 초기값은 ablation이다. alpha_B 생략 시 alpha_E를 따르는 기존 기본값을 적용한다.
-- TD3의 **T=5는 alpha=10**이므로 main에 포함하지 않는다. T=1.25, 5, 10 및 IQL beta=3, 10 등 허용 목록 밖의 초기값은 ablation이다.
-- TD3는 config의 alpha_E/alpha_B(또는 alpha_init), IQL은 beta_initial을 읽는다. 기존 T 설정은 아래 단위 변환 후 읽는다. 폴더명이나 baseline 고유 alpha를 AMO 스케일로 추정하지 않는다.
+- TD3·FQL의 alpha_E와 alpha_B는 같은 허용값으로 시작해야 한다. 서로 다른 초기값은 ablation이다. alpha_B 생략 시 alpha_E를 따르는 기존 기본값을 적용한다.
+- TD3/FQL의 **T=5는 alpha=10**이므로 main에 포함하지 않는다. T=1.25, 5, 10 및 IQL beta=3, 10 등 허용 목록 밖의 초기값은 ablation이다.
+- TD3·FQL은 config의 alpha_E/alpha_B(또는 alpha_init), IQL은 beta_initial을 읽는다. 기존 T 설정은 아래 단위 변환 후 읽는다. 폴더명이나 baseline 고유 alpha를 AMO 스케일로 추정하지 않는다.
 - 허용 초기값과 함께 meta lr `1e-3`, `2e-3`, `3e-4` 및 기존 구조/loss 기준도 만족해야 main이다. actor/critic lr는 이 meta lr와 별개다.
 - 기존 loss·critic 구조·N·alpha 비율/스케줄 등 변형 실험은 ablation으로 보존한다. 현재 분류 기준은 `scripts/log_layout.py`와 `classification_reasons`를 따른다.
 - baseline의 고유 beta 설정은 AMO 초기 beta가 아니므로 이 초기값 제한을 적용하지 않는다.

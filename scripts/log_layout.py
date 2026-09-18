@@ -7,7 +7,7 @@ import shutil
 from pathlib import Path
 from alpha_logs import normalize_run
 
-METHODS = ('td3_amo', 'iql_amo', 'td3bc+rc', 'iql', 'a2pr', 'wpc', 'aspc')
+METHODS = ('td3_amo', 'iql_amo', 'fql_amo', 'td3bc+rc', 'iql', 'a2pr', 'wpc', 'aspc')
 MAIN_LRS = (0.001, 0.002, 0.0003)
 MAIN_ALPHAS = (1.0, 2.0, 5.0)
 MAIN_TS = tuple(alpha / 2 for alpha in MAIN_ALPHAS)
@@ -36,7 +36,7 @@ def is_adroit(env):
 
 def initial_label(m):
     c = m.get('settings', {})
-    if m['method'] == 'td3_amo':
+    if m['method'] in ('td3_amo', 'fql_amo'):
         te, tb = initial_alphas(c)
         label = lambda x: '?' if x is None else format(x, 'g')
         return 'alpha_E/alpha_B=' + label(te) + '/' + label(tb)
@@ -65,7 +65,7 @@ def backend(m, c):
     if explicit == 'jax': return 'jax'
     labels = ' '.join(str(m.get(k, '')) for k in ('family','variant','legacy_name','source_path'))
     labels += ' ' + str(m.get('git', {}).get('code_repo', ''))
-    if 'jax' in labels.lower() or c.get('algorithm') in ('td3_amo','iql_amo'):
+    if 'jax' in labels.lower() or c.get('algorithm') in ('td3_amo','iql_amo','fql_amo'):
         return 'jax'
     return 'torch'
 
@@ -90,6 +90,7 @@ def identity(m, c):
 def method_name(m):
     algo, fam = m.get('algo',''), m.get('family','')
     if algo == 'iql_amo' or algo=='iql' and fam not in ('benchmark','vanilla'): method='iql_amo'
+    elif algo == 'fql_amo' or algo == 'fql': method='fql_amo'
     elif algo in ('amo','apart','td3_amo'): method='td3_amo'
     elif algo=='td3bc': method='td3bc+rc'
     elif algo in METHODS: method=algo
@@ -101,9 +102,11 @@ def classify(m, c):
     reasons=[]
     method=method_name(m)
     lr = c.get('T_lr') if method=='td3_amo' else c.get('rho_lr', c.get('beta_lr')) if method=='iql_amo' else None
-    if method=='td3_amo' and ('alpha_E' in c or 'alpha_init' in c or
+    if method in ('td3_amo','fql_amo') and ('alpha_E' in c or 'alpha_init' in c or
                              m.get('scale_conversion',{}).get('meta_lr_source')=='T_lr'):
         lr = c.get('alpha_lr', lr)
+    if method=='fql_amo' and lr is None:
+        lr = c.get('alpha_lr', c.get('T_lr'))
     if method=='td3_amo':
         if algo=='apart' or fam not in ('adaptive_multiscale','td3_amo_jax','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
             reasons.append('method_variant:'+fam)
@@ -117,18 +120,24 @@ def classify(m, c):
         if c.get('normalize_q',True) is False:reasons.append('q_normalization')
         if c.get('execution_l1',False) or c.get('execution_outer_loss_version') in ('l1','l1e') or 'l1e' in m.get('variant',''):reasons.append('execution_loss')
         if c.get('bootstrap_outer_loss_version') not in (None,'tq_detached_rms_target_v1'):reasons.append('bootstrap_loss')
+    elif method=='fql_amo':
+        if fam not in ('fql_amo_jax',):
+            reasons.append('method_variant:'+fam)
+        te,tb=initial_alphas(c)
+        if te not in MAIN_ALPHAS or tb not in MAIN_ALPHAS: reasons.append('initial_scale_outside_main')
+        if te != tb: reasons.append('initial_scale_mismatch')
     elif method=='iql_amo':
         if number(c.get('beta_initial')) not in MAIN_BETAS:reasons.append('initial_beta_outside_main')
         if fam not in ('amo_bpi','iql_amo_jax_adroit_beta1_rho','lr1e3_beta_sweep'):reasons.append('method_variant:'+fam)
     elif method=='aspc' and c.get('l3_mode','aspc')!='aspc': reasons.append('l3_variant')
     elif method=='wpc' and number(c.get('policy_noise',.2))!=.2:reasons.append('policy_noise')
-    if method in ('td3_amo','iql_amo') and number(lr) not in MAIN_LRS:reasons.append('meta_lr_outside_main')
+    if method in ('td3_amo','iql_amo','fql_amo') and number(lr) not in MAIN_LRS:reasons.append('meta_lr_outside_main')
     env, seed=identity(m,c)
     if is_adroit(env):reasons.append('adroit')
     if env=='unknown' or seed is None:reasons.append('identity_unresolved')
     section='ablation' if reasons else 'main'
     parts=[section,method,env]
-    if method in ('td3_amo','iql_amo'):parts.append(lr_name(lr))
+    if method in ('td3_amo','iql_amo','fql_amo'):parts.append(lr_name(lr))
     parts += ['seed_'+str(seed) if seed is not None else 'seed_unknown', slug(m.get('run_id') or 'run')]
     return dict(section=section,method=method,env=env,seed=seed,meta_lr=number(lr),classification_reasons=reasons,rel_path='/'.join(parts),backend=backend(m,c))
 
