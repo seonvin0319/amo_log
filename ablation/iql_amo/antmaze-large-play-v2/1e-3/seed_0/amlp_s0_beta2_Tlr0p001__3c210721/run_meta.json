@@ -10,7 +10,7 @@
   "classification_reasons": [
     "method_variant:iql_amo_qweight_jax"
   ],
-  "collected_at": "2026-09-18T15:59:53+00:00",
+  "collected_at": "2026-09-18T16:08:09+00:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "iql_amo_qweight_jax",
@@ -23,11 +23,11 @@
   "legacy_name": "iqlamo_qw_jax_am-l-p_b2_rho1em3_s0",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": null,
+    "checkpoint_path": "/raid/ext_csv/AMO_store/iql_amo_qweight_jax_beta125_rho_loco_antmaze_seeds0to3/runs/iqlamo_qw_jax_am-l-p_b2_rho1em3_s0/checkpoints/step_220000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
-    "verified_against_checkpoint": false
+    "verified_against_checkpoint": true
   },
   "method": "iql_amo",
   "original_rel_path": "runs/iql_amo/iql_amo_qweight_jax/amlp_s0_beta2_Tlr0p001__3c210721",
