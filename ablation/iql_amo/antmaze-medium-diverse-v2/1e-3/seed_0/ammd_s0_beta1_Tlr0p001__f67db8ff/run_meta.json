@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -10,7 +11,7 @@
   "classification_reasons": [
     "method_variant:iql_amo_qweight_jax"
   ],
-  "collected_at": "2026-09-18T23:14:21+00:00",
+  "collected_at": "2026-09-18T23:22:36+00:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "iql_amo_qweight_jax",
