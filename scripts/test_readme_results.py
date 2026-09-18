@@ -19,7 +19,64 @@ def jsonl(*rows):
     return '\n'.join(json.dumps(row) for row in rows)+'\n'
 
 
+def qweight_meta(**settings):
+    m=meta('iql_amo',algorithm='iql_amo_qweight',qweight_enabled=True,**settings)
+    m['family']='iql_amo_qweight_jax'
+    m.update(classify(m,m['settings']))
+    return m
+
+
 class ResultTests(unittest.TestCase):
+    def test_qweight_does_not_merge_with_original_and_uses_adaptive_policy(self):
+        catalogs={'ext_csv':[]}; evaluations={}; revisions={'ext_csv':'snapshot'}
+        for init in (1,2,5):
+            for seed in range(4):
+                original=meta('iql_amo',beta_initial=init,seed=seed,
+                              run_id=f'original-{init}-{seed}')
+                weighted=qweight_meta(beta_initial=init,seed=seed,
+                                      run_id=f'qweight-{init}-{seed}')
+                for m,score in ((original,30+seed),(weighted,60+seed)):
+                    catalogs['ext_csv'].append(m)
+                    evaluations[('ext_csv',m['rel_path']+'/eval.jsonl')]=jsonl(
+                        dict(step=1000000,policy_id='fixed_beta',mean_normalized=99),
+                        dict(step=1000000,policy_id='adaptive_beta',mean_normalized=score))
+        original,old=collect(catalogs,evaluations,revisions)
+        weighted,new=collect(catalogs,evaluations,revisions,'qweight')
+        self.assertEqual((len(original),len(weighted)),(12,12))
+        key=('iql_amo',5,.001,'hopper-medium-v2',0)
+        self.assertEqual((old[key]['score'],new[key]['score']),(30,60))
+        text=render_results(weighted,new,revisions,'qweight')
+        self.assertIn('**61.50 ± 1.12**',text)
+        self.assertIn('id="qweight-iql_amo-5"',text)
+        self.assertNotIn('id="iql_amo-5"',text)
+        self.assertIn('reports/qweight_runs.csv',text)
+        self.assertIn('| 환경 | rho_lr |',text)
+        self.assertEqual(sum(line.startswith('| hopper-medium-v2 |')
+                             for line in text.splitlines()),9)
+
+    def test_qweight_rejects_disabled_unknown_and_out_of_grid_runs(self):
+        m=qweight_meta()
+        self.assertTrue(eligible(m,'qweight'))
+        self.assertFalse(eligible(m))
+        self.assertFalse(eligible(m,'bootrms'))
+        for overrides in ({'qweight_enabled':False}, {'algorithm':'iql_amo'},
+                          {'beta_initial':10}, {'rho_lr':.01}, {'env':'door-human-v1'}):
+            candidate=qweight_meta()
+            candidate['settings'].update(overrides)
+            candidate.update(classify(candidate,candidate['settings']))
+            self.assertFalse(eligible(candidate,'qweight'),overrides)
+        unknown=qweight_meta()
+        unknown['family']='unknown_qweight'
+        unknown.update(classify(unknown,unknown['settings']))
+        self.assertFalse(eligible(unknown,'qweight'))
+        with self.assertRaises(ValueError):
+            check_source(m,{'qweight_enabled':False},[])
+        # Even an incorrectly main-labelled qweight run cannot enter the baseline.
+        labelled_main=qweight_meta()
+        labelled_main['family']='amo_bpi'
+        labelled_main.update(classify(labelled_main,labelled_main['settings']))
+        self.assertFalse(eligible(labelled_main))
+
     def test_checkpoint_selection_does_not_select_peak_or_repeat(self):
         rows=[dict(step=100000,d4rl_normalized_score=120),
               dict(step=1000000,d4rl_normalized_score=70),

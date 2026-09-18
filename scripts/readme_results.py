@@ -13,6 +13,7 @@ from log_layout import (classify, config, excluded_network_lr, initial_alphas,
 
 BASE = 'https://github.com/seonvin0319/amo_log'
 METHODS = ('td3_amo', 'iql_amo')
+COHORTS = ('original', 'bootrms', 'qweight')
 INITIALS = (1, 2, 5)
 LRS = (.002, .001, .0003)
 LR_LABELS = ('2e-3', '1e-3', '3e-4')
@@ -32,16 +33,18 @@ def finite(value):
 
 
 def eligible(meta, cohort='original'):
-    if cohort not in ('original', 'bootrms'):
+    if cohort not in COHORTS:
         raise ValueError('Unknown result cohort: '+cohort)
     if meta.get('is_alias') or meta.get('method') not in METHODS:
         return False
     c = meta['settings']
     is_bootrms = meta['method']=='td3_amo' and c.get('bootstrap_loss')=='l2_rms'
+    is_qweight = meta['method']=='iql_amo' and (
+        c.get('qweight_enabled') is True or c.get('algorithm')=='iql_amo_qweight')
     if cohort=='original':
-        if meta.get('section')!='main' or is_bootrms:
+        if meta.get('section')!='main' or is_bootrms or is_qweight:
             return False
-    else:
+    elif cohort=='bootrms':
         if not is_bootrms:
             return False
         # The comparison table does not promote ablations into main storage.
@@ -50,6 +53,15 @@ def eligible(meta, cohort='original'):
         if reasons-allowed or initial_alphas(c)[0] not in INITIALS:
             return False
         if c.get('execution_score') not in (None, 'bpi'):
+            return False
+    else:
+        if (not is_qweight or c.get('qweight_enabled') is not True or
+                c.get('algorithm')!='iql_amo_qweight' or
+                meta.get('family')!='iql_amo_qweight_jax'):
+            return False
+        allowed = {'method_variant:iql_amo_qweight_jax'}
+        if (set(classify(meta,c)['classification_reasons'])-allowed or
+                initial(meta) not in INITIALS):
             return False
     if invalid_network_lrs(meta, c):
         raise ValueError('Invalid network lr in result catalog: '+meta['rel_path'])
@@ -73,7 +85,7 @@ def check_source(meta, original, exclusions):
     actual_initial = initial_alphas(actual)[0] if meta['method']=='td3_amo' else number(actual.get('beta_initial'))
     if actual_initial != initial(meta):
         raise ValueError('Original initialization disagrees with catalog: '+meta['rel_path'])
-    for field in ('bootstrap_loss', 'execution_score'):
+    for field in ('bootstrap_loss', 'execution_score', 'algorithm', 'qweight_enabled'):
         if actual.get(field) != meta['settings'].get(field):
             raise ValueError('Original loss disagrees with catalog: '+meta['rel_path'])
 
@@ -223,9 +235,12 @@ def result_cell(run):
 
 
 def render_results(runs, selected, revisions, cohort='original'):
+    if cohort not in COHORTS:
+        raise ValueError('Unknown result cohort: '+cohort)
     bootrms = cohort=='bootrms'
-    methods = ('td3_amo',) if bootrms else METHODS
-    prefix = 'bootrms-' if bootrms else ''
+    qweight = cohort=='qweight'
+    methods = ('td3_amo',) if bootrms else ('iql_amo',) if qweight else METHODS
+    prefix = cohort+'-' if cohort!='original' else ''
     lines = ['## AMO 결과', '',
              '초기 **alpha/beta = 1, 2, 5**, **alpha_lr/beta_lr = 2e-3, 1e-3, 3e-4**별 결과입니다. '
              '각 셀은 **정규화 점수 · 출처 브랜치/backend**이며 클릭하면 해당 실행으로 이동합니다.', '',
@@ -250,6 +265,19 @@ def render_results(runs, selected, revisions, cohort='original'):
                  if line.startswith('- 현재 분류 규칙') else line for line in lines]
         if not runs:
             lines[3:3] = ['', '**아직 업로드된 BootRMS 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
+    if qweight:
+        lines[0] = '## IQL QWeight 결과'
+        lines[2] = ('IQL-AMO의 `algorithm=iql_amo_qweight`, `qweight_enabled=true` 비교군입니다. '
+                    '초기 **beta=1, 2, 5**, **rho_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**을 '
+                    '기존 결과와 같은 형식으로 표시합니다.')
+        lines = [line.replace('reports/amo_runs.csv','reports/qweight_runs.csv') for line in lines]
+        lines = [('- 초기 `beta_initial`로 묶으며 표의 `rho_lr`는 beta의 meta 학습률입니다.')
+                 if line.startswith('- TD3는 초기') else line for line in lines]
+        lines = [('- config와 `iql_amo_qweight_jax` family로 구분합니다. 원본 main/ablation '
+                  '경로는 유지하고 기존 IQL-AMO 결과와 별도로 집계합니다.')
+                 if line.startswith('- 현재 분류 규칙') else line for line in lines]
+        if not runs:
+            lines[3:3] = ['', '**아직 업로드된 IQL QWeight 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
     for method in methods:
         for init in INITIALS:
             cells = [r for key,r in selected.items() if key[:2]==(method,init)]
@@ -264,6 +292,9 @@ def render_results(runs, selected, revisions, cohort='original'):
         title, scale, lr_title = ('TD3-AMO','alpha','alpha_lr') if method=='td3_amo' else ('IQL-AMO','beta','beta_lr')
         if bootrms:
             title += ' BootRMS'
+        elif qweight:
+            title += ' QWeight'
+            lr_title = 'rho_lr'
         lines += ['', f'## {title}', '']
         for init in INITIALS:
             lines += [f'<a id="{prefix}{method}-{init}"></a>', '', '<details open>',
@@ -279,8 +310,9 @@ def render_results(runs, selected, revisions, cohort='original'):
                         summary = f'**{mean:.2f} ± {std:.2f}**' if mean is not None else f'— ({n}/4)'
                         lines.append('| '+' | '.join([env,label,*map(result_cell,cells),summary])+' |')
             lines += ['', '</details>', '']
-    lines += ['## BootRMS 집계 브랜치' if bootrms else '## 집계한 브랜치', '',
-              '| 브랜치 | 로그 snapshot | BootRMS 실행 |' if bootrms else '| 브랜치 | 로그 snapshot | AMO main 실행 |',
+    cohort_label = 'BootRMS' if bootrms else 'IQL QWeight' if qweight else None
+    lines += [f'## {cohort_label} 집계 브랜치' if cohort_label else '## 집계한 브랜치', '',
+              f'| 브랜치 | 로그 snapshot | {cohort_label or "AMO main"} 실행 |',
               '|---|---|---:|']
     for branch,revision in revisions.items():
         lines.append(f'| {branch} | [{revision[:8]}]({BASE}/commit/{revision}) | {sum(r["branch"]==branch for r in runs)} |')
