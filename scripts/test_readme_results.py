@@ -99,6 +99,51 @@ class ResultTests(unittest.TestCase):
         self.assertIn('| 2e-3 |',rows[0]);self.assertIn('| 1e-3 |',rows[1]);self.assertIn('| 3e-4 |',rows[2])
         self.assertIn('— (0/4)',rows[0])
 
+    def test_bootrms_is_separate_from_original_for_all_initializations(self):
+        catalogs={'svcho':[]}; evaluations={}; revisions={'svcho':'snapshot'}
+        for init in (1,2,5):
+            for seed in range(4):
+                for loss,score in (('l1_l2_rms',40+seed),('l2_rms',70+seed)):
+                    m=meta(seed=seed,run_id=f'{loss}-{init}-{seed}',
+                           alpha_E=init,alpha_B=init,alpha_lr=.001,bootstrap_loss=loss,
+                           execution_score='bpi')
+                    if loss=='l2_rms':
+                        m['family']='td3_amo_bootrms_maincand'
+                        m.update(classify(m,m['settings']))
+                    catalogs['svcho'].append(m)
+                    evaluations[('svcho',m['rel_path']+'/eval.jsonl')]=jsonl(
+                        dict(step=1000000,normalized_score=score))
+        original,old=collect(catalogs,evaluations,revisions)
+        bootrms,new=collect(catalogs,evaluations,revisions,'bootrms')
+        self.assertEqual((len(original),len(bootrms)),(12,12))
+        key=('td3_amo',5,.001,'hopper-medium-v2',0)
+        self.assertEqual((old[key]['score'],new[key]['score']),(40,70))
+        text=render_results(bootrms,new,revisions,'bootrms')
+        self.assertIn('**71.50 ± 1.12**',text)
+        self.assertIn('id="bootrms-td3_amo-5"',text)
+        self.assertNotIn('id="td3_amo-5"',text)
+        self.assertIn('reports/bootrms_runs.csv',text)
+        self.assertEqual(sum(line.startswith('| hopper-medium-v2 |')
+                             for line in text.splitlines()),9)
+
+    def test_bootrms_requires_recorded_loss_and_rejects_other_ablations(self):
+        m=meta(bootstrap_loss='l2_rms')
+        self.assertFalse(eligible(m))
+        self.assertTrue(eligible(m,'bootrms'))
+        for overrides in ({'bootstrap_loss':'l1'}, {'critic_depth':2},
+                          {'execution_score':'direct_q'}, {'alpha_B':5},
+                          {'env':'door-human-v1'}, {'alpha_E':10,'alpha_B':10}):
+            candidate=meta(bootstrap_loss='l2_rms')
+            candidate['settings'].update(overrides)
+            candidate.update(classify(candidate,candidate['settings']))
+            self.assertFalse(eligible(candidate,'bootrms'),overrides)
+        with self.assertRaises(ValueError):
+            check_source(m,{'bootstrap_loss':'l1_l2_rms'},[])
+        unknown=meta(bootstrap_loss='l2_rms')
+        unknown['family']='unreviewed_variant'
+        unknown.update(classify(unknown,unknown['settings']))
+        self.assertFalse(eligible(unknown,'bootrms'))
+
 
 if __name__=='__main__':
     unittest.main()

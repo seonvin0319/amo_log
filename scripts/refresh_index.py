@@ -54,7 +54,7 @@ def main():
     for br,rows in catalogs.items():
         if NETWORK_LR_EXCLUSIONS in trees[br]:source_files[(br,NETWORK_LR_EXCLUSIONS)]=trees[br][NETWORK_LR_EXCLUSIONS]
         for row in rows:
-            if not eligible(row):continue
+            if not (eligible(row) or eligible(row,'bootrms')):continue
             config_path=row['rel_path']+'/config.yaml'
             source_files[(br,config_path)]=trees[br][config_path]
             for name in EVAL_FILES:
@@ -65,15 +65,20 @@ def main():
         ex_oid=source_files.get((br,NETWORK_LR_EXCLUSIONS))
         exclusions=json.loads(source_blobs[ex_oid])['runs'] if ex_oid else []
         for row in rows:
-            if eligible(row):
+            if eligible(row) or eligible(row,'bootrms'):
                 original=yaml.safe_load(source_blobs[source_files[(br,row['rel_path']+'/config.yaml')]]) or {}
                 check_source(row,original,exclusions)
     eval_blobs=blobs(root,wanted.values())
     evaluations={key:eval_blobs[oid].decode() for key,oid in wanted.items()}
     runs,selected=collect(catalogs,evaluations,revisions)
-    (root/'README.md').write_text(make_readme(catalogs,render_results(runs,selected,revisions)))
+    boot_runs,boot_selected=collect(catalogs,evaluations,revisions,'bootrms')
+    result_text = (render_results(boot_runs,boot_selected,revisions,'bootrms')+'\n\n'
+                   +render_results(runs,selected,revisions))
+    (root/'README.md').write_text(make_readme(catalogs,result_text))
     write_csv(root,runs)
+    write_csv(root,boot_runs,'bootrms_runs.csv')
     print(json.dumps({'amo_runs':len(runs),'seed_cells':len(selected),
+                      'bootrms_runs':len(boot_runs),'bootrms_seed_cells':len(boot_selected),
                       'scored_cells':sum(r['score'] is not None for r in selected.values()),
                       'completed_1m_cells':sum(r['step']==1000000 for r in selected.values()),
                       'evaluation_bytes':sum(len(raw) for raw in eval_blobs.values())}))

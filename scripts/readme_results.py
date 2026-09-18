@@ -31,12 +31,28 @@ def finite(value):
     return n if n is not None and math.isfinite(n) and not isinstance(value, bool) else None
 
 
-def eligible(meta):
-    if meta.get('is_alias') or meta.get('method') not in METHODS or meta.get('section') != 'main':
+def eligible(meta, cohort='original'):
+    if cohort not in ('original', 'bootrms'):
+        raise ValueError('Unknown result cohort: '+cohort)
+    if meta.get('is_alias') or meta.get('method') not in METHODS:
         return False
     c = meta['settings']
+    is_bootrms = meta['method']=='td3_amo' and c.get('bootstrap_loss')=='l2_rms'
+    if cohort=='original':
+        if meta.get('section')!='main' or is_bootrms:
+            return False
+    else:
+        if not is_bootrms:
+            return False
+        # The comparison table does not promote ablations into main storage.
+        allowed = {'method_variant:td3_amo_bootrms_maincand'}
+        reasons = set(classify(meta,c)['classification_reasons'])
+        if reasons-allowed or initial_alphas(c)[0] not in INITIALS:
+            return False
+        if c.get('execution_score') not in (None, 'bpi'):
+            return False
     if invalid_network_lrs(meta, c):
-        raise ValueError('Invalid network lr in main catalog: '+meta['rel_path'])
+        raise ValueError('Invalid network lr in result catalog: '+meta['rel_path'])
     layout = classify(meta, c)
     if any(layout[k] != meta[k] for k in ('section','method','env','seed','meta_lr','rel_path')):
         raise ValueError('Stale main catalog classification: '+meta['rel_path'])
@@ -57,6 +73,9 @@ def check_source(meta, original, exclusions):
     actual_initial = initial_alphas(actual)[0] if meta['method']=='td3_amo' else number(actual.get('beta_initial'))
     if actual_initial != initial(meta):
         raise ValueError('Original initialization disagrees with catalog: '+meta['rel_path'])
+    for field in ('bootstrap_loss', 'execution_score'):
+        if actual.get(field) != meta['settings'].get(field):
+            raise ValueError('Original loss disagrees with catalog: '+meta['rel_path'])
 
 
 def records(text, filename):
@@ -147,11 +166,11 @@ def summarize(meta, files):
     return max(pool,key=lambda r:(r['step'],r['aggregate'],r['evaluated_at'],r['file_rank'],r['eval_line']))
 
 
-def collect(catalogs, evaluations, revisions):
+def collect(catalogs, evaluations, revisions, cohort='original'):
     runs = []
     for branch, rows in catalogs.items():
         for meta in rows:
-            if not eligible(meta):
+            if not eligible(meta, cohort):
                 continue
             score = summarize(meta, {name:evaluations[(branch,meta['rel_path']+'/'+name)]
                                     for name in EVAL_FILES if (branch,meta['rel_path']+'/'+name) in evaluations})
@@ -203,7 +222,10 @@ def result_cell(run):
     return cell
 
 
-def render_results(runs, selected, revisions):
+def render_results(runs, selected, revisions, cohort='original'):
+    bootrms = cohort=='bootrms'
+    methods = ('td3_amo',) if bootrms else METHODS
+    prefix = 'bootrms-' if bootrms else ''
     lines = ['## AMO 결과', '',
              '초기 **alpha/beta = 1, 2, 5**, **alpha_lr/beta_lr = 2e-3, 1e-3, 3e-4**별 결과입니다. '
              '각 셀은 **정규화 점수 · 출처 브랜치/backend**이며 클릭하면 해당 실행으로 이동합니다.', '',
@@ -216,21 +238,35 @@ def render_results(runs, selected, revisions):
              '- 현재 분류 규칙의 `main/`만 집계합니다. Adroit와 ablation, 기본 네트워크 lr가 잘못된 실행은 이 표에 포함하지 않습니다.', '',
              '| 방법 | 초기값 | 평가 있는 시드 칸 | 1M 평가 시드 칸 | 4시드 완료 환경×lr |',
              '|---|---:|---:|---:|---:|']
-    for method in METHODS:
+    if bootrms:
+        lines[0] = '## BootRMS 결과 · L2_RMS only'
+        lines[2] = ('TD3-AMO의 `bootstrap_loss=l2_rms` 비교군입니다. 초기 **alpha=1, 2, 5**, '
+                    '**alpha_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**을 기존 결과와 같은 형식으로 표시합니다.')
+        lines = [line.replace('reports/amo_runs.csv','reports/bootrms_runs.csv') for line in lines]
+        lines = [('- 초기 `alpha_E=alpha_B`로 묶습니다. 기존 TD3-AMO·IQL-AMO 결과는 아래에 이어집니다.')
+                 if line.startswith('- TD3는 초기') else line for line in lines]
+        lines = [('- config의 `bootstrap_loss=l2_rms`로 구분하며 다른 구조·실행 loss 변형은 제외합니다. '
+                  '원본 main/ablation 경로는 유지하고 기존 결과와 별도로 집계합니다.')
+                 if line.startswith('- 현재 분류 규칙') else line for line in lines]
+        if not runs:
+            lines[3:3] = ['', '**아직 업로드된 BootRMS 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
+    for method in methods:
         for init in INITIALS:
             cells = [r for key,r in selected.items() if key[:2]==(method,init)]
             full = sum(row_stats([selected.get((method,init,lr,env,seed)) for seed in SEEDS])[2]==4
                        for lr in LRS for env in ENVIRONMENTS)
             title = 'TD3-AMO' if method=='td3_amo' else 'IQL-AMO'
             scale = 'alpha' if method=='td3_amo' else 'beta'
-            anchor = f'{method}-{init}'
+            anchor = f'{prefix}{method}-{init}'
             lines.append(f'| [{title}](#{anchor}) | {scale}={init} | {sum(r["score"] is not None for r in cells)}/180 | '
                          f'{sum(r["step"]==TARGET_STEP for r in cells)}/180 | {full}/45 |')
-    for method in METHODS:
+    for method in methods:
         title, scale, lr_title = ('TD3-AMO','alpha','alpha_lr') if method=='td3_amo' else ('IQL-AMO','beta','beta_lr')
+        if bootrms:
+            title += ' BootRMS'
         lines += ['', f'## {title}', '']
         for init in INITIALS:
-            lines += [f'<a id="{method}-{init}"></a>', '', '<details open>',
+            lines += [f'<a id="{prefix}{method}-{init}"></a>', '', '<details open>',
                       f'<summary><strong>{scale} = {init}</strong></summary>', '']
             for domain, environments in (('Locomotion',LOCOMOTION),('AntMaze',ANTMAZE)):
                 lines += [f'### {title} · {scale}={init} · {domain}', '',
@@ -243,7 +279,9 @@ def render_results(runs, selected, revisions):
                         summary = f'**{mean:.2f} ± {std:.2f}**' if mean is not None else f'— ({n}/4)'
                         lines.append('| '+' | '.join([env,label,*map(result_cell,cells),summary])+' |')
             lines += ['', '</details>', '']
-    lines += ['## 집계한 브랜치', '', '| 브랜치 | 로그 snapshot | AMO main 실행 |', '|---|---|---:|']
+    lines += ['## BootRMS 집계 브랜치' if bootrms else '## 집계한 브랜치', '',
+              '| 브랜치 | 로그 snapshot | BootRMS 실행 |' if bootrms else '| 브랜치 | 로그 snapshot | AMO main 실행 |',
+              '|---|---|---:|']
     for branch,revision in revisions.items():
         lines.append(f'| {branch} | [{revision[:8]}]({BASE}/commit/{revision}) | {sum(r["branch"]==branch for r in runs)} |')
     lines += ['', '머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 '
@@ -251,8 +289,8 @@ def render_results(runs, selected, revisions):
     return '\n'.join(lines)
 
 
-def write_csv(root, runs):
-    path = Path(root)/'reports/amo_runs.csv'
+def write_csv(root, runs, filename='amo_runs.csv'):
+    path = Path(root)/'reports'/filename
     path.parent.mkdir(parents=True,exist_ok=True)
     fields = ('method','initial','meta_lr','env','seed','score','step','aggregate','episodes','selected',
               'candidate_runs','branch','backend','run_id','code_commit','log_commit','rel_path',
