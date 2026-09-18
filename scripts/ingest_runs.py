@@ -133,6 +133,16 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO",
         "family_force": "qweight",
     },
+    # IQL-AMO qweight · JAX · loco9 · seeds 2–3
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/home/shchoi/AMO_iql-amo-qweight/results/iql_amo_qweight_jax_loco_s23/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "qweight",
+    },
     # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
     {
         "algo": "aspc",
