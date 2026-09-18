@@ -11,7 +11,7 @@
   "classification_reasons": [
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-18T20:21:05+09:00",
+  "collected_at": "2026-09-18T20:35:06+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "fql_amo_jax",
