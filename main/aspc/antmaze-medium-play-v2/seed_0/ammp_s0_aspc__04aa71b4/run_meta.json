@@ -8,7 +8,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-18T22:58:00+09:00",
+  "collected_at": "2026-09-18T23:03:01+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "benchmark",
