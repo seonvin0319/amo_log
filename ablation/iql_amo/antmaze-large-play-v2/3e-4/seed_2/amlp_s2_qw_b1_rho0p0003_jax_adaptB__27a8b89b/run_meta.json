@@ -2,14 +2,16 @@
   "algo": "iql_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO_iql-amo-qweight/results/iql_amo_qweight_jax_antmaze_s23/runs/iqlamo_qw_jax_am-l-p_b1_rho3em4_s2",
   "classification_reasons": [
     "method_variant:qweight"
   ],
-  "collected_at": "2026-09-19T04:09:14+09:00",
+  "collected_at": "2026-09-19T04:14:43+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "qweight",
@@ -46,6 +48,13 @@
     "eval_freq": 20000,
     "eval_seed": null,
     "expectile": 0.9,
+    "final_eval_50": {
+      "d4rl_normalized_score": 0.0,
+      "device": "cpu",
+      "eval_return": 0.0,
+      "evaluated_at": "2026-09-18T19:10:08.272310+00:00",
+      "n_episodes": 50
+    },
     "final_eval_repeats": 5,
     "gaussian": true,
     "hidden_dim": 256,
