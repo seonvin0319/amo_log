@@ -216,6 +216,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "layout": "cell_jobs",
         "require_eval": True,
     },
+    {
+        # Design ablations: AntMaze re-run (rwd=none) ①② + ③ execution-only.
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_design_ablation_rwdnone_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "td3_amo_design_ablation",
+        "layout": "cell_jobs",
+        "require_eval": True,
+    },
 ]
 
 
