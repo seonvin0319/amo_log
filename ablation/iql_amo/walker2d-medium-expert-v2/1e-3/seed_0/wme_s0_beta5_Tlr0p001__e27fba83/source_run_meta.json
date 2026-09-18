@@ -1,0 +1,11 @@
+{
+  "algorithm": "iql_amo_qweight",
+  "backend": "jax",
+  "behavior_path": "/raid/ext_csv/AMO_store/iql_amo_qweight_behavior_shared/w-me/behavior.npz",
+  "dataset_sha256": "9be88c20771cf5a577bc9ce0c0d1b8f43b526d993a5f33ca2b5c1ba7d284e3d2",
+  "device": "cuda:0",
+  "env": "walker2d-medium-expert-v2",
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 0
+}

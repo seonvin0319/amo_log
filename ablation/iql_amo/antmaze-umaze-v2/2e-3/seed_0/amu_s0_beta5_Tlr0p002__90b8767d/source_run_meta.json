@@ -1,0 +1,11 @@
+{
+  "algorithm": "iql_amo_qweight",
+  "backend": "jax",
+  "behavior_path": "/raid/ext_csv/AMO_store/iql_amo_qweight_behavior_shared/am-u/behavior.npz",
+  "dataset_sha256": "746b41b1f9fc562af77a2b6c40d38eb375685e93a0ab95e462fe0be9dab99d9d",
+  "device": "cpu",
+  "env": "antmaze-umaze-v2",
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 0
+}
