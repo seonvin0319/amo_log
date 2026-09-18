@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:qweight"
   ],
-  "collected_at": "2026-09-18T22:42:55+09:00",
+  "collected_at": "2026-09-18T22:47:56+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "qweight",
@@ -49,7 +49,7 @@
     "final_eval_repeats": 5,
     "gaussian": true,
     "hidden_dim": 256,
-    "last_metrics_step": 501400,
+    "last_metrics_step": 836000,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
