@@ -9,7 +9,7 @@
   "classification_reasons": [
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-18T12:42:34+00:00",
+  "collected_at": "2026-09-18T21:46:27+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "fql_amo_jax",
