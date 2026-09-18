@@ -64,6 +64,7 @@
 | ablation | iql_amo | antmaze-large-play-v2 | beta=2.0 | 0.0003 | 0 | jax | — | [amlp_s0_beta2_Tlr0p0003__ae8a8ef7](../ablation/iql_amo/antmaze-large-play-v2/3e-4/seed_0/amlp_s0_beta2_Tlr0p0003__ae8a8ef7/) |
 | ablation | iql_amo | antmaze-large-play-v2 | beta=5.0 | 0.0003 | 0 | jax | 1000000 | [amlp_s0_beta5_Tlr0p0003__692e0341](../ablation/iql_amo/antmaze-large-play-v2/3e-4/seed_0/amlp_s0_beta5_Tlr0p0003__692e0341/) |
 | ablation | iql_amo | antmaze-large-play-v2 | beta=5.0 | 0.0003 | 1 | jax | 1000000 | [amlp_s1_beta5_Tlr0p0003__38892dec](../ablation/iql_amo/antmaze-large-play-v2/3e-4/seed_1/amlp_s1_beta5_Tlr0p0003__38892dec/) |
+| ablation | iql_amo | antmaze-large-play-v2 | beta=2.0 | 0.001 | 0 | jax | — | [amlp_s0_beta2_Tlr0p001__3c210721](../ablation/iql_amo/antmaze-large-play-v2/1e-3/seed_0/amlp_s0_beta2_Tlr0p001__3c210721/) |
 | ablation | iql_amo | antmaze-large-play-v2 | beta=5.0 | 0.001 | 0 | jax | 1000000 | [amlp_s0_beta5_Tlr0p001__830f30ab](../ablation/iql_amo/antmaze-large-play-v2/1e-3/seed_0/amlp_s0_beta5_Tlr0p001__830f30ab/) |
 | ablation | iql_amo | antmaze-large-play-v2 | beta=5.0 | 0.001 | 1 | jax | 1000000 | [amlp_s1_beta5_Tlr0p001__cc705863](../ablation/iql_amo/antmaze-large-play-v2/1e-3/seed_1/amlp_s1_beta5_Tlr0p001__cc705863/) |
 | ablation | iql_amo | antmaze-large-play-v2 | beta=5.0 | 0.002 | 0 | jax | 1000000 | [amlp_s0_Tlr0p002__36639071](../ablation/iql_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_Tlr0p002__36639071/) |
