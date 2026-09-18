@@ -16,7 +16,8 @@ from typing import Any, Dict, List, Optional, Tuple
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
 
-KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "eval_final50_v1.jsonl")
+KEEP_FILES = ("config.yaml", "metrics.jsonl", "eval.jsonl", "eval_final50_v1.jsonl",
+              "final_eval_50.json", "final_eval_50.jsonl")
 
 
 def load_removed_jax_entries() -> List[Dict[str, Any]]:
@@ -84,6 +85,16 @@ LEGACY_ENV_PREFIX = {
 }
 
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        # Read the executed revision from the run, never the current checkout.
+        "family_force": "td3_amo_bootrms_maincand",
+        "layout": "cell_jobs",
+        "require_eval": False,
+    },
     {
         "algo": "a2pr",
         "root": Path("/home/svcho/A2PR/results_aspc_table1"),
@@ -1004,6 +1015,8 @@ def ingest_one(
     git_meta = run_meta.get("git") if isinstance(run_meta, dict) else None
     if not code_commit and isinstance(git_meta, dict) and git_meta.get("code_commit"):
         code_commit = str(git_meta.get("code_commit"))
+    if not code_commit and run_meta.get("code_commit"):
+        code_commit = str(run_meta["code_commit"])
     if backend == "jax" and is_removed_jax(source_path, code_commit, run_id):
         print(f"SKIP removed legacy JAX {src}")
         return None
@@ -1055,6 +1068,14 @@ def ingest_one(
             shutil.copy2(src / extra, dest / extra)
             if extra not in meta["artifacts"]:
                 meta["artifacts"].append(extra)
+    final_json = src / "posthoc_eval_cpu" / "final.json"
+    if final_json.exists():
+        shutil.copy2(final_json, dest / "final_eval_50.json")
+        if "final_eval_50.json" not in meta["artifacts"]:
+            meta["artifacts"].append("final_eval_50.json")
+    if (src / "run_meta.json").exists():
+        shutil.copy2(src / "run_meta.json", dest / "source_run_meta.json")
+        meta["artifacts"].append("source_run_meta.json")
     (dest / "run_meta.json").write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n")
     source_index[source_path] = run_id
     print(f"OK  {dest.relative_to(ROOT)}")
