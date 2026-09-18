@@ -1,0 +1,93 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_design_ablation"
+  ],
+  "collected_at": "2026-09-18T21:00:16+09:00",
+  "env": "hopper-medium-replay-v2",
+  "env_short": "hopmr",
+  "family": "td3_amo_design_ablation",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "h-mr_bootl2_rwdnone_s3",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_design_ablation/hopmr_s3_alr0p002__1042e0bc",
+  "rel_path": "ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_3/hopmr_s3_alr0p002__1042e0bc",
+  "run_id": "hopmr_s3_alr0p002__1042e0bc",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "8e9a1a86bbb80f95d34d0e173c1759f59e639f77bc75d8923b75dae10b34596e"
+      },
+      "eval.jsonl": {
+        "sha256": "424a598f3183d905d11276fb06d1983022bc660c7b263ae6b8849256b8adbe8e"
+      },
+      "final_eval_50.json": {
+        "sha256": "ac7f51b4bd8514e45dfdea092378cede7eaf0efb75cf5488d67a73d7b14fd4df"
+      },
+      "metrics.jsonl": {
+        "sha256": "78b2477513194a6852528e81bc2bf873c278b6dfe086d23254f1e5cfe4d38149"
+      },
+      "source_run_meta.json": {
+        "sha256": "e3fc3fdfc82828f87b152f689fa437d4ef75caf82d15cb5946d8d23cc7418559"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 3,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "hopper-medium-replay-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_bootl2_vs_rms_seeds03/jobs/h-mr_bootl2_rwdnone_s3/run",
+  "variant": "alr0p002"
+}
