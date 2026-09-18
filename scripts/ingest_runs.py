@@ -90,7 +90,8 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "root": Path("/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs"),
         "host": "svcho",
         "code_repo": "AMO",
-        # Read the executed revision from the run, never the current checkout.
+        # Launch 2026-09-17: amo HEAD; jobs did not record git.hash.
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
         "family_force": "td3_amo_bootrms_maincand",
         "layout": "cell_jobs",
         "require_eval": False,
