@@ -10,7 +10,7 @@
   "classification_reasons": [
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-18T21:23:23+09:00",
+  "collected_at": "2026-09-18T12:26:27+00:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "adaptive_multiscale",
