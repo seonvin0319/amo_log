@@ -123,6 +123,16 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO",
         "family_force": "amo_bpi",
     },
+    # IQL-AMO qweight · JAX · AntMaze-6 · seeds 2–3
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/home/shchoi/AMO_iql-amo-qweight/results/iql_amo_qweight_jax_antmaze_s23/runs"
+        ),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "qweight",
+    },
     # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
     {
         "algo": "aspc",
@@ -457,6 +467,26 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
             tokens.append("jax")
         if cfg.get("gaussian") is False:
             tokens.append("det")
+    if family == "qweight":
+        tokens.append("qw")
+        beta = cfg.get("beta_initial")
+        if beta is not None:
+            tokens.append(
+                "b"
+                + f"{float(beta):g}".replace(".", "p").replace("-", "m").replace("+", "")
+            )
+        rho = cfg.get("rho_B_lr", cfg.get("rho_lr"))
+        if rho is not None:
+            tokens.append(
+                "rho"
+                + f"{float(rho):g}".replace(".", "p").replace("-", "m").replace("+", "")
+            )
+        if cfg.get("backend") == "jax" or cfg.get("algorithm") == "iql_amo_qweight":
+            tokens.append("jax")
+        if cfg.get("adapt_beta_B"):
+            tokens.append("adaptB")
+        if cfg.get("adapt_beta_E"):
+            tokens.append("adaptE")
     if family == "adaptive_multiscale":
         te = cfg.get("T_E")
         if te is not None:
@@ -534,8 +564,16 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "T_B",
         "T_lr",
         "rho_lr",
+        "rho_E_lr",
+        "rho_B_lr",
         "beta",
         "beta_initial",
+        "qweight_enabled",
+        "adapt_beta_E",
+        "adapt_beta_B",
+        "qweight_w_min",
+        "qweight_w_max",
+        "behavior_path",
         "gaussian",
         "expectile",
         "adaptive_enabled",
