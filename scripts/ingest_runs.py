@@ -272,6 +272,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "nested": False,
     },
     {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_amo_qweight_jax_beta125_rho_loco_antmaze_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-main",
+        "code_commit": "ceffa5373681e09b20d5b513091bccd4d301a4eb",
+        "family_force": "iql_amo_qweight_jax",
+        "nested": False,
+    },
+    {
         "algo": "fql_amo",
         "root": Path(
             "/raid/ext_csv/AMO_store/fql_amo_jax_loco9_tinit5_alr3e-4_seeds0to3/runs"
@@ -463,6 +474,12 @@ def infer_env_seed_from_dirname(dirname: str) -> Dict[str, Any]:
         "relocate-hum": "relocate-human-v1",
         "relocate-cln": "relocate-cloned-v1",
         "relocate-exp": "relocate-expert-v1",
+        "am-u": "antmaze-umaze-v2",
+        "am-m-p": "antmaze-medium-play-v2",
+        "am-l-p": "antmaze-large-play-v2",
+        "am-u-div": "antmaze-umaze-diverse-v2",
+        "am-m-div": "antmaze-medium-diverse-v2",
+        "am-l-div": "antmaze-large-diverse-v2",
     }
     for key, env in env_map.items():
         if f"_{key}_" in f"_{dirname}_" or f"_{key}_s" in dirname or dirname.endswith(f"_{key}"):
@@ -696,6 +713,10 @@ def build_variant(
         alr = cfg.get("alpha_lr", cfg.get("T_lr"))
         if alr is not None:
             tokens.append("alr" + fmt_num(float(alr)))
+    if family == "iql_amo_qweight_jax":
+        beta = cfg.get("beta_initial")
+        if beta is not None:
+            tokens.append("beta" + fmt_num(float(beta)))
 
     if family in ("dual_proximal", "chain", "misc"):
         t_init = cfg.get("T")
