@@ -9,7 +9,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO/results/iql_amo_jax_b5_loco9/runs/iql_amo_jax_h-mr_s2_rlr1e-3_b5",
   "classification_reasons": [],
-  "collected_at": "2026-09-18T22:17:07+09:00",
+  "collected_at": "2026-09-18T22:17:49+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "amo_bpi",
