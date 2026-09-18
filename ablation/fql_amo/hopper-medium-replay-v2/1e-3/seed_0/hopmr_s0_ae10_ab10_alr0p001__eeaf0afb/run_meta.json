@@ -10,7 +10,7 @@
   "classification_reasons": [
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-19T03:22:36+09:00",
+  "collected_at": "2026-09-18T18:27:56+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "fql_amo_jax",
