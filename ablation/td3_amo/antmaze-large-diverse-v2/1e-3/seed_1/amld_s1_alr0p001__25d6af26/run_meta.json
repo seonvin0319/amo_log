@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_bootrms_maincand"
   ],
-  "collected_at": "2026-09-19T10:14:44+09:00",
+  "collected_at": "2026-09-19T10:20:02+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_bootrms_maincand",
@@ -32,8 +32,14 @@
       "config.yaml": {
         "sha256": "2e3a3272f2ed7e4af28729d5b86d926495a4f8c346100d441204417a1c6f8aa9"
       },
+      "eval.jsonl": {
+        "sha256": "31f718a1fa24f41e7f3a33b1a1a7330652b9dc8a8f276087ee47535b47f27c72"
+      },
+      "final_eval_50.json": {
+        "sha256": "3d2d789ec20d3eb5c175880f835905039ac0dfa541919c63a40f7c70d29691ea"
+      },
       "metrics.jsonl": {
-        "sha256": "b1a605273a9ab23eaa52bf5cf4cab5e54ec2c1cb602fd4ce830a77c17f8a52df"
+        "sha256": "6951690c6984ef1d6f53f2550cfe614c204843ad7e34ba4eb1328f78b1069f24"
       },
       "source_run_meta.json": {
         "sha256": "dbd14c9d293e4a9d04efbd903745f574ee2b0f68cf74f4f989bdaa5c1551406f"
