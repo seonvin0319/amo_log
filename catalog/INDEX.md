@@ -826,6 +826,8 @@
 | main | td3_amo | hopper-medium-expert-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | — | [hopme_s0_default__5ffab7e6](../main/td3_amo/hopper-medium-expert-v2/3e-4/seed_0/hopme_s0_default__5ffab7e6/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | — | [hopmr_s0_default__cdb79d0a](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_0/hopmr_s0_default__cdb79d0a/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | — | [hopm_s0_default__69847d50](../main/td3_amo/hopper-medium-v2/3e-4/seed_0/hopm_s0_default__69847d50/) |
+| main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | — | [wmr_s0_default__6eda6718](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_0/wmr_s0_default__6eda6718/) |
+| main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | — | [wm_s0_default__9b88dcdd](../main/td3_amo/walker2d-medium-v2/3e-4/seed_0/wm_s0_default__9b88dcdd/) |
 | main | wpc | antmaze-large-diverse-v2 | — | — | 0 | torch | 1000000 | [amld_s0_wpc__3350945d](../main/wpc/antmaze-large-diverse-v2/seed_0/amld_s0_wpc__3350945d/) |
 | main | wpc | antmaze-large-diverse-v2 | — | — | 1 | torch | 1000000 | [amld_s1_wpc__2f90a2c3](../main/wpc/antmaze-large-diverse-v2/seed_1/amld_s1_wpc__2f90a2c3/) |
 | main | wpc | antmaze-large-diverse-v2 | — | — | 2 | torch | 1000000 | [amld_s2_wpc__3b0095f1](../main/wpc/antmaze-large-diverse-v2/seed_2/amld_s2_wpc__3b0095f1/) |
