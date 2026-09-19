@@ -11,7 +11,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_bootrms_maincand"
   ],
-  "collected_at": "2026-09-19T09:00:26+09:00",
+  "collected_at": "2026-09-19T09:05:45+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_bootrms_maincand",
