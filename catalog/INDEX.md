@@ -179,7 +179,7 @@
 | ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | 1000000 | [amld_s0_default__0afccc24](../ablation/td3_amo/antmaze-large-diverse-v2/1e-3/seed_0/amld_s0_default__0afccc24/) |
 | ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.001 | 0 | torch | 1000000 | [amld_s0_te1_Tlr0p001__14647b84](../ablation/td3_amo/antmaze-large-diverse-v2/1e-3/seed_0/amld_s0_te1_Tlr0p001__14647b84/) |
 | ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | 1000000 | [amld_s1_default__c8177d43](../ablation/td3_amo/antmaze-large-diverse-v2/1e-3/seed_1/amld_s1_default__c8177d43/) |
-| ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | — | [amld_s2_default__d825c55a](../ablation/td3_amo/antmaze-large-diverse-v2/1e-3/seed_2/amld_s2_default__d825c55a/) |
+| ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | 1000000 | [amld_s2_default__d825c55a](../ablation/td3_amo/antmaze-large-diverse-v2/1e-3/seed_2/amld_s2_default__d825c55a/) |
 | ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=20/20 | 0.002 | 0 | torch | 1000000 | [amld_s0_TE10_Tlr0p002__afe19e3a](../ablation/td3_amo/antmaze-large-diverse-v2/2e-3/seed_0/amld_s0_TE10_Tlr0p002__afe19e3a/) |
 | ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.002 | 0 | torch | 1000000 | [amld_s0_TE1_Tlr0p002__211e9fa7](../ablation/td3_amo/antmaze-large-diverse-v2/2e-3/seed_0/amld_s0_TE1_Tlr0p002__211e9fa7/) |
 | ablation | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=10/10 | 0.002 | 0 | torch | 1000000 | [amld_s0_TE5_Tlr0p002__d0968b5d](../ablation/td3_amo/antmaze-large-diverse-v2/2e-3/seed_0/amld_s0_TE5_Tlr0p002__d0968b5d/) |
@@ -337,6 +337,7 @@
 | ablation | td3_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | 1000000 | [hme_s0_default__f4243c64](../ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_0/hme_s0_default__f4243c64/) |
 | ablation | td3_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | 1000000 | [hme_s1_default__6a0b4cfc](../ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_1/hme_s1_default__6a0b4cfc/) |
 | ablation | td3_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | 1000000 | [hme_s2_default__8d1f2c3b](../ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_2/hme_s2_default__8d1f2c3b/) |
+| ablation | td3_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=1/1 | 0.001 | 3 | jax | — | [hme_s3_default__f9451ccd](../ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_3/hme_s3_default__f9451ccd/) |
 | ablation | td3_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=?/? | — | 0 | torch | 1000000 | [hcmr_s0_pi_only_xfit__cb1305e7](../ablation/td3_amo/halfcheetah-medium-replay-v2/unspecified/seed_0/hcmr_s0_pi_only_xfit__cb1305e7/) |
 | ablation | td3_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=?/? | 0.0002 | 0 | torch | 1000000 | [hcmr_s0_n2_dual__d3bc3b64](../ablation/td3_amo/halfcheetah-medium-replay-v2/2e-4/seed_0/hcmr_s0_n2_dual__d3bc3b64/) |
 | ablation | td3_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=?/? | 0.0002 | 0 | torch | 1000000 | [hcmr_s0_n4_dual__7d04d354](../ablation/td3_amo/halfcheetah-medium-replay-v2/2e-4/seed_0/hcmr_s0_n4_dual__7d04d354/) |
@@ -349,6 +350,7 @@
 | ablation | td3_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | 1000000 | [hcmr_s0_default__9e3c48d3](../ablation/td3_amo/halfcheetah-medium-replay-v2/1e-3/seed_0/hcmr_s0_default__9e3c48d3/) |
 | ablation | td3_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | 1000000 | [hcmr_s1_default__1c3a20e4](../ablation/td3_amo/halfcheetah-medium-replay-v2/1e-3/seed_1/hcmr_s1_default__1c3a20e4/) |
 | ablation | td3_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | 1000000 | [hcmr_s2_default__a32efa91](../ablation/td3_amo/halfcheetah-medium-replay-v2/1e-3/seed_2/hcmr_s2_default__a32efa91/) |
+| ablation | td3_amo | halfcheetah-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 3 | jax | — | [hcmr_s3_default__cda8e465](../ablation/td3_amo/halfcheetah-medium-replay-v2/1e-3/seed_3/hcmr_s3_default__cda8e465/) |
 | ablation | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=?/? | — | 0 | torch | 1000000 | [hcm_s0_pi_only_xfit__ef5dd431](../ablation/td3_amo/halfcheetah-medium-v2/unspecified/seed_0/hcm_s0_pi_only_xfit__ef5dd431/) |
 | ablation | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=?/? | 0.0002 | 0 | torch | 1000000 | [hcm_s0_n2_dual__03a0ed96](../ablation/td3_amo/halfcheetah-medium-v2/2e-4/seed_0/hcm_s0_n2_dual__03a0ed96/) |
 | ablation | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=?/? | 0.0002 | 0 | torch | 1000000 | [hcm_s0_n4_dual__0cd52221](../ablation/td3_amo/halfcheetah-medium-v2/2e-4/seed_0/hcm_s0_n4_dual__0cd52221/) |
