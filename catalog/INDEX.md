@@ -728,7 +728,7 @@
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.002 | 1 | jax | 1000000 | [amld_s1_alr0p002__62593585](../main/td3_amo/antmaze-large-diverse-v2/2e-3/seed_1/amld_s1_alr0p002__62593585/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.002 | 2 | jax | 1000000 | [amld_s2_alr0p002__2ef6377c](../main/td3_amo/antmaze-large-diverse-v2/2e-3/seed_2/amld_s2_alr0p002__2ef6377c/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [amld_s2_alr0p002__cd819587](../main/td3_amo/antmaze-large-diverse-v2/2e-3/seed_2/amld_s2_alr0p002__cd819587/) |
-| main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.002 | 3 | jax | — | [amld_s3_alr0p002__3e600cf3](../main/td3_amo/antmaze-large-diverse-v2/2e-3/seed_3/amld_s3_alr0p002__3e600cf3/) |
+| main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.002 | 3 | jax | 1000000 | [amld_s3_alr0p002__3e600cf3](../main/td3_amo/antmaze-large-diverse-v2/2e-3/seed_3/amld_s3_alr0p002__3e600cf3/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [amld_s3_alr0p002__a0deb2a6](../main/td3_amo/antmaze-large-diverse-v2/2e-3/seed_3/amld_s3_alr0p002__a0deb2a6/) |
 | main | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 0 | jax | 1000000 | [amlp_s0_alr0p0003__0371f6b9](../main/td3_amo/antmaze-large-play-v2/3e-4/seed_0/amlp_s0_alr0p0003__0371f6b9/) |
 | main | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 0 | jax | 1000000 | [amlp_s0_alr0p0003__2254b0e5](../main/td3_amo/antmaze-large-play-v2/3e-4/seed_0/amlp_s0_alr0p0003__2254b0e5/) |
@@ -898,7 +898,7 @@
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hcm_s1_alr0p0003__49a5fd07](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_1/hcm_s1_alr0p0003__49a5fd07/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [hcm_s2_alr0p0003__19a94495](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_2/hcm_s2_alr0p0003__19a94495/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 2 | jax | 1000000 | [hcm_s2_alr0p0003__73bf50e8](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_2/hcm_s2_alr0p0003__73bf50e8/) |
-| main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | — | [hcm_s3_alr0p0003__3faedbb9](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_alr0p0003__3faedbb9/) |
+| main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | 1000000 | [hcm_s3_alr0p0003__3faedbb9](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_alr0p0003__3faedbb9/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | 1000000 | [hcm_s3_alr0p0003__fe34b394](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_alr0p0003__fe34b394/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.001 | 0 | jax | 1000000 | [hcm_s0_alr0p001__2a109d0e](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_0/hcm_s0_alr0p001__2a109d0e/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 0 | jax | 1000000 | [hcm_s0_alr0p001__c6116329](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_0/hcm_s0_alr0p001__c6116329/) |
@@ -906,6 +906,7 @@
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 1 | jax | 1000000 | [hcm_s1_alr0p001__e2daf7ea](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_1/hcm_s1_alr0p001__e2daf7ea/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | jax | 1000000 | [hcm_s2_alr0p001__0f5e5ef0](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_2/hcm_s2_alr0p001__0f5e5ef0/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | 1000000 | [hcm_s2_alr0p001__ab13a81b](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_2/hcm_s2_alr0p001__ab13a81b/) |
+| main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.001 | 3 | jax | — | [hcm_s3_alr0p001__a14b5818](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_3/hcm_s3_alr0p001__a14b5818/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [hcm_s3_alr0p001__ed58a7d3](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_3/hcm_s3_alr0p001__ed58a7d3/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.002 | 0 | jax | 1000000 | [hcm_s0_alr0p002__8b3526ac](../main/td3_amo/halfcheetah-medium-v2/2e-3/seed_0/hcm_s0_alr0p002__8b3526ac/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 0 | jax | 1000000 | [hcm_s0_alr0p002__a523e4cc](../main/td3_amo/halfcheetah-medium-v2/2e-3/seed_0/hcm_s0_alr0p002__a523e4cc/) |
@@ -913,6 +914,7 @@
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 1 | jax | 1000000 | [hcm_s1_alr0p002__a21bff4a](../main/td3_amo/halfcheetah-medium-v2/2e-3/seed_1/hcm_s1_alr0p002__a21bff4a/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hcm_s2_alr0p002__3bb80263](../main/td3_amo/halfcheetah-medium-v2/2e-3/seed_2/hcm_s2_alr0p002__3bb80263/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.002 | 2 | jax | 1000000 | [hcm_s2_alr0p002__67878f74](../main/td3_amo/halfcheetah-medium-v2/2e-3/seed_2/hcm_s2_alr0p002__67878f74/) |
+| main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.002 | 3 | jax | — | [hcm_s3_alr0p002__44c79203](../main/td3_amo/halfcheetah-medium-v2/2e-3/seed_3/hcm_s3_alr0p002__44c79203/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [hcm_s3_alr0p002__eaf47954](../main/td3_amo/halfcheetah-medium-v2/2e-3/seed_3/hcm_s3_alr0p002__eaf47954/) |
 | main | td3_amo | hopper-medium-expert-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 0 | jax | 1000000 | [hopme_s0_alr0p0003__523e439e](../main/td3_amo/hopper-medium-expert-v2/3e-4/seed_0/hopme_s0_alr0p0003__523e439e/) |
 | main | td3_amo | hopper-medium-expert-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 0 | jax | 1000000 | [hopme_s0_alr0p0003__660f619f](../main/td3_amo/hopper-medium-expert-v2/3e-4/seed_0/hopme_s0_alr0p0003__660f619f/) |
