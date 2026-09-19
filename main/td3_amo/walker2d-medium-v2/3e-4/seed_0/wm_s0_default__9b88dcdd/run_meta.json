@@ -7,7 +7,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO_td3-amo-bootrms/results/td3_amo_jax_a1_s03/runs/td3amo_jax_a1_tlr3em4_w-m_s0",
   "classification_reasons": [],
-  "collected_at": "2026-09-19T10:30:05+09:00",
+  "collected_at": "2026-09-19T10:35:37+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_jax",
