@@ -1,0 +1,102 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
+  "classification_reasons": [
+    "bootstrap_loss_not_l2_rms"
+  ],
+  "collected_at": "2026-09-19T13:01:24+09:00",
+  "env": "hopper-medium-replay-v2",
+  "env_short": "hopmr",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": "eee3d486fac0c9f5ecbbea411424e6691b715265",
+    "code_repo": "AMO-lambda0-te-tb"
+  },
+  "identity_uuid8": "5370c612",
+  "layout_version": 2,
+  "legacy_name": "amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
+  "meta_lr": 0.002,
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/hopmr_s1_te1_tb1_Tlr0p002__5370c612",
+  "rel_path": "ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_te1_tb1_Tlr0p002__5370c612",
+  "run_id": "hopmr_s1_te1_tb1_Tlr0p002__5370c612",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "923de8e40e209487b2caa1a831653d55df3025ae4ada2d0d06c9a9258785a81b",
+        "sha256": "243923a83c9fc344242c35032d70d9e8632ddb1c6c586f1d3cdb03406cd96b2d"
+      },
+      "eval.jsonl": {
+        "sha256": "8f73ead075c0c371afe355516f6ce4d21968973940f3fc6ca7f1a099354db142"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "91a1b5c6c903a3dab368a75e1301b0450769c097ab21f960a0a3a02446e3d770",
+        "sha256": "5ce5c75949a08e6bdc24b0740aa1ef4393bd2a4688d34b3aba258ad9838b7b6f"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.002,
+    "batch_size": 256,
+    "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
+    "bootstrap_rms_diagnostic_freq": 0,
+    "buffer_size": 10000000,
+    "checkpoints_path": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
+    "critic_hidden_dim": 256,
+    "critic_layernorm": true,
+    "critic_n_hiddens": 3,
+    "device": "cuda",
+    "discount": 0.99,
+    "env": "hopper-medium-replay-v2",
+    "eval_freq": 5000,
+    "expl_noise": 0.1,
+    "final_eval_repeats": 1,
+    "group": "amo-te1-tb1-tlr-gapfill-s0to3",
+    "load_model": "",
+    "max_timesteps": 1000000,
+    "metrics_log_freq": 200,
+    "n_episodes": 10,
+    "name": "amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "profile_runtime": false,
+    "project": "AMO-adaptive-multiscale",
+    "proximal_n_steps": 1,
+    "resume_tag": "amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1",
+    "save_freq": 5000,
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "smoothness_max": null,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/amo_te1_tb1_tlr_gapfill_seeds0to3/runs/amo_ams_h-mr_Te1_Tb1_Tlr0p002_s1-hopper-medium-replay-v2-5370c612",
+  "variant": "te1_tb1_Tlr0p002"
+}

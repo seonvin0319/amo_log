@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/amo_adaptive_multiscale_loco9_te1_tb025_seed0/runs/amo_ams_w-m_Te1_Tb025_1em3_s0-walker2d-medium-v2-c151a61a",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "initial_scale_mismatch"
   ],
