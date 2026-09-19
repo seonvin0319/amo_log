@@ -2,14 +2,16 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO_td3-amo-bootrms/results/td3_amo_jax_a1_s03/runs/td3amo_jax_a1_tlr1em3_am-u-div_s2",
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-20T04:50:54+09:00",
+  "collected_at": "2026-09-20T04:56:28+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "td3_amo_jax",
@@ -31,8 +33,14 @@
       "config.yaml": {
         "sha256": "3b0b0e2b3a40fc98a72324bab836a4e0a137065570137a9d7963be71d6ecf5d4"
       },
+      "eval.jsonl": {
+        "sha256": "9274fcef3eec5b4405408d94de59dccb8a173763806604cbca413f45fc3132f4"
+      },
+      "final_eval_50.jsonl": {
+        "sha256": "7bca6cb1c8368530bad2ecadc62dcce242366a8832c532107038fb1b398e0029"
+      },
       "metrics.jsonl": {
-        "sha256": "1d9587952e4f8e8eace5a5c8fb0a9ef72943cdad4a80c934cea627d0f698c8d8"
+        "sha256": "567b029d09aaf10f64a25114389a50334afe2f91f2f0d35c57c4519687cd2d74"
       }
     },
     "schema": "alpha_v1"
@@ -57,9 +65,16 @@
     "eval_first_step": 20000,
     "eval_freq": 20000,
     "eval_seed": null,
+    "final_eval_50": {
+      "d4rl_normalized_score": 70.0,
+      "device": "cpu",
+      "eval_return": 0.7,
+      "evaluated_at": "2026-09-19T19:52:55.440171+00:00",
+      "n_episodes": 50
+    },
     "final_eval_repeats": 5,
     "hidden_dim": 256,
-    "last_metrics_step": 969000,
+    "last_metrics_step": 1000000,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
