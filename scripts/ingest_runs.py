@@ -270,6 +270,22 @@ DEFAULT_SOURCES.append(
     }
 )
 
+# IQL+AMO qweight JAX loco9: β∈{5,2,1} × ρ∈{3e-4,1e-3,2e-3} × seeds 0–3
+DEFAULT_SOURCES.append(
+    {
+        "algo": "iql",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/"
+            "iql_amo_qweight_jax_beta125_rho_loco9_seeds0to3/runs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO",
+        "family_force": "amo_qweight",
+        "config_file": "config.yaml",
+        "variant_tag": "jax_loco9",
+    }
+)
+
 
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
@@ -500,6 +516,16 @@ def build_variant(
         tau = cfg.get("iql_tau")
         if tau is not None:
             tokens.append(f"t{fmt_num(float(tau))}")
+    if family == "amo_qweight":
+        tokens.append("iql_amo_qweight")
+        if cfg.get("_variant_tag"):
+            tokens.append(str(cfg["_variant_tag"]))
+        rlr = cfg.get("rho_lr")
+        if rlr is not None:
+            tokens.append("rlr" + fmt_num(float(rlr)))
+        b0 = cfg.get("beta_initial", cfg.get("beta_init", cfg.get("beta")))
+        if b0 is not None:
+            tokens.append(f"b{fmt_num(float(b0))}")
     if family == "paper_benchmark":
         tokens.append(algo if algo in ("wpc", "aspc") else "bench")
         alpha = cfg.get("alpha")
@@ -563,6 +589,8 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "rho_lr",
         "weight_cap",
         "amo_dual_bpi",
+        "qweight_enabled",
+        "max_steps",
     ]
     out = {}
     for key in keys:
@@ -648,6 +676,8 @@ def ingest_one(
             for key in ("env", "seed", "algorithm", "backend"):
                 if run_meta.get(key) is not None and cfg.get(key) is None:
                     cfg[key] = run_meta[key]
+    if cfg.get("max_timesteps") is None and cfg.get("max_steps") is not None:
+        cfg["max_timesteps"] = cfg["max_steps"]
     if variant_tag:
         cfg["_variant_tag"] = variant_tag
     # Nested cell tag (e.g. rlr2e-3_b1) for amo_bpi uniqueness.
@@ -703,6 +733,8 @@ def ingest_one(
     }
     if family == "adaptive_beta":
         meta["protocol"] = "corl_iql_adaptive_beta_v1"
+    if family == "amo_qweight":
+        meta["protocol"] = "jax_iql_amo_qweight_v1"
     if family == "amo_bpi":
         if str(cfg.get("backend") or "").lower() == "jax" or "jax_rem" in str(
             cfg.get("_variant_tag") or ""
@@ -734,7 +766,25 @@ def ingest_one(
     # Archive as config.yaml even when source used resolved_config.yaml.
     shutil.copy2(cfg_path, dest / "config.yaml")
     for name in present:
-        shutil.copy2(src / name, dest / name)
+        src_file = src / name
+        if (
+            family == "amo_qweight"
+            and name == "metrics.jsonl"
+            and src_file.stat().st_size > 262144
+        ):
+            with src_file.open("rb") as handle:
+                handle.seek(0, 2)
+                size = handle.tell()
+                handle.seek(max(0, size - 16384))
+                chunk = handle.read().decode("utf-8", "replace")
+            last = ""
+            for line in reversed(chunk.splitlines()):
+                if line.strip():
+                    last = line.strip()
+                    break
+            (dest / name).write_text((last + "\n") if last else "")
+        else:
+            shutil.copy2(src_file, dest / name)
     if has_alt_eval:
         normalize_benchmark_eval(src_eval_alt, dest / "eval.jsonl")
         if "eval.jsonl" not in meta["artifacts"]:
@@ -764,11 +814,18 @@ def main() -> int:
         default=None,
         help="Only ingest sources for this source_host (e.g. ext_csh).",
     )
+    parser.add_argument(
+        "--family",
+        default=None,
+        help="Only ingest sources with this family_force (e.g. amo_qweight).",
+    )
     args = parser.parse_args()
 
     collected: List[Dict[str, Any]] = []
     for src_spec in DEFAULT_SOURCES:
         if args.host and src_spec.get("host") != args.host:
+            continue
+        if args.family and src_spec.get("family_force") != args.family:
             continue
         root: Path = src_spec["root"]
         config_file = str(src_spec.get("config_file") or "config.yaml")

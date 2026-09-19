@@ -1,0 +1,11 @@
+{
+  "algorithm": "iql_amo_qweight",
+  "backend": "jax",
+  "env": "hopper-medium-expert-v2",
+  "seed": 1,
+  "dataset_sha256": "9117315c67a485f5a237e5de2a534aa4eb669a0d5b310d426a6fdcc03f53263d",
+  "python": "3.10.20",
+  "device": "cuda:0",
+  "replay_device": "cpu",
+  "behavior_path": "/raid/ext_csh/AMO_store/iql_amo_qweight_behavior_shared/h-me/behavior.npz"
+}

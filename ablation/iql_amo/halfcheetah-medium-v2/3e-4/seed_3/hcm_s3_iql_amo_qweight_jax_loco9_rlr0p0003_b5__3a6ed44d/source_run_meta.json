@@ -1,0 +1,11 @@
+{
+  "algorithm": "iql_amo_qweight",
+  "backend": "jax",
+  "env": "halfcheetah-medium-v2",
+  "seed": 3,
+  "dataset_sha256": "bb18625fbf8cb132a7432608fdbeeef35c19682b7ddc8e8ddfa42889f1fc8307",
+  "python": "3.10.20",
+  "device": "cuda:0",
+  "replay_device": "cpu",
+  "behavior_path": "/raid/ext_csh/AMO_store/iql_amo_qweight_behavior_shared/hc-m/behavior.npz"
+}
