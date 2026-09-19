@@ -1,14 +1,15 @@
 {
   "algo": "td3_amo",
   "artifacts": [
-    "config.yaml"
+    "config.yaml",
+    "metrics.jsonl"
   ],
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO_td3-amo-bootrms/results/td3_amo_jax_a1_s03/runs/td3amo_jax_a1_tlr3em4_am-l-div_s3",
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-19T19:52:30+09:00",
+  "collected_at": "2026-09-19T19:58:02+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_jax",
@@ -29,6 +30,9 @@
     "files": {
       "config.yaml": {
         "sha256": "73e641e04005f2b985fa972a0f59565e8964dbaab9d48ddb684c526dd3792930"
+      },
+      "metrics.jsonl": {
+        "sha256": "1ae89afaee42026d5dc7ce13cddfe48293e06722e945c8701fdf7e2c8058158a"
       }
     },
     "schema": "alpha_v1"
@@ -55,6 +59,7 @@
     "eval_seed": null,
     "final_eval_repeats": 5,
     "hidden_dim": 256,
+    "last_metrics_step": 139200,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
