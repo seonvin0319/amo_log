@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_bootrms_maincand"
   ],
-  "collected_at": "2026-09-19T12:16:55+09:00",
+  "collected_at": "2026-09-19T12:22:14+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_bootrms_maincand",
@@ -32,8 +32,14 @@
       "config.yaml": {
         "sha256": "570a3d5f6ec84b497b8b71c434e6c2e912afdf796701f6defb4943f8b4c473d3"
       },
+      "eval.jsonl": {
+        "sha256": "d034c2c9ab73e93331015ca050b127253df3414160991280b34020d0d5460f45"
+      },
+      "final_eval_50.json": {
+        "sha256": "2cab67628c3a8af8e8a93dc3d62d157eb72ac0d18b492877119dacea403a8a8b"
+      },
       "metrics.jsonl": {
-        "sha256": "dc35b3fafaaeb05aa565a6a707f2cb2996e1c725f6b759baeedd2b902187e4fa"
+        "sha256": "23598b62329726f10612b350ecd9ae1c4a657f35f7054b5a5ec0add9bed91617"
       },
       "source_run_meta.json": {
         "sha256": "37bfa1ee1850f5b735001ef1af238dd86af0836f74cffcbc201c2659590024fc"
