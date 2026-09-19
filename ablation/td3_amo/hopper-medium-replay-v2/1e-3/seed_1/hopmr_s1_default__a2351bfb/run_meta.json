@@ -9,7 +9,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-20T02:02:52+09:00",
+  "collected_at": "2026-09-20T02:08:25+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_jax",
@@ -32,7 +32,7 @@
         "sha256": "3b0b0e2b3a40fc98a72324bab836a4e0a137065570137a9d7963be71d6ecf5d4"
       },
       "metrics.jsonl": {
-        "sha256": "bda15cbd28caacec91c9c9397b432067729d873e42389203c9dfe2b118c29797"
+        "sha256": "245f703fc4f0e4e49aaac1cae0e78c796234fd04446614ac0300a394be8812ab"
       }
     },
     "schema": "alpha_v1"
@@ -59,7 +59,7 @@
     "eval_seed": null,
     "final_eval_repeats": 5,
     "hidden_dim": 256,
-    "last_metrics_step": 623400,
+    "last_metrics_step": 976400,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
