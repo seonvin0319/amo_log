@@ -7,6 +7,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "meta_lr_outside_main"
   ],
   "collected_at": "2026-09-15T00:50:02+09:00",

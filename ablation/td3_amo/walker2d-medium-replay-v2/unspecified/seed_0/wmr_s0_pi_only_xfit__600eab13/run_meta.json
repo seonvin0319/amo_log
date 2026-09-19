@@ -8,6 +8,7 @@
   "backend": "torch",
   "classification_reasons": [
     "method_variant:pi_only_xfit_target",
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],

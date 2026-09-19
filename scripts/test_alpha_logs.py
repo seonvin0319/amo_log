@@ -41,7 +41,7 @@ class AlphaLogsTests(unittest.TestCase):
         for old in ({'T_E':1,'alpha_E':5},{'alpha_E':5,'T_E':1}):
             with self.assertRaises(ValueError):convert(old)
         with self.assertRaises(ValueError):convert({'T_surprise':2},config=True)
-        new={'alpha_E':5,'alpha_B':5,'alpha_lr':.001,'beta_initial':5}
+        new={'alpha_E':5,'alpha_B':5,'alpha_lr':.001,'beta_initial':5,'bootstrap_loss':'l2_rms'}
         self.assertEqual(convert(new),new)
         self.assertEqual(initial_alphas(new),(5,5))
         m={'algo':'td3_amo','family':'td3_amo_jax','run_id':'native','backend':'jax'}

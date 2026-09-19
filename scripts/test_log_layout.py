@@ -15,7 +15,7 @@ def run(algo='amo', env='hopper-medium-v2', **settings):
     family = 'adaptive_multiscale' if algo == 'amo' else 'amo_bpi' if algo == 'iql_amo' else 'fql_amo_jax' if algo == 'fql_amo' else 'benchmark'
     cfg = dict(env=env, seed=0)
     if algo == 'amo':
-        cfg.update(T_E=1, T_B=1, T_lr=0.001)
+        cfg.update(T_E=1, T_B=1, T_lr=0.001, bootstrap_loss='l2_rms')
     elif algo == 'iql_amo':
         cfg.update(beta_initial=1, rho_lr=0.001)
     cfg.update(settings)
@@ -25,6 +25,17 @@ def run(algo='amo', env='hopper-medium-v2', **settings):
 
 
 class ClassificationTests(unittest.TestCase):
+    def test_bootrms_is_main_and_previous_bootstrap_losses_are_ablation(self):
+        m,c=run(alpha_E=5,alpha_B=5,alpha_lr=.001,execution_score='bpi')
+        m['family']='td3_amo_bootrms_maincand'
+        self.assertEqual(classify(m,c)['section'],'main')
+        for loss in (None,'l1_l2_rms','l1','l2'):
+            old={**c,'bootstrap_loss':loss}
+            self.assertIn('bootstrap_loss_not_l2_rms',classify(m,old)['classification_reasons'])
+        for change in ({'execution_score':'direct_q'},{'execution_only':True},
+                       {'critic_depth':2},{'alpha_B':2}):
+            self.assertEqual(classify(m,{**c,**change})['section'],'ablation')
+
     def test_td3_initializations_and_alpha_conversion(self):
         for alpha, t in ((1, .5), (2, 1), (5, 2.5)):
             for lr in (.001, .002, .0003):
