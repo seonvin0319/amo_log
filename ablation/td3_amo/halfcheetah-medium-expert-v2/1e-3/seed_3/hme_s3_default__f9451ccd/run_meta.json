@@ -9,7 +9,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-20T05:24:30+09:00",
+  "collected_at": "2026-09-20T05:30:06+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "td3_amo_jax",
@@ -32,7 +32,7 @@
         "sha256": "3b0b0e2b3a40fc98a72324bab836a4e0a137065570137a9d7963be71d6ecf5d4"
       },
       "metrics.jsonl": {
-        "sha256": "9e1e8c7b24669077e3a16e69580f4535eb8dfefa99d51b182afc0ad19fa3c1c2"
+        "sha256": "5ccab6950bdb93aad835f8cba5f00a88f03e02a1e68299566ed750c62d3d80c6"
       }
     },
     "schema": "alpha_v1"
@@ -59,7 +59,7 @@
     "eval_seed": null,
     "final_eval_repeats": 5,
     "hidden_dim": 256,
-    "last_metrics_step": 24000,
+    "last_metrics_step": 453600,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
