@@ -992,7 +992,7 @@
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 1 | jax | 1000000 | [wmr_s1_alr0p0003__debf206d](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_1/wmr_s1_alr0p0003__debf206d/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 2 | jax | 1000000 | [wmr_s2_alr0p0003__13d4ece7](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_2/wmr_s2_alr0p0003__13d4ece7/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [wmr_s2_alr0p0003__62d12fd8](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_2/wmr_s2_alr0p0003__62d12fd8/) |
-| main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | — | [wmr_s3_alr0p0003__080c17d8](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_3/wmr_s3_alr0p0003__080c17d8/) |
+| main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | 1000000 | [wmr_s3_alr0p0003__080c17d8](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_3/wmr_s3_alr0p0003__080c17d8/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | 1000000 | [wmr_s3_alr0p0003__3bbddba0](../main/td3_amo/walker2d-medium-replay-v2/3e-4/seed_3/wmr_s3_alr0p0003__3bbddba0/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 0 | jax | 1000000 | [wmr_s0_alr0p001__0ad588e2](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_0/wmr_s0_alr0p001__0ad588e2/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 0 | jax | 1000000 | [wmr_s0_alr0p001__f1606aba](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_0/wmr_s0_alr0p001__f1606aba/) |
@@ -1001,12 +1001,14 @@
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | jax | 1000000 | [wmr_s2_alr0p001__044f9e24](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_2/wmr_s2_alr0p001__044f9e24/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | 1000000 | [wmr_s2_alr0p001__2ce839fa](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_2/wmr_s2_alr0p001__2ce839fa/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [wmr_s3_alr0p001__130a96b7](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_3/wmr_s3_alr0p001__130a96b7/) |
+| main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 3 | jax | — | [wmr_s3_alr0p001__c1158686](../main/td3_amo/walker2d-medium-replay-v2/1e-3/seed_3/wmr_s3_alr0p001__c1158686/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 0 | jax | 1000000 | [wmr_s0_alr0p002__051d70e1](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_alr0p002__051d70e1/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.002 | 0 | jax | 1000000 | [wmr_s0_alr0p002__16d843f7](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_alr0p002__16d843f7/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.002 | 1 | jax | 1000000 | [wmr_s1_alr0p002__c2c2f614](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_1/wmr_s1_alr0p002__c2c2f614/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 1 | jax | 1000000 | [wmr_s1_alr0p002__d91218bc](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_1/wmr_s1_alr0p002__d91218bc/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.002 | 2 | jax | 1000000 | [wmr_s2_alr0p002__19edd11f](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_2/wmr_s2_alr0p002__19edd11f/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [wmr_s2_alr0p002__74fcc4e8](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_2/wmr_s2_alr0p002__74fcc4e8/) |
+| main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.002 | 3 | jax | — | [wmr_s3_alr0p002__3565d068](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_3/wmr_s3_alr0p002__3565d068/) |
 | main | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [wmr_s3_alr0p002__c63f846d](../main/td3_amo/walker2d-medium-replay-v2/2e-3/seed_3/wmr_s3_alr0p002__c63f846d/) |
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 0 | jax | 1000000 | [wm_s0_alr0p0003__2864956f](../main/td3_amo/walker2d-medium-v2/3e-4/seed_0/wm_s0_alr0p0003__2864956f/) |
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 0 | jax | 1000000 | [wm_s0_alr0p0003__6f450a5b](../main/td3_amo/walker2d-medium-v2/3e-4/seed_0/wm_s0_alr0p0003__6f450a5b/) |
@@ -1030,7 +1032,7 @@
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 1 | jax | 1000000 | [wm_s1_alr0p002__b85d3382](../main/td3_amo/walker2d-medium-v2/2e-3/seed_1/wm_s1_alr0p002__b85d3382/) |
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [wm_s2_alr0p002__6f6b1786](../main/td3_amo/walker2d-medium-v2/2e-3/seed_2/wm_s2_alr0p002__6f6b1786/) |
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=2/2 | 0.002 | 2 | jax | 1000000 | [wm_s2_alr0p002__d1609414](../main/td3_amo/walker2d-medium-v2/2e-3/seed_2/wm_s2_alr0p002__d1609414/) |
-| main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=2/2 | 0.002 | 3 | jax | — | [wm_s3_alr0p002__4887ac75](../main/td3_amo/walker2d-medium-v2/2e-3/seed_3/wm_s3_alr0p002__4887ac75/) |
+| main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=2/2 | 0.002 | 3 | jax | 1000000 | [wm_s3_alr0p002__4887ac75](../main/td3_amo/walker2d-medium-v2/2e-3/seed_3/wm_s3_alr0p002__4887ac75/) |
 | main | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [wm_s3_alr0p002__df312eae](../main/td3_amo/walker2d-medium-v2/2e-3/seed_3/wm_s3_alr0p002__df312eae/) |
 | main | wpc | halfcheetah-medium-expert-v2 | — | — | 3 | torch | 1000000 | [hme_s3_wpc_benchmark_1m__61a473bf](../main/wpc/halfcheetah-medium-expert-v2/seed_3/hme_s3_wpc_benchmark_1m__61a473bf/) |
 | main | wpc | halfcheetah-medium-replay-v2 | — | — | 2 | torch | 1000000 | [hcmr_s2_wpc_benchmark_1m__9564b2c2](../main/wpc/halfcheetah-medium-replay-v2/seed_2/hcmr_s2_wpc_benchmark_1m__9564b2c2/) |
