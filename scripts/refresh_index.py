@@ -76,13 +76,14 @@ def main():
     eval_blobs=blobs(root,wanted.values())
     evaluations={key:eval_blobs[oid].decode() for key,oid in wanted.items()}
     runs,selected=collect(catalogs,evaluations,revisions)
-    boot_runs,boot_selected=collect(catalogs,evaluations,revisions,'bootrms')
+    legacy_runs,legacy_selected=collect(catalogs,evaluations,revisions,'legacy_td3')
     qw_runs,qw_selected=collect(catalogs,evaluations,revisions,'qweight')
-    result_text = (render_results(boot_runs,boot_selected,revisions,'bootrms')+'\n\n'
-                   +render_results(runs,selected,revisions))
+    result_text = render_results(runs,selected,revisions)
     (root/'README.md').write_text(make_readme(catalogs,result_text))
     write_csv(root,runs)
-    write_csv(root,boot_runs,'bootrms_runs.csv')
+    write_csv(root,legacy_runs,'ablation/td3_l1_l2_runs.csv')
+    (root/'reports/ablation/td3_l1_l2.md').write_text(
+        render_results(legacy_runs,legacy_selected,revisions,'legacy_td3'))
     write_csv(root,qw_runs,'ablation/qweight_runs.csv')
     archive = ('# IQL-AMO QWeight ablation\n\n'
                '메인 실험에서 제외한 비교군입니다. 기존 로그와 평가 결과는 ablation으로 보존합니다.\n\n'
@@ -90,7 +91,7 @@ def main():
                    'reports/qweight_runs.csv','qweight_runs.csv'))
     (root/'reports/ablation/iql_qweight.md').write_text(archive)
     print(json.dumps({'amo_runs':len(runs),'seed_cells':len(selected),
-                      'bootrms_runs':len(boot_runs),'bootrms_seed_cells':len(boot_selected),
+                      'legacy_td3_runs':len(legacy_runs),'legacy_td3_seed_cells':len(legacy_selected),
                       'qweight_runs':len(qw_runs),'qweight_seed_cells':len(qw_selected),
                       'qweight_completed_1m_cells':sum(r['step']==1000000 for r in qw_selected.values()),
                       'scored_cells':sum(r['score'] is not None for r in selected.values()),

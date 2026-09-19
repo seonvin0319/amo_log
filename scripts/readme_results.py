@@ -13,7 +13,7 @@ from log_layout import (classify, config, excluded_network_lr, initial_alphas,
 
 BASE = 'https://github.com/seonvin0319/amo_log'
 METHODS = ('td3_amo', 'iql_amo')
-COHORTS = ('original', 'bootrms', 'qweight')
+COHORTS = ('original', 'bootrms', 'legacy_td3', 'qweight')
 QWEIGHT_FAMILIES = ('iql_amo_qweight_jax', 'amo_qweight')
 INITIALS = (1, 2, 5)
 LRS = (.002, .001, .0003)
@@ -43,7 +43,7 @@ def eligible(meta, cohort='original'):
     is_qweight = meta['method']=='iql_amo' and (
         c.get('qweight_enabled') is True or c.get('algorithm')=='iql_amo_qweight')
     if cohort=='original':
-        if meta.get('section')!='main' or is_bootrms or is_qweight:
+        if meta.get('section')!='main' or is_qweight or (meta['method']=='td3_amo' and not is_bootrms):
             return False
     elif cohort=='bootrms':
         if not is_bootrms:
@@ -54,6 +54,12 @@ def eligible(meta, cohort='original'):
         if reasons-allowed or initial_alphas(c)[0] not in INITIALS:
             return False
         if c.get('execution_score') not in (None, 'bpi'):
+            return False
+    elif cohort=='legacy_td3':
+        if meta['method']!='td3_amo' or c.get('bootstrap_loss') not in (None,'l1_l2_rms'):
+            return False
+        reasons=set(classify(meta,c)['classification_reasons'])
+        if reasons-{'bootstrap_loss_not_l2_rms'} or initial(meta) not in INITIALS:
             return False
     else:
         if (not is_qweight or c.get('qweight_enabled') is not True or
@@ -240,7 +246,8 @@ def render_results(runs, selected, revisions, cohort='original'):
         raise ValueError('Unknown result cohort: '+cohort)
     bootrms = cohort=='bootrms'
     qweight = cohort=='qweight'
-    methods = ('td3_amo',) if bootrms else ('iql_amo',) if qweight else METHODS
+    legacy = cohort=='legacy_td3'
+    methods = ('td3_amo',) if bootrms or legacy else ('iql_amo',) if qweight else METHODS
     prefix = cohort+'-' if cohort!='original' else ''
     lines = ['## AMO 결과', '',
              '초기 **alpha/beta = 1, 2, 5**, **alpha_lr/beta_lr = 2e-3, 1e-3, 3e-4**별 결과입니다. '
@@ -254,6 +261,14 @@ def render_results(runs, selected, revisions, cohort='original'):
              '- 현재 분류 규칙의 `main/`만 집계합니다. Adroit와 ablation, 기본 네트워크 lr가 잘못된 실행은 이 표에 포함하지 않습니다.', '',
              '| 방법 | 초기값 | 평가 있는 시드 칸 | 1M 평가 시드 칸 | 4시드 완료 환경×lr |',
              '|---|---:|---:|---:|---:|']
+    if cohort=='original':
+        lines[2] += ' TD3-AMO는 `bootstrap_loss=l2_rms` (bootrms)를 사용합니다.'
+    if legacy:
+        lines[0] = '## TD3-AMO 기존 L1+L2_RMS · ablation'
+        lines[2] = '이전 메인 TD3-AMO 결과를 보존한 ablation입니다. 명시적 L1+L2_RMS와 기존 loss 미기록 실행을 포함하며 원본 설정을 유지합니다.'
+        lines = [line.replace('reports/amo_runs.csv','td3_l1_l2_runs.csv') for line in lines]
+        lines = [('- 이전 main 조건을 만족한 TD3-AMO만 보존하며 현재 메인 결과에는 포함하지 않습니다.')
+                 if line.startswith('- 현재 분류 규칙') else line for line in lines]
     if bootrms:
         lines[0] = '## BootRMS 결과 · L2_RMS only'
         lines[2] = ('TD3-AMO의 `bootstrap_loss=l2_rms` 비교군입니다. 초기 **alpha=1, 2, 5**, '
@@ -293,6 +308,8 @@ def render_results(runs, selected, revisions, cohort='original'):
         title, scale, lr_title = ('TD3-AMO','alpha','alpha_lr') if method=='td3_amo' else ('IQL-AMO','beta','beta_lr')
         if bootrms:
             title += ' BootRMS'
+        elif legacy:
+            title += ' Legacy L1+L2_RMS'
         elif qweight:
             title += ' QWeight'
             lr_title = 'rho_lr'
@@ -311,7 +328,7 @@ def render_results(runs, selected, revisions, cohort='original'):
                         summary = f'**{mean:.2f} ± {std:.2f}**' if mean is not None else f'— ({n}/4)'
                         lines.append('| '+' | '.join([env,label,*map(result_cell,cells),summary])+' |')
             lines += ['', '</details>', '']
-    cohort_label = 'BootRMS' if bootrms else 'IQL QWeight' if qweight else None
+    cohort_label = 'BootRMS' if bootrms else 'TD3 legacy' if legacy else 'IQL QWeight' if qweight else None
     lines += [f'## {cohort_label} 집계 브랜치' if cohort_label else '## 집계한 브랜치', '',
               f'| 브랜치 | 로그 snapshot | {cohort_label or "AMO main"} 실행 |',
               '|---|---|---:|']

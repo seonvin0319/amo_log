@@ -191,7 +191,7 @@ class ResultTests(unittest.TestCase):
         self.assertIn('| 2e-3 |',rows[0]);self.assertIn('| 1e-3 |',rows[1]);self.assertIn('| 3e-4 |',rows[2])
         self.assertIn('— (0/4)',rows[0])
 
-    def test_bootrms_is_separate_from_original_for_all_initializations(self):
+    def test_main_bootrms_is_separate_from_legacy_for_all_initializations(self):
         catalogs={'svcho':[]}; evaluations={}; revisions={'svcho':'snapshot'}
         for init in (1,2,5):
             for seed in range(4):
@@ -205,8 +205,8 @@ class ResultTests(unittest.TestCase):
                     catalogs['svcho'].append(m)
                     evaluations[('svcho',m['rel_path']+'/eval.jsonl')]=jsonl(
                         dict(step=1000000,normalized_score=score))
-        original,old=collect(catalogs,evaluations,revisions)
-        bootrms,new=collect(catalogs,evaluations,revisions,'bootrms')
+        original,old=collect(catalogs,evaluations,revisions,'legacy_td3')
+        bootrms,new=collect(catalogs,evaluations,revisions)
         self.assertEqual((len(original),len(bootrms)),(12,12))
         key=('td3_amo',5,.001,'hopper-medium-v2',0)
         self.assertEqual((old[key]['score'],new[key]['score']),(40,70))
@@ -220,7 +220,7 @@ class ResultTests(unittest.TestCase):
 
     def test_bootrms_requires_recorded_loss_and_rejects_other_ablations(self):
         m=meta(bootstrap_loss='l2_rms')
-        self.assertFalse(eligible(m))
+        self.assertTrue(eligible(m))
         self.assertTrue(eligible(m,'bootrms'))
         for overrides in ({'bootstrap_loss':'l1'}, {'critic_depth':2},
                           {'execution_score':'direct_q'}, {'alpha_B':5},
