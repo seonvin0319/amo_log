@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te5_tb5/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-4ce18301",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main"
   ],
   "collected_at": "2026-09-14T03:31:15+00:00",

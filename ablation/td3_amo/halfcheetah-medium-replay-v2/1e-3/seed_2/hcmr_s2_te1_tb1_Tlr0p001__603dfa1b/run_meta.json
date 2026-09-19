@@ -1,0 +1,93 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_te1_tb1_tlr1e-3_seeds0to3/runs/amo_adaptive_multiscale_hc-mr_s2_tlr1e-3_te1_tb1-halfcheetah-medium-replay-v2-603dfa1b",
+  "classification_reasons": [
+    "bootstrap_loss_not_l2_rms"
+  ],
+  "collected_at": "2026-09-14T03:31:16+00:00",
+  "env": "halfcheetah-medium-replay-v2",
+  "env_short": "hcmr",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "layout_version": 2,
+  "legacy_name": "amo_adaptive_multiscale_hc-mr_s2_tlr1e-3_te1_tb1-halfcheetah-medium-replay-v2-603dfa1b",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/hcmr_s2_te1_tb1_Tlr0p001__603dfa1b",
+  "rel_path": "ablation/td3_amo/halfcheetah-medium-replay-v2/1e-3/seed_2/hcmr_s2_te1_tb1_Tlr0p001__603dfa1b",
+  "run_id": "hcmr_s2_te1_tb1_Tlr0p001__603dfa1b",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "b2419e7d95b9f0d6997ba816f2c443b50687a08fa3fdf631aca3ce4c31307f4f",
+        "sha256": "03de922981302628aa98b1a072cd3aec8d829de0d1d164dca38da62943a8ea0d"
+      },
+      "eval.jsonl": {
+        "sha256": "22394d4dd85b4d5f1d7e158b4a14de26d6deb239db3f582cd5a3b0ca7897aa9a"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "b689ca990f1e42c102e7a37ed56f26c4c775db98f4c52372c52b14c561633e4f",
+        "sha256": "62830105b543d2493c735eb4b5ce2ae54de335dbc937099754e81877fd2fb26c"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.001,
+    "batch_size": 256,
+    "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
+    "bootstrap_rms_diagnostic_freq": 0,
+    "buffer_size": 10000000,
+    "checkpoints_path": "/home/ext_csh/AMO/results/amo_loco9_te1_tb1_tlr1e-3_seeds0to3/runs/amo_adaptive_multiscale_hc-mr_s2_tlr1e-3_te1_tb1-halfcheetah-medium-replay-v2-603dfa1b",
+    "critic_hidden_dim": 256,
+    "critic_layernorm": true,
+    "critic_n_hiddens": 3,
+    "device": "cuda",
+    "discount": 0.99,
+    "env": "halfcheetah-medium-replay-v2",
+    "eval_freq": 5000,
+    "expl_noise": 0.1,
+    "group": "amo-loco9-te1-tb1-tlr1e-3-seeds0to3",
+    "load_model": "",
+    "max_timesteps": 1000000,
+    "metrics_log_freq": 200,
+    "n_episodes": 10,
+    "name": "amo_adaptive_multiscale_hc-mr_s2_tlr1e-3_te1_tb1-halfcheetah-medium-replay-v2-603dfa1b",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_q": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "profile_runtime": false,
+    "project": "AMO-adaptive-multiscale",
+    "proximal_n_steps": 1,
+    "resume_tag": "amo_adaptive_multiscale_hc-mr_s2_tlr1e-3_te1_tb1",
+    "save_freq": 5000,
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "smoothness_max": null,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_te1_tb1_tlr1e-3_seeds0to3/runs/amo_adaptive_multiscale_hc-mr_s2_tlr1e-3_te1_tb1-halfcheetah-medium-replay-v2-603dfa1b",
+  "variant": "te1_tb1_Tlr0p001"
+}

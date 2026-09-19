@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1_td3bc_critic/runs/amo_adaptive_multiscale_h-mr_s0-hopper-medium-replay-v2-f3686409",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "critic_architecture",
     "meta_lr_outside_main"
   ],

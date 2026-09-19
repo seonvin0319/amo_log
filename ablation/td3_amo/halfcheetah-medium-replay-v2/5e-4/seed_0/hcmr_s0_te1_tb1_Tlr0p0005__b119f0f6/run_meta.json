@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr5e-4_te1_tb1/runs/amo_adaptive_multiscale_hc-mr_s0-halfcheetah-medium-replay-v2-b119f0f6",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "meta_lr_outside_main"
   ],
   "collected_at": "2026-09-14T03:31:16+00:00",

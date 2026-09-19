@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_multiscale_locomotion9_unconstrained_seed0/runs/adaptive_multiscale_h-m_s0-hopper-medium-v2-82c36c5b",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],

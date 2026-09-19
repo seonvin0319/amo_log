@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_adaptive_multiscale_locomotion9_seed0/runs/amo_adaptive_multiscale_hc-me_s0-halfcheetah-medium-expert-v2-11087f56",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],

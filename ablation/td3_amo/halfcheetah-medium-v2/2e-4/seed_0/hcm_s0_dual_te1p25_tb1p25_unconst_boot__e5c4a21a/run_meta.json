@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/adaptive_bootstrap_locomotion12_seed0_unconstrained/runs/adaptive_bootstrap_hc-m_s0-halfcheetah-medium-v2-e5c4a21a",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],

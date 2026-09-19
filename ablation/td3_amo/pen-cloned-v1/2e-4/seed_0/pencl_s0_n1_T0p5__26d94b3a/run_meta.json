@@ -9,6 +9,7 @@
   "checkpoint_hint": "/raid/ext_csh/artifacts/APART/results/n1_pen_cloned/runs/pen-cloned_N1_T0.5_Tlr2e-4_g0.999_s0-pen-cloned-v1-26d94b3a",
   "classification_reasons": [
     "method_variant:chain",
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "meta_lr_outside_main",
     "adroit"

@@ -1,0 +1,90 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+  "classification_reasons": [
+    "bootstrap_loss_not_l2_rms"
+  ],
+  "collected_at": "2026-09-14T03:31:16+00:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "layout_version": 2,
+  "legacy_name": "amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/wm_s0_te1_tb1_Tlr0p002__59e6cb49",
+  "rel_path": "ablation/td3_amo/walker2d-medium-v2/2e-3/seed_0/wm_s0_te1_tb1_Tlr0p002__59e6cb49",
+  "run_id": "wm_s0_te1_tb1_Tlr0p002__59e6cb49",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "627cd9311d3e418c22ae4a9b556cf55d1fc195d87a30bb2fd63ee51393ea7ca5",
+        "sha256": "61bf6e6794b87e5478cd58fce17092ef0cffb9c440dd4a20a2fab8eeb9686b10"
+      },
+      "eval.jsonl": {
+        "sha256": "0f56b73ecd10235c61257d48ebb7f2f827e5fe4add0699bb4877951ef1fa5391"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "5f45e77686c80354674cae63f4933108738d1e1940645c68c39f457d80bbe5f4",
+        "sha256": "165a45067a56dc093f4c5ca30ed447445ee72ef1b28e3137fb7b4241f23228a9"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.002,
+    "batch_size": 256,
+    "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
+    "bootstrap_rms_diagnostic_freq": 0,
+    "buffer_size": 10000000,
+    "checkpoints_path": "/home/ext_csh/AMO/results/amo_loco9_s0_tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+    "device": "cuda",
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "eval_freq": 5000,
+    "execution_l1": false,
+    "expl_noise": 0.1,
+    "group": "amo-loco9-s0-tlr2e-3-te1_tb1",
+    "load_model": "",
+    "max_timesteps": 1000000,
+    "metrics_log_freq": 200,
+    "n_episodes": 10,
+    "name": "amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "profile_runtime": false,
+    "project": "AMO-adaptive-multiscale",
+    "proximal_n_steps": 1,
+    "resume_tag": "amo_adaptive_multiscale_w-m_s0",
+    "save_freq": 5000,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "smoothness_max": null,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/artifacts/AMO/results/amo_loco9_s0_tlr2e-3_te1_tb1/runs/amo_adaptive_multiscale_w-m_s0-walker2d-medium-v2-59e6cb49",
+  "variant": "te1_tb1_Tlr0p002"
+}
