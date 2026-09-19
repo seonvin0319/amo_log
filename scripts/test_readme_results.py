@@ -27,6 +27,19 @@ def qweight_meta(**settings):
 
 
 class ResultTests(unittest.TestCase):
+    def test_retired_qweight_stays_in_ablation_and_out_of_main_index(self):
+        from refresh_index import make_readme
+        baseline=meta('iql_amo',run_id='original-run')
+        for family in ('iql_amo_qweight_jax','amo_qweight'):
+            retired=qweight_meta(run_id='retired-qweight-run')
+            retired['family']=family
+            retired.update(classify(retired,retired['settings']))
+            self.assertEqual(retired['section'],'ablation')
+            self.assertFalse(eligible(retired))
+            text=make_readme({'ext_csh':[baseline,retired]})
+            self.assertNotIn('qweight',text.lower())
+            self.assertIn(baseline['rel_path'].split('/seed_')[0],text)
+
     def test_ext_csh_qweight_family_and_missing_evaluations(self):
         m=qweight_meta(beta_initial=5)
         m['family']='amo_qweight'

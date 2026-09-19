@@ -21,6 +21,11 @@ def make_readme(catalogs, result_text=''):
             for r in rows:
                 if r['section']!=section:continue
                 c=r.get('settings',{});settings=[]
+                # Retired qweight experiments remain in machine ablation catalogs,
+                # but no longer appear in the main README.
+                if (c.get('algorithm')=='iql_amo_qweight' or c.get('qweight_enabled') is True
+                        or r.get('family') in ('iql_amo_qweight_jax','amo_qweight')):
+                    continue
                 if r['method']=='td3_amo':settings += [initial_label(r)]
                 if r['method']=='iql_amo':settings += ['beta0='+str(c.get('beta_initial','?'))]
                 settings += ['actor_lr='+str(c.get('actor_lr',.0003))]
@@ -74,12 +79,16 @@ def main():
     boot_runs,boot_selected=collect(catalogs,evaluations,revisions,'bootrms')
     qw_runs,qw_selected=collect(catalogs,evaluations,revisions,'qweight')
     result_text = (render_results(boot_runs,boot_selected,revisions,'bootrms')+'\n\n'
-                   +render_results(qw_runs,qw_selected,revisions,'qweight')+'\n\n'
                    +render_results(runs,selected,revisions))
     (root/'README.md').write_text(make_readme(catalogs,result_text))
     write_csv(root,runs)
     write_csv(root,boot_runs,'bootrms_runs.csv')
-    write_csv(root,qw_runs,'qweight_runs.csv')
+    write_csv(root,qw_runs,'ablation/qweight_runs.csv')
+    archive = ('# IQL-AMO QWeight ablation\n\n'
+               '메인 실험에서 제외한 비교군입니다. 기존 로그와 평가 결과는 ablation으로 보존합니다.\n\n'
+               +render_results(qw_runs,qw_selected,revisions,'qweight').replace(
+                   'reports/qweight_runs.csv','qweight_runs.csv'))
+    (root/'reports/ablation/iql_qweight.md').write_text(archive)
     print(json.dumps({'amo_runs':len(runs),'seed_cells':len(selected),
                       'bootrms_runs':len(boot_runs),'bootrms_seed_cells':len(boot_selected),
                       'qweight_runs':len(qw_runs),'qweight_seed_cells':len(qw_selected),
