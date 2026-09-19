@@ -7,7 +7,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO_td3-amo-bootrms/results/td3_amo_jax_a1_s03/runs/td3amo_jax_a1_tlr3em4_h-m_s0",
   "classification_reasons": [],
-  "collected_at": "2026-09-19T09:18:31+09:00",
+  "collected_at": "2026-09-19T09:24:00+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_jax",
