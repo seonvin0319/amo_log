@@ -7,7 +7,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-19T21:50:36+09:00",
+  "collected_at": "2026-09-19T21:55:57+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_bootrms_maincand",
@@ -30,8 +30,14 @@
       "config.yaml": {
         "sha256": "2e3a3272f2ed7e4af28729d5b86d926495a4f8c346100d441204417a1c6f8aa9"
       },
+      "eval.jsonl": {
+        "sha256": "f34d00b083a96dd95a59edcac551bed1956d631a76b745b6417a75ce9a2bcf44"
+      },
+      "final_eval_50.json": {
+        "sha256": "87244f79b886ce9c0f7760bf1d313c03a77ebc50090ce071df134b0194761aec"
+      },
       "metrics.jsonl": {
-        "sha256": "da5a16bd2cbd854520130485b31f4b7c9505ff9844f395f7986feda06ffc5f28"
+        "sha256": "e0ee87e233b7f865d98556c72c9dfa7452c01872a5d3598e7d1f2f2caebe245f"
       },
       "source_run_meta.json": {
         "sha256": "8583b198abeaf499ac3fdf80b8e9839329ce2389df3e1bc2e3c09405f596b21d"
