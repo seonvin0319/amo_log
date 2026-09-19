@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_bootrms_maincand"
   ],
-  "collected_at": "2026-09-19T11:39:44+09:00",
+  "collected_at": "2026-09-19T11:45:03+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_bootrms_maincand",
@@ -33,7 +33,7 @@
         "sha256": "570a3d5f6ec84b497b8b71c434e6c2e912afdf796701f6defb4943f8b4c473d3"
       },
       "metrics.jsonl": {
-        "sha256": "03438de85a0730a98bce643a7db03bf9b3b5bbb14797c7757148222ecc84ffa6"
+        "sha256": "ddb9ff188c77ecf06d224128e3f648e996be6b7ebcb0d83b136c24979c1079d4"
       },
       "source_run_meta.json": {
         "sha256": "b9f08d0f69b9ad974d9859c2599d40a70c201a8e6934d1afe0c20a66e5138c55"
