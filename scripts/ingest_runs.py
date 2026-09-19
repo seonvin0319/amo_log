@@ -143,6 +143,14 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO",
         "family_force": "qweight",
     },
+    # TD3-AMO bootstrap RMS · JAX · α_E=α_B=1 · loco9+antmaze6 · seeds 0–3
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/shchoi/AMO_td3-amo-bootrms/results/td3_amo_jax_a1_s03/runs"),
+        "host": "shchoi",
+        "code_repo": "AMO",
+        "family_force": "td3_amo_jax",
+    },
     # ASPC D4RL benchmark (ASPC_WPC_FULL phase 1) on iisl-server04
     {
         "algo": "aspc",
