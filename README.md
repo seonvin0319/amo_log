@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [dc5d5dc8](https://github.com/seonvin0319/amo_log/commit/dc5d5dc849c2ad673a62e1d00d9cbace52818169) | 122 |
 | ext_csh | [ff44ad5c](https://github.com/seonvin0319/amo_log/commit/ff44ad5c9f8024ed2aff039c89d00a6459f62d7c) | 33 |
-| ext_csv | [9819a929](https://github.com/seonvin0319/amo_log/commit/9819a9295d5b3989b7bbb75006986381e31ebe4c) | 0 |
+| ext_csv | [b2d49536](https://github.com/seonvin0319/amo_log/commit/b2d49536c06dce471cef3e1352d42241ccad51d0) | 0 |
 | offrl | [c8ec9179](https://github.com/seonvin0319/amo_log/commit/c8ec9179f01762218f63f1e222b0824b279d4718) | 0 |
 | shchoi | [e593f109](https://github.com/seonvin0319/amo_log/commit/e593f10997549a04216a45ae294d86a3f81f3bea) | 390 |
 | svcho | [cd720de6](https://github.com/seonvin0319/amo_log/commit/cd720de60e65b7f0b419a57848313207bb00dbb9) | 452 |
