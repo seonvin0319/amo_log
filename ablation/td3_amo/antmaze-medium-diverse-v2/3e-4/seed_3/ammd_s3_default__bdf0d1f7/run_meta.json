@@ -9,7 +9,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-19T19:41:25+09:00",
+  "collected_at": "2026-09-19T19:46:57+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_jax",
@@ -32,7 +32,7 @@
         "sha256": "73e641e04005f2b985fa972a0f59565e8964dbaab9d48ddb684c526dd3792930"
       },
       "metrics.jsonl": {
-        "sha256": "6da49143c4e3fead3421f2534cb3aa9b0a8750ca4e0b8d4b5957dd02832800d2"
+        "sha256": "9728e7040bb49b48cfa4e264fa12cfc5e73dea6a84aa412502d74d90bd13d43e"
       }
     },
     "schema": "alpha_v1"
@@ -59,7 +59,7 @@
     "eval_seed": null,
     "final_eval_repeats": 5,
     "hidden_dim": 256,
-    "last_metrics_step": 722000,
+    "last_metrics_step": 880400,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
