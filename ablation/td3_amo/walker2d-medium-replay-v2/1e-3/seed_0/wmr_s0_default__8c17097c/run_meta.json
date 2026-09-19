@@ -9,7 +9,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-19T22:37:48+09:00",
+  "collected_at": "2026-09-19T22:43:19+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_jax",
@@ -32,7 +32,7 @@
         "sha256": "3b0b0e2b3a40fc98a72324bab836a4e0a137065570137a9d7963be71d6ecf5d4"
       },
       "metrics.jsonl": {
-        "sha256": "efbefbb4984dab7767fa9f5ccaa9c57e700aa57a98509a545b9a8bed45f19393"
+        "sha256": "fbdd4c64630f8f3357f6e1374efba081f5050894f1230b6c9a35e02517fe2f8f"
       }
     },
     "schema": "alpha_v1"
@@ -59,7 +59,7 @@
     "eval_seed": null,
     "final_eval_repeats": 5,
     "hidden_dim": 256,
-    "last_metrics_step": 627400,
+    "last_metrics_step": 780200,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
