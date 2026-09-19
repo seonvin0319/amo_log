@@ -7,7 +7,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO_td3-amo-bootrms/results/td3_amo_jax_a1_s03/runs/td3amo_jax_a1_tlr3em4_h-m_s2",
   "classification_reasons": [],
-  "collected_at": "2026-09-19T12:58:59+09:00",
+  "collected_at": "2026-09-19T13:04:32+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_jax",
@@ -30,7 +30,7 @@
         "sha256": "73e641e04005f2b985fa972a0f59565e8964dbaab9d48ddb684c526dd3792930"
       },
       "metrics.jsonl": {
-        "sha256": "36e6bc57208532803e81c9569f5fe9ad80d82ac6d0a1f2c5d4972a75395bc6f7"
+        "sha256": "fcb633fbeacf2a50234ef3b4bc85e169edab6a72b84e825077e6ebb8525ae20c"
       }
     },
     "schema": "alpha_v1"
@@ -57,7 +57,7 @@
     "eval_seed": null,
     "final_eval_repeats": 5,
     "hidden_dim": 256,
-    "last_metrics_step": 629400,
+    "last_metrics_step": 1000000,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
