@@ -1,0 +1,100 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
+  ],
+  "backend": "torch",
+  "classification_reasons": [
+    "bootstrap_loss_not_l2_rms"
+  ],
+  "collected_at": "2026-09-15T00:49:02+09:00",
+  "env": "antmaze-large-diverse-v2",
+  "env_short": "amld",
+  "family": "adaptive_multiscale",
+  "git": {
+    "code_commit": null,
+    "code_repo": "amo"
+  },
+  "layout_version": 2,
+  "legacy_name": "amo_ams_ald_tlr3e-04_t1_s0-antmaze-large-diverse-v2-9f8d7f20",
+  "meta_lr": 0.0003,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/adaptive_multiscale/amld_s0_TE1_Tlr0p0003__9f8d7f20",
+  "rel_path": "ablation/td3_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_TE1_Tlr0p0003__9f8d7f20",
+  "run_id": "amld_s0_TE1_Tlr0p0003__9f8d7f20",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "legacy_sha256": "10c7a8b0b22fcb0acd7e090cb58eb84f1776e727a89a075e8ba6e4a2bec7c0b4",
+        "sha256": "179e409220c36d0b476f7ef7e0424d3d01e1070ed500d755579c67dd7326a520"
+      },
+      "eval.jsonl": {
+        "sha256": "44174f02df262e927354e78095632c4f0f5a6985c4195f2877dd28f6bd5196c9"
+      },
+      "final_eval_50.jsonl": {
+        "sha256": "dcc683823c13a0d8f6a5050c85c08c73ad804a85f714633455ed12d9dbbb32c0"
+      },
+      "metrics.jsonl": {
+        "legacy_sha256": "475976c913ada63cdc36d54cc82f5f050d4985ff937a6fc19f0569075dfa178a",
+        "sha256": "5eb0b7f7367080542edbc06f43e11d25aac34ac0fde7b63159388edd889557c0"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "adaptive_multiscale": true,
+    "alpha_B": 2.0,
+    "alpha_E": 2.0,
+    "alpha_freq": 10,
+    "alpha_lr": 0.0003,
+    "batch_size": 256,
+    "bootstrap_outer_loss_version": "tq_detached_rms_target_v1",
+    "bootstrap_rms_diagnostic_freq": 0,
+    "buffer_size": 10000000,
+    "checkpoints_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_ald_tlr3e-04_t1_s0-antmaze-large-diverse-v2-9f8d7f20",
+    "device": "cuda",
+    "discount": 0.99,
+    "env": "antmaze-large-diverse-v2",
+    "eval_freq": 5000,
+    "expl_noise": 0.1,
+    "final_eval_50": {
+      "d4rl_normalized_score": 2.0,
+      "device": "cpu",
+      "eval_return": 0.02,
+      "evaluated_at": "2026-09-12T16:31:09.832123+00:00",
+      "n_episodes": 50
+    },
+    "group": "amo-antmaze6-tlr-tinit-seed0",
+    "last_metrics_step": 1000000,
+    "load_model": "",
+    "max_timesteps": 1000000,
+    "metrics_log_freq": 200,
+    "n_episodes": 10,
+    "name": "amo_ams_ald_tlr3e-04_t1_s0-antmaze-large-diverse-v2-9f8d7f20",
+    "noise_clip": 0.5,
+    "normalize": true,
+    "normalize_reward": false,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "profile_runtime": false,
+    "project": "AMO-adaptive-multiscale-antmaze6",
+    "proximal_n_steps": 1,
+    "resume_tag": "",
+    "save_freq": 5000,
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "smoothness_max": null,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/amo/results/amo_adaptive_multiscale_antmaze6_sweep_seed0/runs/amo_ams_ald_tlr3e-04_t1_s0-antmaze-large-diverse-v2-9f8d7f20",
+  "variant": "TE1_Tlr0p0003"
+}

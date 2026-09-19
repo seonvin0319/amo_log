@@ -7,6 +7,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main"
   ],
   "collected_at": "2026-09-11T14:03:01+09:00",

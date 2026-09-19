@@ -8,6 +8,7 @@
   "backend": "torch",
   "checkpoint_hint": "/raid/ext_csh/artifacts/AMO/results/amo_antmaze6_s0_bpi_tlr_te_tb_init_sweep/cells/tlr2e-3_te10_tb10/runs/amo_adaptive_multiscale_am-u_s0_tlr2e-3_te10_tb10-antmaze-umaze-v2-2e7e8741",
   "classification_reasons": [
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main"
   ],
   "collected_at": "2026-09-11T04:30:15+00:00",
