@@ -6,7 +6,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-20T00:25:53+09:00",
+  "collected_at": "2026-09-20T00:31:14+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_bootrms_maincand",
@@ -28,6 +28,9 @@
     "files": {
       "config.yaml": {
         "sha256": "28a60251d64d1f39859074a10e090d56c1d09e68c5952fe4d8c7ff30ca756570"
+      },
+      "metrics.jsonl": {
+        "sha256": "afaf8ca7901a962e9b0172b4c290e09c432b0930fde754e7150dce293acb0888"
       },
       "source_run_meta.json": {
         "sha256": "2762df763ab8075df09cca0fce2124ae1d827adf427c758c2e2c0dd21bba1ba8"
