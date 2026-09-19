@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_bootrms_maincand"
   ],
-  "collected_at": "2026-09-19T11:13:10+09:00",
+  "collected_at": "2026-09-19T11:18:29+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_bootrms_maincand",
@@ -33,7 +33,7 @@
         "sha256": "dc8f1167793dd22036364beda9a0b4f63a02386f7ee7e5afcf0d2c1e13fd8543"
       },
       "metrics.jsonl": {
-        "sha256": "88f1c14e9d6f92e5f47898dd82c15f7d960417d8c905761eadb48d2ca6ebff2f"
+        "sha256": "538248bd7d389ae48a4d15a99fb280aca1c2b8d0af08a0716be6bb9bdedfff80"
       },
       "source_run_meta.json": {
         "sha256": "ab2d9448fe4b1847f02172127216ef686215e394bb16e76fd80fbf25e9a99aed"
