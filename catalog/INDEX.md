@@ -123,12 +123,14 @@
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=1.0 | 0.0003 | 1 | jax | 1000000 | [ammp_s1_beta1_Tlr0p0003__280dd55e](../ablation/iql_amo/antmaze-medium-play-v2/3e-4/seed_1/ammp_s1_beta1_Tlr0p0003__280dd55e/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=2.0 | 0.0003 | 1 | jax | 1000000 | [ammp_s1_beta2_Tlr0p0003__b6215faf](../ablation/iql_amo/antmaze-medium-play-v2/3e-4/seed_1/ammp_s1_beta2_Tlr0p0003__b6215faf/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.0003 | 1 | jax | 1000000 | [ammp_s1_beta5_Tlr0p0003__132b5233](../ablation/iql_amo/antmaze-medium-play-v2/3e-4/seed_1/ammp_s1_beta5_Tlr0p0003__132b5233/) |
+| ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.0003 | 2 | jax | — | [ammp_s2_beta5_Tlr0p0003__08aa4369](../ablation/iql_amo/antmaze-medium-play-v2/3e-4/seed_2/ammp_s2_beta5_Tlr0p0003__08aa4369/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [ammp_s0_beta1_Tlr0p001__18f8dca2](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_0/ammp_s0_beta1_Tlr0p001__18f8dca2/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=2.0 | 0.001 | 0 | jax | 1000000 | [ammp_s0_beta2_Tlr0p001__4131982c](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_0/ammp_s0_beta2_Tlr0p001__4131982c/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.001 | 0 | jax | 1000000 | [ammp_s0_beta5_Tlr0p001__824f4022](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_0/ammp_s0_beta5_Tlr0p001__824f4022/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=1.0 | 0.001 | 1 | jax | 1000000 | [ammp_s1_beta1_Tlr0p001__964dc516](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_1/ammp_s1_beta1_Tlr0p001__964dc516/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=2.0 | 0.001 | 1 | jax | 1000000 | [ammp_s1_beta2_Tlr0p001__c9876aa2](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_1/ammp_s1_beta2_Tlr0p001__c9876aa2/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.001 | 1 | jax | 1000000 | [ammp_s1_beta5_Tlr0p001__deb2fdf8](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_1/ammp_s1_beta5_Tlr0p001__deb2fdf8/) |
+| ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.001 | 2 | jax | — | [ammp_s2_beta5_Tlr0p001__85e20a5a](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_2/ammp_s2_beta5_Tlr0p001__85e20a5a/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.002 | 0 | jax | 1000000 | [ammp_s0_Tlr0p002__33b0669d](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_Tlr0p002__33b0669d/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=1.0 | 0.002 | 0 | jax | 1000000 | [ammp_s0_beta1_Tlr0p002__255bd644](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_beta1_Tlr0p002__255bd644/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=2.0 | 0.002 | 0 | jax | 1000000 | [ammp_s0_beta2_Tlr0p002__a086597c](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_beta2_Tlr0p002__a086597c/) |
@@ -138,6 +140,7 @@
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=2.0 | 0.002 | 1 | jax | 1000000 | [ammp_s1_beta2_Tlr0p002__74ea8e0e](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_1/ammp_s1_beta2_Tlr0p002__74ea8e0e/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.002 | 1 | jax | 1000000 | [ammp_s1_beta5_Tlr0p002__4195a12c](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_1/ammp_s1_beta5_Tlr0p002__4195a12c/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.002 | 2 | jax | 1000000 | [ammp_s2_Tlr0p002__52004344](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_2/ammp_s2_Tlr0p002__52004344/) |
+| ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.002 | 2 | jax | — | [ammp_s2_beta5_Tlr0p002__46a46b95](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_2/ammp_s2_beta5_Tlr0p002__46a46b95/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=5.0 | 0.002 | 3 | jax | 1000000 | [ammp_s3_Tlr0p002__4e1e5396](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_3/ammp_s3_Tlr0p002__4e1e5396/) |
 | ablation | iql_amo | antmaze-umaze-diverse-v2 | beta=1.0 | 0.0003 | 0 | jax | 1000000 | [amud_s0_beta1_Tlr0p0003__4520c57a](../ablation/iql_amo/antmaze-umaze-diverse-v2/3e-4/seed_0/amud_s0_beta1_Tlr0p0003__4520c57a/) |
 | ablation | iql_amo | antmaze-umaze-diverse-v2 | beta=2.0 | 0.0003 | 0 | jax | 1000000 | [amud_s0_beta2_Tlr0p0003__9cf718c1](../ablation/iql_amo/antmaze-umaze-diverse-v2/3e-4/seed_0/amud_s0_beta2_Tlr0p0003__9cf718c1/) |
