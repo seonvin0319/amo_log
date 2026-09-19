@@ -14,6 +14,7 @@ from log_layout import (classify, config, excluded_network_lr, initial_alphas,
 BASE = 'https://github.com/seonvin0319/amo_log'
 METHODS = ('td3_amo', 'iql_amo')
 COHORTS = ('original', 'bootrms', 'qweight')
+QWEIGHT_FAMILIES = ('iql_amo_qweight_jax', 'amo_qweight')
 INITIALS = (1, 2, 5)
 LRS = (.002, .001, .0003)
 LR_LABELS = ('2e-3', '1e-3', '3e-4')
@@ -57,9 +58,9 @@ def eligible(meta, cohort='original'):
     else:
         if (not is_qweight or c.get('qweight_enabled') is not True or
                 c.get('algorithm')!='iql_amo_qweight' or
-                meta.get('family')!='iql_amo_qweight_jax'):
+                meta.get('family') not in QWEIGHT_FAMILIES):
             return False
-        allowed = {'method_variant:iql_amo_qweight_jax'}
+        allowed = {'method_variant:'+meta['family']}
         if (set(classify(meta,c)['classification_reasons'])-allowed or
                 initial(meta) not in INITIALS):
             return False
@@ -273,7 +274,7 @@ def render_results(runs, selected, revisions, cohort='original'):
         lines = [line.replace('reports/amo_runs.csv','reports/qweight_runs.csv') for line in lines]
         lines = [('- 초기 `beta_initial`로 묶으며 표의 `rho_lr`는 beta의 meta 학습률입니다.')
                  if line.startswith('- TD3는 초기') else line for line in lines]
-        lines = [('- config와 `iql_amo_qweight_jax` family로 구분합니다. 원본 main/ablation '
+        lines = [('- config와 `iql_amo_qweight_jax` / `amo_qweight` family로 구분합니다. 원본 main/ablation '
                   '경로는 유지하고 기존 IQL-AMO 결과와 별도로 집계합니다.')
                  if line.startswith('- 현재 분류 규칙') else line for line in lines]
         if not runs:
@@ -316,6 +317,12 @@ def render_results(runs, selected, revisions, cohort='original'):
               '|---|---|---:|']
     for branch,revision in revisions.items():
         lines.append(f'| {branch} | [{revision[:8]}]({BASE}/commit/{revision}) | {sum(r["branch"]==branch for r in runs)} |')
+    if qweight:
+        missing = collections.Counter(r['branch'] for r in runs if r['score'] is None)
+        if missing:
+            lines += ['', '**평가 점수 미업로드:** '+', '.join(
+                f'`{branch}` {count}개 실행' for branch,count in sorted(missing.items()))+
+                '. 학습 로그만으로 완료 점수를 계산하지 않습니다. `대기`는 평가 점수가 없다는 뜻이며 학습 상태를 뜻하지 않습니다.']
     lines += ['', '머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 '
               f'[수동 갱신]({BASE}/actions/workflows/refresh-index.yml)도 지원합니다.', '']
     return '\n'.join(lines)

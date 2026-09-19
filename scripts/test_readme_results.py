@@ -27,6 +27,28 @@ def qweight_meta(**settings):
 
 
 class ResultTests(unittest.TestCase):
+    def test_ext_csh_qweight_family_and_missing_evaluations(self):
+        m=qweight_meta(beta_initial=5)
+        m['family']='amo_qweight'
+        m.update(classify(m,m['settings']))
+        self.assertTrue(eligible(m,'qweight'))
+        self.assertFalse(eligible(m))
+        check_source(m,m['settings'],[])
+        catalogs={'ext_csh':[m]}; revisions={'ext_csh':'snapshot'}
+        runs,selected=collect(catalogs,{},revisions,'qweight')
+        self.assertEqual(len(runs),1)
+        self.assertIsNone(runs[0]['score'])
+        text=render_results(runs,selected,revisions,'qweight')
+        self.assertIn('`ext_csh` 1개 실행',text)
+        self.assertIn('[대기 ext_csh/',text)
+        evaluations={('ext_csh',m['rel_path']+'/eval.jsonl'):jsonl(
+            dict(step=1000000,policy_id='adaptive_beta',mean_normalized=73))}
+        runs,selected=collect(catalogs,evaluations,revisions,'qweight')
+        self.assertEqual(runs[0]['score'],73)
+        self.assertNotIn('**평가 점수 미업로드:**',render_results(runs,selected,revisions,'qweight'))
+        m['settings']['qweight_enabled']=False
+        self.assertFalse(eligible(m,'qweight'))
+
     def test_qweight_does_not_merge_with_original_and_uses_adaptive_policy(self):
         catalogs={'ext_csv':[]}; evaluations={}; revisions={'ext_csv':'snapshot'}
         for init in (1,2,5):
