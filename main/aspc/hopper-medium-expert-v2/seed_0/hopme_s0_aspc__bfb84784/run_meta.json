@@ -8,7 +8,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-19T08:42:33+09:00",
+  "collected_at": "2026-09-19T09:09:46+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "benchmark",
