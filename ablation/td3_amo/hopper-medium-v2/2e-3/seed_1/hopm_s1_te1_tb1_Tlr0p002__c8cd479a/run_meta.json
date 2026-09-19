@@ -10,7 +10,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-20T00:28:00+09:00",
+  "collected_at": "2026-09-20T00:40:37+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "adaptive_multiscale",
