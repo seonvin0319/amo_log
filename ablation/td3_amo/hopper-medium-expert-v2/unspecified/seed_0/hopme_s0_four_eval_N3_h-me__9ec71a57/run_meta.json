@@ -9,6 +9,7 @@
   "checkpoint_hint": "/home/svcho/amo/results_four_eval/four_eval_N3_h-me_s0/checkpoint_999999.pt",
   "classification_reasons": [
     "method_variant:four_eval_fixed_n",
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "critic_architecture",
     "meta_lr_outside_main"

@@ -9,6 +9,7 @@
   "checkpoint_hint": "/home/svcho/amo/results_pi_local_antmaze/amud_s0_pi_local-antmaze-umaze-diverse-v2-00a44985/checkpoint_999999.pt",
   "classification_reasons": [
     "method_variant:pi_local",
+    "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main",
     "meta_lr_outside_main"
   ],

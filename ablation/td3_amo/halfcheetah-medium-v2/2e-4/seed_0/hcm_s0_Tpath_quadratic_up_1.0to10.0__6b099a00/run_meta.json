@@ -9,6 +9,7 @@
   "checkpoint_hint": "/home/svcho/amo/results_t_path/t_path_linear_vs_quadratic_seed0/runs/hcm_s0_Tpath_quadup_1to10_1m-halfcheetah-medium-v2-6b099a00/checkpoint_999999.pt",
   "classification_reasons": [
     "method_variant:t_path_schedule",
+    "bootstrap_loss_not_l2_rms",
     "scale_schedule",
     "meta_lr_outside_main"
   ],

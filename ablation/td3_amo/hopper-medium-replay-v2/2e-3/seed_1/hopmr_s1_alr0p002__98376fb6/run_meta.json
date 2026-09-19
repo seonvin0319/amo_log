@@ -7,7 +7,9 @@
   ],
   "backend": "jax",
   "classification_reasons": [
-    "method_variant:td3_amo_design_ablation"
+    "method_variant:td3_amo_design_ablation",
+    "bootstrap_loss_not_l2_rms",
+    "execution_loss"
   ],
   "collected_at": "2026-09-19T13:04:53+09:00",
   "env": "hopper-medium-replay-v2",
