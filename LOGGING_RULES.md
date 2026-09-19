@@ -31,6 +31,7 @@
 - TD3·FQL은 config의 alpha_E/alpha_B(또는 alpha_init), IQL은 beta_initial을 읽는다. 기존 T 설정은 아래 단위 변환 후 읽는다. 폴더명이나 baseline 고유 alpha를 AMO 스케일로 추정하지 않는다.
 - 허용 초기값과 함께 meta lr `1e-3`, `2e-3`, `3e-4` 및 기존 구조/loss 기준도 만족해야 main이다. actor/critic lr는 이 meta lr와 별개다.
 - 기존 loss·critic 구조·N·alpha 비율/스케줄 등 변형 실험은 ablation으로 보존한다. 현재 분류 기준은 `scripts/log_layout.py`와 `classification_reasons`를 따른다.
+- TD3-AMO 본 실험은 **`bootstrap_loss=l2_rms` (L2_RMS only, bootrms)**이다. `td3_amo_bootrms_maincand` family도 나머지 초기값·lr·구조 조건을 만족하면 main이다. 기존 L1+L2_RMS 및 loss 미기록 실행은 `bootstrap_loss_not_l2_rms` 사유로 ablation에 보존하며, 과거 설정을 임의로 보충하지 않는다. `execution_score=direct_q`와 execution-only 변형은 ablation이다.
 - baseline의 고유 beta 설정은 AMO 초기 beta가 아니므로 이 초기값 제한을 적용하지 않는다.
 - 폴더 이름이나 높은 점수로 실험 설정을 추정하지 않는다. 설정 파일과 원본 metadata를 먼저 확인한다.
 - `adroit`, `initial_scale_outside_main`, `initial_scale_mismatch`, `initial_beta_outside_main` 등의 사유를 metadata에 기록한다. 초기값만 허용 범위에 들어와도 다른 ablation 사유가 남으면 승격하지 않는다.
