@@ -36,6 +36,15 @@ class ClassificationTests(unittest.TestCase):
                        {'critic_depth':2},{'alpha_B':2}):
             self.assertEqual(classify(m,{**c,**change})['section'],'ablation')
 
+    def test_retired_apart_is_unmapped(self):
+        from log_layout import is_retired_apart
+        m,c=run()
+        m['algo']='apart'
+        m['family']='dual_proximal'
+        self.assertTrue(is_retired_apart(m))
+        with self.assertRaises(ValueError):
+            classify(m,c)
+
     def test_td3_initializations_and_alpha_conversion(self):
         for alpha, t in ((1, .5), (2, 1), (5, 2.5)):
             for lr in (.001, .002, .0003):

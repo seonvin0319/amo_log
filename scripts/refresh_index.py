@@ -3,7 +3,7 @@
 import argparse,collections,json,subprocess
 import yaml
 from pathlib import Path
-from log_layout import initial_label, NETWORK_LR_EXCLUSIONS
+from log_layout import initial_label, NETWORK_LR_EXCLUSIONS, is_retired_apart
 from validate_logs import entries, blobs
 from readme_results import COHORTS, EVAL_FILES, eligible, check_source, collect, render_results, write_csv
 BRANCHES=('choi','ext_csh','ext_csv','offrl','shchoi','svcho')
@@ -12,7 +12,7 @@ BASE='https://github.com/seonvin0319/amo_log'
 def make_readme(catalogs, result_text=''):
     lines=['# amo_log','', '[공통 로그 규칙](LOGGING_RULES.md) · [에이전트 작업 지침](AGENTS.md)', '', '실험 로그는 각 머신 브랜치에 저장합니다. 이 `main` 브랜치는 AMO 결과와 전체 실험 위치를 안내합니다.','', '## 저장 규칙','', '- 본 실험: `main/<방법>/<환경>/<meta_lr>/seed_<seed>/<run_id>/`.','- Ablation: `ablation/<방법>/<환경>/<meta_lr>/seed_<seed>/<run_id>/`.','- Meta lr가 없는 baseline은 해당 경로 단계를 생략합니다.','- 방법: `td3_amo`, `iql_amo`, `td3bc+rc`, `iql`, `a2pr`, `wpc`, `aspc`.','- Adroit(door/hammer/pen/relocate)는 baseline을 포함한 모든 방법에서 ablation입니다.','- AMO 본 실험 초기값: TD3 alpha_E=alpha_B=1/2/5, IQL beta=1/2/5. Meta lr는 `1e-3`, `2e-3`, `3e-4`입니다. 그 외 초기값·meta 학습률·구조/loss 변형은 ablation입니다. Baseline 고유 beta는 이 초기값 제한 대상이 아닙니다.','- actor/critic/value 등 기본 네트워크 lr를 바꾼 오실행은 삭제하며 재수집을 차단합니다. 고정 기준과 적용 필드는 공통 로그 규칙을 따릅니다.', '- 기존 JAX 실행은 2026-09-14 정리에서 제거했습니다. Git 이력은 유지합니다. 이후 수정된 JAX 실행을 일괄 차단하지 않습니다.','- run_id를 보존해 같은 seed의 별도 실행을 덮어쓰지 않습니다.','- 설정·평가 방식은 각 실행의 `config.yaml`, `run_meta.json`을 확인합니다. 아래 실행 위치 표는 위치 인덱스입니다. 점수 집계 기준은 위 AMO 결과를 따릅니다.','', '## 머신별 카탈로그','', '| 브랜치 | main 실행 | ablation 실행 | 목록 |','|---|---:|---:|---|']
     for br,rows in catalogs.items():
-        n=collections.Counter(r['section'] for r in rows)
+        n=collections.Counter(r['section'] for r in rows if not is_retired_apart(r))
         lines.append(f"| [{br}]({BASE}/tree/{br}) | {n['main']} | {n['ablation']} | [전체 로그]({BASE}/blob/{br}/catalog/INDEX.md) |")
     for section in ('main','ablation'):
         lines += ['',f'## {section} 실험 위치','', '| 방법 | 환경 | meta lr | 설정 | 브랜치·시드·로그 위치 |','|---|---|---|---|---|']
@@ -20,6 +20,7 @@ def make_readme(catalogs, result_text=''):
         for br,rows in catalogs.items():
             for r in rows:
                 if r['section']!=section:continue
+                if is_retired_apart(r):continue
                 c=r.get('settings',{});settings=[]
                 # Retired qweight experiments remain in machine ablation catalogs,
                 # but no longer appear in the main README.
@@ -59,6 +60,7 @@ def main():
     for br,rows in catalogs.items():
         if NETWORK_LR_EXCLUSIONS in trees[br]:source_files[(br,NETWORK_LR_EXCLUSIONS)]=trees[br][NETWORK_LR_EXCLUSIONS]
         for row in rows:
+            if is_retired_apart(row):continue
             if not any(eligible(row,cohort) for cohort in COHORTS):continue
             config_path=row['rel_path']+'/config.yaml'
             source_files[(br,config_path)]=trees[br][config_path]
@@ -70,6 +72,7 @@ def main():
         ex_oid=source_files.get((br,NETWORK_LR_EXCLUSIONS))
         exclusions=json.loads(source_blobs[ex_oid])['runs'] if ex_oid else []
         for row in rows:
+            if is_retired_apart(row):continue
             if any(eligible(row,cohort) for cohort in COHORTS):
                 original=yaml.safe_load(source_blobs[source_files[(br,row['rel_path']+'/config.yaml')]]) or {}
                 check_source(row,original,exclusions)

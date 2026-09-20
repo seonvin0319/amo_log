@@ -27,6 +27,19 @@ def qweight_meta(**settings):
 
 
 class ResultTests(unittest.TestCase):
+    def test_retired_apart_is_omitted_from_main_readme(self):
+        from refresh_index import make_readme
+        from log_layout import is_retired_apart
+        baseline=meta('amo',run_id='original-run')
+        apart=meta('amo',run_id='apart-run')
+        apart['algo']='apart'
+        apart['family']='dual_proximal'
+        self.assertTrue(is_retired_apart(apart))
+        text=make_readme({'svcho':[baseline,apart]})
+        self.assertNotIn('dual_proximal',text)
+        self.assertNotIn('apart',text.lower())
+        self.assertIn(baseline['rel_path'].split('/seed_')[0],text)
+
     def test_retired_qweight_stays_in_ablation_and_out_of_main_index(self):
         from refresh_index import make_readme
         baseline=meta('iql_amo',run_id='original-run')

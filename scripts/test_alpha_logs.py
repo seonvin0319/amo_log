@@ -36,7 +36,6 @@ class AlphaLogsTests(unittest.TestCase):
 
     def test_conflicts_and_native_alpha(self):
         self.assertEqual(convert({'T_used':4,'T_projected':False}),{'alpha_used':8,'alpha_projected':False})
-        self.assertEqual(convert({'apart/T_B_pre_projection':1.25}),{'apart/alpha_B_pre_projection':2.5})
         self.assertEqual(convert({'T_E':1,'alpha_E':2}),{'alpha_E':2})
         for old in ({'T_E':1,'alpha_E':5},{'alpha_E':5,'T_E':1}):
             with self.assertRaises(ValueError):convert(old)

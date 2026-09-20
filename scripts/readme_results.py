@@ -9,7 +9,7 @@ import statistics
 from pathlib import Path
 
 from log_layout import (classify, config, excluded_network_lr, initial_alphas,
-                        invalid_network_lrs, number)
+                        invalid_network_lrs, number, is_retired_apart)
 
 BASE = 'https://github.com/seonvin0319/amo_log'
 METHODS = ('td3_amo', 'iql_amo')
@@ -36,6 +36,8 @@ def finite(value):
 def eligible(meta, cohort='original'):
     if cohort not in COHORTS:
         raise ValueError('Unknown result cohort: '+cohort)
+    if is_retired_apart(meta):
+        return False
     if meta.get('is_alias') or meta.get('method') not in METHODS:
         return False
     c = meta['settings']

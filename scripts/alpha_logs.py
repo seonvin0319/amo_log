@@ -144,7 +144,7 @@ def rewrite(path, unparsed=None):
 
 def normalize_run(directory, meta):
     """Use per-file hashes, not a run-wide flag: ingestion can overwrite files."""
-    if meta.get('method') != 'td3_amo' and meta.get('algo') not in ('amo', 'apart', 'td3_amo'):
+    if meta.get('method') != 'td3_amo' and meta.get('algo') not in ('amo', 'td3_amo'):
         return meta
     meta = dict(meta)
     record = dict(meta.get('scale_conversion', {}))
