@@ -1042,7 +1042,7 @@
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 2 | jax | 1000000 | [hopmr_s2_alr0p0003__ab1e6264](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_alr0p0003__ab1e6264/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | 1000000 | [hopmr_s3_alr0p0003__19da519c](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_alr0p0003__19da519c/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | 1000000 | [hopmr_s3_alr0p0003__1e3dce82](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_alr0p0003__1e3dce82/) |
-| main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 3 | jax | — | [hopmr_s3_alr0p0003__cdbc7fe0](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_alr0p0003__cdbc7fe0/) |
+| main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 3 | jax | 1000000 | [hopmr_s3_alr0p0003__cdbc7fe0](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_alr0p0003__cdbc7fe0/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 0 | jax | 1000000 | [hopmr_s0_alr0p001__0965b9eb](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_0/hopmr_s0_alr0p001__0965b9eb/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | 1000000 | [hopmr_s0_alr0p001__1093a7a0](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_0/hopmr_s0_alr0p001__1093a7a0/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | 1000000 | [hopmr_s0_alr0p001__f01d68cb](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_0/hopmr_s0_alr0p001__f01d68cb/) |
@@ -1055,6 +1055,7 @@
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | 1000000 | [hopmr_s2_alr0p001__ea1756f7](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_2/hopmr_s2_alr0p001__ea1756f7/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 3 | jax | 1000000 | [hopmr_s3_alr0p001__bc16ee05](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_3/hopmr_s3_alr0p001__bc16ee05/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [hopmr_s3_alr0p001__c7e9007c](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_3/hopmr_s3_alr0p001__c7e9007c/) |
+| main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 3 | jax | — | [hopmr_s3_alr0p001__cc46ba1a](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_3/hopmr_s3_alr0p001__cc46ba1a/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.002 | 0 | jax | 1000000 | [hopmr_s0_alr0p002__37485d61](../main/td3_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_alr0p002__37485d61/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 0 | jax | 1000000 | [hopmr_s0_alr0p002__997ccb3e](../main/td3_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_alr0p002__997ccb3e/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.002 | 0 | jax | 1000000 | [hopmr_s0_alr0p002__a5e9c2b7](../main/td3_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_alr0p002__a5e9c2b7/) |
