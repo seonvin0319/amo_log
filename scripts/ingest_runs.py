@@ -61,6 +61,7 @@ _AMO_MAIN = "b9338d9815525482d2cf34d6fc6315ea4d2f93a6"
 # AMO-main after T→alpha rename (alpha := 2T).
 _AMO_MAIN_ALPHA = "1e34514ddf70bfc8a78757d9a78b82306627164c"
 _AMO_FQL = "3f4401279175f33858c4fbf5993bd1fc2f3dfc84"
+_AMO_EXECONLY = "4e3203f35bcc6048201ae3cfe75d932830ccd5f9"
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "amo",
@@ -313,6 +314,28 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO-fql",
         "code_commit": _AMO_FQL,
         "family_force": "fql_amo_jax",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_execonly_a5_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-execonly",
+        "code_commit": _AMO_EXECONLY,
+        "family_force": "td3_amo_jax",
+        "nested": False,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_amo_lel2_b5_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-execonly",
+        "code_commit": _AMO_EXECONLY,
+        "family_force": "amo_bpi",
         "nested": False,
     },
 ]
