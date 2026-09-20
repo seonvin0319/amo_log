@@ -36,6 +36,19 @@ class ClassificationTests(unittest.TestCase):
                        {'critic_depth':2},{'alpha_B':2}):
             self.assertEqual(classify(m,{**c,**change})['section'],'ablation')
 
+    def test_execonly_main_family_is_main(self):
+        m,c=run(alpha_E=5,alpha_B=5,alpha_lr=.001,execution_score='bpi',
+                execution_only=True,bootstrap_loss='l2_rms')
+        m['family']='td3_amo_execonly_main'
+        self.assertEqual(classify(m,c)['section'],'main')
+        m['family']='td3_amo_bootrms_maincand'
+        self.assertIn('execution_only',classify(m,c)['classification_reasons'])
+        m,c=run('iql_amo',beta_initial=5,rho_lr=.001,execution_meta_loss='le_l2_rms')
+        m['family']='iql_amo_lel2'
+        self.assertEqual(classify(m,c)['section'],'main')
+        m['family']='amo_bpi'
+        self.assertIn('execution_meta_lel2',classify(m,c)['classification_reasons'])
+
     def test_retired_apart_is_unmapped(self):
         from log_layout import is_retired_apart
         m,c=run()

@@ -96,6 +96,16 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "require_eval": False,
     },
     {
+        "algo": "iql_amo",
+        "root": Path("/home/svcho/amo/results/iql_amo_lel2_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "iql_amo_lel2",
+        "layout": "cell_jobs",
+        "require_eval": False,
+    },
+    {
         "algo": "td3_amo",
         "root": Path("/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs"),
         "host": "svcho",
