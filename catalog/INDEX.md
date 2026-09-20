@@ -709,7 +709,7 @@
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 0 | jax | 1000000 | [amld_s0_alr0p0003__353eb761](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_alr0p0003__353eb761/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 0 | jax | 1000000 | [amld_s0_alr0p0003__59437eb7](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_alr0p0003__59437eb7/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | 1000000 | [amld_s0_alr0p0003__fa1e8cb8](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_alr0p0003__fa1e8cb8/) |
-| main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 1 | jax | — | [amld_s1_alr0p0003__403d507d](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_1/amld_s1_alr0p0003__403d507d/) |
+| main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 1 | jax | 1000000 | [amld_s1_alr0p0003__403d507d](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_1/amld_s1_alr0p0003__403d507d/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 1 | jax | 1000000 | [amld_s1_alr0p0003__74fe53c2](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_1/amld_s1_alr0p0003__74fe53c2/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [amld_s1_alr0p0003__b7f81a26](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_1/amld_s1_alr0p0003__b7f81a26/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 2 | jax | 1000000 | [amld_s2_alr0p0003__31b181c2](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_2/amld_s2_alr0p0003__31b181c2/) |
@@ -720,7 +720,7 @@
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | 1000000 | [amld_s0_alr0p001__642105c7](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_0/amld_s0_alr0p001__642105c7/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.001 | 0 | jax | 1000000 | [amld_s0_alr0p001__9fa266cc](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_0/amld_s0_alr0p001__9fa266cc/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.001 | 1 | jax | 1000000 | [amld_s1_alr0p001__25d6af26](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_1/amld_s1_alr0p001__25d6af26/) |
-| main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | — | [amld_s1_alr0p001__67996ab4](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_1/amld_s1_alr0p001__67996ab4/) |
+| main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | 1000000 | [amld_s1_alr0p001__67996ab4](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_1/amld_s1_alr0p001__67996ab4/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.001 | 1 | jax | 1000000 | [amld_s1_alr0p001__9e4b636d](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_1/amld_s1_alr0p001__9e4b636d/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | 1000000 | [amld_s2_alr0p001__5f4cbad2](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_2/amld_s2_alr0p001__5f4cbad2/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | jax | 1000000 | [amld_s2_alr0p001__c90a9f9d](../main/td3_amo/antmaze-large-diverse-v2/1e-3/seed_2/amld_s2_alr0p001__c90a9f9d/) |
@@ -945,6 +945,7 @@
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | 1000000 | [hcm_s0_alr0p0003__f7faa56f](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_0/hcm_s0_alr0p0003__f7faa56f/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 1 | jax | 1000000 | [hcm_s1_alr0p0003__09ebeb59](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_1/hcm_s1_alr0p0003__09ebeb59/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hcm_s1_alr0p0003__49a5fd07](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_1/hcm_s1_alr0p0003__49a5fd07/) |
+| main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 1 | jax | — | [hcm_s1_alr0p0003__8d7ed5b6](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_1/hcm_s1_alr0p0003__8d7ed5b6/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [hcm_s2_alr0p0003__19a94495](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_2/hcm_s2_alr0p0003__19a94495/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 2 | jax | 1000000 | [hcm_s2_alr0p0003__73bf50e8](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_2/hcm_s2_alr0p0003__73bf50e8/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | 1000000 | [hcm_s3_alr0p0003__3faedbb9](../main/td3_amo/halfcheetah-medium-v2/3e-4/seed_3/hcm_s3_alr0p0003__3faedbb9/) |
@@ -953,6 +954,7 @@
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=1/1 | 0.001 | 0 | jax | 1000000 | [hcm_s0_alr0p001__a738628b](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_0/hcm_s0_alr0p001__a738628b/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 0 | jax | 1000000 | [hcm_s0_alr0p001__c6116329](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_0/hcm_s0_alr0p001__c6116329/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.001 | 1 | jax | 1000000 | [hcm_s1_alr0p001__4d0bd1d6](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_1/hcm_s1_alr0p001__4d0bd1d6/) |
+| main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | — | [hcm_s1_alr0p001__77a4c1a0](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_1/hcm_s1_alr0p001__77a4c1a0/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 1 | jax | 1000000 | [hcm_s1_alr0p001__e2daf7ea](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_1/hcm_s1_alr0p001__e2daf7ea/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | jax | 1000000 | [hcm_s2_alr0p001__0f5e5ef0](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_2/hcm_s2_alr0p001__0f5e5ef0/) |
 | main | td3_amo | halfcheetah-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | 1000000 | [hcm_s2_alr0p001__ab13a81b](../main/td3_amo/halfcheetah-medium-v2/1e-3/seed_2/hcm_s2_alr0p001__ab13a81b/) |
