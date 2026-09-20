@@ -7,7 +7,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-20T13:13:28+09:00",
+  "collected_at": "2026-09-20T13:14:38+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "td3_amo_bootrms_maincand",
@@ -31,7 +31,7 @@
         "sha256": "cb88bebdbd33ccd7994d80b50ddd3dbf78b22c8ab54a2efae3ea680930ade367"
       },
       "metrics.jsonl": {
-        "sha256": "939b9fed2e0f23feb61d46dde698296e02e0d45a9c798accdcf0a1befd8fb397"
+        "sha256": "d88f2a90118600933831fbc523b5efb14c05ebc713624ba977dfbab3184c0c05"
       },
       "source_run_meta.json": {
         "sha256": "37a6d5329921ea0768800dce9e0197aab2e88cc6595b6fbc57cb508b2959c354"
