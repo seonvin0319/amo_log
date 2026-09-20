@@ -324,7 +324,7 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "host": "ext_csv",
         "code_repo": "AMO-execonly",
         "code_commit": _AMO_EXECONLY,
-        "family_force": "td3_amo_jax",
+        "family_force": "td3_amo_execonly_main",
         "nested": False,
     },
     {
@@ -335,7 +335,7 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "host": "ext_csv",
         "code_repo": "AMO-execonly",
         "code_commit": _AMO_EXECONLY,
-        "family_force": "amo_bpi",
+        "family_force": "iql_amo_lel2",
         "nested": False,
     },
 ]
