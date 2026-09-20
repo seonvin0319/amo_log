@@ -215,9 +215,9 @@ TD3-AMO π_E-only (`execution_only=true`)입니다. α_E meta-loss는 **L_E (BPI
 |---|---|---:|
 | choi | [dc5d5dc8](https://github.com/seonvin0319/amo_log/commit/dc5d5dc849c2ad673a62e1d00d9cbace52818169) | 0 |
 | ext_csh | [ff44ad5c](https://github.com/seonvin0319/amo_log/commit/ff44ad5c9f8024ed2aff039c89d00a6459f62d7c) | 0 |
-| ext_csv | [8d89c959](https://github.com/seonvin0319/amo_log/commit/8d89c9590b2ae3d7e1d8d74f24d0554f42236e3e) | 0 |
+| ext_csv | [a8ea4403](https://github.com/seonvin0319/amo_log/commit/a8ea4403fb6e5e81eeff7bf4fcc87b61aec94db7) | 0 |
 | offrl | [c8ec9179](https://github.com/seonvin0319/amo_log/commit/c8ec9179f01762218f63f1e222b0824b279d4718) | 0 |
-| shchoi | [a6dd7009](https://github.com/seonvin0319/amo_log/commit/a6dd7009c3451b2d0fb8cf7772f4686e445ee3e7) | 0 |
+| shchoi | [8ea816e7](https://github.com/seonvin0319/amo_log/commit/8ea816e728793ea13dfaed4f1b92fc39892e4a05) | 0 |
 | svcho | [0a4e8385](https://github.com/seonvin0319/amo_log/commit/0a4e838598077f2ea2f70d7fd02bfd9bcfc50e8a) | 0 |
 
 머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 [수동 갱신](https://github.com/seonvin0319/amo_log/actions/workflows/refresh-index.yml)도 지원합니다.
@@ -433,9 +433,9 @@ IQL-AMO의 β_E meta-loss를 **L_E (BPI) + L2_RMS**로 둔 본 실험입니다. 
 |---|---|---:|
 | choi | [dc5d5dc8](https://github.com/seonvin0319/amo_log/commit/dc5d5dc849c2ad673a62e1d00d9cbace52818169) | 0 |
 | ext_csh | [ff44ad5c](https://github.com/seonvin0319/amo_log/commit/ff44ad5c9f8024ed2aff039c89d00a6459f62d7c) | 0 |
-| ext_csv | [8d89c959](https://github.com/seonvin0319/amo_log/commit/8d89c9590b2ae3d7e1d8d74f24d0554f42236e3e) | 0 |
+| ext_csv | [a8ea4403](https://github.com/seonvin0319/amo_log/commit/a8ea4403fb6e5e81eeff7bf4fcc87b61aec94db7) | 0 |
 | offrl | [c8ec9179](https://github.com/seonvin0319/amo_log/commit/c8ec9179f01762218f63f1e222b0824b279d4718) | 0 |
-| shchoi | [a6dd7009](https://github.com/seonvin0319/amo_log/commit/a6dd7009c3451b2d0fb8cf7772f4686e445ee3e7) | 0 |
+| shchoi | [8ea816e7](https://github.com/seonvin0319/amo_log/commit/8ea816e728793ea13dfaed4f1b92fc39892e4a05) | 0 |
 | svcho | [0a4e8385](https://github.com/seonvin0319/amo_log/commit/0a4e838598077f2ea2f70d7fd02bfd9bcfc50e8a) | 0 |
 
 머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 [수동 갱신](https://github.com/seonvin0319/amo_log/actions/workflows/refresh-index.yml)도 지원합니다.
