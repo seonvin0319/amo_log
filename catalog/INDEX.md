@@ -642,9 +642,10 @@
 | main | iql_amo | antmaze-umaze-v2 | beta=5.0 | 0.002 | 1 | jax | 1000000 | [amu_s1_beta5__336eff46](../main/iql_amo/antmaze-umaze-v2/2e-3/seed_1/amu_s1_beta5__336eff46/) |
 | main | iql_amo | antmaze-umaze-v2 | beta=5.0 | 0.002 | 2 | jax | 1000000 | [amu_s2_beta5__eefbab98](../main/iql_amo/antmaze-umaze-v2/2e-3/seed_2/amu_s2_beta5__eefbab98/) |
 | main | iql_amo | antmaze-umaze-v2 | beta=5.0 | 0.002 | 3 | jax | 1000000 | [amu_s3_beta5__c5430cfb](../main/iql_amo/antmaze-umaze-v2/2e-3/seed_3/amu_s3_beta5__c5430cfb/) |
+| main | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.0003 | 0 | jax | — | [hopmr_s0_beta1_rlr0p0003__032bff4a](../main/iql_amo/hopper-medium-replay-v2/3e-4/seed_0/hopmr_s0_beta1_rlr0p0003__032bff4a/) |
 | main | iql_amo | hopper-medium-v2 | beta=1.0 | 0.0003 | 0 | jax | 1000000 | [hopm_s0_beta1_rlr0p0003__77be9fd4](../main/iql_amo/hopper-medium-v2/3e-4/seed_0/hopm_s0_beta1_rlr0p0003__77be9fd4/) |
 | main | iql_amo | hopper-medium-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [hopm_s0_beta1_rlr0p001__0fd1df03](../main/iql_amo/hopper-medium-v2/1e-3/seed_0/hopm_s0_beta1_rlr0p001__0fd1df03/) |
-| main | iql_amo | hopper-medium-v2 | beta=1.0 | 0.002 | 0 | jax | — | [hopm_s0_beta1__05373d51](../main/iql_amo/hopper-medium-v2/2e-3/seed_0/hopm_s0_beta1__05373d51/) |
+| main | iql_amo | hopper-medium-v2 | beta=1.0 | 0.002 | 0 | jax | 1000000 | [hopm_s0_beta1__05373d51](../main/iql_amo/hopper-medium-v2/2e-3/seed_0/hopm_s0_beta1__05373d51/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 0 | jax | 1000000 | [amld_s0_alr0p0003__353eb761](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_alr0p0003__353eb761/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 0 | jax | 1000000 | [amld_s0_alr0p0003__59437eb7](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_alr0p0003__59437eb7/) |
 | main | td3_amo | antmaze-large-diverse-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | 1000000 | [amld_s0_alr0p0003__fa1e8cb8](../main/td3_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_alr0p0003__fa1e8cb8/) |
