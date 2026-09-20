@@ -1,0 +1,6 @@
+{"step": 5000, "actor_loss": 2.282820224761963, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 2.282820224761963, "critic_loss": 0.1909167468547821, "value_loss": 0.03602758049964905}
+{"step": 10000, "actor_loss": 3.8899288177490234, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 3.8899288177490234, "critic_loss": 0.6763231158256531, "value_loss": 0.1531991809606552}
+{"step": 15000, "actor_loss": 5.560429573059082, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 5.560429573059082, "critic_loss": 0.49808192253112793, "value_loss": 0.4510727524757385}
+{"step": 20000, "actor_loss": 3.542118549346924, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 3.542118549346924, "critic_loss": 1.3518002033233643, "value_loss": 0.3340841829776764}
+{"step": 25000, "actor_loss": 5.772421836853027, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 5.772421836853027, "critic_loss": 2.371335506439209, "value_loss": 0.4462466537952423}
+{"step": 30000, "actor_loss": 2.958801507949829, "beta_B": 1.0, "beta_B_used": 1.0, "beta_E": 1.0, "beta_E_used": 1.0, "bootstrap_loss": 2.958801507949829, "critic_loss": 1.9938483238220215, "value_loss": 0.5678297281265259}
