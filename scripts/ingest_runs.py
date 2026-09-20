@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ingest AMO/APART run artifacts into amo_log/runs with canonical names."""
+"""Ingest AMO run artifacts into amo_log/runs with canonical names."""
 
 from __future__ import annotations
 
@@ -74,7 +74,7 @@ ENV_SHORT = {
     "relocate-expert-v1": "rele",
 }
 
-# legacy short codes that appeared in older APART directory names
+# legacy short codes in older directory names
 LEGACY_ENV_PREFIX = {
     "cm": "hcm",
     "cmr": "hcmr",
@@ -85,6 +85,16 @@ LEGACY_ENV_PREFIX = {
 }
 
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
+    {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_execonly_main_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+        "family_force": "td3_amo_execonly_main",
+        "layout": "cell_jobs",
+        "require_eval": False,
+    },
     {
         "algo": "td3_amo",
         "root": Path("/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs"),
@@ -309,23 +319,13 @@ def classify_family(algo: str, cfg: Dict[str, Any], force: Optional[str]) -> str
         if cfg.get("adaptive_multiscale"):
             return "adaptive_multiscale"
         return "secant"
-    # apart
-    if cfg.get("dual_proximal"):
-        return "dual_proximal"
-    name = str(cfg.get("name", ""))
-    if "pi_only_xfit" in name and "mpi" in name:
-        return "pi_only_xfit_mpi_nstep"
-    if "pi_only_xfit" in name:
-        return "pi_only_xfit_target"
-    if int(cfg.get("proximal_n_steps", 1) or 1) > 1:
-        return "chain"
     return "misc"
 
 
 def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> str:
     tokens: List[str] = []
     n = int(cfg.get("proximal_n_steps", 1) or 1)
-    if family in ("dual_proximal", "chain") or "apart_n" in dirname:
+    if family in ("dual_proximal", "chain"):
         tokens.append(f"n{n}")
     if cfg.get("dual_proximal") or "_dual" in dirname:
         tokens.append("dual")
@@ -885,6 +885,9 @@ def ingest_one(
     if require_eval and not (src / "eval.jsonl").exists():
         return None
     cfg = load_yaml_lite(cfg_path)
+    if algo == "apart" or cfg.get("dual_proximal"):
+        print(f"SKIP retired APART {src}")
+        return None
     # Actor / critic / value LR must remain 3e-4; meta LR is alpha_lr / rho_lr only.
     for lr_key in ("actor_lr", "critic_lr", "value_lr"):
         if lr_key not in cfg or cfg[lr_key] is None:

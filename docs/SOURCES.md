@@ -18,7 +18,7 @@ Collected on host `svcho` without cloning checkpoint weights.
 | `/home/svcho/amo_iql_sweep/results/iql_amo_lr1e3_beta_sweep_seed0` | iql_amo | `lr1e3_beta_sweep` | 90 |
 | `/home/svcho/amo_iql_sweep/results/td3_amo_adroit_T1_Tlr1e3_seeds03` | td3_amo | `adroit_T1_Tlr1e3` | 48 |
 
-Not found on svcho: APART `results_apart*`. Incomplete A2PR cells (no `.npy`) skipped.
+Not found on svcho: APART sources are retired and not collected.
 wPC / IQL+AMO / TD3+AMO Adroit partial runs (eval.jsonl present) are uploaded every refresh.
 IQL+AMO preferred final score protocol: `final50_singlepass_v1` (legacy posthoc 10×5 seed_stride=0 retained in eval.jsonl but not selected).
 

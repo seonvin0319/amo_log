@@ -13,6 +13,14 @@ MAIN_ALPHAS = (1.0, 2.0, 5.0)
 MAIN_TS = tuple(alpha / 2 for alpha in MAIN_ALPHAS)
 MAIN_BETAS = (1.0, 2.0, 5.0)
 ADROIT_TASKS = ('door', 'hammer', 'pen', 'relocate')
+RETIRED_APART_FAMILIES = frozenset({
+    'dual_proximal', 'chain', 'pi_only_xfit_target', 'pi_only_xfit_mpi_nstep',
+})
+
+
+def is_retired_apart(meta):
+    """Retired APART experiments are not part of amo_log main/ablation indexes."""
+    return meta.get('algo') == 'apart' or meta.get('family') in RETIRED_APART_FAMILIES
 
 def number(x):
     try: return float(x)
@@ -91,7 +99,7 @@ def method_name(m):
     algo, fam = m.get('algo',''), m.get('family','')
     if algo == 'iql_amo' or algo=='iql' and fam not in ('benchmark','vanilla'): method='iql_amo'
     elif algo == 'fql_amo' or algo == 'fql': method='fql_amo'
-    elif algo in ('amo','apart','td3_amo'): method='td3_amo'
+    elif algo in ('amo','td3_amo'): method='td3_amo'
     elif algo=='td3bc': method='td3bc+rc'
     elif algo in METHODS: method=algo
     else: raise ValueError('Unmapped method: '+repr((algo,fam)))
@@ -108,7 +116,7 @@ def classify(m, c):
     if method=='fql_amo' and lr is None:
         lr = c.get('alpha_lr', c.get('T_lr'))
     if method=='td3_amo':
-        if algo=='apart' or fam not in ('adaptive_multiscale','td3_amo_jax','td3_amo_bootrms_maincand','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
+        if fam not in ('adaptive_multiscale','td3_amo_jax','td3_amo_bootrms_maincand','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
             reasons.append('method_variant:'+fam)
         # Only explicitly recorded L2_RMS-only runs belong to the main method.
         # Historical implicit defaults remain untouched and are archived.
@@ -212,6 +220,10 @@ def normalize(root=None):
     for mp in paths:
         m=json.loads(mp.read_text());src=mp.parent
         if m.get('is_alias') and not m.get('algo'):continue
+        if is_retired_apart(m):
+            print('Removed retired APART run:',src.relative_to(root))
+            shutil.rmtree(src)
+            continue
         c=load_config(src/'config.yaml',m)
         if excluded(m,c,entries):
             if src.is_relative_to(legacy):shutil.rmtree(src);continue

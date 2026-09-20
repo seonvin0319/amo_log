@@ -31,7 +31,8 @@
 - TD3·FQL은 config의 alpha_E/alpha_B(또는 alpha_init), IQL은 beta_initial을 읽는다. 기존 T 설정은 아래 단위 변환 후 읽는다. 폴더명이나 baseline 고유 alpha를 AMO 스케일로 추정하지 않는다.
 - 허용 초기값과 함께 meta lr `1e-3`, `2e-3`, `3e-4` 및 기존 구조/loss 기준도 만족해야 main이다. actor/critic lr는 이 meta lr와 별개다.
 - 기존 loss·critic 구조·N·alpha 비율/스케줄 등 변형 실험은 ablation으로 보존한다. 현재 분류 기준은 `scripts/log_layout.py`와 `classification_reasons`를 따른다.
-- TD3-AMO 본 실험은 **`bootstrap_loss=l2_rms` (L2_RMS only, bootrms)**이다. `td3_amo_bootrms_maincand` family도 나머지 초기값·lr·구조 조건을 만족하면 main이다. 기존 L1+L2_RMS 및 loss 미기록 실행은 `bootstrap_loss_not_l2_rms` 사유로 ablation에 보존하며, 과거 설정을 임의로 보충하지 않는다. `execution_score=direct_q`와 execution-only 변형은 ablation이다.
+- TD3-AMO 본 실험은 **`bootstrap_loss=l2_rms` (L2_RMS only, bootrms)**이다. `td3_amo_bootrms_maincand` family도 나머지 초기값·lr·구조 조건을 만족하면 main이다. 기존 L1+L2_RMS 및 loss 미기록 실행은 `bootstrap_loss_not_l2_rms` 사유로 ablation에 보존하며, 과거 설정을 임의로 보충하지 않는다. `execution_score=direct_q`는 ablation이다.
+- TD3-AMO **π_E-only** (`execution_only=true`, family `td3_amo_execonly_main`)도 본 실험이다. 단일 actor가 π_B 자리에 들어가며 α_B/`bootstrap_loss`는 쓰지 않는다. 같은 플래그를 다른 family에 붙인 실행은 `execution_only` 사유로 ablation이다.
 - baseline의 고유 beta 설정은 AMO 초기 beta가 아니므로 이 초기값 제한을 적용하지 않는다.
 - 폴더 이름이나 높은 점수로 실험 설정을 추정하지 않는다. 설정 파일과 원본 metadata를 먼저 확인한다.
 - `adroit`, `initial_scale_outside_main`, `initial_scale_mismatch`, `initial_beta_outside_main` 등의 사유를 metadata에 기록한다. 초기값만 허용 범위에 들어와도 다른 ablation 사유가 남으면 승격하지 않는다.
@@ -65,7 +66,7 @@
 ## T 로그의 alpha 단위 정규화
 
 - TD3-AMO의 main과 ablation 모두 `alpha = 2T`로 저장한다. `scripts/alpha_logs.py`가 유일한 변환 규칙이며 수집·카탈로그 생성과 기존 로그 마이그레이션이 함께 사용한다.
-- 실제 스케일은 키를 바꾸고 값을 2배 한다: `T → alpha`, `T_E → alpha_E`, `T_B → alpha_B`, `T_init/min/max → alpha_init/min/max`. raw/effective/used/next 및 스케줄 시작·끝·현재 스케일도 동일하다. `amo/`, `apart/` 등의 지표 접두사는 유지한다.
+- 실제 스케일은 키를 바꾸고 값을 2배 한다: `T → alpha`, `T_E → alpha_E`, `T_B → alpha_B`, `T_init/min/max → alpha_init/min/max`. raw/effective/used/next 및 스케줄 시작·끝·현재 스케일도 동일하다. `amo/` 등의 지표 접두사는 유지한다.
 - `T_lr → alpha_lr`, `T_freq → alpha_freq`는 이름만 바꾼다. 학습률, 주기, 비율, 스케줄 step, projection flag, loss, 평가 점수는 2배 하지 않는다. 예: `T_B_over_T_E → alpha_B_over_alpha_E`, `L_T_E → L_alpha_E`의 숫자는 그대로다.
 - 과거 `grad_T_*`/`T_grad`는 작성기마다 rho/T 미분 좌표가 다를 수 있어 원래 수치를 `legacy_T/<기존 키>`로 보존한다. 이를 alpha gradient로 취급하거나 임의로 2배/절반으로 바꾸지 않는다. rho·h·tau 등 별도 내부 좌표도 재계산하지 않는다.
 - 기존 alpha 필드는 다시 2배 하지 않는다. 동일 레코드의 T와 alpha가 공존하면 `alpha=2T` 일치 여부를 확인하고, 불일치는 업로드를 중단한다. IQL의 beta와 baseline의 고유 alpha/beta는 변환 대상이 아니다.
