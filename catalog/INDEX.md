@@ -1093,7 +1093,7 @@
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | 1000000 | [hopm_s0_alr0p0003__56ffae25](../main/td3_amo/hopper-medium-v2/3e-4/seed_0/hopm_s0_alr0p0003__56ffae25/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 0 | jax | 1000000 | [hopm_s0_alr0p0003__7f1c5746](../main/td3_amo/hopper-medium-v2/3e-4/seed_0/hopm_s0_alr0p0003__7f1c5746/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 0 | jax | 1000000 | [hopm_s0_alr0p0003__98621523](../main/td3_amo/hopper-medium-v2/3e-4/seed_0/hopm_s0_alr0p0003__98621523/) |
-| main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 1 | jax | — | [hopm_s1_alr0p0003__2b00012f](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__2b00012f/) |
+| main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_alr0p0003__2b00012f](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__2b00012f/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_alr0p0003__37fa263e](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__37fa263e/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_alr0p0003__8752ead9](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__8752ead9/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_alr0p0003__d8c1cf7f](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__d8c1cf7f/) |
