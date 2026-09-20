@@ -1014,6 +1014,7 @@
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hopmr_s1_alr0p0003__fc7d61c1](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_1/hopmr_s1_alr0p0003__fc7d61c1/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 2 | jax | 1000000 | [hopmr_s2_alr0p0003__1b40dfa8](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_alr0p0003__1b40dfa8/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [hopmr_s2_alr0p0003__654adbb3](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_alr0p0003__654adbb3/) |
+| main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 2 | jax | — | [hopmr_s2_alr0p0003__ab1e6264](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_alr0p0003__ab1e6264/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | 1000000 | [hopmr_s3_alr0p0003__19da519c](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_alr0p0003__19da519c/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | 1000000 | [hopmr_s3_alr0p0003__1e3dce82](../main/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_alr0p0003__1e3dce82/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 0 | jax | 1000000 | [hopmr_s0_alr0p001__0965b9eb](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_0/hopmr_s0_alr0p001__0965b9eb/) |
@@ -1024,6 +1025,7 @@
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 1 | jax | 1000000 | [hopmr_s1_alr0p001__b83df12c](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_1/hopmr_s1_alr0p001__b83df12c/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | jax | 1000000 | [hopmr_s2_alr0p001__3293dbb1](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_2/hopmr_s2_alr0p001__3293dbb1/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | 1000000 | [hopmr_s2_alr0p001__d96533bc](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_2/hopmr_s2_alr0p001__d96533bc/) |
+| main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | — | [hopmr_s2_alr0p001__ea1756f7](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_2/hopmr_s2_alr0p001__ea1756f7/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.001 | 3 | jax | 1000000 | [hopmr_s3_alr0p001__bc16ee05](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_3/hopmr_s3_alr0p001__bc16ee05/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [hopmr_s3_alr0p001__c7e9007c](../main/td3_amo/hopper-medium-replay-v2/1e-3/seed_3/hopmr_s3_alr0p001__c7e9007c/) |
 | main | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.002 | 0 | jax | 1000000 | [hopmr_s0_alr0p002__37485d61](../main/td3_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_alr0p002__37485d61/) |
@@ -1042,7 +1044,7 @@
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_alr0p0003__37fa263e](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__37fa263e/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_alr0p0003__8752ead9](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__8752ead9/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_alr0p0003__d8c1cf7f](../main/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_alr0p0003__d8c1cf7f/) |
-| main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 2 | jax | — | [hopm_s2_alr0p0003__1ee8e702](../main/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_alr0p0003__1ee8e702/) |
+| main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 2 | jax | 1000000 | [hopm_s2_alr0p0003__1ee8e702](../main/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_alr0p0003__1ee8e702/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [hopm_s2_alr0p0003__3d169f97](../main/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_alr0p0003__3d169f97/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 2 | jax | 1000000 | [hopm_s2_alr0p0003__9f4a3086](../main/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_alr0p0003__9f4a3086/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | 1000000 | [hopm_s3_alr0p0003__249fb9fc](../main/td3_amo/hopper-medium-v2/3e-4/seed_3/hopm_s3_alr0p0003__249fb9fc/) |
@@ -1055,7 +1057,7 @@
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 1 | jax | 1000000 | [hopm_s1_alr0p001__d1571398](../main/td3_amo/hopper-medium-v2/1e-3/seed_1/hopm_s1_alr0p001__d1571398/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | 1000000 | [hopm_s2_alr0p001__6efba06d](../main/td3_amo/hopper-medium-v2/1e-3/seed_2/hopm_s2_alr0p001__6efba06d/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.001 | 2 | jax | 1000000 | [hopm_s2_alr0p001__8f0c6640](../main/td3_amo/hopper-medium-v2/1e-3/seed_2/hopm_s2_alr0p001__8f0c6640/) |
-| main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | — | [hopm_s2_alr0p001__e3e98bbb](../main/td3_amo/hopper-medium-v2/1e-3/seed_2/hopm_s2_alr0p001__e3e98bbb/) |
+| main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | 1000000 | [hopm_s2_alr0p001__e3e98bbb](../main/td3_amo/hopper-medium-v2/1e-3/seed_2/hopm_s2_alr0p001__e3e98bbb/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.001 | 3 | jax | 1000000 | [hopm_s3_alr0p001__7ca4d8cb](../main/td3_amo/hopper-medium-v2/1e-3/seed_3/hopm_s3_alr0p001__7ca4d8cb/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [hopm_s3_alr0p001__8f50fca7](../main/td3_amo/hopper-medium-v2/1e-3/seed_3/hopm_s3_alr0p001__8f50fca7/) |
 | main | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.002 | 0 | jax | 1000000 | [hopm_s0_alr0p002__b77155bf](../main/td3_amo/hopper-medium-v2/2e-3/seed_0/hopm_s0_alr0p002__b77155bf/) |
