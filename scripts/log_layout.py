@@ -118,7 +118,6 @@ def classify(m, c):
     if method=='td3_amo':
         if fam not in ('adaptive_multiscale','td3_amo_jax','td3_amo_bootrms_maincand','td3_amo_execonly_main','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
             reasons.append('method_variant:'+fam)
-        # Dual-actor main is L2_RMS-only. π_E-only uses L_E+L2_RMS on π_E, so L_B is unused.
         execonly=bool(c.get('execution_only',False))
         if execonly:
             if fam!='td3_amo_execonly_main':reasons.append('execution_only')
