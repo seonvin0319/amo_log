@@ -7,7 +7,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-20T13:30:46+09:00",
+  "collected_at": "2026-09-20T13:36:09+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_execonly_main",
@@ -30,8 +30,14 @@
       "config.yaml": {
         "sha256": "11575a4b3a5c45e00b7759cc1a42784bf5dd18613a50ac1daee31c62120b2baf"
       },
+      "eval.jsonl": {
+        "sha256": "1674decce502c48cac918fa010d992cad454e7a68c579b41eb3d53fc5b965da5"
+      },
+      "final_eval_50.json": {
+        "sha256": "8e9374c9b7ea37a90443be3e53ffe57021d5d797957f33fdfd70da76e3404a4c"
+      },
       "metrics.jsonl": {
-        "sha256": "44559f8d3cc795e5d2ea6ec0ddd8a5449dba7a1ac7ee0a5ae3f898c03aebef17"
+        "sha256": "78fb84114d63168be1a2aff49ce9a587502c7a90db1148172e3a2058cc3652d6"
       },
       "source_run_meta.json": {
         "sha256": "142cd175fe068a3830348b2ebbdf5f28573db913fd846f66ef4f55bfb28999ea"
