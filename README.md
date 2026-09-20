@@ -4,6 +4,442 @@
 
 실험 로그는 각 머신 브랜치에 저장합니다. 이 `main` 브랜치는 AMO 결과와 전체 실험 위치를 안내합니다.
 
+## TD3-AMO π_E-only · L_E+L2_RMS
+
+TD3-AMO π_E-only (`execution_only=true`)입니다. α_E meta-loss는 **L_E (BPI) + L2_RMS**이며 π_E가 환경과 벨만 타깃을 모두 맡습니다. 초기 **alpha=1, 2, 5**, **alpha_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**.
+
+**아직 업로드된 π_E-only 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**
+
+- 초기 `alpha_E`로 묶습니다. π_B/α_B는 없습니다.
+- **1M checkpoint 평가**를 사용하며, 같은 checkpoint에 반복평가 평균이 있으면 우선합니다. 없으면 마지막 일반 평가를 사용합니다.
+- `†300k`처럼 표시한 값은 1M 평가가 없는 실행의 최신 점수입니다. `대기`는 실행은 있으나 평가가 없고, `—`는 업로드된 실행이 없습니다.
+- **평균±표준편차는 seed 0~3 모두 1M 평가가 있을 때만** 계산합니다. 표준편차는 네 시드 점수의 population std(ddof=0)입니다. `(n/4)`는 1M 평가를 확보한 시드 수입니다.
+- 같은 설정·시드의 재실행은 1M 결과 중 높은 점수를 표시합니다. 1M 결과가 없으면 가장 진행된 step을 우선합니다. `⁺n`은 후보 실행 수이며, 모든 후보와 채택 여부는 [실행별 CSV](reports/execonly_runs.csv)에 남깁니다.
+- `T`=Torch, `J`=JAX. 평가 episode 수·집계 유형·코드 버전은 [실행별 CSV](reports/execonly_runs.csv)에서 확인할 수 있습니다. 각 학습률은 별도 행이며 서로 섞어 평균내지 않습니다.
+- family `td3_amo_execonly_main`만 집계하며 기존 BootRMS dual-actor 표와 칸을 나누지 않습니다.
+
+| 방법 | 초기값 | 평가 있는 시드 칸 | 1M 평가 시드 칸 | 4시드 완료 환경×lr |
+|---|---:|---:|---:|---:|
+| [TD3-AMO](#execonly-td3_amo-1) | alpha=1 | 0/180 | 0/180 | 0/45 |
+| [TD3-AMO](#execonly-td3_amo-2) | alpha=2 | 0/180 | 0/180 | 0/45 |
+| [TD3-AMO](#execonly-td3_amo-5) | alpha=5 | 0/180 | 0/180 | 0/45 |
+
+## TD3-AMO π_E-only
+
+<a id="execonly-td3_amo-1"></a>
+
+<details open>
+<summary><strong>alpha = 1</strong></summary>
+
+### TD3-AMO π_E-only · alpha=1 · Locomotion
+
+| 환경 | alpha_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| halfcheetah-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+### TD3-AMO π_E-only · alpha=1 · AntMaze
+
+| 환경 | alpha_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| antmaze-umaze-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+
+</details>
+
+<a id="execonly-td3_amo-2"></a>
+
+<details open>
+<summary><strong>alpha = 2</strong></summary>
+
+### TD3-AMO π_E-only · alpha=2 · Locomotion
+
+| 환경 | alpha_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| halfcheetah-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+### TD3-AMO π_E-only · alpha=2 · AntMaze
+
+| 환경 | alpha_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| antmaze-umaze-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+
+</details>
+
+<a id="execonly-td3_amo-5"></a>
+
+<details open>
+<summary><strong>alpha = 5</strong></summary>
+
+### TD3-AMO π_E-only · alpha=5 · Locomotion
+
+| 환경 | alpha_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| halfcheetah-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+### TD3-AMO π_E-only · alpha=5 · AntMaze
+
+| 환경 | alpha_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| antmaze-umaze-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+
+</details>
+
+## TD3 π_E-only 집계 브랜치
+
+| 브랜치 | 로그 snapshot | TD3 π_E-only 실행 |
+|---|---|---:|
+| choi | [dc5d5dc8](https://github.com/seonvin0319/amo_log/commit/dc5d5dc849c2ad673a62e1d00d9cbace52818169) | 0 |
+| ext_csh | [ff44ad5c](https://github.com/seonvin0319/amo_log/commit/ff44ad5c9f8024ed2aff039c89d00a6459f62d7c) | 0 |
+| ext_csv | [8d89c959](https://github.com/seonvin0319/amo_log/commit/8d89c9590b2ae3d7e1d8d74f24d0554f42236e3e) | 0 |
+| offrl | [c8ec9179](https://github.com/seonvin0319/amo_log/commit/c8ec9179f01762218f63f1e222b0824b279d4718) | 0 |
+| shchoi | [a6dd7009](https://github.com/seonvin0319/amo_log/commit/a6dd7009c3451b2d0fb8cf7772f4686e445ee3e7) | 0 |
+| svcho | [0a4e8385](https://github.com/seonvin0319/amo_log/commit/0a4e838598077f2ea2f70d7fd02bfd9bcfc50e8a) | 0 |
+
+머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 [수동 갱신](https://github.com/seonvin0319/amo_log/actions/workflows/refresh-index.yml)도 지원합니다.
+
+## IQL-AMO π_E · L_E+L2_RMS
+
+IQL-AMO의 β_E meta-loss를 **L_E (BPI) + L2_RMS**로 둔 본 실험입니다. 벨만은 V, 평가 정책은 π_E입니다. 초기 **beta=1, 2, 5**, **rho_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**.
+
+**아직 업로드된 IQL L_E+L2_RMS 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**
+
+- 초기 `beta_initial`로 묶으며 표의 `rho_lr`는 beta의 meta 학습률입니다.
+- **1M checkpoint 평가**를 사용하며, 같은 checkpoint에 반복평가 평균이 있으면 우선합니다. 없으면 마지막 일반 평가를 사용합니다.
+- `†300k`처럼 표시한 값은 1M 평가가 없는 실행의 최신 점수입니다. `대기`는 실행은 있으나 평가가 없고, `—`는 업로드된 실행이 없습니다.
+- **평균±표준편차는 seed 0~3 모두 1M 평가가 있을 때만** 계산합니다. 표준편차는 네 시드 점수의 population std(ddof=0)입니다. `(n/4)`는 1M 평가를 확보한 시드 수입니다.
+- 같은 설정·시드의 재실행은 1M 결과 중 높은 점수를 표시합니다. 1M 결과가 없으면 가장 진행된 step을 우선합니다. `⁺n`은 후보 실행 수이며, 모든 후보와 채택 여부는 [실행별 CSV](reports/iql_lel2_runs.csv)에 남깁니다.
+- `T`=Torch, `J`=JAX. 평가 episode 수·집계 유형·코드 버전은 [실행별 CSV](reports/iql_lel2_runs.csv)에서 확인할 수 있습니다. 각 학습률은 별도 행이며 서로 섞어 평균내지 않습니다.
+- family `iql_amo_lel2`만 집계하며 기존 IQL-AMO 표와 칸을 나누지 않습니다.
+
+| 방법 | 초기값 | 평가 있는 시드 칸 | 1M 평가 시드 칸 | 4시드 완료 환경×lr |
+|---|---:|---:|---:|---:|
+| [IQL-AMO](#iql_lel2-iql_amo-1) | beta=1 | 0/180 | 0/180 | 0/45 |
+| [IQL-AMO](#iql_lel2-iql_amo-2) | beta=2 | 0/180 | 0/180 | 0/45 |
+| [IQL-AMO](#iql_lel2-iql_amo-5) | beta=5 | 0/180 | 0/180 | 0/45 |
+
+## IQL-AMO L_E+L2_RMS
+
+<a id="iql_lel2-iql_amo-1"></a>
+
+<details open>
+<summary><strong>beta = 1</strong></summary>
+
+### IQL-AMO L_E+L2_RMS · beta=1 · Locomotion
+
+| 환경 | rho_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| halfcheetah-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+### IQL-AMO L_E+L2_RMS · beta=1 · AntMaze
+
+| 환경 | rho_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| antmaze-umaze-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+
+</details>
+
+<a id="iql_lel2-iql_amo-2"></a>
+
+<details open>
+<summary><strong>beta = 2</strong></summary>
+
+### IQL-AMO L_E+L2_RMS · beta=2 · Locomotion
+
+| 환경 | rho_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| halfcheetah-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+### IQL-AMO L_E+L2_RMS · beta=2 · AntMaze
+
+| 환경 | rho_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| antmaze-umaze-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+
+</details>
+
+<a id="iql_lel2-iql_amo-5"></a>
+
+<details open>
+<summary><strong>beta = 5</strong></summary>
+
+### IQL-AMO L_E+L2_RMS · beta=5 · Locomotion
+
+| 환경 | rho_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| halfcheetah-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| halfcheetah-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| hopper-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-replay-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| walker2d-medium-expert-v2 | 3e-4 | — | — | — | — | — (0/4) |
+### IQL-AMO L_E+L2_RMS · beta=5 · AntMaze
+
+| 환경 | rho_lr | seed 0 | seed 1 | seed 2 | seed 3 | 1M 평균 ± std |
+|---|---|---|---|---|---|---|
+| antmaze-umaze-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-umaze-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-medium-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-play-v2 | 3e-4 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 2e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 1e-3 | — | — | — | — | — (0/4) |
+| antmaze-large-diverse-v2 | 3e-4 | — | — | — | — | — (0/4) |
+
+</details>
+
+## IQL L_E+L2_RMS 집계 브랜치
+
+| 브랜치 | 로그 snapshot | IQL L_E+L2_RMS 실행 |
+|---|---|---:|
+| choi | [dc5d5dc8](https://github.com/seonvin0319/amo_log/commit/dc5d5dc849c2ad673a62e1d00d9cbace52818169) | 0 |
+| ext_csh | [ff44ad5c](https://github.com/seonvin0319/amo_log/commit/ff44ad5c9f8024ed2aff039c89d00a6459f62d7c) | 0 |
+| ext_csv | [8d89c959](https://github.com/seonvin0319/amo_log/commit/8d89c9590b2ae3d7e1d8d74f24d0554f42236e3e) | 0 |
+| offrl | [c8ec9179](https://github.com/seonvin0319/amo_log/commit/c8ec9179f01762218f63f1e222b0824b279d4718) | 0 |
+| shchoi | [a6dd7009](https://github.com/seonvin0319/amo_log/commit/a6dd7009c3451b2d0fb8cf7772f4686e445ee3e7) | 0 |
+| svcho | [0a4e8385](https://github.com/seonvin0319/amo_log/commit/0a4e838598077f2ea2f70d7fd02bfd9bcfc50e8a) | 0 |
+
+머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 [수동 갱신](https://github.com/seonvin0319/amo_log/actions/workflows/refresh-index.yml)도 지원합니다.
+
 ## AMO 결과
 
 초기 **alpha/beta = 1, 2, 5**, **alpha_lr/beta_lr = 2e-3, 1e-3, 3e-4**별 결과입니다. 각 셀은 **정규화 점수 · 출처 브랜치/backend**이며 클릭하면 해당 실행으로 이동합니다. TD3-AMO는 `bootstrap_loss=l2_rms` (bootrms)를 사용합니다.

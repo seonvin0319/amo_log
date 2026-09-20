@@ -13,7 +13,7 @@ from log_layout import (classify, config, excluded_network_lr, initial_alphas,
 
 BASE = 'https://github.com/seonvin0319/amo_log'
 METHODS = ('td3_amo', 'iql_amo')
-COHORTS = ('original', 'bootrms', 'legacy_td3', 'qweight')
+COHORTS = ('execonly', 'iql_lel2', 'original', 'bootrms', 'legacy_td3', 'qweight')
 QWEIGHT_FAMILIES = ('iql_amo_qweight_jax', 'amo_qweight')
 INITIALS = (1, 2, 5)
 LRS = (.002, .001, .0003)
@@ -42,13 +42,36 @@ def eligible(meta, cohort='original'):
         return False
     c = meta['settings']
     is_bootrms = meta['method']=='td3_amo' and c.get('bootstrap_loss')=='l2_rms'
+    is_execonly = meta['method']=='td3_amo' and bool(c.get('execution_only'))
+    is_iql_lel2 = meta['method']=='iql_amo' and c.get('execution_meta_loss')=='le_l2_rms'
     is_qweight = meta['method']=='iql_amo' and (
         c.get('qweight_enabled') is True or c.get('algorithm')=='iql_amo_qweight')
     if cohort=='original':
+        if is_execonly or is_iql_lel2: return False
         if meta.get('section')!='main' or is_qweight or (meta['method']=='td3_amo' and not is_bootrms):
             return False
+    elif cohort=='execonly':
+        if not is_execonly:
+            return False
+        allowed = {'method_variant:td3_amo_execonly_main'}
+        reasons = set(classify(meta,c)['classification_reasons'])
+        if reasons-allowed or initial_alphas(c)[0] not in INITIALS:
+            return False
+        if c.get('execution_score') not in (None, 'bpi'):
+            return False
+        if meta.get('family')!='td3_amo_execonly_main':
+            return False
+    elif cohort=='iql_lel2':
+        if not is_iql_lel2:
+            return False
+        allowed = {'method_variant:iql_amo_lel2'}
+        reasons = set(classify(meta,c)['classification_reasons'])
+        if reasons-allowed or initial(meta) not in INITIALS:
+            return False
+        if meta.get('family')!='iql_amo_lel2':
+            return False
     elif cohort=='bootrms':
-        if not is_bootrms:
+        if not is_bootrms or is_execonly:
             return False
         # The comparison table does not promote ablations into main storage.
         allowed = {'method_variant:td3_amo_bootrms_maincand'}
@@ -97,6 +120,10 @@ def check_source(meta, original, exclusions):
     for field in ('bootstrap_loss', 'execution_score', 'algorithm', 'qweight_enabled'):
         if actual.get(field) != meta['settings'].get(field):
             raise ValueError('Original loss disagrees with catalog: '+meta['rel_path'])
+    if bool(actual.get('execution_only')) != bool(meta['settings'].get('execution_only')):
+        raise ValueError('Original execution_only disagrees with catalog: '+meta['rel_path'])
+    if (actual.get('execution_meta_loss') or 'le') != (meta['settings'].get('execution_meta_loss') or 'le'):
+        raise ValueError('Original execution_meta_loss disagrees with catalog: '+meta['rel_path'])
 
 
 def records(text, filename):
@@ -249,7 +276,9 @@ def render_results(runs, selected, revisions, cohort='original'):
     bootrms = cohort=='bootrms'
     qweight = cohort=='qweight'
     legacy = cohort=='legacy_td3'
-    methods = ('td3_amo',) if bootrms or legacy else ('iql_amo',) if qweight else METHODS
+    execonly = cohort=='execonly'
+    iql_lel2 = cohort=='iql_lel2'
+    methods = ('td3_amo',) if bootrms or legacy or execonly else ('iql_amo',) if qweight or iql_lel2 else METHODS
     prefix = cohort+'-' if cohort!='original' else ''
     lines = ['## AMO 결과', '',
              '초기 **alpha/beta = 1, 2, 5**, **alpha_lr/beta_lr = 2e-3, 1e-3, 3e-4**별 결과입니다. '
@@ -296,6 +325,30 @@ def render_results(runs, selected, revisions, cohort='original'):
                  if line.startswith('- 현재 분류 규칙') else line for line in lines]
         if not runs:
             lines[3:3] = ['', '**아직 업로드된 IQL QWeight 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
+    if execonly:
+        lines[0] = '## TD3-AMO π_E-only · L_E+L2_RMS'
+        lines[2] = ('TD3-AMO π_E-only (`execution_only=true`)입니다. α_E meta-loss는 **L_E (BPI) + L2_RMS**이며 '
+                    'π_E가 환경과 벨만 타깃을 모두 맡습니다. 초기 **alpha=1, 2, 5**, '
+                    '**alpha_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**.')
+        lines = [line.replace('reports/amo_runs.csv','reports/execonly_runs.csv') for line in lines]
+        lines = [('- 초기 `alpha_E`로 묶습니다. π_B/α_B는 없습니다.')
+                 if line.startswith('- TD3는 초기') else line for line in lines]
+        lines = [('- family `td3_amo_execonly_main`만 집계하며 기존 BootRMS dual-actor 표와 칸을 나누지 않습니다.')
+                 if line.startswith('- 현재 분류 규칙') else line for line in lines]
+        if not runs:
+            lines[3:3] = ['', '**아직 업로드된 π_E-only 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
+    if iql_lel2:
+        lines[0] = '## IQL-AMO π_E · L_E+L2_RMS'
+        lines[2] = ('IQL-AMO의 β_E meta-loss를 **L_E (BPI) + L2_RMS**로 둔 본 실험입니다. '
+                    '벨만은 V, 평가 정책은 π_E입니다. 초기 **beta=1, 2, 5**, '
+                    '**rho_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**.')
+        lines = [line.replace('reports/amo_runs.csv','reports/iql_lel2_runs.csv') for line in lines]
+        lines = [('- 초기 `beta_initial`로 묶으며 표의 `rho_lr`는 beta의 meta 학습률입니다.')
+                 if line.startswith('- TD3는 초기') else line for line in lines]
+        lines = [('- family `iql_amo_lel2`만 집계하며 기존 IQL-AMO 표와 칸을 나누지 않습니다.')
+                 if line.startswith('- 현재 분류 규칙') else line for line in lines]
+        if not runs:
+            lines[3:3] = ['', '**아직 업로드된 IQL L_E+L2_RMS 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
     for method in methods:
         for init in INITIALS:
             cells = [r for key,r in selected.items() if key[:2]==(method,init)]
@@ -310,6 +363,11 @@ def render_results(runs, selected, revisions, cohort='original'):
         title, scale, lr_title = ('TD3-AMO','alpha','alpha_lr') if method=='td3_amo' else ('IQL-AMO','beta','beta_lr')
         if bootrms:
             title += ' BootRMS'
+        elif execonly:
+            title += ' π_E-only'
+        elif iql_lel2:
+            title += ' L_E+L2_RMS'
+            lr_title = 'rho_lr'
         elif legacy:
             title += ' Legacy L1+L2_RMS'
         elif qweight:
@@ -330,7 +388,9 @@ def render_results(runs, selected, revisions, cohort='original'):
                         summary = f'**{mean:.2f} ± {std:.2f}**' if mean is not None else f'— ({n}/4)'
                         lines.append('| '+' | '.join([env,label,*map(result_cell,cells),summary])+' |')
             lines += ['', '</details>', '']
-    cohort_label = 'BootRMS' if bootrms else 'TD3 legacy' if legacy else 'IQL QWeight' if qweight else None
+    cohort_label = ('BootRMS' if bootrms else 'TD3 π_E-only' if execonly else
+                    'IQL L_E+L2_RMS' if iql_lel2 else 'TD3 legacy' if legacy else
+                    'IQL QWeight' if qweight else None)
     lines += [f'## {cohort_label} 집계 브랜치' if cohort_label else '## 집계한 브랜치', '',
               f'| 브랜치 | 로그 snapshot | {cohort_label or "AMO main"} 실행 |',
               '|---|---|---:|']

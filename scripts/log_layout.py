@@ -116,11 +116,13 @@ def classify(m, c):
     if method=='fql_amo' and lr is None:
         lr = c.get('alpha_lr', c.get('T_lr'))
     if method=='td3_amo':
-        if fam not in ('adaptive_multiscale','td3_amo_jax','td3_amo_bootrms_maincand','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
+        if fam not in ('adaptive_multiscale','td3_amo_jax','td3_amo_bootrms_maincand','td3_amo_execonly_main','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
             reasons.append('method_variant:'+fam)
-        # Only explicitly recorded L2_RMS-only runs belong to the main method.
-        # Historical implicit defaults remain untouched and are archived.
-        if c.get('bootstrap_loss')!='l2_rms':reasons.append('bootstrap_loss_not_l2_rms')
+        execonly=bool(c.get('execution_only',False))
+        if execonly:
+            if fam!='td3_amo_execonly_main':reasons.append('execution_only')
+        elif c.get('bootstrap_loss')!='l2_rms':
+            reasons.append('bootstrap_loss_not_l2_rms')
         te,tb=initial_alphas(c)
         if te not in MAIN_ALPHAS or tb not in MAIN_ALPHAS: reasons.append('initial_scale_outside_main')
         if te != tb: reasons.append('initial_scale_mismatch')
@@ -131,8 +133,7 @@ def classify(m, c):
         if c.get('normalize_q',True) is False:reasons.append('q_normalization')
         if c.get('execution_l1',False) or c.get('execution_outer_loss_version') in ('l1','l1e') or 'l1e' in m.get('variant',''):reasons.append('execution_loss')
         if c.get('execution_score') not in (None,'bpi'):reasons.append('execution_loss')
-        if c.get('execution_only',False):reasons.append('execution_only')
-        if c.get('bootstrap_outer_loss_version') not in (None,'tq_detached_rms_target_v1'):reasons.append('bootstrap_loss')
+        if not execonly and c.get('bootstrap_outer_loss_version') not in (None,'tq_detached_rms_target_v1'):reasons.append('bootstrap_loss')
     elif method=='fql_amo':
         if fam not in ('fql_amo_jax',):
             reasons.append('method_variant:'+fam)
@@ -141,7 +142,11 @@ def classify(m, c):
         if te != tb: reasons.append('initial_scale_mismatch')
     elif method=='iql_amo':
         if number(c.get('beta_initial')) not in MAIN_BETAS:reasons.append('initial_beta_outside_main')
-        if fam not in ('amo_bpi','iql_amo_jax_adroit_beta1_rho','lr1e3_beta_sweep'):reasons.append('method_variant:'+fam)
+        lel2=c.get('execution_meta_loss')=='le_l2_rms'
+        if lel2:
+            if fam!='iql_amo_lel2':reasons.append('execution_meta_lel2')
+        elif fam not in ('amo_bpi','iql_amo_jax_adroit_beta1_rho','lr1e3_beta_sweep'):
+            reasons.append('method_variant:'+fam)
     elif method=='aspc' and c.get('l3_mode','aspc')!='aspc': reasons.append('l3_variant')
     elif method=='wpc' and number(c.get('policy_noise',.2))!=.2:reasons.append('policy_noise')
     if method in ('td3_amo','iql_amo','fql_amo') and number(lr) not in MAIN_LRS:reasons.append('meta_lr_outside_main')

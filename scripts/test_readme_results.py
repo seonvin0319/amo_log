@@ -249,6 +249,30 @@ class ResultTests(unittest.TestCase):
         unknown.update(classify(unknown,unknown['settings']))
         self.assertFalse(eligible(unknown,'bootrms'))
 
+    def test_execonly_and_iql_lel2_are_separate_from_original(self):
+        td3=meta(execution_only=True,bootstrap_loss='l2_rms',alpha_E=1,alpha_B=1,
+                 alpha_lr=.001,execution_score='bpi')
+        td3['family']='td3_amo_execonly_main'
+        td3.update(classify(td3,td3['settings']))
+        self.assertEqual(td3['section'],'main')
+        self.assertTrue(eligible(td3,'execonly'))
+        self.assertFalse(eligible(td3))
+        self.assertFalse(eligible(td3,'bootrms'))
+        iql=meta('iql_amo',beta_initial=1,rho_lr=.001,execution_meta_loss='le_l2_rms')
+        iql['family']='iql_amo_lel2'
+        iql.update(classify(iql,iql['settings']))
+        self.assertEqual(iql['section'],'main')
+        self.assertTrue(eligible(iql,'iql_lel2'))
+        self.assertFalse(eligible(iql))
+        empty=render_results([],{}, {},'execonly')
+        self.assertIn('id="execonly-td3_amo-1"',empty)
+        self.assertIn('π_E-only',empty)
+        self.assertEqual(sum(line.startswith('| hopper-medium-v2 |')
+                             for line in empty.splitlines()),9)
+        iql_text=render_results([],{}, {},'iql_lel2')
+        self.assertIn('id="iql_lel2-iql_amo-1"',iql_text)
+        self.assertIn('| 환경 | rho_lr |',iql_text)
+
 
 if __name__=='__main__':
     unittest.main()

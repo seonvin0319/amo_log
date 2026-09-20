@@ -79,11 +79,17 @@ def main():
     eval_blobs=blobs(root,wanted.values())
     evaluations={key:eval_blobs[oid].decode() for key,oid in wanted.items()}
     runs,selected=collect(catalogs,evaluations,revisions)
+    ex_runs,ex_selected=collect(catalogs,evaluations,revisions,'execonly')
+    iql2_runs,iql2_selected=collect(catalogs,evaluations,revisions,'iql_lel2')
     legacy_runs,legacy_selected=collect(catalogs,evaluations,revisions,'legacy_td3')
     qw_runs,qw_selected=collect(catalogs,evaluations,revisions,'qweight')
-    result_text = render_results(runs,selected,revisions)
+    result_text = (render_results(ex_runs,ex_selected,revisions,'execonly')+'\n'+
+                   render_results(iql2_runs,iql2_selected,revisions,'iql_lel2')+'\n'+
+                   render_results(runs,selected,revisions))
     (root/'README.md').write_text(make_readme(catalogs,result_text))
     write_csv(root,runs)
+    write_csv(root,ex_runs,'execonly_runs.csv')
+    write_csv(root,iql2_runs,'iql_lel2_runs.csv')
     write_csv(root,legacy_runs,'ablation/td3_l1_l2_runs.csv')
     (root/'reports/ablation/td3_l1_l2.md').write_text(
         render_results(legacy_runs,legacy_selected,revisions,'legacy_td3'))
@@ -97,6 +103,8 @@ def main():
                       'legacy_td3_runs':len(legacy_runs),'legacy_td3_seed_cells':len(legacy_selected),
                       'qweight_runs':len(qw_runs),'qweight_seed_cells':len(qw_selected),
                       'qweight_completed_1m_cells':sum(r['step']==1000000 for r in qw_selected.values()),
+                      'execonly_runs':len(ex_runs),'execonly_seed_cells':len(ex_selected),
+                      'iql_lel2_runs':len(iql2_runs),'iql_lel2_seed_cells':len(iql2_selected),
                       'scored_cells':sum(r['score'] is not None for r in selected.values()),
                       'completed_1m_cells':sum(r['step']==1000000 for r in selected.values()),
                       'evaluation_bytes':sum(len(raw) for raw in eval_blobs.values())}))
