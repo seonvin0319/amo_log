@@ -36,11 +36,12 @@ class ClassificationTests(unittest.TestCase):
                        {'critic_depth':2},{'alpha_B':2}):
             self.assertEqual(classify(m,{**c,**change})['section'],'ablation')
 
-    def test_execonly_and_iql_lel2_are_main(self):
+    def test_execonly_and_iql_lel2_are_ablation(self):
         m,c=run(alpha_E=5,alpha_B=5,alpha_lr=.001,execution_score='bpi',
                 execution_only=True,bootstrap_loss='l2_rms')
         m['family']='td3_amo_execonly_main'
-        self.assertEqual(classify(m,c)['section'],'main')
+        self.assertEqual(classify(m,c)['section'],'ablation')
+        self.assertIn('execution_only',classify(m,c)['classification_reasons'])
         m['family']='td3_amo_bootrms_maincand'
         self.assertIn('execution_only',classify(m,c)['classification_reasons'])
         m,c=run('iql_amo',beta_initial=5,rho_lr=.001,execution_meta_loss='le_l2_rms')

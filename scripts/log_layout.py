@@ -120,7 +120,7 @@ def classify(m, c):
             reasons.append('method_variant:'+fam)
         execonly=bool(c.get('execution_only',False))
         if execonly:
-            if fam!='td3_amo_execonly_main':reasons.append('execution_only')
+            reasons.append('execution_only')
         elif c.get('bootstrap_loss')!='l2_rms':
             reasons.append('bootstrap_loss_not_l2_rms')
         te,tb=initial_alphas(c)

@@ -56,8 +56,9 @@ def validate(paths,contents,branch):
   if not p.endswith('/run_meta.json'):continue
   try:m=json.loads(contents[p])
   except (ValueError,KeyError):fail('Invalid metadata: '+p);continue
-  if is_retired_apart(m):continue
   parent=p.rsplit('/',1)[0];metas[parent]=m
+  # Retired runs remain archived; include them in path/catalog consistency checks.
+  if is_retired_apart(m):continue
   required=('layout_version','method','section','env','seed','backend','meta_lr','rel_path','run_id','source_path','settings','git')
   if any(k not in m for k in required):fail('Missing metadata fields: '+p);continue
   if m['layout_version']!=2:fail('Unsupported layout version: '+p)
