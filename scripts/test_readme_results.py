@@ -261,7 +261,7 @@ class ResultTests(unittest.TestCase):
         iql=meta('iql_amo',beta_initial=1,rho_lr=.001,execution_meta_loss='le_l2_rms')
         iql['family']='iql_amo_lel2'
         iql.update(classify(iql,iql['settings']))
-        self.assertEqual(iql['section'],'main')
+        self.assertEqual(iql['section'],'ablation')
         self.assertTrue(eligible(iql,'iql_lel2'))
         self.assertFalse(eligible(iql))
         empty=render_results([],{}, {},'execonly')

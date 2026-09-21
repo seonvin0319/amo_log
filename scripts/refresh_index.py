@@ -84,12 +84,11 @@ def main():
     legacy_runs,legacy_selected=collect(catalogs,evaluations,revisions,'legacy_td3')
     qw_runs,qw_selected=collect(catalogs,evaluations,revisions,'qweight')
     result_text = (render_results(ex_runs,ex_selected,revisions,'execonly')+'\n'+
-                   render_results(iql2_runs,iql2_selected,revisions,'iql_lel2')+'\n'+
                    render_results(runs,selected,revisions))
     (root/'README.md').write_text(make_readme(catalogs,result_text))
     write_csv(root,runs)
     write_csv(root,ex_runs,'execonly_runs.csv')
-    write_csv(root,iql2_runs,'iql_lel2_runs.csv')
+    write_csv(root,iql2_runs,'ablation/iql_lel2_runs.csv')
     write_csv(root,legacy_runs,'ablation/td3_l1_l2_runs.csv')
     (root/'reports/ablation/td3_l1_l2.md').write_text(
         render_results(legacy_runs,legacy_selected,revisions,'legacy_td3'))
@@ -99,6 +98,12 @@ def main():
                +render_results(qw_runs,qw_selected,revisions,'qweight').replace(
                    'reports/qweight_runs.csv','qweight_runs.csv'))
     (root/'reports/ablation/iql_qweight.md').write_text(archive)
+    lel2_archive = ('# IQL-AMO L_E+L2_RMS ablation\n\n'
+                    '기존 IQL 설정과 다른 실행이라 main에서 내렸습니다. '
+                    '로그와 평가는 ablation으로 보존합니다.\n\n'
+                    +render_results(iql2_runs,iql2_selected,revisions,'iql_lel2').replace(
+                        'reports/iql_lel2_runs.csv','iql_lel2_runs.csv'))
+    (root/'reports/ablation/iql_lel2.md').write_text(lel2_archive)
     print(json.dumps({'amo_runs':len(runs),'seed_cells':len(selected),
                       'legacy_td3_runs':len(legacy_runs),'legacy_td3_seed_cells':len(legacy_selected),
                       'qweight_runs':len(qw_runs),'qweight_seed_cells':len(qw_selected),

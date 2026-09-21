@@ -45,7 +45,8 @@ class ClassificationTests(unittest.TestCase):
         self.assertIn('execution_only',classify(m,c)['classification_reasons'])
         m,c=run('iql_amo',beta_initial=5,rho_lr=.001,execution_meta_loss='le_l2_rms')
         m['family']='iql_amo_lel2'
-        self.assertEqual(classify(m,c)['section'],'main')
+        self.assertEqual(classify(m,c)['section'],'ablation')
+        self.assertIn('execution_meta_lel2',classify(m,c)['classification_reasons'])
         m['family']='amo_bpi'
         self.assertIn('execution_meta_lel2',classify(m,c)['classification_reasons'])
 

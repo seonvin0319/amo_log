@@ -64,7 +64,7 @@ def eligible(meta, cohort='original'):
     elif cohort=='iql_lel2':
         if not is_iql_lel2:
             return False
-        allowed = {'method_variant:iql_amo_lel2'}
+        allowed = {'execution_meta_lel2', 'method_variant:iql_amo_lel2'}
         reasons = set(classify(meta,c)['classification_reasons'])
         if reasons-allowed or initial(meta) not in INITIALS:
             return False
