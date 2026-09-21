@@ -416,7 +416,7 @@
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hopmr_s1_alr0p0003__cd6871c7](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_1/hopmr_s1_alr0p0003__cd6871c7/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 1 | jax | 1000000 | [hopmr_s1_jax_ae2_ab2_alr0p0003__2b6cdd31](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_1/hopmr_s1_jax_ae2_ab2_alr0p0003__2b6cdd31/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hopmr_s1_jax_ae5_ab5_alr0p0003__27acb9c6](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_1/hopmr_s1_jax_ae5_ab5_alr0p0003__27acb9c6/) |
-| ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | — | [hopmr_s2_alr0p0003__84b5d4a7](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_alr0p0003__84b5d4a7/) |
+| ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [hopmr_s2_alr0p0003__84b5d4a7](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_alr0p0003__84b5d4a7/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 2 | jax | 1000000 | [hopmr_s2_jax_ae2_ab2_alr0p0003__9420914d](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_jax_ae2_ab2_alr0p0003__9420914d/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [hopmr_s2_jax_ae5_ab5_alr0p0003__07f14d80](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_jax_ae5_ab5_alr0p0003__07f14d80/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 3 | jax | 1000000 | [hopmr_s3_jax_ae2_ab2_alr0p0003__e8ebf25c](../ablation/td3_amo/hopper-medium-replay-v2/3e-4/seed_3/hopmr_s3_jax_ae2_ab2_alr0p0003__e8ebf25c/) |
@@ -427,6 +427,7 @@
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | 1000000 | [hopmr_s1_alr0p001__0297a27a](../ablation/td3_amo/hopper-medium-replay-v2/1e-3/seed_1/hopmr_s1_alr0p001__0297a27a/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 1 | jax | 1000000 | [hopmr_s1_alr0p001__e4147600](../ablation/td3_amo/hopper-medium-replay-v2/1e-3/seed_1/hopmr_s1_alr0p001__e4147600/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 1 | jax | 1000000 | [hopmr_s1_jax_ae5_ab5_alr0p001__2838af2b](../ablation/td3_amo/hopper-medium-replay-v2/1e-3/seed_1/hopmr_s1_jax_ae5_ab5_alr0p001__2838af2b/) |
+| ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | — | [hopmr_s2_alr0p001__ad3b074a](../ablation/td3_amo/hopper-medium-replay-v2/1e-3/seed_2/hopmr_s2_alr0p001__ad3b074a/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 2 | jax | 1000000 | [hopmr_s2_jax_ae5_ab5_alr0p001__12cf191d](../ablation/td3_amo/hopper-medium-replay-v2/1e-3/seed_2/hopmr_s2_jax_ae5_ab5_alr0p001__12cf191d/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [hopmr_s3_jax_ae5_ab5_alr0p001__aab9de5b](../ablation/td3_amo/hopper-medium-replay-v2/1e-3/seed_3/hopmr_s3_jax_ae5_ab5_alr0p001__aab9de5b/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 0 | jax | 1000000 | [hopmr_s0_alr0p002__57edf45d](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_alr0p002__57edf45d/) |
@@ -447,6 +448,7 @@
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 1 | jax | 1000000 | [hopmr_s1_jax_ae5_ab5_alr0p002__e5a9b550](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_jax_ae5_ab5_alr0p002__e5a9b550/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_alr0p002__0fdfde10](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_alr0p002__0fdfde10/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_alr0p002__2cbb0f03](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_alr0p002__2cbb0f03/) |
+| ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | — | [hopmr_s2_alr0p002__4ad91995](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_alr0p002__4ad91995/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_alr0p002__6f0915ec](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_alr0p002__6f0915ec/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_alr0p002__769f80ff](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_alr0p002__769f80ff/) |
 | ablation | td3_amo | hopper-medium-replay-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_alr0p002__d03b6243](../ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_alr0p002__d03b6243/) |
@@ -495,7 +497,7 @@
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 1 | jax | 1000000 | [hopm_s1_alr0p002__93637c47](../ablation/td3_amo/hopper-medium-v2/2e-3/seed_1/hopm_s1_alr0p002__93637c47/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.002 | 1 | jax | 1000000 | [hopm_s1_alr0p002__be2ffb0f](../ablation/td3_amo/hopper-medium-v2/2e-3/seed_1/hopm_s1_alr0p002__be2ffb0f/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 1 | jax | 1000000 | [hopm_s1_jax_ae5_ab5_alr0p002__277fceac](../ablation/td3_amo/hopper-medium-v2/2e-3/seed_1/hopm_s1_jax_ae5_ab5_alr0p002__277fceac/) |
-| ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | — | [hopm_s2_alr0p002__2325ddcc](../ablation/td3_amo/hopper-medium-v2/2e-3/seed_2/hopm_s2_alr0p002__2325ddcc/) |
+| ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hopm_s2_alr0p002__2325ddcc](../ablation/td3_amo/hopper-medium-v2/2e-3/seed_2/hopm_s2_alr0p002__2325ddcc/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 2 | jax | 1000000 | [hopm_s2_jax_ae5_ab5_alr0p002__3d44fcbe](../ablation/td3_amo/hopper-medium-v2/2e-3/seed_2/hopm_s2_jax_ae5_ab5_alr0p002__3d44fcbe/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [hopm_s3_jax_ae5_ab5_alr0p002__f9b0daa5](../ablation/td3_amo/hopper-medium-v2/2e-3/seed_3/hopm_s3_jax_ae5_ab5_alr0p002__f9b0daa5/) |
 | ablation | td3_amo | pen-cloned-v1 | alpha_E/alpha_B=2/2 | 0.001 | 0 | jax | 1000000 | [penc_s0_td3_amo_T1_Tlr1e3__8deea771](../ablation/td3_amo/pen-cloned-v1/1e-3/seed_0/penc_s0_td3_amo_T1_Tlr1e3__8deea771/) |
