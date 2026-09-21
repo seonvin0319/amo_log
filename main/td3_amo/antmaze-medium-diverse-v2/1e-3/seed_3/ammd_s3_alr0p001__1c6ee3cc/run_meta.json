@@ -1,0 +1,83 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [],
+  "collected_at": "2026-09-21T11:40:18+09:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "family": "td3_amo_bootrms_maincand",
+  "git": {
+    "code_commit": "1e34514ddf70bfc8a78757d9a78b82306627164c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "a1_am-md_r1e3_s3",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_bootrms_maincand/ammd_s3_alr0p001__1c6ee3cc",
+  "rel_path": "main/td3_amo/antmaze-medium-diverse-v2/1e-3/seed_3/ammd_s3_alr0p001__1c6ee3cc",
+  "run_id": "ammd_s3_alr0p001__1c6ee3cc",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "c45d9e8a0dc71052a88f96a43cec73ac7d5f0ec553f1d08e2e4dfa19ac97b631"
+      },
+      "metrics.jsonl": {
+        "sha256": "f1451953c3e6e08776bd88c6e193469f6bfb99f568988ab49fec7abd0231f312"
+      },
+      "source_run_meta.json": {
+        "sha256": "1babea23be31a539b5e3be2808ed8b93da74597eedaf87d8b4587768a383bb68"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "main",
+  "seed": 3,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 1,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-medium-diverse-v2",
+    "eval_episodes": 100,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-md_r1e3_s3/run",
+  "variant": "alr0p001"
+}
