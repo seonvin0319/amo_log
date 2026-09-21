@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_dual_lel2"
   ],
-  "collected_at": "2026-09-21T19:43:48+09:00",
+  "collected_at": "2026-09-21T19:49:19+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_dual_lel2",
@@ -32,8 +32,14 @@
       "config.yaml": {
         "sha256": "25b6649223b3ffb8c9f57a2a294b494cdb7330f1f47cf1372375cb236c97d64b"
       },
+      "eval.jsonl": {
+        "sha256": "b991319cabebcf7fc593d43d850ce8cd14ec9012dfc7ff3544ae90a7ff43045e"
+      },
+      "final_eval_50.json": {
+        "sha256": "1355b795bd045ae4ce1f5e61ceaedd43669fb377179c67f3edf78f4119fe574f"
+      },
       "metrics.jsonl": {
-        "sha256": "eb78706eff042a9b18b0e661c9740982abf013c6cd2462ed424f0a4e27efe2a5"
+        "sha256": "e9ef8fb797cb8f7365c810c9805c93870d3b3389130829b2c248a80ac6c1c912"
       },
       "source_run_meta.json": {
         "sha256": "9c2d4cbb547acf9ae5a76c5cc101f355ab50458f8fb58bba01723981696ff01f"
