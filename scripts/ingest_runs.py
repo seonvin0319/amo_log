@@ -286,6 +286,23 @@ DEFAULT_SOURCES.append(
     }
 )
 
+# IQL critic + DDPG+BC actor, AMO alpha_E=5, L_E only. Loco9 × alpha_lr × seeds 0–3.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "iql",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/iql_ddpgbc_amo_a5_seeds03/jobs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO",
+        "family_force": "iql_ddpgbc",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 2,
+        "variant_tag": "a5_loco9",
+    }
+)
+
 
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
@@ -526,6 +543,16 @@ def build_variant(
         b0 = cfg.get("beta_initial", cfg.get("beta_init", cfg.get("beta")))
         if b0 is not None:
             tokens.append(f"b{fmt_num(float(b0))}")
+    if family == "iql_ddpgbc":
+        tokens.append("iql_ddpgbc_amo")
+        if cfg.get("_variant_tag"):
+            tokens.append(str(cfg["_variant_tag"]))
+        alpha_e = cfg.get("alpha_E")
+        if alpha_e is not None:
+            tokens.append(f"a{fmt_num(float(alpha_e))}")
+        alr = cfg.get("alpha_lr")
+        if alr is not None:
+            tokens.append("alr" + fmt_num(float(alr)))
     if family == "paper_benchmark":
         tokens.append(algo if algo in ("wpc", "aspc") else "bench")
         alpha = cfg.get("alpha")
@@ -587,6 +614,9 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "meta_warmup_steps",
         "meta_interval",
         "rho_lr",
+        "alpha_lr",
+        "alpha_E",
+        "alpha_B",
         "weight_cap",
         "amo_dual_bpi",
         "qweight_enabled",
@@ -683,6 +713,8 @@ def ingest_one(
     # Nested cell tag (e.g. rlr2e-3_b1) for amo_bpi uniqueness.
     if family_force == "amo_bpi" and src.parent is not None:
         cfg["_cell"] = src.parent.name
+    if family_force == "iql_ddpgbc" and src.parent is not None:
+        cfg["_cell"] = src.parent.name
 
     env = str(cfg.get("env") or src.name or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
@@ -692,7 +724,9 @@ def ingest_one(
         algo = "amo"
     # Include parent cell dir in dirname blob so uuid/variant stay unique per cell.
     dirname_for_variant = (
-        f"{src.parent.name}_{src.name}" if family == "amo_bpi" else src.name
+        f"{src.parent.name}_{src.name}"
+        if family in ("amo_bpi", "iql_ddpgbc")
+        else src.name
     )
     variant = build_variant(
         algo, family, cfg, dirname_for_variant, source_root=source_root
@@ -735,6 +769,11 @@ def ingest_one(
         meta["protocol"] = "corl_iql_adaptive_beta_v1"
     if family == "amo_qweight":
         meta["protocol"] = "jax_iql_amo_qweight_v1"
+    if family == "iql_ddpgbc":
+        meta["protocol"] = "jax_iql_ddpgbc_amo_le_v1"
+        meta["git"]["code_commit"] = "d9be263443ffc1ca8834e277418826cff4ac6dc0"
+        if cfg.get("_cell"):
+            meta["cell"] = cfg["_cell"]
     if family == "amo_bpi":
         if str(cfg.get("backend") or "").lower() == "jax" or "jax_rem" in str(
             cfg.get("_variant_tag") or ""
@@ -765,10 +804,19 @@ def ingest_one(
     dest.mkdir(parents=True, exist_ok=True)
     # Archive as config.yaml even when source used resolved_config.yaml.
     shutil.copy2(cfg_path, dest / "config.yaml")
+    # Shared log_layout reads rho_lr/beta_lr. This actor uses alpha_lr.
+    if (
+        family == "iql_ddpgbc"
+        and cfg.get("rho_lr") is None
+        and cfg.get("beta_lr") is None
+        and cfg.get("alpha_lr") is not None
+    ):
+        with (dest / "config.yaml").open("a", encoding="utf-8") as handle:
+            handle.write(f"\nrho_lr: {cfg['alpha_lr']}\n")
     for name in present:
         src_file = src / name
         if (
-            family == "amo_qweight"
+            family in ("amo_qweight", "iql_ddpgbc")
             and name == "metrics.jsonl"
             and src_file.stat().st_size > 262144
         ):
