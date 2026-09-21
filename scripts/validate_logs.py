@@ -3,7 +3,7 @@
 import argparse,json,subprocess,os
 import yaml
 from pathlib import Path
-from log_layout import MAIN_LRS, MAIN_ALPHAS, MAIN_BETAS, initial_alphas, is_adroit, number, classify
+from log_layout import MAIN_LRS, MAIN_ALPHAS, MAIN_BETAS, initial_alphas, is_adroit, number, classify, is_retired_apart
 from alpha_logs import SCHEMA, legacy_keys
 from log_layout import config, invalid_network_lrs, excluded_network_lr, NETWORK_LR_EXCLUSIONS
 METHODS={'td3_amo','iql_amo','fql_amo','td3bc+rc','iql','a2pr','wpc','aspc'}
@@ -57,6 +57,8 @@ def validate(paths,contents,branch):
   try:m=json.loads(contents[p])
   except (ValueError,KeyError):fail('Invalid metadata: '+p);continue
   parent=p.rsplit('/',1)[0];metas[parent]=m
+  # Retired runs remain archived; include them in path/catalog consistency checks.
+  if is_retired_apart(m):continue
   required=('layout_version','method','section','env','seed','backend','meta_lr','rel_path','run_id','source_path','settings','git')
   if any(k not in m for k in required):fail('Missing metadata fields: '+p);continue
   if m['layout_version']!=2:fail('Unsupported layout version: '+p)
