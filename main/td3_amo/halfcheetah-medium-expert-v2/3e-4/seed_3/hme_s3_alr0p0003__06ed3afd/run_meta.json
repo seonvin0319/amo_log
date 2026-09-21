@@ -7,7 +7,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-21T14:30:31+09:00",
+  "collected_at": "2026-09-21T14:36:01+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "td3_amo_bootrms_maincand",
@@ -31,7 +31,7 @@
         "sha256": "e5015ccfe0860fe838b02259a738cdc59a3dc71bbf1cbf170e767a0caf2355a9"
       },
       "metrics.jsonl": {
-        "sha256": "b3e867b9e8834d74c627c9c9ba2ff423000491ed3756a88ba359144b65816063"
+        "sha256": "99965f56a441beb569241ccdca47ee9545de8596ce772bf3f4069ea5db585036"
       },
       "source_run_meta.json": {
         "sha256": "f5886e16509238432d9dbc945855888ef81723464d9d60f82261b39e21c904ff"
