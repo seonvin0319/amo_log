@@ -120,7 +120,7 @@ def classify(m, c):
             reasons.append('method_variant:'+fam)
         execonly=bool(c.get('execution_only',False))
         if execonly:
-            if fam!='td3_amo_execonly_main':reasons.append('execution_only')
+            reasons.append('execution_only')
         elif c.get('bootstrap_loss')!='l2_rms':
             reasons.append('bootstrap_loss_not_l2_rms')
         te,tb=initial_alphas(c)
@@ -144,7 +144,7 @@ def classify(m, c):
         if number(c.get('beta_initial')) not in MAIN_BETAS:reasons.append('initial_beta_outside_main')
         lel2=c.get('execution_meta_loss')=='le_l2_rms'
         if lel2:
-            if fam!='iql_amo_lel2':reasons.append('execution_meta_lel2')
+            reasons.append('execution_meta_lel2')
         elif fam not in ('amo_bpi','iql_amo_jax_adroit_beta1_rho','lr1e3_beta_sweep'):
             reasons.append('method_variant:'+fam)
     elif method=='aspc' and c.get('l3_mode','aspc')!='aspc': reasons.append('l3_variant')
