@@ -2,6 +2,8 @@
 
 | 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |
 |---|---|---|---|---|---:|---|---:|---|
+| ablation | iql_amo | antmaze-umaze-v2 | beta=? | 0.0003 | 0 | torch | — | [amu_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__fc454428](../ablation/iql_amo/antmaze-umaze-v2/3e-4/seed_0/amu_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__fc454428/) |
+| ablation | iql_amo | antmaze-umaze-v2 | beta=? | 0.0003 | 1 | torch | — | [amu_s1_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__f04be892](../ablation/iql_amo/antmaze-umaze-v2/3e-4/seed_1/amu_s1_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__f04be892/) |
 | ablation | iql_amo | halfcheetah-medium-expert-v2 | beta=3.0 | 0.0001 | 0 | torch | 1000000 | [hme_s0_iql_ab_loco4_b3_t0p7__643088a8](../ablation/iql_amo/halfcheetah-medium-expert-v2/1e-4/seed_0/hme_s0_iql_ab_loco4_b3_t0p7__643088a8/) |
 | ablation | iql_amo | halfcheetah-medium-expert-v2 | beta=2.0 | 0.0003 | 0 | jax | — | [hme_s0_iql_amo_qweight_jax_loco9_rlr0p0003_b2__4a7a3e0a](../ablation/iql_amo/halfcheetah-medium-expert-v2/3e-4/seed_0/hme_s0_iql_amo_qweight_jax_loco9_rlr0p0003_b2__4a7a3e0a/) |
 | ablation | iql_amo | halfcheetah-medium-expert-v2 | beta=5.0 | 0.0003 | 0 | jax | — | [hme_s0_iql_amo_qweight_jax_loco9_rlr0p0003_b5__d4170e6b](../ablation/iql_amo/halfcheetah-medium-expert-v2/3e-4/seed_0/hme_s0_iql_amo_qweight_jax_loco9_rlr0p0003_b5__d4170e6b/) |
