@@ -53,7 +53,7 @@ def eligible(meta, cohort='original'):
     elif cohort=='execonly':
         if not is_execonly:
             return False
-        allowed = {'method_variant:td3_amo_execonly_main'}
+        allowed = {'execution_only', 'method_variant:td3_amo_execonly_main'}
         reasons = set(classify(meta,c)['classification_reasons'])
         if reasons-allowed or initial_alphas(c)[0] not in INITIALS:
             return False
@@ -326,8 +326,8 @@ def render_results(runs, selected, revisions, cohort='original'):
         if not runs:
             lines[3:3] = ['', '**아직 업로드된 IQL QWeight 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
     if execonly:
-        lines[0] = '## TD3-AMO π_E-only · L_E+L2_RMS'
-        lines[2] = ('TD3-AMO π_E-only (`execution_only=true`)입니다. α_E meta-loss는 **L_E (BPI) + L2_RMS**이며 '
+        lines[0] = '## TD3-AMO π_E-only · L_E+L2_RMS · ablation'
+        lines[2] = ('TD3-AMO π_E-only (`execution_only=true`) ablation입니다. α_E meta-loss는 **L_E (BPI) + L2_RMS**이며 '
                     'π_E가 환경과 벨만 타깃을 모두 맡습니다. 초기 **alpha=1, 2, 5**, '
                     '**alpha_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**.')
         lines = [line.replace('reports/amo_runs.csv','reports/execonly_runs.csv') for line in lines]
@@ -338,8 +338,8 @@ def render_results(runs, selected, revisions, cohort='original'):
         if not runs:
             lines[3:3] = ['', '**아직 업로드된 π_E-only 로그가 없습니다. 아래 표는 로그 push 후 자동으로 채워집니다.**']
     if iql_lel2:
-        lines[0] = '## IQL-AMO π_E · L_E+L2_RMS'
-        lines[2] = ('IQL-AMO의 β_E meta-loss를 **L_E (BPI) + L2_RMS**로 둔 본 실험입니다. '
+        lines[0] = '## IQL-AMO π_E · L_E+L2_RMS · ablation'
+        lines[2] = ('IQL-AMO의 β_E meta-loss를 **L_E (BPI) + L2_RMS**로 둔 ablation입니다. '
                     '벨만은 V, 평가 정책은 π_E입니다. 초기 **beta=1, 2, 5**, '
                     '**rho_lr=2e-3, 1e-3, 3e-4**, **seed 0~3**.')
         lines = [line.replace('reports/amo_runs.csv','reports/iql_lel2_runs.csv') for line in lines]

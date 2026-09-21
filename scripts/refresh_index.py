@@ -83,11 +83,16 @@ def main():
     iql2_runs,iql2_selected=collect(catalogs,evaluations,revisions,'iql_lel2')
     legacy_runs,legacy_selected=collect(catalogs,evaluations,revisions,'legacy_td3')
     qw_runs,qw_selected=collect(catalogs,evaluations,revisions,'qweight')
-    result_text = (render_results(ex_runs,ex_selected,revisions,'execonly')+'\n'+
-                   render_results(runs,selected,revisions))
+    result_text = (render_results(runs,selected,revisions)+'\n\n## Ablation 결과\n\n'
+                   '- [TD3-AMO π_E-only · L_E+L2_RMS](reports/ablation/td3_execonly.md)\n'
+                   '- [IQL-AMO π_E · L_E+L2_RMS](reports/ablation/iql_lel2.md)\n')
     (root/'README.md').write_text(make_readme(catalogs,result_text))
     write_csv(root,runs)
-    write_csv(root,ex_runs,'execonly_runs.csv')
+    write_csv(root,ex_runs,'ablation/execonly_runs.csv')
+    (root/'reports/execonly_runs.csv').unlink(missing_ok=True)
+    (root/'reports/ablation/td3_execonly.md').write_text(
+        render_results(ex_runs,ex_selected,revisions,'execonly').replace(
+            'reports/execonly_runs.csv','execonly_runs.csv'))
     write_csv(root,iql2_runs,'ablation/iql_lel2_runs.csv')
     write_csv(root,legacy_runs,'ablation/td3_l1_l2_runs.csv')
     (root/'reports/ablation/td3_l1_l2.md').write_text(

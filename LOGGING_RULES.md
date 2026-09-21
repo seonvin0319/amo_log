@@ -32,7 +32,7 @@
 - 허용 초기값과 함께 meta lr `1e-3`, `2e-3`, `3e-4` 및 기존 구조/loss 기준도 만족해야 main이다. actor/critic lr는 이 meta lr와 별개다.
 - 기존 loss·critic 구조·N·alpha 비율/스케줄 등 변형 실험은 ablation으로 보존한다. 현재 분류 기준은 `scripts/log_layout.py`와 `classification_reasons`를 따른다.
 - TD3-AMO 본 실험은 **`bootstrap_loss=l2_rms` (L2_RMS only, bootrms)**이다. `td3_amo_bootrms_maincand` family도 나머지 초기값·lr·구조 조건을 만족하면 main이다. 기존 L1+L2_RMS 및 loss 미기록 실행은 `bootstrap_loss_not_l2_rms` 사유로 ablation에 보존하며, 과거 설정을 임의로 보충하지 않는다. `execution_score=direct_q`는 ablation이다.
-- TD3-AMO **π_E-only** (`execution_only=true`, family `td3_amo_execonly_main`)도 본 실험이다. 단일 actor가 π_B 자리에 들어가며 α_E meta-loss는 **L_E (BPI) + L2_RMS**이다. 같은 플래그를 다른 family에 붙인 실행은 `execution_only` 사유로 ablation이다.
+- TD3-AMO **π_E-only** (`execution_only=true`, family `td3_amo_execonly_main`)는 **ablation**이다. `execution_only` 사유로 분류하며 main 결과표에서 제외한다. 단일 actor가 π_B 자리에 들어가며 α_E meta-loss는 **L_E (BPI) + L2_RMS**이다. 같은 플래그를 다른 family에 붙인 실행은 `execution_only` 사유로 ablation이다.
 - IQL-AMO **π_E L_E+L2_RMS** (`execution_meta_loss=le_l2_rms`, family `iql_amo_lel2`)는 현재 **ablation**이다. 기존 IQL 설정(hopper-medium / hopper-medium-replay deterministic, Q/V 2층·LayerNorm 없음)과 다른 실행을 main에 두지 않는다. 사유는 `execution_meta_lel2`이다.
 - baseline의 고유 beta 설정은 AMO 초기 beta가 아니므로 이 초기값 제한을 적용하지 않는다.
 - 폴더 이름이나 높은 점수로 실험 설정을 추정하지 않는다. 설정 파일과 원본 metadata를 먼저 확인한다.

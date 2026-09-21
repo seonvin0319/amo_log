@@ -254,7 +254,7 @@ class ResultTests(unittest.TestCase):
                  alpha_lr=.001,execution_score='bpi')
         td3['family']='td3_amo_execonly_main'
         td3.update(classify(td3,td3['settings']))
-        self.assertEqual(td3['section'],'main')
+        self.assertEqual(td3['section'],'ablation')
         self.assertTrue(eligible(td3,'execonly'))
         self.assertFalse(eligible(td3))
         self.assertFalse(eligible(td3,'bootrms'))
