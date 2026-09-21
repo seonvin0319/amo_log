@@ -2,6 +2,7 @@
 
 | 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |
 |---|---|---|---|---|---:|---|---:|---|
+| ablation | iql_amo | antmaze-large-play-v2 | beta=? | 0.0003 | 0 | torch | — | [amlp_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__0e91261e](../ablation/iql_amo/antmaze-large-play-v2/3e-4/seed_0/amlp_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__0e91261e/) |
 | ablation | iql_amo | antmaze-medium-diverse-v2 | beta=? | 0.0003 | 0 | torch | — | [ammd_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__6a91748b](../ablation/iql_amo/antmaze-medium-diverse-v2/3e-4/seed_0/ammd_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__6a91748b/) |
 | ablation | iql_amo | antmaze-medium-diverse-v2 | beta=? | 0.0003 | 1 | torch | — | [ammd_s1_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__39ac8865](../ablation/iql_amo/antmaze-medium-diverse-v2/3e-4/seed_1/ammd_s1_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__39ac8865/) |
 | ablation | iql_amo | antmaze-medium-diverse-v2 | beta=? | 0.0003 | 2 | torch | — | [ammd_s2_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__b9315a8b](../ablation/iql_amo/antmaze-medium-diverse-v2/3e-4/seed_2/ammd_s2_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__b9315a8b/) |
