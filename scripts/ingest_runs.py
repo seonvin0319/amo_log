@@ -303,6 +303,23 @@ DEFAULT_SOURCES.append(
     }
 )
 
+# Same actor after alpha_E=5: alpha_E init 1, loco9 + antmaze, seeds 0–3.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "iql",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/iql_ddpgbc_amo_a1_seeds03/jobs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO",
+        "family_force": "iql_ddpgbc",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 2,
+        "variant_tag": "a1_loco_antmaze",
+    }
+)
+
 
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
