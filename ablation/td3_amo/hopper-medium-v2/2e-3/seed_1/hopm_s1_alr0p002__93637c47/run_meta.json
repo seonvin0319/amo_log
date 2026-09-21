@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_dual_lel2"
   ],
-  "collected_at": "2026-09-21T16:58:30+09:00",
+  "collected_at": "2026-09-21T17:04:00+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_dual_lel2",
@@ -33,7 +33,7 @@
         "sha256": "fff1be47960d99ed137fb9a745b8dcdb2aa96d5c72b854ab641573c3f4178b8d"
       },
       "metrics.jsonl": {
-        "sha256": "aa157d5b196d7a20f00a47e8ce52d2e29aee251f44ef9d4156ff6b0963ea812f"
+        "sha256": "af8d593d127ae780dbb063f047b26e18c241c405cc0241f2c6687aa275889b0d"
       },
       "source_run_meta.json": {
         "sha256": "8c4e397bf878b47a7f7ea8f4eb72e6f8a0aa412d20f73040f15e9270230c29fd"
