@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_dual_lel2"
   ],
-  "collected_at": "2026-09-22T14:29:56+09:00",
+  "collected_at": "2026-09-22T14:35:31+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_dual_lel2",
@@ -32,8 +32,14 @@
       "config.yaml": {
         "sha256": "11a0c1e71571d40c616850780bc8abff47bd1496b86997245746aec3cc7c647e"
       },
+      "eval.jsonl": {
+        "sha256": "129cc867b1320aa9b20a07c6eaae84b8fc853892c8573cfe045ad3b6eaddd5c0"
+      },
+      "final_eval_50.json": {
+        "sha256": "c0b2597d2484a1c9c19d22fd0f16a002c700bdb8dca5a51c6520d409e1af1be4"
+      },
       "metrics.jsonl": {
-        "sha256": "96f03c8b21d68dcc05fc2de9adc540912b5da36a7b3d70a5667d89ffc99d5bdc"
+        "sha256": "f4c7014edc4a41ec1571a02f0aed9af645c559789eebabd6f0fb1bfc1233b2a2"
       },
       "source_run_meta.json": {
         "sha256": "eebffa460527f5f7a5c7c5649cf7085f67f3cf226aa5e0dce65ab853dd2922ad"
