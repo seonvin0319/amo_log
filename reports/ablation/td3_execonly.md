@@ -206,7 +206,7 @@ TD3-AMO π_E-only (`execution_only=true`) ablation입니다. α_E meta-loss는 *
 | 브랜치 | 로그 snapshot | TD3 π_E-only 실행 |
 |---|---|---:|
 | choi | [2a8742c4](https://github.com/seonvin0319/amo_log/commit/2a8742c47a04884baeb165266b26fe6a9a66599e) | 0 |
-| ext_csh | [5b03ca86](https://github.com/seonvin0319/amo_log/commit/5b03ca8697a1a9ac4053b091335af9ccdb04e363) | 0 |
+| ext_csh | [2ee762fa](https://github.com/seonvin0319/amo_log/commit/2ee762fa0eefe4b6845a134c7c94411f75cd2201) | 0 |
 | ext_csv | [168d732b](https://github.com/seonvin0319/amo_log/commit/168d732baa04271556c80a5feabb8a2bf1c8d4a8) | 0 |
 | offrl | [f1294201](https://github.com/seonvin0319/amo_log/commit/f129420153bf669419b0a7e30578b8c1cf3c3dfc) | 0 |
 | shchoi | [975aa71c](https://github.com/seonvin0319/amo_log/commit/975aa71c4b6994a8bc7777627f5f2f6fb47a9d71) | 0 |
