@@ -17871,7 +17871,7 @@
         "method_variant:iql_ddpgbc_amo_fixed_alpha_E",
         "meta_lr_outside_main"
       ],
-      "collected_at": "2026-09-22T16:39:12+09:00",
+      "collected_at": "2026-09-22T16:44:19+09:00",
       "env": "hopper-medium-v2",
       "env_short": "hopm",
       "family": "iql_ddpgbc_amo_fixed_alpha_E",
@@ -17885,7 +17885,7 @@
       "legacy_name": "run",
       "meta_lr": null,
       "metadata_provenance": {
-        "checkpoint_path": "/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs/iql_E5_h-m_s1/run/checkpoints/step_40000.npz",
+        "checkpoint_path": "/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs/iql_E5_h-m_s1/run/checkpoints/step_520000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -57994,7 +57994,7 @@
       "classification_reasons": [
         "method_variant:td3_amo_fixed_alpha_B"
       ],
-      "collected_at": "2026-09-22T16:39:12+09:00",
+      "collected_at": "2026-09-22T16:44:19+09:00",
       "env": "walker2d-medium-replay-v2",
       "env_short": "wmr",
       "family": "td3_amo_fixed_alpha_B",
