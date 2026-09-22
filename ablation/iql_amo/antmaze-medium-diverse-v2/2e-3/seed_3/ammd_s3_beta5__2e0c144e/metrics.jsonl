@@ -1,0 +1,4 @@
+{"step": 5000, "actor_loss": 3.47835636138916, "beta_B": 5.0, "beta_B_used": 5.0, "beta_E": 5.0, "beta_E_used": 5.0, "bootstrap_loss": 3.47835636138916, "critic_loss": 0.24461746215820312, "value_loss": 0.02477150410413742}
+{"step": 10000, "actor_loss": 5.68972110748291, "beta_B": 5.0, "beta_B_used": 5.0, "beta_E": 5.0, "beta_E_used": 5.0, "bootstrap_loss": 5.68972110748291, "critic_loss": 0.3655533194541931, "value_loss": 0.03374168649315834}
+{"step": 15000, "actor_loss": 13.828720092773438, "beta_B": 5.0, "beta_B_used": 5.0, "beta_E": 5.0, "beta_E_used": 5.0, "bootstrap_loss": 13.828720092773438, "critic_loss": 0.5359641909599304, "value_loss": 0.04942364990711212}
+{"step": 20000, "actor_loss": 8.647109985351562, "beta_B": 5.0, "beta_B_used": 5.0, "beta_E": 5.0, "beta_E_used": 5.0, "bootstrap_loss": 8.647109985351562, "critic_loss": 1.759289026260376, "value_loss": 0.04930305853486061}
