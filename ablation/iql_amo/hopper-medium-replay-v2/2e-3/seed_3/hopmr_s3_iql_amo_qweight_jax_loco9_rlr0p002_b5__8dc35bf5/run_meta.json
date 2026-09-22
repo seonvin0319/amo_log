@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -10,7 +11,7 @@
   "classification_reasons": [
     "method_variant:amo_qweight"
   ],
-  "collected_at": "2026-09-19T03:21:27+00:00",
+  "collected_at": "2026-09-22T00:07:52+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "amo_qweight",

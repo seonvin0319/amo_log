@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "torch",
@@ -12,7 +13,7 @@
     "initial_beta_outside_main",
     "method_variant:iql_ddpgbc"
   ],
-  "collected_at": "2026-09-21T22:38:30+09:00",
+  "collected_at": "2026-09-22T00:07:53+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "iql_ddpgbc",
