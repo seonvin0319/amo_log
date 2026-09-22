@@ -87,6 +87,26 @@ LEGACY_ENV_PREFIX = {
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
         "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "family_force": "td3_amo_fixed_alpha_B",
+        "layout": "cell_jobs",
+        "require_eval": False,
+        "tag_prefix": "td3_",
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path("/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "family_force": "iql_ddpgbc_amo_fixed_alpha_E",
+        "layout": "cell_jobs",
+        "require_eval": False,
+        "tag_prefix": "iql_",
+    },
+    {
+        "algo": "td3_amo",
         "root": Path("/home/svcho/amo/results/td3_amo_dual_lel2_seeds03/jobs"),
         "host": "svcho",
         "code_repo": "AMO",
@@ -1157,6 +1177,11 @@ def main() -> int:
             bool(src_spec.get("nested")),
             layout=str(src_spec.get("layout") or "flat"),
         ):
+            tag_prefix = src_spec.get("tag_prefix")
+            if tag_prefix:
+                cell = run_dir.parent.name if run_dir.name == "run" else run_dir.name
+                if not str(cell).startswith(str(tag_prefix)):
+                    continue
             meta = ingest_one(
                 run_dir,
                 algo=src_spec["algo"],
