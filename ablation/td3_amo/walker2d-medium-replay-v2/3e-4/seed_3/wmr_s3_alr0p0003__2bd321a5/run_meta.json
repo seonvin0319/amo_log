@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_dual_lel2"
   ],
-  "collected_at": "2026-09-22T11:37:10+09:00",
+  "collected_at": "2026-09-22T11:42:43+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_dual_lel2",
@@ -32,8 +32,14 @@
       "config.yaml": {
         "sha256": "11a0c1e71571d40c616850780bc8abff47bd1496b86997245746aec3cc7c647e"
       },
+      "eval.jsonl": {
+        "sha256": "8afcea5bca63fcea8c7a660fb7daa1dab74c14773b8415c7c212a6baf77bf445"
+      },
+      "final_eval_50.json": {
+        "sha256": "1a59be30ed98d40ee941c93bacf7e93d67ea2bdc3dfb4edc428ef3a803ee76af"
+      },
       "metrics.jsonl": {
-        "sha256": "e36d82100e200234aad2b939b9bec820d1a7251ec2ccf83e38537ca850cf194e"
+        "sha256": "a7c67c9109da1e9af167bf27b69222ed2fbbe00b5434c8bf04ad20464c9728a6"
       },
       "source_run_meta.json": {
         "sha256": "6ba1cb41d6a7d9c6daeed56cca7da6962f897cd53a8344776a31d5d062930f7f"
