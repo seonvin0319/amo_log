@@ -786,6 +786,7 @@ def ingest_one(
         meta["protocol"] = "corl_iql_adaptive_beta_v1"
     if family == "amo_qweight":
         meta["protocol"] = "jax_iql_amo_qweight_v1"
+        meta["git"]["code_commit"] = "ceffa5373681e09b20d5b513091bccd4d301a4eb"
     if family == "iql_ddpgbc":
         meta["protocol"] = "jax_iql_ddpgbc_amo_le_v1"
         meta["git"]["code_commit"] = "d9be263443ffc1ca8834e277418826cff4ac6dc0"
