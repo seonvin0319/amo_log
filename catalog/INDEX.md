@@ -94,9 +94,9 @@
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 1 | jax | 1000000 | [hopmr_s1_beta1__7b9a63bd](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_beta1__7b9a63bd/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 1 | jax | 1000000 | [hopmr_s1_beta1__b2c7876e](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_beta1__b2c7876e/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=5.0 | 0.002 | 1 | jax | 1000000 | [hopmr_s1_beta5__e62b4ea8](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_beta5__e62b4ea8/) |
-| ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 2 | jax | — | [hopmr_s2_beta1__2663d851](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_beta1__2663d851/) |
+| ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_beta1__2663d851](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_beta1__2663d851/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=5.0 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_beta5__a6ec693e](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_beta5__a6ec693e/) |
-| ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 3 | jax | — | [hopmr_s3_beta1__1dcd33a4](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_3/hopmr_s3_beta1__1dcd33a4/) |
+| ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 3 | jax | 1000000 | [hopmr_s3_beta1__1dcd33a4](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_3/hopmr_s3_beta1__1dcd33a4/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=5.0 | 0.002 | 3 | jax | 1000000 | [hopmr_s3_beta5__ca889801](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_3/hopmr_s3_beta5__ca889801/) |
 | ablation | iql_amo | hopper-medium-v2 | beta=? | — | 0 | jax | 1000000 | [hopm_s0_alr0p001__56cdfa24](../ablation/iql_amo/hopper-medium-v2/unspecified/seed_0/hopm_s0_alr0p001__56cdfa24/) |
 | ablation | iql_amo | hopper-medium-v2 | beta=? | — | 1 | jax | 1000000 | [hopm_s1_alr0p001__f98c4573](../ablation/iql_amo/hopper-medium-v2/unspecified/seed_1/hopm_s1_alr0p001__f98c4573/) |
@@ -183,8 +183,10 @@
 | ablation | iql_amo | walker2d-medium-expert-v2 | beta=1.0 | 0.002 | 0 | jax | 1000000 | [wme_s0_beta1__896900f0](../ablation/iql_amo/walker2d-medium-expert-v2/2e-3/seed_0/wme_s0_beta1__896900f0/) |
 | ablation | iql_amo | walker2d-medium-replay-v2 | beta=1.0 | 0.0003 | 0 | jax | 1000000 | [wmr_s0_beta1_rlr0p0003__f8538279](../ablation/iql_amo/walker2d-medium-replay-v2/3e-4/seed_0/wmr_s0_beta1_rlr0p0003__f8538279/) |
 | ablation | iql_amo | walker2d-medium-replay-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [wmr_s0_beta1_rlr0p001__5cd1dc57](../ablation/iql_amo/walker2d-medium-replay-v2/1e-3/seed_0/wmr_s0_beta1_rlr0p001__5cd1dc57/) |
+| ablation | iql_amo | walker2d-medium-replay-v2 | beta=1.0 | 0.002 | 0 | jax | — | [wmr_s0_beta1__4d49f82c](../ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_beta1__4d49f82c/) |
 | ablation | iql_amo | walker2d-medium-replay-v2 | beta=1.0 | 0.002 | 0 | jax | 1000000 | [wmr_s0_beta1__bd961829](../ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_beta1__bd961829/) |
 | ablation | iql_amo | walker2d-medium-replay-v2 | beta=5.0 | 0.002 | 0 | jax | 1000000 | [wmr_s0_beta5__27b75e07](../ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_0/wmr_s0_beta5__27b75e07/) |
+| ablation | iql_amo | walker2d-medium-replay-v2 | beta=1.0 | 0.002 | 1 | jax | — | [wmr_s1_beta1__407870b9](../ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_1/wmr_s1_beta1__407870b9/) |
 | ablation | iql_amo | walker2d-medium-replay-v2 | beta=5.0 | 0.002 | 1 | jax | 1000000 | [wmr_s1_beta5__cb3c8adb](../ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_1/wmr_s1_beta5__cb3c8adb/) |
 | ablation | iql_amo | walker2d-medium-replay-v2 | beta=5.0 | 0.002 | 2 | jax | 1000000 | [wmr_s2_beta5__f8d29ffe](../ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_2/wmr_s2_beta5__f8d29ffe/) |
 | ablation | iql_amo | walker2d-medium-replay-v2 | beta=5.0 | 0.002 | 3 | jax | 1000000 | [wmr_s3_beta5__cfcf929f](../ablation/iql_amo/walker2d-medium-replay-v2/2e-3/seed_3/wmr_s3_beta5__cfcf929f/) |
