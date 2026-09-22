@@ -40,8 +40,8 @@
 | ablation | iql_amo | antmaze-medium-diverse-v2 | beta=1.0 | 0.002 | 0 | jax | 1000000 | [ammd_s0_beta1__8fe45916](../ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_0/ammd_s0_beta1__8fe45916/) |
 | ablation | iql_amo | antmaze-medium-diverse-v2 | beta=5.0 | 0.002 | 0 | jax | 1000000 | [ammd_s0_beta5__c55ab467](../ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_0/ammd_s0_beta5__c55ab467/) |
 | ablation | iql_amo | antmaze-medium-diverse-v2 | beta=5.0 | 0.002 | 1 | jax | 1000000 | [ammd_s1_beta5__742f65ba](../ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_1/ammd_s1_beta5__742f65ba/) |
-| ablation | iql_amo | antmaze-medium-diverse-v2 | beta=5.0 | 0.002 | 2 | jax | — | [ammd_s2_beta5__b2da678a](../ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_2/ammd_s2_beta5__b2da678a/) |
-| ablation | iql_amo | antmaze-medium-diverse-v2 | beta=5.0 | 0.002 | 3 | jax | — | [ammd_s3_beta5__2e0c144e](../ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_3/ammd_s3_beta5__2e0c144e/) |
+| ablation | iql_amo | antmaze-medium-diverse-v2 | beta=5.0 | 0.002 | 2 | jax | 1000000 | [ammd_s2_beta5__b2da678a](../ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_2/ammd_s2_beta5__b2da678a/) |
+| ablation | iql_amo | antmaze-medium-diverse-v2 | beta=5.0 | 0.002 | 3 | jax | 1000000 | [ammd_s3_beta5__2e0c144e](../ablation/iql_amo/antmaze-medium-diverse-v2/2e-3/seed_3/ammd_s3_beta5__2e0c144e/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=1.0 | 0.0003 | 0 | jax | 1000000 | [ammp_s0_beta1_rlr0p0003__288aa994](../ablation/iql_amo/antmaze-medium-play-v2/3e-4/seed_0/ammp_s0_beta1_rlr0p0003__288aa994/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [ammp_s0_beta1_rlr0p001__b3dbf06a](../ablation/iql_amo/antmaze-medium-play-v2/1e-3/seed_0/ammp_s0_beta1_rlr0p001__b3dbf06a/) |
 | ablation | iql_amo | antmaze-medium-play-v2 | beta=1.0 | 0.002 | 0 | jax | 1000000 | [ammp_s0_beta1__0b2f1366](../ablation/iql_amo/antmaze-medium-play-v2/2e-3/seed_0/ammp_s0_beta1__0b2f1366/) |
@@ -88,8 +88,10 @@
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.0003 | 1 | jax | 1000000 | [hopmr_s1_beta1_rlr0p0003__f4ee5d59](../ablation/iql_amo/hopper-medium-replay-v2/3e-4/seed_1/hopmr_s1_beta1_rlr0p0003__f4ee5d59/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.001 | 0 | jax | 1000000 | [hopmr_s0_beta1_rlr0p001__7e412f89](../ablation/iql_amo/hopper-medium-replay-v2/1e-3/seed_0/hopmr_s0_beta1_rlr0p001__7e412f89/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.001 | 1 | jax | 1000000 | [hopmr_s1_beta1_rlr0p001__e8918963](../ablation/iql_amo/hopper-medium-replay-v2/1e-3/seed_1/hopmr_s1_beta1_rlr0p001__e8918963/) |
+| ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 0 | jax | — | [hopmr_s0_beta1__14843c0f](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_beta1__14843c0f/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 0 | jax | 1000000 | [hopmr_s0_beta1__f3dd2b83](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_beta1__f3dd2b83/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=5.0 | 0.002 | 0 | jax | 1000000 | [hopmr_s0_beta5__92eac5c7](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_0/hopmr_s0_beta5__92eac5c7/) |
+| ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 1 | jax | — | [hopmr_s1_beta1__7b9a63bd](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_beta1__7b9a63bd/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=1.0 | 0.002 | 1 | jax | 1000000 | [hopmr_s1_beta1__b2c7876e](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_beta1__b2c7876e/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=5.0 | 0.002 | 1 | jax | 1000000 | [hopmr_s1_beta5__e62b4ea8](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_beta5__e62b4ea8/) |
 | ablation | iql_amo | hopper-medium-replay-v2 | beta=5.0 | 0.002 | 2 | jax | 1000000 | [hopmr_s2_beta5__a6ec693e](../ablation/iql_amo/hopper-medium-replay-v2/2e-3/seed_2/hopmr_s2_beta5__a6ec693e/) |
