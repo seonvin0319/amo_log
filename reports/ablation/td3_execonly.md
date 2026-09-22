@@ -206,8 +206,8 @@ TD3-AMO π_E-only (`execution_only=true`) ablation입니다. α_E meta-loss는 *
 | 브랜치 | 로그 snapshot | TD3 π_E-only 실행 |
 |---|---|---:|
 | choi | [2a8742c4](https://github.com/seonvin0319/amo_log/commit/2a8742c47a04884baeb165266b26fe6a9a66599e) | 0 |
-| ext_csh | [57c5a810](https://github.com/seonvin0319/amo_log/commit/57c5a810d52a4297051ffc6e3564434a66de3637) | 0 |
-| ext_csv | [cadcfe76](https://github.com/seonvin0319/amo_log/commit/cadcfe76d5616915cf323da1421d1ac71153e331) | 0 |
+| ext_csh | [d1babe97](https://github.com/seonvin0319/amo_log/commit/d1babe97e969496c843828cacdfb1aad072c56a9) | 0 |
+| ext_csv | [a7d99a10](https://github.com/seonvin0319/amo_log/commit/a7d99a10c37050cac3c0ba324e87050c22cbff97) | 0 |
 | offrl | [f1294201](https://github.com/seonvin0319/amo_log/commit/f129420153bf669419b0a7e30578b8c1cf3c3dfc) | 0 |
 | shchoi | [801d760e](https://github.com/seonvin0319/amo_log/commit/801d760e3983ac581e64234f163d1a9f059d0140) | 0 |
 | svcho | [15ca5ad8](https://github.com/seonvin0319/amo_log/commit/15ca5ad8ae56f79f98b30f50f5a53c46aced0b23) | 71 |
