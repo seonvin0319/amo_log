@@ -1,0 +1,16 @@
+{
+  "adaptive_scale_B": true,
+  "adaptive_scale_E": false,
+  "algorithm": "iql_ddpgbc_amo",
+  "backend": "jax",
+  "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+  "code_dirty": true,
+  "dataset_sha256": "1ab0c0074fafbd4697eed4db854be0cf4576db1663fdd4fc2cd93b168792c2aa",
+  "device": "cuda:0",
+  "env": "hopper-medium-v2",
+  "fixed_scale_role": "E",
+  "fixed_scale_value": 5,
+  "python": "3.11.15",
+  "replay_device": "cpu",
+  "seed": 1
+}
