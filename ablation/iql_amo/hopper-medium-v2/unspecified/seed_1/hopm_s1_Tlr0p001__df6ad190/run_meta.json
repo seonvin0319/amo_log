@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -12,7 +13,7 @@
     "method_variant:iql_ddpgbc_amo_fixed_alpha_E",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-22T16:49:27+09:00",
+  "collected_at": "2026-09-22T16:54:34+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "iql_ddpgbc_amo_fixed_alpha_E",
@@ -25,7 +26,7 @@
   "legacy_name": "run",
   "meta_lr": null,
   "metadata_provenance": {
-    "checkpoint_path": "/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs/iql_E5_h-m_s1/run/checkpoints/step_980000.npz",
+    "checkpoint_path": "/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs/iql_E5_h-m_s1/run/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
