@@ -1,0 +1,94 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_fixed_alpha_B"
+  ],
+  "collected_at": "2026-09-22T18:24:37+09:00",
+  "env": "walker2d-medium-expert-v2",
+  "env_short": "wme",
+  "family": "td3_amo_fixed_alpha_B",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "td3_B5_w-me_s1",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_fixed_alpha_B/wme_s1_alr0p002__f4649a63",
+  "rel_path": "ablation/td3_amo/walker2d-medium-expert-v2/2e-3/seed_1/wme_s1_alr0p002__f4649a63",
+  "run_id": "wme_s1_alr0p002__f4649a63",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "005c3e8251bbaaac6afaae6b840d866f3a9812d2ed19ccaca1366cfc4085fd09"
+      },
+      "metrics.jsonl": {
+        "sha256": "b681c7a3d96b2bb4f4f77eeada14806b92e1879e7dbf6a9495e048b1b8df3a28"
+      },
+      "source_run_meta.json": {
+        "sha256": "c7953bc3ab8515668f96caf95461f7c1a7454e232569bc0772eca2d6967a1815"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "adaptive_scale_B": false,
+    "adaptive_scale_E": true,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_dirty": true,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "walker2d-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "fixed_scale_role": "B",
+    "fixed_scale_value": 5,
+    "freeze_scale_B": true,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs/td3_B5_w-me_s1/run",
+  "variant": "alr0p002"
+}
