@@ -10,7 +10,7 @@
     "method_variant:td3_amo_fixed_alpha_B",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-23T04:08:26+09:00",
+  "collected_at": "2026-09-23T04:14:05+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "td3_amo_fixed_alpha_B",
@@ -32,6 +32,12 @@
     "files": {
       "config.yaml": {
         "sha256": "ff9a55f4c0dc7908eb35771140210284fd53a1ea3fbb5d344facf1ad3d246801"
+      },
+      "eval.jsonl": {
+        "sha256": "c0aef09ded2a6056da2d7a3e81b46cb76a17b86844f9b378f057698ecc02e5af"
+      },
+      "final_eval_50.json": {
+        "sha256": "84ddb97812702ce2b5f1b09cc59e91131e43783043c1a48d86a170ba56d0ee44"
       },
       "metrics.jsonl": {
         "sha256": "27019c53bfa83f3e1417b833cd8c0136dc587b45e6115267ab2429035f902336"
