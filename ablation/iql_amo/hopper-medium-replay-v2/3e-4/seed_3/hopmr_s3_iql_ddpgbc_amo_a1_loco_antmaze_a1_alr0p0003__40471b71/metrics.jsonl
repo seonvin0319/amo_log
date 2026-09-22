@@ -1,0 +1,15 @@
+{"step": 5000, "actor_loss": 2.016789197921753, "alpha_E": 1.0, "critic_loss": 0.18193410336971283, "value_loss": 0.051576390862464905}
+{"step": 10000, "actor_loss": 2.029905319213867, "alpha_E": 1.0, "critic_loss": 3.141411304473877, "value_loss": 0.18819348514080048}
+{"step": 15000, "actor_loss": 1.9954133033752441, "alpha_E": 1.0, "critic_loss": 0.9341047406196594, "value_loss": 0.30252522230148315}
+{"step": 20000, "actor_loss": 1.9706401824951172, "alpha_E": 1.0, "critic_loss": 0.7671252489089966, "value_loss": 0.3532346487045288}
+{"step": 25000, "actor_loss": 1.9542102813720703, "alpha_E": 1.0, "critic_loss": 1.310846209526062, "value_loss": 0.6058573722839355}
+{"step": 30000, "actor_loss": 1.961925745010376, "alpha_E": 1.0, "critic_loss": 7.587437152862549, "value_loss": 0.9752460718154907}
+{"step": 35000, "actor_loss": 1.9878804683685303, "alpha_E": 1.0, "critic_loss": 0.8787018060684204, "value_loss": 0.8494885563850403}
+{"step": 40000, "actor_loss": 1.9680721759796143, "alpha_E": 1.0, "critic_loss": 0.8363579511642456, "value_loss": 1.0728321075439453}
+{"step": 45000, "actor_loss": 1.969659686088562, "alpha_E": 1.0, "critic_loss": 0.9222888350486755, "value_loss": 0.5230922102928162}
+{"step": 50000, "actor_loss": 1.983086109161377, "alpha_E": 1.0, "critic_loss": 1.4529619216918945, "value_loss": 1.1017239093780518}
+{"step": 55000, "actor_loss": 1.9641501903533936, "alpha_E": 1.0, "critic_loss": 1.6006312370300293, "value_loss": 0.7846113443374634}
+{"step": 60000, "actor_loss": 1.9665006399154663, "alpha_E": 1.0, "critic_loss": 1.7543563842773438, "value_loss": 0.6713536977767944}
+{"step": 65000, "actor_loss": 1.9667096138000488, "alpha_E": 1.0, "critic_loss": 1.8920538425445557, "value_loss": 0.7607290744781494}
+{"step": 70000, "actor_loss": 1.9407644271850586, "alpha_E": 1.0, "critic_loss": 1.130115270614624, "value_loss": 0.7185415625572205}
+{"step": 75000, "actor_loss": 1.9471285343170166, "alpha_E": 1.0, "critic_loss": 1.4804809093475342, "value_loss": 0.7513582706451416}
