@@ -1,0 +1,17 @@
+{"step": 5000, "actor_loss": 9.109079360961914, "alpha_E": 1.0, "critic_loss": 1.74216890335083, "value_loss": 0.04286427050828934}
+{"step": 10000, "actor_loss": 8.969849586486816, "alpha_E": 1.0, "critic_loss": 1.7536054849624634, "value_loss": 0.10513301193714142}
+{"step": 15000, "actor_loss": 8.963468551635742, "alpha_E": 1.0, "critic_loss": 2.2853808403015137, "value_loss": 0.147463858127594}
+{"step": 20000, "actor_loss": 8.949657440185547, "alpha_E": 1.0, "critic_loss": 2.409400224685669, "value_loss": 0.19514325261116028}
+{"step": 25000, "actor_loss": 8.998220443725586, "alpha_E": 1.0, "critic_loss": 1.5068732500076294, "value_loss": 0.1585337519645691}
+{"step": 30000, "actor_loss": 8.886453628540039, "alpha_E": 1.0, "critic_loss": 2.15964412689209, "value_loss": 0.17282330989837646}
+{"step": 35000, "actor_loss": 8.913590431213379, "alpha_E": 1.0, "critic_loss": 1.7611052989959717, "value_loss": 0.19301128387451172}
+{"step": 40000, "actor_loss": 8.952478408813477, "alpha_E": 1.0, "critic_loss": 2.7476401329040527, "value_loss": 0.1907457709312439}
+{"step": 45000, "actor_loss": 8.882842063903809, "alpha_E": 1.0, "critic_loss": 2.7743654251098633, "value_loss": 0.20080432295799255}
+{"step": 50000, "actor_loss": 8.98034381866455, "alpha_E": 1.0, "critic_loss": 2.3675167560577393, "value_loss": 0.22927555441856384}
+{"step": 55000, "actor_loss": 8.938570022583008, "alpha_E": 1.0, "critic_loss": 3.1018388271331787, "value_loss": 0.24935603141784668}
+{"step": 60000, "actor_loss": 8.91033935546875, "alpha_E": 1.0, "critic_loss": 1.477149486541748, "value_loss": 0.2710825204849243}
+{"step": 65000, "actor_loss": 8.896895408630371, "alpha_E": 1.0, "critic_loss": 2.481024980545044, "value_loss": 0.14588940143585205}
+{"step": 70000, "actor_loss": 8.878312110900879, "alpha_E": 1.0, "critic_loss": 1.8732342720031738, "value_loss": 0.1709619164466858}
+{"step": 75000, "actor_loss": 8.956188201904297, "alpha_E": 1.0, "critic_loss": 2.4020228385925293, "value_loss": 0.1920621395111084}
+{"step": 80000, "actor_loss": 8.924076080322266, "alpha_E": 1.0, "critic_loss": 2.0084421634674072, "value_loss": 0.18439367413520813}
+{"step": 85000, "actor_loss": 8.941635131835938, "alpha_E": 1.0, "critic_loss": 2.8289079666137695, "value_loss": 0.3026106357574463}
