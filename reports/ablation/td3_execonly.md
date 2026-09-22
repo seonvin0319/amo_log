@@ -207,9 +207,9 @@ TD3-AMO π_E-only (`execution_only=true`) ablation입니다. α_E meta-loss는 *
 |---|---|---:|
 | choi | [2a8742c4](https://github.com/seonvin0319/amo_log/commit/2a8742c47a04884baeb165266b26fe6a9a66599e) | 0 |
 | ext_csh | [c0940b70](https://github.com/seonvin0319/amo_log/commit/c0940b7025b18218f2770d6db9c82722cc17ffd4) | 0 |
-| ext_csv | [fc19914c](https://github.com/seonvin0319/amo_log/commit/fc19914cbe5cd60ec2c3dac5748582b30860acb1) | 0 |
+| ext_csv | [aea9ba3b](https://github.com/seonvin0319/amo_log/commit/aea9ba3be74675acf8ac0eb2135d0480e393b4c8) | 0 |
 | offrl | [f1294201](https://github.com/seonvin0319/amo_log/commit/f129420153bf669419b0a7e30578b8c1cf3c3dfc) | 0 |
-| shchoi | [4d7752be](https://github.com/seonvin0319/amo_log/commit/4d7752be17b96133359f98a3fa53b1a8559502ac) | 0 |
+| shchoi | [be1478fd](https://github.com/seonvin0319/amo_log/commit/be1478fd52182886c76b48bda0e6d61c013bcbf9) | 0 |
 | svcho | [3415fb27](https://github.com/seonvin0319/amo_log/commit/3415fb270842ae692cbc7f44d64df56534fa3c87) | 71 |
 
 머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 [수동 갱신](https://github.com/seonvin0319/amo_log/actions/workflows/refresh-index.yml)도 지원합니다.
