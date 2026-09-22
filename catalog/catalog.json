@@ -47318,7 +47318,7 @@
       "classification_reasons": [
         "method_variant:td3_amo_fixed_alpha_B"
       ],
-      "collected_at": "2026-09-22T15:12:04+09:00",
+      "collected_at": "2026-09-22T15:17:11+09:00",
       "env": "hopper-medium-replay-v2",
       "env_short": "hopmr",
       "family": "td3_amo_fixed_alpha_B",
@@ -47332,7 +47332,7 @@
       "legacy_name": "run",
       "meta_lr": 0.002,
       "metadata_provenance": {
-        "checkpoint_path": "/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs/td3_B5_h-mr_s1/run/checkpoints/step_240000.npz",
+        "checkpoint_path": "/home/svcho/amo/results/amo_fixed_alpha_ablation_seeds03/jobs/td3_B5_h-mr_s1/run/checkpoints/step_600000.npz",
         "env_source": "source_run_meta.json",
         "inferred": false,
         "seed_source": "source_run_meta.json",
@@ -47350,7 +47350,7 @@
             "sha256": "005c3e8251bbaaac6afaae6b840d866f3a9812d2ed19ccaca1366cfc4085fd09"
           },
           "metrics.jsonl": {
-            "sha256": "4d644dde8fb7a6ddafe8c4f27335cb2d92a94815d652ac5b1acc2c781bfd5922"
+            "sha256": "8a14e5980dbde5a562310dc3fe69cbb7430be5df0613dd6a8cae8d65024df5fa"
           },
           "source_run_meta.json": {
             "sha256": "9d7abc4a70ccb655eb0cf96d1cfbf4fc7c6afb583a7977b1b14ad77d66f50b9b"
