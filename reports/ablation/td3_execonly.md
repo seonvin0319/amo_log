@@ -209,7 +209,7 @@ TD3-AMO π_E-only (`execution_only=true`) ablation입니다. α_E meta-loss는 *
 | ext_csh | [c619bf78](https://github.com/seonvin0319/amo_log/commit/c619bf78d99a950a7df8aaeedc3b377959243fdc) | 0 |
 | ext_csv | [ffb36ac7](https://github.com/seonvin0319/amo_log/commit/ffb36ac77c01fb88f4d1d6a73cffa2fdc9e2facd) | 0 |
 | offrl | [f1294201](https://github.com/seonvin0319/amo_log/commit/f129420153bf669419b0a7e30578b8c1cf3c3dfc) | 0 |
-| shchoi | [5722581f](https://github.com/seonvin0319/amo_log/commit/5722581f4c2139168401cec6a60a643ff0c1b99f) | 0 |
+| shchoi | [3ac90d8c](https://github.com/seonvin0319/amo_log/commit/3ac90d8c0d72ad1c7567f3903e2acfba4a07907a) | 0 |
 | svcho | [e1fc49bf](https://github.com/seonvin0319/amo_log/commit/e1fc49bfcbbcf916e393614a2a9f61216ca6cb6a) | 71 |
 
 머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 [수동 갱신](https://github.com/seonvin0319/amo_log/actions/workflows/refresh-index.yml)도 지원합니다.
