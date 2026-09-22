@@ -10,7 +10,7 @@
     "method_variant:td3_amo_fixed_alpha_B",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-22T23:04:43+09:00",
+  "collected_at": "2026-09-22T23:10:20+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_fixed_alpha_B",
@@ -33,8 +33,14 @@
       "config.yaml": {
         "sha256": "c738c27d1afadda070feb166f36a862e3d3803c9bc957c7b683b736e01214532"
       },
+      "eval.jsonl": {
+        "sha256": "7869817bfbda8252ce787529f326a96461b7794cddbe858a6f469296ef8f8f82"
+      },
+      "final_eval_50.json": {
+        "sha256": "daf64e5790478139dca1aa30d1be19f9d46f66340ec8794abe7242327b935631"
+      },
       "metrics.jsonl": {
-        "sha256": "4304007991a0bc0e1013d0aa89a66a546e4fb371be82a61aed4c2cf4150ee614"
+        "sha256": "2d173f12300b5ddea84add25d0066a081a3564d548e4c59c6dd7cbc985e2634b"
       },
       "source_run_meta.json": {
         "sha256": "4a7de491ad62cb5848cfaf703ade759dfd3cfe9ea4a4b8e6fda135f224ef5d98"
