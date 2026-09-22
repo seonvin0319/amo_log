@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixed_alpha_B"
   ],
-  "collected_at": "2026-09-22T18:47:00+09:00",
+  "collected_at": "2026-09-22T18:52:36+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "td3_amo_fixed_alpha_B",
@@ -32,8 +32,14 @@
       "config.yaml": {
         "sha256": "005c3e8251bbaaac6afaae6b840d866f3a9812d2ed19ccaca1366cfc4085fd09"
       },
+      "eval.jsonl": {
+        "sha256": "201bd8b090c59fb1b8d51f2c59831e04681e37ada61d79db98fe64ffa2b6507b"
+      },
+      "final_eval_50.json": {
+        "sha256": "05bba4155f8129d232e34eea758d8db387230314619db6a037828091eafff147"
+      },
       "metrics.jsonl": {
-        "sha256": "380ff321b3e689f1e2f4c454ede831b4f0b6a13297ededd3d7ca6e937429f752"
+        "sha256": "ba5dd0d0623311cb39fefcc2f5283cbaeda5ae8f6ea1ea176af1482761bc0107"
       },
       "source_run_meta.json": {
         "sha256": "3154475f640453558b1d4bab550f6a8598eb665a93b8f40271daecd0e0b2c5f4"
