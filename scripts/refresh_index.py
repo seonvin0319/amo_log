@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build main-branch README from machine catalogs at fetched origin refs."""
-import argparse,collections,json,subprocess
+import argparse,collections,csv,json,subprocess
 import yaml
 from pathlib import Path
 from log_layout import initial_label, NETWORK_LR_EXCLUSIONS, is_retired_apart
@@ -10,7 +10,7 @@ BRANCHES=('choi','ext_csh','ext_csv','offrl','shchoi','svcho')
 BASE='https://github.com/seonvin0319/amo_log'
 
 def make_readme(catalogs, result_text=''):
-    lines=['# amo_log','', '[공통 로그 규칙](LOGGING_RULES.md) · [에이전트 작업 지침](AGENTS.md)', '', '실험 로그는 각 머신 브랜치에 저장합니다. 이 `main` 브랜치는 AMO 결과와 전체 실험 위치를 안내합니다.','', '## 빠른 로그 파싱','', '- 머신 브랜치에서 `catalog/FAMILIES.md`로 family를 먼저 확인하고, `catalog/families.csv` → `catalog/runs_flat.csv` → `catalog/evaluations_flat.csv` 순서로 내려가면 됩니다.','- 원본 기준은 `catalog/catalog.json`, 각 run의 `run_meta.json`/`config.yaml`/evaluation 파일입니다. Flat CSV는 분석 편의를 위한 파생 뷰입니다.','- CLI: `python3 scripts/parse_logs.py --family td3_amo_fixed_alpha_B --completed-only --format csv`','', '## 저장 규칙','', '- 본 실험: `main/<방법>/<환경>/<meta_lr>/seed_<seed>/<run_id>/`.','- Ablation: `ablation/<방법>/<환경>/<meta_lr>/seed_<seed>/<run_id>/`.','- Meta lr가 없는 baseline은 해당 경로 단계를 생략합니다.','- 방법: `td3_amo`, `iql_amo`, `td3bc+rc`, `iql`, `a2pr`, `wpc`, `aspc`.','- Adroit(door/hammer/pen/relocate)는 baseline을 포함한 모든 방법에서 ablation입니다.','- AMO 본 실험 초기값: TD3 alpha_E=alpha_B=1/2/5, IQL beta=1/2/5. Meta lr는 `1e-3`, `2e-3`, `3e-4`입니다. 그 외 초기값·meta 학습률·구조/loss 변형은 ablation입니다. Baseline 고유 beta는 이 초기값 제한 대상이 아닙니다.','- actor/critic/value 등 기본 네트워크 lr를 바꾼 오실행은 삭제하며 재수집을 차단합니다. 고정 기준과 적용 필드는 공통 로그 규칙을 따릅니다.', '- 기존 JAX 실행은 2026-09-14 정리에서 제거했습니다. Git 이력은 유지합니다. 이후 수정된 JAX 실행을 일괄 차단하지 않습니다.','- run_id를 보존해 같은 seed의 별도 실행을 덮어쓰지 않습니다.','- 설정·평가 방식은 각 실행의 `config.yaml`, `run_meta.json`을 확인합니다. 아래 실행 위치 표는 위치 인덱스입니다. 점수 집계 기준은 위 AMO 결과를 따릅니다.','', '## 머신별 카탈로그','', '| 브랜치 | main 실행 | ablation 실행 | 목록 |','|---|---:|---:|---|']
+    lines=['# amo_log','', '[공통 로그 규칙](LOGGING_RULES.md) · [에이전트 작업 지침](AGENTS.md)', '', '실험 로그는 각 머신 브랜치에 저장합니다. 이 `main` 브랜치는 AMO 결과와 전체 실험 위치를 안내합니다.','', '## 빠른 로그 파싱','', '- 전체 실험 discovery는 `reports/CATALOG.md` / `reports/catalog_families.csv` → `reports/catalog_runs.csv` 순서로 봅니다. 개별 머신의 점수 record까지 필요하면 해당 브랜치의 `catalog/evaluations_flat.csv`와 원본 evaluation으로 내려갑니다.','- 원본 기준은 `catalog/catalog.json`, 각 run의 `run_meta.json`/`config.yaml`/evaluation 파일입니다. Flat CSV는 분석 편의를 위한 파생 뷰입니다.','- CLI: `python3 scripts/parse_logs.py --family td3_amo_fixed_alpha_B --completed-only --format csv`','', '## 저장 규칙','', '- 본 실험: `main/<방법>/<환경>/<meta_lr>/seed_<seed>/<run_id>/`.','- Ablation: `ablation/<방법>/<환경>/<meta_lr>/seed_<seed>/<run_id>/`.','- Meta lr가 없는 baseline은 해당 경로 단계를 생략합니다.','- 방법: `td3_amo`, `iql_amo`, `td3bc+rc`, `iql`, `a2pr`, `wpc`, `aspc`.','- Adroit(door/hammer/pen/relocate)는 baseline을 포함한 모든 방법에서 ablation입니다.','- AMO 본 실험 초기값: TD3 alpha_E=alpha_B=1/2/5, IQL beta=1/2/5. Meta lr는 `1e-3`, `2e-3`, `3e-4`입니다. 그 외 초기값·meta 학습률·구조/loss 변형은 ablation입니다. Baseline 고유 beta는 이 초기값 제한 대상이 아닙니다.','- actor/critic/value 등 기본 네트워크 lr를 바꾼 오실행은 삭제하며 재수집을 차단합니다. 고정 기준과 적용 필드는 공통 로그 규칙을 따릅니다.', '- 기존 JAX 실행은 2026-09-14 정리에서 제거했습니다. Git 이력은 유지합니다. 이후 수정된 JAX 실행을 일괄 차단하지 않습니다.','- run_id를 보존해 같은 seed의 별도 실행을 덮어쓰지 않습니다.','- 설정·평가 방식은 각 실행의 `config.yaml`, `run_meta.json`을 확인합니다. 아래 실행 위치 표는 위치 인덱스입니다. 점수 집계 기준은 위 AMO 결과를 따릅니다.','', '## 머신별 카탈로그','', '| 브랜치 | main 실행 | ablation 실행 | 목록 |','|---|---:|---:|---|']
     for br,rows in catalogs.items():
         n=collections.Counter(r['section'] for r in rows if not is_retired_apart(r))
         lines.append(f"| [{br}]({BASE}/tree/{br}) | {n['main']} | {n['ablation']} | [전체 로그]({BASE}/blob/{br}/catalog/INDEX.md) |")
@@ -42,6 +42,81 @@ def make_readme(catalogs, result_text=''):
         lines = lines[:6] + [result_text, '', '<details>',
                             '<summary>저장 규칙 · 전체 카탈로그 · main/ablation 실행 위치</summary>', ''] + lines[6:] + ['', '</details>', '']
     return '\n'.join(lines)
+
+GLOBAL_RUN_COLUMNS = (
+    'branch','log_commit','section','method','family','domain','env','seed','backend','meta_lr',
+    'initialization','adaptive_scale_E','adaptive_scale_B','freeze_scale_E','freeze_scale_B',
+    'execution_only','bootstrap_loss','execution_meta_loss','execution_score',
+    'classification_reasons','last_eval_step','run_id','rel_path','source_path','code_commit',
+)
+GLOBAL_FAMILY_COLUMNS = (
+    'section','method','family','runs','complete_1m_runs','branches','environments','seeds',
+    'meta_lrs','initializations','backends','classification_reasons',
+)
+
+def _domain(env):
+    env=str(env or '')
+    if env.startswith(('halfcheetah-','hopper-','walker2d-')): return 'locomotion'
+    if env.startswith('antmaze-'): return 'antmaze'
+    if env.startswith(('door-','hammer-','pen-','relocate-')): return 'adroit'
+    return 'other'
+
+def _write_csv(path, rows, fieldnames):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    with path.open('w',newline='') as handle:
+        writer=csv.DictWriter(handle,fieldnames=fieldnames,extrasaction='ignore')
+        writer.writeheader();writer.writerows(rows)
+
+def write_global_catalogs(root,catalogs,revisions):
+    """Write branch-agnostic indexes so analysis never needs to scrape README tables."""
+    rows=[]
+    for br, metas in catalogs.items():
+        for r in metas:
+            if is_retired_apart(r) or r.get('is_alias'): continue
+            c=r.get('settings',{})
+            rows.append(dict(
+                branch=br,log_commit=revisions[br],section=r.get('section'),method=r.get('method'),
+                family=r.get('family',''),domain=_domain(r.get('env')),env=r.get('env'),seed=r.get('seed'),
+                backend=r.get('backend'),meta_lr=r.get('meta_lr'),initialization=initial_label(r),
+                adaptive_scale_E=c.get('adaptive_scale_E'),adaptive_scale_B=c.get('adaptive_scale_B'),
+                freeze_scale_E=c.get('freeze_scale_E'),freeze_scale_B=c.get('freeze_scale_B'),
+                execution_only=bool(c.get('execution_only',False)),bootstrap_loss=c.get('bootstrap_loss'),
+                execution_meta_loss=c.get('execution_meta_loss'),execution_score=c.get('execution_score'),
+                classification_reasons=';'.join(r.get('classification_reasons',[])),
+                last_eval_step=r.get('last_eval_step'),run_id=r.get('run_id'),rel_path=r.get('rel_path'),
+                source_path=r.get('source_path'),code_commit=r.get('git',{}).get('code_commit'),
+            ))
+    rows.sort(key=lambda r:(r['section'] or '',r['method'] or '',r['family'] or '',r['env'] or '',
+                            r['meta_lr'] if r['meta_lr'] is not None else -1,
+                            r['seed'] if r['seed'] is not None else -1,r['branch'],r['run_id'] or ''))
+    grouped=collections.defaultdict(list)
+    for row in rows: grouped[(row['section'],row['method'],row['family'])].append(row)
+    families=[]
+    for (section,method,family),items in sorted(grouped.items()):
+        reasons=sorted({x for r in items for x in str(r['classification_reasons'] or '').split(';') if x})
+        families.append(dict(
+            section=section,method=method,family=family,runs=len(items),
+            complete_1m_runs=sum(r.get('last_eval_step')==1_000_000 for r in items),
+            branches=';'.join(sorted({r['branch'] for r in items})),
+            environments=';'.join(sorted({str(r['env']) for r in items})),
+            seeds=';'.join(str(x) for x in sorted({r['seed'] for r in items if r['seed'] is not None})),
+            meta_lrs=';'.join(format(x,'g') for x in sorted({r['meta_lr'] for r in items if r['meta_lr'] is not None})),
+            initializations=';'.join(sorted({str(r['initialization']) for r in items if r['initialization']})),
+            backends=';'.join(sorted({str(r['backend']) for r in items if r['backend']})),
+            classification_reasons=';'.join(reasons),
+        ))
+    reports=root/'reports'
+    _write_csv(reports/'catalog_runs.csv',rows,GLOBAL_RUN_COLUMNS)
+    _write_csv(reports/'catalog_families.csv',families,GLOBAL_FAMILY_COLUMNS)
+    lines=['# Global experiment families','',
+           'All machine-branch catalogs combined. This is a derived discovery index, not the source of truth.','',
+           '| section | method | family | runs | complete@1M | branches | environments | initializations |',
+           '|---|---|---|---:|---:|---|---|---|']
+    for r in families:
+        lines.append(f"| {r['section']} | {r['method']} | {r['family'] or '—'} | {r['runs']} | {r['complete_1m_runs']} | {r['branches']} | {r['environments']} | {r['initializations']} |")
+    lines += ['', 'Machine-readable: `catalog_families.csv` and `catalog_runs.csv`. For evaluation-level scores, use each machine branch `catalog/evaluations_flat.csv` or the raw evaluation file.', '']
+    (reports/'CATALOG.md').write_text('\n'.join(lines))
+    return rows,families
 
 def main():
     parser=argparse.ArgumentParser()
