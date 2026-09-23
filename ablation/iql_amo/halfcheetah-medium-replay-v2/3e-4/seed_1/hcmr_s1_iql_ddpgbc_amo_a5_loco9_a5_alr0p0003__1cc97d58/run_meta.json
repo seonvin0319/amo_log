@@ -13,7 +13,7 @@
     "initial_beta_outside_main",
     "method_variant:iql_ddpgbc"
   ],
-  "collected_at": "2026-09-23T12:25:40+00:00",
+  "collected_at": "2026-09-23T12:36:28+00:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "iql_ddpgbc",

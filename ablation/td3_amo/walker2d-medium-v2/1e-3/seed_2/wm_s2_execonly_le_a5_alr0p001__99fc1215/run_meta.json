@@ -11,7 +11,7 @@
   "classification_reasons": [
     "execution_only"
   ],
-  "collected_at": "2026-09-23T12:25:41+00:00",
+  "collected_at": "2026-09-23T12:36:28+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_execonly_main",
@@ -35,7 +35,7 @@
         "sha256": "ae72ab62d6cb1f221e82dd15de9c80e6528bc54318dcf28bcdb29a6515b401a5"
       },
       "metrics.jsonl": {
-        "sha256": "ad523d90ba1999824da91129c8e5a88269a4eac82219ab43891142ea1dc21eb5"
+        "sha256": "327efb8cdce6ac167e80fd9c31ccc22ab6fb842717ce16df4b7f0da567aeffa0"
       },
       "source_run_meta.json": {
         "sha256": "5f3afe415da5603513e8676de258a520b38574ae8b51ed2461be00285d472406"
