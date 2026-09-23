@@ -144,6 +144,16 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "require_eval": False,
     },
     {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_execonly_le_a1_back85/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        # Single L_E (execution_outer only). Not the L_E+L2_RMS execonly_main family.
+        "family_force": "td3_amo_execonly_le",
+        "layout": "cell_jobs",
+        "require_eval": False,
+    },
+    {
         "algo": "iql_amo",
         "root": Path("/home/svcho/amo/results/iql_amo_lel2_seeds03/jobs"),
         "host": "svcho",
