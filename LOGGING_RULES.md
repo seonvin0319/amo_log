@@ -47,6 +47,28 @@
 - `catalog/removed_invalid_network_lr.json`에는 삭제 사유, 위반 필드, run_id, source_path, code_commit과 기존 위치만 남긴다. 원본 점수나 로그는 복사하지 않는다. 같은 source_path+code_commit(경로 미기록 시 run_id+commit)의 재수집은 차단한다. 올바른 설정으로 다시 실행할 때는 새 실행 식별자를 사용한다.
 - 공통 정규화기는 신규 `runs/`와 기존 `main/`·`ablation/`에서 위반 실행을 제거한 뒤 카탈로그를 재생성한다. 검증기는 실제 config까지 읽어 위반 및 삭제 실행의 재유입을 거부한다.
 
+## 파싱용 파생 인덱스
+
+원본 로그를 분석할 때 README 표를 다시 파싱하지 않는다. 머신 브랜치의 정규화된 원본은 `run_meta.json`, `config.yaml`, 평가 파일이며, `scripts/build_catalog.py`가 다음 파생 인덱스를 함께 생성한다.
+
+- `catalog/catalog.json`: 전체 canonical run metadata. 분류/설정 확인의 기준이다.
+- `catalog/runs_flat.csv`: 실행 1개당 1행. method/family/env/seed/backend/meta lr, 초기 alpha/beta, adaptive/freeze 플래그, loss, 네트워크 lr, classification reason, primary evaluation과 provenance를 평탄화한다.
+- `catalog/evaluations_flat.csv`: 정규화 점수가 기록된 evaluation record 1개당 1행. policy_id, step, score, episode 수, aggregate 여부와 원본 파일/행을 보존한다.
+- `catalog/families.csv`: section/method/family별 run 수, 점수 확보 수, 1M 완료 수, 환경/seed/meta lr/초기값/분류 사유 요약이다.
+- `catalog/FAMILIES.md`: 사람이 빠르게 family 목록과 완료량을 확인하는 요약이다.
+
+이 파일들은 **파생 뷰**이며 원본을 대체하지 않는다. 중복 run을 삭제하거나 best seed/run만 남기지 않는다. `runs_flat.csv`의 `primary_score`는 분석 편의를 위한 대표 evaluation이고, 상세 비교나 논문 수치는 `evaluations_flat.csv`와 원본 evaluation record를 확인한다. 파서가 읽지 못한 evaluation 행은 실행을 버리지 않고 `eval_parse_errors`에 기록한다.
+
+수동 조회 예시:
+
+```bash
+python3 scripts/parse_logs.py --family td3_amo_fixed_alpha_B --completed-only --format csv
+python3 scripts/parse_logs.py --section ablation --method iql_amo --format jsonl
+python3 scripts/parse_logs.py --write
+```
+
+`scripts/collect_logs.py` → `scripts/build_catalog.py` 경로에서는 위 파생 인덱스가 자동 재생성되고 `catalog/`와 함께 commit된다.
+
 ## 기존 로그 재분류
 
 - `python3 scripts/build_catalog.py`는 `runs/`의 신규 로그와 기존 `main/`·`ablation/` 로그를 현재 규칙으로 재분류한다.

@@ -8,7 +8,7 @@ from alpha_logs import SCHEMA, legacy_keys
 from log_layout import config, invalid_network_lrs, excluded_network_lr, NETWORK_LR_EXCLUSIONS
 METHODS={'td3_amo','iql_amo','fql_amo','td3bc+rc','iql','a2pr','wpc','aspc'}
 BRANCHES={'main','choi','ext_csh','ext_csv','offrl','shchoi','svcho'}
-SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','scripts/alpha_logs.py','scripts/test_alpha_logs.py','scripts/test_network_lr.py','scripts/migrate_alpha_logs.py','.github/workflows/validate-logs.yml','.github/workflows/migrate-alpha-logs.yml')
+SHARED=('requirements-log-tools.txt','LOGGING_RULES.md','AGENTS.md','docs/COLLECTION_RULES.md','docs/NAMING.md','docs/AUTO_PUSH.md','scripts/log_layout.py','scripts/build_catalog.py','scripts/parse_logs.py','scripts/test_parse_logs.py','scripts/validate_logs.py','scripts/collect_logs.py','scripts/auto_push.sh','scripts/test_log_layout.py','scripts/alpha_logs.py','scripts/test_alpha_logs.py','scripts/test_network_lr.py','scripts/migrate_alpha_logs.py','.github/workflows/validate-logs.yml','.github/workflows/migrate-alpha-logs.yml')
 def git(root,*args,input=None):
  return subprocess.check_output(['git',*args],cwd=root,input=input)
 def entries(root,ref):
