@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-23T18:03:26+09:00",
+  "collected_at": "2026-09-23T18:09:10+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_freeze_main_final_alpha",
@@ -34,8 +34,14 @@
       "config.yaml": {
         "sha256": "d486975c44ca61f6f71ffc8875612b9443caa2a1c986f9302e445832ec44f36a"
       },
+      "eval.jsonl": {
+        "sha256": "819383282ea253ec26f6917af2cd4b3eca3b312ecf6fe3c70d48c5b782e6ece2"
+      },
+      "final_eval_50.json": {
+        "sha256": "bc86596cc7bc3f4194d9e07b8943e276f63ed8ca8df4256aef0fc2f0276022a3"
+      },
       "metrics.jsonl": {
-        "sha256": "1c0e27ad5d93c0c93826bdec90dda0a5d0d27e1dc4900cb6e30aec052d8f90da"
+        "sha256": "4a2d9939f16db5489797924bd9a792791be1938806499892f0ceaef750d2a7d6"
       },
       "source_run_meta.json": {
         "sha256": "3ea8c190f78fe71b2a9965723e949d86ae6b4aab3658925d56c8d29e368fca26"
