@@ -1,6 +1,9 @@
 """Result-selection tests: policies, checkpoints, repeats, missing seeds and provenance."""
+import csv
 import json
+import tempfile
 import unittest
+from pathlib import Path
 
 from test_log_layout import run
 from log_layout import classify, network_lr_exclusion
@@ -27,6 +30,23 @@ def qweight_meta(**settings):
 
 
 class ResultTests(unittest.TestCase):
+    def test_global_catalog_exports_are_flat_and_family_grouped(self):
+        from refresh_index import write_global_catalogs
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            first=meta('amo',seed=0,run_id='a',bootstrap_loss='l2_rms')
+            second=meta('amo',seed=1,run_id='b',bootstrap_loss='l2_rms')
+            first['last_eval_step']=1_000_000
+            second['last_eval_step']=500_000
+            runs,families=write_global_catalogs(root,{'svcho':[first,second]},{'svcho':'snapshot'})
+            self.assertEqual((len(runs),len(families)),(2,1))
+            self.assertEqual(families[0]['complete_1m_runs'],1)
+            with (root/'reports/catalog_runs.csv').open() as handle:
+                parsed=list(csv.DictReader(handle))
+            self.assertEqual({row['run_id'] for row in parsed},{'a','b'})
+            self.assertTrue((root/'reports/catalog_families.csv').exists())
+            self.assertTrue((root/'reports/CATALOG.md').exists())
+
     def test_retired_apart_is_omitted_from_main_readme(self):
         from refresh_index import make_readme
         from log_layout import is_retired_apart
