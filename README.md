@@ -421,7 +421,7 @@
 
 ## 빠른 로그 파싱
 
-- 머신 브랜치에서 `catalog/FAMILIES.md`로 family를 먼저 확인하고, `catalog/families.csv` → `catalog/runs_flat.csv` → `catalog/evaluations_flat.csv` 순서로 내려가면 됩니다.
+- 전체 실험 discovery는 `reports/CATALOG.md` / `reports/catalog_families.csv` → `reports/catalog_runs.csv` 순서로 봅니다. 개별 머신의 점수 record까지 필요하면 해당 브랜치의 `catalog/evaluations_flat.csv`와 원본 evaluation으로 내려갑니다.
 - 원본 기준은 `catalog/catalog.json`, 각 run의 `run_meta.json`/`config.yaml`/evaluation 파일입니다. Flat CSV는 분석 편의를 위한 파생 뷰입니다.
 - CLI: `python3 scripts/parse_logs.py --family td3_amo_fixed_alpha_B --completed-only --format csv`
 
