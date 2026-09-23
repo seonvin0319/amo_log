@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-23T14:55:08+09:00",
+  "collected_at": "2026-09-23T15:00:50+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_freeze_main_final_alpha",
@@ -34,8 +34,14 @@
       "config.yaml": {
         "sha256": "6731309873e6dd7f1fb1d1add41b514369afc48a0352811673bd74f564977255"
       },
+      "eval.jsonl": {
+        "sha256": "eefdf3f4597f06f9da94caa20f87d4da5143e00f5d98e1efe3e656214abff839"
+      },
+      "final_eval_50.json": {
+        "sha256": "545424f56dc7fbdd486d0c3cdedd323d9d2e38c83a73d319a23d2c65e11ffd30"
+      },
       "metrics.jsonl": {
-        "sha256": "9c45bd05241e4322aa54687c5816712bbb96e483ee0fd22f7eb2af8503e14f48"
+        "sha256": "03d4b8fded29508c2baf271a61634cf4a664fb72aa07b89cfc23b409384fd34d"
       },
       "source_run_meta.json": {
         "sha256": "bc7cef49a8686b957921a52671de96b7f4cb895ba98365ed6a388d7bb6f9e714"
