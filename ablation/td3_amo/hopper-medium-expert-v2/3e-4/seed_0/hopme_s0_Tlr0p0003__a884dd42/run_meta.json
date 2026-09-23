@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_le_bel2_a5",
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-23T17:22:27+09:00",
+  "collected_at": "2026-09-23T17:27:27+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "td3_amo_le_bel2_a5",
@@ -40,6 +41,9 @@
     "files": {
       "config.yaml": {
         "sha256": "e6324fbba5a7faec9c695acbb2b9a8bc28f44838e46892e9ec6dd85947cb068f"
+      },
+      "eval.jsonl": {
+        "sha256": "2f10482d246371a62aa982e4cf87229f32e61da188a3a2e6e273b7a2adf0a44b"
       },
       "metrics.jsonl": {
         "sha256": "4f89d37b9f195f674bce2442366bdf2d685a9febdb61110d1f1f18b651122bcd"

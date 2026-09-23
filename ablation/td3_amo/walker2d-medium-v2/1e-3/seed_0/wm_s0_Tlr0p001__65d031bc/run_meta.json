@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_le_bel2_a5",
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-23T17:22:27+09:00",
+  "collected_at": "2026-09-23T17:27:27+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_le_bel2_a5",
@@ -40,6 +41,9 @@
     "files": {
       "config.yaml": {
         "sha256": "bc84d7919455b9fd64aad74bbf95b1c82c6342eb1bc7fd36654976a9a9f77b49"
+      },
+      "eval.jsonl": {
+        "sha256": "a90e65122d54d8e60c52a8f332564f3d16696fb70bfdb1731bd81ef2b672d46e"
       },
       "metrics.jsonl": {
         "sha256": "a2708921287b420f6160cbb7daff91c36e30193ff44d23feee531c4c030bdee9"
