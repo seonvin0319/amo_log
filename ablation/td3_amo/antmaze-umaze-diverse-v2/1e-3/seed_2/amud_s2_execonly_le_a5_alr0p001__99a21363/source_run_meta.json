@@ -1,0 +1,10 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "antmaze-umaze-diverse-v2",
+  "seed": 2,
+  "dataset_sha256": "5056c94186e597d3aadf0487ba5b4e4a2d29ef8e86503ceb16bf8ba564da5661",
+  "python": "3.10.20",
+  "device": "cuda:0",
+  "replay_device": "cpu"
+}
