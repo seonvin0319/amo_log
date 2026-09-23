@@ -1,0 +1,103 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_execonly_le",
+    "execution_only"
+  ],
+  "collected_at": "2026-09-24T07:52:40+09:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
+  "family": "td3_amo_execonly_le",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "a1_am-ud_r1e3_s2",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_execonly_le/amud_s2_alr0p001__7ec117e9",
+  "rel_path": "ablation/td3_amo/antmaze-umaze-diverse-v2/1e-3/seed_2/amud_s2_alr0p001__7ec117e9",
+  "run_id": "amud_s2_alr0p001__7ec117e9",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "fc958c93e8fc61d1ebd55ef0da279a3ecabe537f2a140eeead56d6c4012d7982"
+      },
+      "eval.jsonl": {
+        "sha256": "2ef384d92555aa19d62c841ce43c1e51a39d89cd569986e8218ec3c7645d6f17"
+      },
+      "final_eval_50.json": {
+        "sha256": "717a2f6b226b79c6fe63efee5acec0e0a75ccc9fe99c212429d17c877c6d0448"
+      },
+      "metrics.jsonl": {
+        "sha256": "cac758c68bdafec49354e9d31583a5fcb1772dc7ed06c7ca1feeeacfdce98c39"
+      },
+      "source_run_meta.json": {
+        "sha256": "ccb2561ddb565071837958b454996c1f015bdad473993dea27874401b0c32554"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "adaptive_scale_B": false,
+    "adaptive_scale_E": true,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 1,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_dirty": true,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-umaze-diverse-v2",
+    "eval_episodes": 100,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": true,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "fixed_scale_role": "",
+    "fixed_scale_value": null,
+    "freeze_scale_B": false,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_execonly_le_a1_back85/jobs/a1_am-ud_r1e3_s2/run",
+  "variant": "alr0p001"
+}

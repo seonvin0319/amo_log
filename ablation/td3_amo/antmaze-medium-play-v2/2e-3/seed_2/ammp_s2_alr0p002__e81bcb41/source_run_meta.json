@@ -1,0 +1,16 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "antmaze-medium-play-v2",
+  "seed": 2,
+  "dataset_sha256": "2b4004c163f081bc267280031526c59e94fb29821ad1164e3dca41af4fa70245",
+  "python": "3.11.15",
+  "device": "cuda:0",
+  "replay_device": "cpu",
+  "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+  "code_dirty": true,
+  "fixed_scale_role": "",
+  "fixed_scale_value": null,
+  "adaptive_scale_E": true,
+  "adaptive_scale_B": false
+}

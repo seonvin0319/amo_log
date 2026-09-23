@@ -1,0 +1,16 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "halfcheetah-medium-replay-v2",
+  "seed": 2,
+  "dataset_sha256": "6f95dd06a843d576eb7d7c6267afbeeec318bbcc2a531a941bb6916e9d086dcb",
+  "python": "3.11.15",
+  "device": "cuda:0",
+  "replay_device": "cpu",
+  "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+  "code_dirty": true,
+  "fixed_scale_role": "",
+  "fixed_scale_value": null,
+  "adaptive_scale_E": true,
+  "adaptive_scale_B": false
+}

@@ -1,0 +1,16 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "walker2d-medium-v2",
+  "seed": 2,
+  "dataset_sha256": "fe27c28b9ca5c66be19a4938523314b60b594a205a233ab468facee594b43628",
+  "python": "3.11.15",
+  "device": "cuda:0",
+  "replay_device": "cpu",
+  "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+  "code_dirty": true,
+  "fixed_scale_role": "",
+  "fixed_scale_value": null,
+  "adaptive_scale_E": true,
+  "adaptive_scale_B": false
+}

@@ -1,0 +1,16 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "hopper-medium-v2",
+  "seed": 3,
+  "dataset_sha256": "1ab0c0074fafbd4697eed4db854be0cf4576db1663fdd4fc2cd93b168792c2aa",
+  "python": "3.11.15",
+  "device": "cuda:0",
+  "replay_device": "cpu",
+  "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+  "code_dirty": true,
+  "fixed_scale_role": "",
+  "fixed_scale_value": null,
+  "adaptive_scale_E": true,
+  "adaptive_scale_B": false
+}

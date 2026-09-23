@@ -1,0 +1,103 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_execonly_le",
+    "execution_only"
+  ],
+  "collected_at": "2026-09-24T07:52:40+09:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "td3_amo_execonly_le",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "a1_w-m_r1e3_s3",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_execonly_le/wm_s3_alr0p001__574497bb",
+  "rel_path": "ablation/td3_amo/walker2d-medium-v2/1e-3/seed_3/wm_s3_alr0p001__574497bb",
+  "run_id": "wm_s3_alr0p001__574497bb",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "f812cc2a1db9555b518bcbe8ca09de2823aaa3ea65e4fec864612323941a0889"
+      },
+      "eval.jsonl": {
+        "sha256": "09c3a44f9bd40371e0226aaab77e32e19471d9f063aa141fdc5c13739007e078"
+      },
+      "final_eval_50.json": {
+        "sha256": "7b81d38029de4db0342e84aa3b46b5d8d6b3662f44fa51bd156bef2c3b1eefa2"
+      },
+      "metrics.jsonl": {
+        "sha256": "25a06c8d03410c6c260b32a64c48dc298de5094233ce6db4fa5cdecaae5529b0"
+      },
+      "source_run_meta.json": {
+        "sha256": "361076f686147255cfc7f386f61e711713536f000c35e1324ccf7ce77cb50c43"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 3,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "adaptive_scale_B": false,
+    "adaptive_scale_E": true,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 1,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_dirty": true,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": true,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "fixed_scale_role": "",
+    "fixed_scale_value": null,
+    "freeze_scale_B": false,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_execonly_le_a1_back85/jobs/a1_w-m_r1e3_s3/run",
+  "variant": "alr0p001"
+}

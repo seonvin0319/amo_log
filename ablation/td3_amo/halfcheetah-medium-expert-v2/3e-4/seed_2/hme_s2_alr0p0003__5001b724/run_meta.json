@@ -1,0 +1,103 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_execonly_le",
+    "execution_only"
+  ],
+  "collected_at": "2026-09-24T07:52:40+09:00",
+  "env": "halfcheetah-medium-expert-v2",
+  "env_short": "hme",
+  "family": "td3_amo_execonly_le",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "a1_hc-me_r3e4_s2",
+  "meta_lr": 0.0003,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_execonly_le/hme_s2_alr0p0003__5001b724",
+  "rel_path": "ablation/td3_amo/halfcheetah-medium-expert-v2/3e-4/seed_2/hme_s2_alr0p0003__5001b724",
+  "run_id": "hme_s2_alr0p0003__5001b724",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "de8aeb910dc556403216dfaa077f7b9c924f3f033cc0008c1aaccf7c8b5faf88"
+      },
+      "eval.jsonl": {
+        "sha256": "05eb5131368098fe4e5957c6bc06081185d8d39588bacf5a9140a5d7f8e60282"
+      },
+      "final_eval_50.json": {
+        "sha256": "cadb87c96a8576cd5c794cfcbe9a6162db7bf6f85d77c48715e4b9ec25e9ac4c"
+      },
+      "metrics.jsonl": {
+        "sha256": "4ee6ae77ec59724f6e6083f5e8950071ba0a9a0fbe42c6cc623829a5dcdfc90e"
+      },
+      "source_run_meta.json": {
+        "sha256": "8ec7d17b3283672ee27b23cb4471d7ca72b51911e6dbf1c501eabcbf8666d28f"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "adaptive_scale_B": false,
+    "adaptive_scale_E": true,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 1,
+    "alpha_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_dirty": true,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "halfcheetah-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": true,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "fixed_scale_role": "",
+    "fixed_scale_value": null,
+    "freeze_scale_B": false,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_execonly_le_a1_back85/jobs/a1_hc-me_r3e4_s2/run",
+  "variant": "alr0p0003"
+}
