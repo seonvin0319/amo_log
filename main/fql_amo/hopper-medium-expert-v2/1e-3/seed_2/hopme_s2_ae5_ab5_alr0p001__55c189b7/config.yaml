@@ -1,0 +1,11 @@
+algorithm: fql_amo
+agent_name: fql_rapo
+backend: jax
+env: hopper-medium-expert-v2
+seed: 2
+alpha_E: 5.0
+alpha_B: 5.0
+alpha_lr: 0.001
+actor_lr: 0.0003
+critic_lr: 0.0003
+max_steps: 1000000

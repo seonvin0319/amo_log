@@ -1,0 +1,56 @@
+{
+  "algo": "fql_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/fql_rapo_main_a5_3env_seeds0to3/runs/fqlrapo_main_a5_hc-mr_a1e3_s1",
+  "classification_reasons": [],
+  "collected_at": "2026-09-24T08:07:41+09:00",
+  "env": "halfcheetah-medium-replay-v2",
+  "env_short": "hcmr",
+  "family": "fql_amo_jax",
+  "git": {
+    "code_commit": "e8cd16eb490332924dfa2492097219f181765933",
+    "code_repo": "fql"
+  },
+  "identity_uuid8": "efe22673",
+  "layout_version": 2,
+  "legacy_name": "fqlrapo_main_a5_hc-mr_a1e3_s1",
+  "meta_lr": 0.001,
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": false
+  },
+  "method": "fql_amo",
+  "original_rel_path": "runs/fql_amo/fql_amo_jax/hcmr_s1_ae5_ab5_alr0p001__efe22673",
+  "rel_path": "main/fql_amo/halfcheetah-medium-replay-v2/1e-3/seed_1/hcmr_s1_ae5_ab5_alr0p001__efe22673",
+  "run_id": "hcmr_s1_ae5_ab5_alr0p001__efe22673",
+  "section": "main",
+  "seed": 1,
+  "settings": {
+    "T_lr": 0.001,
+    "actor_lr": 0.0003,
+    "agent_name": "fql_rapo",
+    "algorithm": "fql_amo",
+    "alpha_B": 5.0,
+    "alpha_E": 5.0,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "critic_lr": 0.0003,
+    "env": "halfcheetah-medium-replay-v2",
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "seed": 1
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/fql_rapo_main_a5_3env_seeds0to3/runs/fqlrapo_main_a5_hc-mr_a1e3_s1",
+  "variant": "ae5_ab5_alr0p001"
+}

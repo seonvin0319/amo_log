@@ -1,0 +1,8 @@
+{
+  "agent_name": "fql_rapo",
+  "algorithm": "fql_amo",
+  "backend": "jax",
+  "code_commit": "e8cd16eb490332924dfa2492097219f181765933",
+  "env": "antmaze-large-diverse-v2",
+  "seed": 1
+}
