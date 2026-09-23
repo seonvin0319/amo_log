@@ -1,5 +1,7 @@
 # 실험 로그
 
+파싱용 파생 뷰: [family 요약](FAMILIES.md) · [runs CSV](runs_flat.csv) · [evaluations CSV](evaluations_flat.csv) · [families CSV](families.csv)
+
 | 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |
 |---|---|---|---|---|---:|---|---:|---|
 | ablation | fql_amo | halfcheetah-medium-expert-v2 | alpha_E/alpha_B=10/10 | 0.0003 | 0 | jax | — | [hme_s0_ae10_ab10_alr0p0003__96435b3f](../ablation/fql_amo/halfcheetah-medium-expert-v2/3e-4/seed_0/hme_s0_ae10_ab10_alr0p0003__96435b3f/) |
