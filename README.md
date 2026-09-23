@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [4bfccc8f](https://github.com/seonvin0319/amo_log/commit/4bfccc8fc02cc423a1fd0bd61d2911336523a2e3) | 33 |
-| ext_csv | [89a09b4d](https://github.com/seonvin0319/amo_log/commit/89a09b4da3fb1c370b0645d0fb9b5d4e4027265c) | 0 |
+| ext_csv | [0496038d](https://github.com/seonvin0319/amo_log/commit/0496038d50eed29934f3df4cc278e182321aa81a) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [f1fa1495](https://github.com/seonvin0319/amo_log/commit/f1fa14958cff516f057784bbe16447803f783857) | 390 |
 | svcho | [12e80f59](https://github.com/seonvin0319/amo_log/commit/12e80f5927a92c323524726b7a15b627b2443e95) | 612 |
@@ -444,7 +444,7 @@
 |---|---:|---:|---|
 | [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 241 | 159 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
 | [ext_csh](https://github.com/seonvin0319/amo_log/tree/ext_csh) | 33 | 967 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csh/catalog/INDEX.md) |
-| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 0 | 735 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
+| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 0 | 736 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
 | [offrl](https://github.com/seonvin0319/amo_log/tree/offrl) | 10 | 0 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/offrl/catalog/INDEX.md) |
 | [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 514 | 408 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
 | [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 698 | 1004 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
@@ -1603,7 +1603,7 @@
 | td3_amo | hopper-medium-v2 | 0.002 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-v2/2e-3) |
 | td3_amo | hopper-medium-v2 | 0.002 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-v2/2e-3) |
 | td3_amo | hopper-medium-v2 | 0.002 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-v2/2e-3) |
-| td3_amo | hopper-medium-v2 | 0.002 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-v2/2e-3) |
+| td3_amo | hopper-medium-v2 | 0.002 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-v2/2e-3) |
 | td3_amo | hopper-medium-v2 | — | alpha_E/alpha_B=20/20; actor_lr=0.0003; four_eval_fixed_n; method_variant:four_eval_fixed_n,bootstrap_loss_not_l2_rms,initial_scale_outside_main,critic_architecture,meta_lr_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-v2/unspecified) |
 | td3_amo | hopper-medium-v2 | — | alpha_E/alpha_B=8/8; actor_lr=0.0003; behavior_bc_l1_joint; method_variant:behavior_bc_l1_joint,bootstrap_loss_not_l2_rms,initial_scale_outside_main,critic_architecture,execution_loss,meta_lr_outside_main | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-v2/unspecified) |
 | td3_amo | hopper-medium-v2 | — | alpha_E/alpha_B=8/8; actor_lr=0.0003; four_eval_fixed_n; method_variant:four_eval_fixed_n,bootstrap_loss_not_l2_rms,initial_scale_outside_main,critic_architecture,meta_lr_outside_main | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-v2/unspecified) |
