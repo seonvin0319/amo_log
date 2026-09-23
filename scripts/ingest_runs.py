@@ -328,6 +328,39 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "nested": False,
     },
     {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_bootrms_a5_cmp4_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-execonly",
+        "code_commit": _AMO_EXECONLY,
+        "family_force": "td3_amo_bootrms_cmp4",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_el2_bootrms_a5_cmp4_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-execonly",
+        "code_commit": _AMO_EXECONLY,
+        "family_force": "td3_amo_el2_bootrms_cmp4",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_le_bel2_a5_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-execonly",
+        "code_commit": _AMO_EXECONLY,
+        "family_force": "td3_amo_le_bel2_a5",
+        "nested": False,
+    },
+    {
         "algo": "iql_amo",
         "root": Path(
             "/raid/ext_csv/AMO_store/iql_amo_lel2_b5_seeds0to3/runs"
@@ -336,6 +369,50 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "code_repo": "AMO-execonly",
         "code_commit": _AMO_EXECONLY,
         "family_force": "iql_amo_lel2",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_fixed_alpha_B5_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-fixed-alpha",
+        "code_commit": None,
+        "family_force": "td3_amo_fixed_alpha_B",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/td3_amo_fixed_alpha_B1_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-fixed-alpha",
+        "code_commit": None,
+        "family_force": "td3_amo_fixed_alpha_B",
+        "nested": False,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_ddpgbc_fixed_alpha_E5_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-fixed-alpha",
+        "code_commit": None,
+        "family_force": "iql_ddpgbc_fixed_alpha_E",
+        "nested": False,
+    },
+    {
+        "algo": "iql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/iql_ddpgbc_fixed_alpha_E1_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "AMO-fixed-alpha",
+        "code_commit": None,
+        "family_force": "iql_ddpgbc_fixed_alpha_E",
         "nested": False,
     },
 ]
@@ -824,6 +901,14 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "expectile",
         "algorithm",
         "backend",
+        "freeze_scale_B",
+        "freeze_scale_E",
+        "bootstrap_loss",
+        "execution_only",
+        "execution_meta_loss",
+        "execution_score",
+        "const_std",
+        "gaussian",
     ]
     out = {}
     for key in keys:
@@ -867,6 +952,8 @@ def ingest_one(
         return None
     cfg = load_yaml_lite(cfg_path)
     env, seed, provenance, source_run_meta = resolve_env_seed(src, cfg)
+    if not code_commit:
+        code_commit = source_run_meta.get("code_commit")
     family = classify_family(algo, cfg, family_force)
     # Adaptive-multiscale always archives under amo/, even if code lived in APART/.
     if family == "adaptive_multiscale":
