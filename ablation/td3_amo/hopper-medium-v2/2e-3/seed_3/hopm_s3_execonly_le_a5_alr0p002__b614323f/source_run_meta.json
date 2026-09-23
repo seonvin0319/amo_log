@@ -1,0 +1,10 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "hopper-medium-v2",
+  "seed": 3,
+  "dataset_sha256": "1ab0c0074fafbd4697eed4db854be0cf4576db1663fdd4fc2cd93b168792c2aa",
+  "python": "3.10.20",
+  "device": "cuda:0",
+  "replay_device": "cpu"
+}

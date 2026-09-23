@@ -13,7 +13,7 @@
     "initial_beta_outside_main",
     "method_variant:iql_ddpgbc"
   ],
-  "collected_at": "2026-09-23T13:29:21+00:00",
+  "collected_at": "2026-09-24T08:03:07+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "iql_ddpgbc",
