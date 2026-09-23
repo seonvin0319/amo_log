@@ -12,7 +12,7 @@
     "method_variant:td3_amo_design_ablation",
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-23T21:47:44+09:00",
+  "collected_at": "2026-09-23T21:53:24+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_design_ablation",
