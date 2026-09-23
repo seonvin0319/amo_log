@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
   "classification_reasons": [
     "execution_only"
   ],
-  "collected_at": "2026-09-24T08:03:07+09:00",
+  "collected_at": "2026-09-23T23:42:25+00:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_execonly_main",
@@ -33,6 +34,9 @@
     "files": {
       "config.yaml": {
         "sha256": "9e1cfc4a59d9dad93dc3938b2503a84e0abb72581e594f5f9c5a90957e06d7f7"
+      },
+      "eval.jsonl": {
+        "sha256": "a3686c6a116205dc2f6f296f96d645a0ff0c10098360d460387850b3402234ef"
       },
       "metrics.jsonl": {
         "sha256": "315f5ca1b859f72bed38588417e6d4679463bbe6f3ebee43e4d3473453e59673"

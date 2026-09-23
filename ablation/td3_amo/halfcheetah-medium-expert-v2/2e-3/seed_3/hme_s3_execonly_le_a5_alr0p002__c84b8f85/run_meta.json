@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
   "classification_reasons": [
     "execution_only"
   ],
-  "collected_at": "2026-09-24T08:03:07+09:00",
+  "collected_at": "2026-09-23T23:42:25+00:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "td3_amo_execonly_main",
@@ -33,6 +34,9 @@
     "files": {
       "config.yaml": {
         "sha256": "0d9c81d1b3ce954b08ae7d842e8ced104f03bd0707b4fe0a8b2c851cc4b94b06"
+      },
+      "eval.jsonl": {
+        "sha256": "7524881cc9495ef060c7e2b63173e0048878dea1f7fff1df6a7f86f8f4e272f4"
       },
       "metrics.jsonl": {
         "sha256": "b108523a5310dd8f659ffd7c37960e23a27ab72549ac0b465e693c733974647c"

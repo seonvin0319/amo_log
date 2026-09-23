@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
   "classification_reasons": [
     "execution_only"
   ],
-  "collected_at": "2026-09-24T08:03:07+09:00",
+  "collected_at": "2026-09-23T23:42:25+00:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_execonly_main",
@@ -33,6 +34,9 @@
     "files": {
       "config.yaml": {
         "sha256": "ae72ab62d6cb1f221e82dd15de9c80e6528bc54318dcf28bcdb29a6515b401a5"
+      },
+      "eval.jsonl": {
+        "sha256": "7be9af1ea3526c1c1b4d0528edeb6f1013c3124c009f7dc4bfc16b409cb23047"
       },
       "metrics.jsonl": {
         "sha256": "7363c09df3a4cca8993feda845c1d7a8ffa28bb053a051f0e9d06cbe12d4af20"
