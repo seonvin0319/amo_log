@@ -1,0 +1,87 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "cell": "a5_w-m_r2e3_s1",
+  "checkpoint_hint": "/raid/ext_csh/AMO_store/td3_amo_execonly_a51_seeds03/jobs/a5_w-m_r2e3_s1/run",
+  "classification_reasons": [
+    "execution_only"
+  ],
+  "collected_at": "2026-09-23T12:03:05+00:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "td3_amo_execonly_main",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO-td3-execonly"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/td3_amo_execonly_main/wm_s1_execonly_le_a5_alr0p002__2ce5c0ec",
+  "protocol": "jax_td3_amo_execonly_le_v1",
+  "rel_path": "ablation/td3_amo/walker2d-medium-v2/2e-3/seed_1/wm_s1_execonly_le_a5_alr0p002__2ce5c0ec",
+  "run_id": "wm_s1_execonly_le_a5_alr0p002__2ce5c0ec",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "0d9c81d1b3ce954b08ae7d842e8ced104f03bd0707b4fe0a8b2c851cc4b94b06"
+      },
+      "metrics.jsonl": {
+        "sha256": "e5d0c76dd94a832ec32751ddf9e3f6e77ae2723e3c0de922575e6479ea746c79"
+      },
+      "source_run_meta.json": {
+        "sha256": "e8954cec55f8490465d61a9d624b98fa96ba04cc147d25497828cc9d048f18a6"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": true,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/AMO_store/td3_amo_execonly_a51_seeds03/jobs/a5_w-m_r2e3_s1/run",
+  "variant": "execonly_le_a5_alr0p002"
+}

@@ -1,0 +1,87 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "cell": "a5_h-me_r3e4_s1",
+  "checkpoint_hint": "/raid/ext_csh/AMO_store/td3_amo_execonly_a51_seeds03/jobs/a5_h-me_r3e4_s1/run",
+  "classification_reasons": [
+    "execution_only"
+  ],
+  "collected_at": "2026-09-23T12:03:05+00:00",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
+  "family": "td3_amo_execonly_main",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO-td3-execonly"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.0003,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/td3_amo_execonly_main/hopme_s1_execonly_le_a5_alr0p0003__e209e352",
+  "protocol": "jax_td3_amo_execonly_le_v1",
+  "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/3e-4/seed_1/hopme_s1_execonly_le_a5_alr0p0003__e209e352",
+  "run_id": "hopme_s1_execonly_le_a5_alr0p0003__e209e352",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "a3a13148905275bd382f1fdb45db2955d5ca33fb31da6b2223e7f0ecc5307867"
+      },
+      "metrics.jsonl": {
+        "sha256": "5fde0150738fcfd3f5f4f7aadd7c9b5cc7c8618cf5b4aae8e4d074e40ad85852"
+      },
+      "source_run_meta.json": {
+        "sha256": "c113934f67411cbf021671c281cfab2dd1860716d1f88142010f6091f50f99b0"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.0003,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "hopper-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": true,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/AMO_store/td3_amo_execonly_a51_seeds03/jobs/a5_h-me_r3e4_s1/run",
+  "variant": "execonly_le_a5_alr0p0003"
+}
