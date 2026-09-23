@@ -86,6 +86,15 @@ LEGACY_ENV_PREFIX = {
 
 DEFAULT_SOURCES: List[Dict[str, Any]] = [
     {
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_freeze_main_final_alpha_seeds03/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "family_force": "td3_amo_freeze_main_final_alpha",
+        "layout": "cell_jobs",
+        "require_eval": False,
+    },
+    {
         "algo": "iql_amo",
         "root": Path("/home/svcho/amo/results/iql_amo_bpi_fixed_beta_E_seeds03/jobs"),
         "host": "svcho",
