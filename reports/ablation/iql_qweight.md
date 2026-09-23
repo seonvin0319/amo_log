@@ -213,7 +213,7 @@ IQL-AMO의 `algorithm=iql_amo_qweight`, `qweight_enabled=true` 비교군입니�
 | ext_csh | [c546f575](https://github.com/seonvin0319/amo_log/commit/c546f575d09853bef19108bdebd5ebb34bbac1a5) | 283 |
 | ext_csv | [919b9514](https://github.com/seonvin0319/amo_log/commit/919b9514dd1eed9ddcdfa9950093d363f1963588) | 140 |
 | offrl | [f1294201](https://github.com/seonvin0319/amo_log/commit/f129420153bf669419b0a7e30578b8c1cf3c3dfc) | 0 |
-| shchoi | [d8f4bfc0](https://github.com/seonvin0319/amo_log/commit/d8f4bfc0726651003388e2c237f3bed2bb37f5f1) | 0 |
+| shchoi | [42e2f040](https://github.com/seonvin0319/amo_log/commit/42e2f040fbfee019e98aa055b96d264f2e25f18a) | 0 |
 | svcho | [ec22734c](https://github.com/seonvin0319/amo_log/commit/ec22734c028928bcb42231c3d4e1b42e3e906f40) | 0 |
 
 **평가 점수 미업로드:** `ext_csh` 265개 실행, `ext_csv` 18개 실행. 학습 로그만으로 완료 점수를 계산하지 않습니다. `대기`는 평가 점수가 없다는 뜻이며 학습 상태를 뜻하지 않습니다.
