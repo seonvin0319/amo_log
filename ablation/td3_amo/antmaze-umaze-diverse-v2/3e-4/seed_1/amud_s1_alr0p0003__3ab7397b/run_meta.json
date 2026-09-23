@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-23T19:18:08+09:00",
+  "collected_at": "2026-09-23T19:23:51+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "td3_amo_freeze_main_final_alpha",
@@ -34,8 +34,14 @@
       "config.yaml": {
         "sha256": "65310cb5bde70b5a26e4aa02a57045d2d2ad864a6ff626e68826122968f575c8"
       },
+      "eval.jsonl": {
+        "sha256": "7ba20a1fa15928cf3b65de689978bf1197e429df12cf03327005f3eb24cdd12a"
+      },
+      "final_eval_50.json": {
+        "sha256": "261e4ee64de7ab19dde8a5329605a635804e9ce247cb8f318a28ccc7da832f28"
+      },
       "metrics.jsonl": {
-        "sha256": "60ab50df05055209b7a69fadd0993c3b01a06d1cb90c631f50952d7cbc494e66"
+        "sha256": "b99f3b17a1fe92541472b1cf113851b8218f7b338fb29dafc6c3982b07c5a7dd"
       },
       "source_run_meta.json": {
         "sha256": "7642d6a1047b7b9efae3167e89fc47707245a6bcd3630b38ec42dc8b41cb1a29"

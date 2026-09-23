@@ -1,0 +1,96 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_freeze_main_final_alpha",
+    "initial_scale_outside_main",
+    "initial_scale_mismatch"
+  ],
+  "collected_at": "2026-09-23T19:23:51+09:00",
+  "env": "antmaze-umaze-diverse-v2",
+  "env_short": "amud",
+  "family": "td3_amo_freeze_main_final_alpha",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "td3_fin_am-ud_s3",
+  "meta_lr": 0.0003,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_freeze_main_final_alpha/amud_s3_alr0p0003__8393079d",
+  "rel_path": "ablation/td3_amo/antmaze-umaze-diverse-v2/3e-4/seed_3/amud_s3_alr0p0003__8393079d",
+  "run_id": "amud_s3_alr0p0003__8393079d",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "65310cb5bde70b5a26e4aa02a57045d2d2ad864a6ff626e68826122968f575c8"
+      },
+      "metrics.jsonl": {
+        "sha256": "7d7142bb2a1e4e8a4881e99f2fb71ef7f61a7b523b923b27dbd43f637739c1e9"
+      },
+      "source_run_meta.json": {
+        "sha256": "070fb2bf6f933bb988477274c793192736c67759a6eeb8332f887d3168cef8b8"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 3,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "adaptive_scale_B": false,
+    "adaptive_scale_E": false,
+    "algorithm": "td3_amo",
+    "alpha_B": 6.317456,
+    "alpha_E": 7.476343,
+    "alpha_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_dirty": true,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-umaze-diverse-v2",
+    "eval_episodes": 100,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "fixed_scale_role": "B",
+    "fixed_scale_value": 6.317456,
+    "freeze_scale_B": true,
+    "freeze_scale_E": true,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_freeze_main_final_alpha_seeds03/jobs/td3_fin_am-ud_s3/run",
+  "variant": "alr0p0003"
+}
