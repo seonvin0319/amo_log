@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 from log_layout import normalize, initial_label
+from parse_logs import write_exports
 ROOT=Path(__file__).resolve().parents[1]
 
 def latest_eval(run):
@@ -20,7 +21,7 @@ def write_catalog(root, rows):
     cat=root/'catalog';cat.mkdir(exist_ok=True)
     rows=sorted(rows,key=lambda r:(r['section'],r['method'],r['env'],r.get('meta_lr') or 0,str(r['seed']),r['run_id']))
     (cat/'catalog.json').write_text(json.dumps({'layout_version':2,'runs':rows},indent=2,sort_keys=True)+'\n')
-    lines=['# 실험 로그','', '| 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |','|---|---|---|---|---|---:|---|---:|---|']
+    lines=['# 실험 로그','', '파싱용 파생 뷰: [family 요약](FAMILIES.md) · [runs CSV](runs_flat.csv) · [evaluations CSV](evaluations_flat.csv) · [families CSV](families.csv)','', '| 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |','|---|---|---|---|---|---:|---|---:|---|']
     for r in rows:
         lr=r.get('meta_lr');lr='—' if lr is None else str(lr)
         lines.append(f"| {r['section']} | {r['method']} | {r['env']} | {initial_label(r)} | {lr} | {r['seed']} | {r['backend']} | {r.get('last_eval_step') or '—'} | [{r['run_id']}](../{r['rel_path']}/) |")
@@ -35,5 +36,6 @@ def build():
             m['last_eval_step']=latest_eval(p.parent)
             rows.append(m)
     write_catalog(ROOT,rows)
-    print('catalog:',len(rows),'runs')
+    flat_runs, evaluations, families = write_exports(ROOT, rows)
+    print('catalog:',len(rows),'runs; parsed:',len(flat_runs),'runs,',len(evaluations),'evaluations,',len(families),'families')
 if __name__=='__main__':build()
