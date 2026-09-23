@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [9bf1225a](https://github.com/seonvin0319/amo_log/commit/9bf1225aad756fa56c83264928dc817209dc96eb) | 33 |
-| ext_csv | [1a172851](https://github.com/seonvin0319/amo_log/commit/1a172851a21690b2aee23b21c057dd45f4a8c9f7) | 0 |
+| ext_csv | [ceccb052](https://github.com/seonvin0319/amo_log/commit/ceccb052185a87df621a5f9df632fe1ceaf4e105) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [99f7d16a](https://github.com/seonvin0319/amo_log/commit/99f7d16a436a158d1438a74d52d6912b965a7aa7) | 390 |
 | svcho | [86586b17](https://github.com/seonvin0319/amo_log/commit/86586b17a6777200751d48ff812298ec0b8c1162) | 612 |
@@ -444,7 +444,7 @@
 |---|---:|---:|---|
 | [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 241 | 159 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
 | [ext_csh](https://github.com/seonvin0319/amo_log/tree/ext_csh) | 33 | 871 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csh/catalog/INDEX.md) |
-| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 0 | 676 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
+| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 0 | 677 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
 | [offrl](https://github.com/seonvin0319/amo_log/tree/offrl) | 10 | 0 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/offrl/catalog/INDEX.md) |
 | [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 514 | 408 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
 | [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 698 | 964 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
@@ -1044,6 +1044,7 @@
 | td3_amo | antmaze-large-diverse-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-large-diverse-v2/3e-4) |
 | td3_amo | antmaze-large-diverse-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-large-diverse-v2/3e-4) |
 | td3_amo | antmaze-large-diverse-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/ablation/td3_amo/antmaze-large-diverse-v2/3e-4) |
+| td3_amo | antmaze-large-diverse-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-diverse-v2/3e-4) |
 | td3_amo | antmaze-large-diverse-v2 | 0.0005 | alpha_E/alpha_B=2/2; actor_lr=0.0003; adaptive_multiscale; bootstrap_loss_not_l2_rms,meta_lr_outside_main | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-diverse-v2/5e-4) |
 | td3_amo | antmaze-large-diverse-v2 | 0.001 | alpha_E/alpha_B=1/1; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [svcho: seed 0](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-large-diverse-v2/1e-3) |
 | td3_amo | antmaze-large-diverse-v2 | 0.001 | alpha_E/alpha_B=1/1; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-diverse-v2/1e-3); [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/ablation/td3_amo/antmaze-large-diverse-v2/1e-3) |
