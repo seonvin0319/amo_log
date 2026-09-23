@@ -153,6 +153,7 @@ def main():
                 check_source(row,original,exclusions)
     eval_blobs=blobs(root,wanted.values())
     evaluations={key:eval_blobs[oid].decode() for key,oid in wanted.items()}
+    write_global_catalogs(root,catalogs,revisions)
     runs,selected=collect(catalogs,evaluations,revisions)
     ex_runs,ex_selected=collect(catalogs,evaluations,revisions,'execonly')
     iql2_runs,iql2_selected=collect(catalogs,evaluations,revisions,'iql_lel2')
