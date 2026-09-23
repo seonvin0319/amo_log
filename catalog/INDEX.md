@@ -1,5 +1,7 @@
 # 실험 로그
 
+파싱용 파생 뷰: [family 요약](FAMILIES.md) · [runs CSV](runs_flat.csv) · [evaluations CSV](evaluations_flat.csv) · [families CSV](families.csv)
+
 | 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |
 |---|---|---|---|---|---:|---|---:|---|
 | ablation | iql_amo | antmaze-large-diverse-v2 | beta=? | 0.0003 | 0 | torch | 1000000 | [amld_s0_iql_ddpgbc_amo_a1_loco_antmaze_a1_alr0p0003__84f78a9e](../ablation/iql_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_iql_ddpgbc_amo_a1_loco_antmaze_a1_alr0p0003__84f78a9e/) |
