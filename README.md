@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [4bfccc8f](https://github.com/seonvin0319/amo_log/commit/4bfccc8fc02cc423a1fd0bd61d2911336523a2e3) | 33 |
-| ext_csv | [0496038d](https://github.com/seonvin0319/amo_log/commit/0496038d50eed29934f3df4cc278e182321aa81a) | 0 |
+| ext_csv | [224ea5b7](https://github.com/seonvin0319/amo_log/commit/224ea5b70f531fe9446a59fd94d3dd9adc1d17ce) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [819dab5b](https://github.com/seonvin0319/amo_log/commit/819dab5b2cafeec9c39e6ca7c733d5d1806d57ab) | 390 |
 | svcho | [87ddc10d](https://github.com/seonvin0319/amo_log/commit/87ddc10d8fa4c19e3264c3860fb509a532ece0ac) | 612 |
@@ -444,7 +444,7 @@
 |---|---:|---:|---|
 | [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 241 | 159 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
 | [ext_csh](https://github.com/seonvin0319/amo_log/tree/ext_csh) | 33 | 967 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csh/catalog/INDEX.md) |
-| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 0 | 736 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
+| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 0 | 737 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
 | [offrl](https://github.com/seonvin0319/amo_log/tree/offrl) | 10 | 0 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/offrl/catalog/INDEX.md) |
 | [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 514 | 408 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
 | [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 698 | 1004 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
@@ -1521,7 +1521,7 @@
 | td3_amo | hopper-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-replay-v2/3e-4) |
 | td3_amo | hopper-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-replay-v2/3e-4) |
 | td3_amo | hopper-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-replay-v2/3e-4) |
-| td3_amo | hopper-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-replay-v2/3e-4) |
+| td3_amo | hopper-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-replay-v2/3e-4) |
 | td3_amo | hopper-medium-replay-v2 | 0.0005 | alpha_E/alpha_B=2/2; actor_lr=0.0003; adaptive_multiscale; bootstrap_loss_not_l2_rms,critic_architecture,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-replay-v2/5e-4) |
 | td3_amo | hopper-medium-replay-v2 | 0.0005 | alpha_E/alpha_B=2/2; actor_lr=0.0003; adaptive_multiscale; bootstrap_loss_not_l2_rms,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-replay-v2/5e-4) |
 | td3_amo | hopper-medium-replay-v2 | 0.001 | alpha_E/alpha_B=1/1; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [svcho: seed 0,1](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-replay-v2/1e-3) |
