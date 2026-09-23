@@ -11,7 +11,7 @@
     "method_variant:td3_amo_le_bel2_a5",
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-23T20:07:30+09:00",
+  "collected_at": "2026-09-23T20:12:30+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_le_bel2_a5",
