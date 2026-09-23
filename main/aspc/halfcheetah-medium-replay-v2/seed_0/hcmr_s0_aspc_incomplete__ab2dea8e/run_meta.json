@@ -7,7 +7,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-24T05:32:05+09:00",
+  "collected_at": "2026-09-24T05:37:38+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "benchmark",
