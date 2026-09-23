@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_le_bel2_a5",
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-23T17:32:27+09:00",
+  "collected_at": "2026-09-23T17:37:27+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_le_bel2_a5",
@@ -40,6 +41,9 @@
     "files": {
       "config.yaml": {
         "sha256": "bc84d7919455b9fd64aad74bbf95b1c82c6342eb1bc7fd36654976a9a9f77b49"
+      },
+      "eval.jsonl": {
+        "sha256": "3f5d42b7a086f3782c67eb9d6707e6116be4e62dd383d4d5586a86f16d4cb5e7"
       },
       "metrics.jsonl": {
         "sha256": "71eb875fa568ef38fb17adb6da05415a54c1af8a26996ca61288ad0eb135f866"
