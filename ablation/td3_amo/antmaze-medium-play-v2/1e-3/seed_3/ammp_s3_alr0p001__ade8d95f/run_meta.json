@@ -1,0 +1,96 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_freeze_main_final_alpha",
+    "initial_scale_outside_main",
+    "initial_scale_mismatch"
+  ],
+  "collected_at": "2026-09-23T19:58:15+09:00",
+  "env": "antmaze-medium-play-v2",
+  "env_short": "ammp",
+  "family": "td3_amo_freeze_main_final_alpha",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "td3_fin_am-mp_s3",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_freeze_main_final_alpha/ammp_s3_alr0p001__ade8d95f",
+  "rel_path": "ablation/td3_amo/antmaze-medium-play-v2/1e-3/seed_3/ammp_s3_alr0p001__ade8d95f",
+  "run_id": "ammp_s3_alr0p001__ade8d95f",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "98b4a271597a99d503bae65563e5122a4a3c796f695dbdc6a3442e2b4101e2fe"
+      },
+      "metrics.jsonl": {
+        "sha256": "15d885ee5f7e094f02b51965996de48a334e08764663b14e4a1df0333b9a4837"
+      },
+      "source_run_meta.json": {
+        "sha256": "ac336bcb29776815e90270a90461f15a612f1a31d380fca478b08ee295092801"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 3,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "adaptive_scale_B": false,
+    "adaptive_scale_E": false,
+    "algorithm": "td3_amo",
+    "alpha_B": 8.997198,
+    "alpha_E": 13.667662,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_dirty": true,
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "antmaze-medium-play-v2",
+    "eval_episodes": 100,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "fixed_scale_role": "B",
+    "fixed_scale_value": 8.997198,
+    "freeze_scale_B": true,
+    "freeze_scale_E": true,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 3,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_freeze_main_final_alpha_seeds03/jobs/td3_fin_am-mp_s3/run",
+  "variant": "alr0p001"
+}
