@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [db39f94f](https://github.com/seonvin0319/amo_log/commit/db39f94f545cb94eb93bb727c59d8bb975ffd4d5) | 33 |
-| ext_csv | [f0b13e9a](https://github.com/seonvin0319/amo_log/commit/f0b13e9a359bad5c01c9ce39ddc64fd68fa68205) | 0 |
+| ext_csv | [e5f76e66](https://github.com/seonvin0319/amo_log/commit/e5f76e6620aa257f3acfdbf36a8b369ce69770f2) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [136e0476](https://github.com/seonvin0319/amo_log/commit/136e0476b334ae34e3f17c5c1f2f1f661aefa63e) | 390 |
 | svcho | [42217b2a](https://github.com/seonvin0319/amo_log/commit/42217b2ac41bb759774ce661e34ed53a42e7543f) | 612 |
@@ -444,7 +444,7 @@
 |---|---:|---:|---|
 | [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 241 | 159 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
 | [ext_csh](https://github.com/seonvin0319/amo_log/tree/ext_csh) | 33 | 1063 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csh/catalog/INDEX.md) |
-| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 0 | 757 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
+| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 12 | 757 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
 | [offrl](https://github.com/seonvin0319/amo_log/tree/offrl) | 10 | 0 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/offrl/catalog/INDEX.md) |
 | [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 514 | 408 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
 | [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 698 | 1089 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
@@ -490,6 +490,9 @@
 | aspc | walker2d-medium-expert-v2 | — | actor_lr=0.0003 | [choi: seed 0](https://github.com/seonvin0319/amo_log/tree/choi/main/aspc/walker2d-medium-expert-v2); [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/aspc/walker2d-medium-expert-v2) |
 | aspc | walker2d-medium-replay-v2 | — | actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/aspc/walker2d-medium-replay-v2) |
 | aspc | walker2d-medium-v2 | — | actor_lr=0.0003 | [shchoi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/shchoi/main/aspc/walker2d-medium-v2) |
+| fql_amo | antmaze-large-diverse-v2 | 0.001 | actor_lr=0.0003 | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/fql_amo/antmaze-large-diverse-v2/1e-3) |
+| fql_amo | halfcheetah-medium-replay-v2 | 0.001 | actor_lr=0.0003 | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/fql_amo/halfcheetah-medium-replay-v2/1e-3) |
+| fql_amo | hopper-medium-expert-v2 | 0.001 | actor_lr=0.0003 | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/main/fql_amo/hopper-medium-expert-v2/1e-3) |
 | iql | antmaze-large-diverse-v2 | — | actor_lr=0.0003 | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/iql/antmaze-large-diverse-v2) |
 | iql | antmaze-large-play-v2 | — | actor_lr=0.0003 | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/iql/antmaze-large-play-v2) |
 | iql | antmaze-medium-diverse-v2 | — | actor_lr=0.0003 | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/main/iql/antmaze-medium-diverse-v2) |
