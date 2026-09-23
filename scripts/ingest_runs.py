@@ -317,6 +317,17 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "nested": False,
     },
     {
+        "algo": "fql_amo",
+        "root": Path(
+            "/raid/ext_csv/AMO_store/fql_rapo_main_a5_3env_seeds0to3/runs"
+        ),
+        "host": "ext_csv",
+        "code_repo": "fql",
+        "code_commit": "e8cd16eb490332924dfa2492097219f181765933",
+        "family_force": "fql_amo_jax",
+        "nested": False,
+    },
+    {
         "algo": "td3_amo",
         "root": Path(
             "/raid/ext_csv/AMO_store/td3_amo_execonly_a5_seeds0to3/runs"
