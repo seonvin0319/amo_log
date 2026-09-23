@@ -419,6 +419,12 @@
 <details>
 <summary>저장 규칙 · 전체 카탈로그 · main/ablation 실행 위치</summary>
 
+## 빠른 로그 파싱
+
+- 머신 브랜치에서 `catalog/FAMILIES.md`로 family를 먼저 확인하고, `catalog/families.csv` → `catalog/runs_flat.csv` → `catalog/evaluations_flat.csv` 순서로 내려가면 됩니다.
+- 원본 기준은 `catalog/catalog.json`, 각 run의 `run_meta.json`/`config.yaml`/evaluation 파일입니다. Flat CSV는 분석 편의를 위한 파생 뷰입니다.
+- CLI: `python3 scripts/parse_logs.py --family td3_amo_fixed_alpha_B --completed-only --format csv`
+
 ## 저장 규칙
 
 - 본 실험: `main/<방법>/<환경>/<meta_lr>/seed_<seed>/<run_id>/`.
