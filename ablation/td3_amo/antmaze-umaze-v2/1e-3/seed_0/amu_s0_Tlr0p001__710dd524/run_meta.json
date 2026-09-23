@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_le_bel2_a5",
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-23T17:17:27+09:00",
+  "collected_at": "2026-09-23T17:22:27+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "td3_amo_le_bel2_a5",
@@ -40,6 +41,9 @@
     "files": {
       "config.yaml": {
         "sha256": "64a3b2c563a5e8dbcc856cb717d0a384682afaa3f4919d7f862dbe66e8bc3e5e"
+      },
+      "eval.jsonl": {
+        "sha256": "e43a74afa586bf27e4f34e52c5ee6adc9665532eeb2d734a62b0ac1a0b93c22e"
       },
       "metrics.jsonl": {
         "sha256": "905f3bdf9894c4f13172bddb1aebc9a1d1499494ac2a17fff552ede56b7d87cc"
