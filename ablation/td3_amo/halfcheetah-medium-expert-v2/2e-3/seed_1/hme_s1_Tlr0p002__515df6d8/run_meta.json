@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_le_bel2_a5",
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-23T21:32:31+09:00",
+  "collected_at": "2026-09-23T21:37:31+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "td3_amo_le_bel2_a5",
@@ -24,7 +25,7 @@
   "legacy_name": "td3amo_le_bel2_a5_hc-me_r2e3_s1",
   "meta_lr": 0.002,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_le_bel2_a5_seeds0to3/runs/td3amo_le_bel2_a5_hc-me_r2e3_s1/checkpoints/step_940000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_amo_le_bel2_a5_seeds0to3/runs/td3amo_le_bel2_a5_hc-me_r2e3_s1/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -41,8 +42,11 @@
       "config.yaml": {
         "sha256": "a93fba095064dcbed0b9e9795a454fc8bf98347c3afb6996b9b4c716ff47b00c"
       },
+      "eval.jsonl": {
+        "sha256": "666d9dfcc0de8875392fd954360c63f24c7500bf5280b39f3facad3b84c20d43"
+      },
       "metrics.jsonl": {
-        "sha256": "f8576112eaa5a60ede09f153c6186a85308b170d6ce6b44242c9fc0a0681d178"
+        "sha256": "0d66955dfe06d7b972c744d99f903d127a14389c0a92328275e8e042a1556464"
       },
       "source_run_meta.json": {
         "sha256": "c30f51c284033f45ab62b368e978dc8128affc1386e13ed0e6e76cc174370293"
