@@ -11,7 +11,7 @@
     "initial_scale_outside_main",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-23T16:09:16+09:00",
+  "collected_at": "2026-09-23T16:14:57+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_freeze_main_final_alpha",
@@ -34,8 +34,14 @@
       "config.yaml": {
         "sha256": "8e199be1cad4922db3e2a154224196b73044d94e48a7ea526179d971f5b2a317"
       },
+      "eval.jsonl": {
+        "sha256": "c0c9143e1395b3174e902b253613614d0c8b2019f495cb58ce77a44e04b8136d"
+      },
+      "final_eval_50.json": {
+        "sha256": "9a7e6bfe4d214492129678af5a821683a0f225dbbe0f2869ad18c0a252811e07"
+      },
       "metrics.jsonl": {
-        "sha256": "6c10fe12023ecf12d6beff3ad1a90ad3615e903bf831547605d0dbd5eefff9bc"
+        "sha256": "d3ce8b5710c52cf858e4d2305109b494e1ae27e35300202adfb07ba83bb59729"
       },
       "source_run_meta.json": {
         "sha256": "458f40fb2903dfda7c0869778984a9eefc9e5520cb55260b99443526448b8b0e"
