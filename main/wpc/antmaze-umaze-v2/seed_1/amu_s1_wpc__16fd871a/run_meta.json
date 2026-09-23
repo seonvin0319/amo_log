@@ -6,7 +6,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-24T02:22:49+09:00",
+  "collected_at": "2026-09-24T02:28:23+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "benchmark",
