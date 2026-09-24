@@ -11,7 +11,7 @@
     "method_variant:td3_amo_firstorder_l2rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-24T23:37:58+09:00",
+  "collected_at": "2026-09-24T23:42:59+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_firstorder_l2rms",
@@ -24,11 +24,11 @@
   "legacy_name": "am-md_firstorder_rms_a5_s3",
   "meta_lr": 0.0003,
   "metadata_provenance": {
-    "checkpoint_path": null,
+    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/am-md_firstorder_rms_a5_s3/checkpoints/step_200000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
-    "verified_against_checkpoint": false
+    "verified_against_checkpoint": true
   },
   "method": "td3_amo",
   "original_rel_path": "runs/td3_amo/td3_amo_firstorder_l2rms/ammd_s3_Tlr0p0003__63568914",
@@ -42,7 +42,7 @@
         "sha256": "c114e82bf27d4c4ce9fe0fe82740620c6cf440e0d915035b41b157151d255e33"
       },
       "metrics.jsonl": {
-        "sha256": "c8dc2dc039f15cf3937a196b5535acc64f425377bdf0d3b81c6aa7fdeb20727c"
+        "sha256": "613229eeb755fcafeebbd1c1d81423315d2f80c1ba78b2a379abfb0c619f156f"
       },
       "source_run_meta.json": {
         "sha256": "0c82f90ed4215fe7b31a0b50b88447befed71c9b04f5085bb99a2492e6af6848"
