@@ -9,7 +9,7 @@
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO/results/iql_amo_jax_b1_antmaze_s23/runs/iql_amo_jax_am-mp_s2_rlr3e-4_b1",
   "classification_reasons": [],
-  "collected_at": "2026-09-25T07:58:06+09:00",
+  "collected_at": "2026-09-25T08:03:38+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "amo_bpi",
