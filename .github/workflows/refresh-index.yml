@@ -11,6 +11,7 @@ on:
       - scripts/refresh_index.py
       - scripts/readme_results.py
       - scripts/test_readme_results.py
+      - scripts/build_alpha_comparison.py
       - .github/workflows/refresh-index.yml
   schedule:
     - cron: '*/30 * * * *'
@@ -40,6 +41,8 @@ jobs:
         run: git fetch --filter=blob:none --depth=1 origin '+refs/heads/*:refs/remotes/origin/*'
       - name: Generate index
         run: python scripts/refresh_index.py
+      - name: Generate alpha comparison
+        run: python scripts/build_alpha_comparison.py
       - name: Commit index
         run: |
           git add -A -- README.md reports
