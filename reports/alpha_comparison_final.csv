@@ -1,11 +1,11 @@
 init,condition,alpha_role,final_mean,final_std_across_envs,n_env,n_runs
 1.0,single_le,alpha_E,9.904768339792888,3.8024430246544734,15,37
-1.0,main_dual,alpha_E,,,0,0
-1.0,main_dual,alpha_B,,,0,0
+1.0,main_dual,alpha_E,10.9003022869428,3.31484937699772,15,60
+1.0,main_dual,alpha_B,10.009083207448324,3.3599547550880304,15,60
 1.0,dual_le_fixed_b,alpha_E,15.593535002072652,6.728377351060199,15,60
 1.0,dual_le_fixed_b,alpha_B,1.0,0.0,15,60
 5.0,single_le,alpha_E,13.204417355855306,5.898345730753306,15,60
-5.0,main_dual,alpha_E,,,0,0
-5.0,main_dual,alpha_B,,,0,0
+5.0,main_dual,alpha_E,14.426641885439555,5.276244364140927,15,60
+5.0,main_dual,alpha_B,11.272131331761678,4.186792313681476,15,60
 5.0,dual_le_fixed_b,alpha_E,15.423106861114501,6.454796767225732,15,60
 5.0,dual_le_fixed_b,alpha_B,5.0,0.0,15,60
