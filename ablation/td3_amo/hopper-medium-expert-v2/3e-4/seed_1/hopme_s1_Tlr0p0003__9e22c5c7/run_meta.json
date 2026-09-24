@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_fixedB_lrmatch",
     "critic_architecture"
   ],
-  "collected_at": "2026-09-25T00:48:01+09:00",
+  "collected_at": "2026-09-25T00:53:00+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "td3_amo_fixedB_lrmatch",
@@ -40,6 +41,9 @@
     "files": {
       "config.yaml": {
         "sha256": "5f7bc48094170777c20c7a346bf90704e3e06ceb7f0a7289003a2aaf212d8950"
+      },
+      "eval.jsonl": {
+        "sha256": "21dc55ec8ddac3e044bb7f86d663c27056e35c16702d7620f533ea53242a49c3"
       },
       "metrics.jsonl": {
         "sha256": "4d0ba9b7d66d86c3d8c7fea5668c8314aceeea1ac405c7675a7b0b6c3905c856"
