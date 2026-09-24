@@ -337,6 +337,24 @@ DEFAULT_SOURCES.append(
     }
 )
 
+# Adroit expert: execute-only and RAPO. alpha_E=alpha_B=5,
+# alpha_lr in {1e-4, 3e-4, 1e-3, 2e-3}, seeds 0–2.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/td3_adroit_expert_execonly_rapo/jobs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO-td3-execonly",
+        "family_force": "td3_adroit_expert",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 2,
+        "variant_tag": "adroit",
+    }
+)
+
 
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
@@ -587,8 +605,8 @@ def build_variant(
         alr = cfg.get("alpha_lr")
         if alr is not None:
             tokens.append("alr" + fmt_num(float(alr)))
-    if family == "td3_amo_execonly_main":
-        tokens.append("execonly")
+    if family in ("td3_amo_execonly_main", "td3_amo_rapo"):
+        tokens.append("execonly" if family == "td3_amo_execonly_main" else "rapo")
         if cfg.get("_variant_tag"):
             tokens.append(str(cfg["_variant_tag"]))
         alpha_e = cfg.get("alpha_E")
@@ -763,19 +781,23 @@ def ingest_one(
         cfg["_cell"] = src.parent.name
     if family_force == "iql_ddpgbc" and src.parent is not None:
         cfg["_cell"] = src.parent.name
-    if family_force == "td3_amo_execonly_main" and src.parent is not None:
+    if family_force in ("td3_amo_execonly_main", "td3_adroit_expert") and src.parent is not None:
         cfg["_cell"] = src.parent.name
 
     env = str(cfg.get("env") or src.name or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
     family = classify_family(algo, cfg, family_force)
+    if family == "td3_adroit_expert":
+        family = (
+            "td3_amo_execonly_main" if cfg.get("execution_only") else "td3_amo_rapo"
+        )
     # Adaptive-multiscale always archives under amo/, even if code lived in APART/.
     if family == "adaptive_multiscale":
         algo = "amo"
     # Include parent cell dir in dirname blob so uuid/variant stay unique per cell.
     dirname_for_variant = (
         f"{src.parent.name}_{src.name}"
-        if family in ("amo_bpi", "iql_ddpgbc", "td3_amo_execonly_main")
+        if family in ("amo_bpi", "iql_ddpgbc", "td3_amo_execonly_main", "td3_amo_rapo")
         else src.name
     )
     variant = build_variant(
@@ -826,7 +848,16 @@ def ingest_one(
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
     if family == "td3_amo_execonly_main":
-        meta["protocol"] = "jax_td3_amo_execonly_le_v1"
+        meta["protocol"] = (
+            "jax_td3_amo_adroit_execonly_le_v1"
+            if cfg.get("_variant_tag") == "adroit"
+            else "jax_td3_amo_execonly_le_v1"
+        )
+        meta["git"]["code_commit"] = "d9be263443ffc1ca8834e277418826cff4ac6dc0"
+        if cfg.get("_cell"):
+            meta["cell"] = cfg["_cell"]
+    if family == "td3_amo_rapo":
+        meta["protocol"] = "jax_td3_amo_adroit_rapo_v1"
         meta["git"]["code_commit"] = "d9be263443ffc1ca8834e277418826cff4ac6dc0"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]

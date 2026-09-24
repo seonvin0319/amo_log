@@ -116,7 +116,7 @@ def classify(m, c):
     if method=='fql_amo' and lr is None:
         lr = c.get('alpha_lr', c.get('T_lr'))
     if method=='td3_amo':
-        if fam not in ('adaptive_multiscale','td3_amo_jax','td3_amo_bootrms_maincand','td3_amo_execonly_main','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
+        if fam not in ('adaptive_multiscale','td3_amo_jax','td3_amo_bootrms_maincand','td3_amo_execonly_main','td3_amo_rapo','adroit','adroit_T1_Tlr1e3','antmaze_t_init_tune'):
             reasons.append('method_variant:'+fam)
         execonly=bool(c.get('execution_only',False))
         if execonly:
@@ -223,6 +223,8 @@ def normalize(root=None):
     paths=[mp for section in ('main','ablation','runs')
            for mp in sorted((root/section).rglob('run_meta.json'))]
     for mp in paths:
+        if not mp.is_file():
+            continue
         m=json.loads(mp.read_text());src=mp.parent
         if m.get('is_alias') and not m.get('algo'):continue
         if is_retired_apart(m):
