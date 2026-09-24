@@ -8,7 +8,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-25T00:23:27+09:00",
+  "collected_at": "2026-09-25T00:29:02+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "benchmark",
