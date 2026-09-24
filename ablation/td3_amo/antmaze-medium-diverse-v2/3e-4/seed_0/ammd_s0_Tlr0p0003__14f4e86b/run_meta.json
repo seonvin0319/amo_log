@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_firstorder_l2rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-25T00:12:59+09:00",
+  "collected_at": "2026-09-25T00:17:59+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_firstorder_l2rms",
@@ -40,6 +41,9 @@
     "files": {
       "config.yaml": {
         "sha256": "c114e82bf27d4c4ce9fe0fe82740620c6cf440e0d915035b41b157151d255e33"
+      },
+      "eval.jsonl": {
+        "sha256": "4fcf93b0317a8753ca293c523aa6a8ac67a9cdabba76be8184dcb2d21e14d29f"
       },
       "metrics.jsonl": {
         "sha256": "5ca2779540525ddb19852b47128e152bf8bddc4d8f8ec93ff2a7ddb4b94a2761"

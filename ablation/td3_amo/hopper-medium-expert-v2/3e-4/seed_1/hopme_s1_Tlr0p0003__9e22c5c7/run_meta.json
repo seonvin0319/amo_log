@@ -1,0 +1,99 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/h-me_b5_s1",
+  "classification_reasons": [
+    "method_variant:td3_amo_fixedB_lrmatch",
+    "critic_architecture"
+  ],
+  "collected_at": "2026-09-25T00:17:59+09:00",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
+  "family": "td3_amo_fixedB_lrmatch",
+  "git": {
+    "code_commit": "c5bffd3",
+    "code_repo": "AMO-fixedB-lrmatch"
+  },
+  "identity_uuid8": "9e22c5c7",
+  "layout_version": 2,
+  "legacy_name": "h-me_b5_s1",
+  "meta_lr": 0.0003,
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/h-me_b5_s1/checkpoints/step_100000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_fixedB_lrmatch/hopme_s1_Tlr0p0003__9e22c5c7",
+  "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/3e-4/seed_1/hopme_s1_Tlr0p0003__9e22c5c7",
+  "run_id": "hopme_s1_Tlr0p0003__9e22c5c7",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "5f7bc48094170777c20c7a346bf90704e3e06ceb7f0a7289003a2aaf212d8950"
+      },
+      "metrics.jsonl": {
+        "sha256": "ef384870b1ef2b269909c94b449114fc6e40a461f7813a70e155e5e1b1c102be"
+      },
+      "source_run_meta.json": {
+        "sha256": "99fa9661423900c5048f83e525d6e42a6eb1be26acf91bff3edf14d7a7fdd826"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 2,
+    "critic_layernorm": false,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "actor",
+    "discount": 0.99,
+    "env": "hopper-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "freeze_scale_B": true,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/h-me_b5_s1",
+  "variant": "Tlr0p0003"
+}
