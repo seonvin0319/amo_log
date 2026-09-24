@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "env": "antmaze-medium-play-v2",
-    "method": "shared",
-    "label": "Shared actor",
-    "actor_role": "shared_actor",
+    "env": "antmaze-large-play-v2",
+    "method": "rapo",
+    "label": "TD3+RAPO",
+    "actor_role": "execution_actor_pi_E",
     "train_seed": 1,
     "episodes": 25,
     "eval_seed_formula": "10000 + 100 * train_seed + episode",
@@ -34,11 +34,11 @@
       10123,
       10124
     ],
-    "env_recorded": "antmaze-medium-play-v2",
-    "checkpoint": "/home/svcho/amo/results/td3_amo_execonly_main_seeds03/jobs/a1_am-mp_r3e4_s1/run/checkpoints/step_1000000.npz",
-    "checkpoint_sha256": "82922f73b57a509d056aed258742902d1e56e8d675890ec5d68c03fff67ba892",
+    "env_recorded": "antmaze-large-play-v2",
+    "checkpoint": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_am-lp_r3e4_s1/run/checkpoints/step_1000000.npz",
+    "checkpoint_sha256": "ef905313d0067e8b61c59e54fb349fc2fec7518f33bec71ed2bb38c1a4bbeaf3",
     "checkpoint_steps": 1000000,
-    "config_path": "/home/svcho/amo/results/td3_amo_execonly_main_seeds03/jobs/a1_am-mp_r3e4_s1/run/config.yaml",
+    "config_path": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_am-lp_r3e4_s1/run/config.yaml",
     "config": {
       "batch_size": 256,
       "hidden_dim": 256,
@@ -61,18 +61,18 @@
       "policy_freq": 2,
       "policy_noise": 0.2,
       "noise_clip": 0.5,
-      "alpha_E": 1,
-      "alpha_B": 1,
-      "bootstrap_loss": "l2_rms",
+      "alpha_E": 5,
+      "alpha_B": 5,
       "alpha_lr": 0.0003,
       "meta_interval": 20,
       "smoothness_eps": 1e-06,
+      "bootstrap_loss": "l2_rms",
       "execution_score": "bpi",
-      "execution_only": true,
+      "execution_only": false,
       "algorithm": "td3_amo"
     },
-    "normalization": "/home/svcho/amo/results/td3_amo_execonly_main_seeds03/jobs/a1_am-mp_r3e4_s1/run/normalization.npz",
-    "n_checkpoint_arrays": 144,
+    "normalization": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_am-lp_r3e4_s1/run/normalization.npz",
+    "n_checkpoint_arrays": 167,
     "policy_parameters": "state['p']['actor']",
     "action_selection": "deterministic tanh mean via BaseAgent.act; no exploration noise",
     "observation_normalization": "(obs - mean) / std from normalization.npz",
@@ -82,7 +82,8 @@
     "probe": {
       "policy_parameters": "state['p']['actor']",
       "action_selection": "deterministic tanh mean; no exploration noise",
-      "probe_action_abs_max": 0.8679649233818054
+      "probe_action_abs_max": 0.8822563886642456,
+      "pi_e_vs_pi_b_max_abs": 0.37442746758461
     },
     "code": {
       "git_head": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
@@ -250,7 +251,7 @@
   },
   "episodes": [
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 0,
       "eval_seed": 10100,
@@ -263,82 +264,82 @@
         -0.0779519835104545
       ],
       "goal_xy": [
-        20.524598184690777,
-        20.141961577892456
+        32.524598184690774,
+        24.141961577892456
       ],
       "final_xy": [
-        -0.26358020305633545,
-        3.7668323516845703
+        12.565018653869629,
+        -0.5812439918518066
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 1,
       "eval_seed": 10101,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 829,
+      "timeout": false,
       "start_xy": [
         -0.07441629879403702,
         -0.04908581928681153
       ],
       "goal_xy": [
-        20.985443824319702,
-        20.22685107459097
+        32.9854438243197,
+        24.22685107459097
       ],
       "final_xy": [
-        2.353421211242676,
-        18.907398223876953
+        33.42671203613281,
+        24.39116859436035
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 2,
       "eval_seed": 10102,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 768,
+      "timeout": false,
       "start_xy": [
         0.008202734309389781,
         0.021337536960380946
       ],
       "goal_xy": [
-        21.16398676553272,
-        20.753920827028008
+        33.16398676553272,
+        24.753920827028008
       ],
       "final_xy": [
-        0.5449102520942688,
-        17.889785766601562
+        32.859764099121094,
+        25.11133575439453
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 3,
       "eval_seed": 10103,
-      "success": true,
-      "return": 1.0,
-      "n_steps": 340,
-      "timeout": false,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
       "start_xy": [
         -0.006098609112713135,
         -0.0367774462460448
       ],
       "goal_xy": [
-        20.70490627358053,
-        20.506608718584527
+        32.704906273580534,
+        24.506608718584527
       ],
       "final_xy": [
-        20.569246292114258,
-        20.156612396240234
+        -0.11183666437864304,
+        14.191161155700684
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 4,
       "eval_seed": 10104,
@@ -351,60 +352,60 @@
         0.09111869433370581
       ],
       "goal_xy": [
-        20.705096309008557,
-        20.455988012001345
+        32.70509630900856,
+        24.455988012001345
       ],
       "final_xy": [
-        0.9790558218955994,
-        16.948673248291016
+        4.337653160095215,
+        16.468618392944336
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 5,
       "eval_seed": 10105,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 626,
+      "timeout": false,
       "start_xy": [
         -0.08172586397065343,
         0.01641754842292327
       ],
       "goal_xy": [
-        20.919084297686545,
-        20.818403425498836
+        32.91908429768654,
+        24.818403425498836
       ],
       "final_xy": [
-        2.0068280696868896,
-        4.337553024291992
+        32.49144744873047,
+        24.608291625976562
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 6,
       "eval_seed": 10106,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 616,
+      "timeout": false,
       "start_xy": [
         -0.013161330327279105,
         0.014723508209944877
       ],
       "goal_xy": [
-        20.79040304637594,
-        21.324379720454402
+        32.790403046375936,
+        25.324379720454402
       ],
       "final_xy": [
-        1.4885061979293823,
-        5.401538848876953
+        33.02492904663086,
+        24.890380859375
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 7,
       "eval_seed": 10107,
@@ -417,104 +418,104 @@
         0.031197962113341415
       ],
       "goal_xy": [
-        21.34619854118116,
-        21.317917077570442
+        33.34619854118116,
+        25.317917077570442
       ],
       "final_xy": [
-        0.5436961054801941,
-        16.696372985839844
+        0.43202486634254456,
+        1.4314615726470947
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 8,
       "eval_seed": 10108,
-      "success": true,
-      "return": 1.0,
-      "n_steps": 989,
-      "timeout": false,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
       "start_xy": [
         0.05603174238775263,
         -0.08790988717826467
       ],
       "goal_xy": [
-        20.906218678628274,
-        20.925165457243917
+        32.90621867862827,
+        24.925165457243917
       ],
       "final_xy": [
-        20.41761016845703,
-        20.9954891204834
+        4.603825092315674,
+        8.61958122253418
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 9,
       "eval_seed": 10109,
-      "success": true,
-      "return": 1.0,
-      "n_steps": 290,
-      "timeout": false,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
       "start_xy": [
         -0.0383094756465346,
         -0.016616143119446855
       ],
       "goal_xy": [
-        21.319252029734916,
-        20.791570296096324
+        33.31925202973492,
+        24.791570296096324
       ],
       "final_xy": [
-        20.914478302001953,
-        20.662656784057617
+        11.190561294555664,
+        8.462763786315918
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 10,
       "eval_seed": 10110,
-      "success": true,
-      "return": 1.0,
-      "n_steps": 295,
-      "timeout": false,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
       "start_xy": [
         -0.06614628742749601,
         0.062184500795738396
       ],
       "goal_xy": [
-        20.955577940413043,
-        21.039421443008976
+        32.955577940413036,
+        25.039421443008976
       ],
       "final_xy": [
-        20.481657028198242,
-        20.949426651000977
+        0.6339474320411682,
+        10.256382942199707
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 11,
       "eval_seed": 10111,
-      "success": true,
-      "return": 1.0,
-      "n_steps": 628,
-      "timeout": false,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
       "start_xy": [
         0.003475477305273797,
         0.08887221265759448
       ],
       "goal_xy": [
-        20.898562706199357,
-        20.66607652634913
+        32.898562706199364,
+        24.66607652634913
       ],
       "final_xy": [
-        20.609893798828125,
-        21.016860961914062
+        1.5657464265823364,
+        9.9916353225708
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 12,
       "eval_seed": 10112,
@@ -527,16 +528,16 @@
         -0.03202636706482305
       ],
       "goal_xy": [
-        20.96411354398453,
-        20.49694778084755
+        32.96411354398453,
+        24.49694778084755
       ],
       "final_xy": [
-        1.3582484722137451,
-        5.224420070648193
+        1.2266626358032227,
+        9.82380199432373
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 13,
       "eval_seed": 10113,
@@ -549,38 +550,38 @@
         -0.08763294461122016
       ],
       "goal_xy": [
-        20.656457826564523,
-        20.95964811424182
+        32.65645782656453,
+        24.95964811424182
       ],
       "final_xy": [
-        4.68647575378418,
-        8.812260627746582
+        2.975343942642212,
+        15.02083683013916
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 14,
       "eval_seed": 10114,
       "success": true,
       "return": 1.0,
-      "n_steps": 787,
+      "n_steps": 550,
       "timeout": false,
       "start_xy": [
         0.05417663531212641,
         -0.041403606808186735
       ],
       "goal_xy": [
-        21.189719607304642,
-        20.269501939448887
+        33.18971960730464,
+        24.269501939448887
       ],
       "final_xy": [
-        20.794645309448242,
-        20.043020248413086
+        32.925132751464844,
+        24.660730361938477
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 15,
       "eval_seed": 10115,
@@ -593,38 +594,38 @@
         0.07570319611829274
       ],
       "goal_xy": [
-        20.656109632225373,
-        21.05173654001211
+        32.65610963222537,
+        25.05173654001211
       ],
       "final_xy": [
-        18.8042049407959,
-        13.724257469177246
+        32.72124099731445,
+        24.114103317260742
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 16,
       "eval_seed": 10116,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 589,
+      "timeout": false,
       "start_xy": [
         -0.027888938385789458,
         -0.012615120340909308
       ],
       "goal_xy": [
-        20.53562424402976,
-        20.3322167434027
+        32.53562424402976,
+        24.3322167434027
       ],
       "final_xy": [
-        -0.5899293422698975,
-        5.117549419403076
+        32.129112243652344,
+        24.085346221923828
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 17,
       "eval_seed": 10117,
@@ -637,38 +638,38 @@
         -0.048297872668729806
       ],
       "goal_xy": [
-        20.599634564300352,
-        20.861460077155943
+        32.59963456430035,
+        24.861460077155943
       ],
       "final_xy": [
-        1.9175502061843872,
-        13.077939987182617
+        1.3206450939178467,
+        10.03917121887207
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 18,
       "eval_seed": 10118,
-      "success": true,
-      "return": 1.0,
-      "n_steps": 534,
-      "timeout": false,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
       "start_xy": [
         0.018390643844218776,
         0.059299125631390365
       ],
       "goal_xy": [
-        20.396349951381005,
-        20.249009010685825
+        32.396349951381005,
+        24.249009010685825
       ],
       "final_xy": [
-        20.34901237487793,
-        19.820283889770508
+        4.8588643074035645,
+        15.387110710144043
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 19,
       "eval_seed": 10119,
@@ -681,16 +682,16 @@
         0.00595943340878749
       ],
       "goal_xy": [
-        21.055198809002082,
-        20.43173361337472
+        33.055198809002086,
+        24.43173361337472
       ],
       "final_xy": [
-        -0.2824218273162842,
-        16.064607620239258
+        12.02402114868164,
+        1.621311068534851
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 20,
       "eval_seed": 10120,
@@ -703,16 +704,16 @@
         -0.09348211299265241
       ],
       "goal_xy": [
-        20.26500943426874,
-        20.601112290187086
+        32.26500943426874,
+        24.601112290187086
       ],
       "final_xy": [
-        3.181339740753174,
-        12.3208589553833
+        1.457226037979126,
+        1.2644764184951782
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 21,
       "eval_seed": 10121,
@@ -725,38 +726,38 @@
         0.0980725190321502
       ],
       "goal_xy": [
-        20.638376868043746,
-        20.60454531134332
+        32.63837686804374,
+        24.60454531134332
       ],
       "final_xy": [
-        -0.784562349319458,
-        4.201120853424072
+        3.961183547973633,
+        0.9778449535369873
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 22,
       "eval_seed": 10122,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 481,
+      "timeout": false,
       "start_xy": [
         0.07347169675815948,
         0.016388044507641836
       ],
       "goal_xy": [
-        20.054624118013137,
-        21.106374287940092
+        32.05462411801314,
+        25.106374287940092
       ],
       "final_xy": [
-        5.593921661376953,
-        9.09979248046875
+        32.225616455078125,
+        24.68037223815918
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 23,
       "eval_seed": 10123,
@@ -769,16 +770,16 @@
         -0.08851432197732144
       ],
       "goal_xy": [
-        20.813327691040467,
-        21.17138340720551
+        32.81332769104047,
+        25.17138340720551
       ],
       "final_xy": [
-        3.036001682281494,
-        6.984711647033691
+        1.3270295858383179,
+        9.265705108642578
       ]
     },
     {
-      "method": "shared",
+      "method": "rapo",
       "train_seed": 1,
       "episode": 24,
       "eval_seed": 10124,
@@ -791,12 +792,12 @@
         0.0048197801267827745
       ],
       "goal_xy": [
-        21.11268834528328,
-        20.545533560495766
+        33.11268834528328,
+        24.545533560495766
       ],
       "final_xy": [
-        2.8876397609710693,
-        8.08942985534668
+        5.21766996383667,
+        8.478266716003418
       ]
     }
   ]

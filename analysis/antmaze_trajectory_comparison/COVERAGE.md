@@ -1,11 +1,9 @@
-# AntMaze trajectory comparison coverage
+# AntMaze trajectory comparison, adopted TD3+RAPO cell
 
-medium-diverse 그림에 쓴 α=5 design-ablation 체크포인트는 이 세 환경에 없다. 두 방법의 α와 α_lr을 맞추기 위해, 둘 다 step 1,000,000이 있는 α=1, α_lr=3e-4 (`a1_*_r3e4`)만 평가했다. α=5 TD3+RAPO(`a5_*_r3e4`)는 seed 0–3이 있지만, 같은 α의 Shared actor가 없어 비교에 넣지 않았다.
+medium-diverse 그림과 `amo_log` main (`td3_amo_bootrms_maincand`)에서 맞춘 셀은 α_E=α_B=5, α_lr=3e-4이다. π_E loss는 `-B_π` (`execution_score=bpi`, `execution_meta_loss` 기본값 `le`), π_B loss는 `L2_RMS` (`bootstrap_loss=l2_rms`)이다.
 
-| 환경 | 평가한 seed | 없는 Shared actor `step_1000000.npz` |
-|---|---|---|
-| antmaze-medium-play-v2 | 0, 1 | `td3_amo_execonly_main_seeds03/jobs/a1_am-mp_r3e4_s2`, `..._s3` |
-| antmaze-large-play-v2 | 0 | `.../a1_am-lp_r3e4_s1`, `s2`, `s3` (디렉터리 없음) |
-| antmaze-large-diverse-v2 | 0 | `.../a1_am-ld_r3e4_s1`, `s2`, `s3` (디렉터리 없음) |
+이전에 올린 세 환경 그림은 α=1, α_lr=3e-4였다. 그 셀의 main 최종 점수는 0–5%라서 여기 숫자와 다르다. 이번 파일은 α=5, α_lr=3e-4, seed 0–3, step 1,000,000만 사용했다.
 
-공통 루트: `/home/svcho/amo/results/`. TD3+RAPO는 `td3_amo_bootrms_maincand_seeds03/jobs/a1_<env>_r3e4_s{seed}`이고 seed 0–3 체크포인트는 있다. 없는 seed를 다른 α나 중간 step으로 대체하지 않았다.
+같은 α=5, α_lr=3e-4의 Shared actor `step_1000000.npz`는 medium-play, large-play, large-diverse에 없다. α=1 Shared actor로 짝을 만들지 않았다.
+
+main 100-episode 최종 점수 (참고): medium-play 72.5 ± 14.9, large-play 29.5 ± 13.4, large-diverse 43.5 ± 5.3. 이 궤적은 seed당 25 episode다.

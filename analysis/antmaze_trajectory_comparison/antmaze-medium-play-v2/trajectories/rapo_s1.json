@@ -35,10 +35,10 @@
       10124
     ],
     "env_recorded": "antmaze-medium-play-v2",
-    "checkpoint": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-mp_r3e4_s1/run/checkpoints/step_1000000.npz",
-    "checkpoint_sha256": "ecb56cd2adb7377abaad1672aa3316ab22ceee0cfe3d025d8becfbf4f87292bb",
+    "checkpoint": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_am-mp_r3e4_s1/run/checkpoints/step_1000000.npz",
+    "checkpoint_sha256": "ecf6966857a44ad680f785472246e64795c928ef9a66607fa3761e4cdf7c56c3",
     "checkpoint_steps": 1000000,
-    "config_path": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-mp_r3e4_s1/run/config.yaml",
+    "config_path": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_am-mp_r3e4_s1/run/config.yaml",
     "config": {
       "batch_size": 256,
       "hidden_dim": 256,
@@ -61,8 +61,8 @@
       "policy_freq": 2,
       "policy_noise": 0.2,
       "noise_clip": 0.5,
-      "alpha_E": 1,
-      "alpha_B": 1,
+      "alpha_E": 5,
+      "alpha_B": 5,
       "alpha_lr": 0.0003,
       "meta_interval": 20,
       "smoothness_eps": 1e-06,
@@ -71,7 +71,7 @@
       "execution_only": false,
       "algorithm": "td3_amo"
     },
-    "normalization": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-mp_r3e4_s1/run/normalization.npz",
+    "normalization": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_am-mp_r3e4_s1/run/normalization.npz",
     "n_checkpoint_arrays": 167,
     "policy_parameters": "state['p']['actor']",
     "action_selection": "deterministic tanh mean via BaseAgent.act; no exploration noise",
@@ -82,8 +82,8 @@
     "probe": {
       "policy_parameters": "state['p']['actor']",
       "action_selection": "deterministic tanh mean; no exploration noise",
-      "probe_action_abs_max": 0.8483263254165649,
-      "pi_e_vs_pi_b_max_abs": 0.3897331655025482
+      "probe_action_abs_max": 0.8942814469337463,
+      "pi_e_vs_pi_b_max_abs": 0.4841850996017456
     },
     "code": {
       "git_head": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
@@ -247,7 +247,7 @@
         "?? tests/release/test_td3_sensitivity.py"
       ]
     },
-    "successes": 0
+    "successes": 21
   },
   "episodes": [
     {
@@ -255,10 +255,10 @@
       "train_seed": 1,
       "episode": 0,
       "eval_seed": 10100,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 476,
+      "timeout": false,
       "start_xy": [
         -0.042046154775714766,
         -0.0779519835104545
@@ -268,8 +268,8 @@
         20.141961577892456
       ],
       "final_xy": [
-        0.8390086889266968,
-        17.02048683166504
+        20.14246368408203,
+        20.440818786621094
       ]
     },
     {
@@ -277,10 +277,10 @@
       "train_seed": 1,
       "episode": 1,
       "eval_seed": 10101,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 240,
+      "timeout": false,
       "start_xy": [
         -0.07441629879403702,
         -0.04908581928681153
@@ -290,8 +290,8 @@
         20.22685107459097
       ],
       "final_xy": [
-        1.7877196073532104,
-        4.961747646331787
+        20.533353805541992,
+        20.216732025146484
       ]
     },
     {
@@ -299,10 +299,10 @@
       "train_seed": 1,
       "episode": 2,
       "eval_seed": 10102,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 424,
+      "timeout": false,
       "start_xy": [
         0.008202734309389781,
         0.021337536960380946
@@ -312,8 +312,8 @@
         20.753920827028008
       ],
       "final_xy": [
-        1.4632525444030762,
-        13.579904556274414
+        20.795196533203125,
+        20.839313507080078
       ]
     },
     {
@@ -334,8 +334,8 @@
         20.506608718584527
       ],
       "final_xy": [
-        1.4582642316818237,
-        18.014183044433594
+        7.833270072937012,
+        8.379642486572266
       ]
     },
     {
@@ -356,8 +356,8 @@
         20.455988012001345
       ],
       "final_xy": [
-        3.206658124923706,
-        9.421607971191406
+        21.072145462036133,
+        12.634740829467773
       ]
     },
     {
@@ -378,8 +378,8 @@
         20.818403425498836
       ],
       "final_xy": [
-        2.0740065574645996,
-        4.101210594177246
+        5.971492767333984,
+        7.3269829750061035
       ]
     },
     {
@@ -387,10 +387,10 @@
       "train_seed": 1,
       "episode": 6,
       "eval_seed": 10106,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 260,
+      "timeout": false,
       "start_xy": [
         -0.013161330327279105,
         0.014723508209944877
@@ -400,8 +400,8 @@
         21.324379720454402
       ],
       "final_xy": [
-        5.250746726989746,
-        4.259088516235352
+        20.312761306762695,
+        21.201555252075195
       ]
     },
     {
@@ -409,10 +409,10 @@
       "train_seed": 1,
       "episode": 7,
       "eval_seed": 10107,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 281,
+      "timeout": false,
       "start_xy": [
         0.03165349573471504,
         0.031197962113341415
@@ -422,8 +422,8 @@
         21.317917077570442
       ],
       "final_xy": [
-        0.8041402101516724,
-        16.82565689086914
+        20.95565414428711,
+        21.088865280151367
       ]
     },
     {
@@ -431,10 +431,10 @@
       "train_seed": 1,
       "episode": 8,
       "eval_seed": 10108,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 363,
+      "timeout": false,
       "start_xy": [
         0.05603174238775263,
         -0.08790988717826467
@@ -444,8 +444,8 @@
         20.925165457243917
       ],
       "final_xy": [
-        0.14683829247951508,
-        4.858536243438721
+        20.599367141723633,
+        20.63113021850586
       ]
     },
     {
@@ -453,10 +453,10 @@
       "train_seed": 1,
       "episode": 9,
       "eval_seed": 10109,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 423,
+      "timeout": false,
       "start_xy": [
         -0.0383094756465346,
         -0.016616143119446855
@@ -466,8 +466,8 @@
         20.791570296096324
       ],
       "final_xy": [
-        0.7858826518058777,
-        16.635271072387695
+        20.827022552490234,
+        20.828405380249023
       ]
     },
     {
@@ -475,10 +475,10 @@
       "train_seed": 1,
       "episode": 10,
       "eval_seed": 10110,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 288,
+      "timeout": false,
       "start_xy": [
         -0.06614628742749601,
         0.062184500795738396
@@ -488,8 +488,8 @@
         21.039421443008976
       ],
       "final_xy": [
-        -0.4990021288394928,
-        16.484054565429688
+        20.557493209838867,
+        21.09058380126953
       ]
     },
     {
@@ -497,10 +497,10 @@
       "train_seed": 1,
       "episode": 11,
       "eval_seed": 10111,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 303,
+      "timeout": false,
       "start_xy": [
         0.003475477305273797,
         0.08887221265759448
@@ -510,8 +510,8 @@
         20.66607652634913
       ],
       "final_xy": [
-        2.1655304431915283,
-        18.812179565429688
+        20.495712280273438,
+        20.87652587890625
       ]
     },
     {
@@ -519,10 +519,10 @@
       "train_seed": 1,
       "episode": 12,
       "eval_seed": 10112,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 304,
+      "timeout": false,
       "start_xy": [
         -0.0481226064970018,
         -0.03202636706482305
@@ -532,8 +532,8 @@
         20.49694778084755
       ],
       "final_xy": [
-        2.573056936264038,
-        5.586640357971191
+        20.56265640258789,
+        20.702354431152344
       ]
     },
     {
@@ -541,10 +541,10 @@
       "train_seed": 1,
       "episode": 13,
       "eval_seed": 10113,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 293,
+      "timeout": false,
       "start_xy": [
         -0.01558502120249354,
         -0.08763294461122016
@@ -554,8 +554,8 @@
         20.95964811424182
       ],
       "final_xy": [
-        0.04517155513167381,
-        13.726763725280762
+        20.90152931213379,
+        20.80906867980957
       ]
     },
     {
@@ -563,10 +563,10 @@
       "train_seed": 1,
       "episode": 14,
       "eval_seed": 10114,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 480,
+      "timeout": false,
       "start_xy": [
         0.05417663531212641,
         -0.041403606808186735
@@ -576,8 +576,8 @@
         20.269501939448887
       ],
       "final_xy": [
-        5.5633955001831055,
-        9.395049095153809
+        20.784147262573242,
+        20.503772735595703
       ]
     },
     {
@@ -585,10 +585,10 @@
       "train_seed": 1,
       "episode": 15,
       "eval_seed": 10115,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 282,
+      "timeout": false,
       "start_xy": [
         0.005089488286346616,
         0.07570319611829274
@@ -598,8 +598,8 @@
         21.05173654001211
       ],
       "final_xy": [
-        0.19575238227844238,
-        4.937983512878418
+        20.202611923217773,
+        21.258338928222656
       ]
     },
     {
@@ -607,10 +607,10 @@
       "train_seed": 1,
       "episode": 16,
       "eval_seed": 10116,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 278,
+      "timeout": false,
       "start_xy": [
         -0.027888938385789458,
         -0.012615120340909308
@@ -620,8 +620,8 @@
         20.3322167434027
       ],
       "final_xy": [
-        0.8666168451309204,
-        16.609956741333008
+        20.53705406188965,
+        20.01515007019043
       ]
     },
     {
@@ -629,10 +629,10 @@
       "train_seed": 1,
       "episode": 17,
       "eval_seed": 10117,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 312,
+      "timeout": false,
       "start_xy": [
         -0.05944121715910167,
         -0.048297872668729806
@@ -642,8 +642,8 @@
         20.861460077155943
       ],
       "final_xy": [
-        -0.7847222685813904,
-        4.860768795013428
+        20.18145179748535,
+        21.008563995361328
       ]
     },
     {
@@ -651,10 +651,10 @@
       "train_seed": 1,
       "episode": 18,
       "eval_seed": 10118,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 268,
+      "timeout": false,
       "start_xy": [
         0.018390643844218776,
         0.059299125631390365
@@ -664,8 +664,8 @@
         20.249009010685825
       ],
       "final_xy": [
-        0.9792491793632507,
-        17.16305923461914
+        20.065706253051758,
+        20.593278884887695
       ]
     },
     {
@@ -673,10 +673,10 @@
       "train_seed": 1,
       "episode": 19,
       "eval_seed": 10119,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 249,
+      "timeout": false,
       "start_xy": [
         -0.028055435891425992,
         0.00595943340878749
@@ -686,8 +686,8 @@
         20.43173361337472
       ],
       "final_xy": [
-        0.45363497734069824,
-        16.126140594482422
+        20.66858673095703,
+        20.738779067993164
       ]
     },
     {
@@ -708,8 +708,8 @@
         20.601112290187086
       ],
       "final_xy": [
-        0.8482627868652344,
-        15.811565399169922
+        3.2561166286468506,
+        7.907982349395752
       ]
     },
     {
@@ -717,10 +717,10 @@
       "train_seed": 1,
       "episode": 21,
       "eval_seed": 10121,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 276,
+      "timeout": false,
       "start_xy": [
         0.04602346626984641,
         0.0980725190321502
@@ -730,8 +730,8 @@
         20.60454531134332
       ],
       "final_xy": [
-        0.9803993701934814,
-        14.925984382629395
+        20.281740188598633,
+        20.261695861816406
       ]
     },
     {
@@ -739,10 +739,10 @@
       "train_seed": 1,
       "episode": 22,
       "eval_seed": 10122,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 360,
+      "timeout": false,
       "start_xy": [
         0.07347169675815948,
         0.016388044507641836
@@ -752,8 +752,8 @@
         21.106374287940092
       ],
       "final_xy": [
-        1.9792736768722534,
-        10.9165678024292
+        19.612764358520508,
+        21.148590087890625
       ]
     },
     {
@@ -761,10 +761,10 @@
       "train_seed": 1,
       "episode": 23,
       "eval_seed": 10123,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 281,
+      "timeout": false,
       "start_xy": [
         -0.03237324788242828,
         -0.08851432197732144
@@ -774,8 +774,8 @@
         21.17138340720551
       ],
       "final_xy": [
-        0.8318845629692078,
-        16.845849990844727
+        20.66008758544922,
+        20.719860076904297
       ]
     },
     {
@@ -783,10 +783,10 @@
       "train_seed": 1,
       "episode": 24,
       "eval_seed": 10124,
-      "success": false,
-      "return": 0.0,
-      "n_steps": 1000,
-      "timeout": true,
+      "success": true,
+      "return": 1.0,
+      "n_steps": 267,
+      "timeout": false,
       "start_xy": [
         -0.05910583829895491,
         0.0048197801267827745
@@ -796,8 +796,8 @@
         20.545533560495766
       ],
       "final_xy": [
-        0.585133969783783,
-        18.16292953491211
+        20.83880043029785,
+        20.248403549194336
       ]
     }
   ]

@@ -1,22 +1,19 @@
 # antmaze-medium-play-v2 trajectory comparison
 
-Shared actor와 TD3+RAPO (`L_E=-B_π`, `L_B=L2_RMS`)의 step 1,000,000 체크포인트를 CPU에서 평가한 궤적이다. 재학습하지 않았고, 각 run의 `eval.jsonl`에는 쓰지 않았다.
+TD3+RAPO는 `π_E` loss=`-B_π` (`execution_score=bpi`, `execution_meta_loss=le`), `π_B` loss=`L2_RMS` (`bootstrap_loss=l2_rms`)이다. step 1,000,000 체크포인트를 CPU에서 평가했다. 재학습하지 않았고, 각 run의 `eval.jsonl`에는 쓰지 않았다.
 
 ## 결과
 
-- Shared actor: s0 3/25 (12.0%), s1 7/25 (28.0%); seed 평균 20.0% ± 11.3% (sample SD, ddof=1)
-- TD3+RAPO: s0 2/25 (8.0%), s1 0/25 (0.0%); seed 평균 4.0% ± 5.7% (sample SD, ddof=1)
+- TD3+RAPO: s0 22/25 (88.0%), s1 21/25 (84.0%), s2 14/25 (56.0%), s3 17/25 (68.0%); seed 평균 74.0% ± 14.8% (sample SD, ddof=1)
 
 성공률의 평균은 포함된 학습 seed의 에피소드 성공률에 대한 값이다. seed가 2개 이상일 때만 sample SD(ddof=1)를 붙인다. 에피소드 수를 seed 수로 세지 않는다.
 
 ## 체크포인트
 
-- Shared actor 예: `/home/svcho/amo/results/td3_amo_execonly_main_seeds03/jobs/a1_am-mp_r3e4_s0/run/checkpoints/step_1000000.npz`
-  - `execution_only: true`. 평가 정책은 `state['p']['actor']` (공유 actor).
-- TD3+RAPO 예: `/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-mp_r3e4_s0/run/checkpoints/step_1000000.npz`
-  - `execution_score: bpi` (`L_E=-B_π`), `bootstrap_loss: l2_rms` (`L_B=L2_RMS`), `execution_only: false`.
-  - 평가 정책은 실행 actor `π_E` = `state['p']['actor']`. bootstrap actor는 평가에 쓰지 않았다.
-- 포함된 학습 seed: [0, 1]
+- TD3+RAPO 예: `/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a5_am-mp_r3e4_s0/run/checkpoints/step_1000000.npz`
+  - alpha_E=5, alpha_B=5, alpha_lr=0.0003, execution_only=False, execution_score=bpi, bootstrap_loss=l2_rms, execution_meta_loss=le.
+- 평가 정책은 실행 actor `π_E` = `state['p']['actor']`. bootstrap actor는 평가에 쓰지 않았다.
+- 포함된 학습 seed: [0, 1, 2, 3]
 
 각 파일의 sha256, config, probe action은 `summary.json`과 `trajectories/*.json`에 있다.
 관측 정규화는 같은 run의 `normalization.npz`를 `(obs - mean) / std`로 적용했다.
@@ -49,16 +46,11 @@ export MUJOCO_PY_MUJOCO_PATH=/home/svcho/.mujoco/mujoco210
 export LD_LIBRARY_PATH=/home/svcho/.mujoco/mujoco210/bin:${LD_LIBRARY_PATH}
 
 PY=/home/svcho/anaconda3/envs/offrl/bin/python
-OUT=/home/svcho/amo/results/antmaze_trajectory_comparison/antmaze-medium-play-v2
-$PY /home/svcho/amo/scripts/eval_antmaze_trajectory_comparison.py --smoke \
-  --env antmaze-medium-play-v2 --seeds 0,1 --alpha 1 \
-  --shared-jobs /home/svcho/amo/results/td3_amo_execonly_main_seeds03 --rapo-jobs /home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03 \
-  --shared-template 'jobs_s{seed}' --rapo-template 'jobs_s{seed}' \
-  --out "$OUT/trajectories"
-$PY /home/svcho/amo/scripts/eval_antmaze_trajectory_comparison.py --all --jobs 2 \
-  --env antmaze-medium-play-v2 --seeds 0,1 --alpha 1 \
-  --shared-jobs /home/svcho/amo/results/td3_amo_execonly_main_seeds03 --rapo-jobs /home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03 \
-  --shared-template 'jobs_s{seed}' --rapo-template 'jobs_s{seed}' \
+OUT=/home/svcho/amo/results/antmaze_trajectory_comparison/a5_r3e4/antmaze-medium-play-v2
+$PY /home/svcho/amo/scripts/eval_antmaze_trajectory_comparison.py \
+  --method rapo --seed 0 --episodes 25 \
+  --env antmaze-medium-play-v2 --seeds 0,1,2,3 --alpha 5 \
+  --rapo-jobs /home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs --rapo-template 'a5_am-mp_r3e4_s{seed}' \
   --out "$OUT/trajectories"
 $PY /home/svcho/amo/scripts/plot_antmaze_trajectory_comparison.py --root "$OUT"
 ```
