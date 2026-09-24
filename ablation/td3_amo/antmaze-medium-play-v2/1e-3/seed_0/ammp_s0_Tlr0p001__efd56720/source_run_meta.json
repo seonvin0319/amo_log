@@ -1,0 +1,14 @@
+{
+  "algorithm": "td3_amo",
+  "alpha_B": 5,
+  "alpha_E": 5,
+  "alpha_lr": 0.001,
+  "backend": "jax",
+  "dataset_sha256": "2b4004c163f081bc267280031526c59e94fb29821ad1164e3dca41af4fa70245",
+  "device": "cuda:0",
+  "env": "antmaze-medium-play-v2",
+  "freeze_scale_B": true,
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 0
+}

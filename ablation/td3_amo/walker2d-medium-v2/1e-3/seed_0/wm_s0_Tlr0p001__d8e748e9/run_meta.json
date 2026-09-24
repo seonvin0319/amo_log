@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_fixedB_lrmatch",
     "critic_architecture"
   ],
-  "collected_at": "2026-09-25T01:18:01+09:00",
+  "collected_at": "2026-09-25T01:23:00+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_fixedB_lrmatch",
@@ -40,6 +41,9 @@
     "files": {
       "config.yaml": {
         "sha256": "414344a80e1396cc4776825685db923e28470d29e3747f18c7a5a87beaac7ea4"
+      },
+      "eval.jsonl": {
+        "sha256": "15cf838807bd3dca5f07343be0cc962ba6fb77f616a15dc757ed7873b75435b7"
       },
       "metrics.jsonl": {
         "sha256": "dfa187c5c066532a51767fe92fe16bf5ee8f983da009af3a990e001cccc6bb4f"
