@@ -11,7 +11,7 @@
     "method_variant:td3_amo_firstorder_l2rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-24T23:21:04+09:00",
+  "collected_at": "2026-09-24T23:27:58+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_firstorder_l2rms",
@@ -24,7 +24,7 @@
   "legacy_name": "w-mr_firstorder_rms_a5_s1",
   "meta_lr": 0.002,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/w-mr_firstorder_rms_a5_s1/checkpoints/step_600000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/w-mr_firstorder_rms_a5_s1/checkpoints/step_800000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -42,7 +42,7 @@
         "sha256": "0b67f3e5f9655750d24a8c4223e76efbda3d26d5251d46f6c28c943859cefb95"
       },
       "metrics.jsonl": {
-        "sha256": "08b56f8de29eba04929289656ceef0b6a01c3b9e1e7f54b9e450fcba9b8f9cd4"
+        "sha256": "234c7326d33ec61b3ce4e40b4b5b5ce23c3da43578f8d839da2b148781369c94"
       },
       "source_run_meta.json": {
         "sha256": "f35fbaa442942fb16730de7936df12771e07af462fac7deb88b3cdcaf6a047b6"

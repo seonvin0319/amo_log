@@ -11,7 +11,7 @@
     "method_variant:td3_amo_firstorder_l2rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-24T23:21:04+09:00",
+  "collected_at": "2026-09-24T23:27:58+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_firstorder_l2rms",
@@ -24,7 +24,7 @@
   "legacy_name": "h-mr_firstorder_rms_a5_s2",
   "meta_lr": 0.002,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/h-mr_firstorder_rms_a5_s2/checkpoints/step_600000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/h-mr_firstorder_rms_a5_s2/checkpoints/step_800000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -42,7 +42,7 @@
         "sha256": "0b67f3e5f9655750d24a8c4223e76efbda3d26d5251d46f6c28c943859cefb95"
       },
       "metrics.jsonl": {
-        "sha256": "30ca2d83905534115c654052f97840b1a8a9e831c6062e2dee42fa16e5784e2f"
+        "sha256": "6c40efeea6c4cfb1d2c83d7f823796bd50cf9a20c654310758b7b28ed2c9f2be"
       },
       "source_run_meta.json": {
         "sha256": "87866377209c0e31f62c9fca233b68548937d7a74043db11f45f3992a08c825a"
