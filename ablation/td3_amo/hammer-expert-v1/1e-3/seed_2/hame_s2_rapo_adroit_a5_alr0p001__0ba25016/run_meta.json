@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -12,7 +13,7 @@
     "method_variant:td3_amo_rapo",
     "adroit"
   ],
-  "collected_at": "2026-09-24T08:19:57+00:00",
+  "collected_at": "2026-09-24T08:30:46+00:00",
   "env": "hammer-expert-v1",
   "env_short": "hame",
   "family": "td3_amo_rapo",
@@ -35,8 +36,11 @@
       "config.yaml": {
         "sha256": "b47b3aec5b0181fee547351af8d735eb5c6dfc9329e296cd0c49a133d3f0c930"
       },
+      "eval.jsonl": {
+        "sha256": "1dc402fb7eb003a2273d094ac6ebf9f143cad8718e22aa75984f7d1172c5522c"
+      },
       "metrics.jsonl": {
-        "sha256": "c9594e5f866dd820a80f0804b507cbf50ab7b418138dd6d4f74a8c36de67b172"
+        "sha256": "f69bb66bfc302a1d6ef69036d4e3f1aa539a05e1118665509a951918b285ef3a"
       },
       "source_run_meta.json": {
         "sha256": "2d8b052dd6cd395156f9247f05f12cfaf658b035fba0250e0f3e1c85323656d3"

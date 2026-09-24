@@ -13,7 +13,7 @@
     "meta_lr_outside_main",
     "adroit"
   ],
-  "collected_at": "2026-09-24T08:19:57+00:00",
+  "collected_at": "2026-09-24T08:30:46+00:00",
   "env": "hammer-expert-v1",
   "env_short": "hame",
   "family": "td3_amo_execonly_main",
@@ -37,7 +37,7 @@
         "sha256": "3374f2305fcd679c4a72313f9e67ec8c106856bb6de76d15b5e2caa438fb93e9"
       },
       "metrics.jsonl": {
-        "sha256": "f61a16b25bec0d15975c44609ad6c777d4bd3c045821b8039e5c7c7b54547b9b"
+        "sha256": "86611bd87e9a6bb8cbcf98bfb1ce894718adbada98ecff72a04b8089ff4b11e3"
       },
       "source_run_meta.json": {
         "sha256": "2d8b052dd6cd395156f9247f05f12cfaf658b035fba0250e0f3e1c85323656d3"
