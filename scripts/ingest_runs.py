@@ -462,6 +462,15 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "td3_amo_fixedB_lrmatch",
         "nested": False,
     },
+    {
+        "algo": "td3_amo",
+        "root": Path("/raid/ext_csv/AMO_store/td3_amo_fixed_alpha_B1_gaps"),
+        "host": "ext_csv",
+        "code_repo": "AMO-fixedB1-gaps",
+        "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+        "family_force": "td3_amo_fixed_alpha_B",
+        "nested": False,
+    },
 ]
 
 CFG_NAMES = ("config.yaml", "effective_config.yaml")
