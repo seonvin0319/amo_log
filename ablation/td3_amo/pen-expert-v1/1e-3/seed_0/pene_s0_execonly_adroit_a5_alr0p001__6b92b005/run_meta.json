@@ -1,0 +1,92 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "cell": "execonly_pen_r1e3_s0",
+  "checkpoint_hint": "/raid/ext_csh/AMO_store/td3_adroit_expert_execonly_rapo/jobs/execonly_pen_r1e3_s0/run",
+  "classification_reasons": [
+    "execution_only",
+    "adroit"
+  ],
+  "collected_at": "2026-09-24T08:18:51+00:00",
+  "env": "pen-expert-v1",
+  "env_short": "pene",
+  "family": "td3_amo_execonly_main",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO-td3-execonly"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/td3_amo_execonly_main/pene_s0_execonly_adroit_a5_alr0p001__6b92b005",
+  "protocol": "jax_td3_amo_adroit_execonly_le_v1",
+  "rel_path": "ablation/td3_amo/pen-expert-v1/1e-3/seed_0/pene_s0_execonly_adroit_a5_alr0p001__6b92b005",
+  "run_id": "pene_s0_execonly_adroit_a5_alr0p001__6b92b005",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "ae72ab62d6cb1f221e82dd15de9c80e6528bc54318dcf28bcdb29a6515b401a5"
+      },
+      "eval.jsonl": {
+        "sha256": "afd2419a007ecb69322d8dc5d593aa1d985f084b7fe38cafd68325eaa667943e"
+      },
+      "metrics.jsonl": {
+        "sha256": "0beb03eea521e132a3fcf960490a240c25fe12d39c9c5091fe98a85dc501c591"
+      },
+      "source_run_meta.json": {
+        "sha256": "2b2bd04dec554aa5febd326bde5790298ed642a5a0b23072a12353e3ba9552cd"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.001,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "pen-expert-v1",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": true,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/AMO_store/td3_adroit_expert_execonly_rapo/jobs/execonly_pen_r1e3_s0/run",
+  "variant": "execonly_adroit_a5_alr0p001"
+}
