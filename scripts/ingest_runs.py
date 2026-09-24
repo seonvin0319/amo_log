@@ -426,6 +426,33 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "iql_ddpgbc_fixed_alpha_E",
         "nested": False,
     },
+    {
+        "algo": "td3_amo",
+        "root": Path("/raid/ext_csv/AMO_store/directq_rms_a5"),
+        "host": "ext_csv",
+        "code_repo": "AMO-directq",
+        "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+        "family_force": "td3_amo_directq_l2rms",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path("/raid/ext_csv/AMO_store/split_meta_lr"),
+        "host": "ext_csv",
+        "code_repo": "AMO-metalr",
+        "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+        "family_force": "td3_amo_split_meta_lr",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
+        "root": Path("/raid/ext_csv/AMO_store/firstorder_rms_a5"),
+        "host": "ext_csv",
+        "code_repo": "AMO-firstorder",
+        "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+        "family_force": "td3_amo_firstorder_l2rms",
+        "nested": False,
+    },
 ]
 
 CFG_NAMES = ("config.yaml", "effective_config.yaml")
