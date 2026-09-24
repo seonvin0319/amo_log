@@ -6,7 +6,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-24T14:17:25+09:00",
+  "collected_at": "2026-09-24T14:23:02+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "benchmark",
