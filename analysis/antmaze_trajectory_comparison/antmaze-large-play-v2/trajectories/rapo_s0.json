@@ -1,0 +1,804 @@
+{
+  "metadata": {
+    "env": "antmaze-large-play-v2",
+    "method": "rapo",
+    "label": "TD3+RAPO",
+    "actor_role": "execution_actor_pi_E",
+    "train_seed": 0,
+    "episodes": 25,
+    "eval_seed_formula": "10000 + 100 * train_seed + episode",
+    "eval_seeds": [
+      10000,
+      10001,
+      10002,
+      10003,
+      10004,
+      10005,
+      10006,
+      10007,
+      10008,
+      10009,
+      10010,
+      10011,
+      10012,
+      10013,
+      10014,
+      10015,
+      10016,
+      10017,
+      10018,
+      10019,
+      10020,
+      10021,
+      10022,
+      10023,
+      10024
+    ],
+    "env_recorded": "antmaze-large-play-v2",
+    "checkpoint": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-lp_r3e4_s0/run/checkpoints/step_1000000.npz",
+    "checkpoint_sha256": "693c4427d2cae61f00ce00f26bc321d5a90ed11b5a8dc95ad6f9475ab3b6a663",
+    "checkpoint_steps": 1000000,
+    "config_path": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-lp_r3e4_s0/run/config.yaml",
+    "config": {
+      "batch_size": 256,
+      "hidden_dim": 256,
+      "discount": 0.99,
+      "tau": 0.005,
+      "actor_lr": 0.0003,
+      "critic_lr": 0.0003,
+      "max_steps": 1000000,
+      "normalize": true,
+      "reward_transform": "none",
+      "eval_freq": 20000,
+      "eval_episodes": 100,
+      "eval_seed": null,
+      "eval_first_step": 20000,
+      "final_eval_repeats": 5,
+      "actor_depth": 2,
+      "critic_depth": 3,
+      "critic_layernorm": true,
+      "critic_special_init": true,
+      "policy_freq": 2,
+      "policy_noise": 0.2,
+      "noise_clip": 0.5,
+      "alpha_E": 1,
+      "alpha_B": 1,
+      "alpha_lr": 0.0003,
+      "meta_interval": 20,
+      "smoothness_eps": 1e-06,
+      "bootstrap_loss": "l2_rms",
+      "execution_score": "bpi",
+      "execution_only": false,
+      "algorithm": "td3_amo"
+    },
+    "normalization": "/home/svcho/amo/results/td3_amo_bootrms_maincand_seeds03/jobs/a1_am-lp_r3e4_s0/run/normalization.npz",
+    "n_checkpoint_arrays": 167,
+    "policy_parameters": "state['p']['actor']",
+    "action_selection": "deterministic tanh mean via BaseAgent.act; no exploration noise",
+    "observation_normalization": "(obs - mean) / std from normalization.npz",
+    "coordinates": "env get_xy().copy() world XY, not normalized observations",
+    "horizon": 1000,
+    "termination": "D4RL eval sparse success (distance <= 0.5 sets done) or Gym TimeLimit",
+    "probe": {
+      "policy_parameters": "state['p']['actor']",
+      "action_selection": "deterministic tanh mean; no exploration noise",
+      "probe_action_abs_max": 0.7100791335105896,
+      "pi_e_vs_pi_b_max_abs": 0.42672884464263916
+    },
+    "code": {
+      "git_head": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+      "dirty": true,
+      "status_porcelain": [
+        "M algorithms/jax/iql_amo.py",
+        " M algorithms/jax/iql_ddpgbc_amo.py",
+        " M algorithms/jax/td3_amo.py",
+        " M algorithms/torch/iql_amo.py",
+        " M algorithms/torch/iql_ddpgbc_amo.py",
+        " M algorithms/torch/td3_amo.py",
+        " M common/config.py",
+        " M configs/td3_amo_execonly_a1_r1e3.yaml",
+        " M configs/td3_amo_execonly_a1_r2e3.yaml",
+        " M configs/td3_amo_execonly_a1_r3e4.yaml",
+        " M configs/td3_amo_execonly_a2_r1e3.yaml",
+        " M configs/td3_amo_execonly_a2_r2e3.yaml",
+        " M configs/td3_amo_execonly_a2_r3e4.yaml",
+        " M configs/td3_amo_execonly_a5_r1e3.yaml",
+        " M configs/td3_amo_execonly_a5_r2e3.yaml",
+        " M configs/td3_amo_execonly_a5_r3e4.yaml",
+        " M scripts/poll_iql_amo_cpu_eval_parallel.sh",
+        " M scripts/poll_jobs_cpu_eval.sh",
+        " M scripts/run_td3_amo_execonly_main_svcho.sh",
+        " M scripts/run_td3_iql_amo_pel2_svcho.sh",
+        " M scripts/wait_then_dual_lel2_then_iql_ddpgbc_svcho.sh",
+        " M scripts/wait_then_execonly_main_svcho.sh",
+        " M scripts/watch_dual_then_iql_svcho.sh",
+        " M tests/release/test_td3_amo_execonly_le_l2rms.py",
+        " M train.py",
+        "?? AMO.pdf",
+        "?? configs/iql_amo_beta5_rho1e3.yaml",
+        "?? configs/iql_amo_beta5_rho2e3.yaml",
+        "?? configs/iql_amo_beta5_rho3e4.yaml",
+        "?? configs/iql_amo_bpi_fixed_beta_E1.yaml",
+        "?? configs/iql_amo_bpi_fixed_beta_E5.yaml",
+        "?? configs/iql_amo_lr1e3_beta1.yaml",
+        "?? configs/iql_amo_lr1e3_beta10.yaml",
+        "?? configs/iql_amo_lr1e3_beta5.yaml",
+        "?? configs/iql_amo_rc_b1_r1e3.yaml",
+        "?? configs/iql_amo_rc_b1_r2e3.yaml",
+        "?? configs/iql_amo_rc_b1_r3e4.yaml",
+        "?? configs/iql_amo_rc_b2_r1e3.yaml",
+        "?? configs/iql_amo_rc_b2_r2e3.yaml",
+        "?? configs/iql_amo_rc_b2_r3e4.yaml",
+        "?? configs/iql_amo_rc_b5_r1e3.yaml",
+        "?? configs/iql_amo_rc_b5_r2e3.yaml",
+        "?? configs/iql_amo_rc_b5_r3e4.yaml",
+        "?? configs/iql_amo_rho1e3.yaml",
+        "?? configs/iql_amo_rho2e3.yaml",
+        "?? configs/iql_amo_rho3e4.yaml",
+        "?? configs/iql_ddpgbc_amo_fixed_alpha_E1.yaml",
+        "?? configs/iql_ddpgbc_amo_fixed_alpha_E5.yaml",
+        "?? configs/td3_amo_T10.yaml",
+        "?? configs/td3_amo_T2p5_Tlr1e3.yaml",
+        "?? configs/td3_amo_T2p5_Tlr2e3.yaml",
+        "?? configs/td3_amo_T2p5_Tlr3e4.yaml",
+        "?? configs/td3_amo_T5.yaml",
+        "?? configs/td3_amo_ablation_bootstrap_l1_a5_alr3e4_rwdnone.yaml",
+        "?? configs/td3_amo_ablation_bootstrap_l1_alr2e3.yaml",
+        "?? configs/td3_amo_ablation_bootstrap_l2_a5_rwdnone.yaml",
+        "?? configs/td3_amo_ablation_bootstrap_l2rms_a5_rwdnone.yaml",
+        "?? configs/td3_amo_ablation_exec_directq_a5_alr3e4_rwdnone.yaml",
+        "?? configs/td3_amo_ablation_exec_directq_alr2e3.yaml",
+        "?? configs/td3_amo_ablation_execonly_a5_rwdnone.yaml",
+        "?? configs/td3_amo_fixed_alpha_B1_r2e3.yaml",
+        "?? configs/td3_amo_fixed_alpha_B1_r3e4.yaml",
+        "?? configs/td3_amo_fixed_alpha_B5_r2e3.yaml",
+        "?? configs/td3_amo_fixed_alpha_B5_r3e4.yaml",
+        "?? configs/td3_amo_freeze_main_final_alpha.yaml",
+        "?? docs/TD3_BACKEND_DIAGNOSIS.md",
+        "?? docs/TD3_BACKEND_EXPERIMENT_PLAN.md",
+        "?? scripts/amo_log_has_td3_alpha2_score.py",
+        "?? scripts/audit_td3_amo_meta.py",
+        "?? scripts/audit_td3_bc_matched_states.py",
+        "?? scripts/bootstrap_target_diagnostic.py",
+        "?? scripts/compare_td3_bc_stepwise_runs.py",
+        "?? scripts/diagnose_td3_bc_backends.py",
+        "?? scripts/diagnose_td3_bc_fourway.py",
+        "?? scripts/eval_antmaze_trajectory_comparison.py",
+        "?? scripts/eval_iql_amo_checkpoint.py",
+        "?? scripts/evaluate_td3_amo_audit.py",
+        "?? scripts/evaluate_td3_bc_probe_pair.py",
+        "?? scripts/export_saved_loss_review.py",
+        "?? scripts/finalize_td3_amo_l2_1m.py",
+        "?? scripts/loop_fixed_alpha_ablation_ext_csv_5m.sh",
+        "?? scripts/loop_iql_amo_adroit_canvas_10m.sh",
+        "?? scripts/loop_td3_amo_bootrms_maincand_canvas_5m.sh",
+        "?? scripts/loop_td3_amo_loco9_alpha5_canvas_5m.sh",
+        "?? scripts/loop_td3_amo_loco9_t2p5_canvas_5m.sh",
+        "?? scripts/manifests/",
+        "?? scripts/plot_antmaze_trajectory_comparison.py",
+        "?? scripts/poll_iql_amo_cpu_eval.sh",
+        "?? scripts/prepare_td3_bc_shared_inputs.py",
+        "?? scripts/prune_mid_checkpoints.py",
+        "?? scripts/refresh_iql_amo_adroit_canvas.py",
+        "?? scripts/refresh_iql_amo_rc_canvas.py",
+        "?? scripts/refresh_iql_amo_rc_md.py",
+        "?? scripts/refresh_td3_amo_bootrms_maincand_canvas.py",
+        "?? scripts/refresh_td3_amo_design_ablation_canvas.py",
+        "?? scripts/refresh_td3_amo_loco9_alpha5_canvas.py",
+        "?? scripts/refresh_td3_amo_loco9_t2p5_canvas.py",
+        "?? scripts/regress_td3_amo_l2_precision.py",
+        "?? scripts/run_fixed_alpha_ablation_svcho.sh",
+        "?? scripts/run_iql_amo_adroit_svcho.sh",
+        "?? scripts/run_iql_amo_antmaze3_beta5_diverse_rho_svcho.sh",
+        "?? scripts/run_iql_amo_antmaze3_beta5_rho_svcho.sh",
+        "?? scripts/run_iql_amo_antmaze6_beta1_rho_svcho.sh",
+        "?? scripts/run_iql_amo_beta1_seeds123_svcho.sh",
+        "?? scripts/run_iql_amo_beta_sweep_svcho.sh",
+        "?? scripts/run_iql_amo_bpi_fixed_beta_E_svcho.sh",
+        "?? scripts/run_iql_amo_rc_svcho.sh",
+        "?? scripts/run_td3_amo_ablation_bootl1_directq_svcho.sh",
+        "?? scripts/run_td3_amo_adroit_T10_seeds03_svcho.sh",
+        "?? scripts/run_td3_amo_adroit_T5_seeds03_svcho.sh",
+        "?? scripts/run_td3_amo_adroit_seeds03_svcho.sh",
+        "?? scripts/run_td3_amo_adroit_svcho.sh",
+        "?? scripts/run_td3_amo_bootl2_vs_rms_svcho.sh",
+        "?? scripts/run_td3_amo_default_control.py",
+        "?? scripts/run_td3_amo_design_ablation_rwdnone_svcho.sh",
+        "?? scripts/run_td3_amo_execonly_le_a1_back85_svcho.sh",
+        "?? scripts/run_td3_amo_freeze_main_final_alpha_svcho.sh",
+        "?? scripts/run_td3_amo_l2_1m.py",
+        "?? scripts/run_td3_amo_loco9_T2p5_tlr_svcho.sh",
+        "?? scripts/run_td3_amo_loco9_alpha2_alr_no2e3_svcho.sh",
+        "?? scripts/run_td3_amo_loco9_alpha5_alr_svcho.sh",
+        "?? scripts/run_td3_amo_meta_audit.py",
+        "?? scripts/run_td3_amo_meta_long.py",
+        "?? scripts/run_td3_bc_local_repro.py",
+        "?? scripts/run_td3_bc_phase_a_repro.py",
+        "?? scripts/run_td3_bc_phase_b_onset.py",
+        "?? scripts/run_td3_bc_phase_e_precision.py",
+        "?? scripts/run_td3_bc_sensitivity.py",
+        "?? scripts/run_td3_bc_stepwise_tape.py",
+        "?? scripts/run_td3_bc_tape_trajectory.py",
+        "?? scripts/summarize_td3_amo_l2_1m.py",
+        "?? scripts/summarize_td3_amo_meta_audit.py",
+        "?? scripts/summarize_td3_bc_phase_e.py",
+        "?? scripts/summarize_td3_bc_sensitivity.py",
+        "?? scripts/td3_amo_execonly_le_a1_back85.tags",
+        "?? scripts/verify_td3_bc_phase_e_repeats.py",
+        "?? scripts/wait_then_bootrms_alpha1_svcho.sh",
+        "?? scripts/wait_then_bootrms_design_ablation_svcho.sh",
+        "?? scripts/wait_then_fixed_alpha_after_dual_svcho.sh",
+        "?? scripts/wait_then_fql_after_ablation_svcho.sh",
+        "?? scripts/wait_then_iql_amo_antmaze3_beta5_diverse_svcho.sh",
+        "?? scripts/wait_then_iql_amo_antmaze3_beta5_svcho.sh",
+        "?? scripts/wait_then_iql_amo_bpi_fixed_svcho.sh",
+        "?? scripts/wait_then_iql_amo_rc_svcho.sh",
+        "?? scripts/wait_then_switch_noeval.sh",
+        "?? scripts/wait_then_td3_amo_adroit_T10_svcho.sh",
+        "?? scripts/wait_then_td3_amo_adroit_svcho.sh",
+        "?? scripts/wait_then_td3_amo_loco9_alpha2_svcho.sh",
+        "?? scripts/watch_td3_amo_bootrms_svcho.sh",
+        "?? tests/release/test_fixed_alpha_ablation.py",
+        "?? tests/release/test_fourway_alignment.py",
+        "?? tests/release/test_iql_amo_bpi_freeze.py",
+        "?? tests/release/test_phase_e_precision.py",
+        "?? tests/release/test_td3_backend_diagnosis.py",
+        "?? tests/release/test_td3_matched_state_trace.py",
+        "?? tests/release/test_td3_sensitivity.py"
+      ]
+    },
+    "successes": 0
+  },
+  "episodes": [
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 0,
+      "eval_seed": 10000,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.003338080466092491,
+        -0.015260169496713855
+      ],
+      "goal_xy": [
+        32.97193605577616,
+        24.261977020428954
+      ],
+      "final_xy": [
+        12.341655731201172,
+        0.20547173917293549
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 1,
+      "eval_seed": 10001,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.042961284632292984,
+        0.02589404662431949
+      ],
+      "goal_xy": [
+        33.159412204029806,
+        24.378276398080352
+      ],
+      "final_xy": [
+        12.112262725830078,
+        8.514333724975586
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 2,
+      "eval_seed": 10002,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.027037179885869844,
+        -0.04999700630882409
+      ],
+      "goal_xy": [
+        32.69947375880219,
+        25.217305994820816
+      ],
+      "final_xy": [
+        12.763108253479004,
+        -0.46472930908203125
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 3,
+      "eval_seed": 10003,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.037632373129852986,
+        0.04762485490273566
+      ],
+      "goal_xy": [
+        33.41036980650758,
+        24.953183364607778
+      ],
+      "final_xy": [
+        6.079203128814697,
+        8.681591987609863
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 4,
+      "eval_seed": 10004,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.06788052974276346,
+        -0.03959668929659874
+      ],
+      "goal_xy": [
+        32.475104580797165,
+        24.248658505903727
+      ],
+      "final_xy": [
+        12.50025749206543,
+        0.9680124521255493
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 5,
+      "eval_seed": 10005,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.05774425597231288,
+        -0.03433234680280224
+      ],
+      "goal_xy": [
+        32.54119392807454,
+        24.098183085657134
+      ],
+      "final_xy": [
+        12.385860443115234,
+        0.05611541122198105
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 6,
+      "eval_seed": 10006,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.07208393424002157,
+        0.04325843182444758
+      ],
+      "goal_xy": [
+        33.064300521965926,
+        25.230685159344702
+      ],
+      "final_xy": [
+        12.929996490478516,
+        5.104937553405762
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 7,
+      "eval_seed": 10007,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.0646605521510353,
+        -0.08960048450995442
+      ],
+      "goal_xy": [
+        32.56775391869212,
+        24.93362024794053
+      ],
+      "final_xy": [
+        4.714034557342529,
+        0.40428176522254944
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 8,
+      "eval_seed": 10008,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.015278615684016478,
+        -0.009630509412390215
+      ],
+      "goal_xy": [
+        33.03785876065602,
+        24.05608255735674
+      ],
+      "final_xy": [
+        12.859546661376953,
+        0.29079103469848633
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 9,
+      "eval_seed": 10009,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.00446794558298616,
+        0.012236874520167557
+      ],
+      "goal_xy": [
+        32.50991466797597,
+        24.66158948622087
+      ],
+      "final_xy": [
+        21.045490264892578,
+        24.961898803710938
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 10,
+      "eval_seed": 10010,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.07482640949817797,
+        -0.09171387422048566
+      ],
+      "goal_xy": [
+        32.0745487853749,
+        24.156999637982178
+      ],
+      "final_xy": [
+        4.896315097808838,
+        14.950923919677734
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 11,
+      "eval_seed": 10011,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.00016216203886895708,
+        0.07333266751844364
+      ],
+      "goal_xy": [
+        32.90671448057754,
+        24.808638359694175
+      ],
+      "final_xy": [
+        10.379695892333984,
+        8.863485336303711
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 12,
+      "eval_seed": 10012,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.08167366289864209,
+        -0.06008470769501986
+      ],
+      "goal_xy": [
+        32.606224729396104,
+        24.923177941211897
+      ],
+      "final_xy": [
+        12.630758285522461,
+        -0.9514684081077576
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 13,
+      "eval_seed": 10013,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.011251860276353082,
+        0.01358953446956343
+      ],
+      "goal_xy": [
+        32.859131930354714,
+        24.965513898697875
+      ],
+      "final_xy": [
+        21.18954086303711,
+        8.29115104675293
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 14,
+      "eval_seed": 10014,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.07492159790313667,
+        0.07383264659936897
+      ],
+      "goal_xy": [
+        33.09045651707082,
+        25.389841213425438
+      ],
+      "final_xy": [
+        12.85386848449707,
+        -0.7161507606506348
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 15,
+      "eval_seed": 10015,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.0033580664606040617,
+        -0.038284721879607346
+      ],
+      "goal_xy": [
+        33.08855865842193,
+        24.159366118522556
+      ],
+      "final_xy": [
+        12.777350425720215,
+        -0.8400834798812866
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 16,
+      "eval_seed": 10016,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.07765457645521404,
+        -0.021112882530934726
+      ],
+      "goal_xy": [
+        32.5336877836589,
+        24.80927944165851
+      ],
+      "final_xy": [
+        0.8732460737228394,
+        2.9452707767486572
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 17,
+      "eval_seed": 10017,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.020055804585206352,
+        -0.04454918094364216
+      ],
+      "goal_xy": [
+        32.014102894961056,
+        24.76429373395677
+      ],
+      "final_xy": [
+        10.986701965332031,
+        8.220120429992676
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 18,
+      "eval_seed": 10018,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.011758440375336576,
+        -0.03714578049372892
+      ],
+      "goal_xy": [
+        33.130324240819554,
+        25.04291850365435
+      ],
+      "final_xy": [
+        5.5266289710998535,
+        0.6738003492355347
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 19,
+      "eval_seed": 10019,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.03413582088617145,
+        0.0052563784800348234
+      ],
+      "goal_xy": [
+        32.81686069058799,
+        24.48973552967689
+      ],
+      "final_xy": [
+        12.813040733337402,
+        0.979059636592865
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 20,
+      "eval_seed": 10020,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.07897143996628969,
+        0.09512587145053528
+      ],
+      "goal_xy": [
+        32.34560371142885,
+        24.45571811622816
+      ],
+      "final_xy": [
+        12.23202896118164,
+        -0.6141180992126465
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 21,
+      "eval_seed": 10021,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.06706005082700246,
+        -0.043982038895354125
+      ],
+      "goal_xy": [
+        32.89829785741383,
+        24.14165909541169
+      ],
+      "final_xy": [
+        11.192266464233398,
+        0.6631320714950562
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 22,
+      "eval_seed": 10022,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.04344720806555136,
+        0.04761253042998334
+      ],
+      "goal_xy": [
+        32.4952122311799,
+        24.65565971992407
+      ],
+      "final_xy": [
+        1.7697639465332031,
+        0.8891735076904297
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 23,
+      "eval_seed": 10023,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        0.031893038848404415,
+        0.04701583328218442
+      ],
+      "goal_xy": [
+        32.562681982021644,
+        24.99281803790045
+      ],
+      "final_xy": [
+        12.52220630645752,
+        -1.1243301630020142
+      ]
+    },
+    {
+      "method": "rapo",
+      "train_seed": 0,
+      "episode": 24,
+      "eval_seed": 10024,
+      "success": false,
+      "return": 0.0,
+      "n_steps": 1000,
+      "timeout": true,
+      "start_xy": [
+        -0.09510454002514418,
+        0.014796378266388466
+      ],
+      "goal_xy": [
+        32.97962601958732,
+        24.439616208116966
+      ],
+      "final_xy": [
+        7.825206756591797,
+        8.899368286132812
+      ]
+    }
+  ]
+}
