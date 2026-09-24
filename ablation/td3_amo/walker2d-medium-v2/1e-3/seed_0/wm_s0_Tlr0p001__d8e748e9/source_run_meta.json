@@ -1,0 +1,14 @@
+{
+  "algorithm": "td3_amo",
+  "alpha_B": 5,
+  "alpha_E": 5,
+  "alpha_lr": 0.001,
+  "backend": "jax",
+  "dataset_sha256": "fe27c28b9ca5c66be19a4938523314b60b594a205a233ab468facee594b43628",
+  "device": "cuda:0",
+  "env": "walker2d-medium-v2",
+  "freeze_scale_B": true,
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 0
+}

@@ -1,0 +1,99 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s2",
+  "classification_reasons": [
+    "method_variant:td3_amo_fixedB_lrmatch",
+    "critic_architecture"
+  ],
+  "collected_at": "2026-09-25T00:48:01+09:00",
+  "env": "walker2d-medium-v2",
+  "env_short": "wm",
+  "family": "td3_amo_fixedB_lrmatch",
+  "git": {
+    "code_commit": "c5bffd3",
+    "code_repo": "AMO-fixedB-lrmatch"
+  },
+  "identity_uuid8": "9a405d07",
+  "layout_version": 2,
+  "legacy_name": "w-m_b5_s2",
+  "meta_lr": 0.001,
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s2/checkpoints/step_20000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_fixedB_lrmatch/wm_s2_Tlr0p001__9a405d07",
+  "rel_path": "ablation/td3_amo/walker2d-medium-v2/1e-3/seed_2/wm_s2_Tlr0p001__9a405d07",
+  "run_id": "wm_s2_Tlr0p001__9a405d07",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "414344a80e1396cc4776825685db923e28470d29e3747f18c7a5a87beaac7ea4"
+      },
+      "metrics.jsonl": {
+        "sha256": "a906aaf76aadb3f45ee5805dfb5d3ef02ab171cfecf7c04c20367f845a26637c"
+      },
+      "source_run_meta.json": {
+        "sha256": "b11985bff0b5e6a9c1d1d6540f798869d8dea0ccbb83bb98a6f279faadfda355"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 2,
+    "critic_layernorm": false,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "actor",
+    "discount": 0.99,
+    "env": "walker2d-medium-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "freeze_scale_B": true,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s2",
+  "variant": "Tlr0p001"
+}
