@@ -1,0 +1,102 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/directq_rms_a5/am-md_directq_rms_a5_s0",
+  "classification_reasons": [
+    "method_variant:td3_amo_directq_l2rms",
+    "execution_loss"
+  ],
+  "collected_at": "2026-09-24T23:17:45+09:00",
+  "env": "antmaze-medium-diverse-v2",
+  "env_short": "ammd",
+  "family": "td3_amo_directq_l2rms",
+  "git": {
+    "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+    "code_repo": "AMO-directq"
+  },
+  "identity_uuid8": "6ba59f77",
+  "layout_version": 2,
+  "legacy_name": "am-md_directq_rms_a5_s0",
+  "meta_lr": 0.0003,
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/directq_rms_a5/am-md_directq_rms_a5_s0/checkpoints/step_1000000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_directq_l2rms/ammd_s0_Tlr0p0003__6ba59f77",
+  "rel_path": "ablation/td3_amo/antmaze-medium-diverse-v2/3e-4/seed_0/ammd_s0_Tlr0p0003__6ba59f77",
+  "run_id": "ammd_s0_Tlr0p0003__6ba59f77",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "78e7e3645d8006efda9af6f4329e4cd1e3027157b744088748fdb1e4fccf1037"
+      },
+      "eval.jsonl": {
+        "sha256": "192cbafd0f196eaec92ebd99f2cc465e7e498900872a42a4b17ed4c15a7ea6ad"
+      },
+      "metrics.jsonl": {
+        "sha256": "a39d3ab0d26ad328526af7b3f7a0b9c7a75a12ea04ddb9eccd323035bdfc1dc2"
+      },
+      "source_run_meta.json": {
+        "sha256": "34c640440580254212001f114db801fcf35226b465724bc0e24799c3f11b290f"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.0003,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "antmaze-medium-diverse-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "direct_q",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/directq_rms_a5/am-md_directq_rms_a5_s0",
+  "variant": "Tlr0p0003"
+}

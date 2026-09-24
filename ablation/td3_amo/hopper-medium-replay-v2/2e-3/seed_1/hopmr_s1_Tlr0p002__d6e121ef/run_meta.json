@@ -1,0 +1,98 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/firstorder_rms_a5/h-mr_firstorder_rms_a5_s1",
+  "classification_reasons": [
+    "method_variant:td3_amo_firstorder_l2rms",
+    "execution_loss"
+  ],
+  "collected_at": "2026-09-24T23:17:46+09:00",
+  "env": "hopper-medium-replay-v2",
+  "env_short": "hopmr",
+  "family": "td3_amo_firstorder_l2rms",
+  "git": {
+    "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+    "code_repo": "AMO-firstorder"
+  },
+  "identity_uuid8": "d6e121ef",
+  "layout_version": 2,
+  "legacy_name": "h-mr_firstorder_rms_a5_s1",
+  "meta_lr": 0.002,
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/h-mr_firstorder_rms_a5_s1/checkpoints/step_600000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_firstorder_l2rms/hopmr_s1_Tlr0p002__d6e121ef",
+  "rel_path": "ablation/td3_amo/hopper-medium-replay-v2/2e-3/seed_1/hopmr_s1_Tlr0p002__d6e121ef",
+  "run_id": "hopmr_s1_Tlr0p002__d6e121ef",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "0b67f3e5f9655750d24a8c4223e76efbda3d26d5251d46f6c28c943859cefb95"
+      },
+      "metrics.jsonl": {
+        "sha256": "3f8d8ffcf870988d0f1a9419672c3adfeb632379711325edfeffd98d331fb797"
+      },
+      "source_run_meta.json": {
+        "sha256": "3c3673237e4450f59f754731e7bf9eb3ebc7d4198573819f82c6bf08a8568a8a"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "hopper-medium-replay-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "first_order",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/h-mr_firstorder_rms_a5_s1",
+  "variant": "Tlr0p002"
+}

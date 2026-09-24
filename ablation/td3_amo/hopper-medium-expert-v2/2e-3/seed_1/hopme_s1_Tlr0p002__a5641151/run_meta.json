@@ -1,0 +1,103 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/split_meta_lr/h-me_e2e3_b3e4_s1",
+  "classification_reasons": [
+    "method_variant:td3_amo_split_meta_lr"
+  ],
+  "collected_at": "2026-09-24T23:17:46+09:00",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
+  "family": "td3_amo_split_meta_lr",
+  "git": {
+    "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+    "code_repo": "AMO-metalr"
+  },
+  "identity_uuid8": "a5641151",
+  "layout_version": 2,
+  "legacy_name": "h-me_e2e3_b3e4_s1",
+  "meta_lr": 0.002,
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/split_meta_lr/h-me_e2e3_b3e4_s1/checkpoints/step_1000000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_split_meta_lr/hopme_s1_Tlr0p002__a5641151",
+  "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/2e-3/seed_1/hopme_s1_Tlr0p002__a5641151",
+  "run_id": "hopme_s1_Tlr0p002__a5641151",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "df7c459ff5d05e30b10bfa4e4cda618d57c07c78b022ac94734959899caf20c1"
+      },
+      "eval.jsonl": {
+        "sha256": "f0278d5ef679dd5322eae5739b80ca7594f71920e3b99e535f287737ff5ffbab"
+      },
+      "metrics.jsonl": {
+        "sha256": "6f10671608e670a7cbde357254b591a620796c97d94e4354dc9d376ea2c57f7a"
+      },
+      "source_run_meta.json": {
+        "sha256": "4927f08efba9dbb7ae3ff7f8fc7bad07e3ebcbd9c50c92cb453110fcc80ad898"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "alpha_lr_B": 0.0003,
+    "alpha_lr_E": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "hopper-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/split_meta_lr/h-me_e2e3_b3e4_s1",
+  "variant": "Tlr0p002"
+}

@@ -1,0 +1,102 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/directq_rms_a5/w-mr_directq_rms_a5_s2",
+  "classification_reasons": [
+    "method_variant:td3_amo_directq_l2rms",
+    "execution_loss"
+  ],
+  "collected_at": "2026-09-24T23:17:46+09:00",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
+  "family": "td3_amo_directq_l2rms",
+  "git": {
+    "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+    "code_repo": "AMO-directq"
+  },
+  "identity_uuid8": "b19b90d8",
+  "layout_version": 2,
+  "legacy_name": "w-mr_directq_rms_a5_s2",
+  "meta_lr": 0.002,
+  "metadata_provenance": {
+    "checkpoint_path": "/raid/ext_csv/AMO_store/directq_rms_a5/w-mr_directq_rms_a5_s2/checkpoints/step_1000000.npz",
+    "env_source": "source_run_meta.json",
+    "inferred": false,
+    "seed_source": "source_run_meta.json",
+    "verified_against_checkpoint": true
+  },
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_directq_l2rms/wmr_s2_Tlr0p002__b19b90d8",
+  "rel_path": "ablation/td3_amo/walker2d-medium-replay-v2/2e-3/seed_2/wmr_s2_Tlr0p002__b19b90d8",
+  "run_id": "wmr_s2_Tlr0p002__b19b90d8",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "ddc5eab4e171c938ec7507ec136b2fe63be4d0335227499fdf0e1b3f2c2c3ed4"
+      },
+      "eval.jsonl": {
+        "sha256": "017ea5b0e4b51d5b614bf9bbcf1a9c2d2187864ce14db2f35a39c322d58ce44a"
+      },
+      "metrics.jsonl": {
+        "sha256": "41acd67da8cc9a2c59a737eb5b5eaa79f2ba9bfd009c91f49d358789c803ece5"
+      },
+      "source_run_meta.json": {
+        "sha256": "cb74d19fd55b890fba6cb8e9817f649005c5376c353c964d4e02ba78a4d4535f"
+      }
+    },
+    "meta_lr_source": "T_lr",
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "walker2d-medium-replay-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "direct_q",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/directq_rms_a5/w-mr_directq_rms_a5_s2",
+  "variant": "Tlr0p002"
+}
