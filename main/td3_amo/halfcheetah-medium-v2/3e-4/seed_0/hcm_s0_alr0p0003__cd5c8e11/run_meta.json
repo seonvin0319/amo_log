@@ -9,7 +9,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-25T00:43:29+09:00",
+  "collected_at": "2026-09-25T00:49:15+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "td3_amo_bootrms_maincand",
