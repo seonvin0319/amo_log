@@ -11,7 +11,7 @@
     "method_variant:td3_amo_fixedB_lrmatch",
     "critic_architecture"
   ],
-  "collected_at": "2026-09-25T03:23:04+09:00",
+  "collected_at": "2026-09-25T03:28:04+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_fixedB_lrmatch",
