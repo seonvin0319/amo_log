@@ -11,7 +11,7 @@
     "method_variant:td3_amo_firstorder_l2rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-24T23:17:46+09:00",
+  "collected_at": "2026-09-24T23:21:04+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_firstorder_l2rms",
@@ -42,7 +42,7 @@
         "sha256": "0b67f3e5f9655750d24a8c4223e76efbda3d26d5251d46f6c28c943859cefb95"
       },
       "metrics.jsonl": {
-        "sha256": "e59669a5f5356b0f9dcc7b6053ac202f97712a499829507cadbf972998c460f5"
+        "sha256": "30ca2d83905534115c654052f97840b1a8a9e831c6062e2dee42fa16e5784e2f"
       },
       "source_run_meta.json": {
         "sha256": "87866377209c0e31f62c9fca233b68548937d7a74043db11f45f3992a08c825a"
