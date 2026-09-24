@@ -11,7 +11,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-25T01:58:00+09:00",
+  "collected_at": "2026-09-25T02:02:59+09:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "td3_amo_jax",
