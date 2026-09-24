@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_firstorder_l2rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-25T00:07:59+09:00",
+  "collected_at": "2026-09-25T00:12:59+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_firstorder_l2rms",
@@ -24,7 +25,7 @@
   "legacy_name": "w-mr_firstorder_rms_a5_s2",
   "meta_lr": 0.002,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/w-mr_firstorder_rms_a5_s2/checkpoints/step_800000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/w-mr_firstorder_rms_a5_s2/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -41,8 +42,11 @@
       "config.yaml": {
         "sha256": "0b67f3e5f9655750d24a8c4223e76efbda3d26d5251d46f6c28c943859cefb95"
       },
+      "eval.jsonl": {
+        "sha256": "4e934a9824f52d563b888adaeae12ea6e1b5e8fa001c9c76d68dc9da81a3068c"
+      },
       "metrics.jsonl": {
-        "sha256": "fae437192df0c0d3c9f00cac110afeb9e89558fff0d12a8acea269ff67c05dcb"
+        "sha256": "ad202a06c87a4f2182efb7e72fe022757db2809a8a73a17ce6e0e970e5e5dbaa"
       },
       "source_run_meta.json": {
         "sha256": "cb74d19fd55b890fba6cb8e9817f649005c5376c353c964d4e02ba78a4d4535f"

@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
     "method_variant:td3_amo_firstorder_l2rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-25T00:07:59+09:00",
+  "collected_at": "2026-09-25T00:12:59+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_firstorder_l2rms",
@@ -24,7 +25,7 @@
   "legacy_name": "am-md_firstorder_rms_a5_s2",
   "meta_lr": 0.0003,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/am-md_firstorder_rms_a5_s2/checkpoints/step_800000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/firstorder_rms_a5/am-md_firstorder_rms_a5_s2/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -41,8 +42,11 @@
       "config.yaml": {
         "sha256": "c114e82bf27d4c4ce9fe0fe82740620c6cf440e0d915035b41b157151d255e33"
       },
+      "eval.jsonl": {
+        "sha256": "461921023cdc5168a651794acaa92420e955d42b769f4a4529ffa03a4cf47fd0"
+      },
       "metrics.jsonl": {
-        "sha256": "c9aabfa9bd022dea31c5af78ce062315fbf75e72091976708d86f3bcf9377adb"
+        "sha256": "4973811d14bab2e79822aec87fbb3c0f1fb95def5d6381cf8ec85380523e76f0"
       },
       "source_run_meta.json": {
         "sha256": "5aecee2a53721c9c02165ce03905a60ec5b27fb183c251c77a52e178ee660ac1"
