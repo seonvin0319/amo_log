@@ -69,13 +69,14 @@ def is_pure_single(row,init):
     )
 
 def is_main_dual(row,init):
+    # Historical main runs predate explicit adaptive_scale_* metadata. The
+    # canonical family + section identifies the dual adaptive BootRMS design.
     return (
         row.get("section")=="main" and row.get("method")=="td3_amo"
+        and row.get("family")=="td3_amo_bootrms_maincand"
         and not truthy(row.get("execution_only"))
         and finite(row.get("alpha_E_initial"))==init
         and finite(row.get("alpha_B_initial"))==init
-        and truthy(row.get("adaptive_scale_E"))
-        and truthy(row.get("adaptive_scale_B"))
         and row.get("bootstrap_loss")=="l2_rms"
     )
 
