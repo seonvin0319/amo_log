@@ -10,7 +10,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-24T13:32:44+09:00",
+  "collected_at": "2026-09-24T13:37:44+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "adaptive_multiscale",
