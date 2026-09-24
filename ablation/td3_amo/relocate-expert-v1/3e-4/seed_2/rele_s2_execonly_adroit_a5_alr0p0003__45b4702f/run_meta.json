@@ -12,7 +12,7 @@
     "execution_only",
     "adroit"
   ],
-  "collected_at": "2026-09-24T08:41:31+00:00",
+  "collected_at": "2026-09-24T08:52:16+00:00",
   "env": "relocate-expert-v1",
   "env_short": "rele",
   "family": "td3_amo_execonly_main",
@@ -36,7 +36,7 @@
         "sha256": "a3a13148905275bd382f1fdb45db2955d5ca33fb31da6b2223e7f0ecc5307867"
       },
       "metrics.jsonl": {
-        "sha256": "21c4050c5e9d7992231616c7ee5579a68092ce85902b5038c38ddf8ccfce972e"
+        "sha256": "e661fbcdd4f5829f1ee44f151a52a50ceae761941cb7eea188ef8975ea776734"
       },
       "source_run_meta.json": {
         "sha256": "68841824d7f8815f150fbd339380066745916626fc1a2c6c87f3bc416eca186d"

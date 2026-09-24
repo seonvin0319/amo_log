@@ -13,7 +13,7 @@
     "meta_lr_outside_main",
     "adroit"
   ],
-  "collected_at": "2026-09-24T08:41:31+00:00",
+  "collected_at": "2026-09-24T08:52:16+00:00",
   "env": "door-expert-v1",
   "env_short": "doore",
   "family": "td3_amo_rapo",
@@ -37,7 +37,7 @@
         "sha256": "bbd552295d9b142d5815205039a0fc330019f1a7f1aced27fc2f2666926bc4eb"
       },
       "metrics.jsonl": {
-        "sha256": "ba0b5459383152be3324e742b518cfe39501abc98323111b9394a9b4307b1d9a"
+        "sha256": "a980fe669b25b3348b4deb7a8bd87c2d114aa92ff2356084836b7e95272da506"
       },
       "source_run_meta.json": {
         "sha256": "9759f85099fcde99de08f8c93bcdf22a3e6d9f95c1a4bc85ca7e0484611f0b10"
