@@ -6,7 +6,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-24T12:13:11+09:00",
+  "collected_at": "2026-09-24T12:18:53+09:00",
   "env": "walker2d-expert-v2",
   "env_short": "we",
   "family": "benchmark",
