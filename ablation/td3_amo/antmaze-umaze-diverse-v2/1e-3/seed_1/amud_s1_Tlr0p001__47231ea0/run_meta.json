@@ -11,7 +11,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_split_meta_lr"
   ],
-  "collected_at": "2026-09-25T00:38:00+09:00",
+  "collected_at": "2026-09-25T00:43:00+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "td3_amo_split_meta_lr",
