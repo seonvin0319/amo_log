@@ -7,7 +7,7 @@
   ],
   "backend": "torch",
   "classification_reasons": [],
-  "collected_at": "2026-09-24T10:20:55+09:00",
+  "collected_at": "2026-09-24T10:26:28+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "benchmark",
