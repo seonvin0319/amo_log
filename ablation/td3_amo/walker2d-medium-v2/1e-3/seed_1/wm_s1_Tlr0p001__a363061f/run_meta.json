@@ -11,7 +11,7 @@
     "method_variant:td3_amo_fixedB_lrmatch",
     "critic_architecture"
   ],
-  "collected_at": "2026-09-25T01:13:00+09:00",
+  "collected_at": "2026-09-25T01:18:01+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_fixedB_lrmatch",
@@ -24,7 +24,7 @@
   "legacy_name": "w-m_b5_s1",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s1/checkpoints/step_820000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s1/checkpoints/step_980000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -42,7 +42,7 @@
         "sha256": "414344a80e1396cc4776825685db923e28470d29e3747f18c7a5a87beaac7ea4"
       },
       "metrics.jsonl": {
-        "sha256": "5e4d5bbd3d7d29a8125db879f3b10b755c91ef2508a5b441bfb5070ab7f3d328"
+        "sha256": "8e1e6d75ce72ee9de443f9902c4e58b397f44ad9b11c2506e60f4cfb0682c774"
       },
       "source_run_meta.json": {
         "sha256": "7450283446390bfc333441e649d204dda4066083803b0eb2c120a20ac67bfbba"
