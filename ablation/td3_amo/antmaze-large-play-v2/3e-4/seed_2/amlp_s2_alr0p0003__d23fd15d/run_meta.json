@@ -8,7 +8,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_dual_lel2"
   ],
-  "collected_at": "2026-09-24T18:57:06+09:00",
+  "collected_at": "2026-09-24T19:02:46+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "td3_amo_dual_lel2",
