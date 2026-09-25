@@ -9,7 +9,7 @@
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/fql_rapo_main_a5_3env_seeds0to3/runs/fqlrapo_main_a5_hc-mr_a1e3_s0",
   "classification_reasons": [],
-  "collected_at": "2026-09-25T20:13:19+09:00",
+  "collected_at": "2026-09-25T20:18:20+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "fql_amo_jax",
