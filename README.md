@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [20d124f1](https://github.com/seonvin0319/amo_log/commit/20d124f13b399ce157604b0bf269ca6e7d36a91b) | 33 |
-| ext_csv | [3d585428](https://github.com/seonvin0319/amo_log/commit/3d5854289d8d343ef9899b5109d3705ddd399994) | 0 |
+| ext_csv | [7715bf79](https://github.com/seonvin0319/amo_log/commit/7715bf79ee92f3aec9b886c19d0a847f1659f76b) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [a7d7fcc3](https://github.com/seonvin0319/amo_log/commit/a7d7fcc331045c90bd004b7f0118c4c12b955b26) | 390 |
 | svcho | [8bfaac8a](https://github.com/seonvin0319/amo_log/commit/8bfaac8a15fe764560ca3e15624de5faa6ce9bc9) | 612 |
@@ -1541,8 +1541,7 @@
 | td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_directq_fo; method_variant:td3_amo_directq_fo,execution_loss | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
 | td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
 | td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
-| td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
-| td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch,critic_architecture | [ext_csv: seed 2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
+| td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
 | td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
 | td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
 | td3_amo | hopper-medium-expert-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_split_meta_lr; method_variant:td3_amo_split_meta_lr | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/3e-4) |
@@ -1856,7 +1855,7 @@
 | td3_amo | walker2d-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_directq_fo; method_variant:td3_amo_directq_fo,execution_loss | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/walker2d-medium-v2/1e-3) |
 | td3_amo | walker2d-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/walker2d-medium-v2/1e-3) |
 | td3_amo | walker2d-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/walker2d-medium-v2/1e-3) |
-| td3_amo | walker2d-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch,critic_architecture | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/walker2d-medium-v2/1e-3) |
+| td3_amo | walker2d-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/walker2d-medium-v2/1e-3) |
 | td3_amo | walker2d-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/walker2d-medium-v2/1e-3) |
 | td3_amo | walker2d-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/walker2d-medium-v2/1e-3) |
 | td3_amo | walker2d-medium-v2 | 0.002 | alpha_E/alpha_B=0.01/0.01; actor_lr=0.0003; adaptive_multiscale; bootstrap_loss_not_l2_rms,initial_scale_outside_main,critic_architecture,q_normalization | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/walker2d-medium-v2/2e-3) |
