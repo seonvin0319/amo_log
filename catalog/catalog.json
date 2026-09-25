@@ -14167,7 +14167,9 @@
       "algo": "td3_amo",
       "artifacts": [
         "config.yaml",
-        "metrics.jsonl"
+        "metrics.jsonl",
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
       "backend": "jax",
       "checkpoint_hint": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-ld_r1e3_s0/run",
@@ -14175,7 +14177,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "td3_amo_fixed1",
@@ -14183,7 +14185,7 @@
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run",
       "meta_lr": 0.001,
@@ -14198,8 +14200,14 @@
           "config.yaml": {
             "sha256": "b7247ba2d52a3be39250d218af651125e3228d2241e45c7cf35e9429a2a614e1"
           },
+          "eval.jsonl": {
+            "sha256": "449b4e9ec817376707fdd521191983a9af4d1a623da25f92893a1152177c9c67"
+          },
+          "final_eval_50.jsonl": {
+            "sha256": "68c7b7780d6d6e56f02a4769505d43d801b1d5918315c1407a821e5b83994164"
+          },
           "metrics.jsonl": {
-            "sha256": "63216dc614293f040c5871663fa998daa9025afb30686df121f1d9dc50144cde"
+            "sha256": "329c77778c64dce5d2aa74dc62caee441914e2b442a448b655431ae335ceab06"
           }
         },
         "schema": "alpha_v1"
@@ -14229,11 +14237,18 @@
         "execution_meta_loss": "le",
         "execution_only": false,
         "execution_score": "bpi",
+        "final_eval_50": {
+          "d4rl_normalized_score": 0.0,
+          "device": "cpu",
+          "eval_return": 0.0,
+          "evaluated_at": "2026-09-25T07:54:20.549995+00:00",
+          "n_episodes": 50
+        },
         "final_eval_repeats": 5,
         "freeze_scale_B": true,
         "freeze_scale_E": false,
         "hidden_dim": 256,
-        "last_metrics_step": 500000,
+        "last_metrics_step": 1000000,
         "max_steps": 1000000,
         "max_timesteps": 1000000,
         "meta_interval": 20,
@@ -14450,7 +14465,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-diverse-v2",
       "env_short": "amld",
       "family": "td3_amo_fixed1",
@@ -14474,7 +14489,7 @@
             "sha256": "b7247ba2d52a3be39250d218af651125e3228d2241e45c7cf35e9429a2a614e1"
           },
           "metrics.jsonl": {
-            "sha256": "61a1e2ad2ae1ad27feef984986e713926019fc6d58847e6c41aa5369c0c6b3f4"
+            "sha256": "6a91ce37198eb22d742eea83a0f277245703c9a5de8e6e2d0048b1a19b36cc6d"
           }
         },
         "schema": "alpha_v1"
@@ -14508,7 +14523,7 @@
         "freeze_scale_B": true,
         "freeze_scale_E": false,
         "hidden_dim": 256,
-        "last_metrics_step": 490000,
+        "last_metrics_step": 1000000,
         "max_steps": 1000000,
         "max_timesteps": 1000000,
         "meta_interval": 20,
@@ -14523,6 +14538,93 @@
       },
       "source_host": "shchoi",
       "source_path": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-ld_r1e3_s1/run",
+      "variant": "default"
+    },
+    {
+      "algo": "td3_amo",
+      "artifacts": [
+        "config.yaml",
+        "metrics.jsonl"
+      ],
+      "backend": "jax",
+      "checkpoint_hint": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-ld_r1e3_s2/run",
+      "classification_reasons": [
+        "method_variant:td3_amo_fixed1",
+        "initial_scale_mismatch"
+      ],
+      "collected_at": "2026-09-25T16:54:22+09:00",
+      "env": "antmaze-large-diverse-v2",
+      "env_short": "amld",
+      "family": "td3_amo_fixed1",
+      "git": {
+        "code_commit": null,
+        "code_repo": "AMO"
+      },
+      "last_eval_step": null,
+      "layout_version": 2,
+      "legacy_name": "run",
+      "meta_lr": 0.001,
+      "method": "td3_amo",
+      "original_rel_path": "runs/td3_amo/td3_amo_fixed1/amld_s2_default__22f39c16",
+      "rel_path": "ablation/td3_amo/antmaze-large-diverse-v2/1e-3/seed_2/amld_s2_default__22f39c16",
+      "run_id": "amld_s2_default__22f39c16",
+      "scale_conversion": {
+        "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+        "equation": "alpha = 2 * T",
+        "files": {
+          "config.yaml": {
+            "sha256": "b7247ba2d52a3be39250d218af651125e3228d2241e45c7cf35e9429a2a614e1"
+          },
+          "metrics.jsonl": {
+            "sha256": "f3f705d20f8392d7a269ddd58f905eb54b88dc9919533e2d1ccf23996589b26c"
+          }
+        },
+        "schema": "alpha_v1"
+      },
+      "section": "ablation",
+      "seed": 2,
+      "settings": {
+        "actor_depth": 2,
+        "actor_lr": 0.0003,
+        "algorithm": "td3_amo",
+        "alpha_B": 1,
+        "alpha_E": 5,
+        "alpha_lr": 0.001,
+        "batch_size": 256,
+        "bootstrap_loss": "l2_rms",
+        "critic_depth": 3,
+        "critic_layernorm": true,
+        "critic_lr": 0.0003,
+        "critic_special_init": true,
+        "critic_target": "bootstrap",
+        "discount": 0.99,
+        "env": "antmaze-large-diverse-v2",
+        "eval_episodes": 100,
+        "eval_first_step": 20000,
+        "eval_freq": 20000,
+        "eval_seed": null,
+        "execution_meta_loss": "le",
+        "execution_only": false,
+        "execution_score": "bpi",
+        "final_eval_repeats": 5,
+        "freeze_scale_B": true,
+        "freeze_scale_E": false,
+        "hidden_dim": 256,
+        "last_metrics_step": 95000,
+        "max_steps": 1000000,
+        "max_timesteps": 1000000,
+        "meta_interval": 20,
+        "noise_clip": 0.5,
+        "normalize": true,
+        "policy_freq": 2,
+        "policy_noise": 0.2,
+        "reward_transform": "none",
+        "seed": 2,
+        "smoothness_eps": 1e-06,
+        "tau": 0.005
+      },
+      "source_host": "shchoi",
+      "source_path": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-ld_r1e3_s2/run",
       "variant": "default"
     },
     {
@@ -16168,7 +16270,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -16552,7 +16654,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -16654,7 +16756,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -16850,7 +16952,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -17314,7 +17416,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -17601,7 +17703,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -17703,7 +17805,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -17795,7 +17897,9 @@
       "algo": "td3_amo",
       "artifacts": [
         "config.yaml",
-        "metrics.jsonl"
+        "metrics.jsonl",
+        "eval.jsonl",
+        "final_eval_50.jsonl"
       ],
       "backend": "jax",
       "checkpoint_hint": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-lp_r2e3_s3/run",
@@ -17803,7 +17907,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-large-play-v2",
       "env_short": "amlp",
       "family": "td3_amo_fixed1",
@@ -17811,7 +17915,7 @@
         "code_commit": null,
         "code_repo": "AMO"
       },
-      "last_eval_step": null,
+      "last_eval_step": 1000000,
       "layout_version": 2,
       "legacy_name": "run",
       "meta_lr": 0.002,
@@ -17826,8 +17930,14 @@
           "config.yaml": {
             "sha256": "0cd513b426f7f4559a59b84e2ab1d9a616dfe2093002e7924ce30360ec42f098"
           },
+          "eval.jsonl": {
+            "sha256": "4e33c17d4bd2f2f54a71821672db2e56662b659e1b06ec7b597849bf01501b5e"
+          },
+          "final_eval_50.jsonl": {
+            "sha256": "4ff4123ae76a6a2bc63dff993ca3bed2186b7ee684e70ff42263fcc9b02c6f79"
+          },
           "metrics.jsonl": {
-            "sha256": "7c08a53ae3df42352fa3e29356afb2ce84aa02f3e7776eb274f685896eff0080"
+            "sha256": "dd32b04907c135fd209d8f085803e18e3da5cff07afc25e706f02c55594853df"
           }
         },
         "schema": "alpha_v1"
@@ -17857,11 +17967,18 @@
         "execution_meta_loss": "le",
         "execution_only": false,
         "execution_score": "bpi",
+        "final_eval_50": {
+          "d4rl_normalized_score": 0.0,
+          "device": "cpu",
+          "eval_return": 0.0,
+          "evaluated_at": "2026-09-25T07:52:58.684970+00:00",
+          "n_episodes": 50
+        },
         "final_eval_repeats": 5,
         "freeze_scale_B": true,
         "freeze_scale_E": false,
         "hidden_dim": 256,
-        "last_metrics_step": 585000,
+        "last_metrics_step": 1000000,
         "max_steps": 1000000,
         "max_timesteps": 1000000,
         "meta_interval": 20,
@@ -18961,7 +19078,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -19157,7 +19274,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -19447,7 +19564,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -19549,7 +19666,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -20231,7 +20348,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -20611,7 +20728,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -20713,7 +20830,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -20815,7 +20932,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-diverse-v2",
       "env_short": "ammd",
       "family": "td3_amo_fixed1",
@@ -22089,7 +22206,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -22379,7 +22496,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -22481,7 +22598,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -22677,7 +22794,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -23359,7 +23476,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -23739,7 +23856,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -23841,7 +23958,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -23943,7 +24060,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-medium-play-v2",
       "env_short": "ammp",
       "family": "td3_amo_fixed1",
@@ -25522,7 +25639,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -26023,7 +26140,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -26219,7 +26336,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -26415,7 +26532,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -27097,7 +27214,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -27782,7 +27899,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -27884,7 +28001,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -27986,7 +28103,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-diverse-v2",
       "env_short": "amud",
       "family": "td3_amo_fixed1",
@@ -29565,7 +29682,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
@@ -30066,7 +30183,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
@@ -30356,7 +30473,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
@@ -30552,7 +30669,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
@@ -31140,7 +31257,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
@@ -31825,7 +31942,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
@@ -31927,7 +32044,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
@@ -32029,7 +32146,7 @@
         "method_variant:td3_amo_fixed1",
         "initial_scale_mismatch"
       ],
-      "collected_at": "2026-09-25T16:44:13+09:00",
+      "collected_at": "2026-09-25T16:54:22+09:00",
       "env": "antmaze-umaze-v2",
       "env_short": "amu",
       "family": "td3_amo_fixed1",
