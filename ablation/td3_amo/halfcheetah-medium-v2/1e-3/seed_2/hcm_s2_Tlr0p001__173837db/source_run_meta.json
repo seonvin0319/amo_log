@@ -1,0 +1,14 @@
+{
+  "algorithm": "td3_amo",
+  "alpha_B": 5,
+  "alpha_E": 5,
+  "alpha_lr": 0.001,
+  "backend": "jax",
+  "dataset_sha256": "bb18625fbf8cb132a7432608fdbeeef35c19682b7ddc8e8ddfa42889f1fc8307",
+  "device": "cuda:0",
+  "env": "halfcheetah-medium-v2",
+  "freeze_scale_B": true,
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 2
+}
