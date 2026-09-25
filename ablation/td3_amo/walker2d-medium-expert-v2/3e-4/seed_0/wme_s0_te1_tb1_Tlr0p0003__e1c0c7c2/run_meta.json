@@ -10,7 +10,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-09-25T14:58:12+09:00",
+  "collected_at": "2026-09-25T15:03:12+09:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "adaptive_multiscale",
