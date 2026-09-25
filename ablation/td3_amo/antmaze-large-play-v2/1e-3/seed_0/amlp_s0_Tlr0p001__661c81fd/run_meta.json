@@ -10,7 +10,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T14:23:14+09:00",
+  "collected_at": "2026-09-25T14:28:14+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "td3_amo_fixedB_lrmatch",
@@ -23,7 +23,7 @@
   "legacy_name": "am-l-p_b5_s0",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-l-p_b5_s0/checkpoints/step_280000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-l-p_b5_s0/checkpoints/step_420000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -44,7 +44,7 @@
         "sha256": "2e8e0e13433cb888280036239055e511d22eb865657d86653bc78af513161580"
       },
       "metrics.jsonl": {
-        "sha256": "40be108c48abc663ab0c168dd254818eeafbe8cac9adb6a12aacaae988225eb4"
+        "sha256": "d311849d5d210b93f989fa092cab87f425a34f5b01a166ec01092ff81d05da38"
       },
       "source_run_meta.json": {
         "sha256": "4b1fc406c4ba8262d0885d4c2f0355d0ab45653df65c854e5ff413df77f860f5"
