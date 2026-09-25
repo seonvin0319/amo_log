@@ -464,6 +464,15 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
     },
     {
         "algo": "td3_amo",
+        "root": Path("/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid"),
+        "host": "ext_csv",
+        "code_repo": "AMO-fixedB5-grid",
+        "code_commit": "c5bffd388f4cc5c504dc533b72df312d9a18c6b7",
+        "family_force": "td3_amo_fixedB5_lrgrid",
+        "nested": False,
+    },
+    {
+        "algo": "td3_amo",
         "root": Path("/raid/ext_csv/AMO_store/td3_amo_fixed_alpha_B1_gaps"),
         "host": "ext_csv",
         "code_repo": "AMO-fixedB1-gaps",
