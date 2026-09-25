@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -10,7 +11,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB5_lrgrid"
   ],
-  "collected_at": "2026-09-25T22:28:23+09:00",
+  "collected_at": "2026-09-25T22:33:22+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "td3_amo_fixedB5_lrgrid",
@@ -39,6 +40,9 @@
     "files": {
       "config.yaml": {
         "sha256": "8a2cdbe9601f736a103e4c03fadd8e9c4f12db1e615ae3d0b73d60f8ec9adf72"
+      },
+      "eval.jsonl": {
+        "sha256": "c50a5dd68abd85604c64e38e8c387f86ffcadbb4300c1dab1fb61097c61577a6"
       },
       "metrics.jsonl": {
         "sha256": "86b712f84ab514d82b5698293c102abf53952068deac6ab4cc9ac2b3d2b1532e"

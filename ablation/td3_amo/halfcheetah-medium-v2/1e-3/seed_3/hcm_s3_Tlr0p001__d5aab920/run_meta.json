@@ -2,6 +2,7 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
+    "metrics.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -9,7 +10,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB5_lrgrid"
   ],
-  "collected_at": "2026-09-25T22:28:23+09:00",
+  "collected_at": "2026-09-25T22:33:22+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "td3_amo_fixedB5_lrgrid",
@@ -22,11 +23,11 @@
   "legacy_name": "hc-m_b5_1e-3_s3",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": null,
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid/hc-m_b5_1e-3_s3/checkpoints/step_120000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
-    "verified_against_checkpoint": false
+    "verified_against_checkpoint": true
   },
   "method": "td3_amo",
   "original_rel_path": "runs/td3_amo/td3_amo_fixedB5_lrgrid/hcm_s3_Tlr0p001__d5aab920",
@@ -38,6 +39,9 @@
     "files": {
       "config.yaml": {
         "sha256": "8a2cdbe9601f736a103e4c03fadd8e9c4f12db1e615ae3d0b73d60f8ec9adf72"
+      },
+      "metrics.jsonl": {
+        "sha256": "57d9aa284f072241842017f31393b6f7c2cc59626ae6fe5f814bf7418a83f946"
       },
       "source_run_meta.json": {
         "sha256": "43b9a7da6af8bf1975dcba61f2cb9228b750c510e9fad4e23b69fad20cbb9089"
