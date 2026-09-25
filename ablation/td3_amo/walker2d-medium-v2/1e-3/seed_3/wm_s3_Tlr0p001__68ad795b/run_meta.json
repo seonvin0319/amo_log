@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -10,7 +11,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T14:13:15+09:00",
+  "collected_at": "2026-09-25T14:18:14+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_fixedB_lrmatch",
@@ -41,7 +42,7 @@
         "sha256": "8c0c3603258bf7dc445af8518f794e7d10dbe77a649622ff8cd4ca6e83f9967e"
       },
       "eval.jsonl": {
-        "sha256": "af9e1c04c426d3fb88256939cc3ecd454a247be39e6f6a0c59ae5d179d880949"
+        "sha256": "205edb6f1346f2b45d266f264210514b5320acb5bbe8ac0adc5a6ce07339d9d8"
       },
       "metrics.jsonl": {
         "sha256": "408a250385a14390e187383db9d2d62bcc6f044a3fe48ce14f07c56957c3eb80"
