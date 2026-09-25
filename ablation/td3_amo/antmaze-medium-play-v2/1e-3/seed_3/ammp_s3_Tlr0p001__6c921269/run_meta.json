@@ -3,16 +3,14 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-m-p_b5_s3",
   "classification_reasons": [
-    "method_variant:td3_amo_fixedB_lrmatch",
-    "critic_architecture"
+    "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T10:23:10+09:00",
+  "collected_at": "2026-09-25T14:13:15+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "td3_amo_fixedB_lrmatch",
@@ -25,7 +23,7 @@
   "legacy_name": "am-m-p_b5_s3",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-m-p_b5_s3/checkpoints/step_1000000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-m-p_b5_s3/checkpoints/step_20000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -40,13 +38,13 @@
     "equation": "alpha = 2 * T",
     "files": {
       "config.yaml": {
-        "sha256": "414344a80e1396cc4776825685db923e28470d29e3747f18c7a5a87beaac7ea4"
+        "sha256": "8c0c3603258bf7dc445af8518f794e7d10dbe77a649622ff8cd4ca6e83f9967e"
       },
       "eval.jsonl": {
         "sha256": "71f939cd351d7fa61953592f5c16e0e69ba224b90a75f73ddf3079ad5dc2f8e2"
       },
       "metrics.jsonl": {
-        "sha256": "2b5ca0f82183a0d8ee4bdd0f03dfaec4dc5271c5c772c77a6fcde62f76348fbb"
+        "sha256": "40adc5bcdf322ea8818116dbad13ed4825e0fbdf200743f8cad44b56b17db599"
       },
       "source_run_meta.json": {
         "sha256": "ef9f6881e66929db99882dea224bf5418d95aad3b87976e59818bcaa322a7492"
@@ -67,11 +65,11 @@
     "backend": "jax",
     "batch_size": 256,
     "bootstrap_loss": "l2_rms",
-    "critic_depth": 2,
-    "critic_layernorm": false,
+    "critic_depth": 3,
+    "critic_layernorm": true,
     "critic_lr": 0.0003,
     "critic_special_init": true,
-    "critic_target": "actor",
+    "critic_target": "bootstrap",
     "discount": 0.99,
     "env": "antmaze-medium-play-v2",
     "eval_episodes": 10,

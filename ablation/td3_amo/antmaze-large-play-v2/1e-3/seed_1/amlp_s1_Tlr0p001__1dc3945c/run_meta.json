@@ -2,17 +2,14 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl",
-    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-l-p_b5_s1",
   "classification_reasons": [
-    "method_variant:td3_amo_fixedB_lrmatch",
-    "critic_architecture"
+    "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T10:23:10+09:00",
+  "collected_at": "2026-09-25T14:13:15+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "td3_amo_fixedB_lrmatch",
@@ -25,11 +22,11 @@
   "legacy_name": "am-l-p_b5_s1",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-l-p_b5_s1/checkpoints/step_1000000.npz",
+    "checkpoint_path": null,
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
-    "verified_against_checkpoint": true
+    "verified_against_checkpoint": false
   },
   "method": "td3_amo",
   "original_rel_path": "runs/td3_amo/td3_amo_fixedB_lrmatch/amlp_s1_Tlr0p001__1dc3945c",
@@ -40,7 +37,7 @@
     "equation": "alpha = 2 * T",
     "files": {
       "config.yaml": {
-        "sha256": "414344a80e1396cc4776825685db923e28470d29e3747f18c7a5a87beaac7ea4"
+        "sha256": "8c0c3603258bf7dc445af8518f794e7d10dbe77a649622ff8cd4ca6e83f9967e"
       },
       "eval.jsonl": {
         "sha256": "0d48a795ade3ad9c48b0727b11c9e4c9215d2831317cfeaf6a2618a601475ea1"
@@ -67,11 +64,11 @@
     "backend": "jax",
     "batch_size": 256,
     "bootstrap_loss": "l2_rms",
-    "critic_depth": 2,
-    "critic_layernorm": false,
+    "critic_depth": 3,
+    "critic_layernorm": true,
     "critic_lr": 0.0003,
     "critic_special_init": true,
-    "critic_target": "actor",
+    "critic_target": "bootstrap",
     "discount": 0.99,
     "env": "antmaze-large-play-v2",
     "eval_episodes": 10,
