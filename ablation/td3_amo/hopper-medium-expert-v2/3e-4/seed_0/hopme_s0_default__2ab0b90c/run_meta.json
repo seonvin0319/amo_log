@@ -1,0 +1,95 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "cell": "f1_h-me_r3e4_s0",
+  "checkpoint_hint": "/raid/ext_csh/AMO_store/td3_amo_fixed1_rapo_ext_csh/jobs/f1_h-me_r3e4_s0/run",
+  "classification_reasons": [
+    "method_variant:td3_amo_fixed_alpha_B",
+    "initial_scale_mismatch"
+  ],
+  "collected_at": "2026-09-25T12:32:27+00:00",
+  "env": "hopper-medium-expert-v2",
+  "env_short": "hopme",
+  "family": "td3_amo_fixed_alpha_B",
+  "git": {
+    "code_commit": "25476d7c5796ce6879f8d3322be880fdd9d4b6e4",
+    "code_repo": "AMO_fixed1"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.0003,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/td3_amo_fixed_alpha_B/hopme_s0_default__2ab0b90c",
+  "protocol": "jax_td3_amo_fixed1_rapo_v1",
+  "rel_path": "ablation/td3_amo/hopper-medium-expert-v2/3e-4/seed_0/hopme_s0_default__2ab0b90c",
+  "run_id": "hopme_s0_default__2ab0b90c",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "976bd5d8789ade6bc431dc0cf55b20a53cbcafec87a3ce56200e4a2fb13eaba0"
+      },
+      "eval.jsonl": {
+        "sha256": "c428a3e7beb159419d225337ca096324df6bda25e976c2dbf887a30c284a0e40"
+      },
+      "metrics.jsonl": {
+        "sha256": "5a4bd580acbe9fb25b1738d105d664e8e5bedd6df8eb8e91576ee4eddafab62b"
+      },
+      "source_run_meta.json": {
+        "sha256": "8cc8686a672c1bb65e2998bed6baac0308b12baa227ff928fa47f733ad93fa75"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 5,
+    "alpha_lr": 0.0003,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "hopper-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "freeze_scale_B": true,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/AMO_store/td3_amo_fixed1_rapo_ext_csh/jobs/f1_h-me_r3e4_s0/run",
+  "variant": "default"
+}

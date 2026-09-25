@@ -1,0 +1,91 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "cell": "f1_w-mr_r1e3_s2",
+  "checkpoint_hint": "/raid/ext_csh/AMO_store/td3_amo_fixed1_rapo_ext_csh/jobs/f1_w-mr_r1e3_s2/run",
+  "classification_reasons": [
+    "method_variant:td3_amo_fixed_alpha_B",
+    "initial_scale_mismatch"
+  ],
+  "collected_at": "2026-09-25T12:32:27+00:00",
+  "env": "walker2d-medium-replay-v2",
+  "env_short": "wmr",
+  "family": "td3_amo_fixed_alpha_B",
+  "git": {
+    "code_commit": "25476d7c5796ce6879f8d3322be880fdd9d4b6e4",
+    "code_repo": "AMO_fixed1"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/td3_amo_fixed_alpha_B/wmr_s2_default__fae11d35",
+  "protocol": "jax_td3_amo_fixed1_rapo_v1",
+  "rel_path": "ablation/td3_amo/walker2d-medium-replay-v2/1e-3/seed_2/wmr_s2_default__fae11d35",
+  "run_id": "wmr_s2_default__fae11d35",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "c34346b5c1e14029080e778aed41961e6c248ac8d0ff39c36e7471d20c889d7b"
+      },
+      "metrics.jsonl": {
+        "sha256": "8e29adabbbfafa707f762b2c58c3bd3a270838bfa94f3337972866aee69cc384"
+      },
+      "source_run_meta.json": {
+        "sha256": "b005ce27f78c5d3bfcc906ae597eb420e3a3c64b4929301ad23008bec014375c"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 5,
+    "alpha_lr": 0.001,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "walker2d-medium-replay-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "freeze_scale_B": true,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/AMO_store/td3_amo_fixed1_rapo_ext_csh/jobs/f1_w-mr_r1e3_s2/run",
+  "variant": "default"
+}
