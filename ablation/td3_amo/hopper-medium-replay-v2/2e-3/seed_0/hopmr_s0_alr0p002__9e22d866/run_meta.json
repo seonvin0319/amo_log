@@ -11,7 +11,7 @@
     "bootstrap_loss_not_l2_rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-25T12:42:07+09:00",
+  "collected_at": "2026-09-25T12:47:57+09:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_design_ablation",
