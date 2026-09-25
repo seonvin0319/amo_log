@@ -35,6 +35,9 @@
       "config.yaml": {
         "sha256": "c34346b5c1e14029080e778aed41961e6c248ac8d0ff39c36e7471d20c889d7b"
       },
+      "eval.jsonl": {
+        "sha256": "fda0596f74ee4ece934ef88d34ccc14b1683157a195626735b32979e2b30e532"
+      },
       "metrics.jsonl": {
         "sha256": "c726496b93eb8df80c28b53ad0bf1fc7f6082f1c7ee14c41677b0eeb1388d35c"
       },
