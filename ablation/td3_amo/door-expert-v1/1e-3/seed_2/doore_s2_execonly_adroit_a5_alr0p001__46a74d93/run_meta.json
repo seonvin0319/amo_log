@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -12,7 +13,7 @@
     "execution_only",
     "adroit"
   ],
-  "collected_at": "2026-09-24T08:52:16+00:00",
+  "collected_at": "2026-09-25T02:49:34+00:00",
   "env": "door-expert-v1",
   "env_short": "doore",
   "family": "td3_amo_execonly_main",
@@ -35,8 +36,11 @@
       "config.yaml": {
         "sha256": "ae72ab62d6cb1f221e82dd15de9c80e6528bc54318dcf28bcdb29a6515b401a5"
       },
+      "eval.jsonl": {
+        "sha256": "e8a35fe97908c012125ec407de8e63823949f987b4ef87b05f3b249933b163a8"
+      },
       "metrics.jsonl": {
-        "sha256": "05519ce2b99f7a9de1c5117cf9a5ec4c4150b5cba7e2a75cb328ca43d211f481"
+        "sha256": "1b30be9e910b058c3860990583024fd7809303af516112c396e0aeefb4d90b36"
       },
       "source_run_meta.json": {
         "sha256": "9759f85099fcde99de08f8c93bcdf22a3e6d9f95c1a4bc85ca7e0484611f0b10"

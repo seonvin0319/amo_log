@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -12,7 +13,7 @@
     "execution_only",
     "adroit"
   ],
-  "collected_at": "2026-09-24T08:52:16+00:00",
+  "collected_at": "2026-09-25T02:49:34+00:00",
   "env": "relocate-expert-v1",
   "env_short": "rele",
   "family": "td3_amo_execonly_main",
@@ -35,8 +36,11 @@
       "config.yaml": {
         "sha256": "a3a13148905275bd382f1fdb45db2955d5ca33fb31da6b2223e7f0ecc5307867"
       },
+      "eval.jsonl": {
+        "sha256": "b91472f228a4bc9116477b821023c5986afaad90003bb12ce3f753bb464ecb93"
+      },
       "metrics.jsonl": {
-        "sha256": "e661fbcdd4f5829f1ee44f151a52a50ceae761941cb7eea188ef8975ea776734"
+        "sha256": "db1d542bc1e8db9c4b9cae114658303e07e2dd6b91d7ec0a1db5d2d8a65732f3"
       },
       "source_run_meta.json": {
         "sha256": "68841824d7f8815f150fbd339380066745916626fc1a2c6c87f3bc416eca186d"

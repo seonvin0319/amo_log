@@ -1,0 +1,93 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "cell": "rapo_rel_r1e4_s2",
+  "checkpoint_hint": "/raid/ext_csh/AMO_store/td3_adroit_expert_execonly_rapo/jobs/rapo_rel_r1e4_s2/run",
+  "classification_reasons": [
+    "method_variant:td3_amo_rapo",
+    "meta_lr_outside_main",
+    "adroit"
+  ],
+  "collected_at": "2026-09-25T02:49:34+00:00",
+  "env": "relocate-expert-v1",
+  "env_short": "rele",
+  "family": "td3_amo_rapo",
+  "git": {
+    "code_commit": "d9be263443ffc1ca8834e277418826cff4ac6dc0",
+    "code_repo": "AMO-td3-execonly"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.0001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/td3_amo_rapo/rele_s2_rapo_adroit_a5_alr0p0001__2621617e",
+  "protocol": "jax_td3_amo_adroit_rapo_v1",
+  "rel_path": "ablation/td3_amo/relocate-expert-v1/1e-4/seed_2/rele_s2_rapo_adroit_a5_alr0p0001__2621617e",
+  "run_id": "rele_s2_rapo_adroit_a5_alr0p0001__2621617e",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "bbd552295d9b142d5815205039a0fc330019f1a7f1aced27fc2f2666926bc4eb"
+      },
+      "eval.jsonl": {
+        "sha256": "fa4f51dff87a22fec8471fb358e87598187f82d7feb53a062c656df6c8aed9c9"
+      },
+      "metrics.jsonl": {
+        "sha256": "a3e9808b13ca0ac970d40f899dd7ac920a88d009b5efb2fb043c0a698bf03e22"
+      },
+      "source_run_meta.json": {
+        "sha256": "68841824d7f8815f150fbd339380066745916626fc1a2c6c87f3bc416eca186d"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.0001,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "discount": 0.99,
+    "env": "relocate-expert-v1",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 2,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/AMO_store/td3_adroit_expert_execonly_rapo/jobs/rapo_rel_r1e4_s2/run",
+  "variant": "rapo_adroit_a5_alr0p0001"
+}
