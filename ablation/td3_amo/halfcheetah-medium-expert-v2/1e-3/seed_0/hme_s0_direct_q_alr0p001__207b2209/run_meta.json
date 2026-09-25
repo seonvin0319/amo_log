@@ -1,0 +1,96 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.json",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "classification_reasons": [
+    "method_variant:td3_amo_directq_fo",
+    "execution_loss"
+  ],
+  "collected_at": "2026-09-25T10:12:08+09:00",
+  "env": "halfcheetah-medium-expert-v2",
+  "env_short": "hme",
+  "family": "td3_amo_directq_fo",
+  "git": {
+    "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+    "code_repo": "AMO"
+  },
+  "is_alias": false,
+  "layout_version": 2,
+  "legacy_name": "dq_hc-me_s0",
+  "meta_lr": 0.001,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_directq_fo/hme_s0_direct_q_alr0p001__207b2209",
+  "rel_path": "ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3/seed_0/hme_s0_direct_q_alr0p001__207b2209",
+  "run_id": "hme_s0_direct_q_alr0p001__207b2209",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "10e94e8396447c02ff50032f18719d3ea13123f6f1a73d00b5e019c93ebc85c0"
+      },
+      "eval.jsonl": {
+        "sha256": "90bc258e5f887625acc8248a9e5baa3592082afced1f34c4711d7e2d349273b3"
+      },
+      "final_eval_50.json": {
+        "sha256": "8b9b32e83b4ccf9ff59e8270d9fa533b3b22aa26b0c41e58ee02d27693fb01ce"
+      },
+      "metrics.jsonl": {
+        "sha256": "3b44064fc8b10b71c871dd941e7776c435c68097fce92983746850b6d8113494"
+      },
+      "source_run_meta.json": {
+        "sha256": "6c1b0adadd837e2c3ee8034737017e027bc9b622b76b1f24aef26378eb27ecab"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 5,
+    "alpha_E": 5,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "halfcheetah-medium-expert-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "direct_q",
+    "final_eval_repeats": 5,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 0,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "svcho",
+  "source_path": "/home/svcho/amo/results/td3_amo_directq_fo_rest12/jobs/dq_hc-me_s0",
+  "variant": "direct_q_alr0p001"
+}
