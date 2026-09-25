@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [20d124f1](https://github.com/seonvin0319/amo_log/commit/20d124f13b399ce157604b0bf269ca6e7d36a91b) | 33 |
-| ext_csv | [6b7e5c16](https://github.com/seonvin0319/amo_log/commit/6b7e5c16be57820267c54092e2059b054709c6c9) | 0 |
+| ext_csv | [fac359a7](https://github.com/seonvin0319/amo_log/commit/fac359a7ad5f636f5d7ff59b0ce61c9f7c3fa8bd) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [e79fe1f5](https://github.com/seonvin0319/amo_log/commit/e79fe1f56b37a2feb2eed1e0908c68386d571f48) | 390 |
 | svcho | [a06f15c3](https://github.com/seonvin0319/amo_log/commit/a06f15c3e5cf222d53a752fe8107e0cdd3e19407) | 612 |
@@ -1107,8 +1107,7 @@
 | td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_directq_fo; method_variant:td3_amo_directq_fo,execution_loss | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
 | td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
 | td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
-| td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch | [ext_csv: seed 2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
-| td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch,critic_architecture | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
+| td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
 | td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
 | td3_amo | antmaze-large-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-large-play-v2/1e-3) |
 | td3_amo | antmaze-large-play-v2 | 0.002 | alpha_E/alpha_B=1/1; actor_lr=0.0003; td3_amo_execonly_le; method_variant:td3_amo_execonly_le,execution_only | [svcho: seed 2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-large-play-v2/2e-3) |
@@ -1214,7 +1213,7 @@
 | td3_amo | antmaze-medium-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_directq_fo; method_variant:td3_amo_directq_fo,execution_loss | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-medium-play-v2/1e-3) |
 | td3_amo | antmaze-medium-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-medium-play-v2/1e-3) |
 | td3_amo | antmaze-medium-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/antmaze-medium-play-v2/1e-3) |
-| td3_amo | antmaze-medium-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch,critic_architecture | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-medium-play-v2/1e-3) |
+| td3_amo | antmaze-medium-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-medium-play-v2/1e-3) |
 | td3_amo | antmaze-medium-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [choi: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/choi/ablation/td3_amo/antmaze-medium-play-v2/1e-3) |
 | td3_amo | antmaze-medium-play-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/antmaze-medium-play-v2/1e-3) |
 | td3_amo | antmaze-medium-play-v2 | 0.002 | alpha_E/alpha_B=1/1; actor_lr=0.0003; td3_amo_execonly_le; method_variant:td3_amo_execonly_le,execution_only | [svcho: seed 2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/antmaze-medium-play-v2/2e-3) |
