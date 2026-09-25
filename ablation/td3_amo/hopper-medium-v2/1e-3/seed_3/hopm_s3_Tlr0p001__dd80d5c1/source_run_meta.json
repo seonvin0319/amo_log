@@ -1,0 +1,14 @@
+{
+  "algorithm": "td3_amo",
+  "alpha_B": 5,
+  "alpha_E": 5,
+  "alpha_lr": 0.001,
+  "backend": "jax",
+  "dataset_sha256": "1ab0c0074fafbd4697eed4db854be0cf4576db1663fdd4fc2cd93b168792c2aa",
+  "device": "cuda:0",
+  "env": "hopper-medium-v2",
+  "freeze_scale_B": true,
+  "python": "3.10.21",
+  "replay_device": "cpu",
+  "seed": 3
+}
