@@ -3,16 +3,14 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s0",
   "classification_reasons": [
-    "method_variant:td3_amo_fixedB_lrmatch",
-    "critic_architecture"
+    "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T10:23:10+09:00",
+  "collected_at": "2026-09-25T13:33:13+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_fixedB_lrmatch",
@@ -25,7 +23,7 @@
   "legacy_name": "w-m_b5_s0",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s0/checkpoints/step_1000000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/w-m_b5_s0/checkpoints/step_20000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -40,13 +38,13 @@
     "equation": "alpha = 2 * T",
     "files": {
       "config.yaml": {
-        "sha256": "414344a80e1396cc4776825685db923e28470d29e3747f18c7a5a87beaac7ea4"
+        "sha256": "8c0c3603258bf7dc445af8518f794e7d10dbe77a649622ff8cd4ca6e83f9967e"
       },
       "eval.jsonl": {
         "sha256": "15cf838807bd3dca5f07343be0cc962ba6fb77f616a15dc757ed7873b75435b7"
       },
       "metrics.jsonl": {
-        "sha256": "dfa187c5c066532a51767fe92fe16bf5ee8f983da009af3a990e001cccc6bb4f"
+        "sha256": "ffa11fb04ab9873c2aab6aede3cc69fd53033082f41b3bd10858d8a7e368c331"
       },
       "source_run_meta.json": {
         "sha256": "14267d41be8b68ea5f00f96842520c5936a7e3b09f103285a54384d3bb4468be"
@@ -67,11 +65,11 @@
     "backend": "jax",
     "batch_size": 256,
     "bootstrap_loss": "l2_rms",
-    "critic_depth": 2,
-    "critic_layernorm": false,
+    "critic_depth": 3,
+    "critic_layernorm": true,
     "critic_lr": 0.0003,
     "critic_special_init": true,
-    "critic_target": "actor",
+    "critic_target": "bootstrap",
     "discount": 0.99,
     "env": "walker2d-medium-v2",
     "eval_episodes": 10,
