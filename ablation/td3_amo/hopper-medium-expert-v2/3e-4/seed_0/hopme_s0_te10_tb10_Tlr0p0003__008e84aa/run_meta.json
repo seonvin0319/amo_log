@@ -11,7 +11,7 @@
     "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-25T23:03:20+09:00",
+  "collected_at": "2026-09-25T23:08:20+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "adaptive_multiscale",
