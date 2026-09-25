@@ -7,7 +7,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-25T15:38:47+09:00",
+  "collected_at": "2026-09-25T15:44:31+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_bootrms_maincand",
