@@ -306,6 +306,19 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "layout": "cell_jobs",
         "require_eval": True,
     },
+    {
+        # RMS-only direct-Q and first-order on the 12 envs without a pinned Bπ lr.
+        # Base commit 92ecc54; first_order is the local g0·Δa execution_score branch.
+        # Not the older l1_l2_rms design ablation.
+        "algo": "td3_amo",
+        "root": Path("/home/svcho/amo/results/td3_amo_directq_fo_rest12/jobs"),
+        "host": "svcho",
+        "code_repo": "AMO",
+        "code_commit": "92ecc5491b585a79b99efb8bbe35b5d2cb1c3b3c",
+        "family_force": "td3_amo_directq_fo",
+        "layout": "flat",
+        "require_eval": True,
+    },
 ]
 
 
@@ -496,6 +509,8 @@ def build_variant(algo: str, family: str, cfg: Dict[str, Any], dirname: str) -> 
             mode = str(cfg.get("l3_mode", "aspc"))
             if mode and mode != "aspc":
                 tokens.append(mode)
+    if family == "td3_amo_directq_fo":
+        tokens.append(str(cfg.get("execution_score") or "score"))
     if "smoke" in dirname:
         tokens.append("smoke")
     else:
