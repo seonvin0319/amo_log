@@ -2,6 +2,7 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
+    "metrics.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -9,7 +10,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T12:53:12+09:00",
+  "collected_at": "2026-09-25T12:58:12+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_fixedB_lrmatch",
@@ -22,11 +23,11 @@
   "legacy_name": "am-l-div_b5_s0",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": null,
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-l-div_b5_s0/checkpoints/step_100000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
-    "verified_against_checkpoint": false
+    "verified_against_checkpoint": true
   },
   "method": "td3_amo",
   "original_rel_path": "runs/td3_amo/td3_amo_fixedB_lrmatch/amld_s0_Tlr0p001__8fa60e75",
@@ -40,7 +41,7 @@
         "sha256": "8c0c3603258bf7dc445af8518f794e7d10dbe77a649622ff8cd4ca6e83f9967e"
       },
       "metrics.jsonl": {
-        "sha256": "3118e696d8409d016b7223aefc7de775909773fdbccd827e16dc7afb464ceda3"
+        "sha256": "0fa54dc154b8006b214f72f01120645c14ffa0beaf776a9fbb40c25db059c0c0"
       },
       "source_run_meta.json": {
         "sha256": "cbfe6b66fb9d20534dfa32377ccae851244750d8b61caf0d3eb6039bfd448150"
