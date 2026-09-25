@@ -3,16 +3,14 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
-    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
   "checkpoint_hint": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/hc-me_b5_s0",
   "classification_reasons": [
-    "method_variant:td3_amo_fixedB_lrmatch",
-    "critic_architecture"
+    "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T10:23:10+09:00",
+  "collected_at": "2026-09-25T11:28:11+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "td3_amo_fixedB_lrmatch",
@@ -25,7 +23,7 @@
   "legacy_name": "hc-me_b5_s0",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/hc-me_b5_s0/checkpoints/step_1000000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/hc-me_b5_s0/checkpoints/step_100000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -40,13 +38,13 @@
     "equation": "alpha = 2 * T",
     "files": {
       "config.yaml": {
-        "sha256": "414344a80e1396cc4776825685db923e28470d29e3747f18c7a5a87beaac7ea4"
+        "sha256": "8c0c3603258bf7dc445af8518f794e7d10dbe77a649622ff8cd4ca6e83f9967e"
       },
       "eval.jsonl": {
         "sha256": "8d18654c1715a87555951b99f0b46d293dfe4547a877a1168b60b0b107a2e6ee"
       },
       "metrics.jsonl": {
-        "sha256": "5884c2efa5b814d6c08c04552ca05c85425c6b1c77e3e4ffb3c435a832a1a9bd"
+        "sha256": "1258a7f6fde71ebbac822aaaab11e48b0ba04393ec802d717ca63a83a9fb1835"
       },
       "source_run_meta.json": {
         "sha256": "6e83b528862f6393b52d78449bd06fe32606544af94ccb400350e5298d6f8949"
@@ -67,11 +65,11 @@
     "backend": "jax",
     "batch_size": 256,
     "bootstrap_loss": "l2_rms",
-    "critic_depth": 2,
-    "critic_layernorm": false,
+    "critic_depth": 3,
+    "critic_layernorm": true,
     "critic_lr": 0.0003,
     "critic_special_init": true,
-    "critic_target": "actor",
+    "critic_target": "bootstrap",
     "discount": 0.99,
     "env": "halfcheetah-medium-expert-v2",
     "eval_episodes": 10,
