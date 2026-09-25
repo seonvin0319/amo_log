@@ -13,7 +13,7 @@
     "initial_beta_outside_main",
     "method_variant:iql_ddpgbc"
   ],
-  "collected_at": "2026-09-25T15:25:39+00:00",
+  "collected_at": "2026-09-25T15:36:24+00:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "iql_ddpgbc",
