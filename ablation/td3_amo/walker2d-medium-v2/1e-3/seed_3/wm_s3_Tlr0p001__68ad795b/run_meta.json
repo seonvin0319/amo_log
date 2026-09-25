@@ -11,7 +11,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T15:18:15+09:00",
+  "collected_at": "2026-09-25T15:23:15+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_fixedB_lrmatch",
