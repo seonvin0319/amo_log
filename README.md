@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [ec61f717](https://github.com/seonvin0319/amo_log/commit/ec61f717062ebb6bc0f700c024cca43e5645a225) | 33 |
-| ext_csv | [c5961b5f](https://github.com/seonvin0319/amo_log/commit/c5961b5f8505c8a18e240e58536ee2e1b0bb5a60) | 0 |
+| ext_csv | [fa8a1d2d](https://github.com/seonvin0319/amo_log/commit/fa8a1d2d3e4bfc34ac06673b3b19d417a2f466f6) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [33b09ba6](https://github.com/seonvin0319/amo_log/commit/33b09ba6b1244b6d6de0e66f92673b3b4c80e7b8) | 390 |
 | svcho | [a82a1113](https://github.com/seonvin0319/amo_log/commit/a82a111385950f58ead63e343aa99cd9f7efab59) | 612 |
@@ -1380,7 +1380,8 @@
 | td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_directq_fo; method_variant:td3_amo_directq_fo,execution_loss | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
 | td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
 | td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
-| td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch,critic_architecture | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
+| td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch | [ext_csv: seed 1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
+| td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB_lrmatch; method_variant:td3_amo_fixedB_lrmatch,critic_architecture | [ext_csv: seed 0,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
 | td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
 | td3_amo | halfcheetah-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-expert-v2/1e-3) |
 | td3_amo | halfcheetah-medium-expert-v2 | 0.002 | alpha_E/alpha_B=0.01/0.01; actor_lr=0.0003; adaptive_multiscale; bootstrap_loss_not_l2_rms,initial_scale_outside_main,critic_architecture,q_normalization | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-expert-v2/2e-3) |
