@@ -211,9 +211,9 @@ IQL-AMO의 β_E meta-loss를 **L_E (BPI) + L2_RMS**로 둔 ablation입니다. �
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 0 |
 | ext_csh | [20d124f1](https://github.com/seonvin0319/amo_log/commit/20d124f13b399ce157604b0bf269ca6e7d36a91b) | 0 |
-| ext_csv | [adf28938](https://github.com/seonvin0319/amo_log/commit/adf289387afed39446f9cbf65ffe5de028502804) | 0 |
+| ext_csv | [2e488053](https://github.com/seonvin0319/amo_log/commit/2e488053f9dd6c4ac825ce7277054f1901d30a34) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
-| shchoi | [8de315e0](https://github.com/seonvin0319/amo_log/commit/8de315e061b8e591f1a6fff48774cdbc220cbf6a) | 0 |
+| shchoi | [50948037](https://github.com/seonvin0319/amo_log/commit/50948037b957c460c6643dc55d100f7157b85868) | 0 |
 | svcho | [2028b71e](https://github.com/seonvin0319/amo_log/commit/2028b71efb6783d8beaf1b12abaf03384d78a549) | 55 |
 
 머신 브랜치의 로그 검증이 성공하면 이 표를 자동 갱신합니다. 30분 주기의 보완 갱신과 [수동 갱신](https://github.com/seonvin0319/amo_log/actions/workflows/refresh-index.yml)도 지원합니다.
