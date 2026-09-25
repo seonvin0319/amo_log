@@ -356,6 +356,24 @@ DEFAULT_SOURCES.append(
 )
 
 
+# TD3+RAPO Fixed-1 missing learning rates. alpha_E=5 adapts, alpha_B=1 frozen.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/td3_amo_fixed1_rapo_ext_csh/jobs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO_fixed1",
+        "family_force": "td3_amo_fixed_alpha_B",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 2,
+        "variant_tag": "fixed1_lr_grid",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
