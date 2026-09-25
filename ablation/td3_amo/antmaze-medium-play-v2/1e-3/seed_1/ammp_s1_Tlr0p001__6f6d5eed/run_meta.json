@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -10,7 +11,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB_lrmatch"
   ],
-  "collected_at": "2026-09-25T21:43:22+09:00",
+  "collected_at": "2026-09-25T21:48:21+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "td3_amo_fixedB_lrmatch",
@@ -23,7 +24,7 @@
   "legacy_name": "am-m-p_b5_s1",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-m-p_b5_s1/checkpoints/step_960000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB_lrmatch/am-m-p_b5_s1/checkpoints/step_1000000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -41,10 +42,10 @@
         "sha256": "8c0c3603258bf7dc445af8518f794e7d10dbe77a649622ff8cd4ca6e83f9967e"
       },
       "eval.jsonl": {
-        "sha256": "4263d6f2699d7e7ad0ab65a544484c3ba915a1c749fc4f0adf8d26e679b89ee8"
+        "sha256": "54fdfcceaf107f8ad4ee6980c93c8b6b5f3b430bf8217e82b15ec0abe55913f5"
       },
       "metrics.jsonl": {
-        "sha256": "ad1ac5e54f280dea99353740bf08e98fbcb21be56223ca3296f610d63999ec6e"
+        "sha256": "4bb3de6a3380e6a4e512d1e41971b3d16c46ad707f4f5426ed8380999f6ce7b7"
       },
       "source_run_meta.json": {
         "sha256": "a2547b9cffdf819333b392ddceb596a508a225f038e45d81cd4c39c06fe2ff98"
