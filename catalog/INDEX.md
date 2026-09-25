@@ -1039,9 +1039,11 @@
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/1 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_default__41d7d61c](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_default__41d7d61c/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | — | [hopm_s1_default__ee98b399](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_default__ee98b399/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [hopm_s1_execonly_le_a5_alr0p0003__91ac18bb](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_1/hopm_s1_execonly_le_a5_alr0p0003__91ac18bb/) |
+| ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | — | [hopm_s2_default__3fd6b7be](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_default__3fd6b7be/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/1 | 0.0003 | 2 | jax | 1000000 | [hopm_s2_default__994f3bae](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_default__994f3bae/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=1/1 | 0.0003 | 2 | jax | 1000000 | [hopm_s2_execonly_le_a1_alr0p0003__e269a7f9](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_execonly_le_a1_alr0p0003__e269a7f9/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [hopm_s2_execonly_le_a5_alr0p0003__15e3f94d](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_2/hopm_s2_execonly_le_a5_alr0p0003__15e3f94d/) |
+| ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | — | [hopm_s3_default__493fd553](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_3/hopm_s3_default__493fd553/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/1 | 0.0003 | 3 | jax | 1000000 | [hopm_s3_default__acc5286c](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_3/hopm_s3_default__acc5286c/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | 1000000 | [hopm_s3_execonly_le_a5_alr0p0003__30b801a1](../ablation/td3_amo/hopper-medium-v2/3e-4/seed_3/hopm_s3_execonly_le_a5_alr0p0003__30b801a1/) |
 | ablation | td3_amo | hopper-medium-v2 | alpha_E/alpha_B=2/2 | 0.0005 | 0 | torch | 980000 | [hopm_s0_te1_tb1_Tlr0p0005__53525043](../ablation/td3_amo/hopper-medium-v2/5e-4/seed_0/hopm_s0_te1_tb1_Tlr0p0005__53525043/) |
