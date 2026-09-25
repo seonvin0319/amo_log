@@ -203,9 +203,9 @@
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=2/2 | 0.001 | 0 | torch | 1000000 | [amlp_s0_te1_Tlr0p001__3d4cb5df](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_0/amlp_s0_te1_Tlr0p001__3d4cb5df/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=1/1 | 0.001 | 1 | jax | 1000000 | [amlp_s1_default__1bfc5786](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_1/amlp_s1_default__1bfc5786/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.001 | 1 | jax | 1000000 | [amlp_s1_default__3710ffd6](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_1/amlp_s1_default__3710ffd6/) |
-| ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.001 | 2 | jax | — | [amlp_s2_default__df34b357](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_2/amlp_s2_default__df34b357/) |
+| ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.001 | 2 | jax | 1000000 | [amlp_s2_default__df34b357](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_2/amlp_s2_default__df34b357/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=1/1 | 0.001 | 2 | jax | 1000000 | [amlp_s2_default__e10848c6](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_2/amlp_s2_default__e10848c6/) |
-| ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.001 | 3 | jax | — | [amlp_s3_default__86720198](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_3/amlp_s3_default__86720198/) |
+| ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.001 | 3 | jax | 1000000 | [amlp_s3_default__86720198](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_3/amlp_s3_default__86720198/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=1/1 | 0.001 | 3 | jax | — | [amlp_s3_default__c6e7529d](../ablation/td3_amo/antmaze-large-play-v2/1e-3/seed_3/amlp_s3_default__c6e7529d/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=20/20 | 0.002 | 0 | torch | 1000000 | [amlp_s0_TE10_Tlr0p002__7b72426b](../ablation/td3_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_TE10_Tlr0p002__7b72426b/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=2/2 | 0.002 | 0 | torch | 1000000 | [amlp_s0_TE1_Tlr0p002__8bdcbcfe](../ablation/td3_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_TE1_Tlr0p002__8bdcbcfe/) |
@@ -213,6 +213,8 @@
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.002 | 0 | jax | — | [amlp_s0_default__24daddc4](../ablation/td3_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_default__24daddc4/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=2/2 | 0.002 | 0 | torch | 1000000 | [amlp_s0_te1_tb1_Tlr0p002__e58298ee](../ablation/td3_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_te1_tb1_Tlr0p002__e58298ee/) |
 | ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=10/10 | 0.002 | 0 | torch | 1000000 | [amlp_s0_te5_tb5_Tlr0p002__a5e5361e](../ablation/td3_amo/antmaze-large-play-v2/2e-3/seed_0/amlp_s0_te5_tb5_Tlr0p002__a5e5361e/) |
+| ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.002 | 1 | jax | — | [amlp_s1_default__31419c52](../ablation/td3_amo/antmaze-large-play-v2/2e-3/seed_1/amlp_s1_default__31419c52/) |
+| ablation | td3_amo | antmaze-large-play-v2 | alpha_E/alpha_B=5/1 | 0.002 | 2 | jax | — | [amlp_s2_default__2ecbb2aa](../ablation/td3_amo/antmaze-large-play-v2/2e-3/seed_2/amlp_s2_default__2ecbb2aa/) |
 | ablation | td3_amo | antmaze-medium-diverse-v2 | alpha_E/alpha_B=20/20 | 0.0003 | 0 | torch | 1000000 | [ammd_s0_TE10_Tlr0p0003__302f0009](../ablation/td3_amo/antmaze-medium-diverse-v2/3e-4/seed_0/ammd_s0_TE10_Tlr0p0003__302f0009/) |
 | ablation | td3_amo | antmaze-medium-diverse-v2 | alpha_E/alpha_B=2/2 | 0.0003 | 0 | torch | 1000000 | [ammd_s0_TE1_Tlr0p0003__4f177ed5](../ablation/td3_amo/antmaze-medium-diverse-v2/3e-4/seed_0/ammd_s0_TE1_Tlr0p0003__4f177ed5/) |
 | ablation | td3_amo | antmaze-medium-diverse-v2 | alpha_E/alpha_B=10/10 | 0.0003 | 0 | torch | 1000000 | [ammd_s0_TE5_Tlr0p0003__bbc09c42](../ablation/td3_amo/antmaze-medium-diverse-v2/3e-4/seed_0/ammd_s0_TE5_Tlr0p0003__bbc09c42/) |
