@@ -211,7 +211,7 @@ IQL-AMO의 β_E meta-loss를 **L_E (BPI) + L2_RMS**로 둔 ablation입니다. �
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 0 |
 | ext_csh | [20d124f1](https://github.com/seonvin0319/amo_log/commit/20d124f13b399ce157604b0bf269ca6e7d36a91b) | 0 |
-| ext_csv | [33630212](https://github.com/seonvin0319/amo_log/commit/33630212f78f34b61fb5aa560c15cce7c8d9186c) | 0 |
+| ext_csv | [d9821ad3](https://github.com/seonvin0319/amo_log/commit/d9821ad37d680ba5852bb50a91336206f4a8bc65) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [d3c107ef](https://github.com/seonvin0319/amo_log/commit/d3c107efb0672423b359485406ae24aae3ce959c) | 0 |
 | svcho | [b5392143](https://github.com/seonvin0319/amo_log/commit/b5392143ef491cabeb77985a12f44e90a7c80597) | 55 |
