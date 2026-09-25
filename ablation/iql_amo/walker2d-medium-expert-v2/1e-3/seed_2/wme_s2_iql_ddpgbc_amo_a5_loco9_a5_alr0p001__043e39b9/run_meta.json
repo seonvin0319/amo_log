@@ -13,7 +13,7 @@
     "initial_beta_outside_main",
     "method_variant:iql_ddpgbc"
   ],
-  "collected_at": "2026-09-25T16:19:38+00:00",
+  "collected_at": "2026-09-25T16:30:21+00:00",
   "env": "walker2d-medium-expert-v2",
   "env_short": "wme",
   "family": "iql_ddpgbc",
