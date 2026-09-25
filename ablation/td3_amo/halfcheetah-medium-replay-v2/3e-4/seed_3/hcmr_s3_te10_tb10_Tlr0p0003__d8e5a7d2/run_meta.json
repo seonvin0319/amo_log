@@ -11,7 +11,7 @@
     "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-25T14:48:12+09:00",
+  "collected_at": "2026-09-25T14:53:12+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "adaptive_multiscale",
