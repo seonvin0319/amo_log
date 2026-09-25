@@ -800,7 +800,7 @@ def ingest_one(
         cfg["_cell"] = src.parent.name
     if family_force == "iql_ddpgbc" and src.parent is not None:
         cfg["_cell"] = src.parent.name
-    if family_force in ("td3_amo_execonly_main", "td3_adroit_expert") and src.parent is not None:
+    if family_force in ("td3_amo_execonly_main", "td3_adroit_expert", "td3_amo_fixed_alpha_B") and src.parent is not None:
         cfg["_cell"] = src.parent.name
 
     env = str(cfg.get("env") or src.name or "unknown")
@@ -816,7 +816,7 @@ def ingest_one(
     # Include parent cell dir in dirname blob so uuid/variant stay unique per cell.
     dirname_for_variant = (
         f"{src.parent.name}_{src.name}"
-        if family in ("amo_bpi", "iql_ddpgbc", "td3_amo_execonly_main", "td3_amo_rapo")
+        if family in ("amo_bpi", "iql_ddpgbc", "td3_amo_execonly_main", "td3_amo_rapo", "td3_amo_fixed_alpha_B")
         else src.name
     )
     variant = build_variant(
