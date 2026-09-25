@@ -879,6 +879,11 @@ def ingest_one(
         meta["git"]["code_commit"] = "d9be263443ffc1ca8834e277418826cff4ac6dc0"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
+    if family == "td3_amo_fixed_alpha_B" and code_repo == "AMO_fixed1":
+        meta["protocol"] = "jax_td3_amo_fixed1_rapo_v1"
+        meta["git"]["code_commit"] = "25476d7c5796ce6879f8d3322be880fdd9d4b6e4"
+        if cfg.get("_cell"):
+            meta["cell"] = cfg["_cell"]
     if family == "amo_bpi":
         if str(cfg.get("backend") or "").lower() == "jax" or "jax_rem" in str(
             cfg.get("_variant_tag") or ""
