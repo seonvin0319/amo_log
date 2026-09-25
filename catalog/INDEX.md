@@ -1027,6 +1027,7 @@
 | ablation | td3_amo | walker2d-medium-expert-v2 | alpha_E/alpha_B=5/1 | 0.002 | 3 | jax | 1000000 | [wme_s3_alr0p002__bf2be6ec](../ablation/td3_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_alr0p002__bf2be6ec/) |
 | ablation | td3_amo | walker2d-medium-expert-v2 | alpha_E/alpha_B=19.2738/12.819 | 0.002 | 3 | jax | 1000000 | [wme_s3_alr0p002__df808285](../ablation/td3_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_alr0p002__df808285/) |
 | ablation | td3_amo | walker2d-medium-expert-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [wme_s3_alr0p002__f5742a1a](../ablation/td3_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_alr0p002__f5742a1a/) |
+| ablation | td3_amo | walker2d-medium-expert-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [wme_s3_direct_q_alr0p002__f14f8bc8](../ablation/td3_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_direct_q_alr0p002__f14f8bc8/) |
 | ablation | td3_amo | walker2d-medium-expert-v2 | alpha_E/alpha_B=5/5 | 0.002 | 3 | jax | 1000000 | [wme_s3_jax_ae5_ab5_alr0p002__0e8ce88d](../ablation/td3_amo/walker2d-medium-expert-v2/2e-3/seed_3/wme_s3_jax_ae5_ab5_alr0p002__0e8ce88d/) |
 | ablation | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=20/20 | — | 0 | torch | — | [wmr_s0_four_eval_N3_T10L02_w-mr__f56b4e08](../ablation/td3_amo/walker2d-medium-replay-v2/unspecified/seed_0/wmr_s0_four_eval_N3_T10L02_w-mr__f56b4e08/) |
 | ablation | td3_amo | walker2d-medium-replay-v2 | alpha_E/alpha_B=8/8 | — | 0 | torch | — | [wmr_s0_four_eval_N3_w-mr__d99b4951](../ablation/td3_amo/walker2d-medium-replay-v2/unspecified/seed_0/wmr_s0_four_eval_N3_w-mr__d99b4951/) |
@@ -1148,6 +1149,7 @@
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=11.7768/9.78986 | 0.001 | 3 | jax | 1000000 | [wm_s3_alr0p001__3896ad33](../ablation/td3_amo/walker2d-medium-v2/1e-3/seed_3/wm_s3_alr0p001__3896ad33/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=1/1 | 0.001 | 3 | jax | 1000000 | [wm_s3_alr0p001__574497bb](../ablation/td3_amo/walker2d-medium-v2/1e-3/seed_3/wm_s3_alr0p001__574497bb/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [wm_s3_alr0p001__c824cd98](../ablation/td3_amo/walker2d-medium-v2/1e-3/seed_3/wm_s3_alr0p001__c824cd98/) |
+| ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [wm_s3_direct_q_alr0p001__38adb82c](../ablation/td3_amo/walker2d-medium-v2/1e-3/seed_3/wm_s3_direct_q_alr0p001__38adb82c/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.001 | 3 | jax | 1000000 | [wm_s3_jax_ae5_ab5_alr0p001__9ac47191](../ablation/td3_amo/walker2d-medium-v2/1e-3/seed_3/wm_s3_jax_ae5_ab5_alr0p001__9ac47191/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.002 | 0 | jax | 1000000 | [wm_s0_alr0p002__238c5611](../ablation/td3_amo/walker2d-medium-v2/2e-3/seed_0/wm_s0_alr0p002__238c5611/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=1/1 | 0.002 | 0 | jax | 1000000 | [wm_s0_alr0p002__6c29edbb](../ablation/td3_amo/walker2d-medium-v2/2e-3/seed_0/wm_s0_alr0p002__6c29edbb/) |
