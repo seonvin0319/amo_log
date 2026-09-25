@@ -2,7 +2,9 @@
   "algo": "td3_amo",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl",
+    "final_eval_50.jsonl"
   ],
   "backend": "jax",
   "checkpoint_hint": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-u_r1e3_s1/run",
@@ -10,7 +12,7 @@
     "method_variant:td3_amo_fixed1",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-25T13:01:09+09:00",
+  "collected_at": "2026-09-25T13:02:24+09:00",
   "env": "antmaze-umaze-v2",
   "env_short": "amu",
   "family": "td3_amo_fixed1",
@@ -31,6 +33,12 @@
     "files": {
       "config.yaml": {
         "sha256": "b7247ba2d52a3be39250d218af651125e3228d2241e45c7cf35e9429a2a614e1"
+      },
+      "eval.jsonl": {
+        "sha256": "3daad10a812fca32df7f70f6ae08deb482597014da4b60e3458c3fed220dc24c"
+      },
+      "final_eval_50.jsonl": {
+        "sha256": "52b05fa3aa88c52ee5ce8ea17e7e3614eb52694bdec7bd5e7e5ace8a85e8f9b1"
       },
       "metrics.jsonl": {
         "sha256": "f6edb3423506bbba69b20ffe09fe43b0bc4f31178a1407753bf0478ab97fd202"
@@ -63,6 +71,13 @@
     "execution_meta_loss": "le",
     "execution_only": false,
     "execution_score": "bpi",
+    "final_eval_50": {
+      "d4rl_normalized_score": 88.0,
+      "device": "cpu",
+      "eval_return": 0.88,
+      "evaluated_at": "2026-09-25T04:01:10.459288+00:00",
+      "n_episodes": 50
+    },
     "final_eval_repeats": 5,
     "freeze_scale_B": true,
     "freeze_scale_E": false,
