@@ -1200,8 +1200,10 @@
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | — | [wm_s1_default__5025e114](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_1/wm_s1_default__5025e114/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/1 | 0.0003 | 1 | jax | 1000000 | [wm_s1_default__a188c608](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_1/wm_s1_default__a188c608/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 1 | jax | 1000000 | [wm_s1_execonly_le_a5_alr0p0003__d233a2c4](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_1/wm_s1_execonly_le_a5_alr0p0003__d233a2c4/) |
+| ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | — | [wm_s2_default__dae32793](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_2/wm_s2_default__dae32793/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/1 | 0.0003 | 2 | jax | 1000000 | [wm_s2_default__ef9e2cd8](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_2/wm_s2_default__ef9e2cd8/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 2 | jax | 1000000 | [wm_s2_execonly_le_a5_alr0p0003__34f6afd5](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_2/wm_s2_execonly_le_a5_alr0p0003__34f6afd5/) |
+| ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | — | [wm_s3_default__0b6363a7](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_3/wm_s3_default__0b6363a7/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/1 | 0.0003 | 3 | jax | 1000000 | [wm_s3_default__276e6a7d](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_3/wm_s3_default__276e6a7d/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=5/5 | 0.0003 | 3 | jax | 1000000 | [wm_s3_execonly_le_a5_alr0p0003__d9c00e77](../ablation/td3_amo/walker2d-medium-v2/3e-4/seed_3/wm_s3_execonly_le_a5_alr0p0003__d9c00e77/) |
 | ablation | td3_amo | walker2d-medium-v2 | alpha_E/alpha_B=2/2 | 0.0005 | 0 | torch | 845000 | [wm_s0_te1_tb1_Tlr0p0005__9208ab1a](../ablation/td3_amo/walker2d-medium-v2/5e-4/seed_0/wm_s0_te1_tb1_Tlr0p0005__9208ab1a/) |
