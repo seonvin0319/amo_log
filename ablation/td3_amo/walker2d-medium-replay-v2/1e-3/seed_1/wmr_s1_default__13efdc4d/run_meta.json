@@ -13,7 +13,7 @@
     "method_variant:td3_amo_fixed_alpha_B",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-25T17:13:31+00:00",
+  "collected_at": "2026-09-25T17:24:13+00:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_fixed_alpha_B",
