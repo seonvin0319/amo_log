@@ -10,7 +10,7 @@
     "method_variant:td3_amo_fixed1",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-25T14:01:58+09:00",
+  "collected_at": "2026-09-25T14:12:06+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "td3_amo_fixed1",
@@ -33,7 +33,7 @@
         "sha256": "0cd513b426f7f4559a59b84e2ab1d9a616dfe2093002e7924ce30360ec42f098"
       },
       "metrics.jsonl": {
-        "sha256": "5a0c1f987b2045bcfe40ef1485d221b9454b11e32ea8394d7b17226112ed4df8"
+        "sha256": "dac45787a212a75b1482602db3912e12b0403716c533fed9d429e5a4586ecc75"
       }
     },
     "schema": "alpha_v1"
@@ -67,7 +67,7 @@
     "freeze_scale_B": true,
     "freeze_scale_E": false,
     "hidden_dim": 256,
-    "last_metrics_step": 225000,
+    "last_metrics_step": 750000,
     "max_steps": 1000000,
     "max_timesteps": 1000000,
     "meta_interval": 20,
