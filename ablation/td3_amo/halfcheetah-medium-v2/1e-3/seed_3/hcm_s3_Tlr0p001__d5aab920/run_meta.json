@@ -10,7 +10,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB5_lrgrid"
   ],
-  "collected_at": "2026-09-25T22:53:23+09:00",
+  "collected_at": "2026-09-25T22:58:23+09:00",
   "env": "halfcheetah-medium-v2",
   "env_short": "hcm",
   "family": "td3_amo_fixedB5_lrgrid",
@@ -23,7 +23,7 @@
   "legacy_name": "hc-m_b5_1e-3_s3",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid/hc-m_b5_1e-3_s3/checkpoints/step_640000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid/hc-m_b5_1e-3_s3/checkpoints/step_780000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -41,7 +41,7 @@
         "sha256": "8a2cdbe9601f736a103e4c03fadd8e9c4f12db1e615ae3d0b73d60f8ec9adf72"
       },
       "metrics.jsonl": {
-        "sha256": "a9913bc7fe5e34e571644db7257e84b92a21dc5e87f0838abd26be7c5ef04e1a"
+        "sha256": "6a4da3cdbe79dd08471ab34183f6659e30046c4b0e900ecae5642d5ade41830a"
       },
       "source_run_meta.json": {
         "sha256": "43b9a7da6af8bf1975dcba61f2cb9228b750c510e9fad4e23b69fad20cbb9089"
