@@ -12,7 +12,7 @@
     "method_variant:td3_amo_fixedB_lrmatch",
     "critic_architecture"
   ],
-  "collected_at": "2026-09-25T09:33:09+09:00",
+  "collected_at": "2026-09-25T09:38:09+09:00",
   "env": "halfcheetah-medium-expert-v2",
   "env_short": "hme",
   "family": "td3_amo_fixedB_lrmatch",
