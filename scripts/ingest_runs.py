@@ -375,6 +375,25 @@ DEFAULT_SOURCES.append(
 )
 
 
+# TD3+RAPO alpha_B frozen at 5. alpha_E starts at 5 and adapts.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/td3_amo_fixedB5_rapo_ext_csh/jobs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO_fixed1",
+        "family_force": "td3_amo_fixed_alpha_B",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 2,
+        "run_dirname": "run",
+        "variant_tag": "fixedB5",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
@@ -881,7 +900,11 @@ def ingest_one(
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
     if family == "td3_amo_fixed_alpha_B" and code_repo == "AMO_fixed1":
-        meta["protocol"] = "jax_td3_amo_fixed1_rapo_v1"
+        meta["protocol"] = (
+            "jax_td3_amo_fixedB5_rapo_v1"
+            if cfg.get("_variant_tag") == "fixedB5"
+            else "jax_td3_amo_fixed1_rapo_v1"
+        )
         meta["git"]["code_commit"] = "25476d7c5796ce6879f8d3322be880fdd9d4b6e4"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
