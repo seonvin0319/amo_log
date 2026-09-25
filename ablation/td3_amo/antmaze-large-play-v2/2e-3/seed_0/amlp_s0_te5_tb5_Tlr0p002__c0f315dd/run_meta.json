@@ -11,7 +11,7 @@
     "bootstrap_loss_not_l2_rms",
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-09-25T22:38:19+09:00",
+  "collected_at": "2026-09-25T22:43:19+09:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "adaptive_multiscale",
