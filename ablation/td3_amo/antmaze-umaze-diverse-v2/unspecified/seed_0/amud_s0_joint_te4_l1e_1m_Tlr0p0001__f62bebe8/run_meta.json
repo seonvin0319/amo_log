@@ -17,7 +17,7 @@
     "execution_loss",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-26T07:53:28+09:00",
+  "collected_at": "2026-09-26T07:58:28+09:00",
   "env": "antmaze-umaze-diverse-v2",
   "env_short": "amud",
   "family": "behavior_bc_l1_joint",
