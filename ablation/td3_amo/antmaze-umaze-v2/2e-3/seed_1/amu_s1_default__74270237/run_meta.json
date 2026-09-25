@@ -1,0 +1,86 @@
+{
+  "algo": "td3_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl"
+  ],
+  "backend": "jax",
+  "checkpoint_hint": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-u_r2e3_s1/run",
+  "classification_reasons": [
+    "method_variant:td3_amo_fixed1",
+    "initial_scale_mismatch"
+  ],
+  "collected_at": "2026-09-25T13:01:09+09:00",
+  "env": "antmaze-umaze-v2",
+  "env_short": "amu",
+  "family": "td3_amo_fixed1",
+  "git": {
+    "code_commit": null,
+    "code_repo": "AMO"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/td3_amo/td3_amo_fixed1/amu_s1_default__74270237",
+  "rel_path": "ablation/td3_amo/antmaze-umaze-v2/2e-3/seed_1/amu_s1_default__74270237",
+  "run_id": "amu_s1_default__74270237",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "0cd513b426f7f4559a59b84e2ab1d9a616dfe2093002e7924ce30360ec42f098"
+      },
+      "metrics.jsonl": {
+        "sha256": "20dc614d9cbe67eb43742e1321040eaf821e08eaaa44dbbb624b93e4f369defe"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "antmaze-umaze-v2",
+    "eval_episodes": 100,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "freeze_scale_B": true,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "last_metrics_step": 1000000,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "shchoi",
+  "source_path": "/home/shchoi/AMO_store/td3_amo_fixed1_antmaze/jobs/f1_am-u_r2e3_s1/run",
+  "variant": "default"
+}
