@@ -369,6 +369,7 @@ DEFAULT_SOURCES.append(
         "config_file": "config.yaml",
         "nested": True,
         "nested_depth": 2,
+        "run_dirname": "run",
         "variant_tag": "fixed1_lr_grid",
     }
 )
@@ -987,12 +988,15 @@ def main() -> int:
             continue
         root: Path = src_spec["root"]
         config_file = str(src_spec.get("config_file") or "config.yaml")
+        run_dirname = src_spec.get("run_dirname")
         for run_dir in discover_run_dirs(
             root,
             bool(src_spec.get("nested")),
             config_file=config_file,
             nested_depth=src_spec.get("nested_depth"),
         ):
+            if run_dirname and run_dir.name != run_dirname:
+                continue
             meta = ingest_one(
                 run_dir,
                 algo=src_spec["algo"],
