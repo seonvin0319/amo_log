@@ -10,7 +10,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB5_lrgrid"
   ],
-  "collected_at": "2026-09-25T23:08:23+09:00",
+  "collected_at": "2026-09-25T23:13:23+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_fixedB5_lrgrid",
@@ -23,7 +23,7 @@
   "legacy_name": "hc-mr_b5_1e-3_s1",
   "meta_lr": 0.001,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid/hc-mr_b5_1e-3_s1/checkpoints/step_20000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid/hc-mr_b5_1e-3_s1/checkpoints/step_140000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -41,7 +41,7 @@
         "sha256": "8a2cdbe9601f736a103e4c03fadd8e9c4f12db1e615ae3d0b73d60f8ec9adf72"
       },
       "metrics.jsonl": {
-        "sha256": "2259c3b3fac11be74ce8dd1fba2965b88fb82348d4f9d762f909b923dc3c75e5"
+        "sha256": "bc6cd4f9c298d4ca112205c05e1fa76dbcb362bb2e1e1e09840a9be8d4c368bc"
       },
       "source_run_meta.json": {
         "sha256": "8c7cdeeb1f9843ebb1452112297563acfa9d37064c7318dffdcbe18db658f21b"
