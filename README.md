@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [b5370938](https://github.com/seonvin0319/amo_log/commit/b5370938426f4bba5119e398eaa020686198fcc1) | 33 |
-| ext_csv | [f0cbafc2](https://github.com/seonvin0319/amo_log/commit/f0cbafc252b450e38804955e583538150912654f) | 0 |
+| ext_csv | [9cfaf1be](https://github.com/seonvin0319/amo_log/commit/9cfaf1be1496d27119c26bc5f32e963d41ba90d3) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [def20211](https://github.com/seonvin0319/amo_log/commit/def202118030ae8394332b15f051569e55709399) | 390 |
 | svcho | [9bbd0ac5](https://github.com/seonvin0319/amo_log/commit/9bbd0ac5bc57fa9ee621fbee42c8b53c2a998668) | 612 |
@@ -444,7 +444,7 @@
 |---|---:|---:|---|
 | [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 241 | 159 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
 | [ext_csh](https://github.com/seonvin0319/amo_log/tree/ext_csh) | 33 | 1229 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csh/catalog/INDEX.md) |
-| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 12 | 830 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
+| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 12 | 833 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
 | [offrl](https://github.com/seonvin0319/amo_log/tree/offrl) | 10 | 0 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/offrl/catalog/INDEX.md) |
 | [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 514 | 456 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
 | [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 698 | 1185 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
@@ -1432,6 +1432,7 @@
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/1; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B,initial_scale_mismatch | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
+| td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB5_lrgrid; method_variant:td3_amo_fixedB5_lrgrid | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-replay-v2/3e-4) |
 | td3_amo | halfcheetah-medium-replay-v2 | 0.0005 | alpha_E/alpha_B=2/2; actor_lr=0.0003; adaptive_multiscale; bootstrap_loss_not_l2_rms,critic_architecture,meta_lr_outside_main | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-replay-v2/5e-4) |
@@ -1502,7 +1503,7 @@
 | td3_amo | halfcheetah-medium-v2 | 0.001 | alpha_E/alpha_B=5/1; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B,initial_scale_mismatch | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-v2/1e-3) |
 | td3_amo | halfcheetah-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/halfcheetah-medium-v2/1e-3) |
 | td3_amo | halfcheetah-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-v2/1e-3) |
-| td3_amo | halfcheetah-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB5_lrgrid; method_variant:td3_amo_fixedB5_lrgrid | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-v2/1e-3) |
+| td3_amo | halfcheetah-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB5_lrgrid; method_variant:td3_amo_fixedB5_lrgrid | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-v2/1e-3) |
 | td3_amo | halfcheetah-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/halfcheetah-medium-v2/1e-3) |
 | td3_amo | halfcheetah-medium-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/halfcheetah-medium-v2/1e-3) |
 | td3_amo | halfcheetah-medium-v2 | 0.002 | alpha_E/alpha_B=0.01/0.01; actor_lr=0.0003; adaptive_multiscale; bootstrap_loss_not_l2_rms,initial_scale_outside_main,critic_architecture,q_normalization | [ext_csh: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/halfcheetah-medium-v2/2e-3) |
