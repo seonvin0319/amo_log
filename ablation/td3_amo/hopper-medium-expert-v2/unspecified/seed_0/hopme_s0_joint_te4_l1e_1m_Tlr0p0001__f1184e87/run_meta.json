@@ -17,7 +17,7 @@
     "execution_loss",
     "meta_lr_outside_main"
   ],
-  "collected_at": "2026-09-26T14:28:34+09:00",
+  "collected_at": "2026-09-26T14:33:34+09:00",
   "env": "hopper-medium-expert-v2",
   "env_short": "hopme",
   "family": "behavior_bc_l1_joint",
