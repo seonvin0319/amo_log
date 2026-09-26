@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -12,7 +13,7 @@
     "method_variant:td3_amo_adaptive_B1_E5_lrmatch",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-26T06:49:14+00:00",
+  "collected_at": "2026-09-26T07:00:19+00:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "td3_amo_adaptive_B1_E5_lrmatch",
@@ -35,8 +36,11 @@
       "config.yaml": {
         "sha256": "e26a3ea746be485683e17a79d8a0851e1b71aec3ac7ccdd6f296328dff973527"
       },
+      "eval.jsonl": {
+        "sha256": "4124e952b5a64019d2a027789e36032aba58a2c7c451ae7d7f0bb4fe8ba8394e"
+      },
       "metrics.jsonl": {
-        "sha256": "ccc0d9848191c57eed78cb79652ef8bf59b8a11fdfce19db7426001ae8102d08"
+        "sha256": "cbd1a35203d2fce3ac0e6d8525603aa1f3fa829a8febdd4958a992fb1f17c461"
       },
       "source_run_meta.json": {
         "sha256": "c08eee94d2f3a4b9bdfcfe9e4204124f01bcce3d0887f84f6a78e8ddac9fa535"
