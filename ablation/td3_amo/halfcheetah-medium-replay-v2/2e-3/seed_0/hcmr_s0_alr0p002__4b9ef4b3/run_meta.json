@@ -9,7 +9,7 @@
   "classification_reasons": [
     "execution_only"
   ],
-  "collected_at": "2026-09-27T04:36:20+09:00",
+  "collected_at": "2026-09-27T04:42:01+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_execonly_main",
