@@ -402,7 +402,7 @@
 |---|---|---:|
 | choi | [77632f62](https://github.com/seonvin0319/amo_log/commit/77632f62205b32266edb06cf137e9830ea5b4236) | 122 |
 | ext_csh | [cd4c27af](https://github.com/seonvin0319/amo_log/commit/cd4c27af16cff7262acfde2c63d2756bb36d9399) | 33 |
-| ext_csv | [b659ec08](https://github.com/seonvin0319/amo_log/commit/b659ec0880382d4d581c98054b0a9083de53965e) | 0 |
+| ext_csv | [d45cb1c9](https://github.com/seonvin0319/amo_log/commit/d45cb1c944282c490f488808ab1da1e0aa409f09) | 0 |
 | offrl | [b0732b4d](https://github.com/seonvin0319/amo_log/commit/b0732b4d115128740cd7309b2c96d86a6af07a58) | 0 |
 | shchoi | [db5ad2ac](https://github.com/seonvin0319/amo_log/commit/db5ad2ac3b6a6fbbb6f75649b64b529bcfbe02d2) | 390 |
 | svcho | [45284d39](https://github.com/seonvin0319/amo_log/commit/45284d397aa17ae8cfb45494b71f5d1bb91fa594) | 612 |
@@ -444,7 +444,7 @@
 |---|---:|---:|---|
 | [choi](https://github.com/seonvin0319/amo_log/tree/choi) | 241 | 159 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/choi/catalog/INDEX.md) |
 | [ext_csh](https://github.com/seonvin0319/amo_log/tree/ext_csh) | 33 | 1277 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csh/catalog/INDEX.md) |
-| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 12 | 861 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
+| [ext_csv](https://github.com/seonvin0319/amo_log/tree/ext_csv) | 12 | 863 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/ext_csv/catalog/INDEX.md) |
 | [offrl](https://github.com/seonvin0319/amo_log/tree/offrl) | 10 | 0 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/offrl/catalog/INDEX.md) |
 | [shchoi](https://github.com/seonvin0319/amo_log/tree/shchoi) | 514 | 456 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/shchoi/catalog/INDEX.md) |
 | [svcho](https://github.com/seonvin0319/amo_log/tree/svcho) | 698 | 1185 | [전체 로그](https://github.com/seonvin0319/amo_log/blob/svcho/catalog/INDEX.md) |
@@ -1581,7 +1581,7 @@
 | td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/1; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B,initial_scale_mismatch | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
 | td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
 | td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
-| td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB5_lrgrid; method_variant:td3_amo_fixedB5_lrgrid | [ext_csv: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
+| td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB5_lrgrid; method_variant:td3_amo_fixedB5_lrgrid | [ext_csv: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
 | td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
 | td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
 | td3_amo | hopper-medium-expert-v2 | 0.001 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/hopper-medium-expert-v2/1e-3) |
@@ -1879,6 +1879,7 @@
 | td3_amo | walker2d-medium-v2 | 0.0003 | alpha_E/alpha_B=5/1; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B,initial_scale_mismatch | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/walker2d-medium-v2/3e-4) |
 | td3_amo | walker2d-medium-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_dual_lel2; method_variant:td3_amo_dual_lel2 | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/walker2d-medium-v2/3e-4) |
 | td3_amo | walker2d-medium-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_execonly_main; execution_only | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/walker2d-medium-v2/3e-4) |
+| td3_amo | walker2d-medium-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixedB5_lrgrid; method_variant:td3_amo_fixedB5_lrgrid | [ext_csv: seed 0](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/walker2d-medium-v2/3e-4) |
 | td3_amo | walker2d-medium-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_fixed_alpha_B; method_variant:td3_amo_fixed_alpha_B | [ext_csh: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/ext_csh/ablation/td3_amo/walker2d-medium-v2/3e-4) |
 | td3_amo | walker2d-medium-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_jax; bootstrap_loss_not_l2_rms | [svcho: seed 0,1,2,3](https://github.com/seonvin0319/amo_log/tree/svcho/ablation/td3_amo/walker2d-medium-v2/3e-4) |
 | td3_amo | walker2d-medium-v2 | 0.0003 | alpha_E/alpha_B=5/5; actor_lr=0.0003; td3_amo_le_bel2_a5; method_variant:td3_amo_le_bel2_a5,bootstrap_loss_not_l2_rms | [ext_csv: seed 0,1,2](https://github.com/seonvin0319/amo_log/tree/ext_csv/ablation/td3_amo/walker2d-medium-v2/3e-4) |
