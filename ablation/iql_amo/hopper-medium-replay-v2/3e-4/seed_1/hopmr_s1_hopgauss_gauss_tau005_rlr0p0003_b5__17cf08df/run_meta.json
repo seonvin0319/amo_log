@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
   "classification_reasons": [
     "method_variant:iql_amo_hopper_gauss_tau005"
   ],
-  "collected_at": "2026-09-26T08:19:17+00:00",
+  "collected_at": "2026-09-26T08:30:12+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "iql_amo_hopper_gauss_tau005",
