@@ -3,6 +3,7 @@
   "artifacts": [
     "config.yaml",
     "metrics.jsonl",
+    "eval.jsonl",
     "source_run_meta.json"
   ],
   "backend": "jax",
@@ -11,7 +12,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixed_alpha_B"
   ],
-  "collected_at": "2026-09-26T00:06:31+00:00",
+  "collected_at": "2026-09-26T00:17:29+00:00",
   "env": "hopper-medium-replay-v2",
   "env_short": "hopmr",
   "family": "td3_amo_fixed_alpha_B",
@@ -33,6 +34,9 @@
     "files": {
       "config.yaml": {
         "sha256": "dc4c6ef317d66a1fd035afc19016d3a408ad5a69e4c26e00600b1c6665deb2ef"
+      },
+      "eval.jsonl": {
+        "sha256": "5769b6be46a99b1975ce60b9d82f7cf10097a004691037471fcee99172b32363"
       },
       "metrics.jsonl": {
         "sha256": "7f245590d6cc7bca23ad1c9e85026c8e71c4cf882f687beba0b08a566408b83d"
