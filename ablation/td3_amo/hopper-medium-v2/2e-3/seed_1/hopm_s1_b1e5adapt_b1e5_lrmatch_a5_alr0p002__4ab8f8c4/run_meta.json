@@ -1,0 +1,97 @@
+{
+  "algo": "amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl",
+    "source_run_meta.json"
+  ],
+  "backend": "jax",
+  "cell": "b1e5_h-m_s1",
+  "checkpoint_hint": "/raid/ext_csh/AMO_store/td3_amo_adaptive_B1_E5_lrmatch/jobs/b1e5_h-m_s1/run",
+  "classification_reasons": [
+    "method_variant:td3_amo_adaptive_B1_E5_lrmatch",
+    "initial_scale_mismatch"
+  ],
+  "collected_at": "2026-09-26T06:16:13+00:00",
+  "env": "hopper-medium-v2",
+  "env_short": "hopm",
+  "family": "td3_amo_adaptive_B1_E5_lrmatch",
+  "git": {
+    "code_commit": "a7b044e175a0e7df88af1ce1b3ab42167cc99398",
+    "code_repo": "AMO-td3-adaptive-b1e5"
+  },
+  "layout_version": 2,
+  "legacy_name": "run",
+  "meta_lr": 0.002,
+  "method": "td3_amo",
+  "original_rel_path": "runs/amo/td3_amo_adaptive_B1_E5_lrmatch/hopm_s1_b1e5adapt_b1e5_lrmatch_a5_alr0p002__4ab8f8c4",
+  "protocol": "jax_td3_amo_adaptive_b1_e5_lrmatch_v1",
+  "rel_path": "ablation/td3_amo/hopper-medium-v2/2e-3/seed_1/hopm_s1_b1e5adapt_b1e5_lrmatch_a5_alr0p002__4ab8f8c4",
+  "run_id": "hopm_s1_b1e5adapt_b1e5_lrmatch_a5_alr0p002__4ab8f8c4",
+  "scale_conversion": {
+    "diagnostics": "legacy_T/ fields retain their original values and coordinates",
+    "equation": "alpha = 2 * T",
+    "files": {
+      "config.yaml": {
+        "sha256": "be0410590d3efbcb10a8323bd2df1a9621555b9b6b1eb3f44f621da176f51bab"
+      },
+      "eval.jsonl": {
+        "sha256": "baf8f2751ee229a74f8cadc93fb2e105979f4042a79683cbdd0b2eb1d54bfd11"
+      },
+      "metrics.jsonl": {
+        "sha256": "5c35c69abbdf383d46f4dd83abfd9669b8415937b634b2998aa9369878e07f9c"
+      },
+      "source_run_meta.json": {
+        "sha256": "178d88f347af4d636c1351d5dc3774129cb80c8fda3b639b333235bbc39ef43d"
+      }
+    },
+    "schema": "alpha_v1"
+  },
+  "section": "ablation",
+  "seed": 1,
+  "settings": {
+    "actor_depth": 2,
+    "actor_lr": 0.0003,
+    "adaptive_scale_B": true,
+    "adaptive_scale_E": true,
+    "algorithm": "td3_amo",
+    "alpha_B": 1,
+    "alpha_E": 5,
+    "alpha_lr": 0.002,
+    "batch_size": 256,
+    "bootstrap_loss": "l2_rms",
+    "critic_depth": 3,
+    "critic_layernorm": true,
+    "critic_lr": 0.0003,
+    "critic_special_init": true,
+    "critic_target": "bootstrap",
+    "discount": 0.99,
+    "env": "hopper-medium-v2",
+    "eval_episodes": 10,
+    "eval_first_step": 20000,
+    "eval_freq": 20000,
+    "eval_seed": null,
+    "execution_meta_loss": "le",
+    "execution_only": false,
+    "execution_score": "bpi",
+    "final_eval_repeats": 5,
+    "freeze_scale_B": false,
+    "freeze_scale_E": false,
+    "hidden_dim": 256,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "noise_clip": 0.5,
+    "normalize": true,
+    "policy_freq": 2,
+    "policy_noise": 0.2,
+    "reward_transform": "none",
+    "seed": 1,
+    "smoothness_eps": 1e-06,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/AMO_store/td3_amo_adaptive_B1_E5_lrmatch/jobs/b1e5_h-m_s1/run",
+  "variant": "b1e5adapt_b1e5_lrmatch_a5_alr0p002"
+}

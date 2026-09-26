@@ -1,0 +1,10 @@
+{
+  "algorithm": "td3_amo",
+  "backend": "jax",
+  "env": "halfcheetah-medium-v2",
+  "seed": 1,
+  "dataset_sha256": "bb18625fbf8cb132a7432608fdbeeef35c19682b7ddc8e8ddfa42889f1fc8307",
+  "python": "3.10.20",
+  "device": "cuda:1",
+  "replay_device": "cpu"
+}
