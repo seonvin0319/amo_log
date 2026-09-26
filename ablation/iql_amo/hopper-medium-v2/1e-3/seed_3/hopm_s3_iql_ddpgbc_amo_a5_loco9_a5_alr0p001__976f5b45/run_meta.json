@@ -13,7 +13,7 @@
     "initial_beta_outside_main",
     "method_variant:iql_ddpgbc"
   ],
-  "collected_at": "2026-09-26T06:38:15+00:00",
+  "collected_at": "2026-09-26T06:49:13+00:00",
   "env": "hopper-medium-v2",
   "env_short": "hopm",
   "family": "iql_ddpgbc",
