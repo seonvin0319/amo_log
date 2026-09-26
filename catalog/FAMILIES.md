@@ -12,7 +12,7 @@ Derived index only. Canonical data remain `run_meta.json`, `config.yaml`, and ra
 | ablation | iql_amo | iql_ddpgbc_amo_fixed_alpha_E | 1 | 1 | 1 | hopper-medium-v2 |  |
 | ablation | td3_amo | adaptive_multiscale | 165 | 162 | 156 | antmaze-large-diverse-v2;antmaze-large-play-v2;antmaze-medium-diverse-v2;antmaze-medium-play-v2;antmaze-umaze-diverse-v2;antmaze-umaze-v2;halfcheetah-medium-expert-v2;halfcheetah-medium-replay-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2;walker2d-medium-expert-v2;walker2d-medium-replay-v2;walker2d-medium-v2 | alpha_E/B=10/10;alpha_E/B=10/2;alpha_E/B=2/0.5;alpha_E/B=2/2;alpha_E/B=20/20 |
 | ablation | td3_amo | behavior_bc_l1_joint | 6 | 0 | 0 | antmaze-medium-play-v2;antmaze-umaze-diverse-v2;halfcheetah-medium-expert-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-v2 | alpha_E/B=8/8 |
-| ablation | td3_amo | td3_amo_adaptive_B1_E5_lrmatch | 6 | 2 | 2 | antmaze-large-diverse-v2;antmaze-large-play-v2 | alpha_E/B=5/1 |
+| ablation | td3_amo | td3_amo_adaptive_B1_E5_lrmatch | 6 | 6 | 6 | antmaze-large-diverse-v2;antmaze-large-play-v2 | alpha_E/B=5/1 |
 | ablation | td3_amo | td3_amo_directq_l2rms | 12 | 12 | 12 | antmaze-medium-diverse-v2;hopper-medium-replay-v2;walker2d-medium-replay-v2 | alpha_E/B=5/5 |
 | ablation | td3_amo | td3_amo_firstorder_l2rms | 12 | 12 | 12 | antmaze-medium-diverse-v2;hopper-medium-replay-v2;walker2d-medium-replay-v2 | alpha_E/B=5/5 |
 | ablation | td3_amo | td3_amo_fixedB5_lrgrid | 49 | 48 | 48 | halfcheetah-medium-expert-v2;halfcheetah-medium-replay-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2;walker2d-medium-expert-v2;walker2d-medium-replay-v2;walker2d-medium-v2 | alpha_E/B=5/5 |
