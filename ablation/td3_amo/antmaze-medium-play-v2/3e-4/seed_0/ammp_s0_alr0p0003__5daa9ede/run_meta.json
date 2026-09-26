@@ -11,7 +11,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_dual_lel2"
   ],
-  "collected_at": "2026-09-27T04:24:52+09:00",
+  "collected_at": "2026-09-27T04:30:36+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "td3_amo_dual_lel2",
