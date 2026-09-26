@@ -9,7 +9,7 @@
   "classification_reasons": [
     "execution_only"
   ],
-  "collected_at": "2026-09-27T06:01:37+09:00",
+  "collected_at": "2026-09-27T06:07:19+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "td3_amo_execonly_main",
