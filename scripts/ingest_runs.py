@@ -926,7 +926,7 @@ def ingest_one(
 
     present = [
         f
-        for f in ("metrics.jsonl", "eval.jsonl", PREFERRED_EVAL_FILE)
+        for f in ("metrics.jsonl", "eval.jsonl", PREFERRED_EVAL_FILE, "final_eval_50.jsonl")
         if (src / f).exists()
     ]
     src_eval_alt = src / (eval_file or "")
@@ -1005,6 +1005,11 @@ def ingest_one(
                 value = "none"
             if value is not None:
                 meta["settings"][key] = value
+        if (src / "final_eval_50.jsonl").is_file():
+            meta["preferred_eval"] = {
+                "file": "final_eval_50.jsonl",
+                "protocol": "posthoc_cpu_final_unique_seeds",
+            }
     if family == "amo_bpi":
         if str(cfg.get("backend") or "").lower() == "jax" or "jax_rem" in str(
             cfg.get("_variant_tag") or ""
