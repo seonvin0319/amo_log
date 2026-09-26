@@ -13,7 +13,7 @@
     "method_variant:td3_amo_adaptive_B1_E5_lrmatch",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-09-26T07:11:13+00:00",
+  "collected_at": "2026-09-26T07:22:04+00:00",
   "env": "antmaze-large-play-v2",
   "env_short": "amlp",
   "family": "td3_amo_adaptive_B1_E5_lrmatch",
