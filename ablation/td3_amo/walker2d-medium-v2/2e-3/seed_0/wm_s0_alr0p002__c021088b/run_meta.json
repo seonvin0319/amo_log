@@ -9,7 +9,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixed_alpha_B"
   ],
-  "collected_at": "2026-09-27T02:36:50+09:00",
+  "collected_at": "2026-09-27T02:42:31+09:00",
   "env": "walker2d-medium-v2",
   "env_short": "wm",
   "family": "td3_amo_fixed_alpha_B",
