@@ -11,7 +11,7 @@
     "bootstrap_loss_not_l2_rms",
     "execution_loss"
   ],
-  "collected_at": "2026-09-26T23:57:44+09:00",
+  "collected_at": "2026-09-27T00:03:25+09:00",
   "env": "antmaze-medium-diverse-v2",
   "env_short": "ammd",
   "family": "td3_amo_design_ablation",
