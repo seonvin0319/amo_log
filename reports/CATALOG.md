@@ -12,7 +12,7 @@ All machine-branch catalogs combined. This is a derived discovery index, not the
 | ablation | iql_amo | amo_qweight | 283 | 18 | ext_csh | halfcheetah-medium-expert-v2;halfcheetah-medium-replay-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2;walker2d-medium-expert-v2;walker2d-medium-replay-v2;walker2d-medium-v2 | beta=1.0;beta=2.0;beta=5.0 |
 | ablation | iql_amo | iql_adaptive_beta | 8 | 2 | shchoi | halfcheetah-medium-replay-v2;halfcheetah-medium-v2 | beta=3.0 |
 | ablation | iql_amo | iql_amo_bpi_fixed_beta_E | 24 | 24 | svcho | antmaze-medium-diverse-v2;hopper-medium-replay-v2;walker2d-medium-replay-v2 | beta=1.0;beta=5.0 |
-| ablation | iql_amo | iql_amo_hopper_gauss_tau005 | 12 | 6 | ext_csh | hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2 | beta=5.0 |
+| ablation | iql_amo | iql_amo_hopper_gauss_tau005 | 12 | 12 | ext_csh | hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2 | beta=5.0 |
 | ablation | iql_amo | iql_amo_jax_adroit_beta1_rho | 3 | 0 | ext_csv | relocate-expert-v1 | beta=1.0 |
 | ablation | iql_amo | iql_amo_jax_antmaze_beta5_rho | 30 | 24 | ext_csv | antmaze-large-diverse-v2;antmaze-large-play-v2;antmaze-medium-diverse-v2;antmaze-medium-play-v2;antmaze-umaze-diverse-v2;antmaze-umaze-v2 | beta=5.0 |
 | ablation | iql_amo | iql_amo_jax_loco_beta1_rho | 2 | 0 | ext_csv | walker2d-medium-replay-v2;walker2d-medium-v2 | beta=1.0 |
