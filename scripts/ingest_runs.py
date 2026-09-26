@@ -394,6 +394,25 @@ DEFAULT_SOURCES.append(
 )
 
 
+# TD3+RAPO alpha_E=5 and alpha_B=1, both adaptive. Same per-env lr as fixed-one.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "amo",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/td3_amo_adaptive_B1_E5_lrmatch/jobs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO-td3-adaptive-b1e5",
+        "family_force": "td3_amo_adaptive_B1_E5_lrmatch",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 2,
+        "run_dirname": "run",
+        "variant_tag": "b1e5_lrmatch",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
@@ -643,6 +662,16 @@ def build_variant(
         alr = cfg.get("alpha_lr")
         if alr is not None:
             tokens.append("alr" + fmt_num(float(alr)))
+    if family == "td3_amo_adaptive_B1_E5_lrmatch":
+        tokens.append("b1e5adapt")
+        if cfg.get("_variant_tag"):
+            tokens.append(str(cfg["_variant_tag"]))
+        alpha_e = cfg.get("alpha_E")
+        if alpha_e is not None:
+            tokens.append(f"a{fmt_num(float(alpha_e))}")
+        alr = cfg.get("alpha_lr")
+        if alr is not None:
+            tokens.append("alr" + fmt_num(float(alr)))
     if family in ("td3_amo_execonly_main", "td3_amo_rapo"):
         tokens.append("execonly" if family == "td3_amo_execonly_main" else "rapo")
         if cfg.get("_variant_tag"):
@@ -717,6 +746,11 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "alpha_lr",
         "alpha_E",
         "alpha_B",
+        "freeze_scale_E",
+        "freeze_scale_B",
+        "adaptive_scale_E",
+        "adaptive_scale_B",
+        "critic_target",
         "execution_only",
         "execution_meta_loss",
         "execution_score",
@@ -819,7 +853,12 @@ def ingest_one(
         cfg["_cell"] = src.parent.name
     if family_force == "iql_ddpgbc" and src.parent is not None:
         cfg["_cell"] = src.parent.name
-    if family_force in ("td3_amo_execonly_main", "td3_adroit_expert", "td3_amo_fixed_alpha_B") and src.parent is not None:
+    if family_force in (
+        "td3_amo_execonly_main",
+        "td3_adroit_expert",
+        "td3_amo_fixed_alpha_B",
+        "td3_amo_adaptive_B1_E5_lrmatch",
+    ) and src.parent is not None:
         cfg["_cell"] = src.parent.name
 
     env = str(cfg.get("env") or src.name or "unknown")
@@ -835,7 +874,14 @@ def ingest_one(
     # Include parent cell dir in dirname blob so uuid/variant stay unique per cell.
     dirname_for_variant = (
         f"{src.parent.name}_{src.name}"
-        if family in ("amo_bpi", "iql_ddpgbc", "td3_amo_execonly_main", "td3_amo_rapo", "td3_amo_fixed_alpha_B")
+        if family in (
+            "amo_bpi",
+            "iql_ddpgbc",
+            "td3_amo_execonly_main",
+            "td3_amo_rapo",
+            "td3_amo_fixed_alpha_B",
+            "td3_amo_adaptive_B1_E5_lrmatch",
+        )
         else src.name
     )
     variant = build_variant(
@@ -906,6 +952,11 @@ def ingest_one(
             else "jax_td3_amo_fixed1_rapo_v1"
         )
         meta["git"]["code_commit"] = "25476d7c5796ce6879f8d3322be880fdd9d4b6e4"
+        if cfg.get("_cell"):
+            meta["cell"] = cfg["_cell"]
+    if family == "td3_amo_adaptive_B1_E5_lrmatch":
+        meta["protocol"] = "jax_td3_amo_adaptive_b1_e5_lrmatch_v1"
+        meta["git"]["code_commit"] = "a7b044e175a0e7df88af1ce1b3ab42167cc99398"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
     if family == "amo_bpi":
