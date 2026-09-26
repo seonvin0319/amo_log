@@ -413,6 +413,26 @@ DEFAULT_SOURCES.append(
 )
 
 
+# IQL+RAPO Hopper rerun: Gaussian actor, no reward norm, tau=0.005,
+# expectile=0.7, beta_initial=5 adaptive. Not the recorded amo_bpi main.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "iql",
+        "root": Path(
+            "/raid/ext_csh/AMO_store/iql_amo_hopper_gauss_tau005/jobs"
+        ),
+        "host": "ext_csh",
+        "code_repo": "AMO-iql-hopper-gauss",
+        "family_force": "iql_amo_hopper_gauss_tau005",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 2,
+        "run_dirname": "run",
+        "variant_tag": "gauss_tau005",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
@@ -672,6 +692,16 @@ def build_variant(
         alr = cfg.get("alpha_lr")
         if alr is not None:
             tokens.append("alr" + fmt_num(float(alr)))
+    if family == "iql_amo_hopper_gauss_tau005":
+        tokens.append("hopgauss")
+        if cfg.get("_variant_tag"):
+            tokens.append(str(cfg["_variant_tag"]))
+        rlr = cfg.get("rho_lr")
+        if rlr is not None:
+            tokens.append("rlr" + fmt_num(float(rlr)))
+        b0 = cfg.get("beta_initial")
+        if b0 is not None:
+            tokens.append(f"b{fmt_num(float(b0))}")
     if family in ("td3_amo_execonly_main", "td3_amo_rapo"):
         tokens.append("execonly" if family == "td3_amo_execonly_main" else "rapo")
         if cfg.get("_variant_tag"):
@@ -858,6 +888,7 @@ def ingest_one(
         "td3_adroit_expert",
         "td3_amo_fixed_alpha_B",
         "td3_amo_adaptive_B1_E5_lrmatch",
+        "iql_amo_hopper_gauss_tau005",
     ) and src.parent is not None:
         cfg["_cell"] = src.parent.name
 
@@ -881,6 +912,7 @@ def ingest_one(
             "td3_amo_rapo",
             "td3_amo_fixed_alpha_B",
             "td3_amo_adaptive_B1_E5_lrmatch",
+            "iql_amo_hopper_gauss_tau005",
         )
         else src.name
     )
@@ -959,6 +991,20 @@ def ingest_one(
         meta["git"]["code_commit"] = "a7b044e175a0e7df88af1ce1b3ab42167cc99398"
         if cfg.get("_cell"):
             meta["cell"] = cfg["_cell"]
+    if family == "iql_amo_hopper_gauss_tau005":
+        meta["protocol"] = "jax_iql_amo_hopper_gauss_tau005_v1"
+        meta["git"]["code_commit"] = "1e34514ddf70bfc8a78757d9a78b82306627164c"
+        if cfg.get("_cell"):
+            meta["cell"] = cfg["_cell"]
+        for key in ("gaussian", "reward_transform", "expectile"):
+            if key not in cfg:
+                continue
+            value = cfg[key]
+            # load_yaml_lite maps the scalar "none" to None.
+            if key == "reward_transform" and value is None:
+                value = "none"
+            if value is not None:
+                meta["settings"][key] = value
     if family == "amo_bpi":
         if str(cfg.get("backend") or "").lower() == "jax" or "jax_rem" in str(
             cfg.get("_variant_tag") or ""
