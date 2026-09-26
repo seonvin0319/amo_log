@@ -10,7 +10,7 @@
   "classification_reasons": [
     "method_variant:td3_amo_fixedB5_lrgrid"
   ],
-  "collected_at": "2026-09-26T10:43:35+09:00",
+  "collected_at": "2026-09-26T10:48:35+09:00",
   "env": "walker2d-medium-replay-v2",
   "env_short": "wmr",
   "family": "td3_amo_fixedB5_lrgrid",
@@ -23,7 +23,7 @@
   "legacy_name": "w-mr_b5_3e-4_s1",
   "meta_lr": 0.0003,
   "metadata_provenance": {
-    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid/w-mr_b5_3e-4_s1/checkpoints/step_160000.npz",
+    "checkpoint_path": "/raid/ext_csv/AMO_store/td3_rapo_fixedB5_lrgrid/w-mr_b5_3e-4_s1/checkpoints/step_280000.npz",
     "env_source": "source_run_meta.json",
     "inferred": false,
     "seed_source": "source_run_meta.json",
@@ -41,7 +41,7 @@
         "sha256": "b731ea980d139ae01f27c1112886075cf378f4d6a1a0002bf4bb9119ceff432d"
       },
       "metrics.jsonl": {
-        "sha256": "2832979e11d6a9da3ff531cbf41e0723f0146e2df4efc23b354f44b632d1679d"
+        "sha256": "4512f73abad131ce9aa50befcff07f46c4fe5d390a23e7ae9f7ab392ef5bc29e"
       },
       "source_run_meta.json": {
         "sha256": "58ff9311126abede6c25bb2397ed2b750535ff46bd48506cc2ffa7fffb995fe3"
