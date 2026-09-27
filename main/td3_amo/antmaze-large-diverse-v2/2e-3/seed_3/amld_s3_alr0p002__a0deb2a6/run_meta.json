@@ -9,7 +9,7 @@
   ],
   "backend": "jax",
   "classification_reasons": [],
-  "collected_at": "2026-09-27T12:34:13+09:00",
+  "collected_at": "2026-09-27T12:39:54+09:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "td3_amo_bootrms_maincand",
