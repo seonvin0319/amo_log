@@ -9,7 +9,7 @@
     "method_variant:td3_amo_fixed_alpha_B",
     "initial_scale_mismatch"
   ],
-  "collected_at": "2026-10-02T01:58:42+09:00",
+  "collected_at": "2026-10-02T02:04:24+09:00",
   "env": "halfcheetah-medium-replay-v2",
   "env_short": "hcmr",
   "family": "td3_amo_fixed_alpha_B",
