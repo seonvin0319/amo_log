@@ -7,5 +7,5 @@ init,condition,alpha_role,final_mean,final_std_across_envs,n_env,n_runs
 5.0,single_le,alpha_E,13.204417355855306,5.898345730753306,15,60
 5.0,main_dual,alpha_E,14.426641885439555,5.276244364140927,15,60
 5.0,main_dual,alpha_B,11.272131331761678,4.186792313681476,15,60
-5.0,dual_le_fixed_b,alpha_E,15.42107293870714,6.453489222678228,15,59
-5.0,dual_le_fixed_b,alpha_B,5.0,0.0,15,59
+5.0,dual_le_fixed_b,alpha_E,15.423106861114501,6.454796767225732,15,60
+5.0,dual_le_fixed_b,alpha_B,5.0,0.0,15,60
