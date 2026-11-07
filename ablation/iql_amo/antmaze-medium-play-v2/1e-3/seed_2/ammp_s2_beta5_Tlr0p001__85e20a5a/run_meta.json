@@ -10,7 +10,7 @@
   "classification_reasons": [
     "method_variant:iql_amo_qweight_jax"
   ],
-  "collected_at": "2026-11-08T05:22:07+09:00",
+  "collected_at": "2026-11-08T05:35:00+09:00",
   "env": "antmaze-medium-play-v2",
   "env_short": "ammp",
   "family": "iql_amo_qweight_jax",
