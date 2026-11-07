@@ -5,6 +5,7 @@ Derived index only. Canonical data remain `run_meta.json`, `config.yaml`, and ra
 | section | method | family | runs | scored | complete@1M | environments | initializations |
 |---|---|---|---:|---:|---:|---|---|
 | ablation | fql_amo | fql_amo_jax | 49 | 8 | 8 | halfcheetah-medium-expert-v2;halfcheetah-medium-replay-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2;walker2d-medium-expert-v2;walker2d-medium-replay-v2;walker2d-medium-v2 | alpha_E/B=10/10 |
+| ablation | iql_amo | iql_amo_hopper_gauss_rerun | 6 | 6 | 0 | hopper-medium-expert-v2;hopper-medium-replay-v2 | beta=5 |
 | ablation | iql_amo | iql_amo_jax_adroit_beta1_rho | 3 | 0 | 0 | relocate-expert-v1 | beta=1 |
 | ablation | iql_amo | iql_amo_jax_antmaze_beta5_rho | 30 | 24 | 24 | antmaze-large-diverse-v2;antmaze-large-play-v2;antmaze-medium-diverse-v2;antmaze-medium-play-v2;antmaze-umaze-diverse-v2;antmaze-umaze-v2 | beta=5 |
 | ablation | iql_amo | iql_amo_jax_loco_beta1_rho | 2 | 0 | 0 | walker2d-medium-replay-v2;walker2d-medium-v2 | beta=1 |

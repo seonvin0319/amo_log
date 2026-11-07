@@ -1,5 +1,6 @@
 section,method,family,runs,scored_runs,complete_1m_runs,environments,seeds,meta_lrs,backends,initializations,classification_reasons
 ablation,fql_amo,fql_amo_jax,49,8,8,halfcheetah-medium-expert-v2;halfcheetah-medium-replay-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2;walker2d-medium-expert-v2;walker2d-medium-replay-v2;walker2d-medium-v2,0;1;2;3,0.0003;0.001;0.002,jax,alpha_E/B=10/10,initial_scale_outside_main
+ablation,iql_amo,iql_amo_hopper_gauss_rerun,6,6,0,hopper-medium-expert-v2;hopper-medium-replay-v2,0;1;2;3,0.0003;0.001,torch,beta=5,method_variant:iql_amo_hopper_gauss_rerun
 ablation,iql_amo,iql_amo_jax_adroit_beta1_rho,3,0,0,relocate-expert-v1,1;2;3,0.0003,jax,beta=1,adroit
 ablation,iql_amo,iql_amo_jax_antmaze_beta5_rho,30,24,24,antmaze-large-diverse-v2;antmaze-large-play-v2;antmaze-medium-diverse-v2;antmaze-medium-play-v2;antmaze-umaze-diverse-v2;antmaze-umaze-v2,0;1;2;3,0.0003;0.001;0.002,jax,beta=5,method_variant:iql_amo_jax_antmaze_beta5_rho
 ablation,iql_amo,iql_amo_jax_loco_beta1_rho,2,0,0,walker2d-medium-replay-v2;walker2d-medium-v2,3,0.002,jax,beta=1,method_variant:iql_amo_jax_loco_beta1_rho

@@ -1,0 +1,68 @@
+{
+  "algo": "iql_amo",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "torch",
+  "checkpoint_hint": "/raid/ext_csv/AMO_store/iql_rapo_hopper_gauss_rerun/h-mr_s2",
+  "classification_reasons": [
+    "method_variant:iql_amo_hopper_gauss_rerun"
+  ],
+  "collected_at": "2026-11-07T02:15:42+00:00",
+  "env": "hopper-medium-replay-v2",
+  "env_short": "hopmr",
+  "family": "iql_amo_hopper_gauss_rerun",
+  "git": {
+    "code_commit": "7857425517f84420b1b4ac48a7ac666e4c00a579",
+    "code_repo": "CORL-iql-hopper-rerun"
+  },
+  "identity_uuid8": "2a9916f6",
+  "layout_version": 2,
+  "legacy_name": "h-mr_s2",
+  "meta_lr": 0.0003,
+  "metadata_provenance": {
+    "checkpoint_path": null,
+    "env_source": "config.yaml",
+    "inferred": false,
+    "seed_source": "config.yaml",
+    "verified_against_checkpoint": false
+  },
+  "method": "iql_amo",
+  "original_rel_path": "runs/iql_amo/iql_amo_hopper_gauss_rerun/hopmr_s2_Tlr0p0003__2a9916f6",
+  "rel_path": "ablation/iql_amo/hopper-medium-replay-v2/3e-4/seed_2/hopmr_s2_Tlr0p0003__2a9916f6",
+  "run_id": "hopmr_s2_Tlr0p0003__2a9916f6",
+  "section": "ablation",
+  "seed": 2,
+  "settings": {
+    "actor_lr": 0.0003,
+    "adaptive_enabled": true,
+    "algorithm": "iql_amo",
+    "amo_dual_bpi": true,
+    "backend": "torch",
+    "batch_size": 256,
+    "beta_fixed": 5.0,
+    "beta_initial": 5.0,
+    "discount": 0.99,
+    "env": "hopper-medium-replay-v2",
+    "eval_freq": 20000,
+    "expectile": 0.7,
+    "gaussian": true,
+    "iql_deterministic": false,
+    "max_timesteps": 1000000,
+    "meta_warmup_steps": 100000,
+    "normalize": true,
+    "normalize_reward": false,
+    "qf_lr": 0.0003,
+    "rho_lr": 0.0003,
+    "seed": 2,
+    "smoothness_eps": "1e-06",
+    "tau": 0.005,
+    "vf_lr": 0.0003
+  },
+  "source_config": "config.yaml",
+  "source_host": "ext_csv",
+  "source_path": "/raid/ext_csv/AMO_store/iql_rapo_hopper_gauss_rerun/h-mr_s2",
+  "variant": "Tlr0p0003"
+}
