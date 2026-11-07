@@ -1,0 +1,62 @@
+{
+  "algo": "fql",
+  "artifacts": [
+    "config.yaml",
+    "metrics.jsonl",
+    "eval.jsonl"
+  ],
+  "backend": "jax",
+  "cell": "cube_s0",
+  "checkpoint_hint": "/raid/ext_csh/checkpoints/fql_rapo_split_te_tb/amo_stage/cube_s0",
+  "classification_reasons": [
+    "method_variant:fql_rapo_split_te_tb",
+    "initial_scale_outside_main"
+  ],
+  "collected_at": "2026-11-07T02:16:13+00:00",
+  "env": "cube-single-play-singletask-task2-v0",
+  "env_short": "cubesingleplaysingletasktask2v0",
+  "family": "fql_rapo_split_te_tb",
+  "git": {
+    "code_commit": "e8cd16eb490332924dfa2492097219f181765933",
+    "code_repo": "fql"
+  },
+  "layout_version": 2,
+  "legacy_name": "cube_s0",
+  "meta_lr": 0.001,
+  "method": "fql_amo",
+  "original_rel_path": "runs/fql/fql_rapo_split_te_tb/cubesingleplaysingletasktask2v0_s0_split_a300_alr0p001_mean__2675987c",
+  "protocol": "jax_fql_rapo_split_te_tb_v1",
+  "rel_path": "ablation/fql_amo/cube-single-play-singletask-task2-v0/1e-3/seed_0/cubesingleplaysingletasktask2v0_s0_split_a300_alr0p001_mean__2675987c",
+  "run_id": "cubesingleplaysingletasktask2v0_s0_split_a300_alr0p001_mean__2675987c",
+  "section": "ablation",
+  "seed": 0,
+  "settings": {
+    "actor_lr": 0.0003,
+    "agent_name": "fql_split_te_tb",
+    "algorithm": "fql_amo",
+    "alpha_B": 300,
+    "alpha_E": 300,
+    "alpha_lr": 0.001,
+    "backend": "jax",
+    "batch_size": 256,
+    "code_branch": "split_te_tb",
+    "code_commit": "e8cd16eb490332924dfa2492097219f181765933",
+    "code_dirty": true,
+    "critic_lr": 0.0003,
+    "discount": 0.99,
+    "env": "cube-single-play-singletask-task2-v0",
+    "env_name": "cube-single-play-singletask-task2-v0",
+    "eval_episodes": 50,
+    "eval_freq": 100000,
+    "max_steps": 1000000,
+    "max_timesteps": 1000000,
+    "meta_interval": 20,
+    "normalize_q_loss": false,
+    "q_agg": "mean",
+    "seed": 0,
+    "tau": 0.005
+  },
+  "source_host": "ext_csh",
+  "source_path": "/raid/ext_csh/checkpoints/fql_rapo_split_te_tb/amo_stage/cube_s0",
+  "variant": "split_a300_alr0p001_mean"
+}
