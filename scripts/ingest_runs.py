@@ -433,6 +433,24 @@ DEFAULT_SOURCES.append(
 )
 
 
+# FQL+RAPO split execution/bootstrap on OGBench. One job directory per seed.
+# Initial alpha is the official task value (cube 300, antmaze 10), so this is
+# outside the FQL-AMO main alpha set and stays in ablation.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "fql",
+        "root": Path("/raid/ext_csh/checkpoints/fql_rapo_split_te_tb/amo_stage"),
+        "host": "ext_csh",
+        "code_repo": "fql",
+        "family_force": "fql_rapo_split_te_tb",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 1,
+        "variant_tag": "split_te_tb",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
@@ -712,6 +730,17 @@ def build_variant(
         alr = cfg.get("alpha_lr")
         if alr is not None:
             tokens.append("alr" + fmt_num(float(alr)))
+    if family == "fql_rapo_split_te_tb":
+        tokens.append("split")
+        alpha_e = cfg.get("alpha_E")
+        if alpha_e is not None:
+            tokens.append(f"a{fmt_num(float(alpha_e))}")
+        alr = cfg.get("alpha_lr")
+        if alr is not None:
+            tokens.append("alr" + fmt_num(float(alr)))
+        q_agg = cfg.get("q_agg")
+        if q_agg:
+            tokens.append(str(q_agg))
     if family == "paper_benchmark":
         tokens.append(algo if algo in ("wpc", "aspc") else "bench")
         alpha = cfg.get("alpha")
@@ -789,6 +818,8 @@ def settings_summary(algo: str, cfg: Dict[str, Any]) -> Dict[str, Any]:
         "amo_dual_bpi",
         "qweight_enabled",
         "max_steps",
+        "eval_episodes",
+        "q_agg",
     ]
     out = {}
     for key in keys:
@@ -891,6 +922,8 @@ def ingest_one(
         "iql_amo_hopper_gauss_tau005",
     ) and src.parent is not None:
         cfg["_cell"] = src.parent.name
+    if family_force == "fql_rapo_split_te_tb":
+        cfg["_cell"] = src.name
 
     env = str(cfg.get("env") or src.name or "unknown")
     seed = int(cfg.get("seed", 0) or 0)
@@ -1024,6 +1057,12 @@ def ingest_one(
                 "file": PREFERRED_EVAL_FILE,
                 "protocol": PREFERRED_EVAL_PROTOCOL,
             }
+    if family == "fql_rapo_split_te_tb":
+        meta["protocol"] = "jax_fql_rapo_split_te_tb_v1"
+        if cfg.get("code_commit"):
+            meta["git"]["code_commit"] = str(cfg["code_commit"])
+        if cfg.get("_cell"):
+            meta["cell"] = cfg["_cell"]
     if family == "paper_benchmark":
         meta["protocol"] = "aspc_paper_d4rl_benchmark"
         summary_path = src / "summary.json"

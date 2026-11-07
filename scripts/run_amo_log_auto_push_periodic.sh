@@ -24,7 +24,16 @@ trap 'rm -f "$PID_FILE"' EXIT
 printf '[%s] periodic amo_log watcher start interval=%ss\n' \
   "$(TZ=Asia/Seoul date '+%F %T %Z')" "$INTERVAL_SEC" >>"$RUN_LOG"
 
+EXPORT="${FQL_RAPO_AMO_EXPORT:-/home/ext_csh/fql/scripts/export_fql_rapo_amo_stage.py}"
+
 while true; do
+  if [[ -f "$EXPORT" ]]; then
+    if python3 "$EXPORT" >>"$RUN_LOG" 2>&1; then
+      printf '[%s] fql rapo stage ok\n' "$(TZ=Asia/Seoul date '+%F %T %Z')" >>"$RUN_LOG"
+    else
+      printf '[%s] fql rapo stage failed\n' "$(TZ=Asia/Seoul date '+%F %T %Z')" >>"$RUN_LOG"
+    fi
+  fi
   if bash "$PUSH_SCRIPT" >>"$RUN_LOG" 2>&1; then
     printf '[%s] amo_log push ok\n' "$(TZ=Asia/Seoul date '+%F %T %Z')" >>"$RUN_LOG"
   else
