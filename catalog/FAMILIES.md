@@ -4,7 +4,7 @@ Derived index only. Canonical data remain `run_meta.json`, `config.yaml`, and ra
 
 | section | method | family | runs | scored | complete@1M | environments | initializations |
 |---|---|---|---:|---:|---:|---|---|
-| ablation | fql_amo | fql_rapo_split_te_tb | 1 | 0 | 0 | cube-single-play-singletask-task2-v0 | alpha_E/B=300/300 |
+| ablation | fql_amo | fql_rapo_split_te_tb | 2 | 0 | 0 | cube-single-play-singletask-task2-v0 | alpha_E/B=300/300 |
 | ablation | iql_amo | adaptive_beta | 8 | 8 | 8 | halfcheetah-medium-expert-v2;halfcheetah-medium-replay-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2;walker2d-medium-expert-v2;walker2d-medium-v2 | beta=3;beta=6 |
 | ablation | iql_amo | amo_qweight | 283 | 18 | 18 | halfcheetah-medium-expert-v2;halfcheetah-medium-replay-v2;halfcheetah-medium-v2;hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2;walker2d-medium-expert-v2;walker2d-medium-replay-v2;walker2d-medium-v2 | beta=1;beta=2;beta=5 |
 | ablation | iql_amo | iql_amo_hopper_gauss_tau005 | 12 | 12 | 12 | hopper-medium-expert-v2;hopper-medium-replay-v2;hopper-medium-v2 | beta=5 |
