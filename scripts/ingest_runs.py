@@ -489,6 +489,15 @@ DEFAULT_SOURCES: List[Dict[str, Any]] = [
         "family_force": "td3_amo_adaptive_B1_E5_lrmatch",
         "nested": False,
     },
+    {
+        "algo": "iql_amo",
+        "root": Path("/raid/ext_csv/AMO_store/iql_rapo_hopper_gauss_rerun"),
+        "host": "ext_csv",
+        "code_repo": "CORL-iql-hopper-rerun",
+        "code_commit": "7857425517f84420b1b4ac48a7ac666e4c00a579",
+        "family_force": "iql_amo_hopper_gauss_rerun",
+        "nested": False,
+    },
 ]
 
 CFG_NAMES = ("config.yaml", "effective_config.yaml")
