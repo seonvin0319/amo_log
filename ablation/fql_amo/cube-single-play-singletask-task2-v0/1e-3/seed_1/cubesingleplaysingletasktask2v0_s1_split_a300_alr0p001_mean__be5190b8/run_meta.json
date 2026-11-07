@@ -2,7 +2,8 @@
   "algo": "fql",
   "artifacts": [
     "config.yaml",
-    "metrics.jsonl"
+    "metrics.jsonl",
+    "eval.jsonl"
   ],
   "backend": "jax",
   "cell": "cube_s1",
@@ -11,7 +12,7 @@
     "method_variant:fql_rapo_split_te_tb",
     "initial_scale_outside_main"
   ],
-  "collected_at": "2026-11-07T03:23:58+00:00",
+  "collected_at": "2026-11-07T03:34:58+00:00",
   "env": "cube-single-play-singletask-task2-v0",
   "env_short": "cubesingleplaysingletasktask2v0",
   "family": "fql_rapo_split_te_tb",
