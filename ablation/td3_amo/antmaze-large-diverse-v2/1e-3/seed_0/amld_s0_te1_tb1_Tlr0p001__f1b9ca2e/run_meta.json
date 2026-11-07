@@ -10,7 +10,7 @@
   "classification_reasons": [
     "bootstrap_loss_not_l2_rms"
   ],
-  "collected_at": "2026-11-07T15:06:58+09:00",
+  "collected_at": "2026-11-07T06:14:49+00:00",
   "env": "antmaze-large-diverse-v2",
   "env_short": "amld",
   "family": "adaptive_multiscale",
