@@ -4,7 +4,7 @@
 
 | 구분 | 방법 | 환경 | 초기값 | lr | seed | backend | 마지막 평가 step | 로그 |
 |---|---|---|---|---|---:|---|---:|---|
-| ablation | fql_amo | cube-single-play-singletask-task2-v0 | alpha_E/alpha_B=300/300 | 0.001 | 0 | jax | 100000 | [cubesingleplaysingletasktask2v0_s0_split_a300_alr0p001_mean__2675987c](../ablation/fql_amo/cube-single-play-singletask-task2-v0/1e-3/seed_0/cubesingleplaysingletasktask2v0_s0_split_a300_alr0p001_mean__2675987c/) |
+| ablation | fql_amo | cube-single-play-singletask-task2-v0 | alpha_E/alpha_B=300/300 | 0.001 | 0 | jax | 300000 | [cubesingleplaysingletasktask2v0_s0_split_a300_alr0p001_mean__2675987c](../ablation/fql_amo/cube-single-play-singletask-task2-v0/1e-3/seed_0/cubesingleplaysingletasktask2v0_s0_split_a300_alr0p001_mean__2675987c/) |
 | ablation | iql_amo | antmaze-large-diverse-v2 | beta=? | 0.0003 | 0 | torch | 1000000 | [amld_s0_iql_ddpgbc_amo_a1_loco_antmaze_a1_alr0p0003__84f78a9e](../ablation/iql_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_iql_ddpgbc_amo_a1_loco_antmaze_a1_alr0p0003__84f78a9e/) |
 | ablation | iql_amo | antmaze-large-diverse-v2 | beta=? | 0.0003 | 0 | torch | 1000000 | [amld_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__1e35cf32](../ablation/iql_amo/antmaze-large-diverse-v2/3e-4/seed_0/amld_s0_iql_ddpgbc_amo_a5_loco9_a5_alr0p0003__1e35cf32/) |
 | ablation | iql_amo | antmaze-large-diverse-v2 | beta=? | 0.0003 | 1 | torch | 1000000 | [amld_s1_iql_ddpgbc_amo_a1_loco_antmaze_a1_alr0p0003__5f9afba4](../ablation/iql_amo/antmaze-large-diverse-v2/3e-4/seed_1/amld_s1_iql_ddpgbc_amo_a1_loco_antmaze_a1_alr0p0003__5f9afba4/) |
