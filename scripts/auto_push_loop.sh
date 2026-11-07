@@ -9,6 +9,13 @@ LOG="${AMO_LOG_PUSH_LOOP_LOG:-/home/ext_csv/logs/amo_log_auto_push_loop.nohup}"
 PIDFILE="${AMO_LOG_PUSH_LOOP_PID:-/home/ext_csv/logs/amo_log_auto_push_loop.pid}"
 
 mkdir -p "$(dirname "$LOG")"
+if [[ -f "$PIDFILE" ]]; then
+  old="$(cat "$PIDFILE" 2>/dev/null || true)"
+  if [[ -n "${old:-}" ]] && kill -0 "$old" 2>/dev/null; then
+    echo "==== $(TZ=Asia/Seoul date -Is) already running pid=${old} ====" >>"$LOG"
+    exit 0
+  fi
+fi
 echo $$ >"$PIDFILE"
 echo "==== $(TZ=Asia/Seoul date -Is) loop start pid=$$ interval=${INTERVAL}s ====" >>"$LOG"
 
