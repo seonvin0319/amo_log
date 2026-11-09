@@ -451,6 +451,24 @@ DEFAULT_SOURCES.append(
 )
 
 
+# FQL with a fixed official bootstrap actor and a RAPO-adapted execution
+# coefficient. Separate from split_te_tb: critic targets use only B, lambda_B
+# stays at the official task value, and only lambda_E adapts after 100k.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "fql",
+        "root": Path("/raid/ext_csh/checkpoints/fql_rapo_fixed_b_adaptive_e_v2"),
+        "host": "ext_csh",
+        "code_repo": "fql-fixed-b-adaptive-e",
+        "family_force": "fql_rapo_fixed_b_adaptive_e_v2",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 1,
+        "variant_tag": "fixed_b_adaptive_e_v2",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
