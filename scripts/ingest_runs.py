@@ -469,6 +469,38 @@ DEFAULT_SOURCES.append(
 )
 
 
+# DQL 1M pilot. Official Diffusion-QL and full RAPO are separate learners.
+# algo stays "dql": the shared method list has no DQL entry, and these runs
+# must not be filed as td3_amo or fql_amo. main() skips the copy until that
+# classifier exists, so catalog rebuilds and paper tables stay unchanged.
+DEFAULT_SOURCES.append(
+    {
+        "algo": "dql",
+        "root": Path("/raid/ext_csh/checkpoints/dql_full_rapo_pilot/official"),
+        "host": "ext_csh",
+        "code_repo": "dql-full-rapo",
+        "family_force": "dql_official_pilot",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 1,
+        "variant_tag": "official_1m_pilot",
+    }
+)
+DEFAULT_SOURCES.append(
+    {
+        "algo": "dql",
+        "root": Path("/raid/ext_csh/checkpoints/dql_full_rapo_pilot/full_rapo"),
+        "host": "ext_csh",
+        "code_repo": "dql-full-rapo",
+        "family_force": "dql_full_rapo",
+        "config_file": "config.yaml",
+        "nested": True,
+        "nested_depth": 1,
+        "variant_tag": "full_rapo_1m_pilot",
+    }
+)
+
+
 # D4RL WPC / ASPC paper benchmark on ext_csh.
 # Layout: results/<algo>/<env>/seed<k>/<run_id>/{config.yaml,evaluations.jsonl}
 _BENCHMARK_RESULTS = Path("/home/ext_csh/benchmark/results")
@@ -1167,6 +1199,12 @@ def main() -> int:
         if args.host and src_spec.get("host") != args.host:
             continue
         if args.family and src_spec.get("family_force") != args.family:
+            continue
+        if src_spec.get("algo") == "dql":
+            print(
+                "SKIP dql source; shared METHODS has no dql method: "
+                + str(src_spec["root"])
+            )
             continue
         root: Path = src_spec["root"]
         config_file = str(src_spec.get("config_file") or "config.yaml")
