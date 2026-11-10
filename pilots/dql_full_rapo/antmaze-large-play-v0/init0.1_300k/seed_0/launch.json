@@ -18,10 +18,37 @@
     "launcher": "/home/ext_csv/checkpoints/dql_largeplay_init01_300k/launcher.log"
   },
   "first_steps": {
-    "step_1": {"critic_loss": 9.03511, "critic_grad_norm": 38.79573, "L_E": -0.00066, "rho_E_grad": -0.00059, "T_E": 0.1, "T_B": 0.09998, "rho_E": -2.25187, "rho_B": -2.25243},
-    "step_21": {"critic_loss": 0.47082, "T_E": 0.10003, "T_B": 0.09996},
-    "step_4881_at_05:28Z": {"steps_per_sec_cumulative": 38.80, "gpu_memory_mb_peak": 370.1, "T_E": 0.10176, "T_B": 0.09969}
+    "step_1": {
+      "critic_loss": 9.03511,
+      "critic_grad_norm": 38.79573,
+      "L_E": -0.00066,
+      "rho_E_grad": -0.00059,
+      "T_E": 0.1,
+      "T_B": 0.09998,
+      "rho_E": -2.25187,
+      "rho_B": -2.25243
+    },
+    "step_21": {
+      "critic_loss": 0.47082,
+      "T_E": 0.10003,
+      "T_B": 0.09996
+    },
+    "step_4881_at_05:28Z": {
+      "steps_per_sec_cumulative": 38.8,
+      "gpu_memory_mb_peak": 370.1,
+      "T_E": 0.10176,
+      "T_B": 0.09969
+    }
   },
-  "speed_estimate": "~38.8 updates/s with GPU exclusive -> ~2.2 h for 300k plus 3 evaluations (50 episodes x E,B)",
-  "checkpoint_policy": "checkpoint.pt + checkpoints/step_N.pt at 100k/200k/300k and on SIGTERM (trainer handler); resume automatic from checkpoint.pt"
+  "speed_estimate": "~38-41 updates/s -> 1M at about 12:45Z (21:45 KST) 2026-11-10 incl. 10 evaluations",
+  "checkpoint_policy": "checkpoint.pt + checkpoints/step_N.pt at 100k/200k/300k and on SIGTERM (trainer handler); resume automatic from checkpoint.pt",
+  "budget_extension": {
+    "utc": "2026-11-10T06:41:55+00:00",
+    "from_max_steps": 300000,
+    "to_max_steps": 1000000,
+    "stopped_at_step": 170092,
+    "resume": "checkpoint.pt full state (nets, opts, rho, schedulers, RNGs)",
+    "wrapper_pid": 57501,
+    "trainer_pid": 57508
+  }
 }

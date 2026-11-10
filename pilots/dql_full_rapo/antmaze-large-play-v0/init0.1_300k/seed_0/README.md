@@ -1,4 +1,4 @@
-# DQL full RAPO pilot — antmaze-large-play-v0, T_E_init = T_B_init = 0.1, 300k updates (ext_csv)
+# DQL full RAPO pilot — antmaze-large-play-v0, T_E_init = T_B_init = 0.1, 1M updates (ext_csv; started as 300k)
 
 New-environment pilot. Not part of `main/` or `ablation/`; `catalog/` and the
 paper tables are untouched. Single run, seed 0, started from scratch.
@@ -28,7 +28,7 @@ paper tables are untouched. Single run, seed 0, started from scratch.
 | lr_decay / lr_maxt / scheduler_every | true / 1000 / 50000 updates (1000-epoch cosine kept, not compressed) |
 | meta_interval / meta_warmup | 20 / 0 |
 | meta lr initial / final ratio / horizon | 3e-4 / 0.01 / 1,000,000 (kept) |
-| max_steps / eval_every / eval_episodes | 300,000 / 100,000 / 50 (E = reported, B = diagnostic) |
+| max_steps / eval_every / eval_episodes | 1,000,000 (extended from 300,000 at step 170,092, see below) / 100,000 / 50 (E = reported, B = diagnostic) |
 | synthetic / stub_eval | false / false |
 
 ## Dataset
@@ -63,6 +63,19 @@ trainer pattern did not match; its directory was archived to
 restarted from scratch at 05:26Z. Step-1 metrics of both launches and the smoke
 are identical (deterministic seeding).
 
+## Budget extension to 1M (2026-11-10 06:41Z)
+
+User request: run to 1M instead of stopping at 300k. The wrapper was changed to
+`--max-steps 1000000` (nothing else), the trainer was stopped with SIGTERM at
+step 170,092 (checkpoint written), and relaunched in the same run dir; it resumed
+from `checkpoint.pt` (`[dql] resume step=170092`). The checkpoint restores all
+networks, optimizers, rho_E/rho_B, meta optimizers, LR schedulers and every RNG,
+so the trajectory is continuous (T_E 0.11979 → 0.11980, meta lr 1.4e-4 unchanged
+across the boundary). LR schedule (lr_maxt 1000 / 1M) and meta horizon (1M) were
+already on the 1M grid, so nothing changes in the schedule. The off-grid
+`checkpoints/step_170092.pt` was removed after the resume was verified; the
+directory name `init0.1_300k` / `dql_largeplay_init01_300k` is kept for continuity.
+
 ## Evaluations
 
 At 100k (06:13Z): T_E 0.1068, T_B 0.0998; critic_loss median (80k–100k) 7.1, critic_grad_norm median 546 (clip 10 active).
@@ -74,3 +87,10 @@ Filled in at 100k / 200k / 300k from `eval.jsonl` (E = `evaluation`, B = `evalua
 | 100000 | 0.10 (return_mean 0.10, std 0.30) | 0.04 (std 0.20) | 50 |
 | 200000 | pending | pending | 50 |
 | 300000 | pending | pending | 50 |
+| 400000 | pending | pending | 50 |
+| 500000 | pending | pending | 50 |
+| 600000 | pending | pending | 50 |
+| 700000 | pending | pending | 50 |
+| 800000 | pending | pending | 50 |
+| 900000 | pending | pending | 50 |
+| 1000000 | pending | pending | 50 |
