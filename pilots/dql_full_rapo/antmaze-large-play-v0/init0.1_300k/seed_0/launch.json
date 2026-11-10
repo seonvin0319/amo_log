@@ -1,0 +1,27 @@
+{
+  "host": "ext_csv @ Beyond-G DGX H200 #2 (166.104.28.73), GPU 0",
+  "code_commit": "e3c042423bc0eaeecb072516db2175af12e9437f",
+  "code_branch": "dql-full-rapo-share-20261110",
+  "checkout": "/home/ext_csv/dql-full-rapo-largeplay",
+  "launched_utc": "2026-11-10T05:26:01+00:00",
+  "wrapper": "/raid/ext_csv/dql_env_setup/run_dql_largeplay_init01_300k_gpu.sh",
+  "wrapper_pid": 49035,
+  "trainer_pid": 49042,
+  "session": "setsid nohup; watcher phase gpu_running (keepalive stopped), queue pair registered via register_queue.py",
+  "python": "/raid/ext_csv/miniconda3/envs/dql/bin/python",
+  "command": "train_dql_pilot.py --algo full_rapo --env antmaze-large-play-v0 --seed 0 --output /home/ext_csv/checkpoints/dql_largeplay_init01_300k/antmaze-large-play-v0_s0 --max-steps 300000 --eval-every 100000 --eval-episodes 50 --T 5 --batch-size 256 --meta-interval 20 --meta-warmup 0 --lr-maxt 1000 --t-e-init 0.1 --t-b-init 0.1 --device cuda:0",
+  "output_dir": "/home/ext_csv/checkpoints/dql_largeplay_init01_300k/antmaze-large-play-v0_s0",
+  "logs": {
+    "train": "/home/ext_csv/checkpoints/dql_largeplay_init01_300k/antmaze-large-play-v0_s0/train.log",
+    "metrics": "/home/ext_csv/checkpoints/dql_largeplay_init01_300k/antmaze-large-play-v0_s0/metrics.jsonl",
+    "eval": "/home/ext_csv/checkpoints/dql_largeplay_init01_300k/antmaze-large-play-v0_s0/eval.jsonl",
+    "launcher": "/home/ext_csv/checkpoints/dql_largeplay_init01_300k/launcher.log"
+  },
+  "first_steps": {
+    "step_1": {"critic_loss": 9.03511, "critic_grad_norm": 38.79573, "L_E": -0.00066, "rho_E_grad": -0.00059, "T_E": 0.1, "T_B": 0.09998, "rho_E": -2.25187, "rho_B": -2.25243},
+    "step_21": {"critic_loss": 0.47082, "T_E": 0.10003, "T_B": 0.09996},
+    "step_4881_at_05:28Z": {"steps_per_sec_cumulative": 38.80, "gpu_memory_mb_peak": 370.1, "T_E": 0.10176, "T_B": 0.09969}
+  },
+  "speed_estimate": "~38.8 updates/s with GPU exclusive -> ~2.2 h for 300k plus 3 evaluations (50 episodes x E,B)",
+  "checkpoint_policy": "checkpoint.pt + checkpoints/step_N.pt at 100k/200k/300k and on SIGTERM (trainer handler); resume automatic from checkpoint.pt"
+}
