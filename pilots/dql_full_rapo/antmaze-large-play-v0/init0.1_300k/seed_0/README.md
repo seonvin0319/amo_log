@@ -65,10 +65,12 @@ are identical (deterministic seeding).
 
 ## Evaluations
 
+At 100k (06:13Z): T_E 0.1068, T_B 0.0998; critic_loss median (80k–100k) 7.1, critic_grad_norm median 546 (clip 10 active).
+
 Filled in at 100k / 200k / 300k from `eval.jsonl` (E = `evaluation`, B = `evaluation_B`).
 
 | step | E normalized score | B normalized score | episodes |
 |---|---|---|---|
-| 100000 | pending | pending | 50 |
+| 100000 | 0.10 (return_mean 0.10, std 0.30) | 0.04 (std 0.20) | 50 |
 | 200000 | pending | pending | 50 |
 | 300000 | pending | pending | 50 |
