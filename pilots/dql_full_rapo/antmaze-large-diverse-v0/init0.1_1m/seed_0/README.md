@@ -52,7 +52,7 @@ Same conda env as the large-play pilot (`env_packages.txt`).
 
 | step | E normalized score | B normalized score | episodes |
 |---|---|---|---|
-| 100000 | pending | pending | 50 |
+| 100000 | 0.18 | 0.16 | 50 |
 | 200000 | pending | pending | 50 |
 | 300000 | pending | pending | 50 |
 | 400000 | pending | pending | 50 |

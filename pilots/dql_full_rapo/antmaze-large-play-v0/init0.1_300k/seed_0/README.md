@@ -95,7 +95,7 @@ Filled in at 100k / 200k / 300k from `eval.jsonl` (E = `evaluation`, B = `evalua
 |---|---|---|---|
 | 100000 | 0.10 (return_mean 0.10, std 0.30) | 0.04 (std 0.20) | 50 |
 | 200000 | 0.10 | 0.20 | 50 |
-| 300000 | pending | pending | 50 |
+| 300000 | 0.06 | 0.12 | 50 |
 | 400000 | pending | pending | 50 |
 | 500000 | pending | pending | 50 |
 | 600000 | pending | pending | 50 |
