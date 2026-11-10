@@ -1,0 +1,8 @@
+{
+  "observations": 999048,
+  "obs_dim": 29,
+  "act_dim": 8,
+  "obs_mean": 1.199815034866333,
+  "reward_tune": "cql_antmaze",
+  "obs_head_sha256": "064cf20d9800aefeb1853bbec848fdac18c0ed5740ede5a4afc8270e7157c915"
+}

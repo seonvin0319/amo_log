@@ -1,0 +1,29 @@
+From 196e9e0eca4d9a6fd3d3c625aded62afb66d60a9 Mon Sep 17 00:00:00 2001
+From: SChoish <petersun0221@hanyang.ac.kr>
+Date: Tue, 10 Nov 2026 06:47:42 +0000
+Subject: [PATCH] Add official antmaze-large-diverse-v0 setting (copied from
+ main.py) for the ext_csv 1M init-0.1 run
+
+---
+ scripts/train_dql_pilot.py | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/scripts/train_dql_pilot.py b/scripts/train_dql_pilot.py
+index 10c894d3..6767b324 100644
+--- a/scripts/train_dql_pilot.py
++++ b/scripts/train_dql_pilot.py
+@@ -46,6 +46,11 @@ OFFICIAL = {
+         'lr': 3e-4, 'eta': 0.005, 'max_q_backup': False, 'reward_tune': 'no',
+         'gn': 10.0, 'num_epochs': 1000, 'eval_freq': 50,
+     },
++    # Copied verbatim from the official table in main.py (ext_csv, 2026-11-10).
++    'antmaze-large-diverse-v0': {
++        'lr': 3e-4, 'eta': 3.5, 'max_q_backup': True, 'reward_tune': 'cql_antmaze',
++        'gn': 7.0, 'num_epochs': 1000, 'eval_freq': 50,
++    },
+ }
+ 
+ 
+-- 
+2.43.0
+

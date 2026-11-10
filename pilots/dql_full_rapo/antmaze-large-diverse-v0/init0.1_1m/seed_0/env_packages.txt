@@ -1,0 +1,12 @@
+Cython==0.29.37
+D4RL==1.1
+gym==0.23.0
+h5py==3.16.0
+mujoco-py==2.1.2.14
+numpy==1.26.4
+torch==2.6.0+cu124
+python 3.10.22
+torch_cuda 12.4 cudnn 90100
+gpu NVIDIA H200
+mujoco210 at /home/ext_csv/.mujoco/mujoco210; mujoco_py cymj built with LinuxGPUExtensionBuilder (EGL), no OSMesa; LD_LIBRARY_PATH=/home/ext_csv/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu:/raid/ext_csv/miniconda3/envs/dql/lib:/home/ext_csv/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu:/raid/ext_csv/miniconda3/envs/dql/lib
+580.173.02, NVIDIA H200
