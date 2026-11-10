@@ -76,6 +76,15 @@ already on the 1M grid, so nothing changes in the schedule. The off-grid
 `checkpoints/step_170092.pt` was removed after the resume was verified; the
 directory name `init0.1_300k` / `dql_largeplay_init01_300k` is kept for continuity.
 
+## Container reload 06:54Z
+
+The portal lease renewal recreated the container at 06:54Z (remaining 6.6 h → 9.1 h).
+The watcher relaunched the registered GPU queue; this run resumed from `checkpoint.pt`
+at step 170,092 (the only checkpoint; ~29k steps recomputed, same seed/RNG state so the
+trajectory is deterministic from the resume point). New wrapper/trainer PIDs 93 / 107
+(container PID namespace). The companion large-diverse run had no checkpoint yet (step
+~15k) and restarted from scratch.
+
 ## Evaluations
 
 At 100k (06:13Z): T_E 0.1068, T_B 0.0998; critic_loss median (80k–100k) 7.1, critic_grad_norm median 546 (clip 10 active).
@@ -85,7 +94,7 @@ Filled in at 100k / 200k / 300k from `eval.jsonl` (E = `evaluation`, B = `evalua
 | step | E normalized score | B normalized score | episodes |
 |---|---|---|---|
 | 100000 | 0.10 (return_mean 0.10, std 0.30) | 0.04 (std 0.20) | 50 |
-| 200000 | pending | pending | 50 |
+| 200000 | 0.10 | 0.20 | 50 |
 | 300000 | pending | pending | 50 |
 | 400000 | pending | pending | 50 |
 | 500000 | pending | pending | 50 |
