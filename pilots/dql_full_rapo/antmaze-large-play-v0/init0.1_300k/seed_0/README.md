@@ -97,9 +97,13 @@ Filled in at 100k / 200k / 300k from `eval.jsonl` (E = `evaluation`, B = `evalua
 | 200000 | 0.10 | 0.20 | 50 |
 | 300000 | 0.06 | 0.12 | 50 |
 | 400000 | 0.18 | 0.06 | 50 |
-| 500000 | pending | pending | 50 |
-| 600000 | pending | pending | 50 |
-| 700000 | pending | pending | 50 |
-| 800000 | pending | pending | 50 |
-| 900000 | pending | pending | 50 |
-| 1000000 | pending | pending | 50 |
+| 500000 | 0.12 | 0.02 | 50 |
+| 600000 | 0.06 | 0.10 | 50 |
+| 700000 | 0.08 | 0.10 | 50 |
+| 800000 | 0.02 | 0.28 | 50 |
+| 900000 | 0.00 | 0.12 | 50 |
+| 1000000 | 0.02 | 0.16 | 50 |
+
+## Final state
+
+Finished 1M at 2026-11-10 17:06Z (`[dql] done step=1000000`, DONE marker; two more container-reload resumes at 400k and 700k). E peaked at 0.18 (400k) and ended at 0.02 (1M); B 0.02–0.28. T_E rose monotonically 0.100 → 0.329, T_B stayed ≈0.102. bc_E 0.058–0.090; critic_loss median 5.7–11.4 (peak 800k–900k), critic grad norm 420–800 with clip 10. No divergence. Checkpoints step_100000 … step_1000000 kept.

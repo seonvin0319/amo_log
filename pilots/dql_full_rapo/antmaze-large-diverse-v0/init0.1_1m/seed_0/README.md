@@ -54,11 +54,15 @@ Same conda env as the large-play pilot (`env_packages.txt`).
 |---|---|---|---|
 | 100000 | 0.18 | 0.16 | 50 |
 | 200000 | 0.04 | 0.18 | 50 |
-| 300000 | pending | pending | 50 |
-| 400000 | pending | pending | 50 |
-| 500000 | pending | pending | 50 |
-| 600000 | pending | pending | 50 |
-| 700000 | pending | pending | 50 |
-| 800000 | pending | pending | 50 |
-| 900000 | pending | pending | 50 |
-| 1000000 | pending | pending | 50 |
+| 300000 | 0.20 | 0.30 | 50 |
+| 400000 | 0.08 | 0.12 | 50 |
+| 500000 | 0.00 | 0.00 | 50 |
+| 600000 | 0.00 | 0.00 | 50 |
+| 700000 | 0.00 | 0.00 | 50 |
+| 800000 | 0.00 | 0.00 | 50 |
+| 900000 | 0.00 | 0.00 | 50 |
+| 1000000 | 0.00 | 0.00 | 50 |
+
+## Final state
+
+Finished 1M at 2026-11-10 18:04Z (DONE marker; reload resumes at 300k, 600k, 900k). E 0.18 / 0.04 / 0.20 / 0.08 at 100k–400k, then 0.00 from 500k to 1M (B likewise 0.00). **Critic diverged**: critic_loss median 6.5–9.3 up to 400k, then 1.4e3 (400k–500k), 2.2e4, …, 9.5e6 (900k–1M); critic grad norm up to 2.7e8 (first critic_loss > 1e3 at step 367,941; > 1e5 at 414,581). T_E 0.100 → 0.393, T_B ≈0.10. Results after 400k are not meaningful.
